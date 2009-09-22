@@ -1,4 +1,4 @@
-# United States English language file.
+# Japanese language file.
 #
 # (C) 2003-2009 Anope Team
 # Contact us at team@anope.org
