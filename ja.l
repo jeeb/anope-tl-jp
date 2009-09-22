@@ -385,11 +385,15 @@ NICK_IS_REGISTERED
 	このニックネームは既に登録されています。　ほかのニックネームしてください。
 	（もしこのニックネームはあなた自身のものなら「%R%s IDENTIFY パスワード」と入力してください。)
 NICK_IS_SECURE
-	This nickname is registered and protected.  If it is your
-	nick, type %R%s IDENTIFY password.  Otherwise,
-	please choose a different nick.
+#	This nickname is registered and protected.  If it is your
+#	nick, type %R%s IDENTIFY password.  Otherwise,
+#	please choose a different nick.
+	このニックネームはほかのユーザーに登録されていて保護されています。
+	もしこれはあなた自身のニックネームなら %R%s IDENTIFY password と入力してくさだい。
+	そうでない場合はほかのニックネームにしてください。
 NICK_MAY_NOT_BE_USED
-	This nickname may not be used.  Please choose another one.
+#	This nickname may not be used.  Please choose another one.
+	指定されたニックネームはお使いになれません。ほかのニックネームにしてください。
 FORCENICKCHANGE_IN_1_MINUTE
 	If you do not change within one minute, I will change your nick.
 FORCENICKCHANGE_IN_20_SECONDS
