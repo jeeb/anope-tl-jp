@@ -1,0 +1,12 @@
+This project contains the Japanese translation of the anope IRC services server.
+
+提供に必要なコマンド(クローンした後):
+git remote add origin git@github.com:jeeb/anope-tl-jp.git
+これは一回だけ。
+新しく作り始める前にはいつもレポジトリを更新しましょう
+git pull git@github.com:jeeb/anope-tl-jp.git
+
+git commit -a -m "何がどう変わったかの説明"
+git push origin master
+
+これでコミットが作成されます＋プッシュでデータが送信されます。
