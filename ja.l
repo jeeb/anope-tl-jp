@@ -1906,13 +1906,13 @@ MEMO_TYPE_READ_NUM
 	%R%s READ %d で %d 通のメモを読むことができます。
 MEMO_TYPE_LIST_NEW
 #	Type %R%s LIST NEW to list them.
-	%R%s LIST NEW で新しいメモのリストが表示されます。
+	%R%s LIST NEW で新着メモのリストが表示されます。
 MEMO_AT_LIMIT
 #	Warning: You have reached your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
-	Warning: あなたが受け取れるメモの最大(%d)に達しました。現在のメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
+	Warning: あなたが受け取れるメモの最大(%d)に達しました。現在のメモを削除しない限り、これ以上の新着メモを受け取ることはできません。
 MEMO_OVER_LIMIT
 #	Warning: You are over your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
-	Warning: 既にあなたが受け取れるメモの最大(%d)に達しています。今あるメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
+	Warning: 既にあなたが受け取れるメモの最大(%d)に達しています。今あるメモを削除しない限り、これ以上の新着メモを受け取ることはできません。
 MEMO_X_MANY_NOTICE
 #	There are %d memos on channel %s.
 	チャンネル %s に %d 通のメモがあります。
@@ -1922,12 +1922,12 @@ MEMO_X_ONE_NOTICE
 MEMO_NEW_X_MEMO_ARRIVED
 #	There is a new memo on channel %s.
 #	Type %R%s READ %s %d to read it.
-	チャンネル %s に新しいメモがあります。
+	チャンネル %s に新着メモがあります。
 	メモを読むためには、%R%s READ %s %d とタイプしてください。
 MEMO_NEW_MEMO_ARRIVED
 #	You have a new memo from %s.
 #	Type %R%s READ %d to read it.
-	%s からあなた宛に新しいメモを受け取りました。
+	%s からあなた宛に新着メモを受け取りました。
 	メモを読むためには、%R%s READ %d とタイプしてください。
 
 # Multi-use responses
@@ -1988,22 +1988,22 @@ MEMO_LIST_SYNTAX
 	LIST [channel] [list | NEW]
 MEMO_HAVE_NO_NEW_MEMOS
 #	You have no new memos.
-	新しいメモを受け取っていません。
+	新着メモを受け取っていません。
 MEMO_X_HAS_NO_NEW_MEMOS
 #	%s has no new memos.
-	%s は新しいメモを受け取っていません。
+	%s は新着メモを受け取っていません。
 MEMO_LIST_MEMOS
 #	Memos for %s.  To read, type: %R%s READ num
 	%s 宛てのメモがあります。読むためには、%R%s READ num のように入力してください。
 MEMO_LIST_NEW_MEMOS
 #	New memos for %s.  To read, type: %R%s READ num
-	%s 宛ての新しいメモがあります。読むためには、%R%s READ num のように入力してください。
+	%s 宛ての新着メモがあります。読むためには、%R%s READ num のように入力してください。
 MEMO_LIST_CHAN_MEMOS
 #	Memos for %s.  To read, type: %R%s READ %s num
 	%s 宛てのメモがあります。読むためには、%R%s READ %s num のように入力してください。
 MEMO_LIST_CHAN_NEW_MEMOS
 #	New memos for %s.  To read, type: %R%s READ %s num
-	%s 宛ての新しいメモがあります。読むためには、 %R%s READ %s num のように入力してください。
+	%s 宛ての新着メモがあります。読むためには、 %R%s READ %s num のように入力してください。
 MEMO_LIST_HEADER
 #	 Num  Sender            Date/Time
 	 番号 送信者            日付/時間
@@ -2046,7 +2046,7 @@ MEMO_SET_SYNTAX
 	SET option parameters
 MEMO_SET_DISABLED
 #	Sorry, memo option setting is temporarily disabled.
-	ご迷惑をかけて申し訳ありません。メモ機能に対するオプション操作は一時的に使うことができない状態です。
+	ご迷惑をかけて申し訳ありません。メモ機能に対するオプション操作は一時的に使うことができない状態になっています。
 MEMO_SET_UNKNOWN_OPTION
 #	Unknown SET option %s.
 	SET に対して %s というオプションを使うことはできません。
@@ -2134,10 +2134,10 @@ MEMO_INFO_MEMOS
 	あなた宛のメモが %d 通あります。
 MEMO_INFO_MEMOS_ONE_UNREAD
 #	You currently have %d memos, of which 1 is unread.
-	あなた宛のメモが %d 通あり、1 通が未読です。
+	あなた宛のメモが %d 通あり、内1 通が未読です。
 MEMO_INFO_MEMOS_SOME_UNREAD
 #	You currently have %d memos, of which %d are unread.
-	あなた宛のメモが %d 通あり、%d 通が未読です。
+	あなた宛のメモが %d 通あり、内%d 通が未読です。
 MEMO_INFO_MEMOS_ALL_UNREAD
 #	You currently have %d memos; all of them are unread.
 	あなた宛のメモが %d 通あり、全て未読です。
@@ -2149,10 +2149,10 @@ MEMO_INFO_HARD_LIMIT
 	あなた宛のメモ保存量の上限値は %d で変わりません。
 MEMO_INFO_LIMIT_ZERO
 #	Your memo limit is 0; you will not receive any new memos.
-	あなた宛のメモ保存量の上限値は 0 でメモを受け取ることができない状態です。
+	あなた宛のメモ保存量の上限値が 0 なのでメモを受け取ることができない状態です。
 MEMO_INFO_HARD_LIMIT_ZERO
 #	Your memo limit is 0; you will not receive any new memos.  You cannot change this limit.
-	あなた宛のメモ保存量の上限値は 0 でメモを受け取ることができない状態です。また、メモの上限値を変えることは出来ません。
+	あなた宛のメモ保存量の上限値が 0 なのでメモを受け取ることができない状態です。また、メモの上限値を変えることは出来ません。
 MEMO_INFO_NO_LIMIT
 #	You have no limit on the number of memos you may keep.
 	あなた宛のメモ保存量の上限値が在りません。
@@ -2182,10 +2182,10 @@ MEMO_INFO_X_MEMOS
 	%s 宛のメモが %d 通あります。
 MEMO_INFO_X_MEMOS_ONE_UNREAD
 #	%s currently has %d memos, of which 1 is unread.
-	%s 宛のメモが %d 通あり、1 通が未読です。
+	%s 宛のメモが %d 通あり、内1 通が未読です。
 MEMO_INFO_X_MEMOS_SOME_UNREAD
 #	%s currently has %d memos, of which %d are unread.
-	%s 宛のメモが %d 通あり、%d 通が未読です。
+	%s 宛のメモが %d 通あり、内%d 通が未読です。
 MEMO_INFO_X_MEMOS_ALL_UNREAD
 #	%s currently has %d memos; all of them are unread.
 	%s 宛のメモが %d 通あり、全て未読です。
@@ -2243,7 +2243,7 @@ MEMO_RSEND_CHAN_MEMO_TEXT
 MEMO_RSEND_USER_NOTIFICATION
 #	A notification memo has been sent to %s informing him/her you have
 #	read his/her memo.
-	%s 宛てにあなたが %s からのメモを開封したことを示すメモが送信されました。
+	%s 宛てにあなたが %s からのメモを開封したことをお知らせするメモが送信されました。
 
 # CHECK responses
 MEMO_CHECK_SYNTAX
