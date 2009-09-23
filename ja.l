@@ -2725,34 +2725,48 @@ BOT_KICK_UNDERLINES_OFF
 BOT_BADWORDS_SYNTAX
 	BADWORDS channel {ADD|DEL|LIST|CLEAR} [word | entry-list] [SINGLE|START|END]
 BOT_BADWORDS_DISABLED
-	Sorry, channel bad words list modification is temporarily disabled.
+#	Sorry, channel bad words list modification is temporarily disabled.
+	ご迷惑をかけて申し訳ありません。禁止ワードリストの編集は一時的にすることができない状態になっています。
 BOT_BADWORDS_REACHED_LIMIT
-	Sorry, you can only have %d bad words entries on a channel.
+#	Sorry, you can only have %d bad words entries on a channel.
+	ご迷惑をかけて申し訳ありません。禁止ワードリストの登録数は %d 個に制限されています。
 BOT_BADWORDS_ALREADY_EXISTS
-	%s already exists in %s bad words list.
+#	%s already exists in %s bad words list.
+	%s は既に %s の禁止ワードリストに登録されています。
 BOT_BADWORDS_ADDED
-	%s added to %s bad words list.
+#	%s added to %s bad words list.
+	%s が %s の禁止ワードリストに登録されました。
 BOT_BADWORDS_NO_SUCH_ENTRY
-	No such entry (#%d) on %s bad words list.
+#	No such entry (#%d) on %s bad words list.
+	#%d というエントリーは %s の禁止ワードリストに登録されていません。
 BOT_BADWORDS_NOT_FOUND
-	%s not found on %s bad words list.
+#	%s not found on %s bad words list.
+	%s は %s の禁止ワードリストに登録されていません。
 BOT_BADWORDS_NO_MATCH
-	No matching entries on %s bad words list.
+#	No matching entries on %s bad words list.
+	該当するエントリーが %s の禁止ワードリストに登録されていません。
 BOT_BADWORDS_DELETED
-	%s deleted from %s bad words list.
+#	%s deleted from %s bad words list.
+	%s が %s の禁止ワードリストから削除されました。
 BOT_BADWORDS_DELETED_ONE
-	Deleted 1 entry from %s bad words list.
+#	Deleted 1 entry from %s bad words list.
+	1個のエントリーが %s の禁止ワードリストから削除されました。
 BOT_BADWORDS_DELETED_SEVERAL
-	Deleted %d entries from %s bad words list.
+#	Deleted %d entries from %s bad words list.
+	%d 個のエントリーが %s の禁止ワードリストから削除されました。
 BOT_BADWORDS_LIST_EMPTY
-	%s bad words list is empty.
+#	%s bad words list is empty.
+	%s の禁止ワードリストに登録されているエントリーはありません。
 BOT_BADWORDS_LIST_HEADER
-	Bad words list for %s:
-	  Num   Word                           Type
+#	Bad words list for %s:
+#	  Num   Word                           Type
+	%s の禁止ワードリスト:
+	  番号  ワード                         タイプ
 BOT_BADWORDS_LIST_FORMAT
 	  %3d   %-30s %s
 BOT_BADWORDS_CLEAR
-	Bad words list is now empty.
+#	Bad words list is now empty.
+	禁止ワードリストに登録されているエントリーはありません。
 
 # SAY responses
 BOT_SAY_SYNTAX
