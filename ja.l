@@ -440,6 +440,7 @@ HELP_LIMIT_HOST_REMOVER
 ###########################################################################
  
 # Automatic messages
+# 自動メッセージ
 NICK_IS_REGISTERED
 #	This nick is owned by someone else.  Please choose another.
 #	(If this is your nick, type %R%s IDENTIFY password.)
@@ -456,19 +457,25 @@ NICK_MAY_NOT_BE_USED
 #	This nickname may not be used.  Please choose another one.
 	指定されたニックネームはお使いになれません。ほかのニックネームにしてください。
 FORCENICKCHANGE_IN_1_MINUTE
-	If you do not change within one minute, I will change your nick.
+#	If you do not change within one minute, I will change your nick.
+	1分以内にニックネームを変更しない場合、あなたのニックネームは変更されます。
 FORCENICKCHANGE_IN_20_SECONDS
-	If you do not change within 20 seconds, I will change your nick.
+#	If you do not change within 20 seconds, I will change your nick.
+	20秒以内にニックネームを変更しない場合、あなたのニックネームは変更されます。
 FORCENICKCHANGE_NOW
-	This nickname has been registered; you may not use it.
+#	This nickname has been registered; you may not use it.
+	このニックネームは登録済みです、使用することはできません。
 FORCENICKCHANGE_CHANGING
-	Your nickname is now being changed to %s
+#	Your nickname is now being changed to %s
+	あなたのニックネームは %s に変更されます。
 
 # REGISTER responses
 NICK_REGISTER_SYNTAX
-	REGISTER password [email]
+#	REGISTER password [email]
+	REGISTAR パスワード [メールアドレス]
 NICK_REGISTER_SYNTAX_EMAIL
-	REGISTER password email
+#	REGISTER password email
+	REGISTAR パスワード メールアドレス
 NICK_REGISTRATION_DISABLED
 	Sorry, nickname registration is temporarily disabled.
 NICK_REGISTRATION_FAILED
