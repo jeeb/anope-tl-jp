@@ -184,7 +184,8 @@ UNKNOWN_COMMAND
 UNKNOWN_COMMAND_HELP
 	Unknown command %s.  "%R%s HELP" for help.
 SYNTAX_ERROR
-	Syntax: %s
+#	Syntax: %s
+	文法エラー: %s
 MORE_INFO
 	%R%s HELP %s for more information.
 NO_HELP_AVAILABLE
