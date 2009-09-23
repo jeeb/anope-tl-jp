@@ -2311,19 +2311,26 @@ BOT_REASON_UNDERLINE
 	
 # !seen replies
 BOT_SEEN_BOT
-	You found me, %s!
+#	You found me, %s!
+	見つかっちゃったね。%s!
 BOT_SEEN_YOU
-	Looking for yourself, eh %s?
+#	Looking for yourself, eh %s?
+	自分を探してるのかい %s?
 BOT_SEEN_ON_CHANNEL
-	%s is on the channel right now!
+#	%s is on the channel right now!
+	たった今、%s がこのチャンネルにjoinしました!
 BOT_SEEN_ON_CHANNEL_AS
-	%s is on the channel right now (as %s) ! 
+#	%s is on the channel right now (as %s) ! 
+	たった今、%s が %s としてこのチャンネルにjoinしました!
 BOT_SEEN_ON
-	%s was last seen here %s ago.
+#	%s was last seen here %s ago.
+	%s がこのチャンネルにいたのは %s 前です。
 BOT_SEEN_NEVER
-	I've never seen %s on this channel.
+#	I've never seen %s on this channel.
+	%s は今までこのチャンネルにjoinしたことがないようです。
 BOT_SEEN_UNKNOWN
-	I don't know who %s is.
+#	I don't know who %s is.
+	%s って誰ですか?
 
 # BOT responses
 BOT_BOT_SYNTAX
