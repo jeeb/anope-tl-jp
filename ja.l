@@ -2406,85 +2406,121 @@ BOT_UNASSIGN_UNASSIGNED
 BOT_INFO_SYNTAX
 	INFO {chan | nick}
 BOT_INFO_NOT_FOUND
-	%s is not a valid bot or registered channel.
+#	%s is not a valid bot or registered channel.
+	%s は正しいボットの名前でないか、このボットが登録されたチャンネルではありません。
 BOT_INFO_BOT_HEADER
-	Information for bot %s:
+#	Information for bot %s:
+	ボット %s の情報:
 BOT_INFO_BOT_MASK
-	       Mask : %s@%s
+#	       Mask : %s@%s
+	     マスク : %s@%s
 BOT_INFO_BOT_REALNAME
 	  Real name : %s
 BOT_INFO_BOT_CREATED
-	    Created : %s
+#	    Created : %s
+	   召喚日時 : %s
 BOT_INFO_BOT_USAGE
-	    Used on : %d channel(s)
+#	    Used on : %d channel(s)
+	     使用数 : %d チャンネル
 BOT_INFO_BOT_OPTIONS
-	    Options : %s
+#	    Options : %s
+	 オプション : %s
 BOT_INFO_OPT_PRIVATE
-	Private
+#	Private
+	プライベート
 BOT_INFO_CHAN_HEADER
-	Information for channel %s:
+#	Information for channel %s:
+	チャンネル %s の情報:
 BOT_INFO_CHAN_BOT
-	           Bot nick : %s
+#	           Bot nick : %s
+	     ボットのニック : %s
 BOT_INFO_CHAN_BOT_NONE
-	           Bot nick : not assigned yet.
+#	           Bot nick : not assigned yet.
+	     ボットのニック : 設定されていません
 BOT_INFO_CHAN_KICK_BADWORDS
-	   Bad words kicker : %s
+#	   Bad words kicker : %s
+	 禁止ワードキッカー : %s
 BOT_INFO_CHAN_KICK_BADWORDS_BAN
-	   Bad words kicker : %s (%d kick(s) to ban)
+#	   Bad words kicker : %s (%d kick(s) to ban)
+	 禁止ワードキッカー : %s (バンするためにキックした回数: %d回)
 BOT_INFO_CHAN_KICK_BOLDS
-	       Bolds kicker : %s
+#	       Bolds kicker : %s
+	       太字キッカー : %s
 BOT_INFO_CHAN_KICK_BOLDS_BAN
-	       Bolds kicker : %s (%d kick(s) to ban)
+#	       Bolds kicker : %s (%d kick(s) to ban)
+	       太字キッカー : %s (バンするためにキックした回数: %d回)
 BOT_INFO_CHAN_KICK_CAPS_ON
-	        Caps kicker : %s (minimum %d/%d%%)
+#	        Caps kicker : %s (minimum %d/%d%%)
+	     大文字キッカー : %s (minimum %d/%d%%)
 BOT_INFO_CHAN_KICK_CAPS_BAN
-	        Caps kicker : %s (%d kick(s) to ban; minimum %d/%d%%)
+#	        Caps kicker : %s (%d kick(s) to ban; minimum %d/%d%%)
+	     大文字キッカー : %s (バンするためにキックした回数: %d回; minimum %d/%d%%)
 BOT_INFO_CHAN_KICK_CAPS_OFF
-	        Caps kicker : %s
+#	        Caps kicker : %s
+	     大文字キッカー : %s
 BOT_INFO_CHAN_KICK_COLORS
-	      Colors kicker : %s
+#	      Colors kicker : %s
+	     色文字キッカー : %s
 BOT_INFO_CHAN_KICK_COLORS_BAN
-	      Colors kicker : %s (%d kick(s) to ban)
+#	      Colors kicker : %s (%d kick(s) to ban)
+	     色文字キッカー : %s(バンするためにキックした回数: %d回)
 BOT_INFO_CHAN_KICK_FLOOD_ON
-	       Flood kicker : %s (%d lines in %ds)
+#	       Flood kicker : %s (%d lines in %ds)
+	 Flood 攻撃キッカー : %s (%d 回の書き込みを %d 秒以内に行うとキック)
 BOT_INFO_CHAN_KICK_FLOOD_BAN
-	       Flood kicker : %s (%d kick(s) to ban; %d lines in %ds)
+#	       Flood kicker : %s (%d kick(s) to ban; %d lines in %ds)
+	 Flood 攻撃キッカー : %s (バンするためにキックした回数: %d回; %d 回の書き込みを %d 秒以内に行うとキック)
 BOT_INFO_CHAN_KICK_FLOOD_OFF
-	       Flood kicker : %s
+#	       Flood kicker : %s
+	 Flood 攻撃キッカー : %s
 BOT_INFO_CHAN_KICK_REPEAT_ON
-	      Repeat kicker : %s (%d times)
+#	      Repeat kicker : %s (%d times)
+	   繰り返しキッカー : %s (%d 回でキック)
 BOT_INFO_CHAN_KICK_REPEAT_BAN
-	      Repeat kicker : %s (%d kick(s) to ban; %d times)
+#	      Repeat kicker : %s (%d kick(s) to ban; %d times)
+	   繰り返しキッカー : %s (バンするためにキックした回数: %d回; %d 回でキック)
 BOT_INFO_CHAN_KICK_REPEAT_OFF
-	      Repeat kicker : %s
+#	      Repeat kicker : %s
+	   繰り返しキッカー : %s
 BOT_INFO_CHAN_KICK_REVERSES
-	    Reverses kicker : %s
+#	    Reverses kicker : %s
+	   反転表示キッカー : %s
 BOT_INFO_CHAN_KICK_REVERSES_BAN
-	    Reverses kicker : %s (%d kick(s) to ban)
+#	    Reverses kicker : %s (%d kick(s) to ban)
+	   反転表示キッカー : %s (バンするためにキックした回数: %d回)
 BOT_INFO_CHAN_KICK_UNDERLINES
-	  Underlines kicker : %s
+#	  Underlines kicker : %s
+	       下線キッカー : %s
 BOT_INFO_CHAN_KICK_UNDERLINES_BAN
-	  Underlines kicker : %s (%d kick(s) to ban)
+#	  Underlines kicker : %s (%d kick(s) to ban)
+	       下線キッカー : %s (バンするためにキックした回数: %d回)
 BOT_INFO_ACTIVE
-	enabled
+#	enabled
+	有効
 BOT_INFO_INACTIVE
-	disabled
+#	disabled
+	無効
 BOT_INFO_CHAN_OPTIONS
-	            Options : %s
+#	            Options : %s
+	         オプション : %s
 BOT_INFO_OPT_DONTKICKOPS
-	Ops protection
+#	Ops protection
+	オペレータ保護
 BOT_INFO_OPT_DONTKICKVOICES
-	Voices protection
+#	Voices protection
+	Voicesユーザ保護
 BOT_INFO_OPT_FANTASY
 	Fantasy
 BOT_INFO_OPT_GREET
 	Greet
 BOT_INFO_OPT_NOBOT
-	No bot
+#	No bot
+	ボットなし
 BOT_INFO_OPT_SYMBIOSIS
 	Symbiosis
 BOT_INFO_OPT_NONE
-	None
+#	None
+	未設定
 	
 # SET responses
 BOT_SET_SYNTAX
