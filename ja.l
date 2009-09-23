@@ -2056,7 +2056,7 @@ MEMO_SET_DISABLED
 	ご迷惑をかけて申し訳ありません。メモ機能に対するオプション操作は一時的に使うことができない状態になっています。
 MEMO_SET_UNKNOWN_OPTION
 #	Unknown SET option %s.
-	SET に対して %s というオプションを使うことはできません。
+	メモ機能の SET オプションで %s という引数を使うことはできません。
 
 # SET NOTIFY responses
 MEMO_SET_NOTIFY_SYNTAX
@@ -2526,10 +2526,13 @@ BOT_INFO_OPT_NONE
 BOT_SET_SYNTAX
 	SET (channel | bot) option settings
 BOT_SET_DISABLED
-	Sorry, bot option setting is temporarily disabled.
+#	Sorry, bot option setting is temporarily disabled.
+	ご迷惑をかけて申し訳ありません。ボット機能に対するオプション操作は一時的に使うことができない状態になっています。
 BOT_SET_UNKNOWN
-	Unknown option %s.
-	Type %R%S HELP SET for more information.
+#	Unknown option %s.
+#	Type %R%S HELP SET for more information.
+	ボット機能の SET オプションで %s という引数を使うことはできません。
+	より詳細なヘルプは、%R%S HELP SET で見る事ができます。
 	
 # SET DONTKICKOPS messages
 BOT_SET_DONTKICKOPS_SYNTAX
