@@ -2510,9 +2510,11 @@ BOT_INFO_OPT_DONTKICKVOICES
 #	Voices protection
 	Voicesユーザ保護
 BOT_INFO_OPT_FANTASY
-	Fantasy
+#	Fantasy
+	ファンタジー
 BOT_INFO_OPT_GREET
-	Greet
+#	Greet
+	挨拶
 BOT_INFO_OPT_NOBOT
 #	No bot
 	ボットなし
@@ -2548,25 +2550,31 @@ BOT_SET_DONTKICKOPS_OFF
 BOT_SET_DONTKICKVOICES_SYNTAX
 	SET channel DONTKICKVOICES {ON|OFF}
 BOT_SET_DONTKICKVOICES_ON
-	Bot won't kick voices on channel %s.
+#	Bot won't kick voices on channel %s.
+	ボットはチャンネル %s から voiceユーザをキックしません。
 BOT_SET_DONTKICKVOICES_OFF
-	Bot will kick voices on channel %s.
+#	Bot will kick voices on channel %s.
+	ボットはチャンネル %s から voiceユーザをキックします。
 
 # SET FANTASY messages
 BOT_SET_FANTASY_SYNTAX
 	SET channel FANTASY {ON|OFF}
 BOT_SET_FANTASY_ON
 	Fantasy mode is now ON on channel %s.
+	チャンネル %s でファンタジーモードが有効化 されました。
 BOT_SET_FANTASY_OFF
 	Fantasy mode is now OFF on channel %s.
+	チャンネル %s でファンタジーモードが無効化 されました。
 	
 # SET GREET messages
 BOT_SET_GREET_SYNTAX
 	SET channel GREET {ON|OFF}
 BOT_SET_GREET_ON
 	Greet mode is now ON on channel %s.
+	チャンネル %s で挨拶モードが有効化 されました。
 BOT_SET_GREET_OFF
 	Greet mode is now OFF on channel %s.
+	チャンネル %s で挨拶モードが無効化 されました。
 	
 # SET NOBOT
 BOT_SET_NOBOT_SYNTAX
