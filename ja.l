@@ -2276,30 +2276,39 @@ BOT_NOT_ASSIGNED
 #	You must assign a bot to the channel before using this command.
 #	Type %R%S HELP ASSIGN for more information.
 	このコマンドを使う前に、ボットをチャンネルに招待しなければいけません。
-	より詳細なヘルプは、%R%S HELP ASSIGN のようにして見る事ができます。
+	より詳細なヘルプは、%R%S HELP ASSIGN で見る事ができます。
 BOT_NOT_ON_CHANNEL
 #	Bot is not on channel %s.
 	チャンネル %s にボットはいません。
 	
 # Kick reasons (must be a single line)
 BOT_REASON_BADWORD
-	Don't use the word \"%s\" on this channel!
+#	Don't use the word \"%s\" on this channel!
+	このチャンネルで \"%s\" という単語は使わないでください。
 BOT_REASON_BADWORD_GENTLE
-	Watch your language!
+#	Watch your language!
+	言語を確認してください!
 BOT_REASON_BOLD
-	Don't use bolds on this channel!
+#	Don't use bolds on this channel!
+	このチャンネルでは太字を使わないでください!
 BOT_REASON_CAPS
-	Turn caps lock OFF!
+#	Turn caps lock OFF!
+	caps lock を OFF にしてください!
 BOT_REASON_COLOR
-	Don't use colors on this channel!
+#	Don't use colors on this channel!
+	このチャンネルでは色つきの文字を使わないでください!
 BOT_REASON_FLOOD
-	Stop flooding!
+#	Stop flooding!
+	flood 攻撃を止めてください!
 BOT_REASON_REPEAT
-	Stop repeating yourself!
+#	Stop repeating yourself!
+	何回も同じ発言をしないでください!
 BOT_REASON_REVERSE
-	Don't use reverses on this channel!
+#	Don't use reverses on this channel!
+	このチャンネルでは反転表示を使わないでください!
 BOT_REASON_UNDERLINE
-	Don't use underlines on this channel!
+#	Don't use underlines on this channel!
+	このチャンネルでは下線を使わないでください!
 	
 # !seen replies
 BOT_SEEN_BOT
