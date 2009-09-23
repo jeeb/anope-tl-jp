@@ -1832,7 +1832,7 @@ CHAN_EXCEPTED
 # Automatic messages
 MEMO_HAVE_NEW_MEMO
 #	You have 1 new memo.
-	1 件の新しいメモがあります。
+	 1 件の新しいメモがあります。
 MEMO_HAVE_NEW_MEMOS
 #	You have %d new memos.
 	%d 件の新しいメモがあります。
@@ -1886,17 +1886,23 @@ MEMO_LIST_NOT_FOUND
 MEMO_SEND_SYNTAX
 	SEND {nick | channel} memo-text
 MEMO_SEND_DISABLED
-	Sorry, memo sending is temporarily disabled.
+#	Sorry, memo sending is temporarily disabled.
+	ご迷惑をおかけして申し訳ございません。一時的にメモを送ることができない状態です。
 MEMO_SEND_PLEASE_WAIT
-	Please wait %d seconds before using the SEND command again.
+#	Please wait %d seconds before using the SEND command again.
+	%d 秒待ってからもう一度 SEND コマンドをやり直してください。
 MEMO_X_GETS_NO_MEMOS
-	%s cannot receive memos.
+#	%s cannot receive memos.
+	%s はメモを受け取ることができません。
 MEMO_X_HAS_TOO_MANY_MEMOS
-	%s currently has too many memos and cannot receive more.
+#	%s currently has too many memos and cannot receive more.
+	%s はこれ以上メモを受け取ることができません。
 MEMO_SENT
-	Memo sent to %s.
+#	Memo sent to %s.
+	%s 宛てにメモを送信しました。
 MEMO_MASS_SENT
-	A massmemo has been sent to all registered users.
+#	A massmemo has been sent to all registered users.
+	登録済みのユーザ全員宛にメモの大量送信が行われました。
 	
 # STAFF responses
 MEMO_STAFF_SYNTAX
