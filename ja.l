@@ -2659,66 +2659,66 @@ BOT_KICK_CAPS_ON_BAN
 	(大文字が少なくとも %d 文字以上で発言全体の文字数に対する割合が %d%% 以上)
 	同一ユーザのキックが %d 回になったところでバンします。
 BOT_KICK_CAPS_OFF
-	Bot won't kick caps anymore.
+#	Bot won't kick caps anymore.
 	ボットは 大文字 発言に対してキックを行いません。
 BOT_KICK_COLORS_ON
-	Bot will now kick colors.
+#	Bot will now kick colors.
 	ボットは 色文字 発言に対してキックを行います。
 BOT_KICK_COLORS_ON_BAN
-	Bot will now kick colors, and will place a ban after %d 
-	kicks for the same user.
+#	Bot will now kick colors, and will place a ban after %d 
+#	kicks for the same user.
 	ボットは 色文字 発言に対してキックを行い、
 	同一ユーザのキックが %d 回になったところでバンします。
 BOT_KICK_COLORS_OFF
-	Bot won't kick colors anymore.
+#	Bot won't kick colors anymore.
 	ボットは 色文字 発言に対してキックを行いません。
 BOT_KICK_FLOOD_ON
-	Bot will now kick flood (%d lines in %d seconds).
+#	Bot will now kick flood (%d lines in %d seconds).
 	ボットは flood 攻撃 に対してキックを行います。(%d 回の発言を %d 秒以内に繰り返したら)
 BOT_KICK_FLOOD_ON_BAN
-	Bot will now kick flood (%d lines in %d seconds), and 
-	will place a ban after %d kicks for the same user.
+#	Bot will now kick flood (%d lines in %d seconds), and 
+#	will place a ban after %d kicks for the same user.
 	ボットは flood 攻撃 に対してキックを行い、(%d 回の発言を %d 秒以内に繰り返したら)
 	同一ユーザのキックが %d 回になったところでバンします。
 BOT_KICK_FLOOD_OFF
-	Bot won't kick flood anymore.
+#	Bot won't kick flood anymore.
 	ボットは flood 攻撃 に対してキックを行いません。
 BOT_KICK_REPEAT_ON
-	Bot will now kick repeats (users that say %d times
-	the same thing).
+#	Bot will now kick repeats (users that say %d times
+#	the same thing).
 	ボットは 同一内容の発言 に対してキックを行います。(%d 回
 	繰り返して同じ内容を発言した場合)
 BOT_KICK_REPEAT_ON_BAN
-	Bot will now kick repeats (users that say %d times
-	the same thing), and will place a ban after %d 
-	kicks for the same user.
+#	Bot will now kick repeats (users that say %d times
+#	the same thing), and will place a ban after %d 
+#	kicks for the same user.
 	ボットは 同一内容の発言 に対してキックを行い、(%d 回
 	繰り返して同じ内容を発言した場合) 同一ユーザのキックが %d 回
 	になったところでバンします。
 BOT_KICK_REPEAT_OFF
-	Bot won't kick repeats anymore.
+#	Bot won't kick repeats anymore.
 	ボットは 同一内容の発言 に対してキックを行いません。
 BOT_KICK_REVERSES_ON
-	Bot will now kick reverses.
+#	Bot will now kick reverses.
 	ボットは 反転文字発言 に対してキックを行います。
 BOT_KICK_REVERSES_ON_BAN
-	Bot will now kick reverses, and will place a ban after %d 
-	kicks for the same user.
+#	Bot will now kick reverses, and will place a ban after %d 
+#	kicks for the same user.
 	ボットは 反転文字発言 に対してキックを行い、同一ユーザのキックが %d 回
 	になったところでバンします。
 BOT_KICK_REVERSES_OFF
-	Bot won't kick reverses anymore.
+#	Bot won't kick reverses anymore.
 	ボットは 反転文字発言 に対してキックを行いません。
 BOT_KICK_UNDERLINES_ON
-	Bot will now kick underlines.
+#	Bot will now kick underlines.
 	ボットは 下線発言 に対してキックを行います。
 BOT_KICK_UNDERLINES_ON_BAN
-	Bot will now kick underlines, and will place a ban after %d 
-	kicks for the same user.
+#	Bot will now kick underlines, and will place a ban after %d 
+#	kicks for the same user.
 	ボットは 下線発言 に対してキックを行い、同一ユーザのキックが %d 回
 	になったところでバンします。
 BOT_KICK_UNDERLINES_OFF
-	Bot won't kick underlines anymore.
+#	Bot won't kick underlines anymore.
 	ボットは 下線発言 に対してキックを行いません。
 	
 # BADWORDS messages
