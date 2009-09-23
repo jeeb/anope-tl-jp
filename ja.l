@@ -2338,19 +2338,26 @@ BOT_BOT_SYNTAX
 	BOT CHANGE oldnick newnick [user [host [real]]]
 	BOT DEL nick
 BOT_BOT_ALREADY_EXISTS
-	Bot %s already exists.
+#	Bot %s already exists.
+	ボット %s は既にこのサーバにいます。
 BOT_BOT_CREATION_FAILED
-	Sorry, bot creation failed.
+#	Sorry, bot creation failed.
+	ご迷惑をかけて申し訳ございません。ボット召喚に失敗しました。
 BOT_BOT_READONLY
-	Sorry, bot modification is temporarily disabled.
+#	Sorry, bot modification is temporarily disabled.
+	ご迷惑をかけて申し訳ございません。ボット召喚に失敗しました。
 BOT_BOT_ADDED
-	%s!%s@%s (%s) added to the bot list.
+#	%s!%s@%s (%s) added to the bot list.
+	%s!%s@%s (%s) がボットリストに追加されました。
 BOT_BOT_ANY_CHANGES
-	Old info is equal to the new one.
+#	Old info is equal to the new one.
+	infoに変化がありませんでした。
 BOT_BOT_CHANGED
-	Bot %s has been changed to %s!%s@%s (%s)
+#	Bot %s has been changed to %s!%s@%s (%s)
+	ボット %s は %s!%s@%s (%s) に変わりました。
 BOT_BOT_DELETED
 	Bot %s has been deleted.
+	ボット %s は 削除されました。
 	
 # BOTLIST responses
 BOT_BOTLIST_HEADER
