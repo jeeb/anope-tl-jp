@@ -2269,12 +2269,16 @@ MEMO_NO_RSEND_SELF
 	
 # Standard responses
 BOT_DOES_NOT_EXIST
-	Bot %s does not exist.
+#	Bot %s does not exist.
+	ボット %s はいません。
 BOT_NOT_ASSIGNED
-	You must assign a bot to the channel before using this command.
-	Type %R%S HELP ASSIGN for more information.
+#	You must assign a bot to the channel before using this command.
+#	Type %R%S HELP ASSIGN for more information.
+	このコマンドを使う前に、ボットをチャンネルに招待しなければいけません。
+	より詳細なヘルプは、%R%S HELP ASSIGN のようにして見る事ができます。
 BOT_NOT_ON_CHANNEL
-	Bot is not on channel %s.
+#	Bot is not on channel %s.
+	チャンネル %s にボットはいません。
 	
 # Kick reasons (must be a single line)
 BOT_REASON_BADWORD
