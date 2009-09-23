@@ -1983,9 +1983,11 @@ MEMO_CHAN_DELETED_ALL
 MEMO_SET_SYNTAX
 	SET option parameters
 MEMO_SET_DISABLED
-	Sorry, memo option setting is temporarily disabled.
+#	Sorry, memo option setting is temporarily disabled.
+	ご迷惑をかけて申し訳ありません。メモ機能に対するオプション操作は一時的に使うことができない状態です。
 MEMO_SET_UNKNOWN_OPTION
-	Unknown SET option %s.
+#	Unknown SET option %s.
+	SET に対して %s というオプションを使うことはできません。
 
 # SET NOTIFY responses
 MEMO_SET_NOTIFY_SYNTAX
