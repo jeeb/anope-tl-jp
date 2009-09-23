@@ -1870,13 +1870,17 @@ MEMO_NEW_MEMO_ARRIVED
 
 # Multi-use responses
 MEMO_HAVE_NO_MEMOS
-	You have no memos.
+#	You have no memos.
+	メモを受け取っていません。
 MEMO_X_HAS_NO_MEMOS
-	%s has no memos.
+#	%s has no memos.
+	%s はメモを受け取っていません。
 MEMO_DOES_NOT_EXIST
-	Memo %d does not exist!
+#	Memo %d does not exist!
+	%d 番目ののメモが見つかりませんでした!
 MEMO_LIST_NOT_FOUND
-	No matching memos found.
+#	No matching memos found.
+	条件にマッチするメモが見つかりませんでした。
 
 # SEND responses
 MEMO_SEND_SYNTAX
