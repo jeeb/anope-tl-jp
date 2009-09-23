@@ -2059,69 +2059,100 @@ MEMO_INFO_SYNTAX
 MEMO_INFO_SERVADMIN_SYNTAX
 	INFO [nick | channel]
 MEMO_INFO_NO_MEMOS
-	You currently have no memos.
+#	You currently have no memos.
+	今のところ、あなた宛のメモはありません。
 MEMO_INFO_MEMO
-	You currently have 1 memo.
+#	You currently have 1 memo.
+	あなた宛のメモが 1 通あります。
 MEMO_INFO_MEMO_UNREAD
-	You currently have 1 memo, and it has not yet been read.
+#	You currently have 1 memo, and it has not yet been read.
+	あなた宛のメモが 1 通あり、未読です。
 MEMO_INFO_MEMOS
-	You currently have %d memos.
+#	You currently have %d memos.
+	あなた宛のメモが %d 通あります。
 MEMO_INFO_MEMOS_ONE_UNREAD
-	You currently have %d memos, of which 1 is unread.
+#	You currently have %d memos, of which 1 is unread.
+	あなた宛のメモが %d 通あり、1 通が未読です。
 MEMO_INFO_MEMOS_SOME_UNREAD
-	You currently have %d memos, of which %d are unread.
+#	You currently have %d memos, of which %d are unread.
+	あなた宛のメモが %d 通あり、%d 通が未読です。
 MEMO_INFO_MEMOS_ALL_UNREAD
-	You currently have %d memos; all of them are unread.
+#	You currently have %d memos; all of them are unread.
+	あなた宛のメモが %d 通あり、全て未読です。
 MEMO_INFO_LIMIT
-	Your memo limit is %d.
+#	Your memo limit is %d.
+	あなた宛のメモ保存量の上限値は %d です。
 MEMO_INFO_HARD_LIMIT
-	Your memo limit is %d, and may not be changed.
+#	Your memo limit is %d, and may not be changed.
+	あなた宛のメモ保存量の上限値は %d で変わりません。
 MEMO_INFO_LIMIT_ZERO
-	Your memo limit is 0; you will not receive any new memos.
+#	Your memo limit is 0; you will not receive any new memos.
+	あなた宛のメモ保存量の上限値は 0 でメモを受け取ることができない状態です。
 MEMO_INFO_HARD_LIMIT_ZERO
-	Your memo limit is 0; you will not receive any new memos.  You cannot change this limit.
+#	Your memo limit is 0; you will not receive any new memos.  You cannot change this limit.
+	あなた宛のメモ保存量の上限値は 0 でメモを受け取ることができない状態です。また、メモの上限値を変えることは出来ません。
 MEMO_INFO_NO_LIMIT
-	You have no limit on the number of memos you may keep.
+#	You have no limit on the number of memos you may keep.
+	あなた宛のメモ保存量の上限値が在りません。
 MEMO_INFO_NOTIFY_OFF
-	You will not be notified of new memos.
+#	You will not be notified of new memos.
+	あなた宛の新着メモが到着してもお知らせしません。
 MEMO_INFO_NOTIFY_ON
-	You will be notified of new memos at logon and when they arrive.
+#	You will be notified of new memos at logon and when they arrive.
+	あなた宛の新着メモの到着をログオン時と受信時にお知らせします。
 MEMO_INFO_NOTIFY_RECEIVE
-	You will be notified when new memos arrive.
+#	You will be notified when new memos arrive.
+	あなた宛の新着メモの到着を受信時にお知らせします。
 MEMO_INFO_NOTIFY_SIGNON
-	You will be notified of new memos at logon.
+#	You will be notified of new memos at logon.
+	あなた宛の新着メモの到着をログオン時にお知らせします。
 MEMO_INFO_X_NO_MEMOS
-	%s currently has no memos.
+#	%s currently has no memos.
+	今のところ %s はメモを受け取っていません。
 MEMO_INFO_X_MEMO
-	%s currently has 1 memo.
+#	%s currently has 1 memo.
+	%s 宛てのメモが 1 通あります。
 MEMO_INFO_X_MEMO_UNREAD
-	%s currently has 1 memo, and it has not yet been read.
+#	%s currently has 1 memo, and it has not yet been read.
+	%s 宛のメモが 1 通あり、未読です。
 MEMO_INFO_X_MEMOS
-	%s currently has %d memos.
+#	%s currently has %d memos.
+	%s 宛のメモが %d 通あります。
 MEMO_INFO_X_MEMOS_ONE_UNREAD
-	%s currently has %d memos, of which 1 is unread.
+#	%s currently has %d memos, of which 1 is unread.
+	%s 宛のメモが %d 通あり、1 通が未読です。
 MEMO_INFO_X_MEMOS_SOME_UNREAD
-	%s currently has %d memos, of which %d are unread.
+#	%s currently has %d memos, of which %d are unread.
+	%s 宛のメモが %d 通あり、%d 通が未読です。
 MEMO_INFO_X_MEMOS_ALL_UNREAD
-	%s currently has %d memos; all of them are unread.
+#	%s currently has %d memos; all of them are unread.
+	%s 宛のメモが %d 通あり、全て未読です。
 MEMO_INFO_X_LIMIT
-	%s's memo limit is %d.
+#	%s's memo limit is %d.
+	%s 宛のメモ保存量の上限値は %d です。
 MEMO_INFO_X_HARD_LIMIT
-	%s's memo limit is %d, and may not be changed.
+#	%s's memo limit is %d, and may not be changed.
+	%s 宛のメモ保存量の上限値は %d で変わりません。
 MEMO_INFO_X_NO_LIMIT
-	%s has no memo limit.
+#	%s has no memo limit.
+	%s 宛てのメモ保存量の上限値が在りません。
 MEMO_INFO_X_NOTIFY_OFF
-	%s is not notified of new memos.
+#	%s is not notified of new memos.
+	%s 宛の新着メモを受け取ってもお知らせしません。
 MEMO_INFO_X_NOTIFY_ON
-	%s is notified of new memos at logon and when they arrive.
+#	%s is notified of new memos at logon and when they arrive.
+	%s 宛の新着メモの到着をログオン時と受信時にお知らせします。
 MEMO_INFO_X_NOTIFY_RECEIVE
-	%s is notified when new memos arrive.
+#	%s is notified when new memos arrive.
+	%s 宛の新着メモの到着を受信時にお知らせします。
 MEMO_INFO_X_NOTIFY_SIGNON
-	%s is notified of news memos at logon.
+#	%s is notified of news memos at logon.
+	%s 宛の新着メモの到着をログオン時にお知らせします。
 
 # Memo2Mail responses
 MEMO_MAIL_SUBJECT
-	New memo
+#	New memo
+	新着メモ
 MEMO_MAIL_TEXT1
 	Hi %s
 MEMO_MAIL_TEXT2
