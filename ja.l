@@ -472,94 +472,131 @@ FORCENICKCHANGE_CHANGING
 # REGISTER responses
 NICK_REGISTER_SYNTAX
 #	REGISTER password [email]
-	REGISTAR パスワード [メールアドレス]
+	REGISTER パスワード [メールアドレス]
 NICK_REGISTER_SYNTAX_EMAIL
 #	REGISTER password email
-	REGISTAR パスワード メールアドレス
+	REGISTER パスワード メールアドレス
 NICK_REGISTRATION_DISABLED
-	Sorry, nickname registration is temporarily disabled.
+#	Sorry, nickname registration is temporarily disabled.
+	ご迷惑をおかけしますが、現在ニックネームの登録サービスは一時的に停止させて頂いております。
 NICK_REGISTRATION_FAILED
-	Sorry, registration failed.
+#	Sorry, registration failed.
+	ご迷惑をおかけしますが、ニックネームの登録に失敗しました。
 NICK_REG_PLEASE_WAIT
-	Please wait %d seconds before using the REGISTER command again.
+#	Please wait %d seconds before using the REGISTER command again.
+	REGISTERコマンドを再度使う前に%d秒待って頂かなければなりません。
 NICK_CANNOT_BE_REGISTERED
-	Nickname %s may not be registered.
+#	Nickname %s may not be registered.
+	%s というニックネームはお使いになれません。
 NICK_ALREADY_REGISTERED
-	Nickname %s is already registered!
+#	Nickname %s is already registered!
+	%sというニックネームは既に登録されています。
 NICK_REGISTERED
-	Nickname %s registered under your account: %s
+#	Nickname %s registered under your account: %s
+	%s というニックネームは%sのアカウントに登録されています。
 NICK_REGISTERED_NO_MASK
-	Nickname %s registered.
+#	Nickname %s registered.
+	%sというニックネームは既に登録されています。
 NICK_PASSWORD_IS
-	Your password is %s - remember this for later use.
+#	Your password is %s - remember this for later use.
+	あなたのパスワードは %s に設定されています。覚えておいてください。
 NICK_REG_DELAY
-	You must have been using this nick for at least %d seconds to register.
+#	You must have been using this nick for at least %d seconds to register.
+	ニックネームを登録するには、最低%d秒間そのニックネームを使わなければなりません。
 
 # GROUP responses
 NICK_GROUP_SYNTAX
-	GROUP target password
+#	GROUP target password
+	GROUP 対象ニックネーム パスワード
 NICK_GROUP_DISABLED
-	Sorry, nickname grouping is temporarily disabled.
+#	Sorry, nickname grouping is temporarily disabled.
+	ご迷惑おかけしますが、ニックネームのグループまとめサービスは一時的に停止させて頂いております。
 NICK_GROUP_FAILED
-	Sorry, grouping failed.
+#	Sorry, grouping failed.
+	グループ登録に失敗しました。
 NICK_GROUP_PLEASE_WAIT
-	Please wait %d seconds before using the GROUP command again.
+#	Please wait %d seconds before using the GROUP command again.
+	再度GROUPコマンドを使うには%d秒間待っていただく必要があります。
 NICK_GROUP_CHANGE_DISABLED
-	Your nick is already registered; type %R%s DROP first.
+#	Your nick is already registered; type %R%s DROP first.
+	指定されたニックネームは既に登録されています。まず、%R%s DROPと入力して登録の解除を行ってください。
 NICK_GROUP_SAME
-	You are already a member of the group of %s.
+#	You are already a member of the group of %s.
+	あなたは既に%sというグループに入っています。
 NICK_GROUP_TOO_MANY
-	There are too many nicks in %s's group; list them and drop some.
-	Type %R%s HELP GLIST and %R%s HELP DROP
-	for more information.
+#	There are too many nicks in %s's group; list them and drop some.
+#	Type %R%s HELP GLIST and %R%s HELP DROP
+#	for more information.
+	登録数の上限に達したため、グループ名 %s　にニックネームを登録できません。
+	登録済みのニックネームから不要なものを削除してください。
+	%R%s HELP GLIST と %R%s HELP DROP　というコマンドを入力することで詳しい説明を読むことが出来ます。
 NICK_GROUP_JOINED
-	You are now in the group of %s.
+#	You are now in the group of %s.
+	%sというグループのメンバーになりました。
 
 # IDENTIFY responses
 NICK_IDENTIFY_SYNTAX
-	IDENTIFY password
+#	IDENTIFY password
+	IDENTIFY パスワード
 NICK_IDENTIFY_FAILED
-	Sorry, identification failed.
+#	Sorry, identification failed.
+	身分の確認に失敗しました。
 NICK_IDENTIFY_SUCCEEDED
-	Password accepted - you are now recognized.
+#	Password accepted - you are now recognized.
+	パスワードを承認されました。あなたの身分は認識されています。
 NICK_IDENTIFY_EMAIL_REQUIRED
-	You must now supply an e-mail for your nick.
-	This e-mail will allow you to retrieve your password in
-	case you forget it.
+#	You must now supply an e-mail for your nick.
+#	This e-mail will allow you to retrieve your password in
+#	case you forget it.
+	パスワードを忘れた際にパスワードの再発行を行うための連絡先として電子メールアドレスを入力して頂きます。
 NICK_IDENTIFY_EMAIL_HOWTO
-	Type %R%S SET EMAIL e-mail in order to set your e-mail.
-	Your privacy is respected; this e-mail won't be given to
-	any third-party person.
+#	Type %R%S SET EMAIL e-mail in order to set your e-mail.
+#	Your privacy is respected; this e-mail won't be given to
+#	any third-party person.
+	あなたの電子メールアドレスを設定するには　%R%S SET EMAIL e-mail　と入力してください。
+	このアドレスは個人情報として扱われて、第三者に渡すことはありません。
 NICK_ALREADY_IDENTIFIED
-	You are already identified.
+#	You are already identified.
+	あなたの身分は既に認識されています。
 
 # UPDATE responses
 NICK_UPDATE_SUCCESS
-	Status updated (memos, vhost, chmodes, flags).
+#	Status updated (memos, vhost, chmodes, flags).
+	memo,vhost,chmodeとflagの設定を更新しました。
 	
 # LOGOUT responses
 NICK_LOGOUT_SYNTAX
 	LOGOUT
 NICK_LOGOUT_SUCCEEDED
-	Your nick has been logged out.
+#	Your nick has been logged out.
+	ニックネームはログアウトされました。
 NICK_LOGOUT_X_SUCCEEDED
-	Nick %s has been logged out.
+#	Nick %s has been logged out.
+	ニックネーム %s はログアウトされました。
 NICK_LOGOUT_SERVICESADMIN
-	Can't logout %s because he's a services administrator.
+#	Can't logout %s because he's a services administrator.
+	%s は管理者なので、ログアウトさせることは出来ません。
 
 # DROP responses
+# DROP(ニックネーム登録解除）についての応答
 NICK_DROP_DISABLED
-	Sorry, nickname de-registration is temporarily disabled.
+#	Sorry, nickname de-registration is temporarily disabled.
+	ご迷惑をおかけしますが、ニックネームの登録解除サービスは一時的に停止させていただいております。
 NICK_DROPPED
-	Your nickname has been dropped.
+#	Your nickname has been dropped.
+	ニックネームの登録は解除されました。
 NICK_X_DROPPED
-	Nickname %s has been dropped.
+#	Nickname %s has been dropped.
+	ニックネーム %s の登録は解除されました。
 
 # SET responses
+# SET (ニックネームの設定）についての応答
 NICK_SET_SYNTAX
-	SET option parameters
+#	SET option parameters
+	SET 設定項目 パラメータ
 NICK_SET_SERVADMIN_SYNTAX
-	SET [nick] option parameters
+#	SET [nick] option parameters
+	
 NICK_SET_DISABLED
 	Sorry, nickname option setting is temporarily disabled.
 NICK_SET_UNKNOWN_OPTION
@@ -1906,13 +1943,13 @@ MEMO_TYPE_READ_NUM
 	%R%s READ %d で %d 通のメモを読むことができます。
 MEMO_TYPE_LIST_NEW
 #	Type %R%s LIST NEW to list them.
-	%R%s LIST NEW で新しいメモのリストが表示されます。
+	%R%s LIST NEW で新着メモのリストが表示されます。
 MEMO_AT_LIMIT
 #	Warning: You have reached your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
-	Warning: あなたが受け取れるメモの最大(%d)に達しました。現在のメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
+	Warning: あなたが受け取れるメモの最大(%d)に達しました。現在のメモを削除しない限り、これ以上の新着メモを受け取ることはできません。
 MEMO_OVER_LIMIT
 #	Warning: You are over your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
-	Warning: 既にあなたが受け取れるメモの最大(%d)に達しています。今あるメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
+	Warning: 既にあなたが受け取れるメモの最大(%d)に達しています。今あるメモを削除しない限り、これ以上の新着メモを受け取ることはできません。
 MEMO_X_MANY_NOTICE
 #	There are %d memos on channel %s.
 	チャンネル %s に %d 通のメモがあります。
@@ -1922,12 +1959,12 @@ MEMO_X_ONE_NOTICE
 MEMO_NEW_X_MEMO_ARRIVED
 #	There is a new memo on channel %s.
 #	Type %R%s READ %s %d to read it.
-	チャンネル %s に新しいメモがあります。
+	チャンネル %s に新着メモがあります。
 	メモを読むためには、%R%s READ %s %d とタイプしてください。
 MEMO_NEW_MEMO_ARRIVED
 #	You have a new memo from %s.
 #	Type %R%s READ %d to read it.
-	%s からあなた宛に新しいメモを受け取りました。
+	%s からあなた宛に新着メモを受け取りました。
 	メモを読むためには、%R%s READ %d とタイプしてください。
 
 # Multi-use responses
@@ -1988,22 +2025,22 @@ MEMO_LIST_SYNTAX
 	LIST [channel] [list | NEW]
 MEMO_HAVE_NO_NEW_MEMOS
 #	You have no new memos.
-	新しいメモを受け取っていません。
+	新着メモを受け取っていません。
 MEMO_X_HAS_NO_NEW_MEMOS
 #	%s has no new memos.
-	%s は新しいメモを受け取っていません。
+	%s は新着メモを受け取っていません。
 MEMO_LIST_MEMOS
 #	Memos for %s.  To read, type: %R%s READ num
 	%s 宛てのメモがあります。読むためには、%R%s READ num のように入力してください。
 MEMO_LIST_NEW_MEMOS
 #	New memos for %s.  To read, type: %R%s READ num
-	%s 宛ての新しいメモがあります。読むためには、%R%s READ num のように入力してください。
+	%s 宛ての新着メモがあります。読むためには、%R%s READ num のように入力してください。
 MEMO_LIST_CHAN_MEMOS
 #	Memos for %s.  To read, type: %R%s READ %s num
 	%s 宛てのメモがあります。読むためには、%R%s READ %s num のように入力してください。
 MEMO_LIST_CHAN_NEW_MEMOS
 #	New memos for %s.  To read, type: %R%s READ %s num
-	%s 宛ての新しいメモがあります。読むためには、 %R%s READ %s num のように入力してください。
+	%s 宛ての新着メモがあります。読むためには、 %R%s READ %s num のように入力してください。
 MEMO_LIST_HEADER
 #	 Num  Sender            Date/Time
 	 番号 送信者            日付/時間
@@ -2046,10 +2083,10 @@ MEMO_SET_SYNTAX
 	SET option parameters
 MEMO_SET_DISABLED
 #	Sorry, memo option setting is temporarily disabled.
-	ご迷惑をかけて申し訳ありません。メモ機能に対するオプション操作は一時的に使うことができない状態です。
+	ご迷惑をかけて申し訳ありません。メモ機能に対するオプション操作は一時的に使うことができない状態になっています。
 MEMO_SET_UNKNOWN_OPTION
 #	Unknown SET option %s.
-	SET に対して %s というオプションを使うことはできません。
+	メモ機能の SET オプションで %s という引数を使うことはできません。
 
 # SET NOTIFY responses
 MEMO_SET_NOTIFY_SYNTAX
@@ -2134,10 +2171,10 @@ MEMO_INFO_MEMOS
 	あなた宛のメモが %d 通あります。
 MEMO_INFO_MEMOS_ONE_UNREAD
 #	You currently have %d memos, of which 1 is unread.
-	あなた宛のメモが %d 通あり、1 通が未読です。
+	あなた宛のメモが %d 通あり、内1 通が未読です。
 MEMO_INFO_MEMOS_SOME_UNREAD
 #	You currently have %d memos, of which %d are unread.
-	あなた宛のメモが %d 通あり、%d 通が未読です。
+	あなた宛のメモが %d 通あり、内%d 通が未読です。
 MEMO_INFO_MEMOS_ALL_UNREAD
 #	You currently have %d memos; all of them are unread.
 	あなた宛のメモが %d 通あり、全て未読です。
@@ -2149,10 +2186,10 @@ MEMO_INFO_HARD_LIMIT
 	あなた宛のメモ保存量の上限値は %d で変わりません。
 MEMO_INFO_LIMIT_ZERO
 #	Your memo limit is 0; you will not receive any new memos.
-	あなた宛のメモ保存量の上限値は 0 でメモを受け取ることができない状態です。
+	あなた宛のメモ保存量の上限値が 0 なのでメモを受け取ることができない状態です。
 MEMO_INFO_HARD_LIMIT_ZERO
 #	Your memo limit is 0; you will not receive any new memos.  You cannot change this limit.
-	あなた宛のメモ保存量の上限値は 0 でメモを受け取ることができない状態です。また、メモの上限値を変えることは出来ません。
+	あなた宛のメモ保存量の上限値が 0 なのでメモを受け取ることができない状態です。また、メモの上限値を変えることは出来ません。
 MEMO_INFO_NO_LIMIT
 #	You have no limit on the number of memos you may keep.
 	あなた宛のメモ保存量の上限値が在りません。
@@ -2182,10 +2219,10 @@ MEMO_INFO_X_MEMOS
 	%s 宛のメモが %d 通あります。
 MEMO_INFO_X_MEMOS_ONE_UNREAD
 #	%s currently has %d memos, of which 1 is unread.
-	%s 宛のメモが %d 通あり、1 通が未読です。
+	%s 宛のメモが %d 通あり、内1 通が未読です。
 MEMO_INFO_X_MEMOS_SOME_UNREAD
 #	%s currently has %d memos, of which %d are unread.
-	%s 宛のメモが %d 通あり、%d 通が未読です。
+	%s 宛のメモが %d 通あり、内%d 通が未読です。
 MEMO_INFO_X_MEMOS_ALL_UNREAD
 #	%s currently has %d memos; all of them are unread.
 	%s 宛のメモが %d 通あり、全て未読です。
@@ -2243,7 +2280,7 @@ MEMO_RSEND_CHAN_MEMO_TEXT
 MEMO_RSEND_USER_NOTIFICATION
 #	A notification memo has been sent to %s informing him/her you have
 #	read his/her memo.
-	%s 宛てにあなたが %s からのメモを開封したことを示すメモが送信されました。
+	%s 宛てにあなたが %s からのメモを開封したことをお知らせするメモが送信されました。
 
 # CHECK responses
 MEMO_CHECK_SYNTAX
@@ -2269,48 +2306,68 @@ MEMO_NO_RSEND_SELF
 	
 # Standard responses
 BOT_DOES_NOT_EXIST
-	Bot %s does not exist.
+#	Bot %s does not exist.
+	ボット %s はいません。
 BOT_NOT_ASSIGNED
-	You must assign a bot to the channel before using this command.
-	Type %R%S HELP ASSIGN for more information.
+#	You must assign a bot to the channel before using this command.
+#	Type %R%S HELP ASSIGN for more information.
+	このコマンドを使う前に、ボットをチャンネルに招待しなければいけません。
+	より詳細なヘルプは、%R%S HELP ASSIGN で見る事ができます。
 BOT_NOT_ON_CHANNEL
-	Bot is not on channel %s.
+#	Bot is not on channel %s.
+	チャンネル %s にボットはいません。
 	
 # Kick reasons (must be a single line)
 BOT_REASON_BADWORD
-	Don't use the word \"%s\" on this channel!
+#	Don't use the word \"%s\" on this channel!
+	このチャンネルで \"%s\" という単語は使わないでください。
 BOT_REASON_BADWORD_GENTLE
-	Watch your language!
+#	Watch your language!
+	言語を確認してください!
 BOT_REASON_BOLD
-	Don't use bolds on this channel!
+#	Don't use bolds on this channel!
+	このチャンネルでは太字を使わないでください!
 BOT_REASON_CAPS
-	Turn caps lock OFF!
+#	Turn caps lock OFF!
+	caps lock を OFF にしてください!
 BOT_REASON_COLOR
-	Don't use colors on this channel!
+#	Don't use colors on this channel!
+	このチャンネルでは色つきの文字を使わないでください!
 BOT_REASON_FLOOD
-	Stop flooding!
+#	Stop flooding!
+	flood 攻撃を止めてください!
 BOT_REASON_REPEAT
-	Stop repeating yourself!
+#	Stop repeating yourself!
+	何回も同じ発言をしないでください!
 BOT_REASON_REVERSE
-	Don't use reverses on this channel!
+#	Don't use reverses on this channel!
+	このチャンネルでは反転表示を使わないでください!
 BOT_REASON_UNDERLINE
-	Don't use underlines on this channel!
+#	Don't use underlines on this channel!
+	このチャンネルでは下線を使わないでください!
 	
 # !seen replies
 BOT_SEEN_BOT
-	You found me, %s!
+#	You found me, %s!
+	見つかっちゃったね。%s!
 BOT_SEEN_YOU
-	Looking for yourself, eh %s?
+#	Looking for yourself, eh %s?
+	自分を探してるのかい %s?
 BOT_SEEN_ON_CHANNEL
-	%s is on the channel right now!
+#	%s is on the channel right now!
+	たった今、%s がこのチャンネルにjoinしました!
 BOT_SEEN_ON_CHANNEL_AS
-	%s is on the channel right now (as %s) ! 
+#	%s is on the channel right now (as %s) ! 
+	たった今、%s が %s としてこのチャンネルにjoinしました!
 BOT_SEEN_ON
-	%s was last seen here %s ago.
+#	%s was last seen here %s ago.
+	%s がこのチャンネルにいたのは %s 前です。
 BOT_SEEN_NEVER
-	I've never seen %s on this channel.
+#	I've never seen %s on this channel.
+	%s は今までこのチャンネルにjoinしたことがないようです。
 BOT_SEEN_UNKNOWN
-	I don't know who %s is.
+#	I don't know who %s is.
+	%s って誰ですか?
 
 # BOT responses
 BOT_BOT_SYNTAX
@@ -2318,302 +2375,428 @@ BOT_BOT_SYNTAX
 	BOT CHANGE oldnick newnick [user [host [real]]]
 	BOT DEL nick
 BOT_BOT_ALREADY_EXISTS
-	Bot %s already exists.
+#	Bot %s already exists.
+	ボット %s は既にこのサーバにいます。
 BOT_BOT_CREATION_FAILED
-	Sorry, bot creation failed.
+#	Sorry, bot creation failed.
+	ご迷惑をかけて申し訳ございません。ボット召喚に失敗しました。
 BOT_BOT_READONLY
-	Sorry, bot modification is temporarily disabled.
+#	Sorry, bot modification is temporarily disabled.
+	ご迷惑をかけて申し訳ございません。ボット召喚に失敗しました。
 BOT_BOT_ADDED
-	%s!%s@%s (%s) added to the bot list.
+#	%s!%s@%s (%s) added to the bot list.
+	%s!%s@%s (%s) がボットリストに追加されました。
 BOT_BOT_ANY_CHANGES
-	Old info is equal to the new one.
+#	Old info is equal to the new one.
+	infoに変化がありませんでした。
 BOT_BOT_CHANGED
-	Bot %s has been changed to %s!%s@%s (%s)
+#	Bot %s has been changed to %s!%s@%s (%s)
+	ボット %s は %s!%s@%s (%s) に変わりました。
 BOT_BOT_DELETED
 	Bot %s has been deleted.
+	ボット %s は 削除されました。
 	
 # BOTLIST responses
 BOT_BOTLIST_HEADER
-	Bot list:
+#	Bot list:
+	ボットリスト:
 BOT_BOTLIST_PRIVATE_HEADER
-	Bots reserved to IRC operators:
+#	Bots reserved to IRC operators:
+	オペレータに管理されているボット:
 BOT_BOTLIST_FOOTER
-	%d bots available.
+#	%d bots available.
+	%d 個のボットが活動中です。
 BOT_BOTLIST_EMPTY
-	There are no bots available at this time.
-	Ask a Services admin to create one!
+#	There are no bots available at this time.
+#	Ask a Services admin to create one!
+	現在活動中のボットはいません。
+	サーバオペレータに1つボットを作るように要請してください!
 	
 # ASSIGN responses
 BOT_ASSIGN_SYNTAX
 	ASSIGN chan nick
 BOT_ASSIGN_READONLY
-	Sorry, bot assignment is temporarily disabled.
+#	Sorry, bot assignment is temporarily disabled.
+	ご迷惑をおかけして申し訳ございません。一時的にボットの召喚ができなくなっています。
 BOT_ASSIGN_ALREADY
-	Bot %s is already assigned to channel %s.
+#	Bot %s is already assigned to channel %s.
+	ボット %s は既にチャンネル %s に召喚されています。
 BOT_ASSIGN_ASSIGNED
-	Bot %s has been assigned to %s.
+#	Bot %s has been assigned to %s.
+	ボット %s が %s に召喚されました。
 	
 # UNASSIGN responses
 BOT_UNASSIGN_SYNTAX
 	UNASSIGN chan
 BOT_UNASSIGN_UNASSIGNED
-	There is no bot assigned to %s anymore.
+#	There is no bot assigned to %s anymore.
+	%s からボットを削除しました。
 	
 # INFO responses
 BOT_INFO_SYNTAX
 	INFO {chan | nick}
 BOT_INFO_NOT_FOUND
-	%s is not a valid bot or registered channel.
+#	%s is not a valid bot or registered channel.
+	%s は正しいボットの名前でないか、このボットが登録されたチャンネルではありません。
 BOT_INFO_BOT_HEADER
-	Information for bot %s:
+#	Information for bot %s:
+	ボット %s の情報:
 BOT_INFO_BOT_MASK
-	       Mask : %s@%s
+#	       Mask : %s@%s
+	     マスク : %s@%s
 BOT_INFO_BOT_REALNAME
 	  Real name : %s
 BOT_INFO_BOT_CREATED
-	    Created : %s
+#	    Created : %s
+	   召喚日時 : %s
 BOT_INFO_BOT_USAGE
-	    Used on : %d channel(s)
+#	    Used on : %d channel(s)
+	     使用数 : %d チャンネル
 BOT_INFO_BOT_OPTIONS
-	    Options : %s
+#	    Options : %s
+	 オプション : %s
 BOT_INFO_OPT_PRIVATE
-	Private
+#	Private
+	プライベート
 BOT_INFO_CHAN_HEADER
-	Information for channel %s:
+#	Information for channel %s:
+	チャンネル %s の情報:
 BOT_INFO_CHAN_BOT
-	           Bot nick : %s
+#	           Bot nick : %s
+	     ボットのニック : %s
 BOT_INFO_CHAN_BOT_NONE
-	           Bot nick : not assigned yet.
+#	           Bot nick : not assigned yet.
+	     ボットのニック : 設定されていません
 BOT_INFO_CHAN_KICK_BADWORDS
-	   Bad words kicker : %s
+#	   Bad words kicker : %s
+	 禁止ワードキッカー : %s
 BOT_INFO_CHAN_KICK_BADWORDS_BAN
-	   Bad words kicker : %s (%d kick(s) to ban)
+#	   Bad words kicker : %s (%d kick(s) to ban)
+	 禁止ワードキッカー : %s (バンするためにキックした回数: %d回)
 BOT_INFO_CHAN_KICK_BOLDS
-	       Bolds kicker : %s
+#	       Bolds kicker : %s
+	       太字キッカー : %s
 BOT_INFO_CHAN_KICK_BOLDS_BAN
-	       Bolds kicker : %s (%d kick(s) to ban)
+#	       Bolds kicker : %s (%d kick(s) to ban)
+	       太字キッカー : %s (バンするためにキックした回数: %d回)
 BOT_INFO_CHAN_KICK_CAPS_ON
-	        Caps kicker : %s (minimum %d/%d%%)
+#	        Caps kicker : %s (minimum %d/%d%%)
+	     大文字キッカー : %s (minimum %d/%d%%)
 BOT_INFO_CHAN_KICK_CAPS_BAN
-	        Caps kicker : %s (%d kick(s) to ban; minimum %d/%d%%)
+#	        Caps kicker : %s (%d kick(s) to ban; minimum %d/%d%%)
+	     大文字キッカー : %s (バンするためにキックした回数: %d回; minimum %d/%d%%)
 BOT_INFO_CHAN_KICK_CAPS_OFF
-	        Caps kicker : %s
+#	        Caps kicker : %s
+	     大文字キッカー : %s
 BOT_INFO_CHAN_KICK_COLORS
-	      Colors kicker : %s
+#	      Colors kicker : %s
+	     色文字キッカー : %s
 BOT_INFO_CHAN_KICK_COLORS_BAN
-	      Colors kicker : %s (%d kick(s) to ban)
+#	      Colors kicker : %s (%d kick(s) to ban)
+	     色文字キッカー : %s(バンするためにキックした回数: %d回)
 BOT_INFO_CHAN_KICK_FLOOD_ON
-	       Flood kicker : %s (%d lines in %ds)
+#	       Flood kicker : %s (%d lines in %ds)
+	 Flood 攻撃キッカー : %s (%d 回の書き込みを %d 秒以内に行うとキック)
 BOT_INFO_CHAN_KICK_FLOOD_BAN
-	       Flood kicker : %s (%d kick(s) to ban; %d lines in %ds)
+#	       Flood kicker : %s (%d kick(s) to ban; %d lines in %ds)
+	 Flood 攻撃キッカー : %s (バンするためにキックした回数: %d回; %d 回の書き込みを %d 秒以内に行うとキック)
 BOT_INFO_CHAN_KICK_FLOOD_OFF
-	       Flood kicker : %s
+#	       Flood kicker : %s
+	 Flood 攻撃キッカー : %s
 BOT_INFO_CHAN_KICK_REPEAT_ON
-	      Repeat kicker : %s (%d times)
+#	      Repeat kicker : %s (%d times)
+	   繰り返しキッカー : %s (%d 回でキック)
 BOT_INFO_CHAN_KICK_REPEAT_BAN
-	      Repeat kicker : %s (%d kick(s) to ban; %d times)
+#	      Repeat kicker : %s (%d kick(s) to ban; %d times)
+	   繰り返しキッカー : %s (バンするためにキックした回数: %d回; %d 回でキック)
 BOT_INFO_CHAN_KICK_REPEAT_OFF
-	      Repeat kicker : %s
+#	      Repeat kicker : %s
+	   繰り返しキッカー : %s
 BOT_INFO_CHAN_KICK_REVERSES
-	    Reverses kicker : %s
+#	    Reverses kicker : %s
+	   反転表示キッカー : %s
 BOT_INFO_CHAN_KICK_REVERSES_BAN
-	    Reverses kicker : %s (%d kick(s) to ban)
+#	    Reverses kicker : %s (%d kick(s) to ban)
+	   反転表示キッカー : %s (バンするためにキックした回数: %d回)
 BOT_INFO_CHAN_KICK_UNDERLINES
-	  Underlines kicker : %s
+#	  Underlines kicker : %s
+	       下線キッカー : %s
 BOT_INFO_CHAN_KICK_UNDERLINES_BAN
-	  Underlines kicker : %s (%d kick(s) to ban)
+#	  Underlines kicker : %s (%d kick(s) to ban)
+	       下線キッカー : %s (バンするためにキックした回数: %d回)
 BOT_INFO_ACTIVE
-	enabled
+#	enabled
+	有効
 BOT_INFO_INACTIVE
-	disabled
+#	disabled
+	無効
 BOT_INFO_CHAN_OPTIONS
-	            Options : %s
+#	            Options : %s
+	         オプション : %s
 BOT_INFO_OPT_DONTKICKOPS
-	Ops protection
+#	Ops protection
+	オペレータ保護
 BOT_INFO_OPT_DONTKICKVOICES
-	Voices protection
+#	Voices protection
+	Voicesユーザ保護
 BOT_INFO_OPT_FANTASY
-	Fantasy
+#	Fantasy
+	ファンタジー
 BOT_INFO_OPT_GREET
-	Greet
+#	Greet
+	挨拶
 BOT_INFO_OPT_NOBOT
-	No bot
+#	No bot
+	ボット禁止
 BOT_INFO_OPT_SYMBIOSIS
 	Symbiosis
 BOT_INFO_OPT_NONE
-	None
+#	None
+	未設定
 	
 # SET responses
 BOT_SET_SYNTAX
 	SET (channel | bot) option settings
 BOT_SET_DISABLED
-	Sorry, bot option setting is temporarily disabled.
+#	Sorry, bot option setting is temporarily disabled.
+	ご迷惑をかけて申し訳ありません。ボット機能に対するオプション操作は一時的に使うことができない状態になっています。
 BOT_SET_UNKNOWN
-	Unknown option %s.
-	Type %R%S HELP SET for more information.
+#	Unknown option %s.
+#	Type %R%S HELP SET for more information.
+	ボット機能の SET オプションで %s という引数を使うことはできません。
+	より詳細なヘルプは、%R%S HELP SET で見る事ができます。
 	
 # SET DONTKICKOPS messages
 BOT_SET_DONTKICKOPS_SYNTAX
 	SET channel DONTKICKOPS {ON|OFF}
 BOT_SET_DONTKICKOPS_ON
 	Bot won't kick ops on channel %s.
+	ボットはチャンネル %s から オペレータをキックしません。
 BOT_SET_DONTKICKOPS_OFF
 	Bot will kick ops on channel %s.
+	ボットはチャンネル %s から オペレータをキックします。
 	
 # SET DONTKICKVOICES messages
 BOT_SET_DONTKICKVOICES_SYNTAX
 	SET channel DONTKICKVOICES {ON|OFF}
 BOT_SET_DONTKICKVOICES_ON
-	Bot won't kick voices on channel %s.
+#	Bot won't kick voices on channel %s.
+	ボットはチャンネル %s から voiceユーザをキックしません。
 BOT_SET_DONTKICKVOICES_OFF
-	Bot will kick voices on channel %s.
+#	Bot will kick voices on channel %s.
+	ボットはチャンネル %s から voiceユーザをキックします。
 
 # SET FANTASY messages
 BOT_SET_FANTASY_SYNTAX
 	SET channel FANTASY {ON|OFF}
 BOT_SET_FANTASY_ON
-	Fantasy mode is now ON on channel %s.
+#	Fantasy mode is now ON on channel %s.
+	チャンネル %s でファンタジーモードが有効化 されました。
 BOT_SET_FANTASY_OFF
-	Fantasy mode is now OFF on channel %s.
+#	Fantasy mode is now OFF on channel %s.
+	チャンネル %s でファンタジーモードが無効化 されました。
 	
 # SET GREET messages
 BOT_SET_GREET_SYNTAX
 	SET channel GREET {ON|OFF}
 BOT_SET_GREET_ON
-	Greet mode is now ON on channel %s.
+#	Greet mode is now ON on channel %s.
+	チャンネル %s で挨拶モードが有効化 されました。
 BOT_SET_GREET_OFF
-	Greet mode is now OFF on channel %s.
+#	Greet mode is now OFF on channel %s.
+	チャンネル %s で挨拶モードが無効化 されました。
 	
 # SET NOBOT
 BOT_SET_NOBOT_SYNTAX
 	SET botname NOBOT {ON|OFF}
 BOT_SET_NOBOT_ON
-	No Bot mode is now ON on channel %s.
+#	No Bot mode is now ON on channel %s.
+	チャンネル %s でボット禁止モードが有効化 されました。
 BOT_SET_NOBOT_OFF
-	No Bot mode is now OFF on channel %s.
+#	No Bot mode is now OFF on channel %s.
+	チャンネル %s でボット禁止モードが無効化 されました。
 
 # SET PRIVATE
 BOT_SET_PRIVATE_SYNTAX
 	SET botname PRIVATE {ON|OFF}
 BOT_SET_PRIVATE_ON
-	Private mode of bot %s is now ON.
+#	Private mode of bot %s is now ON.
+	ボット %s のプライベートモードが 有効化 されました。
 BOT_SET_PRIVATE_OFF
-	Private mode of bot %s is now OFF.
+#	Private mode of bot %s is now OFF.
+	ボット %s のプライベートモードが 無効化 されました。
 
 # SET SYMBIOSIS
 BOT_SET_SYMBIOSIS_SYNTAX
 	SET channel SYMBIOSIS {ON|OFF}
 BOT_SET_SYMBIOSIS_ON
-	Symbiosis mode is now ON on channel %s.
+#	Symbiosis mode is now ON on channel %s.
+	チャンネル %s で Symbiosis モードが有効化 されました。
 BOT_SET_SYMBIOSIS_OFF
-	Symbiosis mode is now OFF on channel %s.
+#	Symbiosis mode is now OFF on channel %s.
+	チャンネル %s で Symbiosis モードが無効化 されました。
 	
 # KICK responses
 BOT_KICK_SYNTAX
 	KICK channel option {ON|OFF} [settings]
 BOT_KICK_DISABLED
-	Sorry, kicker configuration is temporarily disabled.
+#	Sorry, kicker configuration is temporarily disabled.
+	ご迷惑をかけて申し訳ありません。キック設定は一時的にすることができない状態になっています。
 BOT_KICK_UNKNOWN
-	Unknown option %s.
-	Type %R%S HELP KICK for more information.
+#	Unknown option %s.
+#	Type %R%S HELP KICK for more information.
+	キック機能のオプション項目に %s という項目はありません。
+	より詳細なヘルプは、%R%S HELP KICK で見る事ができます。
 BOT_KICK_BAD_TTB
 	%s cannot be taken as times to ban.
 
 BOT_KICK_BADWORDS_ON
-	Bot will now kick bad words. Use the BADWORDS command
-	to add or remove a bad word.
+#	Bot will now kick bad words. Use the BADWORDS command
+#	to add or remove a bad word.
+	ボットは禁止ワードに反応してキックを行います。
+	BADWORD コマンドで禁止ワードの追加と削除が行えます。
 BOT_KICK_BADWORDS_ON_BAN
-	Bot will now kick bad words, and will place a ban after 
-	%d kicks for the same user. Use the BADWORDS command
-	to add or remove a bad word.
+#	Bot will now kick bad words, and will place a ban after 
+#	%d kicks for the same user. Use the BADWORDS command
+#	to add or remove a bad word.
+	ボットは禁止ワードに反応してキックを行い、
+	同一ユーザのキックが %d 回になったところでバンします。
+	BADWORD コマンドで禁止ワードの追加と削除が行えます。
 BOT_KICK_BADWORDS_OFF
-	Bot won't kick bad words anymore.
+#	Bot won't kick bad words anymore.
+	ボットは 禁止ワード の発言に対してキックを行いません。
 BOT_KICK_BOLDS_ON
-	Bot will now kick bolds.
+#	Bot will now kick bolds.
+	ボットは 太文字 発言に対してキックを行います。
 BOT_KICK_BOLDS_ON_BAN
-	Bot will now kick bolds, and will place a ban after 
-	%d kicks for the same user.
+#	Bot will now kick bolds, and will place a ban after 
+#	%d kicks for the same user.
+	ボットは 太文字 発言に対してキックを行い、
+	同一ユーザのキックが %d 回になったところでバンします。
 BOT_KICK_BOLDS_OFF
-	Bot won't kick bolds anymore.
+#	Bot won't kick bolds anymore.
+	ボットは 太文字 発言に対してキックを行いません。
 BOT_KICK_CAPS_ON
-	Bot will now kick caps (they must constitute at least
-	%d characters and %d%% of the entire message).
+#	Bot will now kick caps (they must constitute at least
+#	%d characters and %d%% of the entire message).
+	ボットは 大文字 発言に対してキックを行います。
+	(大文字が少なくとも %d 文字以上で発言全体の文字数に対する割合が %d%% 以上)
 BOT_KICK_CAPS_ON_BAN
-	Bot will now kick caps (they must constitute at least
-	%d characters and %d%% of the entire message), and will 
-	place a ban after %d kicks for the same user.
+#	Bot will now kick caps (they must constitute at least
+#	%d characters and %d%% of the entire message), and will 
+#	place a ban after %d kicks for the same user.
+	ボットは 大文字 発言に対してキックを行い、
+	(大文字が少なくとも %d 文字以上で発言全体の文字数に対する割合が %d%% 以上)
+	同一ユーザのキックが %d 回になったところでバンします。
 BOT_KICK_CAPS_OFF
-	Bot won't kick caps anymore.
+#	Bot won't kick caps anymore.
+	ボットは 大文字 発言に対してキックを行いません。
 BOT_KICK_COLORS_ON
-	Bot will now kick colors.
+#	Bot will now kick colors.
+	ボットは 色文字 発言に対してキックを行います。
 BOT_KICK_COLORS_ON_BAN
-	Bot will now kick colors, and will place a ban after %d 
-	kicks for the same user.
+#	Bot will now kick colors, and will place a ban after %d 
+#	kicks for the same user.
+	ボットは 色文字 発言に対してキックを行い、
+	同一ユーザのキックが %d 回になったところでバンします。
 BOT_KICK_COLORS_OFF
-	Bot won't kick colors anymore.
+#	Bot won't kick colors anymore.
+	ボットは 色文字 発言に対してキックを行いません。
 BOT_KICK_FLOOD_ON
-	Bot will now kick flood (%d lines in %d seconds).
+#	Bot will now kick flood (%d lines in %d seconds).
+	ボットは flood 攻撃 に対してキックを行います。(%d 回の発言を %d 秒以内に繰り返したら)
 BOT_KICK_FLOOD_ON_BAN
-	Bot will now kick flood (%d lines in %d seconds), and 
-	will place a ban after %d kicks for the same user.
+#	Bot will now kick flood (%d lines in %d seconds), and 
+#	will place a ban after %d kicks for the same user.
+	ボットは flood 攻撃 に対してキックを行い、(%d 回の発言を %d 秒以内に繰り返したら)
+	同一ユーザのキックが %d 回になったところでバンします。
 BOT_KICK_FLOOD_OFF
-	Bot won't kick flood anymore.
+#	Bot won't kick flood anymore.
+	ボットは flood 攻撃 に対してキックを行いません。
 BOT_KICK_REPEAT_ON
-	Bot will now kick repeats (users that say %d times
-	the same thing).
+#	Bot will now kick repeats (users that say %d times
+#	the same thing).
+	ボットは 同一内容の発言 に対してキックを行います。(%d 回
+	繰り返して同じ内容を発言した場合)
 BOT_KICK_REPEAT_ON_BAN
-	Bot will now kick repeats (users that say %d times
-	the same thing), and will place a ban after %d 
-	kicks for the same user.
+#	Bot will now kick repeats (users that say %d times
+#	the same thing), and will place a ban after %d 
+#	kicks for the same user.
+	ボットは 同一内容の発言 に対してキックを行い、(%d 回
+	繰り返して同じ内容を発言した場合) 同一ユーザのキックが %d 回
+	になったところでバンします。
 BOT_KICK_REPEAT_OFF
-	Bot won't kick repeats anymore.
+#	Bot won't kick repeats anymore.
+	ボットは 同一内容の発言 に対してキックを行いません。
 BOT_KICK_REVERSES_ON
-	Bot will now kick reverses.
+#	Bot will now kick reverses.
+	ボットは 反転文字発言 に対してキックを行います。
 BOT_KICK_REVERSES_ON_BAN
-	Bot will now kick reverses, and will place a ban after %d 
-	kicks for the same user.
+#	Bot will now kick reverses, and will place a ban after %d 
+#	kicks for the same user.
+	ボットは 反転文字発言 に対してキックを行い、同一ユーザのキックが %d 回
+	になったところでバンします。
 BOT_KICK_REVERSES_OFF
-	Bot won't kick reverses anymore.
+#	Bot won't kick reverses anymore.
+	ボットは 反転文字発言 に対してキックを行いません。
 BOT_KICK_UNDERLINES_ON
-	Bot will now kick underlines.
+#	Bot will now kick underlines.
+	ボットは 下線発言 に対してキックを行います。
 BOT_KICK_UNDERLINES_ON_BAN
-	Bot will now kick underlines, and will place a ban after %d 
-	kicks for the same user.
+#	Bot will now kick underlines, and will place a ban after %d 
+#	kicks for the same user.
+	ボットは 下線発言 に対してキックを行い、同一ユーザのキックが %d 回
+	になったところでバンします。
 BOT_KICK_UNDERLINES_OFF
-	Bot won't kick underlines anymore.
+#	Bot won't kick underlines anymore.
+	ボットは 下線発言 に対してキックを行いません。
 	
 # BADWORDS messages
 BOT_BADWORDS_SYNTAX
 	BADWORDS channel {ADD|DEL|LIST|CLEAR} [word | entry-list] [SINGLE|START|END]
 BOT_BADWORDS_DISABLED
-	Sorry, channel bad words list modification is temporarily disabled.
+#	Sorry, channel bad words list modification is temporarily disabled.
+	ご迷惑をかけて申し訳ありません。禁止ワードリストの編集は一時的にすることができない状態になっています。
 BOT_BADWORDS_REACHED_LIMIT
-	Sorry, you can only have %d bad words entries on a channel.
+#	Sorry, you can only have %d bad words entries on a channel.
+	ご迷惑をかけて申し訳ありません。禁止ワードリストの登録数は %d 個に制限されています。
 BOT_BADWORDS_ALREADY_EXISTS
-	%s already exists in %s bad words list.
+#	%s already exists in %s bad words list.
+	%s は既に %s の禁止ワードリストに登録されています。
 BOT_BADWORDS_ADDED
-	%s added to %s bad words list.
+#	%s added to %s bad words list.
+	%s が %s の禁止ワードリストに登録されました。
 BOT_BADWORDS_NO_SUCH_ENTRY
-	No such entry (#%d) on %s bad words list.
+#	No such entry (#%d) on %s bad words list.
+	#%d というエントリーは %s の禁止ワードリストに登録されていません。
 BOT_BADWORDS_NOT_FOUND
-	%s not found on %s bad words list.
+#	%s not found on %s bad words list.
+	%s は %s の禁止ワードリストに登録されていません。
 BOT_BADWORDS_NO_MATCH
-	No matching entries on %s bad words list.
+#	No matching entries on %s bad words list.
+	該当するエントリーが %s の禁止ワードリストに登録されていません。
 BOT_BADWORDS_DELETED
-	%s deleted from %s bad words list.
+#	%s deleted from %s bad words list.
+	%s が %s の禁止ワードリストから削除されました。
 BOT_BADWORDS_DELETED_ONE
-	Deleted 1 entry from %s bad words list.
+#	Deleted 1 entry from %s bad words list.
+	1個のエントリーが %s の禁止ワードリストから削除されました。
 BOT_BADWORDS_DELETED_SEVERAL
-	Deleted %d entries from %s bad words list.
+#	Deleted %d entries from %s bad words list.
+	%d 個のエントリーが %s の禁止ワードリストから削除されました。
 BOT_BADWORDS_LIST_EMPTY
-	%s bad words list is empty.
+#	%s bad words list is empty.
+	%s の禁止ワードリストに登録されているエントリーはありません。
 BOT_BADWORDS_LIST_HEADER
-	Bad words list for %s:
-	  Num   Word                           Type
+#	Bad words list for %s:
+#	  Num   Word                           Type
+	%s の禁止ワードリスト:
+	  番号  ワード                         タイプ
 BOT_BADWORDS_LIST_FORMAT
 	  %3d   %-30s %s
 BOT_BADWORDS_CLEAR
-	Bad words list is now empty.
+#	Bad words list is now empty.
+	禁止ワードリストに登録されているエントリーはありません。
 
 # SAY responses
 BOT_SAY_SYNTAX
@@ -2627,15 +2810,20 @@ BOT_ACT_SYNTAX
 BOT_EXCEPT
 	User matches channel except.
 BOT_BAD_NICK
-	Bot Nicks may only contain valid nick characters.
+#	Bot Nicks may only contain valid nick characters.
+	ボットのニックネームにはニックネームでの使用が許可されている文字を使ってください。
 BOT_BAD_HOST
-	Bot Hosts may only contain valid host characters.
+#	Bot Hosts may only contain valid host characters.
+	ボットのホストネームにはホストネームでの使用が許可されている文字を使ってください。
 BOT_BAD_IDENT
-	Bot Idents may only contain valid characters.
+#	Bot Idents may only contain valid characters.
+	ボットのIdentsにはIdentsでの使用が許可されている文字を使ってください。
 BOT_LONG_IDENT
-	Bot Idents may only contain %d characters.
+#	Bot Idents may only contain %d characters.
+	ボットのIdentsには %d 文字以上必要です。
 BOT_LONG_HOST
-	Bot Hosts may only contain %d characters.
+#	Bot Hosts may only contain %d characters.
+	ボットのホストネームには %d 文字以上必要です。
 
 ###########################################################################
 #
