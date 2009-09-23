@@ -177,36 +177,51 @@ COMMA_SPACE
 
 
 # Various error messages.
+# さまざまなエラーメッセージ。
 USER_RECORD_NOT_FOUND
-	Internal error - unable to process request.
+#	Internal error - unable to process request.
+	内部エラー - リクエスト処理不能。
 UNKNOWN_COMMAND
-	Unknown command %s.
+#	Unknown command %s.
+	不明なコマンド: %s。
 UNKNOWN_COMMAND_HELP
-	Unknown command %s.  "%R%s HELP" for help.
+#	Unknown command %s.  "%R%s HELP" for help.
+	不明なコマンド: %s。  "%R%s HELP" としてヘルプを参照して下さい。
 SYNTAX_ERROR
-	Syntax: %s
+#	Syntax: %s
+	構文: %s
 MORE_INFO
-	%R%s HELP %s for more information.
+#	%R%s HELP %s for more information.
+	%R%s HELP %s として詳細な情報を得てください。
 NO_HELP_AVAILABLE
-	No help available for %s.
+#	No help available for %s.
+	%s についてのヘルプは存在しません。
 OBSOLETE_COMMAND
-	This command is obsolete; use %s instead.
+#	This command is obsolete; use %s instead.
+	このコマンドは廃止されました。代わりに %s をお使いください。
 
 BAD_USERHOST_MASK
-	Mask must be in the form user@host.
+#	Mask must be in the form user@host.
+	マスクは user@host の形式でなければなりません。
 BAD_EXPIRY_TIME
-	Invalid expiry time.
+#	Invalid expiry time.
+	無効な失効期限です。
 USERHOST_MASK_TOO_WIDE
-	%s coverage is too wide; Please use a more specific mask.
+#	%s coverage is too wide; Please use a more specific mask.
+	%s の範囲は広すぎます。もっと具体的なマスクを使用してください。
 
 SERVICE_OFFLINE
-	%s is currently offline.
+#	%s is currently offline.
+	%s は現在オフラインです。
 READ_ONLY_MODE
-	Notice: Services is in read-only mode; changes will not be saved!
+#	Notice: Services is in read-only mode; changes will not be saved!
+	通知: サービスは現在読み込み専用モードです。変更は保存されません！
 PASSWORD_INCORRECT
-	Password incorrect.
+#	Password incorrect.
+	パスワードが間違っています。
 INVALID_TARGET
-	"/msg %s" is no longer supported.  Use "/msg %s@%s" or "/%s" instead.
+#	"/msg %s" is no longer supported.  Use "/msg %s@%s" or "/%s" instead.
+	"/msg %s" はもうサポートされません。代わりに "/msg %s@%s" または "/%s" を使用してください。
 
 # What's the difference between "Access denied" and "Permission denied"?
 # Very little; you can safely make them the same message with no real loss
@@ -214,76 +229,117 @@ INVALID_TARGET
 # usually used more generally; for example, a non-oper trying to access
 # OperServ gets "Access denied", while a non-Services admin trying to use
 # NickServ SASET NOEXPIRE gets "Permission denied".
+#
+# "Access denied"（アクセス否認） と "Permission denied"（許可否認） の違いはなんでしょうか？
+# 非常に小さなことです、意味の損失なく安全に同じメッセージとみなすことができます。
+# 区別するならば、"Access denied"（アクセス否認）はより一般的に用いられるものです、
+# 例えば、非運営者が OperServ とアクセスすると"Access denied"が得られます、
+# 一方、非サービス管理者が NickServ SASET NOEXPIRE を使おうとすると
+# "Permission denied" が得られます。
 ACCESS_DENIED
-	Access denied.
+#	Access denied.
+	アクセス否認。
 PERMISSION_DENIED
-	Permission denied.
+#	Permission denied.
+	許可否認。
 RAW_DISABLED
-	The RAW option has been disabled. If you must use it, configure the DisableRaw directive in Services configuration.
+#	The RAW option has been disabled. If you must use it, configure the DisableRaw directive in Services configuration.
+	RAWオプションは無効にされています。もし使う必要があるならば、サービス設定の DisableRaw 指示文を設定してください。
 
 MORE_OBSCURE_PASSWORD
-	Please try again with a more obscure password.  Passwords should be at least five characters long, should not be something easily guessed (e.g. your real name or your nick), and cannot contain the space or tab characters.
+#	Please try again with a more obscure password.  Passwords should be at least five characters long, should not be something easily guessed (e.g. your real name or your nick), and cannot contain the space or tab characters.
 PASSWORD_TOO_LONG
+	もっと分かり難いパスワードで再度お試しください。パスワードは少なくとも5文字の長さで、簡単に推測できるもの（例：あなたの本名やニックネーム）にすることなく、空白やタブ文字を含まないようにもしてください。
 	Your password is too long. Please try again with a shorter password.
 
 NICK_NOT_REGISTERED
-	Your nick isn't registered.
+#	Your nick isn't registered.
+	あなたのニックネームは未登録です。
 NICK_NOT_REGISTERED_HELP
-	Your nick isn't registered.  Type %R%s HELP for information on registering your nickname.
+#	Your nick isn't registered.  Type %R%s HELP for information on registering your nickname.
+	あなたのニックネームは未登録です。ニックネームの登録については %R%s HELP とタイプして情報を得てください。
 NICK_X_IS_SERVICES
-	Nick %s is part of this Network's Services.
+#	Nick %s is part of this Network's Services.
+	%s のニックネームはこのネットワークサービスの一部です。
 NICK_X_NOT_REGISTERED
-	Nick %s isn't registered.
+#	Nick %s isn't registered.
+	%s のニックネームは未登録です。
 NICK_X_IN_USE
-	Nick %s is currently in use.
+#	Nick %s is currently in use.
+	%s のニックネームは使用中です。
 NICK_X_NOT_IN_USE
-	Nick %s isn't currently in use.
+#	Nick %s isn't currently in use.
+	%s のニックネームは使用中ではありません。
 NICK_X_NOT_ON_CHAN
-	%s is not currently on channel %s.
+#	%s is not currently on channel %s.
+	%s はチャンネル %s では使われていません。
 NICK_X_FORBIDDEN
-	Nick %s may not be registered or used.
+#	Nick %s may not be registered or used.
+	%s のニックネームはおそらく登録も使用もされていません。
 NICK_X_FORBIDDEN_OPER
-	Nick %s has been forbidden by %s:
+#	Nick %s has been forbidden by %s:
+#	%s
+	%s のニックネームは %s によって禁止されています:
 	%s
 NICK_X_ILLEGAL
-	Nick %s is an illegal nickname and cannot be used.
+#	Nick %s is an illegal nickname and cannot be used.
+	%s のニックネームは不法ニックネームであり使うことができません。
 NICK_X_TRUNCATED
-	Nick %s was truncated to %d characters.
+#	Nick %s was truncated to %d characters.
+	%s のニックネームは%d文字に切り詰められました。
 NICK_X_SUSPENDED
-	Nick %s is currently suspended.
+#	Nick %s is currently suspended.
+	%s のニックネームは現在保留されています。
 CHAN_X_NOT_REGISTERED
-	Channel %s isn't registered.
+#	Channel %s isn't registered.
+	%s のチャンネルは未登録です。
 CHAN_X_NOT_IN_USE
-	Channel %s doesn't exist.
+#	Channel %s doesn't exist.
+	%s のチャンネルは存在しません。
 CHAN_X_FORBIDDEN
-	Channel %s may not be registered or used.
+#	Channel %s may not be registered or used.
+	%s のチャンネルはおそらく登録も使用もされていません。
 CHAN_X_FORBIDDEN_OPER
-	Channel %s has been forbidden by %s:
+#	Channel %s has been forbidden by %s:
+#	%s
+	%s のチャンネルは %s によって禁止されています:
 	%s
 CHAN_X_SUSPENDED
-	      Suspended: [%s] %s
+#	      Suspended: [%s] %s
+	      保留: [%s] %s
 NICK_IDENTIFY_REQUIRED
-	Password authentication required for that command.
-	Retry after typing %R%s IDENTIFY password.
+#	Password authentication required for that command.
+#	Retry after typing %R%s IDENTIFY password.
+	このコマンドはパスワード認証が必要です。
+	%R%s IDENTIFY password と入力してからやり直してください。
 CHAN_IDENTIFY_REQUIRED
-	Password authentication required for that command.
-	Retry after typing %R%s IDENTIFY %s password.
+#	Password authentication required for that command.
+#	Retry after typing %R%s IDENTIFY %s password.
+	このコマンドはパスワード認証が必要です。
+	%R%s IDENTIFY %s password と入力してからやり直してください。
 	
 MAIL_DISABLED
-	Services have been configured to not send mail.
+#	Services have been configured to not send mail.
+	サービスは現在メール送信できないよう設定されています。
 MAIL_INVALID
-	E-mail for %s is invalid.
+#	E-mail for %s is invalid.
+	%s への電子メールは無効です。
 MAIL_X_INVALID
-	%s is not a valid e-mail address.
+#	%s is not a valid e-mail address.
+	%s は無効な電子メールアドレスです。
 MAIL_LATER
-	Cannot send mail now; please retry a little later.
+#	Cannot send mail now; please retry a little later.
+	現在メール送信できません。もう少し後にまたやり直してください。
 MAIL_DELAYED
-	Please wait %d seconds and retry.
+#	Please wait %d seconds and retry.
+	%d秒待ってからやり直してください。
 	
 NO_REASON
-	No reason
+#	No reason
+	理由なし
 UNKNOWN
-	<unknown>
+#	<unknown>
+	<不明>
 
 # Duration system
 DURATION_DAY
