@@ -2020,27 +2020,38 @@ MEMO_SET_LIMIT_SYNTAX
 MEMO_SET_LIMIT_SERVADMIN_SYNTAX
 	SET LIMIT [user | channel] {limit | NONE} [HARD]
 MEMO_SET_YOUR_LIMIT_FORBIDDEN
-	You are not permitted to change your memo limit.
+#	You are not permitted to change your memo limit.
+	あなたはメモ保存量の上限値を変える許可を持っていません。
 MEMO_SET_LIMIT_FORBIDDEN
-	The memo limit for %s may not be changed.
+#	The memo limit for %s may not be changed.
+	%s のメモ保存量の上限値は変わりませんでした。
 MEMO_SET_YOUR_LIMIT_TOO_HIGH
-	You cannot set your memo limit higher than %d.
+#	You cannot set your memo limit higher than %d.
+	メモ保存量の上限値を %d 以上にすることはできません。
 MEMO_SET_LIMIT_TOO_HIGH
-	You cannot set the memo limit for %s higher than %d.
+#	You cannot set the memo limit for %s higher than %d.
+	%s のメモ保存量の上限値を %d 以上にすることはできません。
 MEMO_SET_LIMIT_OVERFLOW
-	Memo limit too large; limiting to %d instead.
+#	Memo limit too large; limiting to %d instead.
+	メモ保存量の上限値が大きすぎたため、%d に制限しました。
 MEMO_SET_YOUR_LIMIT
-	Your memo limit has been set to %d.
+#	Your memo limit has been set to %d.
+	あなたのメモ保存量の上限を %d にしました。
 MEMO_SET_YOUR_LIMIT_ZERO
-	You will no longer be able to receive memos.
+#	You will no longer be able to receive memos.
+	これ以上メモを受け取ることができません。
 MEMO_UNSET_YOUR_LIMIT
-	Your memo limit has been disabled.
+#	Your memo limit has been disabled.
+	メモ保存量の上限値が無効になりました。
 MEMO_SET_LIMIT
-	Memo limit for %s set to %d.
+#	Memo limit for %s set to %d.
+	%s のメモ保存量の上限が %d になりました。
 MEMO_SET_LIMIT_ZERO
-	Memo limit for %s set to 0.
+#	Memo limit for %s set to 0.
+	%s のメモ保存量の上限が 0 になりました。
 MEMO_UNSET_LIMIT
-	Memo limit disabled for %s.
+#	Memo limit disabled for %s.
+	%s のメモ保存量の上限値が無効になりました。
 
 # INFO responses
 MEMO_INFO_SYNTAX
