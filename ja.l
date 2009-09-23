@@ -1831,29 +1831,42 @@ CHAN_EXCEPTED
 
 # Automatic messages
 MEMO_HAVE_NEW_MEMO
-	You have 1 new memo.
+#	You have 1 new memo.
+	1 件の新しいメモがあります。
 MEMO_HAVE_NEW_MEMOS
-	You have %d new memos.
+#	You have %d new memos.
+	%d 件の新しいメモがあります。
 MEMO_TYPE_READ_LAST
-	Type %R%s READ LAST to read it.
+#	Type %R%s READ LAST to read it.
+	%R%s READ LAST で最新のメモを読むことができます。
 MEMO_TYPE_READ_NUM
-	Type %R%s READ %d to read it.
+#	Type %R%s READ %d to read it.
+	%R%s READ %d で %d 件のメモを読むことができます。
 MEMO_TYPE_LIST_NEW
-	Type %R%s LIST NEW to list them.
+#	Type %R%s LIST NEW to list them.
+	%R%s LIST NEW で新しいメモのリストが表示されます。
 MEMO_AT_LIMIT
-	Warning: You have reached your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
+#	Warning: You have reached your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
+	Warning: あなたが受け取れるメモの最大(%d)に達しました。現在のメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
 MEMO_OVER_LIMIT
-	Warning: You are over your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
+#	Warning: You are over your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
+	Warning: 既にあなたが受け取れるメモの最大(%d)に達しています。今あるメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
 MEMO_X_MANY_NOTICE
-	There are %d memos on channel %s.
+#	There are %d memos on channel %s.
+	チャンネル %s に %d 件のメモがあります。
 MEMO_X_ONE_NOTICE
-	There is %d memo on channel %s.
+#	There is %d memo on channel %s.
+	チャンネル %s に %d 件のメモがあります。
 MEMO_NEW_X_MEMO_ARRIVED
-	There is a new memo on channel %s.
-	Type %R%s READ %s %d to read it.
+#	There is a new memo on channel %s.
+#	Type %R%s READ %s %d to read it.
+	チャンネル %s に新しいメモがあります。
+	メモを読むためには、%R%s READ %s %d とタイプしてください。
 MEMO_NEW_MEMO_ARRIVED
-	You have a new memo from %s.
-	Type %R%s READ %d to read it.
+#	You have a new memo from %s.
+#	Type %R%s READ %d to read it.
+	%s からあなた宛に新しいメモを受け取りました。
+	メモを読むためには、%R%s READ %d とタイプしてください。
 
 # Multi-use responses
 MEMO_HAVE_NO_MEMOS
