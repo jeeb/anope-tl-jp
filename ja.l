@@ -458,13 +458,13 @@ NICK_MAY_NOT_BE_USED
 	指定されたニックネームはお使いになれません。ほかのニックネームにしてください。
 FORCENICKCHANGE_IN_1_MINUTE
 #	If you do not change within one minute, I will change your nick.
-	1分以内にニックネームを変更しない場合、あなたのニックネームは変更されます。
+	1分以内にニックネームを変更しない場合、あなたのニックネームは自動的に変更されます。
 FORCENICKCHANGE_IN_20_SECONDS
 #	If you do not change within 20 seconds, I will change your nick.
-	20秒以内にニックネームを変更しない場合、あなたのニックネームは変更されます。
+	20秒以内にニックネームを変更しない場合、あなたのニックネームは自動的に変更されます。
 FORCENICKCHANGE_NOW
 #	This nickname has been registered; you may not use it.
-	このニックネームは登録済みです、使用することはできません。
+	このニックネームは既に使用されています。
 FORCENICKCHANGE_CHANGING
 #	Your nickname is now being changed to %s
 	あなたのニックネームは %s に変更されます。
