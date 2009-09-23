@@ -46,7 +46,7 @@
 # For languages other than English, this string should have the following
 # format:
 #     language-name-in-language (language-name-in-English)
-# For example, "Espa�l (Spanish)" or "Fran�is (French)".
+# For example, "Espaïŋ―l (Spanish)" or "Franïŋ―is (French)".
 
 LANG_NAME
 	日本語 (Japanese)
@@ -3411,34 +3411,34 @@ NEWS_HELP_RANDOM
 ###########################################################################
 
 HELP_HELP
-#	�%S� is a service designed to give out information on
+#	%S is a service designed to give out information on
 #	Services.  Help topics are accessible via 
-#	the �HELP� commands of the other Services clients:
-	�%S�はサービスについての情報を伝えるためのサービス。
-	ヘルプ項目は他のサービスクライアントの�HELP�コマンドで読めます。
+#	the HELP commands of the other Services clients:
+	%Sはサービスについての情報を伝えるためのサービス。
+	ヘルプ項目は他のサービスクライアントのHELPコマンドで読めます。
 
-	�%R%s HELP�
+	%R%s HELP
 #	     for information on registering nicknames
 	     ニックネーム登録についての情報。
 
-	�%R%s HELP�
+	%R%s HELP
 #	     for information on registering and controlling
 #	     channels
-	　　　　ニックネームとチャンネルの登録及び管理についての情報。
+	     ニックネームとチャンネルの登録及び管理についての情報。
 
-	�%R%s HELP�
+	%R%s HELP
 #	     for information on sending messages to off-line users
 	     現在接続していないユーザにメッセージを送る事についての情報。
 
 HELP_HELP_BOT
 
-	�%R%s HELP�
+	%R%s HELP
 #	     for information on setting up a bot on your channel
 		 自分のチャンネルにボットを設置する事についての情報。
 
 HELP_HELP_HOST
 
-	�%R%s HELP�
+	%R%s HELP
 #	     for information on setting up nick vHosts
 	     仮想ホストを設置する事についての情報。
 
