@@ -2154,11 +2154,14 @@ MEMO_MAIL_SUBJECT
 #	New memo
 	新着メモ
 MEMO_MAIL_TEXT1
-	Hi %s
+#	Hi %s
+	やぁ %s
 MEMO_MAIL_TEXT2
-	You've just received a new memo from %s. This is memo number %d.
+#	You've just received a new memo from %s. This is memo number %d.
+	%s からの新着メモが到着しました。メモ番号は %d です。
 MEMO_MAIL_TEXT3
 	Memo Text:
+	メモ内容:
 
 # RSEND responses
 MEMO_RSEND_PLEASE_WAIT
