@@ -1952,10 +1952,10 @@ MEMO_LIST_FORMAT
 MEMO_READ_SYNTAX
 	READ [channel] {list | LAST | NEW}
 MEMO_HEADER
-	Memo %d from %s (%s).  To delete, type: %R%s DEL %d
+#	Memo %d from %s (%s).  To delete, type: %R%s DEL %d
 	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、%R%s DEL %d のように入力してください。
 MEMO_CHAN_HEADER
-	Memo %d from %s (%s).  To delete, type: %R%s DEL %s %d
+#	Memo %d from %s (%s).  To delete, type: %R%s DEL %s %d
 	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、%R%s DEL %s %d のように入力してください。
 MEMO_TEXT
 	%s
@@ -1964,15 +1964,20 @@ MEMO_TEXT
 MEMO_DEL_SYNTAX
 	DEL [channel] {num | list | ALL}
 MEMO_DELETED_NONE
-	No memos were deleted.
+#	No memos were deleted.
+	これ以上メモを削除することはできません。
 MEMO_DELETED_ONE
-	Memo %d has been deleted.
+#	Memo %d has been deleted.
+	%d 番目のメモを削除しました。
 MEMO_DELETED_SEVERAL
-	Memos %s have been deleted.
+#	Memos %s have been deleted.
+	%s のメモを削除しました。
 MEMO_DELETED_ALL
-	All of your memos have been deleted.
+#	All of your memos have been deleted.
+	あなた宛てのメモを全て削除しました。
 MEMO_CHAN_DELETED_ALL
-	All memos for channel %s have been deleted.
+#	All memos for channel %s have been deleted.
+	チャンネル %s 宛てのすべてのメモを削除しました。
 
 # SET responses
 MEMO_SET_SYNTAX
