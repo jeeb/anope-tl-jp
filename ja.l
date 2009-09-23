@@ -1912,11 +1912,14 @@ MEMO_STAFF_SYNTAX
 MEMO_CANCEL_SYNTAX
 	CANCEL {nick | channel}
 MEMO_CANCEL_DISABLED
-	Sorry, memo canceling is temporarily disabled.
+#	Sorry, memo canceling is temporarily disabled.
+	ご迷惑をおかけして申し訳ありません。一時的にメモの送信をキャンセルすることができない状態になっています。
 MEMO_CANCEL_NONE
-	No memo was cancelable.
+#	No memo was cancelable.
+	メモの送信がキャンセルされませんでした。
 MEMO_CANCELLED
 	Last memo to %s has been cancelled.
+	最新の %s 宛てのメモ送信がキャンセルされました。
 
 # LIST responses
 MEMO_LIST_SYNTAX
