@@ -527,8 +527,8 @@ NICK_GROUP_TOO_MANY
 #	There are too many nicks in %s's group; list them and drop some.
 #	Type %R%s HELP GLIST and %R%s HELP DROP
 #	for more information.
-	$sが所有しているグループに登録出来るニックネームの数の最高限に達しています。
-	ニックネームを新しく登録するには、グループのメンバーを見て既存のニックネームの登録を解除する必要があります。
+	登録数の上限に達したため、グループ名 %s　にニックネームを登録できません。
+	登録済みのニックネームから不要なものを削除してください。
 	%R%s HELP GLIST と %R%s HELP DROP　というコマンドを入力することで詳しい説明を読むことが出来ます。
 NICK_GROUP_JOINED
 #	You are now in the group of %s.
