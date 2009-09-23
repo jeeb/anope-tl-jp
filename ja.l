@@ -599,7 +599,7 @@ NICK_SET_SERVADMIN_SYNTAX
 	SET [ニックネーム] オプション パラメータ
 NICK_SET_DISABLED
 #	Sorry, nickname option setting is temporarily disabled.
-	申し訳ありません、ニックネームオプションの設定は一時無効にされます。
+	ご迷惑をおかけしますが、ニックネームオプションの設定は一時無効にされます。
 NICK_SET_UNKNOWN_OPTION
 #	Unknown SET option %s.
 	%s は不明な SET オプションです。
