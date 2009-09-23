@@ -64,6 +64,8 @@ LANG_NAME
 #	%d = day of month		%S = second
 #	%Y = year			%Z = time zone
 
+# This is used as the format string for strftime() for a date and time
+# together.
 STRFTIME_DATE_TIME_FORMAT
 #	%b %d %H:%M:%S %Y %Z
 	%Y年%b月%d日(%a) %H時%M分%S秒 %Z
@@ -376,14 +378,17 @@ HELP_LIMIT_HOST_REMOVER
 
 ###########################################################################
 #
+# NickServ messages
 # NickServ メッセージ
 #
 ###########################################################################
  
 # Automatic messages
 NICK_IS_REGISTERED
+#	This nick is owned by someone else.  Please choose another.
+#	(If this is your nick, type %R%s IDENTIFY password.)
 	このニックネームは既に登録されています。　ほかのニックネームしてください。
-	（もしこのニックネームはあなた自身のものなら「%R%s IDENTIFY パスワード」と入力してください。)
+	（もしこのニックネームはあなた自身のものなら %R%s IDENTIFY password と入力してください。)
 NICK_IS_SECURE
 #	This nickname is registered and protected.  If it is your
 #	nick, type %R%s IDENTIFY password.  Otherwise,
@@ -3414,8 +3419,9 @@ HELP_HELP
 #	%S is a service designed to give out information on
 #	Services.  Help topics are accessible via 
 #	the HELP commands of the other Services clients:
-	%Sはサービスについての情報を伝えるためのサービス。
-	ヘルプ項目は他のサービスクライアントのHELPコマンドで読めます。
+	%Sはサービスについての情報を伝えるためのサービスです。
+	他のサービスクライアントについてのHELPコマンドにより、
+	ヘルプ項目を読むことができます。
 
 	%R%s HELP
 #	     for information on registering nicknames
@@ -3434,7 +3440,7 @@ HELP_HELP_BOT
 
 	%R%s HELP
 #	     for information on setting up a bot on your channel
-		 自分のチャンネルにボットを設置する事についての情報。
+	     自分のチャンネルにボットを設置する事についての情報。
 
 HELP_HELP_HOST
 
@@ -3468,16 +3474,16 @@ NICK_HELP_CMD_ACCESS
 	    ACCESS     許可されているアドレス表を編集する。
 NICK_HELP_CMD_SET
 #	    SET        Set options, including kill protection
-	    SET        設定の変換、殺し防衛をふくめて。
+	    SET        オプションの設定、殺し(KILL)防衛を含む。
 NICK_HELP_CMD_SASET
 #	    SASET      Set SET-options on another nickname
-	    SASET      別のニックネームにSET設定を使う。
+	    SASET      別のニックネームにSETオプションを設定する。
 NICK_HELP_CMD_DROP
 #	    DROP       Cancel the registration of a nickname
 	    DROP       ニックネーム登録を解除する。
 NICK_HELP_CMD_RECOVER
 #	    RECOVER    Kill another user who has taken your nick
-	    RECOVER    貴方のニックネームを使っているユーザを殺す。
+	    RECOVER    貴方のニックネームを使っているユーザを殺す(KILL)。
 NICK_HELP_CMD_RELEASE
 #	    RELEASE    Regain custody of your nick after RECOVER
 	    RELEASE    RECOVERの後でニックネームを取り戻す。
@@ -3486,7 +3492,7 @@ NICK_HELP_CMD_SENDPASS
 	    SENDPASS   パスワードを登録してるメールアドレスに送る。
 NICK_HELP_CMD_GHOST
 #	    GHOST      Disconnects a "ghost" IRC session using your nick
-	    GHOST      貴方のニックネームを使ってるIRCゴーストセッションを切断する。
+	    GHOST      貴方のニックネームを使ってるIRC「ゴースト」セッションを切断する。
 NICK_HELP_CMD_ALIST
 #	    ALIST      List channels you have access on
 	    ALIST      貴方にアクセスが許可されてるチャンネルを表示する。
@@ -3504,7 +3510,7 @@ NICK_HELP_CMD_LOGOUT
 	    LOGOUT     IDENTIFYコマンドの効果を取り消す。
 NICK_HELP_CMD_STATUS
 #	    STATUS     Returns the owner status of the given nickname
-	    STATUS     指定されたニックネームの持ち主状態を出力しる。
+	    STATUS     指定されたニックネームの持ち主状態を出力する。
 NICK_HELP_CMD_UPDATE
 #	    UPDATE     Updates your current status, i.e. it checks for new memos
 	    UPDATE     貴方の現在の状態を更新する。例：新しいメモが届いたかを確認する。
