@@ -480,17 +480,23 @@ NICK_REGISTRATION_DISABLED
 #	Sorry, nickname registration is temporarily disabled.
 	ご迷惑をおかけしますが、現在ニックネームの登録サービスは一時的に停止させて頂いております。
 NICK_REGISTRATION_FAILED
-	Sorry, registration failed.
+#	Sorry, registration failed.
+	ご迷惑をおかけしますが、ニックネームの登録に失敗しました。
 NICK_REG_PLEASE_WAIT
-	Please wait %d seconds before using the REGISTER command again.
+#	Please wait %d seconds before using the REGISTER command again.
+	REGISTERコマンドを再度使う前に%d秒待って頂かなければなりません。
 NICK_CANNOT_BE_REGISTERED
-	Nickname %s may not be registered.
+#	Nickname %s may not be registered.
+	%s というニックネームはお使いになれません。
 NICK_ALREADY_REGISTERED
-	Nickname %s is already registered!
+#	Nickname %s is already registered!
+	%sというニックネームは既に登録されています。
 NICK_REGISTERED
-	Nickname %s registered under your account: %s
+#	Nickname %s registered under your account: %s
+	%s というニックネームは%sのアカウントに登録されています。
 NICK_REGISTERED_NO_MASK
-	Nickname %s registered.
+#	Nickname %s registered.
+	%sというニックネームは既に登録されています。
 NICK_PASSWORD_IS
 	Your password is %s - remember this for later use.
 NICK_REG_DELAY
