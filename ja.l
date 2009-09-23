@@ -1925,19 +1925,26 @@ MEMO_CANCELLED
 MEMO_LIST_SYNTAX
 	LIST [channel] [list | NEW]
 MEMO_HAVE_NO_NEW_MEMOS
-	You have no new memos.
+#	You have no new memos.
+	新しいメモを受け取っていません。
 MEMO_X_HAS_NO_NEW_MEMOS
-	%s has no new memos.
+#	%s has no new memos.
+	%s は新しいメモを受け取っていません。
 MEMO_LIST_MEMOS
-	Memos for %s.  To read, type: %R%s READ num
+#	Memos for %s.  To read, type: %R%s READ num
+	%s 宛てのメモがあります。読むためには、%R%s READ num のように入力してください。
 MEMO_LIST_NEW_MEMOS
-	New memos for %s.  To read, type: %R%s READ num
+#	New memos for %s.  To read, type: %R%s READ num
+	%s 宛ての新しいメモがあります。読むためには、%R%s READ num のように入力してください。
 MEMO_LIST_CHAN_MEMOS
-	Memos for %s.  To read, type: %R%s READ %s num
+#	Memos for %s.  To read, type: %R%s READ %s num
+	%s 宛てのメモがあります。読むためには、%R%s READ %s num のように入力してください。
 MEMO_LIST_CHAN_NEW_MEMOS
-	New memos for %s.  To read, type: %R%s READ %s num
+#	New memos for %s.  To read, type: %R%s READ %s num
+	%s 宛ての新しいメモがあります。読むためには、 %R%s READ %s num のように入力してください。
 MEMO_LIST_HEADER
-	 Num  Sender            Date/Time
+#	 Num  Sender            Date/Time
+	 番号 送信者            日付/時間
 MEMO_LIST_FORMAT
 	%c%3d  %-16s  %s
 
