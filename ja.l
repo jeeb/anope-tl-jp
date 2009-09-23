@@ -2181,19 +2181,23 @@ MEMO_RSEND_CHAN_MEMO_TEXT
 MEMO_RSEND_USER_NOTIFICATION
 #	A notification memo has been sent to %s informing him/her you have
 #	read his/her memo.
-	%s 宛てにあなたが %s からのメモを読んだことを示すメモが送信されました。
+	%s 宛てにあなたが %s からのメモを開封したことを示すメモが送信されました。
 
 # CHECK responses
 MEMO_CHECK_SYNTAX
 	CHECK nickname
 MEMO_CHECK_NOT_READ
-	The last memo you sent to %s (sent on %s) has not yet been read.
+#	The last memo you sent to %s (sent on %s) has not yet been read.
+	あなたが %s 宛てに送信した最新のメモは未開封のままです。
 MEMO_CHECK_READ
-	The last memo you sent to %s (sent on %s) has been read.
+#	The last memo you sent to %s (sent on %s) has been read.
+	あなたが %s 宛てに送信した最新のメモが開封されました。
 MEMO_CHECK_NO_MEMO
-	Nick %s doesn't have a memo from you.
+#	Nick %s doesn't have a memo from you.
+	あなたはニックネーム %s 宛てのメモを送信していません。
 MEMO_NO_RSEND_SELF
-	You can not request a receipt when sending a memo to yourself.
+#	You can not request a receipt when sending a memo to yourself.
+	自分から自分宛てのメモをに対する開封確認をすることはできません。
 
 ###########################################################################
 #
