@@ -2780,15 +2780,20 @@ BOT_ACT_SYNTAX
 BOT_EXCEPT
 	User matches channel except.
 BOT_BAD_NICK
-	Bot Nicks may only contain valid nick characters.
+#	Bot Nicks may only contain valid nick characters.
+	ボットのニックネームにはニックネームでの使用が許可されている文字を使ってください。
 BOT_BAD_HOST
-	Bot Hosts may only contain valid host characters.
+#	Bot Hosts may only contain valid host characters.
+	ボットのホストネームにはホストネームでの使用が許可されている文字を使ってください。
 BOT_BAD_IDENT
-	Bot Idents may only contain valid characters.
+#	Bot Idents may only contain valid characters.
+	ボットのIdentsにはIdentsでの使用が許可されている文字を使ってください。
 BOT_LONG_IDENT
-	Bot Idents may only contain %d characters.
+#	Bot Idents may only contain %d characters.
+	ボットのIdentsには %d 文字以上必要です。
 BOT_LONG_HOST
-	Bot Hosts may only contain %d characters.
+#	Bot Hosts may only contain %d characters.
+	ボットのホストネームには %d 文字以上必要です。
 
 ###########################################################################
 #
