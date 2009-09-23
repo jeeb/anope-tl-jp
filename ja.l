@@ -472,12 +472,13 @@ FORCENICKCHANGE_CHANGING
 # REGISTER responses
 NICK_REGISTER_SYNTAX
 #	REGISTER password [email]
-	REGISTAR パスワード [メールアドレス]
+	REGISTER パスワード [メールアドレス]
 NICK_REGISTER_SYNTAX_EMAIL
 #	REGISTER password email
-	REGISTAR パスワード メールアドレス
+	REGISTER パスワード メールアドレス
 NICK_REGISTRATION_DISABLED
-	Sorry, nickname registration is temporarily disabled.
+#	Sorry, nickname registration is temporarily disabled.
+	ご迷惑をおかけしますが、現在ニックネームの登録サービスは一時的に停止させて頂いております。
 NICK_REGISTRATION_FAILED
 	Sorry, registration failed.
 NICK_REG_PLEASE_WAIT
