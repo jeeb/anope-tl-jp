@@ -1887,16 +1887,16 @@ CHAN_EXCEPTED
 # Automatic messages
 MEMO_HAVE_NEW_MEMO
 #	You have 1 new memo.
-	 1 件の新しいメモがあります。
+	 1 通の新しいメモがあります。
 MEMO_HAVE_NEW_MEMOS
 #	You have %d new memos.
-	%d 件の新しいメモがあります。
+	%d 通の新しいメモがあります。
 MEMO_TYPE_READ_LAST
 #	Type %R%s READ LAST to read it.
 	%R%s READ LAST で最新のメモを読むことができます。
 MEMO_TYPE_READ_NUM
 #	Type %R%s READ %d to read it.
-	%R%s READ %d で %d 件のメモを読むことができます。
+	%R%s READ %d で %d 通のメモを読むことができます。
 MEMO_TYPE_LIST_NEW
 #	Type %R%s LIST NEW to list them.
 	%R%s LIST NEW で新しいメモのリストが表示されます。
@@ -1908,10 +1908,10 @@ MEMO_OVER_LIMIT
 	Warning: 既にあなたが受け取れるメモの最大(%d)に達しています。今あるメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
 MEMO_X_MANY_NOTICE
 #	There are %d memos on channel %s.
-	チャンネル %s に %d 件のメモがあります。
+	チャンネル %s に %d 通のメモがあります。
 MEMO_X_ONE_NOTICE
 #	There is %d memo on channel %s.
-	チャンネル %s に %d 件のメモがあります。
+	チャンネル %s に %d 通のメモがあります。
 MEMO_NEW_X_MEMO_ARRIVED
 #	There is a new memo on channel %s.
 #	Type %R%s READ %s %d to read it.
