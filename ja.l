@@ -2386,11 +2386,14 @@ BOT_BOTLIST_EMPTY
 BOT_ASSIGN_SYNTAX
 	ASSIGN chan nick
 BOT_ASSIGN_READONLY
-	Sorry, bot assignment is temporarily disabled.
+#	Sorry, bot assignment is temporarily disabled.
+	ご迷惑をおかけして申し訳ございません。一時的にボットの召喚ができなくなっています。
 BOT_ASSIGN_ALREADY
-	Bot %s is already assigned to channel %s.
+#	Bot %s is already assigned to channel %s.
+	ボット %s は既にチャンネル %s に召喚されています。
 BOT_ASSIGN_ASSIGNED
-	Bot %s has been assigned to %s.
+#	Bot %s has been assigned to %s.
+	ボット %s が %s に召喚されました。
 	
 # UNASSIGN responses
 BOT_UNASSIGN_SYNTAX
