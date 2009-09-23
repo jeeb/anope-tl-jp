@@ -498,29 +498,41 @@ NICK_REGISTERED_NO_MASK
 #	Nickname %s registered.
 	%sというニックネームは既に登録されています。
 NICK_PASSWORD_IS
-	Your password is %s - remember this for later use.
+#	Your password is %s - remember this for later use.
+	あなたのパスワードは %s に設定されています。覚えておいてください。
 NICK_REG_DELAY
-	You must have been using this nick for at least %d seconds to register.
+#	You must have been using this nick for at least %d seconds to register.
+	ニックネームを登録するには、最低%d秒間そのニックネームを使わなければなりません。
 
 # GROUP responses
 NICK_GROUP_SYNTAX
-	GROUP target password
+#	GROUP target password
+	GROUP 対象ニックネーム パスワード
 NICK_GROUP_DISABLED
-	Sorry, nickname grouping is temporarily disabled.
+#	Sorry, nickname grouping is temporarily disabled.
+	ご迷惑おかけしますが、ニックネームのグループまとめサービスは一時的に停止させて頂いております。
 NICK_GROUP_FAILED
-	Sorry, grouping failed.
+#	Sorry, grouping failed.
+	グループ登録に失敗しました。
 NICK_GROUP_PLEASE_WAIT
-	Please wait %d seconds before using the GROUP command again.
+#	Please wait %d seconds before using the GROUP command again.
+	再度GROUPコマンドを使うには%d秒間待っていただく必要があります。
 NICK_GROUP_CHANGE_DISABLED
-	Your nick is already registered; type %R%s DROP first.
+#	Your nick is already registered; type %R%s DROP first.
+	指定されたニックネームは既に登録されています。まず、%R%s DROPと入力して登録の解除を行ってください。
 NICK_GROUP_SAME
-	You are already a member of the group of %s.
+#	You are already a member of the group of %s.
+	あなたは既に%sというグループに入っています。
 NICK_GROUP_TOO_MANY
-	There are too many nicks in %s's group; list them and drop some.
-	Type %R%s HELP GLIST and %R%s HELP DROP
-	for more information.
+#	There are too many nicks in %s's group; list them and drop some.
+#	Type %R%s HELP GLIST and %R%s HELP DROP
+#	for more information.
+	$sが所有しているグループに登録出来るニックネームの数の最高限に達しています。
+	ニックネームを新しく登録するには、グループのメンバーを見て既存のニックネームの登録を解除する必要があります。
+	%R%s HELP GLIST と %R%s HELP DROP　というコマンドを入力することで詳しい説明を読むことが出来ます。
 NICK_GROUP_JOINED
-	You are now in the group of %s.
+#	You are now in the group of %s.
+	%sというグループのメンバーになりました。
 
 # IDENTIFY responses
 NICK_IDENTIFY_SYNTAX
