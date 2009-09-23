@@ -536,49 +536,67 @@ NICK_GROUP_JOINED
 
 # IDENTIFY responses
 NICK_IDENTIFY_SYNTAX
-	IDENTIFY password
+#	IDENTIFY password
+	IDENTIFY パスワード
 NICK_IDENTIFY_FAILED
-	Sorry, identification failed.
+#	Sorry, identification failed.
+	身分の確認に失敗しました。
 NICK_IDENTIFY_SUCCEEDED
-	Password accepted - you are now recognized.
+#	Password accepted - you are now recognized.
+	パスワードを承認されました。あなたの身分は認識されています。
 NICK_IDENTIFY_EMAIL_REQUIRED
-	You must now supply an e-mail for your nick.
-	This e-mail will allow you to retrieve your password in
-	case you forget it.
+#	You must now supply an e-mail for your nick.
+#	This e-mail will allow you to retrieve your password in
+#	case you forget it.
+	パスワードを忘れた際にパスワードの再発行を行うための連絡先として電子メールアドレスを入力して頂きます。
 NICK_IDENTIFY_EMAIL_HOWTO
-	Type %R%S SET EMAIL e-mail in order to set your e-mail.
-	Your privacy is respected; this e-mail won't be given to
-	any third-party person.
+#	Type %R%S SET EMAIL e-mail in order to set your e-mail.
+#	Your privacy is respected; this e-mail won't be given to
+#	any third-party person.
+	あなたの電子メールアドレスを設定するには　%R%S SET EMAIL e-mail　と入力してください。
+	このアドレスは個人情報として扱われて、第三者に渡すことはありません。
 NICK_ALREADY_IDENTIFIED
-	You are already identified.
+#	You are already identified.
+	あなたの身分は既に認識されています。
 
 # UPDATE responses
 NICK_UPDATE_SUCCESS
-	Status updated (memos, vhost, chmodes, flags).
+#	Status updated (memos, vhost, chmodes, flags).
+	memo,vhost,chmodeとflagの設定を更新しました。
 	
 # LOGOUT responses
 NICK_LOGOUT_SYNTAX
 	LOGOUT
 NICK_LOGOUT_SUCCEEDED
-	Your nick has been logged out.
+#	Your nick has been logged out.
+	ニックネームはログアウトされました。
 NICK_LOGOUT_X_SUCCEEDED
-	Nick %s has been logged out.
+#	Nick %s has been logged out.
+	ニックネーム %s はログアウトされました。
 NICK_LOGOUT_SERVICESADMIN
-	Can't logout %s because he's a services administrator.
+#	Can't logout %s because he's a services administrator.
+	%s は管理者なので、ログアウトさせることは出来ません。
 
 # DROP responses
+# DROP(ニックネーム登録解除）についての応答
 NICK_DROP_DISABLED
-	Sorry, nickname de-registration is temporarily disabled.
+#	Sorry, nickname de-registration is temporarily disabled.
+	ご迷惑をおかけしますが、ニックネームの登録解除サービスは一時的に停止させていただいております。
 NICK_DROPPED
-	Your nickname has been dropped.
+#	Your nickname has been dropped.
+	ニックネームの登録は解除されました。
 NICK_X_DROPPED
-	Nickname %s has been dropped.
+#	Nickname %s has been dropped.
+	ニックネーム %s の登録は解除されました。
 
 # SET responses
+# SET (ニックネームの設定）についての応答
 NICK_SET_SYNTAX
-	SET option parameters
+#	SET option parameters
+	SET 設定項目 パラメータ
 NICK_SET_SERVADMIN_SYNTAX
-	SET [nick] option parameters
+#	SET [nick] option parameters
+	
 NICK_SET_DISABLED
 	Sorry, nickname option setting is temporarily disabled.
 NICK_SET_UNKNOWN_OPTION
