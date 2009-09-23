@@ -2539,8 +2539,10 @@ BOT_SET_DONTKICKOPS_SYNTAX
 	SET channel DONTKICKOPS {ON|OFF}
 BOT_SET_DONTKICKOPS_ON
 	Bot won't kick ops on channel %s.
+	ボットはチャンネル %s から オペレータをキックしません。
 BOT_SET_DONTKICKOPS_OFF
 	Bot will kick ops on channel %s.
+	ボットはチャンネル %s から オペレータをキックします。
 	
 # SET DONTKICKVOICES messages
 BOT_SET_DONTKICKVOICES_SYNTAX
