@@ -2165,18 +2165,23 @@ MEMO_MAIL_TEXT3
 
 # RSEND responses
 MEMO_RSEND_PLEASE_WAIT
-	Please wait %d seconds before using the RSEND command again.
+#	Please wait %d seconds before using the RSEND command again.
+	RSEND  コマンドを使う前に %d 秒待ってください。
 MEMO_RSEND_DISABLED
-	Sorry, RSEND has been disabled on this network.
+#	Sorry, RSEND has been disabled on this network.
+	ご迷惑をかけて申し訳ございません。RSEND コマンドをこのネットワークで使うことはできません。
 MEMO_RSEND_SYNTAX
 	RSEND {nick | channel} memo-text
 MEMO_RSEND_NICK_MEMO_TEXT
-	[auto-memo] The memo you sent has been viewed.
+#	[auto-memo] The memo you sent has been viewed.
+	[auto-memo] あなたが送信したメモが表示されています。
 MEMO_RSEND_CHAN_MEMO_TEXT
-	[auto-memo] The memo you sent to %s has been viewed.
+#	[auto-memo] The memo you sent to %s has been viewed.
+	[auto-memo] あなたが %s 宛てに送信したメモが表示されています。
 MEMO_RSEND_USER_NOTIFICATION
-	A notification memo has been sent to %s informing him/her you have
-	read his/her memo.
+#	A notification memo has been sent to %s informing him/her you have
+#	read his/her memo.
+	%s 宛てにあなたが %s からのメモを読んだことを示すメモが送信されました。
 
 # CHECK responses
 MEMO_CHECK_SYNTAX
