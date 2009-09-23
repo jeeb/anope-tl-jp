@@ -283,7 +283,7 @@ NICK_X_FORBIDDEN_OPER
 	%s
 NICK_X_ILLEGAL
 #	Nick %s is an illegal nickname and cannot be used.
-	%s のニックネームは不法ニックネームであり使うことができません。
+	%s のニックネームは不法ニックネームであり使うことはできません。
 NICK_X_TRUNCATED
 #	Nick %s was truncated to %d characters.
 	%s のニックネームは%d文字に切り詰められました。
@@ -596,17 +596,21 @@ NICK_SET_SYNTAX
 	SET 設定項目 パラメータ
 NICK_SET_SERVADMIN_SYNTAX
 #	SET [nick] option parameters
-	
+	SET [ニックネーム] オプション パラメータ
 NICK_SET_DISABLED
-	Sorry, nickname option setting is temporarily disabled.
+#	Sorry, nickname option setting is temporarily disabled.
+	申し訳ありません、ニックネームオプションの設定は一時無効にされます。
 NICK_SET_UNKNOWN_OPTION
-	Unknown SET option %s.
+#	Unknown SET option %s.
+	%s は不明な SET オプションです。
 NICK_SET_OPTION_DISABLED
-	Option %s cannot be set on this network.
+#	Option %s cannot be set on this network.
+	%s オプションは、このネットワークに設定できません。
 
 # SET DISPLAY responses
 NICK_SET_DISPLAY_INVALID
-	The new display MUST be a nickname of your nickname group!
+#	The new display MUST be a nickname of your nickname group!
+	
 NICK_SET_DISPLAY_CHANGED
 	The new display is now %s.
 
