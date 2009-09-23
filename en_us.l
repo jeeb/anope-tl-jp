@@ -1,4 +1,4 @@
-# Japanese language file.
+# United States English language file.
 #
 # (C) 2003-2009 Anope Team
 # Contact us at team@anope.org
@@ -46,10 +46,10 @@
 # For languages other than English, this string should have the following
 # format:
 #     language-name-in-language (language-name-in-English)
-# For example, "Espaïŋ―l (Spanish)" or "Franïŋ―is (French)".
+# For example, "Espa�l (Spanish)" or "Fran�is (French)".
 
 LANG_NAME
-	日本語 (Japanese)
+	English
 
 ###########################################################################
 #
@@ -67,18 +67,15 @@ LANG_NAME
 # This is used as the format string for strftime() for a date and time
 # together.
 STRFTIME_DATE_TIME_FORMAT
-#	%b %d %H:%M:%S %Y %Z
-	%Y年%b月%d日(%a) %H時%M分%S秒 %Z
+	%b %d %H:%M:%S %Y %Z
 # This is used as the format string for strftime() for a date alone in long
 # format (English: including weekday).
 STRFTIME_LONG_DATE_FORMAT
-#	%a %b %d %Y
-	%Y年%b月%d日(%a)
+	%a %b %d %Y
 # This is used as the format string for strftime() for a date alone in
 # short format (English: without weekday).
 STRFTIME_SHORT_DATE_FORMAT
-#	%b %d %Y
-	%Y/%b/%d
+	%b %d %Y
 
 # These tell our strftime() what the names of months and days are.  If you
 # don't use %a, %A, %b, or %B in your strftime() strings above, you can
@@ -87,88 +84,50 @@ STRFTIME_SHORT_DATE_FORMAT
 
 # %a
 STRFTIME_DAYS_SHORT
-#	Sun
-	日
-#	Mon
-	月
-#	Tue
-	火
-#	Wed
-	水
-#	Thu
-	木
-#	Fri
-	金
-#	Sat
-	土
+	Sun
+	Mon
+	Tue
+	Wed
+	Thu
+	Fri
+	Sat
 # %A
 STRFTIME_DAYS_LONG
-#	Sunday
-	日曜日
-#	Monday
-	月曜日
-#	Tuesday
-	火曜日
-#	Wednesday
-	水曜日
-#	Thursday
-	木曜日
-#	Friday
-	金曜日
-#	Saturday
-	土曜日
+	Sunday
+	Monday
+	Tuesday
+	Wednesday
+	Thursday
+	Friday
+	Saturday
 # %b
 STRFTIME_MONTHS_SHORT
-#	Jan
-	1
-#	Feb
-	2
-#	Mar
-	3
-#	Apr
-	4
-#	May
-	5
-#	Jun
-	6
-#	Jul
-	7
-#	Aug
-	8
-#	Sep
-	9
-#	Oct
-	10
-#	Nov
-	11
-#	Dec
-	12
+	Jan
+	Feb
+	Mar
+	Apr
+	May
+	Jun
+	Jul
+	Aug
+	Sep
+	Oct
+	Nov
+	Dec
 # %B
 STRFTIME_MONTHS_LONG
-#	January
-	1月
-#	February
-	2月
-#	March
-	3月
-#	April
-	4月
-#	May
-	5月
-#	June
-	6月
-#	July
-	7月
-#	August
-	8月
-#	September
-	9月
-#	October
-	10月
-#	November
-	11月
-#	December
-	12月
+	January
+	February
+	March
+	April
+	May
+	June
+	July
+	August
+	September
+	October
+	November
+	December
 
 
 # This is used in ChanServ/NickServ INFO displays.
@@ -177,51 +136,36 @@ COMMA_SPACE
 
 
 # Various error messages.
-# さまざまなエラーメッセージ。
 USER_RECORD_NOT_FOUND
-#	Internal error - unable to process request.
-	内部エラー - リクエスト処理不能。
+	Internal error - unable to process request.
 UNKNOWN_COMMAND
-#	Unknown command %s.
-	不明なコマンド: %s。
+	Unknown command %s.
 UNKNOWN_COMMAND_HELP
-#	Unknown command %s.  "%R%s HELP" for help.
-	不明なコマンド: %s。  "%R%s HELP" としてヘルプを参照して下さい。
+	Unknown command %s.  "%R%s HELP" for help.
 SYNTAX_ERROR
-#	Syntax: %s
-	構文: %s
+	Syntax: %s
 MORE_INFO
-#	%R%s HELP %s for more information.
-	%R%s HELP %s として詳細な情報を得てください。
+	%R%s HELP %s for more information.
 NO_HELP_AVAILABLE
-#	No help available for %s.
-	%s についてのヘルプは存在しません。
+	No help available for %s.
 OBSOLETE_COMMAND
-#	This command is obsolete; use %s instead.
-	このコマンドは廃止されました。代わりに %s をお使いください。
+	This command is obsolete; use %s instead.
 
 BAD_USERHOST_MASK
-#	Mask must be in the form user@host.
-	マスクは user@host の形式でなければなりません。
+	Mask must be in the form user@host.
 BAD_EXPIRY_TIME
-#	Invalid expiry time.
-	無効な失効期限です。
+	Invalid expiry time.
 USERHOST_MASK_TOO_WIDE
-#	%s coverage is too wide; Please use a more specific mask.
-	%s の範囲は広すぎます。もっと具体的なマスクを使用してください。
+	%s coverage is too wide; Please use a more specific mask.
 
 SERVICE_OFFLINE
-#	%s is currently offline.
-	%s は現在オフラインです。
+	%s is currently offline.
 READ_ONLY_MODE
-#	Notice: Services is in read-only mode; changes will not be saved!
-	通知: サービスは現在読み込み専用モードです。変更は保存されません！
+	Notice: Services is in read-only mode; changes will not be saved!
 PASSWORD_INCORRECT
-#	Password incorrect.
-	パスワードが間違っています。
+	Password incorrect.
 INVALID_TARGET
-#	"/msg %s" is no longer supported.  Use "/msg %s@%s" or "/%s" instead.
-	"/msg %s" はもうサポートされません。代わりに "/msg %s@%s" または "/%s" を使用してください。
+	"/msg %s" is no longer supported.  Use "/msg %s@%s" or "/%s" instead.
 
 # What's the difference between "Access denied" and "Permission denied"?
 # Very little; you can safely make them the same message with no real loss
@@ -229,180 +173,120 @@ INVALID_TARGET
 # usually used more generally; for example, a non-oper trying to access
 # OperServ gets "Access denied", while a non-Services admin trying to use
 # NickServ SASET NOEXPIRE gets "Permission denied".
-#
-# "Access denied"（アクセス否認） と "Permission denied"（許可否認） の違いはなんでしょうか？
-# 非常に小さなことです、意味の損失なく安全に同じメッセージとみなすことができます。
-# 区別するならば、"Access denied"（アクセス否認）はより一般的に用いられるものです、
-# 例えば、非運営者が OperServ とアクセスすると"Access denied"が得られます、
-# 一方、非サービス管理者が NickServ SASET NOEXPIRE を使おうとすると
-# "Permission denied" が得られます。
 ACCESS_DENIED
-#	Access denied.
-	アクセス否認。
+	Access denied.
 PERMISSION_DENIED
-#	Permission denied.
-	許可否認。
+	Permission denied.
 RAW_DISABLED
-#	The RAW option has been disabled. If you must use it, configure the DisableRaw directive in Services configuration.
-	RAWオプションは無効にされています。もし使う必要があるならば、サービス設定の DisableRaw 指示文を設定してください。
+	The RAW option has been disabled. If you must use it, configure the DisableRaw directive in Services configuration.
 
 MORE_OBSCURE_PASSWORD
-#	Please try again with a more obscure password.  Passwords should be at least five characters long, should not be something easily guessed (e.g. your real name or your nick), and cannot contain the space or tab characters.
+	Please try again with a more obscure password.  Passwords should be at least five characters long, should not be something easily guessed (e.g. your real name or your nick), and cannot contain the space or tab characters.
 PASSWORD_TOO_LONG
-	もっと分かり難いパスワードで再度お試しください。パスワードは少なくとも5文字の長さで、簡単に推測できるもの（例：あなたの本名やニックネーム）にすることなく、空白やタブ文字を含まないようにもしてください。
 	Your password is too long. Please try again with a shorter password.
 
 NICK_NOT_REGISTERED
-#	Your nick isn't registered.
-	あなたのニックネームは未登録です。
+	Your nick isn't registered.
 NICK_NOT_REGISTERED_HELP
-#	Your nick isn't registered.  Type %R%s HELP for information on registering your nickname.
-	あなたのニックネームは未登録です。ニックネームの登録については %R%s HELP とタイプして情報を得てください。
+	Your nick isn't registered.  Type %R%s HELP for information on registering your nickname.
 NICK_X_IS_SERVICES
-#	Nick %s is part of this Network's Services.
-	%s のニックネームはこのネットワークサービスの一部です。
+	Nick %s is part of this Network's Services.
 NICK_X_NOT_REGISTERED
-#	Nick %s isn't registered.
-	%s のニックネームは未登録です。
+	Nick %s isn't registered.
 NICK_X_IN_USE
-#	Nick %s is currently in use.
-	%s のニックネームは使用中です。
+	Nick %s is currently in use.
 NICK_X_NOT_IN_USE
-#	Nick %s isn't currently in use.
-	%s のニックネームは使用中ではありません。
+	Nick %s isn't currently in use.
 NICK_X_NOT_ON_CHAN
-#	%s is not currently on channel %s.
-	%s はチャンネル %s では使われていません。
+	%s is not currently on channel %s.
 NICK_X_FORBIDDEN
-#	Nick %s may not be registered or used.
-	%s のニックネームはおそらく登録も使用もされていません。
+	Nick %s may not be registered or used.
 NICK_X_FORBIDDEN_OPER
-#	Nick %s has been forbidden by %s:
-#	%s
-	%s のニックネームは %s によって禁止されています:
+	Nick %s has been forbidden by %s:
 	%s
 NICK_X_ILLEGAL
-#	Nick %s is an illegal nickname and cannot be used.
-	%s のニックネームは不法ニックネームであり使うことができません。
+	Nick %s is an illegal nickname and cannot be used.
 NICK_X_TRUNCATED
-#	Nick %s was truncated to %d characters.
-	%s のニックネームは%d文字に切り詰められました。
+	Nick %s was truncated to %d characters.
 NICK_X_SUSPENDED
-#	Nick %s is currently suspended.
-	%s のニックネームは現在保留されています。
+	Nick %s is currently suspended.
 CHAN_X_NOT_REGISTERED
-#	Channel %s isn't registered.
-	%s のチャンネルは未登録です。
+	Channel %s isn't registered.
 CHAN_X_NOT_IN_USE
-#	Channel %s doesn't exist.
-	%s のチャンネルは存在しません。
+	Channel %s doesn't exist.
 CHAN_X_FORBIDDEN
-#	Channel %s may not be registered or used.
-	%s のチャンネルはおそらく登録も使用もされていません。
+	Channel %s may not be registered or used.
 CHAN_X_FORBIDDEN_OPER
-#	Channel %s has been forbidden by %s:
-#	%s
-	%s のチャンネルは %s によって禁止されています:
+	Channel %s has been forbidden by %s:
 	%s
 CHAN_X_SUSPENDED
-#	      Suspended: [%s] %s
-	      保留: [%s] %s
+	      Suspended: [%s] %s
 NICK_IDENTIFY_REQUIRED
-#	Password authentication required for that command.
-#	Retry after typing %R%s IDENTIFY password.
-	このコマンドはパスワード認証が必要です。
-	%R%s IDENTIFY password と入力してからやり直してください。
+	Password authentication required for that command.
+	Retry after typing %R%s IDENTIFY password.
 CHAN_IDENTIFY_REQUIRED
-#	Password authentication required for that command.
-#	Retry after typing %R%s IDENTIFY %s password.
-	このコマンドはパスワード認証が必要です。
-	%R%s IDENTIFY %s password と入力してからやり直してください。
+	Password authentication required for that command.
+	Retry after typing %R%s IDENTIFY %s password.
 	
 MAIL_DISABLED
-#	Services have been configured to not send mail.
-	サービスは現在メール送信できないよう設定されています。
+	Services have been configured to not send mail.
 MAIL_INVALID
-#	E-mail for %s is invalid.
-	%s への電子メールは無効です。
+	E-mail for %s is invalid.
 MAIL_X_INVALID
-#	%s is not a valid e-mail address.
-	%s は無効な電子メールアドレスです。
+	%s is not a valid e-mail address.
 MAIL_LATER
-#	Cannot send mail now; please retry a little later.
-	現在メール送信できません。もう少し後にまたやり直してください。
+	Cannot send mail now; please retry a little later.
 MAIL_DELAYED
-#	Please wait %d seconds and retry.
-	%d秒待ってからやり直してください。
+	Please wait %d seconds and retry.
 	
 NO_REASON
-#	No reason
-	理由なし
+	No reason
 UNKNOWN
-#	<unknown>
-	<不明>
+	<unknown>
 
 # Duration system
 DURATION_DAY
-#	1 day
-	1日間
+	1 day
 DURATION_DAYS
-#	%d days
-	%d日間
+	%d days
 DURATION_HOUR
-#	1 hour
-	1時間
+	1 hour
 DURATION_HOURS
-#	%d hours
-	%d時間
+	%d hours
 DURATION_MINUTE
-#	1 minute
-	1分間
+	1 minute
 DURATION_MINUTES
-#	%d minutes
-	%d分間
+	%d minutes
 DURATION_SECOND
-#	1 second
-	1秒間
+	1 second
 DURATION_SECONDS
-#	%d seconds
-	%d秒間
+	%d seconds
 
 # Human readable expiration
 NO_EXPIRE
-#	does not expire
-	失効しない
+	does not expire
 EXPIRES_SOON
-#	expires at next database update
-	次回のデータベース更新にて失効
+	expires at next database update
 EXPIRES_M
-#	expires in %d minutes
-	あと%d分で失効
+	expires in %d minutes
 EXPIRES_1M
-#	expires in %d minute
-	あと%d分で失効
+	expires in %d minute
 EXPIRES_HM
-#	expires in %d hours, %d minutes
-	あと%d時間%d分で失効
+	expires in %d hours, %d minutes
 EXPIRES_H1M
-#	expires in %d hours, %d minute
-	あと%d時間%d分で失効
+	expires in %d hours, %d minute
 EXPIRES_1HM
-#	expires in %d hour, %d minutes
-	あと%d時間%d分で失効
+	expires in %d hour, %d minutes
 EXPIRES_1H1M
-#	expires in %d hour, %d minute
-	あと%d時間%d分で失効
+	expires in %d hour, %d minute
 EXPIRES_D
-#	expires in %d days
-	あと%d日で失効
+	expires in %d days
 EXPIRES_1D
-#	expires in %d day
-	あと%d日で失効
+	expires in %d day
 
 # Generic Footer message
 END_OF_ANY_LIST
-#	End of %s list.
-	%s リスト終端.
+	End of %s list.
 
 # Generic List error messages
 LIST_INCORRECT_RANGE
@@ -435,26 +319,19 @@ HELP_LIMIT_HOST_REMOVER
 ###########################################################################
 #
 # NickServ messages
-# NickServ メッセージ
 #
 ###########################################################################
- 
+
 # Automatic messages
 NICK_IS_REGISTERED
-#	This nick is owned by someone else.  Please choose another.
-#	(If this is your nick, type %R%s IDENTIFY password.)
-	このニックネームは既に登録されています。　ほかのニックネームしてください。
-	（もしこのニックネームはあなた自身のものなら %R%s IDENTIFY password と入力してください。)
+	This nick is owned by someone else.  Please choose another.
+	(If this is your nick, type %R%s IDENTIFY password.)
 NICK_IS_SECURE
-#	This nickname is registered and protected.  If it is your
-#	nick, type %R%s IDENTIFY password.  Otherwise,
-#	please choose a different nick.
-	このニックネームはほかのユーザーに登録されていて保護されています。
-	もしこれはあなた自身のニックネームなら %R%s IDENTIFY password と入力してくさだい。
-	そうでない場合はほかのニックネームにしてください。
+	This nickname is registered and protected.  If it is your
+	nick, type %R%s IDENTIFY password.  Otherwise,
+	please choose a different nick.
 NICK_MAY_NOT_BE_USED
-#	This nickname may not be used.  Please choose another one.
-	指定されたニックネームはお使いになれません。ほかのニックネームにしてください。
+	This nickname may not be used.  Please choose another one.
 FORCENICKCHANGE_IN_1_MINUTE
 	If you do not change within one minute, I will change your nick.
 FORCENICKCHANGE_IN_20_SECONDS
@@ -1082,74 +959,51 @@ NICK_FORCE_REG
 
 # Access level descriptions
 CHAN_LEVEL_AUTOOP
-#	Automatic channel operator status
-	自動的にチャンネル運営者権を得る[AUTOOP](+o)
+	Automatic channel operator status
 CHAN_LEVEL_AUTOVOICE
-#	Automatic mode +v
-	自動的にチャンネル発言権を得る[AUTOVOICE](+v)
+	Automatic mode +v
 CHAN_LEVEL_AUTOHALFOP
-#	Automatic mode +h
-	自動的にチャンネル準運営者権を得る[AUTOHALFOP](+h)
+	Automatic mode +h
 CHAN_LEVEL_AUTOPROTECT
-#	Automatic mode +a
-	自動的にニックネーム保護モードを得る[AUTOPROTECT](+a)
+	Automatic mode +a
 CHAN_LEVEL_AUTODEOP
-#	Channel operator status disallowed
-	チャンネルオペレータ状態を禁止される[AUTODEOP]
+	Channel operator status disallowed
 CHAN_LEVEL_NOJOIN
-#	Not allowed to join channel
-	チャンネルへの参加を禁止される[NOJOIN]
+	Not allowed to join channel
 CHAN_LEVEL_INVITE
-#	Allowed to use INVITE command
-	INVITE（招待）コマンドの使用を許可
+	Allowed to use INVITE command
 CHAN_LEVEL_AKICK
-#	Allowed to use AKICK command
-	AKICK（自動排除）コマンドの使用を許可
+	Allowed to use AKICK command
 CHAN_LEVEL_SET
-#	Allowed to use SET command (not FOUNDER/PASSWORD)
-	SET（設定）コマンドの使用を許可（FOUNDER/PASSWORDを除く）
+	Allowed to use SET command (not FOUNDER/PASSWORD)
 CHAN_LEVEL_CLEAR
-#	Allowed to use CLEAR command
-	CLEAR（解除）コマンドの使用を許可
+	Allowed to use CLEAR command
 CHAN_LEVEL_UNBAN
-#	Allowed to use UNBAN command
-	UNBAN（非排除化）コマンドの使用を許可
+	Allowed to use UNBAN command
 CHAN_LEVEL_OPDEOP
-#	Allowed to use OP/DEOP commands
-	OP/DEOP（チャンネル運営者権の付与・剥奪）コマンドの使用を許可
+	Allowed to use OP/DEOP commands
 CHAN_LEVEL_ACCESS_LIST
-#	Allowed to view the access list
-	アクセスリストの閲覧を許可
+	Allowed to view the access list
 CHAN_LEVEL_ACCESS_CHANGE
-#	Allowed to modify the access list
-	アクセスリストの編集を許可
+	Allowed to modify the access list
 CHAN_LEVEL_MEMO
-#	Allowed to list/read channel memos
-	チャンネルメモのlist/readを許可
+	Allowed to list/read channel memos
 CHAN_LEVEL_ASSIGN
-#	Allowed to assign/unassign a bot
-	ボットのassign/unassign（割り当て・解除）を許可
+	Allowed to assign/unassign a bot
 CHAN_LEVEL_BADWORDS
-#	Allowed to use BADWORDS command
-	BADWORDS（NGワード）コマンドの使用を許可
+	Allowed to use BADWORDS command
 CHAN_LEVEL_NOKICK
-#	Never kicked by the bot's kickers
-	ボットによってキックされない
+	Never kicked by the bot's kickers
 CHAN_LEVEL_FANTASIA
-#	Allowed to use fantaisist commands
-	!op, !deop, !voice, !kick, !kb などのコマンド使用を許可
+	Allowed to use fantaisist commands
 CHAN_LEVEL_SAY
-#	Allowed to use SAY and ACT commands
-	SAY 及び ACT コマンドの使用を許可
+	Allowed to use SAY and ACT commands
 CHAN_LEVEL_GREET
-#	Greet message displayed
-	Greet（歓迎）メッセージの表示
+	Greet message displayed
 CHAN_LEVEL_VOICEME
-#	Allowed to (de)voice him/herself
-	自身へのVOICE/DEVOICE（発言権操作）を許可
+	Allowed to (de)voice him/herself
 CHAN_LEVEL_VOICE
-#	Allowed to use VOICE/DEVOICE commands
-	VOICE/DEVOICEコマンドの使用を許可
+	Allowed to use VOICE/DEVOICE commands
 CHAN_LEVEL_GETKEY
 	Allowed to use GETKEY command
 CHAN_LEVEL_OPDEOPME
@@ -1179,19 +1033,15 @@ CHAN_LEVEL_INFO
 
 # Automatic responses
 CHAN_IS_REGISTERED
-#	This channel has been registered with %s.
-	このチャンネルは既に %s により登録されています。
+	This channel has been registered with %s.
 CHAN_NOT_ALLOWED_OP
-#	You are not allowed chanop status on channel %s.
-	このチャンネルは使用できないことがあります。
+	You are not allowed chanop status on channel %s.
 CHAN_MAY_NOT_BE_USED
-#	This channel may not be used.
+	This channel may not be used.
 CHAN_NOT_ALLOWED_TO_JOIN
-#	You are not permitted to be on this channel.
-	このチャンネルへの参加は許可されていません。
+	You are not permitted to be on this channel.
 CHAN_X_INVALID
-#	Channel %s is not a valid channel.
-	チャンネル %s は無効なチャンネルです。
+	Channel %s is not a valid channel.
 
 # REGISTER responses
 CHAN_REGISTER_SYNTAX
@@ -1886,78 +1736,55 @@ CHAN_EXCEPTED
 
 # Automatic messages
 MEMO_HAVE_NEW_MEMO
-#	You have 1 new memo.
-	 1 通の新しいメモがあります。
+	You have 1 new memo.
 MEMO_HAVE_NEW_MEMOS
-#	You have %d new memos.
-	%d 通の新しいメモがあります。
+	You have %d new memos.
 MEMO_TYPE_READ_LAST
-#	Type %R%s READ LAST to read it.
-	%R%s READ LAST で最新のメモを読むことができます。
+	Type %R%s READ LAST to read it.
 MEMO_TYPE_READ_NUM
-#	Type %R%s READ %d to read it.
-	%R%s READ %d で %d 通のメモを読むことができます。
+	Type %R%s READ %d to read it.
 MEMO_TYPE_LIST_NEW
-#	Type %R%s LIST NEW to list them.
-	%R%s LIST NEW で新しいメモのリストが表示されます。
+	Type %R%s LIST NEW to list them.
 MEMO_AT_LIMIT
-#	Warning: You have reached your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
-	Warning: あなたが受け取れるメモの最大(%d)に達しました。現在のメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
+	Warning: You have reached your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
 MEMO_OVER_LIMIT
-#	Warning: You are over your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
-	Warning: 既にあなたが受け取れるメモの最大(%d)に達しています。今あるメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
+	Warning: You are over your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
 MEMO_X_MANY_NOTICE
-#	There are %d memos on channel %s.
-	チャンネル %s に %d 通のメモがあります。
+	There are %d memos on channel %s.
 MEMO_X_ONE_NOTICE
-#	There is %d memo on channel %s.
-	チャンネル %s に %d 通のメモがあります。
+	There is %d memo on channel %s.
 MEMO_NEW_X_MEMO_ARRIVED
-#	There is a new memo on channel %s.
-#	Type %R%s READ %s %d to read it.
-	チャンネル %s に新しいメモがあります。
-	メモを読むためには、%R%s READ %s %d とタイプしてください。
+	There is a new memo on channel %s.
+	Type %R%s READ %s %d to read it.
 MEMO_NEW_MEMO_ARRIVED
-#	You have a new memo from %s.
-#	Type %R%s READ %d to read it.
-	%s からあなた宛に新しいメモを受け取りました。
-	メモを読むためには、%R%s READ %d とタイプしてください。
+	You have a new memo from %s.
+	Type %R%s READ %d to read it.
 
 # Multi-use responses
 MEMO_HAVE_NO_MEMOS
-#	You have no memos.
-	メモを受け取っていません。
+	You have no memos.
 MEMO_X_HAS_NO_MEMOS
-#	%s has no memos.
-	%s はメモを受け取っていません。
+	%s has no memos.
 MEMO_DOES_NOT_EXIST
-#	Memo %d does not exist!
-	%d 番目ののメモが見つかりませんでした!
+	Memo %d does not exist!
 MEMO_LIST_NOT_FOUND
-#	No matching memos found.
-	条件にマッチするメモが見つかりませんでした。
+	No matching memos found.
 
 # SEND responses
 MEMO_SEND_SYNTAX
 	SEND {nick | channel} memo-text
 MEMO_SEND_DISABLED
-#	Sorry, memo sending is temporarily disabled.
-	ご迷惑をおかけして申し訳ございません。一時的にメモを送ることができない状態です。
+	Sorry, memo sending is temporarily disabled.
 MEMO_SEND_PLEASE_WAIT
-#	Please wait %d seconds before using the SEND command again.
-	%d 秒待ってからもう一度 SEND コマンドをやり直してください。
+	Please wait %d seconds before using the SEND command again.
 MEMO_X_GETS_NO_MEMOS
-#	%s cannot receive memos.
-	%s はメモを受け取ることができません。
+	%s cannot receive memos.
 MEMO_X_HAS_TOO_MANY_MEMOS
-#	%s currently has too many memos and cannot receive more.
-	%s はこれ以上メモを受け取ることができません。
+	%s currently has too many memos and cannot receive more.
 MEMO_SENT
-#	Memo sent to %s.
-	%s 宛てにメモを送信しました。
+	Memo sent to %s.
 MEMO_MASS_SENT
-#	A massmemo has been sent to all registered users.
-	登録済みのユーザ全員宛にメモの大量送信が行われました。
+	A massmemo has been sent to all registered users.
 	
 # STAFF responses
 MEMO_STAFF_SYNTAX
@@ -1967,39 +1794,29 @@ MEMO_STAFF_SYNTAX
 MEMO_CANCEL_SYNTAX
 	CANCEL {nick | channel}
 MEMO_CANCEL_DISABLED
-#	Sorry, memo canceling is temporarily disabled.
-	ご迷惑をおかけして申し訳ありません。一時的にメモの送信をキャンセルすることができない状態になっています。
+	Sorry, memo canceling is temporarily disabled.
 MEMO_CANCEL_NONE
-#	No memo was cancelable.
-	メモの送信がキャンセルされませんでした。
+	No memo was cancelable.
 MEMO_CANCELLED
 	Last memo to %s has been cancelled.
-	最新の %s 宛てのメモ送信がキャンセルされました。
 
 # LIST responses
 MEMO_LIST_SYNTAX
 	LIST [channel] [list | NEW]
 MEMO_HAVE_NO_NEW_MEMOS
-#	You have no new memos.
-	新しいメモを受け取っていません。
+	You have no new memos.
 MEMO_X_HAS_NO_NEW_MEMOS
-#	%s has no new memos.
-	%s は新しいメモを受け取っていません。
+	%s has no new memos.
 MEMO_LIST_MEMOS
-#	Memos for %s.  To read, type: %R%s READ num
-	%s 宛てのメモがあります。読むためには、%R%s READ num のように入力してください。
+	Memos for %s.  To read, type: %R%s READ num
 MEMO_LIST_NEW_MEMOS
-#	New memos for %s.  To read, type: %R%s READ num
-	%s 宛ての新しいメモがあります。読むためには、%R%s READ num のように入力してください。
+	New memos for %s.  To read, type: %R%s READ num
 MEMO_LIST_CHAN_MEMOS
-#	Memos for %s.  To read, type: %R%s READ %s num
-	%s 宛てのメモがあります。読むためには、%R%s READ %s num のように入力してください。
+	Memos for %s.  To read, type: %R%s READ %s num
 MEMO_LIST_CHAN_NEW_MEMOS
-#	New memos for %s.  To read, type: %R%s READ %s num
-	%s 宛ての新しいメモがあります。読むためには、 %R%s READ %s num のように入力してください。
+	New memos for %s.  To read, type: %R%s READ %s num
 MEMO_LIST_HEADER
-#	 Num  Sender            Date/Time
-	 番号 送信者            日付/時間
+	 Num  Sender            Date/Time
 MEMO_LIST_FORMAT
 	%c%3d  %-16s  %s
 
@@ -2007,11 +1824,9 @@ MEMO_LIST_FORMAT
 MEMO_READ_SYNTAX
 	READ [channel] {list | LAST | NEW}
 MEMO_HEADER
-#	Memo %d from %s (%s).  To delete, type: %R%s DEL %d
-	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、%R%s DEL %d のように入力してください。
+	Memo %d from %s (%s).  To delete, type: %R%s DEL %d
 MEMO_CHAN_HEADER
-#	Memo %d from %s (%s).  To delete, type: %R%s DEL %s %d
-	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、%R%s DEL %s %d のように入力してください。
+	Memo %d from %s (%s).  To delete, type: %R%s DEL %s %d
 MEMO_TEXT
 	%s
 
@@ -2019,55 +1834,41 @@ MEMO_TEXT
 MEMO_DEL_SYNTAX
 	DEL [channel] {num | list | ALL}
 MEMO_DELETED_NONE
-#	No memos were deleted.
-	これ以上メモを削除することはできません。
+	No memos were deleted.
 MEMO_DELETED_ONE
-#	Memo %d has been deleted.
-	%d 番目のメモを削除しました。
+	Memo %d has been deleted.
 MEMO_DELETED_SEVERAL
-#	Memos %s have been deleted.
-	%s のメモを削除しました。
+	Memos %s have been deleted.
 MEMO_DELETED_ALL
-#	All of your memos have been deleted.
-	あなた宛てのメモを全て削除しました。
+	All of your memos have been deleted.
 MEMO_CHAN_DELETED_ALL
-#	All memos for channel %s have been deleted.
-	チャンネル %s 宛てのすべてのメモを削除しました。
+	All memos for channel %s have been deleted.
 
 # SET responses
 MEMO_SET_SYNTAX
 	SET option parameters
 MEMO_SET_DISABLED
-#	Sorry, memo option setting is temporarily disabled.
-	ご迷惑をかけて申し訳ありません。メモ機能に対するオプション操作は一時的に使うことができない状態です。
+	Sorry, memo option setting is temporarily disabled.
 MEMO_SET_UNKNOWN_OPTION
-#	Unknown SET option %s.
-	SET に対して %s というオプションを使うことはできません。
+	Unknown SET option %s.
 
 # SET NOTIFY responses
 MEMO_SET_NOTIFY_SYNTAX
 	SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 MEMO_SET_NOTIFY_ON
-#	%s will now notify you of memos when you log on and when they are sent to you.
-	ログオン時と、あなた宛のメモが送られた時に、%s がメモの着信をお知らせします。
+	%s will now notify you of memos when you log on and when they are sent to you.
 MEMO_SET_NOTIFY_LOGON
-#	%s will now notify you of memos when you log on or unset /AWAY.
-	ログオンするかAWAYを解除した時に、%s がメモの着信をお知らせします。
+	%s will now notify you of memos when you log on or unset /AWAY.
 MEMO_SET_NOTIFY_NEW
-#	%s will now notify you of memos when they are sent to you.
-	あなた宛のメモが送られた時に、%s がメモの着信をお知らせします。
+	%s will now notify you of memos when they are sent to you.
 MEMO_SET_NOTIFY_OFF
-#	%s will not send you any notification of memos.
-	%s はメモの着信をお知らせしません。
+	%s will not send you any notification of memos.
 MEMO_SET_NOTIFY_MAIL
-#	You will now be informed about new memos via email.
-	email によるメモ着信のお知らせを有効にしました。
+	You will now be informed about new memos via email.
 MEMO_SET_NOTIFY_NOMAIL
-#	You will no longer be informed via email.
-	email によるメモ着信のお知らせを無効にしました。
+	You will no longer be informed via email.
 MEMO_SET_NOTIFY_INVALIDMAIL
-#	There's no email address set for your nick.
-	あなたのニックネームに対する email アドレスが見つかりません。
+	There's no email address set for your nick.
 
 # SET LIMIT responses
 MEMO_SET_LIMIT_SYNTAX
@@ -2075,38 +1876,27 @@ MEMO_SET_LIMIT_SYNTAX
 MEMO_SET_LIMIT_SERVADMIN_SYNTAX
 	SET LIMIT [user | channel] {limit | NONE} [HARD]
 MEMO_SET_YOUR_LIMIT_FORBIDDEN
-#	You are not permitted to change your memo limit.
-	あなたはメモ保存量の上限値を変える許可を持っていません。
+	You are not permitted to change your memo limit.
 MEMO_SET_LIMIT_FORBIDDEN
-#	The memo limit for %s may not be changed.
-	%s のメモ保存量の上限値は変わりませんでした。
+	The memo limit for %s may not be changed.
 MEMO_SET_YOUR_LIMIT_TOO_HIGH
-#	You cannot set your memo limit higher than %d.
-	メモ保存量の上限値を %d 以上にすることはできません。
+	You cannot set your memo limit higher than %d.
 MEMO_SET_LIMIT_TOO_HIGH
-#	You cannot set the memo limit for %s higher than %d.
-	%s のメモ保存量の上限値を %d 以上にすることはできません。
+	You cannot set the memo limit for %s higher than %d.
 MEMO_SET_LIMIT_OVERFLOW
-#	Memo limit too large; limiting to %d instead.
-	メモ保存量の上限値が大きすぎたため、%d に制限しました。
+	Memo limit too large; limiting to %d instead.
 MEMO_SET_YOUR_LIMIT
-#	Your memo limit has been set to %d.
-	あなたのメモ保存量の上限を %d にしました。
+	Your memo limit has been set to %d.
 MEMO_SET_YOUR_LIMIT_ZERO
-#	You will no longer be able to receive memos.
-	これ以上メモを受け取ることができません。
+	You will no longer be able to receive memos.
 MEMO_UNSET_YOUR_LIMIT
-#	Your memo limit has been disabled.
-	メモ保存量の上限値が無効になりました。
+	Your memo limit has been disabled.
 MEMO_SET_LIMIT
-#	Memo limit for %s set to %d.
-	%s のメモ保存量の上限が %d になりました。
+	Memo limit for %s set to %d.
 MEMO_SET_LIMIT_ZERO
-#	Memo limit for %s set to 0.
-	%s のメモ保存量の上限が 0 になりました。
+	Memo limit for %s set to 0.
 MEMO_UNSET_LIMIT
-#	Memo limit disabled for %s.
-	%s のメモ保存量の上限値が無効になりました。
+	Memo limit disabled for %s.
 
 # INFO responses
 MEMO_INFO_SYNTAX
@@ -2114,145 +1904,102 @@ MEMO_INFO_SYNTAX
 MEMO_INFO_SERVADMIN_SYNTAX
 	INFO [nick | channel]
 MEMO_INFO_NO_MEMOS
-#	You currently have no memos.
-	今のところ、あなた宛のメモはありません。
+	You currently have no memos.
 MEMO_INFO_MEMO
-#	You currently have 1 memo.
-	あなた宛のメモが 1 通あります。
+	You currently have 1 memo.
 MEMO_INFO_MEMO_UNREAD
-#	You currently have 1 memo, and it has not yet been read.
-	あなた宛のメモが 1 通あり、未読です。
+	You currently have 1 memo, and it has not yet been read.
 MEMO_INFO_MEMOS
-#	You currently have %d memos.
-	あなた宛のメモが %d 通あります。
+	You currently have %d memos.
 MEMO_INFO_MEMOS_ONE_UNREAD
-#	You currently have %d memos, of which 1 is unread.
-	あなた宛のメモが %d 通あり、1 通が未読です。
+	You currently have %d memos, of which 1 is unread.
 MEMO_INFO_MEMOS_SOME_UNREAD
-#	You currently have %d memos, of which %d are unread.
-	あなた宛のメモが %d 通あり、%d 通が未読です。
+	You currently have %d memos, of which %d are unread.
 MEMO_INFO_MEMOS_ALL_UNREAD
-#	You currently have %d memos; all of them are unread.
-	あなた宛のメモが %d 通あり、全て未読です。
+	You currently have %d memos; all of them are unread.
 MEMO_INFO_LIMIT
-#	Your memo limit is %d.
-	あなた宛のメモ保存量の上限値は %d です。
+	Your memo limit is %d.
 MEMO_INFO_HARD_LIMIT
-#	Your memo limit is %d, and may not be changed.
-	あなた宛のメモ保存量の上限値は %d で変わりません。
+	Your memo limit is %d, and may not be changed.
 MEMO_INFO_LIMIT_ZERO
-#	Your memo limit is 0; you will not receive any new memos.
-	あなた宛のメモ保存量の上限値は 0 でメモを受け取ることができない状態です。
+	Your memo limit is 0; you will not receive any new memos.
 MEMO_INFO_HARD_LIMIT_ZERO
-#	Your memo limit is 0; you will not receive any new memos.  You cannot change this limit.
-	あなた宛のメモ保存量の上限値は 0 でメモを受け取ることができない状態です。また、メモの上限値を変えることは出来ません。
+	Your memo limit is 0; you will not receive any new memos.  You cannot change this limit.
 MEMO_INFO_NO_LIMIT
-#	You have no limit on the number of memos you may keep.
-	あなた宛のメモ保存量の上限値が在りません。
+	You have no limit on the number of memos you may keep.
 MEMO_INFO_NOTIFY_OFF
-#	You will not be notified of new memos.
-	あなた宛の新着メモが到着してもお知らせしません。
+	You will not be notified of new memos.
 MEMO_INFO_NOTIFY_ON
-#	You will be notified of new memos at logon and when they arrive.
-	あなた宛の新着メモの到着をログオン時と受信時にお知らせします。
+	You will be notified of new memos at logon and when they arrive.
 MEMO_INFO_NOTIFY_RECEIVE
-#	You will be notified when new memos arrive.
-	あなた宛の新着メモの到着を受信時にお知らせします。
+	You will be notified when new memos arrive.
 MEMO_INFO_NOTIFY_SIGNON
-#	You will be notified of new memos at logon.
-	あなた宛の新着メモの到着をログオン時にお知らせします。
+	You will be notified of new memos at logon.
 MEMO_INFO_X_NO_MEMOS
-#	%s currently has no memos.
-	今のところ %s はメモを受け取っていません。
+	%s currently has no memos.
 MEMO_INFO_X_MEMO
-#	%s currently has 1 memo.
-	%s 宛てのメモが 1 通あります。
+	%s currently has 1 memo.
 MEMO_INFO_X_MEMO_UNREAD
-#	%s currently has 1 memo, and it has not yet been read.
-	%s 宛のメモが 1 通あり、未読です。
+	%s currently has 1 memo, and it has not yet been read.
 MEMO_INFO_X_MEMOS
-#	%s currently has %d memos.
-	%s 宛のメモが %d 通あります。
+	%s currently has %d memos.
 MEMO_INFO_X_MEMOS_ONE_UNREAD
-#	%s currently has %d memos, of which 1 is unread.
-	%s 宛のメモが %d 通あり、1 通が未読です。
+	%s currently has %d memos, of which 1 is unread.
 MEMO_INFO_X_MEMOS_SOME_UNREAD
-#	%s currently has %d memos, of which %d are unread.
-	%s 宛のメモが %d 通あり、%d 通が未読です。
+	%s currently has %d memos, of which %d are unread.
 MEMO_INFO_X_MEMOS_ALL_UNREAD
-#	%s currently has %d memos; all of them are unread.
-	%s 宛のメモが %d 通あり、全て未読です。
+	%s currently has %d memos; all of them are unread.
 MEMO_INFO_X_LIMIT
-#	%s's memo limit is %d.
-	%s 宛のメモ保存量の上限値は %d です。
+	%s's memo limit is %d.
 MEMO_INFO_X_HARD_LIMIT
-#	%s's memo limit is %d, and may not be changed.
-	%s 宛のメモ保存量の上限値は %d で変わりません。
+	%s's memo limit is %d, and may not be changed.
 MEMO_INFO_X_NO_LIMIT
-#	%s has no memo limit.
-	%s 宛てのメモ保存量の上限値が在りません。
+	%s has no memo limit.
 MEMO_INFO_X_NOTIFY_OFF
-#	%s is not notified of new memos.
-	%s 宛の新着メモを受け取ってもお知らせしません。
+	%s is not notified of new memos.
 MEMO_INFO_X_NOTIFY_ON
-#	%s is notified of new memos at logon and when they arrive.
-	%s 宛の新着メモの到着をログオン時と受信時にお知らせします。
+	%s is notified of new memos at logon and when they arrive.
 MEMO_INFO_X_NOTIFY_RECEIVE
-#	%s is notified when new memos arrive.
-	%s 宛の新着メモの到着を受信時にお知らせします。
+	%s is notified when new memos arrive.
 MEMO_INFO_X_NOTIFY_SIGNON
-#	%s is notified of news memos at logon.
-	%s 宛の新着メモの到着をログオン時にお知らせします。
+	%s is notified of news memos at logon.
 
 # Memo2Mail responses
 MEMO_MAIL_SUBJECT
-#	New memo
-	新着メモ
+	New memo
 MEMO_MAIL_TEXT1
-#	Hi %s
-	やぁ %s
+	Hi %s
 MEMO_MAIL_TEXT2
-#	You've just received a new memo from %s. This is memo number %d.
-	%s からの新着メモが到着しました。メモ番号は %d です。
+	You've just received a new memo from %s. This is memo number %d.
 MEMO_MAIL_TEXT3
 	Memo Text:
-	メモ内容:
 
 # RSEND responses
 MEMO_RSEND_PLEASE_WAIT
-#	Please wait %d seconds before using the RSEND command again.
-	RSEND  コマンドを使う前に %d 秒待ってください。
+	Please wait %d seconds before using the RSEND command again.
 MEMO_RSEND_DISABLED
-#	Sorry, RSEND has been disabled on this network.
-	ご迷惑をかけて申し訳ございません。RSEND コマンドをこのネットワークで使うことはできません。
+	Sorry, RSEND has been disabled on this network.
 MEMO_RSEND_SYNTAX
 	RSEND {nick | channel} memo-text
 MEMO_RSEND_NICK_MEMO_TEXT
-#	[auto-memo] The memo you sent has been viewed.
-	[auto-memo] あなたが送信したメモが表示されています。
+	[auto-memo] The memo you sent has been viewed.
 MEMO_RSEND_CHAN_MEMO_TEXT
-#	[auto-memo] The memo you sent to %s has been viewed.
-	[auto-memo] あなたが %s 宛てに送信したメモが表示されています。
+	[auto-memo] The memo you sent to %s has been viewed.
 MEMO_RSEND_USER_NOTIFICATION
-#	A notification memo has been sent to %s informing him/her you have
-#	read his/her memo.
-	%s 宛てにあなたが %s からのメモを開封したことを示すメモが送信されました。
+	A notification memo has been sent to %s informing him/her you have
+	read his/her memo.
 
 # CHECK responses
 MEMO_CHECK_SYNTAX
 	CHECK nickname
 MEMO_CHECK_NOT_READ
-#	The last memo you sent to %s (sent on %s) has not yet been read.
-	あなたが %s 宛てに送信した最新のメモは未開封のままです。
+	The last memo you sent to %s (sent on %s) has not yet been read.
 MEMO_CHECK_READ
-#	The last memo you sent to %s (sent on %s) has been read.
-	あなたが %s 宛てに送信した最新のメモが開封されました。
+	The last memo you sent to %s (sent on %s) has been read.
 MEMO_CHECK_NO_MEMO
-#	Nick %s doesn't have a memo from you.
-	あなたはニックネーム %s 宛てのメモを送信していません。
+	Nick %s doesn't have a memo from you.
 MEMO_NO_RSEND_SELF
-#	You can not request a receipt when sending a memo to yourself.
-	自分から自分宛てのメモをに対する開封確認をすることはできません。
+	You can not request a receipt when sending a memo to yourself.
 
 ###########################################################################
 #
@@ -3575,37 +3322,29 @@ NEWS_HELP_RANDOM
 ###########################################################################
 
 HELP_HELP
-#	%S is a service designed to give out information on
-#	Services.  Help topics are accessible via 
-#	the HELP commands of the other Services clients:
-	%Sはサービスについての情報を伝えるためのサービスです。
-	他のサービスクライアントについてのHELPコマンドにより、
-	ヘルプ項目を読むことができます。
+	%S is a service designed to give out information on
+	Services.  Help topics are accessible via 
+	the HELP commands of the other Services clients:
 
 	%R%s HELP
-#	     for information on registering nicknames
-	     ニックネーム登録についての情報。
+	     for information on registering nicknames
 
 	%R%s HELP
-#	     for information on registering and controlling
-#	     channels
-	     ニックネームとチャンネルの登録及び管理についての情報。
+	     for information on registering and controlling
+	     channels
 
 	%R%s HELP
-#	     for information on sending messages to off-line users
-	     現在接続していないユーザにメッセージを送る事についての情報。
+	     for information on sending messages to off-line users
 
 HELP_HELP_BOT
 
 	%R%s HELP
-#	     for information on setting up a bot on your channel
-	     自分のチャンネルにボットを設置する事についての情報。
+	     for information on setting up a bot on your channel
 
 HELP_HELP_HOST
 
 	%R%s HELP
-#	     for information on setting up nick vHosts
-	     仮想ホストを設置する事についての情報。
+	     for information on setting up nick vHosts
 
 ###########################################################################
 #
@@ -3614,80 +3353,55 @@ HELP_HELP_HOST
 ###########################################################################
 
 NICK_HELP_CMD_CONFIRM
-#	    CONFIRM    Confirm a nickserv auth code
-	    CONFIRM    NickServの証明コード（auth code）を確認する。
+	    CONFIRM    Confirm a nickserv auth code
 NICK_HELP_CMD_RESEND
-#	    RESEND     Resend a nickserv auth code
-	    RESEND     NickServの証明コード（auth code）を再送りする。
+	    RESEND     Resend a nickserv auth code
 NICK_HELP_CMD_REGISTER
-#	    REGISTER   Register a nickname
-	    REGISTER   ニックネームを登録する。
+	    REGISTER   Register a nickname
 NICK_HELP_CMD_GROUP
-#	    GROUP      Join a group
-	    GROUP      グループに加わる。
+	    GROUP      Join a group
 NICK_HELP_CMD_IDENTIFY
-#	    IDENTIFY   Identify yourself with your password
-	    IDENTIFY   自分をパスワードで証明する。
+	    IDENTIFY   Identify yourself with your password
 NICK_HELP_CMD_ACCESS
-#	    ACCESS     Modify the list of authorized addresses
-	    ACCESS     許可されているアドレス表を編集する。
+	    ACCESS     Modify the list of authorized addresses
 NICK_HELP_CMD_SET
-#	    SET        Set options, including kill protection
-	    SET        オプションの設定、殺し(KILL)防衛を含む。
+	    SET        Set options, including kill protection
 NICK_HELP_CMD_SASET
-#	    SASET      Set SET-options on another nickname
-	    SASET      別のニックネームにSETオプションを設定する。
+	    SASET      Set SET-options on another nickname
 NICK_HELP_CMD_DROP
-#	    DROP       Cancel the registration of a nickname
-	    DROP       ニックネーム登録を解除する。
+	    DROP       Cancel the registration of a nickname
 NICK_HELP_CMD_RECOVER
-#	    RECOVER    Kill another user who has taken your nick
-	    RECOVER    貴方のニックネームを使っているユーザを殺す(KILL)。
+	    RECOVER    Kill another user who has taken your nick
 NICK_HELP_CMD_RELEASE
-#	    RELEASE    Regain custody of your nick after RECOVER
-	    RELEASE    RECOVERの後でニックネームを取り戻す。
+	    RELEASE    Regain custody of your nick after RECOVER
 NICK_HELP_CMD_SENDPASS
-#	    SENDPASS   Forgot your password? Try this
-	    SENDPASS   パスワードを登録してるメールアドレスに送る。
+	    SENDPASS   Forgot your password? Try this
 NICK_HELP_CMD_GHOST
-#	    GHOST      Disconnects a "ghost" IRC session using your nick
-	    GHOST      貴方のニックネームを使ってるIRC「ゴースト」セッションを切断する。
+	    GHOST      Disconnects a "ghost" IRC session using your nick
 NICK_HELP_CMD_ALIST
-#	    ALIST      List channels you have access on
-	    ALIST      貴方にアクセスが許可されてるチャンネルを表示する。
+	    ALIST      List channels you have access on
 NICK_HELP_CMD_GLIST
-#	    GLIST      Lists all nicknames in your group
-	    GLIST      貴方のグループ内の全てのニックネームを表示する。
+	    GLIST      Lists all nicknames in your group
 NICK_HELP_CMD_INFO
-#	    INFO       Displays information about a given nickname
-	    INFO       指定されたニックネームについての情報を表示する。
+	    INFO       Displays information about a given nickname
 NICK_HELP_CMD_LIST
-#	    LIST       List all registered nicknames that match a given pattern
-	    LIST       指定されたパターンに合う登録されてる全てのニックネームを表示する。
+	    LIST       List all registered nicknames that match a given pattern
 NICK_HELP_CMD_LOGOUT
-#	    LOGOUT     Reverses the effect of the IDENTIFY command
-	    LOGOUT     IDENTIFYコマンドの効果を取り消す。
+	    LOGOUT     Reverses the effect of the IDENTIFY command
 NICK_HELP_CMD_STATUS
-#	    STATUS     Returns the owner status of the given nickname
-	    STATUS     指定されたニックネームの持ち主状態を出力する。
+	    STATUS     Returns the owner status of the given nickname
 NICK_HELP_CMD_UPDATE
-#	    UPDATE     Updates your current status, i.e. it checks for new memos
-	    UPDATE     貴方の現在の状態を更新する。例：新しいメモが届いたかを確認する。
+	    UPDATE     Updates your current status, i.e. it checks for new memos
 NICK_HELP_CMD_GETPASS
-#	    GETPASS    Retrieve the password for a nickname
-	    GETPASS    指定されたニックネームのパスワードを出力する。
+	    GETPASS    Retrieve the password for a nickname
 NICK_HELP_CMD_GETEMAIL
-#	    GETEMAIL   Matches and returns all users that registered using given email
-	    GETEMAIL   指定されたメールアドレスで登録されてる全てのユーザを出力する。
+	    GETEMAIL   Matches and returns all users that registered using given email
 NICK_HELP_CMD_FORBID
-#	    FORBID     Prevents a nickname from being registered
-	    FORBID     指定されたニックネームを登録禁止にする。
+	    FORBID     Prevents a nickname from being registered
 NICK_HELP_CMD_SUSPEND
-#	    SUSPEND    Suspend a given nick
-	    SUSPEND    指定されたニックネームを使用禁止にする。
+	    SUSPEND    Suspend a given nick
 NICK_HELP_CMD_UNSUSPEND
-#	    UNSUSPEND  Unsuspend a given nick
-	    UNSUSPEND  指定されたニックネームの使用禁止を解除する。
+	    UNSUSPEND  Unsuspend a given nick
 
 NICK_HELP
 	%S allows you to "register" a nickname and
