@@ -2399,7 +2399,8 @@ BOT_ASSIGN_ASSIGNED
 BOT_UNASSIGN_SYNTAX
 	UNASSIGN chan
 BOT_UNASSIGN_UNASSIGNED
-	There is no bot assigned to %s anymore.
+#	There is no bot assigned to %s anymore.
+	%s からボットを削除しました。
 	
 # INFO responses
 BOT_INFO_SYNTAX
