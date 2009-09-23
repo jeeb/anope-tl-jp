@@ -1993,19 +1993,26 @@ MEMO_SET_UNKNOWN_OPTION
 MEMO_SET_NOTIFY_SYNTAX
 	SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 MEMO_SET_NOTIFY_ON
-	%s will now notify you of memos when you log on and when they are sent to you.
+#	%s will now notify you of memos when you log on and when they are sent to you.
+	ログオン時と、あなた宛のメモが送られた時に、%s がメモの着信をお知らせします。
 MEMO_SET_NOTIFY_LOGON
-	%s will now notify you of memos when you log on or unset /AWAY.
+#	%s will now notify you of memos when you log on or unset /AWAY.
+	ログオンするかAWAYを解除した時に、%s がメモの着信をお知らせします。
 MEMO_SET_NOTIFY_NEW
-	%s will now notify you of memos when they are sent to you.
+#	%s will now notify you of memos when they are sent to you.
+	あなた宛のメモが送られた時に、%s がメモの着信をお知らせします。
 MEMO_SET_NOTIFY_OFF
-	%s will not send you any notification of memos.
+#	%s will not send you any notification of memos.
+	%s はメモの着信をお知らせしません。
 MEMO_SET_NOTIFY_MAIL
-	You will now be informed about new memos via email.
+#	You will now be informed about new memos via email.
+	email によるメモ着信のお知らせを有効にしました。
 MEMO_SET_NOTIFY_NOMAIL
-	You will no longer be informed via email.
+#	You will no longer be informed via email.
+	email によるメモ着信のお知らせを無効にしました。
 MEMO_SET_NOTIFY_INVALIDMAIL
-	There's no email address set for your nick.
+#	There's no email address set for your nick.
+	あなたのニックネームに対する email アドレスが見つかりません。
 
 # SET LIMIT responses
 MEMO_SET_LIMIT_SYNTAX
