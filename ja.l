@@ -2590,23 +2590,28 @@ BOT_SET_NOBOT_OFF
 BOT_SET_PRIVATE_SYNTAX
 	SET botname PRIVATE {ON|OFF}
 BOT_SET_PRIVATE_ON
-	Private mode of bot %s is now ON.
+#	Private mode of bot %s is now ON.
+	ボット %s のプライベートモードが 有効化 されました。
 BOT_SET_PRIVATE_OFF
-	Private mode of bot %s is now OFF.
+#	Private mode of bot %s is now OFF.
+	ボット %s のプライベートモードが 無効化 されました。
 
 # SET SYMBIOSIS
 BOT_SET_SYMBIOSIS_SYNTAX
 	SET channel SYMBIOSIS {ON|OFF}
 BOT_SET_SYMBIOSIS_ON
-	Symbiosis mode is now ON on channel %s.
+#	Symbiosis mode is now ON on channel %s.
+	チャンネル %s で Symbiosis モードが有効化 されました。
 BOT_SET_SYMBIOSIS_OFF
-	Symbiosis mode is now OFF on channel %s.
+#	Symbiosis mode is now OFF on channel %s.
+	チャンネル %s で Symbiosis モードが無効化 されました。
 	
 # KICK responses
 BOT_KICK_SYNTAX
 	KICK channel option {ON|OFF} [settings]
 BOT_KICK_DISABLED
 	Sorry, kicker configuration is temporarily disabled.
+	ご迷惑をかけて申し訳ありません。キッカー設定は一時的にすることができない状態になっています。
 BOT_KICK_UNKNOWN
 	Unknown option %s.
 	Type %R%S HELP KICK for more information.
