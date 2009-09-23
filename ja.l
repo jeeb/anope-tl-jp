@@ -1953,8 +1953,10 @@ MEMO_READ_SYNTAX
 	READ [channel] {list | LAST | NEW}
 MEMO_HEADER
 	Memo %d from %s (%s).  To delete, type: %R%s DEL %d
+	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、%R%s DEL %d のように入力してください。
 MEMO_CHAN_HEADER
 	Memo %d from %s (%s).  To delete, type: %R%s DEL %s %d
+	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、%R%s DEL %s %d のように入力してください。
 MEMO_TEXT
 	%s
 
