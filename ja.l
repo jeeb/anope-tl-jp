@@ -2368,14 +2368,19 @@ BOT_BOT_DELETED
 	
 # BOTLIST responses
 BOT_BOTLIST_HEADER
-	Bot list:
+#	Bot list:
+	ボットリスト:
 BOT_BOTLIST_PRIVATE_HEADER
-	Bots reserved to IRC operators:
+#	Bots reserved to IRC operators:
+	オペレータに管理されているボット:
 BOT_BOTLIST_FOOTER
-	%d bots available.
+#	%d bots available.
+	%d 個のボットが活動中です。
 BOT_BOTLIST_EMPTY
-	There are no bots available at this time.
-	Ask a Services admin to create one!
+#	There are no bots available at this time.
+#	Ask a Services admin to create one!
+	現在活動中のボットはいません。
+	サーバオペレータに1つボットを作るように要請してください!
 	
 # ASSIGN responses
 BOT_ASSIGN_SYNTAX
