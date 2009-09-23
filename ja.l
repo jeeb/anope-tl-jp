@@ -1886,55 +1886,78 @@ CHAN_EXCEPTED
 
 # Automatic messages
 MEMO_HAVE_NEW_MEMO
-	You have 1 new memo.
+#	You have 1 new memo.
+	 1 件の新しいメモがあります。
 MEMO_HAVE_NEW_MEMOS
-	You have %d new memos.
+#	You have %d new memos.
+	%d 件の新しいメモがあります。
 MEMO_TYPE_READ_LAST
-	Type %R%s READ LAST to read it.
+#	Type %R%s READ LAST to read it.
+	%R%s READ LAST で最新のメモを読むことができます。
 MEMO_TYPE_READ_NUM
-	Type %R%s READ %d to read it.
+#	Type %R%s READ %d to read it.
+	%R%s READ %d で %d 件のメモを読むことができます。
 MEMO_TYPE_LIST_NEW
-	Type %R%s LIST NEW to list them.
+#	Type %R%s LIST NEW to list them.
+	%R%s LIST NEW で新しいメモのリストが表示されます。
 MEMO_AT_LIMIT
-	Warning: You have reached your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
+#	Warning: You have reached your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
+	Warning: あなたが受け取れるメモの最大(%d)に達しました。現在のメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
 MEMO_OVER_LIMIT
-	Warning: You are over your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
+#	Warning: You are over your maximum number of memos (%d).  You will be unable to receive any new memos until you delete some of your current ones.
+	Warning: 既にあなたが受け取れるメモの最大(%d)に達しています。今あるメモを削除しない限り、これ以上の新しいメモを受け取ることはできません。
 MEMO_X_MANY_NOTICE
-	There are %d memos on channel %s.
+#	There are %d memos on channel %s.
+	チャンネル %s に %d 件のメモがあります。
 MEMO_X_ONE_NOTICE
-	There is %d memo on channel %s.
+#	There is %d memo on channel %s.
+	チャンネル %s に %d 件のメモがあります。
 MEMO_NEW_X_MEMO_ARRIVED
-	There is a new memo on channel %s.
-	Type %R%s READ %s %d to read it.
+#	There is a new memo on channel %s.
+#	Type %R%s READ %s %d to read it.
+	チャンネル %s に新しいメモがあります。
+	メモを読むためには、%R%s READ %s %d とタイプしてください。
 MEMO_NEW_MEMO_ARRIVED
-	You have a new memo from %s.
-	Type %R%s READ %d to read it.
+#	You have a new memo from %s.
+#	Type %R%s READ %d to read it.
+	%s からあなた宛に新しいメモを受け取りました。
+	メモを読むためには、%R%s READ %d とタイプしてください。
 
 # Multi-use responses
 MEMO_HAVE_NO_MEMOS
-	You have no memos.
+#	You have no memos.
+	メモを受け取っていません。
 MEMO_X_HAS_NO_MEMOS
-	%s has no memos.
+#	%s has no memos.
+	%s はメモを受け取っていません。
 MEMO_DOES_NOT_EXIST
-	Memo %d does not exist!
+#	Memo %d does not exist!
+	%d 番目ののメモが見つかりませんでした!
 MEMO_LIST_NOT_FOUND
-	No matching memos found.
+#	No matching memos found.
+	条件にマッチするメモが見つかりませんでした。
 
 # SEND responses
 MEMO_SEND_SYNTAX
 	SEND {nick | channel} memo-text
 MEMO_SEND_DISABLED
-	Sorry, memo sending is temporarily disabled.
+#	Sorry, memo sending is temporarily disabled.
+	ご迷惑をおかけして申し訳ございません。一時的にメモを送ることができない状態です。
 MEMO_SEND_PLEASE_WAIT
-	Please wait %d seconds before using the SEND command again.
+#	Please wait %d seconds before using the SEND command again.
+	%d 秒待ってからもう一度 SEND コマンドをやり直してください。
 MEMO_X_GETS_NO_MEMOS
-	%s cannot receive memos.
+#	%s cannot receive memos.
+	%s はメモを受け取ることができません。
 MEMO_X_HAS_TOO_MANY_MEMOS
-	%s currently has too many memos and cannot receive more.
+#	%s currently has too many memos and cannot receive more.
+	%s はこれ以上メモを受け取ることができません。
 MEMO_SENT
-	Memo sent to %s.
+#	Memo sent to %s.
+	%s 宛てにメモを送信しました。
 MEMO_MASS_SENT
-	A massmemo has been sent to all registered users.
+#	A massmemo has been sent to all registered users.
+	登録済みのユーザ全員宛にメモの大量送信が行われました。
 	
 # STAFF responses
 MEMO_STAFF_SYNTAX
@@ -1944,29 +1967,39 @@ MEMO_STAFF_SYNTAX
 MEMO_CANCEL_SYNTAX
 	CANCEL {nick | channel}
 MEMO_CANCEL_DISABLED
-	Sorry, memo canceling is temporarily disabled.
+#	Sorry, memo canceling is temporarily disabled.
+	ご迷惑をおかけして申し訳ありません。一時的にメモの送信をキャンセルすることができない状態になっています。
 MEMO_CANCEL_NONE
-	No memo was cancelable.
+#	No memo was cancelable.
+	メモの送信がキャンセルされませんでした。
 MEMO_CANCELLED
 	Last memo to %s has been cancelled.
+	最新の %s 宛てのメモ送信がキャンセルされました。
 
 # LIST responses
 MEMO_LIST_SYNTAX
 	LIST [channel] [list | NEW]
 MEMO_HAVE_NO_NEW_MEMOS
-	You have no new memos.
+#	You have no new memos.
+	新しいメモを受け取っていません。
 MEMO_X_HAS_NO_NEW_MEMOS
-	%s has no new memos.
+#	%s has no new memos.
+	%s は新しいメモを受け取っていません。
 MEMO_LIST_MEMOS
-	Memos for %s.  To read, type: %R%s READ num
+#	Memos for %s.  To read, type: %R%s READ num
+	%s 宛てのメモがあります。読むためには、%R%s READ num のように入力してください。
 MEMO_LIST_NEW_MEMOS
-	New memos for %s.  To read, type: %R%s READ num
+#	New memos for %s.  To read, type: %R%s READ num
+	%s 宛ての新しいメモがあります。読むためには、%R%s READ num のように入力してください。
 MEMO_LIST_CHAN_MEMOS
-	Memos for %s.  To read, type: %R%s READ %s num
+#	Memos for %s.  To read, type: %R%s READ %s num
+	%s 宛てのメモがあります。読むためには、%R%s READ %s num のように入力してください。
 MEMO_LIST_CHAN_NEW_MEMOS
-	New memos for %s.  To read, type: %R%s READ %s num
+#	New memos for %s.  To read, type: %R%s READ %s num
+	%s 宛ての新しいメモがあります。読むためには、 %R%s READ %s num のように入力してください。
 MEMO_LIST_HEADER
-	 Num  Sender            Date/Time
+#	 Num  Sender            Date/Time
+	 番号 送信者            日付/時間
 MEMO_LIST_FORMAT
 	%c%3d  %-16s  %s
 
@@ -1974,9 +2007,11 @@ MEMO_LIST_FORMAT
 MEMO_READ_SYNTAX
 	READ [channel] {list | LAST | NEW}
 MEMO_HEADER
-	Memo %d from %s (%s).  To delete, type: %R%s DEL %d
+#	Memo %d from %s (%s).  To delete, type: %R%s DEL %d
+	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、%R%s DEL %d のように入力してください。
 MEMO_CHAN_HEADER
-	Memo %d from %s (%s).  To delete, type: %R%s DEL %s %d
+#	Memo %d from %s (%s).  To delete, type: %R%s DEL %s %d
+	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、%R%s DEL %s %d のように入力してください。
 MEMO_TEXT
 	%s
 
@@ -1984,41 +2019,55 @@ MEMO_TEXT
 MEMO_DEL_SYNTAX
 	DEL [channel] {num | list | ALL}
 MEMO_DELETED_NONE
-	No memos were deleted.
+#	No memos were deleted.
+	これ以上メモを削除することはできません。
 MEMO_DELETED_ONE
-	Memo %d has been deleted.
+#	Memo %d has been deleted.
+	%d 番目のメモを削除しました。
 MEMO_DELETED_SEVERAL
-	Memos %s have been deleted.
+#	Memos %s have been deleted.
+	%s のメモを削除しました。
 MEMO_DELETED_ALL
-	All of your memos have been deleted.
+#	All of your memos have been deleted.
+	あなた宛てのメモを全て削除しました。
 MEMO_CHAN_DELETED_ALL
-	All memos for channel %s have been deleted.
+#	All memos for channel %s have been deleted.
+	チャンネル %s 宛てのすべてのメモを削除しました。
 
 # SET responses
 MEMO_SET_SYNTAX
 	SET option parameters
 MEMO_SET_DISABLED
-	Sorry, memo option setting is temporarily disabled.
+#	Sorry, memo option setting is temporarily disabled.
+	ご迷惑をかけて申し訳ありません。メモ機能に対するオプション操作は一時的に使うことができない状態です。
 MEMO_SET_UNKNOWN_OPTION
-	Unknown SET option %s.
+#	Unknown SET option %s.
+	SET に対して %s というオプションを使うことはできません。
 
 # SET NOTIFY responses
 MEMO_SET_NOTIFY_SYNTAX
 	SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 MEMO_SET_NOTIFY_ON
-	%s will now notify you of memos when you log on and when they are sent to you.
+#	%s will now notify you of memos when you log on and when they are sent to you.
+	ログオン時と、あなた宛のメモが送られた時に、%s がメモの着信をお知らせします。
 MEMO_SET_NOTIFY_LOGON
-	%s will now notify you of memos when you log on or unset /AWAY.
+#	%s will now notify you of memos when you log on or unset /AWAY.
+	ログオンするかAWAYを解除した時に、%s がメモの着信をお知らせします。
 MEMO_SET_NOTIFY_NEW
-	%s will now notify you of memos when they are sent to you.
+#	%s will now notify you of memos when they are sent to you.
+	あなた宛のメモが送られた時に、%s がメモの着信をお知らせします。
 MEMO_SET_NOTIFY_OFF
-	%s will not send you any notification of memos.
+#	%s will not send you any notification of memos.
+	%s はメモの着信をお知らせしません。
 MEMO_SET_NOTIFY_MAIL
-	You will now be informed about new memos via email.
+#	You will now be informed about new memos via email.
+	email によるメモ着信のお知らせを有効にしました。
 MEMO_SET_NOTIFY_NOMAIL
-	You will no longer be informed via email.
+#	You will no longer be informed via email.
+	email によるメモ着信のお知らせを無効にしました。
 MEMO_SET_NOTIFY_INVALIDMAIL
-	There's no email address set for your nick.
+#	There's no email address set for your nick.
+	あなたのニックネームに対する email アドレスが見つかりません。
 
 # SET LIMIT responses
 MEMO_SET_LIMIT_SYNTAX
@@ -2026,27 +2075,38 @@ MEMO_SET_LIMIT_SYNTAX
 MEMO_SET_LIMIT_SERVADMIN_SYNTAX
 	SET LIMIT [user | channel] {limit | NONE} [HARD]
 MEMO_SET_YOUR_LIMIT_FORBIDDEN
-	You are not permitted to change your memo limit.
+#	You are not permitted to change your memo limit.
+	あなたはメモ保存量の上限値を変える許可を持っていません。
 MEMO_SET_LIMIT_FORBIDDEN
-	The memo limit for %s may not be changed.
+#	The memo limit for %s may not be changed.
+	%s のメモ保存量の上限値は変わりませんでした。
 MEMO_SET_YOUR_LIMIT_TOO_HIGH
-	You cannot set your memo limit higher than %d.
+#	You cannot set your memo limit higher than %d.
+	メモ保存量の上限値を %d 以上にすることはできません。
 MEMO_SET_LIMIT_TOO_HIGH
-	You cannot set the memo limit for %s higher than %d.
+#	You cannot set the memo limit for %s higher than %d.
+	%s のメモ保存量の上限値を %d 以上にすることはできません。
 MEMO_SET_LIMIT_OVERFLOW
-	Memo limit too large; limiting to %d instead.
+#	Memo limit too large; limiting to %d instead.
+	メモ保存量の上限値が大きすぎたため、%d に制限しました。
 MEMO_SET_YOUR_LIMIT
-	Your memo limit has been set to %d.
+#	Your memo limit has been set to %d.
+	あなたのメモ保存量の上限を %d にしました。
 MEMO_SET_YOUR_LIMIT_ZERO
-	You will no longer be able to receive memos.
+#	You will no longer be able to receive memos.
+	これ以上メモを受け取ることができません。
 MEMO_UNSET_YOUR_LIMIT
-	Your memo limit has been disabled.
+#	Your memo limit has been disabled.
+	メモ保存量の上限値が無効になりました。
 MEMO_SET_LIMIT
-	Memo limit for %s set to %d.
+#	Memo limit for %s set to %d.
+	%s のメモ保存量の上限が %d になりました。
 MEMO_SET_LIMIT_ZERO
-	Memo limit for %s set to 0.
+#	Memo limit for %s set to 0.
+	%s のメモ保存量の上限が 0 になりました。
 MEMO_UNSET_LIMIT
-	Memo limit disabled for %s.
+#	Memo limit disabled for %s.
+	%s のメモ保存量の上限値が無効になりました。
 
 # INFO responses
 MEMO_INFO_SYNTAX
@@ -2054,102 +2114,145 @@ MEMO_INFO_SYNTAX
 MEMO_INFO_SERVADMIN_SYNTAX
 	INFO [nick | channel]
 MEMO_INFO_NO_MEMOS
-	You currently have no memos.
+#	You currently have no memos.
+	今のところ、あなた宛のメモはありません。
 MEMO_INFO_MEMO
-	You currently have 1 memo.
+#	You currently have 1 memo.
+	あなた宛のメモが 1 通あります。
 MEMO_INFO_MEMO_UNREAD
-	You currently have 1 memo, and it has not yet been read.
+#	You currently have 1 memo, and it has not yet been read.
+	あなた宛のメモが 1 通あり、未読です。
 MEMO_INFO_MEMOS
-	You currently have %d memos.
+#	You currently have %d memos.
+	あなた宛のメモが %d 通あります。
 MEMO_INFO_MEMOS_ONE_UNREAD
-	You currently have %d memos, of which 1 is unread.
+#	You currently have %d memos, of which 1 is unread.
+	あなた宛のメモが %d 通あり、1 通が未読です。
 MEMO_INFO_MEMOS_SOME_UNREAD
-	You currently have %d memos, of which %d are unread.
+#	You currently have %d memos, of which %d are unread.
+	あなた宛のメモが %d 通あり、%d 通が未読です。
 MEMO_INFO_MEMOS_ALL_UNREAD
-	You currently have %d memos; all of them are unread.
+#	You currently have %d memos; all of them are unread.
+	あなた宛のメモが %d 通あり、全て未読です。
 MEMO_INFO_LIMIT
-	Your memo limit is %d.
+#	Your memo limit is %d.
+	あなた宛のメモ保存量の上限値は %d です。
 MEMO_INFO_HARD_LIMIT
-	Your memo limit is %d, and may not be changed.
+#	Your memo limit is %d, and may not be changed.
+	あなた宛のメモ保存量の上限値は %d で変わりません。
 MEMO_INFO_LIMIT_ZERO
-	Your memo limit is 0; you will not receive any new memos.
+#	Your memo limit is 0; you will not receive any new memos.
+	あなた宛のメモ保存量の上限値は 0 でメモを受け取ることができない状態です。
 MEMO_INFO_HARD_LIMIT_ZERO
-	Your memo limit is 0; you will not receive any new memos.  You cannot change this limit.
+#	Your memo limit is 0; you will not receive any new memos.  You cannot change this limit.
+	あなた宛のメモ保存量の上限値は 0 でメモを受け取ることができない状態です。また、メモの上限値を変えることは出来ません。
 MEMO_INFO_NO_LIMIT
-	You have no limit on the number of memos you may keep.
+#	You have no limit on the number of memos you may keep.
+	あなた宛のメモ保存量の上限値が在りません。
 MEMO_INFO_NOTIFY_OFF
-	You will not be notified of new memos.
+#	You will not be notified of new memos.
+	あなた宛の新着メモが到着してもお知らせしません。
 MEMO_INFO_NOTIFY_ON
-	You will be notified of new memos at logon and when they arrive.
+#	You will be notified of new memos at logon and when they arrive.
+	あなた宛の新着メモの到着をログオン時と受信時にお知らせします。
 MEMO_INFO_NOTIFY_RECEIVE
-	You will be notified when new memos arrive.
+#	You will be notified when new memos arrive.
+	あなた宛の新着メモの到着を受信時にお知らせします。
 MEMO_INFO_NOTIFY_SIGNON
-	You will be notified of new memos at logon.
+#	You will be notified of new memos at logon.
+	あなた宛の新着メモの到着をログオン時にお知らせします。
 MEMO_INFO_X_NO_MEMOS
-	%s currently has no memos.
+#	%s currently has no memos.
+	今のところ %s はメモを受け取っていません。
 MEMO_INFO_X_MEMO
-	%s currently has 1 memo.
+#	%s currently has 1 memo.
+	%s 宛てのメモが 1 通あります。
 MEMO_INFO_X_MEMO_UNREAD
-	%s currently has 1 memo, and it has not yet been read.
+#	%s currently has 1 memo, and it has not yet been read.
+	%s 宛のメモが 1 通あり、未読です。
 MEMO_INFO_X_MEMOS
-	%s currently has %d memos.
+#	%s currently has %d memos.
+	%s 宛のメモが %d 通あります。
 MEMO_INFO_X_MEMOS_ONE_UNREAD
-	%s currently has %d memos, of which 1 is unread.
+#	%s currently has %d memos, of which 1 is unread.
+	%s 宛のメモが %d 通あり、1 通が未読です。
 MEMO_INFO_X_MEMOS_SOME_UNREAD
-	%s currently has %d memos, of which %d are unread.
+#	%s currently has %d memos, of which %d are unread.
+	%s 宛のメモが %d 通あり、%d 通が未読です。
 MEMO_INFO_X_MEMOS_ALL_UNREAD
-	%s currently has %d memos; all of them are unread.
+#	%s currently has %d memos; all of them are unread.
+	%s 宛のメモが %d 通あり、全て未読です。
 MEMO_INFO_X_LIMIT
-	%s's memo limit is %d.
+#	%s's memo limit is %d.
+	%s 宛のメモ保存量の上限値は %d です。
 MEMO_INFO_X_HARD_LIMIT
-	%s's memo limit is %d, and may not be changed.
+#	%s's memo limit is %d, and may not be changed.
+	%s 宛のメモ保存量の上限値は %d で変わりません。
 MEMO_INFO_X_NO_LIMIT
-	%s has no memo limit.
+#	%s has no memo limit.
+	%s 宛てのメモ保存量の上限値が在りません。
 MEMO_INFO_X_NOTIFY_OFF
-	%s is not notified of new memos.
+#	%s is not notified of new memos.
+	%s 宛の新着メモを受け取ってもお知らせしません。
 MEMO_INFO_X_NOTIFY_ON
-	%s is notified of new memos at logon and when they arrive.
+#	%s is notified of new memos at logon and when they arrive.
+	%s 宛の新着メモの到着をログオン時と受信時にお知らせします。
 MEMO_INFO_X_NOTIFY_RECEIVE
-	%s is notified when new memos arrive.
+#	%s is notified when new memos arrive.
+	%s 宛の新着メモの到着を受信時にお知らせします。
 MEMO_INFO_X_NOTIFY_SIGNON
-	%s is notified of news memos at logon.
+#	%s is notified of news memos at logon.
+	%s 宛の新着メモの到着をログオン時にお知らせします。
 
 # Memo2Mail responses
 MEMO_MAIL_SUBJECT
-	New memo
+#	New memo
+	新着メモ
 MEMO_MAIL_TEXT1
-	Hi %s
+#	Hi %s
+	やぁ %s
 MEMO_MAIL_TEXT2
-	You've just received a new memo from %s. This is memo number %d.
+#	You've just received a new memo from %s. This is memo number %d.
+	%s からの新着メモが到着しました。メモ番号は %d です。
 MEMO_MAIL_TEXT3
 	Memo Text:
+	メモ内容:
 
 # RSEND responses
 MEMO_RSEND_PLEASE_WAIT
-	Please wait %d seconds before using the RSEND command again.
+#	Please wait %d seconds before using the RSEND command again.
+	RSEND  コマンドを使う前に %d 秒待ってください。
 MEMO_RSEND_DISABLED
-	Sorry, RSEND has been disabled on this network.
+#	Sorry, RSEND has been disabled on this network.
+	ご迷惑をかけて申し訳ございません。RSEND コマンドをこのネットワークで使うことはできません。
 MEMO_RSEND_SYNTAX
 	RSEND {nick | channel} memo-text
 MEMO_RSEND_NICK_MEMO_TEXT
-	[auto-memo] The memo you sent has been viewed.
+#	[auto-memo] The memo you sent has been viewed.
+	[auto-memo] あなたが送信したメモが表示されています。
 MEMO_RSEND_CHAN_MEMO_TEXT
-	[auto-memo] The memo you sent to %s has been viewed.
+#	[auto-memo] The memo you sent to %s has been viewed.
+	[auto-memo] あなたが %s 宛てに送信したメモが表示されています。
 MEMO_RSEND_USER_NOTIFICATION
-	A notification memo has been sent to %s informing him/her you have
-	read his/her memo.
+#	A notification memo has been sent to %s informing him/her you have
+#	read his/her memo.
+	%s 宛てにあなたが %s からのメモを開封したことを示すメモが送信されました。
 
 # CHECK responses
 MEMO_CHECK_SYNTAX
 	CHECK nickname
 MEMO_CHECK_NOT_READ
-	The last memo you sent to %s (sent on %s) has not yet been read.
+#	The last memo you sent to %s (sent on %s) has not yet been read.
+	あなたが %s 宛てに送信した最新のメモは未開封のままです。
 MEMO_CHECK_READ
-	The last memo you sent to %s (sent on %s) has been read.
+#	The last memo you sent to %s (sent on %s) has been read.
+	あなたが %s 宛てに送信した最新のメモが開封されました。
 MEMO_CHECK_NO_MEMO
-	Nick %s doesn't have a memo from you.
+#	Nick %s doesn't have a memo from you.
+	あなたはニックネーム %s 宛てのメモを送信していません。
 MEMO_NO_RSEND_SELF
-	You can not request a receipt when sending a memo to yourself.
+#	You can not request a receipt when sending a memo to yourself.
+	自分から自分宛てのメモをに対する開封確認をすることはできません。
 
 ###########################################################################
 #
