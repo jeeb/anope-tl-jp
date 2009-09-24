@@ -3187,42 +3187,58 @@ OPER_OPER_MOVED
 OPER_AKILL_SYNTAX
 	AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]
 OPER_AKILL_EXISTS
-	%s already exists on the AKILL list.
+#	%s already exists on the AKILL list.
+	%s は既に AKILL リストに登録されています。
 OPER_AKILL_ALREADY_COVERED
-	%s is already covered by %s.
+#	%s is already covered by %s.
+	%s は マスク %s にマッチします。
 OPER_AKILL_REACHED_LIMIT
-	Sorry, you can only have %d AKILLs.
+#	Sorry, you can only have %d AKILLs.
+	ご迷惑をかけて申し訳ございません。AKILL リスト登録数の上限は %d です。
 OPER_AKILL_NO_NICK
-	Reminder: AKILL masks cannot contain nicknames; make sure you have not included a nick portion in your mask.
+#	Reminder: AKILL masks cannot contain nicknames; make sure you have not included a nick portion in your mask.
+	リマインダ: AKILL マスクにニックネームを使うことはできません。マスクにニックネームが含まれていないか確認してください。
 OPER_AKILL_ADDED
-	%s added to the AKILL list.
+#	%s added to the AKILL list.
+	%s が AKILL リストに登録されました。
 OPER_AKILL_CHANGED
-	Expiry time of %s changed.
+#	Expiry time of %s changed.
+	%s の AKILL 解除時間が変更されました。
 OPER_AKILL_NOT_FOUND
-	%s not found on the AKILL list.
+#	%s not found on the AKILL list.
+	%s は AKILL リストに登録されていません。
 OPER_AKILL_NO_MATCH
-	No matching entries on the AKILL list.
+#	No matching entries on the AKILL list.
+	AKILL リストに該当するエントリーが見つかりませんでした。
 OPER_AKILL_DELETED
-	%s deleted from the AKILL list.
+#	%s deleted from the AKILL list.
+	%s が AKILL リストから削除されました。
 OPER_AKILL_DELETED_ONE
-	Deleted 1 entry from the AKILL list.
+#	Deleted 1 entry from the AKILL list.
+	1 個のエントリーが AKILL リストから削除されました。
 OPER_AKILL_DELETED_SEVERAL
-	Deleted %d entries from the AKILL list.
+#	Deleted %d entries from the AKILL list.
+	%d 個のエントリーが AKILL リストから削除されました。
 OPER_AKILL_LIST_EMPTY
-	AKILL list is empty.
+#	AKILL list is empty.
+	AKILL リストが空です。
 OPER_AKILL_LIST_HEADER
-	Current AKILL list:
-	  Num   Mask                              Reason
+#	Current AKILL list:
+#	  Num   Mask                              Reason
+	現在の AKILL リスト:
+	  番号  マスク                            理由
 OPER_AKILL_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_AKILL_VIEW_HEADER
-	Current AKILL list:
+#	Current AKILL list:
+	現在の AKILL リスト:
 # number, mask, set-by, set-time, expires, reason
 OPER_AKILL_VIEW_FORMAT
 	%3d  %s (by %s on %s; %s)
 	      %s
 OPER_AKILL_CLEAR
-	The AKILL list has been cleared.
+#	The AKILL list has been cleared.
+	AKILL リストが空になりました。
 OPER_CHANKILL_SYNTAX
 	CHANKILL [+expiry] {#channel} [reason]
 # SGLINE responses
