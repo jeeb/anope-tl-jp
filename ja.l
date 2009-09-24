@@ -3359,44 +3359,61 @@ OPER_SQLINE_CLEAR
 OPER_SZLINE_SYNTAX
 	SZLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]
 OPER_SZLINE_UNSUPPORTED
-	Sorry, SZLINE is not available on this network.
+#	Sorry, SZLINE is not available on this network.
+	ご迷惑をかけて申し訳ありません。SZLINE はこのネットワークでは使えません。
 OPER_SZLINE_EXISTS
-	%s already exists on the SZLINE list.
+#	%s already exists on the SZLINE list.
+	%s は既に SZLINE リストに登録されています。
 OPER_SZLINE_ALREADY_COVERED
-	%s is already covered by %s.
+#	%s is already covered by %s.
+	%s は 登録済みのマスク %s にマッチします。
 OPER_SZLINE_REACHED_LIMIT
-	Sorry, you can only have %d SZLINEs.
+#	Sorry, you can only have %d SZLINEs.
+	ご迷惑をかけて申し訳ございません。SZLINE リスト登録数の上限は %d です。
 OPER_SZLINE_ONLY_IPS
-	Reminder: you can only add IP masks to the SZLINE list.
+#	Reminder: you can only add IP masks to the SZLINE list.
+	リマインダ: SZLINE リストには IP アドレスマスク以外は登録できません。
 OPER_SZLINE_ADDED
-	%s added to the SZLINE list.
+#	%s added to the SZLINE list.
+	%s が SZLINE リストに登録されました。
 OPER_SZLINE_CHANGED
-	Expiry time of %s changed.
+#	Expiry time of %s changed.
+	%s の SZLINE 解除時間が変更されました。
 OPER_SZLINE_NOT_FOUND
-	%s not found on the SZLINE list.
+#	%s not found on the SZLINE list.
+	%s は SZLINE リストに登録されていません。
 OPER_SZLINE_NO_MATCH
-	No matching entries on the SZLINE list.
+#	No matching entries on the SZLINE list.
+	SZLINE リストに該当するエントリーが見つかりませんでした。
 OPER_SZLINE_DELETED
-	%s deleted from the SZLINE list.
+#	%s deleted from the SZLINE list.
+	%s が SZLINE リストから削除されました。
 OPER_SZLINE_DELETED_ONE
-	Deleted 1 entry from the SZLINE list.
+#	Deleted 1 entry from the SZLINE list.
+	1 個のエントリーが SZLINE リストから削除されました。
 OPER_SZLINE_DELETED_SEVERAL
-	Deleted %d entries from the SZLINE list.
+#	Deleted %d entries from the SZLINE list.
+	%d 個のエントリーが SZLINE リストから削除されました。
 OPER_SZLINE_LIST_EMPTY
-	SZLINE list is empty.
+#	SZLINE list is empty.
+	SZLINE リストが空です。
 OPER_SZLINE_LIST_HEADER
-	Current SZLINE list:
-	  Num   Mask                              Reason
+#	Current SZLINE list:
+#	  Num   Mask                              Reason
+	現在の SZLINE リスト:
+	  番号  マスク                            理由
 OPER_SZLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SZLINE_VIEW_HEADER
-	Current SZLINE list:
+#	Current SZLINE list:
+	現在の SZLINE リスト:
 # number, mask, set-by, set-time, expires, reason
 OPER_SZLINE_VIEW_FORMAT
 	%3d  %s (by %s on %s; %s)
 	      %s
 OPER_SZLINE_CLEAR
-	The SZLINE list has been cleared.
+#	The SZLINE list has been cleared.
+	SZLINE リストが空になりました。
 
 # SET responses
 OPER_SET_SYNTAX
