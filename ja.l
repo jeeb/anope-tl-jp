@@ -2837,9 +2837,11 @@ BOT_LONG_HOST
 
 # General messages
 OPER_BOUNCY_MODES
-	Services is unable to change modes.  Are your servers configured correctly?
+#	Services is unable to change modes.  Are your servers configured correctly?
+	モードを変えることができません。サーバの設定を見直してください。
 OPER_BOUNCY_MODES_U_LINE
-	Services is unable to change modes.  Are your servers' U:lines configured correctly?
+#	Services is unable to change modes.  Are your servers' U:lines configured correctly?
+	モードを変えることができません。サーバの設定項目のU:linesの項目を見直してください。
 
 # GLOBAL responses
 OPER_GLOBAL_SYNTAX
