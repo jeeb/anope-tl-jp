@@ -3419,54 +3419,79 @@ OPER_SZLINE_CLEAR
 OPER_SET_SYNTAX
 	SET option setting
 OPER_SET_IGNORE_ON
-	Ignore code will be used.
+#	Ignore code will be used.
+	無視コードを使用します。
 OPER_SET_IGNORE_OFF
-	Ignore code will not be used.
+#	Ignore code will not be used.
+	無視コードを使用しません。
 OPER_SET_IGNORE_ERROR
-	Setting for IGNORE must be ON or OFF.
+#	Setting for IGNORE must be ON or OFF.
+	IGNORE の setting 引数は ON か OFF のどちらかにしてください。
 OPER_SET_READONLY_ON
-	Services are now in read-only mode.
+#	Services are now in read-only mode.
+	サービスは読取専用モードになっています。
 OPER_SET_READONLY_OFF
-	Services are now in read-write mode.
+#	Services are now in read-write mode.
+	サービスは読み書きモードになっています。
 OPER_SET_READONLY_ERROR
-	Setting for READONLY must be ON or OFF.
+#	Setting for READONLY must be ON or OFF.
+	READONLY の setting 引数は ON か OFF のどちらかにしてください。
 OPER_SET_LOGCHAN_ON
-	Services are now reporting log messages to %s.
+#	Services are now reporting log messages to %s.
+	チャンネルログを %s に出力します。
 OPER_SET_LOGCHAN_OFF
-	Services are no longer reporting log messages to a channel.
+#	Services are no longer reporting log messages to a channel.
+	チャンネルログを出力しません。
 OPER_SET_LOGCHAN_ERROR
-	Setting for LOGCHAN must be ON or OFF and LogChannel must be defined.
+#	Setting for LOGCHAN must be ON or OFF and LogChannel must be defined.
+	LOGCHAN の setting 引数は ON か OFF のどちらかにし、LogChannel を定義してください。
 OPER_SET_DEBUG_ON
-	Services are now in debug mode.
+#	Services are now in debug mode.
+	サービスをデバックモードに設定しました。
 OPER_SET_DEBUG_OFF
-	Services are now in non-debug mode.
+#	Services are now in non-debug mode.
+	サービスのデバックモードを解除しました。
 OPER_SET_DEBUG_LEVEL
-	Services are now in debug mode (level %d).
+#	Services are now in debug mode (level %d).
+	サービスをデバックモード(デバックレベル %d)に設定しました。
 OPER_SET_DEBUG_ERROR
-	Setting for DEBUG must be ON, OFF, or a positive number.
+#	Setting for DEBUG must be ON, OFF, or a positive number.
+	DEBUG の setting 引数は ON か OFF か正数のどれかにしてください。
 OPER_SET_NOEXPIRE_ON
-	Services are now in no expire mode.
+#	Services are now in no expire mode.
+	サービスの expire モードを解除しました。
 OPER_SET_NOEXPIRE_OFF
-	Services are now in expire mode.
+#	Services are now in expire mode.
+	サービスを expire モードに設定しました。
 OPER_SET_NOEXPIRE_ERROR
-	Setting for NOEXPIRE must be ON or OFF.
+#	Setting for NOEXPIRE must be ON or OFF.
+	NOEXPIRE の setting 引数は ON か OFF のどちらかにしてください。
 OPER_SET_UNKNOWN_OPTION
-	Unknown option %s.
+#	Unknown option %s.
+	オプション %s は定義されていません。
 OPER_SET_SQL_ON
-	SQL code will be used.
+#	SQL code will be used.
+	SQL コードを使用します。
 OPER_SET_SQL_OFF
-	SQL code will not be used.
+#	SQL code will not be used.
+	SQL コードを使用しません。
 OPER_SET_SQL_ERROR
-	Setting for SQL must be ON or OFF.
+#	Setting for SQL must be ON or OFF.
+	SQL の setting 引数は ON か OFF のどちらかにしてください。
 OPER_SET_SQL_ERROR_INIT
-	Error during init of SQL, check your logs to correct.
+#	Error during init of SQL, check your logs to correct.
+	SQL の初期化中にエラーが発生しました。解決のためにログを確認してください。
 OPER_SET_SQL_ERROR_DISABLED
-	SQL is not configured for this network. Please edit the
-	configuration file (services.conf).
+#	SQL is not configured for this network. Please edit the
+#	configuration file (services.conf).
+	このネットワークでは SQL が設定されていません。
+	設定ファイル(services.conf)を編集してください。
 OPER_SET_LIST_OPTION_ON
-	%s is enabled
+#	%s is enabled
+	%s が有効化されました。
 OPER_SET_LIST_OPTION_OFF
-	%s is disabled
+#	%s is disabled
+	%s が無効化されました。
 
 # NOOP responses
 OPER_NOOP_SYNTAX
