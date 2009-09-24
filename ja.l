@@ -3650,39 +3650,53 @@ DEFCON_GLOBAL
 # Module strings
 
 OPER_MODULE_LOADED
-	Module %s loaded
+#	Module %s loaded
+	モジュール %s がロードされました。
 OPER_MODULE_UNLOADED
-	Module %s unloaded
+#	Module %s unloaded
+	モジュール %s がアンロードされました。
 OPER_MODULE_LOAD_FAIL
-	Unable to load module %s
+#	Unable to load module %s
+	モジュール %s がロードできませんでした。
 OPER_MODULE_REMOVE_FAIL
-	Unable to remove module %s
+#	Unable to remove module %s
+	モジュール %s がアンロードできませんでした。
 OPER_MODULE_NO_UNLOAD
-	This module can not be unloaded.
+#	This module can not be unloaded.
+	このモジュールはアンロードできません。
 OPER_MODULE_LOAD_SYNTAX
 	MODLOAD FileName
 OPER_MODULE_UNLOAD_SYNTAX
 	MODUNLOAD FileName
 OPER_MODULE_LIST_HEADER
-	Current Module list:
+#	Current Module list:
+	現在のモジュールリスト:
 OPER_MODULE_LIST
-	Module: %s [%s] [%s]
+#	Module: %s [%s] [%s]
+	モジュール: %s [%s] [%s]
 OPER_MODULE_LIST_FOOTER
-	%d Modules loaded.
+#	%d Modules loaded.
+	%d 個のモジュールがロードされています。
 OPER_MODULE_INFO_LIST
-	Module: %s Version: %s Author: %s loaded: %s
+#	Module: %s Version: %s Author: %s loaded: %s
+	モジュール: %s バージョン: %s 作者: %s ロード: %s
 OPER_MODULE_CMD_LIST
-	Providing command: %R%s %s
+#	Providing command: %R%s %s
+	使用可能なコマンド   : %R%s %s
 OPER_MODULE_MSG_LIST
-	Providing IRCD handler for: %s
+#	Providing IRCD handler for: %s
+	使用可能な IRC デーモンハンドラ: %R%s %s
 OPER_MODULE_NO_LIST
-	No modules currently loaded
+#	No modules currently loaded
+	モジュールが1つもロードされていません。
 OPER_MODULE_NO_INFO
-	No information about module %s is available
+#	No information about module %s is available
+	モジュール %s についての情報がありません。
 OPER_MODULE_INFO_SYNTAX
 	MODINFO FileName
 MODULE_HELP_HEADER
-	The following commands have been loaded by a module:
+#	The following commands have been loaded by a module:
+	以下のコマンドはこのモジュールによってロードされています:
 
 ###########################################################################
 #
