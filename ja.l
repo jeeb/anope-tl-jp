@@ -3072,10 +3072,11 @@ OPER_OLINE_IRCOP
 OPER_CLEARMODES_SYNTAX
 	CLEARMODES channel [ALL]
 OPER_CLEARMODES_DONE
-	Binary modes and bans cleared from channel %s.
+#	Binary modes and bans cleared from channel %s.
+	チャンネル %s のバイナリモードとbanリストが初期化されました。
 OPER_CLEARMODES_ALL_DONE
 	All modes cleared from channel %s.
-
+	チャンネル %s のすべてのモードが初期化されました。
 
 # KICK responses
 OPER_KICK_SYNTAX
