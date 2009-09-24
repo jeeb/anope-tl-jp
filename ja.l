@@ -3140,34 +3140,48 @@ OPER_ADMIN_MOVED
 OPER_OPER_SYNTAX
 	OPER {ADD|DEL|LIST|CLEAR} [nick | entry-list]
 OPER_OPER_SKELETON
-	Services is in skeleton mode; the OPER command is unavailable.
+#	Services is in skeleton mode; the OPER command is unavailable.
+	サービスはスケルトンモードになっています。OPER コマンドは使えません。
 OPER_OPER_EXISTS
-	%s already exists on Services operator list.
+#	%s already exists on Services operator list.
+	%s は既にサービスオペレータリストに登録されています。
 OPER_OPER_REACHED_LIMIT
-	Sorry, you can only have %d Services operators.
+#	Sorry, you can only have %d Services operators.
+	ご迷惑をかけて申し訳ありません。あなたは %d 個以上のサービスオペレータにはなれません。
 OPER_OPER_ADDED
-	%s added to Services operator list.
+#	%s added to Services operator list.
+	%s がサービスオペレータリストに登録されました。
 OPER_OPER_NOT_FOUND
-	%s not found on Services operator list.
+#	%s not found on Services operator list.
+	%s はサービスオペレータリストに登録されていません。
 OPER_OPER_NO_MATCH
-	No matching entries on Services operator list.
+#	No matching entries on Services operator list.
+	サービスオペレータリストに該当するエントリーが見つかりませんでした。
 OPER_OPER_DELETED
-	%s deleted from Services operator list.
+#	%s deleted from Services operator list.
+	%s がサービスオペレータリストから削除されました。
 OPER_OPER_DELETED_ONE
-	Deleted 1 entry from Services operator list.
+#	Deleted 1 entry from Services operator list.
+	1 個のエントリーがサービスオペレータリストから削除されました。
 OPER_OPER_DELETED_SEVERAL
-	Deleted %d entries from Services operator list.
+#	Deleted %d entries from Services operator list.
+	%d 個のエントリーがサービスオペレータリストから削除されました。
 OPER_OPER_LIST_EMPTY
-	Services operator list is empty.
+#	Services operator list is empty.
+	サービスオペレータリストが空です。
 OPER_OPER_LIST_HEADER
-	Services operator list:
-	  Num   Nick
+#	Services operator list:
+#	  Num   Nick
+	サービスオペレータリスト:
+	  番号  ニックネーム
 OPER_OPER_LIST_FORMAT
 	  %3d   %s
 OPER_OPER_CLEAR
-	Services operator list has been cleared.
+#	Services operator list has been cleared.
+	サービスオペレータリストが空になりました。
 OPER_OPER_MOVED
-	%s has been moved to Services Operators list.
+#	%s has been moved to Services Operators list.
+	%s がサービスオペレータリストに移動されました。
 
 # AKILL responses
 OPER_AKILL_SYNTAX
