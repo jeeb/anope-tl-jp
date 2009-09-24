@@ -3093,34 +3093,48 @@ OPER_SVSNICK_NEWNICK
 OPER_ADMIN_SYNTAX
 	ADMIN {ADD|DEL|LIST|CLEAR} [nick | entry-list]
 OPER_ADMIN_SKELETON
-	Services is in skeleton mode; the ADMIN command is unavailable.
+#	Services is in skeleton mode; the ADMIN command is unavailable.
+	サービスはスケルトンモードになっています。ADMIN コマンドは使えません。
 OPER_ADMIN_EXISTS
-	%s already exists on Services admin list.
+#	%s already exists on Services admin list.
+	%s は既にサービス管理者リストに登録されています。
 OPER_ADMIN_REACHED_LIMIT
-	Sorry, you can only have %d Services admins.
+#	Sorry, you can only have %d Services admins.
+	ご迷惑をかけて申し訳ありません。あなたは %d 個以上のサービス管理者にはなれません。
 OPER_ADMIN_ADDED
-	%s added to Services admin list.
+#	%s added to Services admin list.
+	%s がサービス管理者リストに登録されました。
 OPER_ADMIN_NOT_FOUND
-	%s not found on Services admin list.
+#	%s not found on Services admin list.
+	%s はサービス管理者リストに登録されていません。
 OPER_ADMIN_NO_MATCH
-	No matching entries on Services admin list.
+#	No matching entries on Services admin list.
+	サービス管理者リストに該当するエントリーが見つかりませんでした。
 OPER_ADMIN_DELETED
-	%s deleted from Services admin list.
+#	%s deleted from Services admin list.
+	%s がサービス管理者リストから削除されました。
 OPER_ADMIN_DELETED_ONE
-	Deleted 1 entry from Services admin list.
+#	Deleted 1 entry from Services admin list.
+	1 個のエントリーがサービス管理者リストから削除されました。
 OPER_ADMIN_DELETED_SEVERAL
-	Deleted %d entries from Services admin list.
+#	Deleted %d entries from Services admin list.
+	%d 個のエントリーがサービス管理者リストから削除されました。
 OPER_ADMIN_LIST_EMPTY
-	Services admin list is empty.
+#	Services admin list is empty.
+	サービス管理者リストが空です。
 OPER_ADMIN_LIST_HEADER
-	Services admin list:
-	  Num   Nick
+#	Services admin list:
+#	  Num   Nick
+	サービス管理者リスト:
+	  番号  ニックネーム
 OPER_ADMIN_LIST_FORMAT
 	  %3d   %s
 OPER_ADMIN_CLEAR
-	Services admin list has been cleared.
+#	Services admin list has been cleared.
+	サービス管理者リストが空になりました。
 OPER_ADMIN_MOVED
-	%s has been moved to Services Administrators list.
+#	%s has been moved to Services Administrators list.
+	%s がサービス管理者リストに移動されました。
 
 # OPER responses
 OPER_OPER_SYNTAX
