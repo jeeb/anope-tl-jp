@@ -3055,16 +3055,18 @@ OPER_UMODE_SUCCESS
 #	Changed usermodes of %s.
 	%s のユーザモードを変更しました。
 OPER_UMODE_CHANGED
-	%s changed your usermodes.
+#	%s changed your usermodes.
 	%s があなたのユーザモードを変更しました。
 
 # OLINE responses
 OPER_OLINE_SYNTAX
 	OLINE nick flags
 OPER_OLINE_SUCCESS
-	Operflags %s have been added for %s.
+#	Operflags %s have been added for %s.
+	オペレータフラグ %s が %s に設定されました。
 OPER_OLINE_IRCOP
-	You are now an IRC Operator.
+#	You are now an IRC Operator.
+	あなたは現在 IRC オペレータです。
 
 # CLEARMODES responses
 OPER_CLEARMODES_SYNTAX
