@@ -3564,20 +3564,25 @@ OPER_IGNORE_LIST_CLEARED
 OPER_KILLCLONES_SYNTAX
 	KILLCLONES nick
 OPER_KILLCLONES_UNKNOWN_NICK
-	Could not find user %s.
+#	Could not find user %s.
 	ニックネーム %s のユーザが見つかりませんでした。
 	
 # CHANLIST responses
 OPER_CHANLIST_HEADER
-	Channel list:
-	Name                 Users Modes   Topic
+#	Channel list:
+#	Name                 Users Modes   Topic
+	チャンネルリスト:
+	チャンネル名         ユーザモード  トピック 
 OPER_CHANLIST_HEADER_USER
-	%s channel list:
-	Name                 Users Modes   Topic
+#	%s channel list:
+#	Name                 Users Modes   Topic
+	ユーザ %s のチャンネルリスト:
+	チャンネル名         ユーザモード  トピック 
 OPER_CHANLIST_RECORD
 	%-20s  %4d +%-6s %s
 OPER_CHANLIST_END
-	End of channel list.
+#	End of channel list.
+	チャンネルリストはここまでです。
 	
 # USERLIST responses
 OPER_USERLIST_HEADER
