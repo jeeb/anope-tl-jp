@@ -3511,7 +3511,7 @@ OPER_JUPE_HOST_ERROR
 	正しいホスト名を使ってください。
 OPER_JUPE_INVALID_SERVER
 	You can not jupe your services server or your uplink server.
-	あなた自身のサーバあなたのアップリンクサーバにはjupeできません。
+	あなた自身のサーバあなたのアップリンクサーバにはjupeできません。。
 	
 # RAW responses
 OPER_RAW_SYNTAX
@@ -3520,6 +3520,7 @@ OPER_RAW_SYNTAX
 # UPDATE responses
 OPER_UPDATING
 	Updating databases.
+	データベースを更新しています。
 	
 # RELOAD responses
 OPER_RELOAD
