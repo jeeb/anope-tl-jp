@@ -3497,10 +3497,10 @@ OPER_SET_LIST_OPTION_OFF
 OPER_NOOP_SYNTAX
 	NOOP {SET|REVOKE} server
 OPER_NOOP_SET
-	All O:lines of %s have been removed.
+#	All O:lines of %s have been removed.
 	サーバ %s  に対するすべての O:lines が削除されました。
 OPER_NOOP_REVOKE
-	All O:lines of %s have been reset.
+#	All O:lines of %s have been reset.
 	サーバ %s  に対するすべての O:lines がリセットされました。
 
 # JUPE responses
@@ -3508,8 +3508,10 @@ OPER_JUPE_SYNTAX
 	JUPE servername [reason]
 OPER_JUPE_HOST_ERROR
 	Please use a valid server name when juping
+	正しいホスト名を使ってください。
 OPER_JUPE_INVALID_SERVER
 	You can not jupe your services server or your uplink server.
+	あなた自身のサーバあなたのアップリンクサーバにはjupeできません。
 	
 # RAW responses
 OPER_RAW_SYNTAX
