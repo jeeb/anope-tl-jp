@@ -3052,9 +3052,11 @@ OPER_MODE_SYNTAX
 OPER_UMODE_SYNTAX
 	UMODE nick modes
 OPER_UMODE_SUCCESS
-	Changed usermodes of %s.
+#	Changed usermodes of %s.
+	%s のユーザモードを変更しました。
 OPER_UMODE_CHANGED
 	%s changed your usermodes.
+	%s があなたのユーザモードを変更しました。
 
 # OLINE responses
 OPER_OLINE_SYNTAX
