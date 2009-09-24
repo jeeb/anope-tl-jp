@@ -3191,7 +3191,7 @@ OPER_AKILL_EXISTS
 	%s は既に AKILL リストに登録されています。
 OPER_AKILL_ALREADY_COVERED
 #	%s is already covered by %s.
-	%s は マスク %s にマッチします。
+	%s は 登録済みのマスク %s にマッチします。
 OPER_AKILL_REACHED_LIMIT
 #	Sorry, you can only have %d AKILLs.
 	ご迷惑をかけて申し訳ございません。AKILL リスト登録数の上限は %d です。
@@ -3252,7 +3252,7 @@ OPER_SGLINE_EXISTS
 	%s は既に SGLINE リストに登録されています。
 OPER_SGLINE_ALREADY_COVERED
 #	%s is already covered by %s.
-	%s は マスク %s にマッチします。
+	%s は 登録済みのマスク %s にマッチします。
 OPER_SGLINE_REACHED_LIMIT
 #	Sorry, you can only have %d SGLINEs.
 	ご迷惑をかけて申し訳ございません。SGLINE リスト登録数の上限は %d です。
@@ -3302,42 +3302,58 @@ OPER_SGLINE_CLEAR
 OPER_SQLINE_SYNTAX
 	SQLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]
 OPER_SQLINE_CHANNELS_UNSUPPORTED
-	Channel SQLINEs are not supported by your IRCd, so you can't use them.
+#	Channel SQLINEs are not supported by your IRCd, so you can't use them.
+	チャンネル SQLINE は御使用中のIRCデーモンではサポートされていません。そのためこの機能を使うことはできません。
 OPER_SQLINE_EXISTS
-	%s already exists on the SQLINE list.
+#	%s already exists on the SQLINE list.
+	%s は既に SQLINE リストに登録されています。
 OPER_SQLINE_ALREADY_COVERED
-	%s is already covered by %s.
+#	%s is already covered by %s.
+	%s は 登録済みのマスク %s にマッチします。
 OPER_SQLINE_REACHED_LIMIT
-	Sorry, you can only have %d SQLINEs.
+#	Sorry, you can only have %d SQLINEs.
+	ご迷惑をかけて申し訳ございません。SQLINE リスト登録数の上限は %d です。
 OPER_SQLINE_ADDED
-	%s added to the SQLINE list.
+#	%s added to the SQLINE list.
+	%s が SQLINE リストに登録されました。
 OPER_SQLINE_CHANGED
-	Expiry time of %s changed.
+#	Expiry time of %s changed.
+	%s の SQLINE 解除時間が変更されました。
 OPER_SQLINE_NOT_FOUND
-	%s not found on the SQLINE list.
+#	%s not found on the SQLINE list.
+	%s は SQLINE リストに登録されていません。
 OPER_SQLINE_NO_MATCH
-	No matching entries on the SQLINE list.
+#	No matching entries on the SQLINE list.
+	SQLINE リストに該当するエントリーが見つかりませんでした。
 OPER_SQLINE_DELETED
-	%s deleted from the SQLINE list.
+#	%s deleted from the SQLINE list.
+	%s が SQLINE リストから削除されました。
 OPER_SQLINE_DELETED_ONE
-	Deleted 1 entry from the SQLINE list.
+#	Deleted 1 entry from the SQLINE list.
+	1 個のエントリーが SQLINE リストから削除されました。
 OPER_SQLINE_DELETED_SEVERAL
-	Deleted %d entries from the SQLINE list.
+#	Deleted %d entries from the SQLINE list.
+	%d 個のエントリーが SQLINE リストから削除されました。
 OPER_SQLINE_LIST_EMPTY
-	SQLINE list is empty.
+#	SQLINE list is empty.
+	SQLINE リストが空です。
 OPER_SQLINE_LIST_HEADER
-	Current SQLINE list:
-	  Num   Mask                              Reason
+#	Current SQLINE list:
+#	  Num   Mask                              Reason
+	現在の SQLINE リスト:
+	  番号  マスク                            理由
 OPER_SQLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SQLINE_VIEW_HEADER
-	Current SQLINE list:
+#	Current SQLINE list:
+	現在の SQLINE リスト:
 # number, mask, set-by, set-time, expires, reason
 OPER_SQLINE_VIEW_FORMAT
 	%3d  %s (by %s on %s; %s)
 	      %s
 OPER_SQLINE_CLEAR
-	The SQLINE list has been cleared.
+#	The SQLINE list has been cleared.
+	SQLINE リストが空になりました。
 
 # SZLINE responses
 OPER_SZLINE_SYNTAX
