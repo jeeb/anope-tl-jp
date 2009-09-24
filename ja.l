@@ -3525,6 +3525,7 @@ OPER_UPDATING
 # RELOAD responses
 OPER_RELOAD
 	Services' configuration file has been reloaded.
+	サービスの設定ファイルのリロードを行いました。
 
 # RESTART responses
 OPER_CANNOT_RESTART
