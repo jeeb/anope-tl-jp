@@ -3530,6 +3530,7 @@ OPER_RELOAD
 # RESTART responses
 OPER_CANNOT_RESTART
 	SERVICES_BIN not defined; cannot restart.  Rerun the \2configure\2 script and recompile Services to enable the RESTART command.
+	SERVICES_BIN が未定義のため再起動できません。\2設定\2 スクリプトを再度走らせて、RESTART コマンドを有効化させるためにサービスを再コンパイルしてください。
 
 # IGNORE respondes
 OPER_IGNORE_SYNTAX
