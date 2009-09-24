@@ -3086,7 +3086,8 @@ OPER_KICK_SYNTAX
 OPER_SVSNICK_SYNTAX
 	SVSNICK nick newnick 
 OPER_SVSNICK_NEWNICK
-	The nick %s is now being changed to %s.
+#	The nick %s is now being changed to %s.
+	%s のニックネームが %s に変わりました。
 	
 # ADMIN responses
 OPER_ADMIN_SYNTAX
