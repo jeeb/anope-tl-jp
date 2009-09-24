@@ -3245,42 +3245,58 @@ OPER_CHANKILL_SYNTAX
 OPER_SGLINE_SYNTAX
 	SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list}[:reason]]
 OPER_SGLINE_UNSUPPORTED
-	Sorry, SGLINE is not available on this network.
+#	Sorry, SGLINE is not available on this network.
+	ご迷惑をかけて申し訳ありません。SGLINE はこのネットワークでは使えません。
 OPER_SGLINE_EXISTS
-	%s already exists on the SGLINE list.
+#	%s already exists on the SGLINE list.
+	%s は既に SGLINE リストに登録されています。
 OPER_SGLINE_ALREADY_COVERED
-	%s is already covered by %s.
+#	%s is already covered by %s.
+	%s は マスク %s にマッチします。
 OPER_SGLINE_REACHED_LIMIT
-	Sorry, you can only have %d SGLINEs.
+#	Sorry, you can only have %d SGLINEs.
+	ご迷惑をかけて申し訳ございません。SGLINE リスト登録数の上限は %d です。
 OPER_SGLINE_ADDED
-	%s added to the SGLINE list.
+#	%s added to the SGLINE list.
+	%s が SGLINE リストに登録されました。
 OPER_SGLINE_CHANGED
-	Expiry time of %s changed.
+#	Expiry time of %s changed.
+	%s の SGLINE 解除時間が変更されました。
 OPER_SGLINE_NOT_FOUND
-	%s not found on the SGLINE list.
+#	%s not found on the SGLINE list.
+	%s は SGLINE リストに登録されていません。
 OPER_SGLINE_NO_MATCH
-	No matching entries on the SGLINE list.
+#	No matching entries on the SGLINE list.
+	SGLINE リストに該当するエントリーが見つかりませんでした。
 OPER_SGLINE_DELETED
-	%s deleted from the SGLINE list.
+#	%s deleted from the SGLINE list.
+	%s が SGLINE リストから削除されました。
 OPER_SGLINE_DELETED_ONE
-	Deleted 1 entry from the SGLINE list.
+#	Deleted 1 entry from the SGLINE list.
+	1 個のエントリーが SGLINE リストから削除されました。
 OPER_SGLINE_DELETED_SEVERAL
-	Deleted %d entries from the SGLINE list.
+#	Deleted %d entries from the SGLINE list.
+	%d 個のエントリーが SGLINE リストから削除されました。
 OPER_SGLINE_LIST_EMPTY
-	SGLINE list is empty.
+#	SGLINE list is empty.
+	SGLINE リストが空です。
 OPER_SGLINE_LIST_HEADER
-	Current SGLINE list:
-	  Num   Mask                              Reason
+#	Current SGLINE list:
+#	  Num   Mask                              Reason
+	現在の SGLINE リスト:
+	  番号  マスク                            理由
 OPER_SGLINE_LIST_FORMAT
 	  %3d   %-32s  %s
 OPER_SGLINE_VIEW_HEADER
-	Current SGLINE list:
+#	Current SGLINE list:
+	現在の SGLINE リスト:
 # number, mask, set-by, set-time, expires, reason
 OPER_SGLINE_VIEW_FORMAT
 	%3d  %s (by %s on %s; %s)
 	      %s
 OPER_SGLINE_CLEAR
-	The SGLINE list has been cleared.
+#	The SGLINE list has been cleared.
+	SGLINE リストが空になりました。
 
 # SQLINE responses
 OPER_SQLINE_SYNTAX
