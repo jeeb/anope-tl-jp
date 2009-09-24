@@ -610,53 +610,71 @@ NICK_SET_OPTION_DISABLED
 # SET DISPLAY responses
 NICK_SET_DISPLAY_INVALID
 #	The new display MUST be a nickname of your nickname group!
+	新しいディスプレー名はグループ内にあるニックネームである必要があります。#（ディスプレー名はグループを代表するニックネーム）
 	
 NICK_SET_DISPLAY_CHANGED
-	The new display is now %s.
+#	The new display is now %s.
+	ディスプレー名は %s に変更されました。
 
 # SET PASSWORD responses
 NICK_SET_PASSWORD_FAILED
-	Sorry, couldn't change password.
+#	Sorry, couldn't change password.
+	パスワードの変更に失敗しました。
 NICK_SET_PASSWORD_CHANGED
-	Password changed.
+#	Password changed.
+	パスワードを変更しました。
 NICK_SET_PASSWORD_CHANGED_TO
-	Password changed to %s.
+#	Password changed to %s.
+	パスワードを %s に変更しました。
 
 # SET LANGUAGE responses
 NICK_SET_LANGUAGE_SYNTAX
-	SET LANGUAGE number
+#	SET LANGUAGE number
+	SET LANGUAGE 言語番号
 NICK_SET_LANGUAGE_UNKNOWN
-	Unknown language number %d.  Type %R%s HELP SET LANGUAGE for a list of languages.
+#	Unknown language number %d.  Type %R%s HELP SET LANGUAGE for a list of languages.
+	未知の言語番号 %d　を指定しました。言語の一覧を見るには　%R%s HELP SET LANGUAGE と入力してください。
 NICK_SET_LANGUAGE_CHANGED
-	Language changed to English.
+#	Language changed to English.
+	言語を日本語に切り替えました。
 
 # SET URL responses
 NICK_SET_URL_CHANGED
-	URL changed to %s.
+#	URL changed to %s.
+	URLを %s に変更しました。
 NICK_SET_URL_UNSET
-	URL unset.
+#	URL unset.
+	URL 設定を外しました。
 
 # SET EMAIL responses
 NICK_SET_EMAIL_CHANGED
-	E-mail address changed to %s.
+#	E-mail address changed to %s.
+	電子メール・アドレスを %s に変更しました。
 NICK_SET_EMAIL_UNSET
-	E-mail address unset.
+#	E-mail address unset.
+	電子メール・アドレスの設定を外しました。
 NICK_SET_EMAIL_UNSET_IMPOSSIBLE
-	You cannot unset the e-mail on this network.
+#	You cannot unset the e-mail on this network.
+	本ネットワークでは電子メールの設定を外すことは出来ません。
 	
 # SET ICQ responses
 NICK_SET_ICQ_CHANGED
-	ICQ number set to %s.
+#	ICQ number set to %s.
+	ICQ番号を %s に変更しました。
 NICK_SET_ICQ_UNSET
-	ICQ number unset.
+#	ICQ number unset.
+	ICQ番号の設定を外しました。
 NICK_SET_ICQ_INVALID
-	%s is not a valid number.
+#	%s is not a valid number.
+	%s は有効なICQ番号ではありません。
 	
 # SET GREET responses
 NICK_SET_GREET_CHANGED
-	Greet message changed to %s.
+#	Greet message changed to %s.
+	挨拶メッセージを %s に変更しました。
 NICK_SET_GREET_UNSET
-	Greet message unset.
+#	Greet message unset.
+	挨拶メッセージの設定を外しました。
 
 # SET PROTECT responses
 NICK_SET_KILL_SYNTAX
