@@ -3602,19 +3602,26 @@ OPER_USERLIST_END
 	ユーザリストは以上です。
 
 OPER_SUPER_ADMIN_ON
-	You are now a SuperAdmin
+#	You are now a SuperAdmin
+	あなたは現在 SuperAdmin となっています。
 OPER_SUPER_ADMIN_OFF
-	You are no longer a SuperAdmin
+#	You are no longer a SuperAdmin
+	あなたは SuperAdmin ではなくなりました。
 OPER_SUPER_ADMIN_SYNTAX
-	Setting for SuperAdmin must be ON or OFF (must be enabled in services.conf)
+#	Setting for SuperAdmin must be ON or OFF (must be enabled in services.conf)
+	SuperAdmin の setting 引数は ON か OFF のどちらか(services.confの中で設定)にしてください。
 OPER_SUPER_ADMIN_WALL_ON
-	%s is now a Super-Admin
+#	%s is now a Super-Admin
+	%s が現在の Super-Admin です。
 OPER_SUPER_ADMIN_WALL_OFF
-	%s is no longer a Super-Admin
+#	%s is no longer a Super-Admin
+	%s は Super-Admin ではありません。
 OPER_SUPER_ADMIN_ONLY
-	Only Super-Admins can use this command.
+#	Only Super-Admins can use this command.
+	Super-Admin だけがこのコマンドを使えます。
 OPER_STAFF_LIST_HEADER
-	On Level Nick
+#	On Level Nick
+	On レベル ニックネーム
 OPER_STAFF_FORMAT
 	 %c %s  %s
 OPER_STAFF_AFORMAT
