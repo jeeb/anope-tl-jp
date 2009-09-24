@@ -3582,19 +3582,24 @@ OPER_CHANLIST_RECORD
 	%-20s  %4d +%-6s %s
 OPER_CHANLIST_END
 #	End of channel list.
-	チャンネルリストはここまでです。
+	チャンネルリストは以上です。
 	
 # USERLIST responses
 OPER_USERLIST_HEADER
-	Users list:
-	Nick                 Mask
+#	Users list:
+#	Nick                 Mask
+	ユーザリスト:
+	ニックネーム         マスク
 OPER_USERLIST_HEADER_CHAN
-	%s users list:
-	Nick                 Mask
+#	%s users list:
+#	Nick                 Mask
+	チャンネル %s のユーザリスト:
+	ニックネーム         マスク
 OPER_USERLIST_RECORD
 	%-20s %s@%s
 OPER_USERLIST_END
-	End of users list.
+#	End of users list.
+	ユーザリストは以上です。
 
 OPER_SUPER_ADMIN_ON
 	You are now a SuperAdmin
