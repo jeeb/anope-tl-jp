@@ -3565,6 +3565,7 @@ OPER_KILLCLONES_SYNTAX
 	KILLCLONES nick
 OPER_KILLCLONES_UNKNOWN_NICK
 	Could not find user %s.
+	ニックネーム %s のユーザが見つかりませんでした。
 	
 # CHANLIST responses
 OPER_CHANLIST_HEADER
