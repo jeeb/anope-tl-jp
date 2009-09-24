@@ -3507,10 +3507,10 @@ OPER_NOOP_REVOKE
 OPER_JUPE_SYNTAX
 	JUPE servername [reason]
 OPER_JUPE_HOST_ERROR
-	Please use a valid server name when juping
+#	Please use a valid server name when juping
 	正しいホスト名を使ってください。
 OPER_JUPE_INVALID_SERVER
-	You can not jupe your services server or your uplink server.
+#	You can not jupe your services server or your uplink server.
 	あなた自身のサーバあなたのアップリンクサーバにはjupeできません。。
 	
 # RAW responses
@@ -3519,38 +3519,46 @@ OPER_RAW_SYNTAX
 
 # UPDATE responses
 OPER_UPDATING
-	Updating databases.
+#	Updating databases.
 	データベースを更新しています。
 	
 # RELOAD responses
 OPER_RELOAD
-	Services' configuration file has been reloaded.
+#	Services' configuration file has been reloaded.
 	サービスの設定ファイルのリロードを行いました。
 
 # RESTART responses
 OPER_CANNOT_RESTART
-	SERVICES_BIN not defined; cannot restart.  Rerun the \2configure\2 script and recompile Services to enable the RESTART command.
+#	SERVICES_BIN not defined; cannot restart.  Rerun the \2configure\2 script and recompile Services to enable the RESTART command.
 	SERVICES_BIN が未定義のため再起動できません。\2設定\2 スクリプトを再度走らせて、RESTART コマンドを有効化させるためにサービスを再コンパイルしてください。
 
 # IGNORE respondes
 OPER_IGNORE_SYNTAX
 	IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]
 OPER_IGNORE_VALID_TIME
-	You have to enter a valid number as time.
+#	You have to enter a valid number as time.
+	time 引数に有効な数字を設定してください。
 OPER_IGNORE_TIME_DONE
-	%s will now be ignored for %s.
+#	%s will now be ignored for %s.
+	%s は設定済みのマスク %s にマッチします。
 OPER_IGNORE_PERM_DONE
-	%s will now permanently be ignored.
+#	%s will now permanently be ignored.
+	%s を永久的に無視します。
 OPER_IGNORE_DEL_DONE
-	%s will no longer be ignored.
+#	%s will no longer be ignored.
+	%s を無視しません。
 OPER_IGNORE_LIST
-	Services ignore list:
+#	Services ignore list:
+	無視リスト:
 OPER_IGNORE_LIST_NOMATCH
-	Nick %s not found on ignore list.
+#	Nick %s not found on ignore list.
+	ニックネーム %s  は無視リストに登録されていません。
 OPER_IGNORE_LIST_EMPTY
-	Ignore list is empty.
+#	Ignore list is empty.
+	無視リストが空です。
 OPER_IGNORE_LIST_CLEARED
-	Ignore list has been cleared.
+#	Ignore list has been cleared.
+	無視リストが空になりました。
 
 # KILLCLONES responses
 OPER_KILLCLONES_SYNTAX
