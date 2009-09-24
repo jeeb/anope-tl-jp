@@ -3498,8 +3498,10 @@ OPER_NOOP_SYNTAX
 	NOOP {SET|REVOKE} server
 OPER_NOOP_SET
 	All O:lines of %s have been removed.
+	サーバ %s  に対するすべての O:lines が削除されました。
 OPER_NOOP_REVOKE
 	All O:lines of %s have been reset.
+	サーバ %s  に対するすべての O:lines がリセットされました。
 
 # JUPE responses
 OPER_JUPE_SYNTAX
