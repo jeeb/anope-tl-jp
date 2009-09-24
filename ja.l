@@ -2849,55 +2849,82 @@ OPER_GLOBAL_SYNTAX
 
 # STATS responses
 OPER_STATS_UNKNOWN_OPTION
-	Unknown STATS option %s.
+#	Unknown STATS option %s.
+	STATS オプションに %s が見つかりません。
 OPER_STATS_CURRENT_USERS
-	Current users: %d (%d ops)
+#	Current users: %d (%d ops)
+	現在のユーザ数: %d (オペレータ数 %d)
 OPER_STATS_MAX_USERS
-	Maximum users: %d (%s)
+#	Maximum users: %d (%s)
+	ユーザ数の上限: %d (%s)
 # This is ugly, but at least it's language-portable...
 # Note that you can include seconds in any of these--my personal preference
 # is to only give resolution to the nearest minute when uptime is one hour
 # or more, but just add a %d to get seconds as well.
+# これは冗長ですが、多言語対応(名詞の複数変化)のためです。
+# 以下のすべての項目に秒のフィールドを含めることができることに注意してください。
+# 以下の設定では、uptime が1時間を越えると秒の代わりに分を表示するようになります。
+# しかし、%dのフィールドを追加することで秒を表示することもできます。
 OPER_STATS_UPTIME_DHMS
-	Services up %d days, %02d:%02d
+#	Services up %d days, %02d:%02d
+	サービス継続時間 %d 日, %02d:%02d
 OPER_STATS_UPTIME_1DHMS
-	Services up %d day, %02d:%02d
+#	Services up %d day, %02d:%02d
+	サービス継続時間 %d 日, %02d:%02d
 OPER_STATS_UPTIME_HMS
-	Services up %d hours, %d minutes
+#	Services up %d hours, %d minutes
+	サービス継続時間 %d 時間, %d 分 
 OPER_STATS_UPTIME_HM1S
-	Services up %d hours, %d minutes
+#	Services up %d hours, %d minutes
+	サービス継続時間 %d 時間, %d 分 
 OPER_STATS_UPTIME_H1MS
-	Services up %d hours, %d minute
+#	Services up %d hours, %d minute
+	サービス継続時間 %d 時間, %d 分
 OPER_STATS_UPTIME_H1M1S
-	Services up %d hours, %d minute
+#	Services up %d hours, %d minute
+	サービス継続時間 %d 時間, %d 分
 OPER_STATS_UPTIME_1HMS
-	Services up %d hour, %d minutes
+#	Services up %d hour, %d minutes
+	サービス継続時間 %d 時間, %d 分 
 OPER_STATS_UPTIME_1HM1S
-	Services up %d hour, %d minutes
+#	Services up %d hour, %d minutes
+	サービス継続時間 %d 時間, %d 分
 OPER_STATS_UPTIME_1H1MS
-	Services up %d hour, %d minute
+#	Services up %d hour, %d minute
+	サービス継続時間 %d 時間, %d 分
 OPER_STATS_UPTIME_1H1M1S
-	Services up %d hour, %d minute
+#	Services up %d hour, %d minute
+	サービス継続時間 %d 時間, %d 分
 OPER_STATS_UPTIME_MS
-	Services up %d minutes, %d seconds
+#	Services up %d minutes, %d seconds
+	サービス継続時間 %d 分, %d 秒
 OPER_STATS_UPTIME_M1S
-	Services up %d minutes, %d second
+#	Services up %d minutes, %d second
+	サービス継続時間 %d 分, %d 秒
 OPER_STATS_UPTIME_1MS
-	Services up %d minute, %d seconds
+#	Services up %d minute, %d seconds
+	サービス継続時間 %d 分, %d 秒
 OPER_STATS_UPTIME_1M1S
-	Services up %d minute, %d second
+#	Services up %d minute, %d second
+	サービス継続時間 %d 分, %d 秒
 OPER_STATS_BYTES_READ
-	Bytes read    : %5d kB
+#	Bytes read    : %5d kB
+	読み取りバイト: %5d kB
 OPER_STATS_BYTES_WRITTEN
-	Bytes written : %5d kB
+#	Bytes written : %5d kB
+	書き込みバイト: %5d kB
 OPER_STATS_USER_MEM
-	User          : %6d records, %5d kB
+#	User          : %6d records, %5d kB
+	ユーザ数      : %6d レコード, %5d kB
 OPER_STATS_CHANNEL_MEM
-	Channel       : %6d records, %5d kB
+#	Channel       : %6d records, %5d kB
+	チャンネル数  : %6d レコード, %5d kB
 OPER_STATS_GROUPS_MEM
-	NS Groups     : %6d records, %5d kB
+#	NS Groups     : %6d records, %5d kB
+	NS グループ数 : %6d レコード, %5d kB
 OPER_STATS_ALIASES_MEM
-	NS Aliases    : %6d records, %5d kB
+#	NS Aliases    : %6d records, %5d kB
+	NS エイリアス数:%6d レコード, %5d kB
 OPER_STATS_CHANSERV_MEM
 	ChanServ      : %6d records, %5d kB
 OPER_STATS_BOTSERV_MEM
@@ -2907,79 +2934,115 @@ OPER_STATS_HOSTSERV_MEM
 OPER_STATS_OPERSERV_MEM
 	OperServ      : %6d records, %5d kB
 OPER_STATS_SESSIONS_MEM
-	Sessions      : %6d records, %5d kB
+#	Sessions      : %6d records, %5d kB
+	セッション数  : %6d レコード, %5d kB
 OPER_STATS_AKILL_COUNT
-	Current number of AKILLs: %d
+#	Current number of AKILLs: %d
+	現在までに AKILL した数 : %d
 OPER_STATS_AKILL_EXPIRE_DAYS
-	Default AKILL expiry time: %d days
+#	Default AKILL expiry time: %d days
+	AKILL 解除時間の初期値   : %d 日
 OPER_STATS_AKILL_EXPIRE_DAY
-	Default AKILL expiry time: 1 day
+#	Default AKILL expiry time: 1 day
+	AKILL 解除時間の初期値   : 1 日
 OPER_STATS_AKILL_EXPIRE_HOURS
-	Default AKILL expiry time: %d hours
+#	Default AKILL expiry time: %d hours
+	AKILL 解除時間の初期値   : %d 時間
 OPER_STATS_AKILL_EXPIRE_HOUR
-	Default AKILL expiry time: 1 hour
+#	Default AKILL expiry time: 1 hour
+	AKILL 解除時間の初期値   : 1 時間
 OPER_STATS_AKILL_EXPIRE_MINS
-	Default AKILL expiry time: %d minutes
+#	Default AKILL expiry time: %d minutes
+	AKILL 解除時間の初期値   : %d 分
 OPER_STATS_AKILL_EXPIRE_MIN
-	Default AKILL expiry time: 1 minute
+#	Default AKILL expiry time: 1 minute
+	AKILL 解除時間の初期値   : 1 分
 OPER_STATS_AKILL_EXPIRE_NONE
-	Default AKILL expiry time: No expiration
+#	Default AKILL expiry time: No expiration
+	AKILL 解除時間の初期値   : 未設定
 OPER_STATS_SGLINE_COUNT
-	Current number of SGLINEs: %d
+#	Current number of SGLINEs: %d
+	現在の SGLINE 数         : %d
 OPER_STATS_SGLINE_EXPIRE_DAYS
-	Default SGLINE expiry time: %d days
+#	Default SGLINE expiry time: %d days
+	SGLINE 解除時間の初期値   : %d 日
 OPER_STATS_SGLINE_EXPIRE_DAY
-	Default SGLINE expiry time: 1 day
+#	Default SGLINE expiry time: 1 day
+	SGLINE 解除時間の初期値   : 1 日
 OPER_STATS_SGLINE_EXPIRE_HOURS
-	Default SGLINE expiry time: %d hours
+#	Default SGLINE expiry time: %d hours
+	SGLINE 解除時間の初期値   : %d 時間
 OPER_STATS_SGLINE_EXPIRE_HOUR
-	Default SGLINE expiry time: 1 hour
+#	Default SGLINE expiry time: 1 hour
+	SGLINE 解除時間の初期値   : 1 時間
 OPER_STATS_SGLINE_EXPIRE_MINS
-	Default SGLINE expiry time: %d minutes
+#	Default SGLINE expiry time: %d minutes
+	SGLINE 解除時間の初期値   : %d 分
 OPER_STATS_SGLINE_EXPIRE_MIN
-	Default SGLINE expiry time: 1 minute
+#	Default SGLINE expiry time: 1 minute
+	SGLINE 解除時間の初期値   : 1 分
 OPER_STATS_SGLINE_EXPIRE_NONE
-	Default SGLINE expiry time: No expiration
+#	Default SGLINE expiry time: No expiration
+	SGLINE 解除時間の初期値   : 未設定
 OPER_STATS_SQLINE_COUNT
-	Current number of SQLINEs: %d
+#	Current number of SQLINEs: %d
+	現在の SQLINE 数         : %d
 OPER_STATS_SQLINE_EXPIRE_DAYS
-	Default SQLINE expiry time: %d days
+#	Default SQLINE expiry time: %d days
+	SQLINE 解除時間の初期値   : %d 日
 OPER_STATS_SQLINE_EXPIRE_DAY
-	Default SQLINE expiry time: 1 day
+#	Default SQLINE expiry time: 1 day
+	SQLINE 解除時間の初期値   : 1 日
 OPER_STATS_SQLINE_EXPIRE_HOURS
-	Default SQLINE expiry time: %d hours
+#	Default SQLINE expiry time: %d hours
+	SQLINE 解除時間の初期値   : %d 時間
 OPER_STATS_SQLINE_EXPIRE_HOUR
-	Default SQLINE expiry time: 1 hour
+#	Default SQLINE expiry time: 1 hour
+	SQLINE 解除時間の初期値   : 1 時間
 OPER_STATS_SQLINE_EXPIRE_MINS
-	Default SQLINE expiry time: %d minutes
+#	Default SQLINE expiry time: %d minutes
+	SQLINE 解除時間の初期値   : %d 分
 OPER_STATS_SQLINE_EXPIRE_MIN
-	Default SQLINE expiry time: 1 minute
+#	Default SQLINE expiry time: 1 minute
+	SQLINE 解除時間の初期値   : 1 分
 OPER_STATS_SQLINE_EXPIRE_NONE
-	Default SQLINE expiry time: No expiration
+#	Default SQLINE expiry time: No expiration
+	SQLINE 解除時間の初期値   : 未設定
 OPER_STATS_SZLINE_COUNT
-	Current number of SZLINEs: %d
+#	Current number of SZLINEs: %d
+	現在の SZLINE 数         : %d
 OPER_STATS_SZLINE_EXPIRE_DAYS
-	Default SZLINE expiry time: %d days
+#	Default SZLINE expiry time: %d days
+	SZLINE 解除時間の初期値   : %d 日
 OPER_STATS_SZLINE_EXPIRE_DAY
-	Default SZLINE expiry time: 1 day
+#	Default SZLINE expiry time: 1 day
+	SZLINE 解除時間の初期値   : 1 日
 OPER_STATS_SZLINE_EXPIRE_HOURS
-	Default SZLINE expiry time: %d hours
+#	Default SZLINE expiry time: %d hours
+	SZLINE 解除時間の初期値   : %d 時間
 OPER_STATS_SZLINE_EXPIRE_HOUR
-	Default SZLINE expiry time: 1 hour
+#	Default SZLINE expiry time: 1 hour
+	SZLINE 解除時間の初期値   : 1 時間
 OPER_STATS_SZLINE_EXPIRE_MINS
-	Default SZLINE expiry time: %d minutes
+#	Default SZLINE expiry time: %d minutes
+	SZLINE 解除時間の初期値   : %d 分
 OPER_STATS_SZLINE_EXPIRE_MIN
-	Default SZLINE expiry time: 1 minute
+#	Default SZLINE expiry time: 1 minute
+	SZLINE 解除時間の初期値   : 1 分
 OPER_STATS_SZLINE_EXPIRE_NONE
-	Default SZLINE expiry time: No expiration
+#	Default SZLINE expiry time: No expiration
+	SZLINE 解除時間の初期値   : 未設定
 OPER_STATS_RESET
-	Statistics reset.
+#	Statistics reset.
+	設定がリセットされました。
 OPER_STATS_UPLINK_SERVER
-	Uplink server: %s
+#	Uplink server: %s
+	アップリンクサーバ: %s
 OPER_STATS_UPLINK_CAPAB
 	Uplink capab: %s
 OPER_STATS_UPLINK_SERVER_COUNT
-	Servers found: %d
+#	Servers found: %d
+	アップリンクサーバ数: %d
 
 # MODE responses
 OPER_MODE_SYNTAX
