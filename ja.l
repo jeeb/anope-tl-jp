@@ -3632,15 +3632,20 @@ OPER_STAFF_AFORMAT
 OPER_DEFCON_SYNTAX
 	DEFCON [1|2|3|4|5]
 OPER_DEFCON_DENIED
-	Services are in Defcon mode, Please try again later.
+#	Services are in Defcon mode, Please try again later.
+	サービスが Defcon モードになっています。後からやり直してください。
 OPER_DEFCON_NO_CONF
-	The Defcon system must be enabled in the services.conf file
+#	The Defcon system must be enabled in the services.conf file
+	Defcon システムは services.conf 内でのみ有効化できます。
 OPER_DEFCON_CHANGED
-	Services are now at DEFCON %d
+#	Services are now at DEFCON %d
+	DEFCON レベルが変更されました。現在のレベルは %d です。
 OPER_DEFCON_WALL
-	%s Changed the DEFCON level to %d
+#	%s Changed the DEFCON level to %d
+	%s が DEFCON レベルを %d に変更しました。
 DEFCON_GLOBAL
-	The Defcon Level is now at Level: %d
+#	The Defcon Level is now at Level: %d
+	現在の DEFCON レベル : %d
 
 # Module strings
 
