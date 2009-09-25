@@ -3,14 +3,16 @@ Please feel free to add new points to this file.
 和訳の統一性を保つために確認しないといけない点を箇条書きするファイルです。
 気軽にお書き添えください。
 
-type 'sopmething'という表現がある場合どう訳せばいいのか
+'type something'という表現がある場合どう訳せばいいのか
 「まるまる」とタイプしてください。
 「まるまる」と入力してください。
+Norgus) どっちがいいか知りたい。（日本人の意見お願いします）
 
 wordという単語が出た場合（例えば banned word)
 ワード
 言葉
 単語
+Norgus) どれがいいか知りたい。（日本人の意見お願いします）
 
 半角の!や?は全角の！と？にする。
 http://github.com/jeeb/anope-tl-jp/commit/74c74bcc0acc1dd4f7e05becc3c7e96b5648d1ce
