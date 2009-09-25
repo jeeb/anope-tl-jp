@@ -4006,119 +4006,161 @@ NEWS_RANDOM_TEXT
 NEWS_LOGON_SYNTAX
 	LOGONNEWS {ADD|DEL|LIST} [text|num]
 NEWS_LOGON_LIST_HEADER
-	Logon news items:
+#	Logon news items:
+	ログオンニュース:
 NEWS_LOGON_LIST_ENTRY
 	%5d (%s by %s)
 	    %s
 NEWS_LOGON_LIST_NONE
-	There is no logon news.
+#	There is no logon news.
+	ログオンニュースがありません。
 NEWS_LOGON_ADD_SYNTAX
 	LOGONNEWS ADD text
 NEWS_LOGON_ADD_FULL
-	News list is full!
+#	News list is full!
+	ニュースリストが満杯です。
 NEWS_LOGON_ADDED
-	Added new logon news item (#%d).
+#	Added new logon news item (#%d).
+	新しいログオンニュース (#%d) を追加しました。
 NEWS_LOGON_DEL_SYNTAX
 	LOGONNEWS DEL {num | ALL}
 NEWS_LOGON_DEL_NOT_FOUND
-	Logon news item #%d not found!
+#	Logon news item #%d not found!
+	ログオンニュース #%d が見つかりません！
 NEWS_LOGON_DELETED
-	Logon news item #%d deleted.
+#	Logon news item #%d deleted.
+	ログオンニュース #%d を削除しました。
 NEWS_LOGON_DEL_NONE
-	No logon news items to delete!
+#	No logon news items to delete!
+	ログオンニュースを削除しませんでした！
 NEWS_LOGON_DELETED_ALL
-	All logon news items deleted.
+#	All logon news items deleted.
+	ログオンニュースを全て削除しました。
 
 NEWS_OPER_SYNTAX
 	OPERNEWS {ADD|DEL|LIST} [text|num]
 NEWS_OPER_LIST_HEADER
 	Oper news items:
+	サーバオペレータニュース:
 NEWS_OPER_LIST_ENTRY
 	%5d (%s by %s)
 	    %s
 NEWS_OPER_LIST_NONE
-	There is no oper news.
+#	There is no oper news.
+	サーバオペレータニュースがありません。
 NEWS_OPER_ADD_SYNTAX
 	OPERNEWS ADD text
 NEWS_OPER_ADD_FULL
-	News list is full!
+#	News list is full!
+	ニュースリストが満杯です。
 NEWS_OPER_ADDED
-	Added new oper news item (#%d).
+#	Added new oper news item (#%d).
+	新しいサーバオペレータニュース (#%d) を追加しました。
 NEWS_OPER_DEL_SYNTAX
 	OPERNEWS DEL {num | ALL}
 NEWS_OPER_DEL_NOT_FOUND
-	Oper news item #%d not found!
+#	Oper news item #%d not found!
+	サーバオペレータニュース #%d が見つかりません！
 NEWS_OPER_DELETED
-	Oper news item #%d deleted.
+#	Oper news item #%d deleted.
+	サーバオペレータニュース #%d を削除しました。
 NEWS_OPER_DEL_NONE
-	No oper news items to delete!
+#	No oper news items to delete!
+	サーバオペレータニュースを削除できませんでした！
 NEWS_OPER_DELETED_ALL
-	All oper news items deleted.
+#	All oper news items deleted.
+	サーバオペレータニュースを全て削除しました。
 
 NEWS_RANDOM_SYNTAX
 	RANDOMNEWS {ADD|DEL|LIST} [text|num]
 NEWS_RANDOM_LIST_HEADER
 	Random news items:
+	ランダムニュース:
 NEWS_RANDOM_LIST_ENTRY
 	%5d (%s by %s)
 	    %s
 NEWS_RANDOM_LIST_NONE
-	There is no random news.
+#	There is no random news.
+	ランダムニュースがありません。
 NEWS_RANDOM_ADD_SYNTAX
 	RANDOMNEWS ADD text
 NEWS_RANDOM_ADD_FULL
-	News list is full!
+#	News list is full!
+	ニュースリストが満杯です。
 NEWS_RANDOM_ADDED
-	Added new random news item (#%d).
+#	Added new random news item (#%d).
+	新しいランダムニュース (#%d) を追加しました。
 NEWS_RANDOM_DEL_SYNTAX
 	RANDOMNEWS DEL {num | ALL}
 NEWS_RANDOM_DEL_NOT_FOUND
-	Random news item #%d not found!
+#	Random news item #%d not found!
+	ランダムニュース #%d が見つかりません！
 NEWS_RANDOM_DELETED
-	Random news item #%d deleted.
+#	Random news item #%d deleted.
+	ランダムニュース #%d を削除しました。
 NEWS_RANDOM_DEL_NONE
-	No random news items to delete!
+#	No random news items to delete!
+	ランダムニュースを削除できませんでした！
 NEWS_RANDOM_DELETED_ALL
-	All random news items deleted.
+#	All random news items deleted.
+	ランダムニュースを全て削除しました。
 
 NEWS_HELP_LOGON
 	Syntax: LOGONNEWS ADD text
 	        LOGONNEWS DEL {num | ALL}
 	        LOGONNEWS LIST
 	
-	Edits or displays the list of logon news messages.  When a
-	user connects to the network, these messages will be sent
-	to them.  (However, no more than %s messages will be
-	sent in order to avoid flooding the user.  If there are
-	more news messages, only the most recent will be sent.)
-	NewsCount can be configured in services.conf.
+#	Edits or displays the list of logon news messages.  When a
+#	user connects to the network, these messages will be sent
+#	to them.  (However, no more than %s messages will be
+#	sent in order to avoid flooding the user.  If there are
+#	more news messages, only the most recent will be sent.)
+#	NewsCount can be configured in services.conf.
+	ログオンニュースを編集または表示する。ユーザがネットワークに
+	接続したときに、これらのメッセージがユーザに送信される(ただし、
+	ユーザにこれを flood 攻撃と勘違いさせないために、%s 個以上
+	のメッセージは送信されない。この場合、メッセージは新しいもの
+	から順に送信される。)。NewsCount は services.conf 内で設定する。
 	
-	LOGONNEWS may only be used by Services admins.
+#	LOGONNEWS may only be used by Services admins.
+	LOGONNEWS はサービス管理者以外は使えない。
+
 
 NEWS_HELP_OPER
 	Syntax: OPERNEWS ADD text
 	        OPERNEWS DEL {num | ALL}
 	        OPERNEWS LIST
 	
-	Edits or displays the list of oper news messages.  When a
-	user opers up (with the /OPER command), these messages will
-	be sent to them.  (However, no more than %s messages will
-	be sent in order to avoid flooding the user.  If there are
-	more news messages, only the most recent will be sent.)
-	NewsCount can be configured in services.conf.
+#	Edits or displays the list of oper news messages.  When a
+#	user opers up (with the /OPER command), these messages will
+#	be sent to them.  (However, no more than %s messages will
+#	be sent in order to avoid flooding the user.  If there are
+#	more news messages, only the most recent will be sent.)
+#	NewsCount can be configured in services.conf.
+	サーバオペレータニュースを編集または表示する。ユーザが
+	サーバオペレータになる(/OPER コマンドで)と、これらのメッセージ
+	がユーザに送信される。(ただし、ユーザにこれを flood 攻撃と勘違い
+	させないために、%s 個以上のメッセージは送信されない。
+	この場合、メッセージは新しいものから順に送信される。)。
+	NewsCount は services.conf 内で設定する。
 	
-	OPERNEWS may only be used by Services admins.
+#	OPERNEWS may only be used by Services admins.
+	OPERNEWS はサービス管理者以外は使えない。
 
 NEWS_HELP_RANDOM
 	Syntax: RANDOMNEWS ADD text
 	        RANDOMNEWS DEL {num | ALL}
 	        RANDOMNEWS LIST
 	
-	Edits or displays the list of random news messages.  When a
-	user connects to the network, one (and only one) of the
-	random news will be randomly chosen and sent to them.
-	
-	RANDOMNEWS may only be used by Services admins.
+#	Edits or displays the list of random news messages.  When a
+#	user connects to the network, one (and only one) of the
+#	random news will be randomly chosen and sent to them.
+	ランダムニュースを編集または表示する。ユーザがネットワークに
+	接続すると、ランダムニュースの中から1つ、ニュースが無作為に
+	選ばれ、これが送信される。
+
+#	RANDOMNEWS may only be used by Services admins.
+	RANDOMNEWS はサービス管理者以外は使えない。
 
 ###########################################################################
 #
