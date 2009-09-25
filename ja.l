@@ -682,31 +682,40 @@ NICK_SET_KILL_SYNTAX
 NICK_SET_KILL_IMMED_SYNTAX
 	SET KILL {ON | QUICK | IMMED | OFF}
 NICK_SET_KILL_ON
-	Protection is now ON.
+#	Protection is now ON.
+	ニックネーム保護を有効(ON)にしました。
 NICK_SET_KILL_QUICK
-	Protection is now ON, with a reduced delay.
+#	Protection is now ON, with a reduced delay.
+	ニックネーム保護を短期限つきで有効(ON)にしました。
 NICK_SET_KILL_IMMED
-	Protection is now ON, with no delay.
+#	Protection is now ON, with no delay.
+	ニックネーム保護を期限なしで有効(ON)にしました。
 NICK_SET_KILL_IMMED_DISABLED
-	The IMMED option is not available on this network.
+#	The IMMED option is not available on this network.
+	このネットワークでは、IMMEDの設定は無効にされています。
 NICK_SET_KILL_OFF
-	Protection is now OFF.
+#	Protection is now OFF.
+	ニックネーム保護を無効(OFF)にしました。
 
 # SET SECURE responses
 NICK_SET_SECURE_SYNTAX
 	SET SECURE {ON | OFF}
 NICK_SET_SECURE_ON
-	Secure option is now ON.
+#	Secure option is now ON.
+	ニックネームセキュリティー機能を有効(ON)にしました。
 NICK_SET_SECURE_OFF
-	Secure option is now OFF.
+#	Secure option is now OFF.
+	ニックネームセキュリティー機能を無効(OFF)にしました。
 
 # SET PRIVATE responses
 NICK_SET_PRIVATE_SYNTAX
 	SET PRIVATE {ON | OFF}
 NICK_SET_PRIVATE_ON
-	Private option is now ON.
+#	Private option is now ON.
+	プライバシー機能を有効(ON)にしました。
 NICK_SET_PRIVATE_OFF
-	Private option is now OFF.
+#	Private option is now OFF.
+	プライバシー機能を無効(OFF)にしました。
 
 # SET HIDE responses
 NICK_SET_HIDE_SYNTAX
