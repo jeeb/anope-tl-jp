@@ -3833,95 +3833,153 @@ OPER_HELP_EXCEPTION
 	        EXCEPTION LIST [mask | list]
 	        EXCEPTION VIEW [mask | list]
 	
-	Allows Services admins to manipulate the list of hosts that
-	have specific session limits - allowing certain machines, 
-	such as shell servers, to carry more than the default number
-	of clients at a time. Once a host reaches it's session limit,
-	all clients attempting to connect from that host will be
-	killed. Before the user is killed, they are notified, via a
-	/NOTICE from %S, of a source of help regarding session
-	limiting. The content of this notice is a config setting.
+#	Allows Services admins to manipulate the list of hosts that
+#	have specific session limits - allowing certain machines, 
+#	such as shell servers, to carry more than the default number
+#	of clients at a time. Once a host reaches it's session limit,
+#	all clients attempting to connect from that host will be
+#	killed. Before the user is killed, they are notified, via a
+#	/NOTICE from %S, of a source of help regarding session
+#	limiting. The content of this notice is a config setting.
+	サービス管理者はセッション数制限からの除外ホスト名のリストを編集できます。
+	このリストには、各ホストに対するセッション数の上限値が記述 されています。
+	たとえばシェルサーバのようなマシンからのセッション数の上限値を初期値
+	から増やすことができます。あるホストからのセッション数が上限値に達すると、
+	以降にこのホストから接続試行を行ったクライアントは kill されます。
+	セッション数制限機能の円滑な運用のために、このようなユーザが kill
+	される前に、%S からの /NOTICE で上限に達したことが通知されます。
+	この通知の内容は設定ファイルで指定できます。
 	
-	EXCEPTION ADD adds the given host mask to the exception list.
-	Note that nick!user@host and user@host masks are invalid!
-	Only real host masks, such as box.host.dom and *.host.dom,
-	are allowed because sessions limiting does not take nick or
-	user names into account. limit must be a number greater than
-	or equal to zero. This determines how many sessions this host
-	may carry at a time. A value of zero means the host has an
-	unlimited session limit. See the AKILL help for details about
-	the format of the optional expiry parameter.
-	EXCEPTION DEL removes the given mask from the exception list.
-	EXCEPTION MOVE moves exception num to position. The
-	exceptions inbetween will be shifted up or down to fill the gap.
-	EXCEPTION LIST and EXCEPTION VIEW show all current
-	exceptions; if the optional mask is given, the list is limited
-	to those exceptions matching the mask. The difference is that
-	EXCEPTION VIEW is more verbose, displaying the name of the
-	person who added the exception, it's session limit, reason, 
-	host mask and the expiry date and time.
+#	EXCEPTION ADD adds the given host mask to the exception list.
+#	Note that nick!user@host and user@host masks are invalid!
+#	Only real host masks, such as box.host.dom and *.host.dom,
+#	are allowed because sessions limiting does not take nick or
+#	user names into account. limit must be a number greater than
+#	or equal to zero. This determines how many sessions this host
+#	may carry at a time. A value of zero means the host has an
+#	unlimited session limit. See the AKILL help for details about
+#	the format of the optional expiry parameter.
+#	EXCEPTION DEL removes the given mask from the exception list.
+#	EXCEPTION MOVE moves exception num to position. The
+#	exceptions inbetween will be shifted up or down to fill the gap.
+#	EXCEPTION LIST and EXCEPTION VIEW show all current
+#	exceptions; if the optional mask is given, the list is limited
+#	to those exceptions matching the mask. The difference is that
+#	EXCEPTION VIEW is more verbose, displaying the name of the
+#	person who added the exception, it's session limit, reason, 
+#	host mask and the expiry date and time.
+	EXCEPTION ADD は与えられたホストマスクを除外リストに追加します。
+	注意する点は、nick!user@host や user@host のようなマスク
+	は無効だという点です。 例えば、box.host.dom や *.host.dom
+	のような単純なホストマスクのみが有効です。その理由は、セッション数制限
+	はニックネームやユーザネームを考慮しないからです。また、limit は
+	0以上の数字でなければいけません。この引数はマスクで指定したホスト群
+	から一度に受け付けるセッション数の上限値を示しています。ただし、0を
+	指定した場合はセッション数制限が無いという意味になります。
+	EXCEPTION DEL は引数で指定されたマスクを除外リストから削除します。
+	EXCEPTION MOVE は num 番目の除外エントリーを position
+	番目のエントリーに移動します。2つのエントリー間にあるエントリーは
+	順番を保存したまま上下にシフトします。
+	EXCEPTION LIST と EXCEPTION VIEW はすべての除外リストを
+	表示します。mask 引数を指定した場合は、これにマッチする除外エントリー
+	のみを表示します。2 つの違いは、EXCEPTION VIEW の方が詳細
+	(除外エントリーを設定した人の名前、セッション数の上限値、その理由、
+	ホストマスク、解除日時を表示します。) という点です。
 	
-	Note that a connecting client will "use" the first exception
-	their host matches. Large exception lists and widely matching
-	exception masks are likely to degrade services' performance.
+#	Note that a connecting client will "use" the first exception
+#	their host matches. Large exception lists and widely matching
+#	exception masks are likely to degrade services' performance.
+	注意する点は、クライアントの接続試行に対して除外リストの
+	上から1つづつマッチングを行うという点です。そのため、
+	大きな除外リストや広範囲にマッチする除外マスクはサービスの
+	パフォーマンスを低下させます。
 
 OPER_HELP_SESSION
 	Syntax: SESSION LIST threshold
 	        SESSION VIEW host
 	
-	Allows Services admins to view the session list.
+#	Allows Services admins to view the session list.
+	サービス管理者はセッションリストを見ることができます。
 
-	SESSION LIST lists hosts with at least threshold sessions.
-	The threshold must be a number greater than 1. This is to 
-	prevent accidental listing of the large number of single 
-	session hosts.
-	SESSION VIEW displays detailed information about a specific
-	host - including the current session count and session limit.
-	The host value may not include wildcards.
+#	SESSION LIST lists hosts with at least threshold sessions.
+#	The threshold must be a number greater than 1. This is to 
+#	prevent accidental listing of the large number of single 
+#	session hosts.
+#	SESSION VIEW displays detailed information about a specific
+#	host - including the current session count and session limit.
+#	The host value may not include wildcards.
+	SESSION LIST は threshold 以下のセッション数を使っている
+	ホストを表示します。この値は1よりも大きい数でなければいけません。
+	これは、間違えて1を指定した結果、大量にリストアップされてしまう
+	ことを防ぐためです。
+	SESSION VIEW はあるホストについて詳細な情報を表示します。
+	これには、セッション数とセッション数の上限値が含まれます。
+	引数 host には、ワイルドカードを含めてはいけません。
 
-	See the EXCEPTION help for more information about session
-	limiting and how to set session limits specific to certain
-	hosts and groups thereof.
+#	See the EXCEPTION help for more information about session
+#	limiting and how to set session limits specific to certain
+#	hosts and groups thereof.
+	セッション数制限の概要と、あるホストかホストグループに対して
+	セッション数制限を設定する方法については、EXCEPTION の
+	ヘルプも参照してください。
 
 OPER_HELP_STAFF
 	Syntax: STAFF
 
-	Displays all Services Staff nicks along with level
-	and on-line status.
+#	Displays all Services Staff nicks along with level
+#	and on-line status.
+	サービススタッフ全員のニックネーム、権限レベル
+	とオンラインか否かを表示します。
 
 OPER_HELP_DEFCON
 	Syntax: DEFCON [1|2|3|4|5]
 
-	The defcon system can be used to implement a pre-defined
-	set of restrictions to services useful during an attempted
-	attack on the network.
+#	The defcon system can be used to implement a pre-defined
+#	set of restrictions to services useful during an attempted
+#	attack on the network.
+	defcon システムはサービス対して、あらかじめ決められた容で
+	制限を掛けます。これはネットワークが攻撃を受けている最中に
+	有用です。
 
 OPER_HELP_DEFCON_NO_NEW_CHANNELS
-	* No new channel registrations
+#	* No new channel registrations
+	* 新規チャンネルの登録を禁止します。
 OPER_HELP_DEFCON_NO_NEW_NICKS
-	* No new nick registrations
+#	* No new nick registrations
+	* 新規ニックネームの登録を禁止します。
 OPER_HELP_DEFCON_NO_MLOCK_CHANGE
-	* No MLOCK changes
+#	* No MLOCK changes
+	* MLOCK の変更を禁止します。
 OPER_HELP_DEFCON_FORCE_CHAN_MODES
-	* Force Chan Modes (%s) to be set on all channels
+#	* Force Chan Modes (%s) to be set on all channels
+	* 全てのチャンネルのチャンネルモードを (%s) に変更します。
 OPER_HELP_DEFCON_REDUCE_SESSION
-	* Use the reduced session limit of %d
+#	* Use the reduced session limit of %d
+	* セッション数制限を %d に減らします。
 OPER_HELP_DEFCON_NO_NEW_CLIENTS
-	* Kill any NEW clients connecting
+#	* Kill any NEW clients connecting
+	* 全ての新しいクライアントからの接続を Kill します。
 OPER_HELP_DEFCON_OPER_ONLY
-	* Ignore any non-opers with message
+#	* Ignore any non-opers with message
+	* メッセージを出して、全てのオペレータでないユーザを無視します。
 OPER_HELP_DEFCON_SILENT_OPER_ONLY
-	* Silently ignore non-opers
+#	* Silently ignore non-opers
+	* メッセージを出さずに、全てのオペレータでないユーザを無視します。
 OPER_HELP_DEFCON_AKILL_NEW_CLIENTS
-	* AKILL any new clients connecting
+#	* AKILL any new clients connecting
+	* 新規クライアントからの接続を AKILL します。 
 OPER_HELP_DEFCON_NO_NEW_MEMOS
-	* No new memos sent
+#	* No new memos sent
+	* 新規メモの送信を禁止します。
 OPER_HELP_CHANKILL
 	Syntax: CHANKILL [+expiry] channel reason
 
-	Puts an AKILL for every nick on the specified channel. It
-	uses the entire and complete real ident@host for every nick,
-	then enforces the AKILL. 
+#	Puts an AKILL for every nick on the specified channel. It
+#	uses the entire and complete real ident@host for every nick,
+#	then enforces the AKILL. 
+	あるチャンネルに参加している全てのニックネームを AKILL リストに
+	加える。これは、全てのニックネームに対して、完全なident@hostを使い、
+	AKILL を実行する。
 
 ###########################################################################
 #
