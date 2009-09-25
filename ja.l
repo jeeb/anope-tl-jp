@@ -3746,7 +3746,7 @@ OPER_EXCEPTION_TOO_MANY
 	セッション数制限からの除外リストが満杯です！
 OPER_EXCEPTION_ADDED
 #	Session limit for %s set to %d.
-	%s に対するセッション数制限が %d に設定されました。
+	%s に対するセッション数の上限値が %d に設定されました。
 OPER_EXCEPTION_MOVED
 #	Exception for %s (#%d) moved to position %d.
 	%s (#%d) に対する除外リストの番号が %d に変わりました。
@@ -3776,23 +3776,23 @@ OPER_EXCEPTION_LIST_FORMAT
 	%3d  %4d   %s
 OPER_EXCEPTION_LIST_COLHEAD
 #	Num  Limit  Host
-	番号 制限数 ホストマスク
+	番号 上限値 ホストマスク
 # mask, set-by, set-time, expires, limit, reason
 OPER_EXCEPTION_VIEW_FORMAT
 	%3d.  %s  (by %s on %s; %s)
 	    Limit: %-4d  - %s
 OPER_EXCEPTION_INVALID_LIMIT
 #	Invalid session limit. It must be a valid integer greater than or equal to zero and less than %d.
-	無効なセッション数制限です。零以上で %d より小さな整数を設定してください。
+	無効なセッション数の上限値です。零以上で %d より小さな整数を設定してください。
 OPER_EXCEPTION_INVALID_HOSTMASK
 #	Invalid hostmask. Only real hostmasks are valid as exceptions are not matched against nicks or usernames.
-	無効なホストマスクです。実在するホストマスクが有効です。特別な場合として、ニックネームやユーザネームにマッチしないマスクも有効です。
+	無効なホストマスクです。単純なホストマスクのみが有効で、マッチングはニックネームやユーザネームに対しては行われません。
 OPER_EXCEPTION_EXISTS
 #	%s already exists on the EXCEPTION list.
 	%s は既にセッション数制限からの除外リストに登録済みです。
 OPER_EXCEPTION_CHANGED
 #	Exception for %s has been updated to %d.
-	%s に対するセッション数制限が %d に変更されました。
+	%s に対するセッション数の上限値が %d に変更されました。
 
 # SESSION responses
 OPER_SESSION_SYNTAX
@@ -3806,7 +3806,7 @@ OPER_SESSION_DISABLED
 	セッション数制限機能が無効化されています。
 OPER_SESSION_INVALID_THRESHOLD
 #	Invalid threshold value. It must be a valid integer greater than 1.
-	無効な制限数です。1より大きい整数を指定してください。
+	無効な上限値です。1より大きい整数を指定してください。
 OPER_SESSION_NOT_FOUND
 #	%s not found on session list.
 	%s はセッションリストにありません。
@@ -3822,7 +3822,7 @@ OPER_SESSION_LIST_FORMAT
 # host, sessions, limit
 OPER_SESSION_VIEW_FORMAT
 #	The host %s currently has %d sessions with a limit of %d.
-	現在、ホスト名 %s のセッション数は %d で上限が %d に設定されています。
+	現在、ホスト名 %s のセッション数は %d で上限値が %d に設定されています。
 
 # EXCEPTION help
 
