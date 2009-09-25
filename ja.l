@@ -3802,21 +3802,27 @@ OPER_SESSION_LIST_SYNTAX
 OPER_SESSION_VIEW_SYNTAX
 	SESSION VIEW host
 OPER_SESSION_DISABLED
-	Session limiting is disabled.
+#	Session limiting is disabled.
+	セッション数制限機能が無効化されています。
 OPER_SESSION_INVALID_THRESHOLD
-	Invalid threshold value. It must be a valid integer greater than 1.
+#	Invalid threshold value. It must be a valid integer greater than 1.
+	無効な制限数です。1より大きい整数を指定してください。
 OPER_SESSION_NOT_FOUND
-	%s not found on session list.
+#	%s not found on session list.
+	%s はセッションリストにありません。
 OPER_SESSION_LIST_HEADER
-	Hosts with at least %d sessions:
+#	Hosts with at least %d sessions:
+	セッション数が %d 以上のホスト:
 OPER_SESSION_LIST_COLHEAD
-	Sessions  Host
+#	Sessions  Host
+	セッション数 ホスト名
 # limit, host
 OPER_SESSION_LIST_FORMAT
 	%6d    %s
 # host, sessions, limit
 OPER_SESSION_VIEW_FORMAT
-	The host %s currently has %d sessions with a limit of %d.
+#	The host %s currently has %d sessions with a limit of %d.
+	現在、ホスト名 %s のセッション数は %d で上限が %d に設定されています。
 
 # EXCEPTION help
 
