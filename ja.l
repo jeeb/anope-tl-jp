@@ -3736,46 +3736,63 @@ OPER_EXCEPTION_DEL_SYNTAX
 OPER_EXCEPTION_MOVE_SYNTAX
 	EXCEPTION MOVE num position
 OPER_EXCEPTION_DISABLED
-	Session limiting is disabled.
+#	Session limiting is disabled.
+	セッション数制限機能が無効化されています。
 OPER_EXCEPTION_ALREADY_PRESENT
-	Mask %s already present on exception list.
+#	Mask %s already present on exception list.
+	マスク %s は既に除外リストに登録済みです。
 OPER_EXCEPTION_TOO_MANY
-	Session-limit exception list is full!
+#	Session-limit exception list is full!
+	セッション数制限からの除外リストが満杯です！
 OPER_EXCEPTION_ADDED
-	Session limit for %s set to %d.
+#	Session limit for %s set to %d.
+	%s に対するセッション数制限が %d に設定されました。
 OPER_EXCEPTION_MOVED
-	Exception for %s (#%d) moved to position %d.
+#	Exception for %s (#%d) moved to position %d.
+	%s (#%d) に対する除外リストの番号が %d に変わりました。
 OPER_EXCEPTION_NO_SUCH_ENTRY
-	No such entry (#%d) session-limit exception list.
+#	No such entry (#%d) session-limit exception list.
+	セッション数制限からの除外リストに #%d というエントリーはありません。
 OPER_EXCEPTION_NOT_FOUND
-	%s not found on session-limit exception list.
+#	%s not found on session-limit exception list.
+	セッション数制限からの除外リストに %s というエントリーはありません。
 OPER_EXCEPTION_NO_MATCH
-	No matching entries on session-limit exception list.
+#	No matching entries on session-limit exception list.
+	セッション数制限からの除外リストに該当するエントリーはありません。
 OPER_EXCEPTION_DELETED
-	%s deleted from session-limit exception list.
+#	%s deleted from session-limit exception list.
+	セッション数制限からの除外リストから %s というエントリーを削除しました。
 OPER_EXCEPTION_DELETED_ONE
-	Deleted 1 entry from session-limit exception list.
+#	Deleted 1 entry from session-limit exception list.
+	セッション数制限からの除外リストから 1 個のエントリーを削除しました。
 OPER_EXCEPTION_DELETED_SEVERAL
-	Deleted %d entries from session-limit exception list.
+#	Deleted %d entries from session-limit exception list.
+	セッション数制限からの除外リストから %d 個のエントリーを削除しました。
 OPER_EXCEPTION_LIST_HEADER
-	Current Session Limit Exception list:
+#	Current Session Limit Exception list:
+	現在のセッション数制限からの除外リスト:
 # mask, limit
 OPER_EXCEPTION_LIST_FORMAT
 	%3d  %4d   %s
 OPER_EXCEPTION_LIST_COLHEAD
-	Num  Limit  Host
+#	Num  Limit  Host
+	番号 制限数 ホストマスク
 # mask, set-by, set-time, expires, limit, reason
 OPER_EXCEPTION_VIEW_FORMAT
 	%3d.  %s  (by %s on %s; %s)
 	    Limit: %-4d  - %s
 OPER_EXCEPTION_INVALID_LIMIT
-	Invalid session limit. It must be a valid integer greater than or equal to zero and less than %d.
+#	Invalid session limit. It must be a valid integer greater than or equal to zero and less than %d.
+	無効なセッション数制限です。零以上で %d より小さな整数を設定してください。
 OPER_EXCEPTION_INVALID_HOSTMASK
-	Invalid hostmask. Only real hostmasks are valid as exceptions are not matched against nicks or usernames.
+#	Invalid hostmask. Only real hostmasks are valid as exceptions are not matched against nicks or usernames.
+	無効なホストマスクです。実在するホストマスクが有効です。特別な場合として、ニックネームやユーザネームにマッチしないマスクも有効です。
 OPER_EXCEPTION_EXISTS
-	%s already exists on the EXCEPTION list.
+#	%s already exists on the EXCEPTION list.
+	%s は既にセッション数制限からの除外リストに登録済みです。
 OPER_EXCEPTION_CHANGED
-	Exception for %s has been updated to %d.
+#	Exception for %s has been updated to %d.
+	%s に対するセッション数制限が %d に変更されました。
 
 # SESSION responses
 OPER_SESSION_SYNTAX
