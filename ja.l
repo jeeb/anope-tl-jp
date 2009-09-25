@@ -444,7 +444,7 @@ HELP_LIMIT_HOST_REMOVER
 NICK_IS_REGISTERED
 #	This nick is owned by someone else.  Please choose another.
 #	(If this is your nick, type %R%s IDENTIFY password.)
-	このニックネームは既に登録されています。　ほかのニックネームしてください。
+	このニックネームは既に登録されています。ほかのニックネームにしてください。
 	（もしこのニックネームはあなた自身のものなら %R%s IDENTIFY password と入力してください。)
 NICK_IS_SECURE
 #	This nickname is registered and protected.  If it is your
@@ -540,10 +540,10 @@ NICK_IDENTIFY_SYNTAX
 	IDENTIFY パスワード
 NICK_IDENTIFY_FAILED
 #	Sorry, identification failed.
-	身分の確認に失敗しました。
+	認証に失敗しました。
 NICK_IDENTIFY_SUCCEEDED
 #	Password accepted - you are now recognized.
-	パスワードを承認されました。あなたの身分は認識されています。
+	パスワードは承認されました。あなたは認証されています。
 NICK_IDENTIFY_EMAIL_REQUIRED
 #	You must now supply an e-mail for your nick.
 #	This e-mail will allow you to retrieve your password in
@@ -553,7 +553,7 @@ NICK_IDENTIFY_EMAIL_HOWTO
 #	Type %R%S SET EMAIL e-mail in order to set your e-mail.
 #	Your privacy is respected; this e-mail won't be given to
 #	any third-party person.
-	あなたの電子メールアドレスを設定するには　%R%S SET EMAIL e-mail　と入力してください。
+	あなたの電子メールアドレスを設定するには %R%S SET EMAIL e-mail と入力してください。
 	このアドレスは個人情報として扱われて、第三者に渡すことはありません。
 NICK_ALREADY_IDENTIFIED
 #	You are already identified.
@@ -562,7 +562,7 @@ NICK_ALREADY_IDENTIFIED
 # UPDATE responses
 NICK_UPDATE_SUCCESS
 #	Status updated (memos, vhost, chmodes, flags).
-	memo,vhost,chmodeとflagの設定を更新しました。
+	memo,vhost,chmode,flagの設定を更新しました。
 	
 # LOGOUT responses
 NICK_LOGOUT_SYNTAX
@@ -633,10 +633,10 @@ NICK_SET_LANGUAGE_SYNTAX
 	SET LANGUAGE 言語番号
 NICK_SET_LANGUAGE_UNKNOWN
 #	Unknown language number %d.  Type %R%s HELP SET LANGUAGE for a list of languages.
-	未知の言語番号 %d　を指定しました。言語の一覧を見るには　%R%s HELP SET LANGUAGE と入力してください。
+	未知の言語番号 %d を指定しました。言語の一覧を見るには %R%s HELP SET LANGUAGE と入力してください。
 NICK_SET_LANGUAGE_CHANGED
 #	Language changed to English.
-	言語を日本語に切り替えました。
+	言語を 日本語 に切り替えました。
 
 # SET URL responses
 NICK_SET_URL_CHANGED
@@ -2074,10 +2074,10 @@ MEMO_READ_SYNTAX
 	READ [channel] {list | LAST | NEW}
 MEMO_HEADER
 #	Memo %d from %s (%s).  To delete, type: %R%s DEL %d
-	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、%R%s DEL %d のように入力してください。
+	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、 %R%s DEL %d のように入力してください。
 MEMO_CHAN_HEADER
 #	Memo %d from %s (%s).  To delete, type: %R%s DEL %s %d
-	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、%R%s DEL %s %d のように入力してください。
+	%d 番目のメモ(送信者:%s 内容:%s)を削除するには、 %R%s DEL %s %d のように入力してください。
 MEMO_TEXT
 	%s
 
@@ -2345,28 +2345,28 @@ BOT_REASON_BADWORD
 	このチャンネルで \"%s\" という単語は使わないでください。
 BOT_REASON_BADWORD_GENTLE
 #	Watch your language!
-	言語を確認してください!
+	言葉に気をつけてください！
 BOT_REASON_BOLD
 #	Don't use bolds on this channel!
-	このチャンネルでは太字を使わないでください!
+	このチャンネルでは太字を使わないでください！
 BOT_REASON_CAPS
 #	Turn caps lock OFF!
-	caps lock を OFF にしてください!
+	caps lock を OFF にしてください！
 BOT_REASON_COLOR
 #	Don't use colors on this channel!
-	このチャンネルでは色つきの文字を使わないでください!
+	このチャンネルでは色つきの文字を使わないでください！
 BOT_REASON_FLOOD
 #	Stop flooding!
-	flood 攻撃を止めてください!
+	flood 攻撃を止めてください！
 BOT_REASON_REPEAT
 #	Stop repeating yourself!
-	何回も同じ発言をしないでください!
+	何回も同じ発言をしないでください！
 BOT_REASON_REVERSE
 #	Don't use reverses on this channel!
-	このチャンネルでは反転表示を使わないでください!
+	このチャンネルでは反転表示を使わないでください！
 BOT_REASON_UNDERLINE
 #	Don't use underlines on this channel!
-	このチャンネルでは下線を使わないでください!
+	このチャンネルでは下線を使わないでください！
 	
 # !seen replies
 BOT_SEEN_BOT
@@ -2377,19 +2377,19 @@ BOT_SEEN_YOU
 	自分を探してるのかい %s?
 BOT_SEEN_ON_CHANNEL
 #	%s is on the channel right now!
-	たった今、%s がこのチャンネルにjoinしました!
+	たった今、%s がこのチャンネルに参加しました！
 BOT_SEEN_ON_CHANNEL_AS
 #	%s is on the channel right now (as %s) ! 
-	たった今、%s が %s としてこのチャンネルにjoinしました!
+	たった今、%s が %s としてこのチャンネルに参加しました！
 BOT_SEEN_ON
 #	%s was last seen here %s ago.
 	%s がこのチャンネルにいたのは %s 前です。
 BOT_SEEN_NEVER
 #	I've never seen %s on this channel.
-	%s は今までこのチャンネルにjoinしたことがないようです。
+	%s は今までこのチャンネルに参加したことがないようです。
 BOT_SEEN_UNKNOWN
 #	I don't know who %s is.
-	%s って誰ですか?
+	%s って誰ですか？
 
 # BOT responses
 BOT_BOT_SYNTAX
@@ -2613,20 +2613,20 @@ BOT_SET_FANTASY_SYNTAX
 	SET channel FANTASY {ON|OFF}
 BOT_SET_FANTASY_ON
 #	Fantasy mode is now ON on channel %s.
-	チャンネル %s でファンタジーモードが有効化 されました。
+	チャンネル %s でファンタジーモードが 有効化 されました。
 BOT_SET_FANTASY_OFF
 #	Fantasy mode is now OFF on channel %s.
-	チャンネル %s でファンタジーモードが無効化 されました。
+	チャンネル %s でファンタジーモードが 無効化 されました。
 	
 # SET GREET messages
 BOT_SET_GREET_SYNTAX
 	SET channel GREET {ON|OFF}
 BOT_SET_GREET_ON
 #	Greet mode is now ON on channel %s.
-	チャンネル %s で挨拶モードが有効化 されました。
+	チャンネル %s で挨拶モードが 有効化 されました。
 BOT_SET_GREET_OFF
 #	Greet mode is now OFF on channel %s.
-	チャンネル %s で挨拶モードが無効化 されました。
+	チャンネル %s で挨拶モードが 無効化 されました。
 	
 # SET NOBOT
 BOT_SET_NOBOT_SYNTAX
@@ -2653,10 +2653,10 @@ BOT_SET_SYMBIOSIS_SYNTAX
 	SET channel SYMBIOSIS {ON|OFF}
 BOT_SET_SYMBIOSIS_ON
 #	Symbiosis mode is now ON on channel %s.
-	チャンネル %s で Symbiosis モードが有効化 されました。
+	チャンネル %s で Symbiosis モードが 有効化 されました。
 BOT_SET_SYMBIOSIS_OFF
 #	Symbiosis mode is now OFF on channel %s.
-	チャンネル %s で Symbiosis モードが無効化 されました。
+	チャンネル %s で Symbiosis モードが 無効化 されました。
 	
 # KICK responses
 BOT_KICK_SYNTAX
@@ -2675,13 +2675,13 @@ BOT_KICK_BAD_TTB
 BOT_KICK_BADWORDS_ON
 #	Bot will now kick bad words. Use the BADWORDS command
 #	to add or remove a bad word.
-	ボットは禁止ワードに反応してキックを行います。
+	ボットは 禁止ワード に反応してキックを行います。
 	BADWORD コマンドで禁止ワードの追加と削除が行えます。
 BOT_KICK_BADWORDS_ON_BAN
 #	Bot will now kick bad words, and will place a ban after 
 #	%d kicks for the same user. Use the BADWORDS command
 #	to add or remove a bad word.
-	ボットは禁止ワードに反応してキックを行い、
+	ボットは 禁止ワード に反応してキックを行い、
 	同一ユーザのキックが %d 回になったところでバンします。
 	BADWORD コマンドで禁止ワードの追加と削除が行えます。
 BOT_KICK_BADWORDS_OFF
@@ -2891,10 +2891,10 @@ OPER_STATS_UPTIME_1DHMS
 	サービス継続時間 %d 日, %02d:%02d
 OPER_STATS_UPTIME_HMS
 #	Services up %d hours, %d minutes
-	サービス継続時間 %d 時間, %d 分 
+	サービス継続時間 %d 時間, %d 分
 OPER_STATS_UPTIME_HM1S
 #	Services up %d hours, %d minutes
-	サービス継続時間 %d 時間, %d 分 
+	サービス継続時間 %d 時間, %d 分
 OPER_STATS_UPTIME_H1MS
 #	Services up %d hours, %d minute
 	サービス継続時間 %d 時間, %d 分
@@ -2903,7 +2903,7 @@ OPER_STATS_UPTIME_H1M1S
 	サービス継続時間 %d 時間, %d 分
 OPER_STATS_UPTIME_1HMS
 #	Services up %d hour, %d minutes
-	サービス継続時間 %d 時間, %d 分 
+	サービス継続時間 %d 時間, %d 分
 OPER_STATS_UPTIME_1HM1S
 #	Services up %d hour, %d minutes
 	サービス継続時間 %d 時間, %d 分
@@ -2944,13 +2944,17 @@ OPER_STATS_ALIASES_MEM
 #	NS Aliases    : %6d records, %5d kB
 	NS エイリアス数:%6d レコード, %5d kB
 OPER_STATS_CHANSERV_MEM
-	ChanServ      : %6d records, %5d kB
+#	ChanServ      : %6d records, %5d kB
+	ChanServ      : %6d レコード, %5d kB
 OPER_STATS_BOTSERV_MEM
-	BotServ       : %6d records, %5d kB
+#	BotServ       : %6d records, %5d kB
+	BotServ       : %6d レコード, %5d kB
 OPER_STATS_HOSTSERV_MEM
-	HostServ      : %6d records, %5d kB
+#	HostServ      : %6d records, %5d kB
+	HostServ      : %6d レコード, %5d kB
 OPER_STATS_OPERSERV_MEM
-	OperServ      : %6d records, %5d kB
+#	OperServ      : %6d records, %5d kB
+	OperServ      : %6d レコード, %5d kB
 OPER_STATS_SESSIONS_MEM
 #	Sessions      : %6d records, %5d kB
 	セッション数  : %6d レコード, %5d kB
