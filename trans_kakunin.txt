@@ -12,4 +12,5 @@ wordという単語が出た場合（例えば banned word)
 言葉
 単語
 
-
+半角の!や?は全角の！と？にする。
+http://github.com/jeeb/anope-tl-jp/commit/74c74bcc0acc1dd4f7e05becc3c7e96b5648d1ce
