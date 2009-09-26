@@ -851,27 +851,36 @@ NICK_SASET_KILL_OFF
 
 # SASET SECURE responses
 NICK_SASET_SECURE_SYNTAX
-	SASET nickname SECURE {ON | OFF}
+#	SASET nickname SECURE {ON | OFF}
+	SASET ニックネーム SECURE {ON | OFF}
 NICK_SASET_SECURE_ON
-	Secure option is now ON for %s.
+#	Secure option is now ON for %s.
+	現在 %s へのセキュアオプションは ON になっています。
 NICK_SASET_SECURE_OFF
 	Secure option is now OFF for %s.
+	現在 %s へのセキュアオプションは OFF になっています。
 
 # SASET PRIVATE responses
 NICK_SASET_PRIVATE_SYNTAX
 	SASET nickname PRIVATE {ON | OFF}
+	SASET ニックネーム PRIVATE {ON | OFF}
 NICK_SASET_PRIVATE_ON
-	Private option is now ON for %s.
+#	Private option is now ON for %s.
+	現在 %s へのプライベートオプションは ON になっています。
 NICK_SASET_PRIVATE_OFF
-	Private option is now OFF for %s.
+#	Private option is now OFF for %s.
+	現在 %s へのプライベートオプションは OFF になっています。
 
 # SASET HIDE responses
 NICK_SASET_HIDE_SYNTAX
-	SASET nickname HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
+#	SASET nickname HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
+	SASET ニックネーム HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 NICK_SASET_HIDE_EMAIL_ON
-	The E-mail address of %s will now be hidden from %s INFO displays.
+#	The E-mail address of %s will now be hidden from %s INFO displays.
+	現在 %s のメールアドレスは %s INFO 表示から隠されています。
 NICK_SASET_HIDE_EMAIL_OFF
-	The E-mail address of %s will now be shown in %s INFO displays.
+#	The E-mail address of %s will now be shown in %s INFO displays.
+	現在 %s のメールアドレスは %s INFO 表示に公開されています。
 NICK_SASET_HIDE_MASK_ON
 	The last seen user@host mask of %s will now be hidden from %s INFO displays.
 NICK_SASET_HIDE_MASK_OFF
