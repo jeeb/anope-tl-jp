@@ -756,16 +756,21 @@ NICK_SET_AUTOOP_OFF
 
 # SASET responses
 NICK_SASET_SYNTAX
-	SASET nickname option parameters
+#	SASET nickname option parameters
+	SASET ニックネーム オプション パラメータ
 NICK_SASET_DISABLED
-	Sorry, nickname option setting is temporarily disabled.
+#	Sorry, nickname option setting is temporarily disabled.
+	ご迷惑をお掛けします。ニックネームオプションは一時的に無効になります。
 NICK_SASET_UNKNOWN_OPTION
-	Unknown SASET option %s.
+#	Unknown SASET option %s.
+	%s は不明な SASET オプションです。
 NICK_SASET_BAD_NICK
-	Nickname %s not registered.
+#	Nickname %s not registered.
+	ニックネーム %s は、登録されませんでした。
 NICK_SASET_OPTION_DISABLED
-	Option %s cannot be set on this network.
-
+#	Option %s cannot be set on this network.
+	%s オプションはこのネットワークには設定できません。
+	
 # SASET DISPLAY responses
 NICK_SASET_DISPLAY_INVALID
 	The new display for %s MUST be a nickname of the nickname group!
@@ -774,55 +779,75 @@ NICK_SASET_DISPLAY_CHANGED
 
 # SASET PASSWORD responses
 NICK_SASET_PASSWORD_FAILED
-	Sorry, couldn't change password for %s.
+#	Sorry, couldn't change password for %s.
+	ご迷惑をお掛けします。%s のパスワードを変更することは出来ませんでした。
 NICK_SASET_PASSWORD_CHANGED
-	Password for %s changed.
+#	Password for %s changed.
+	%s のパスワードが変更されました。
 NICK_SASET_PASSWORD_CHANGED_TO
-	Password for %s changed to %s.
-
+#	Password for %s changed to %s.
+	%s のパスワードは　%s　に変更されました。
+	
 # SASET URL responses
 NICK_SASET_URL_CHANGED
-	URL for %s changed to %s.
+#	URL for %s changed to %s.
+	%s のURLは　%s に変更されました。
 NICK_SASET_URL_UNSET
-	URL %s unset.
+#	URL %s unset.
+	URL %s を解除しました。
 
 # SASET EMAIL responses
 NICK_SASET_EMAIL_CHANGED
-	E-mail address for %s changed to %s.
+#	E-mail address for %s changed to %s.
+	%s のメールアドレスは %s に変更されました。
 NICK_SASET_EMAIL_UNSET
-	E-mail address for %s unset.
+#	E-mail address for %s unset.
+	%s のメールアドレスは解除されました。
 NICK_SASET_EMAIL_UNSET_IMPOSSIBLE
-	You cannot unset the e-mail on this network.
+#	You cannot unset the e-mail on this network.
+	あなたはこのネットワークではメールアドレスを解除することは出来ません。
 	
 # SASET ICQ responses
 NICK_SASET_ICQ_CHANGED
-	ICQ number for %s set to %s.
+#	ICQ number for %s set to %s.
+	%s のICQナンバーは %s に設定されました。
 NICK_SASET_ICQ_UNSET
-	ICQ number for %s unset.
+#	ICQ number for %s unset.
+	%s のICQナンバーは解除されました。
 NICK_SASET_ICQ_INVALID
-	%s is not a valid number.
+#	%s is not a valid number.
+	%s は有効な値ではありません。
 	
 # SASET GREET responses
 NICK_SASET_GREET_CHANGED
-	Greet message for %s changed to %s.
+#	Greet message for %s changed to %s.
+	%s のグリートメッセージは %s に変更されました。
 NICK_SASET_GREET_UNSET
-	Greet message for %s unset.
+#	Greet message for %s unset.
+	%s のグリートメッセージは解除されました。
 
 # SASET PROTECT responses
 NICK_SASET_KILL_SYNTAX
-	SASET nickname KILL {ON | QUICK | OFF}
+#	SASET nickname KILL {ON | QUICK | OFF}
+	SASET ニックネーム KILL {ON | QUICK | OFF}
 NICK_SASET_KILL_IMMED_SYNTAX
-	SASET nickname KILL {ON | QUICK | IMMED | OFF}
+#	SASET nickname KILL {ON | QUICK | IMMED | OFF}
+	SASET ニックネーム KILL {ON | QUICK | IMMED | OFF}
 NICK_SASET_KILL_ON
-	Protection is now ON for %s.
+#	Protection is now ON for %s.
+	現在 %s への保護は ON　になっています。
 NICK_SASET_KILL_QUICK
-	Protection is now ON for %s, with a reduced delay.
+#	Protection is now ON for %s, with a reduced delay.
+	現在 %s への保護と、遅延の緩和が ON　になっています。
 NICK_SASET_KILL_IMMED
-	Protection is now ON for %s, with no delay.
+#	Protection is now ON for %s, with no delay.
+	現在 %s への保護と、遅延なしが ON　になっています。
 NICK_SASET_KILL_IMMED_DISABLED
-	The IMMED option is not available on this network.
+#	The IMMED option is not available on this network.
+	このネットワークでは IMMED オプションを利用することは出来ません。
 NICK_SASET_KILL_OFF
-	Protection is now OFF for %s.
+#	Protection is now OFF for %s.
+	現在 %s への保護は OFF になっています。
 
 # SASET SECURE responses
 NICK_SASET_SECURE_SYNTAX
