@@ -257,7 +257,7 @@ NICK_NOT_REGISTERED
 	あなたのニックネームは未登録です。
 NICK_NOT_REGISTERED_HELP
 #	Your nick isn't registered.  Type %R%s HELP for information on registering your nickname.
-	あなたのニックネームは未登録です。ニックネームの登録については %R%s HELP とタイプして情報を得てください。
+	あなたのニックネームは未登録です。ニックネームの登録については %R%s HELP と入力して情報を得てください。
 NICK_X_IS_SERVICES
 #	Nick %s is part of this Network's Services.
 	%s のニックネームはこのネットワークサービスの一部です。
@@ -2025,12 +2025,12 @@ MEMO_NEW_X_MEMO_ARRIVED
 #	There is a new memo on channel %s.
 #	Type %R%s READ %s %d to read it.
 	チャンネル %s に新着メモがあります。
-	メモを読むためには、%R%s READ %s %d とタイプしてください。
+	メモを読むには、%R%s READ %s %d と入力してください。
 MEMO_NEW_MEMO_ARRIVED
 #	You have a new memo from %s.
 #	Type %R%s READ %d to read it.
 	%s からあなた宛に新着メモを受け取りました。
-	メモを読むためには、%R%s READ %d とタイプしてください。
+	メモを読むには、%R%s READ %d と入力してください。
 
 # Multi-use responses
 MEMO_HAVE_NO_MEMOS
@@ -2096,19 +2096,19 @@ MEMO_X_HAS_NO_NEW_MEMOS
 	%s は新着メモを受け取っていません。
 MEMO_LIST_MEMOS
 #	Memos for %s.  To read, type: %R%s READ num
-	%s 宛てのメモがあります。読むためには、%R%s READ num のように入力してください。
+	%s 宛てのメモがあります。読むには、%R%s READ num のように入力してください。
 MEMO_LIST_NEW_MEMOS
 #	New memos for %s.  To read, type: %R%s READ num
-	%s 宛ての新着メモがあります。読むためには、%R%s READ num のように入力してください。
+	%s 宛ての新着メモがあります。読むには、%R%s READ num のように入力してください。
 MEMO_LIST_CHAN_MEMOS
 #	Memos for %s.  To read, type: %R%s READ %s num
-	%s 宛てのメモがあります。読むためには、%R%s READ %s num のように入力してください。
+	%s 宛てのメモがあります。読むには、%R%s READ %s num のように入力してください。
 MEMO_LIST_CHAN_NEW_MEMOS
 #	New memos for %s.  To read, type: %R%s READ %s num
-	%s 宛ての新着メモがあります。読むためには、 %R%s READ %s num のように入力してください。
+	%s 宛ての新着メモがあります。読むには、 %R%s READ %s num のように入力してください。
 MEMO_LIST_HEADER
 #	 Num  Sender            Date/Time
-	 番号 送信者            日付/時間
+	 番号 送信者            日時
 MEMO_LIST_FORMAT
 	%c%3d  %-16s  %s
 
