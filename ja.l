@@ -721,17 +721,23 @@ NICK_SET_PRIVATE_OFF
 NICK_SET_HIDE_SYNTAX
 	SET HIDE {EMAIL | USERMASK | QUIT} {ON | OFF}
 NICK_SET_HIDE_EMAIL_ON
-	Your E-mail address will now be hidden from %s INFO displays.
+#	Your E-mail address will now be hidden from %s INFO displays.
+	あなたの電子メール・アドレスは %s INFO コマンドで表示しないように設定されました。
 NICK_SET_HIDE_EMAIL_OFF
-	Your E-mail address will now be shown in %s INFO displays.
+#	Your E-mail address will now be shown in %s INFO displays.
+	あなたの電子メール・アドレスは %s INFO コマンドで表示するように設定されました。
 NICK_SET_HIDE_MASK_ON
-	Your last seen user@host mask will now be hidden from %s INFO displays.
+#	Your last seen user@host mask will now be hidden from %s INFO displays.
+	あなたのホスト・マスクは %s INFO コマンドで表示しないように設定されました。
 NICK_SET_HIDE_MASK_OFF
-	Your last seen user@host mask will now be shown in %s INFO displays.
+#	Your last seen user@host mask will now be shown in %s INFO displays.
+	あなたのホスト・マスクは %s INFO コマンドで表示するように設定されました。
 NICK_SET_HIDE_QUIT_ON
-	Your last quit message will now be hidden from %s INFO displays.
+#	Your last quit message will now be hidden from %s INFO displays.
+	最も最近IRCを終了した時の終了メッセージは %s INFO コマンドで表示するように設定されました。
 NICK_SET_HIDE_QUIT_OFF
-	Your last quit message will now be shown in %s INFO displays.
+#	Your last quit message will now be shown in %s INFO displays.
+	最も最近IRCを終了した時の終了メッセージは %s INFO コマンドで表示するように設定されました。
 NICK_SET_HIDE_STATUS_ON
 	Your services access status will now be hidden from %s INFO displays.
 NICK_SET_HIDE_STATUS_OFF
