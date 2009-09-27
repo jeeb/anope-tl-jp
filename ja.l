@@ -6076,7 +6076,7 @@ MEMO_HELP_CMD_SENDALL
 #	    SENDALL  Send a memo to all registered users
 	    SENDALL  登録済みのユーザ全員にメモを送信
 MEMO_HELP_CMD_STAFF
-@	    STAFF  Send a memo to all opers/admins
+#	    STAFF  Send a memo to all opers/admins
 	    STAFF  サーバオペレータと管理者にメモを送信
 
 MEMO_HELP_HEADER
