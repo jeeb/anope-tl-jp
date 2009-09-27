@@ -2090,10 +2090,10 @@ MEMO_LIST_SYNTAX
 	LIST [channel] [list | NEW]
 MEMO_HAVE_NO_NEW_MEMOS
 #	You have no new memos.
-	新着メモを受け取っていません。
+	新着メモがありません。
 MEMO_X_HAS_NO_NEW_MEMOS
 #	%s has no new memos.
-	%s は新着メモを受け取っていません。
+	%s 宛ての新着メモはありません。
 MEMO_LIST_MEMOS
 #	Memos for %s.  To read, type: %R%s READ num
 	%s 宛てのメモがあります。読むためには、%R%s READ num のように入力してください。
@@ -2108,7 +2108,7 @@ MEMO_LIST_CHAN_NEW_MEMOS
 	%s 宛ての新着メモがあります。読むためには、 %R%s READ %s num のように入力してください。
 MEMO_LIST_HEADER
 #	 Num  Sender            Date/Time
-	 番号 送信者            日付/時間
+	 番号 送信者            日時
 MEMO_LIST_FORMAT
 	%c%3d  %-16s  %s
 
@@ -2158,22 +2158,22 @@ MEMO_SET_NOTIFY_SYNTAX
 	SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 MEMO_SET_NOTIFY_ON
 #	%s will now notify you of memos when you log on and when they are sent to you.
-	ログオン時と、あなた宛のメモが送られた時に、%s がメモの着信をお知らせします。
+	ログオン時と、あなた宛のメモが到着した時に、%s が新着メモを通知します。
 MEMO_SET_NOTIFY_LOGON
 #	%s will now notify you of memos when you log on or unset /AWAY.
-	ログオンするかAWAYを解除した時に、%s がメモの着信をお知らせします。
+	ログオン時と、/AWAY を解除した時に、%s が新着メモを通知します。
 MEMO_SET_NOTIFY_NEW
 #	%s will now notify you of memos when they are sent to you.
-	あなた宛のメモが送られた時に、%s がメモの着信をお知らせします。
+	メモが到着した時に、%s が新着メモを通知します。
 MEMO_SET_NOTIFY_OFF
 #	%s will not send you any notification of memos.
 	%s はメモの着信をお知らせしません。
 MEMO_SET_NOTIFY_MAIL
 #	You will now be informed about new memos via email.
-	email によるメモ着信のお知らせを有効にしました。
+	email による新着メモの通知を有効にしました。
 MEMO_SET_NOTIFY_NOMAIL
 #	You will no longer be informed via email.
-	email によるメモ着信のお知らせを無効にしました。
+	email による新着メモの通知を無効にしました。
 MEMO_SET_NOTIFY_INVALIDMAIL
 #	There's no email address set for your nick.
 	あなたのニックネームに対する email アドレスが見つかりません。
@@ -2338,14 +2338,15 @@ MEMO_RSEND_SYNTAX
 	RSEND {nick | channel} memo-text
 MEMO_RSEND_NICK_MEMO_TEXT
 #	[auto-memo] The memo you sent has been viewed.
-	[auto-memo] あなたが送信したメモが表示されています。
+	[auto-memo] あなたが送信したメモが開封されました。
 MEMO_RSEND_CHAN_MEMO_TEXT
 #	[auto-memo] The memo you sent to %s has been viewed.
-	[auto-memo] あなたが %s 宛てに送信したメモが表示されています。
+	[auto-memo] あなたが %s 宛てに送信したメモが開封されました。
 MEMO_RSEND_USER_NOTIFICATION
 #	A notification memo has been sent to %s informing him/her you have
 #	read his/her memo.
-	%s 宛てにあなたが %s からのメモを開封したことをお知らせするメモが送信されました。
+	%s 宛てにあなたが %s からのメモを開封したことを
+	お知らせするメモが送信されました。
 
 # CHECK responses
 MEMO_CHECK_SYNTAX
@@ -6045,220 +6046,330 @@ CHAN_SERVADMIN_HELP_STATUS
 ###########################################################################
 
 MEMO_HELP_CMD_SEND
-	    SEND   Send a memo to a nick or channel
+#	    SEND   Send a memo to a nick or channel
+	    SEND   ニックネームかチャンネル宛てにメモを送信
 MEMO_HELP_CMD_CANCEL
-	    CANCEL Cancel last memo you sent
+#	    CANCEL Cancel last memo you sent
+	    CANCEL 最新のメモの送信をキャンセル
 MEMO_HELP_CMD_LIST
-	    LIST   List your memos
+#	    LIST   List your memos
+	    LIST   あなた宛のメモを表示
 MEMO_HELP_CMD_READ
-	    READ   Read a memo or memos
+#	    READ   Read a memo or memos
+	    READ   メモを読む
 MEMO_HELP_CMD_DEL
-	    DEL    Delete a memo or memos
+#	    DEL    Delete a memo or memos
+	    DEL    メモを削除する
 MEMO_HELP_CMD_SET
-	    SET    Set options related to memos
+#	    SET    Set options related to memos
+	    SET    メモに関するオプションの設定
 MEMO_HELP_CMD_INFO
-	    INFO   Displays information about your memos
+#	    INFO   Displays information about your memos
+	    INFO   あなた宛のメモに関する情報を表示
 MEMO_HELP_CMD_RSEND
-	    RSEND  Sends a memo and requests a read receipt
+#	    RSEND  Sends a memo and requests a read receipt
+	    RSEND  メモを送信して、開封確認を要求する
 MEMO_HELP_CMD_CHECK
-	    CHECK  Checks if last memo to a nick was read
+#	    CHECK  Checks if last memo to a nick was read
+	    CHECK  ニックネーム宛ての最新のメモが読まれたかチェックする
 MEMO_HELP_CMD_SENDALL
-	    SENDALL  Send a memo to all registered users
+#	    SENDALL  Send a memo to all registered users
+	    SENDALL  登録済みのユーザ全員にメモを送信
 MEMO_HELP_CMD_STAFF
-	    STAFF  Send a memo to all opers/admins
+@	    STAFF  Send a memo to all opers/admins
+	    STAFF  サーバオペレータと管理者にメモを送信
 
 MEMO_HELP_HEADER
-	%S is a utility allowing IRC users to send short
-	messages to other IRC users, whether they are online at
-	the time or not, or to channels(*).  Both the sender's
-	nickname and the target nickname or channel must be
-	registered in order to send a memo.
+#	%S is a utility allowing IRC users to send short
+#	messages to other IRC users, whether they are online at
+#	the time or not, or to channels(*).  Both the sender's
+#	nickname and the target nickname or channel must be
+#	registered in order to send a memo.
+	IRCユーザは %S を使って他の IRC ユーザやチャンネル
+	に短いメッセージを送信できます。ユーザ宛てのメッセージは、
+	そのIRCユーザがオンラインでなくても送信できます。
+	メモを送信するためには、あなたのニックネームと宛先の
+	ニックネーム、又はチャンネル名が登録済みでなければいけません。
 
-	%S's commands include:
+#	%S's commands include:
+	%S 機能に関するコマンド:
 
 
 MEMO_HELP_ADMIN
-	not used.
+#	not used.
+	使われていません。
 MEMO_HELP_OPER
-	not used.
+#	not used.
+	使われていません。
 
 MEMO_HELP_FOOTER
 	
-	Type %R%S HELP command for help on any of the
-	above commands.
+#	Type %R%S HELP command for help on any of the
+#	above commands.
+	%R%S HELP command と入力すれば、上に挙げたコマンドの
+	ヘルプを見ることができます。
 
-	(*) By default, any user with at least level 10 access on a
-	    channel can read that channel's memos.  This can be
-	    changed with the %s LEVELS command.
+#	(*) By default, any user with at least level 10 access on a
+#	    channel can read that channel's memos.  This can be
+#	    changed with the %s LEVELS command.
+	(*) 初期状態では、チャンネルに参加中で権限レベル 10 以上
+	    のユーザのみがチャンネルメモを読むことができます。
+	    このレベルは %s LEVELS コマンドで変更できます。
+	
 
 MEMO_HELP_SEND
 	Syntax: SEND {nick | channel} memo-text
 	
-	Sends the named nick or channel a memo containing
-	memo-text.  When sending to a nickname, the recipient will
-	receive a notice that he/she has a new memo.  The target
-	nickname/channel must be registered.
+#	Sends the named nick or channel a memo containing
+#	memo-text.  When sending to a nickname, the recipient will
+#	receive a notice that he/she has a new memo.  The target
+#	nickname/channel must be registered.
+	ニックネーム nick か チャンネル名 channel 宛てに
+	内容 memo-text のメモを送信します。ニックネーム宛てに
+	メモを送信する場合は、受取人に新着メモを通知します。
+	宛先のニックネームやチャンネル名は登録済みのものでなければ
+	いけません。
 	
 MEMO_HELP_CANCEL
 	Syntax: CANCEL {nick | channel}
 	
 	Cancels the last memo you sent to the given nick or channel,
 	provided it has not been read at the time you use the command.
+	指定されたニックネームかチャンネル宛てに送信した最新のメモを
+	キャンセルし、このコマンドを実行後はメモが読まれないようにします。
 
 MEMO_HELP_LIST
 	Syntax: LIST [channel] [list | NEW]
 	
-	Lists any memos you currently have.  With NEW, lists only
-	new (unread) memos.  Unread memos are marked with a "*"
-	to the left of the memo number.  You can also specify a list
-	of numbers, as in the example below:
+#	Lists any memos you currently have.  With NEW, lists only
+#	new (unread) memos.  Unread memos are marked with a "*"
+#	to the left of the memo number.  You can also specify a list
+#	of numbers, as in the example below:
+	あなたが現在受け取っているメモを表示します。NEW が指定された
+	場合、未読のメモだけを表示します。未読のメモにはメモ番号の左に"*"
+	がついています。また以下のように、番号を指定して表示させること
+	もできます。
 
 	   LIST 2-5,7-9
-	      Lists memos numbered 2 through 5 and 7 through 9.
+#	      Lists memos numbered 2 through 5 and 7 through 9.
+	      2から5番と7から8番のメモを表示します。
 
 MEMO_HELP_READ
 	Syntax: READ [channel] {num | list | LAST | NEW}
 	
-	Sends you the text of the memos specified.  If LAST is
-	given, sends you the memo you most recently received.  If
-	NEW is given, sends you all of your new memos.  Otherwise,
-	sends you memo number num.  You can also give a list of
-	numbers, as in this example:
+#	Sends you the text of the memos specified.  If LAST is
+#	given, sends you the memo you most recently received.  If
+#	NEW is given, sends you all of your new memos.  Otherwise,
+#	sends you memo number num.  You can also give a list of
+#	numbers, as in this example:
+	指定されたメモの内容を表示します。LAST が指定された場合は、
+	最新のメモを表示します。NEW が指定された場合は、新着メモを
+	全て表示します。これら以外の場合、num で指定された
+	メモを表示します。また、以下のように、一度に複数の番号を
+	指定することもできます。
 	
 	   READ 2-5,7-9
-	      Displays memos numbered 2 through 5 and 7 through 9.
+#	      Displays memos numbered 2 through 5 and 7 through 9.
+	      2から5番と7から8番のメモを表示します。
 
 MEMO_HELP_DEL
 	Syntax: DEL [channel] {num | list | LAST | ALL}
 	
-	Deletes the specified memo or memos.  You can supply
-	multiple memo numbers or ranges of numbers instead of a
-	single number, as in the second example below.
+#	Deletes the specified memo or memos.  You can supply
+#	multiple memo numbers or ranges of numbers instead of a
+#	single number, as in the second example below.
+	指定されたメモ削除します。削除するメモ番号を1個づつ指定
+	することもできますが、以下の2番目の例のように、複数の
+	メモ番号を指定したり、範囲で番号を指定することもできます。
 	
-	If LAST is given, the last memo will be deleted.
-	If ALL is given, deletes all of your memos.
+#	If LAST is given, the last memo will be deleted.
+#	If ALL is given, deletes all of your memos.
+	LAST が指定された場合は、最新のメモが削除されます。
+	ALL が指定された場合は、全てのメモが削除されます。
 	
-	Examples:
+#	Examples:
+	例:
 	
 	   DEL 1
-	      Deletes your first memo.
+#	      Deletes your first memo.
+	      最初のメモを削除します。
 	
 	   DEL 2-5,7-9
-	      Deletes memos numbered 2 through 5 and 7 through 9.
+#	      Deletes memos numbered 2 through 5 and 7 through 9.
+	      2から5番と7から8番のメモを削除します。
 
 MEMO_HELP_SET
 	Syntax: SET option parameters
 
-	Sets various memo options.  option can be one of:
+#	Sets various memo options.  option can be one of:
+	メモ機能に関するオプションを設定します。 option に指定できるのは以下:
 	
-	    NOTIFY      Changes when you will be notified about
-	                    new memos (only for nicknames)
-	    LIMIT       Sets the maximum number of memos you can
-	                    receive
+#	    NOTIFY      Changes when you will be notified about
+#	                    new memos (only for nicknames)
+#	    LIMIT       Sets the maximum number of memos you can
+#	                    receive
+	    NOTIFY      新着メモを通知するタイミングを変更します。
+	                    引数ではニックネームを指定します。
+	    LIMIT       あなたが受け取るメモの上限数を設定します。
 	
-	Type %R%S HELP SET option for more information
-	on a specific option.
+#	Type %R%S HELP SET option for more information
+#	on a specific option.
+	それぞれのオプションについて、%R%S HELP SET option
+	と入力すれば、より詳しい情報を見ることができます。
 
 MEMO_HELP_SET_NOTIFY
 	Syntax: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 
-	Changes when you will be notified about new memos:
+#	Changes when you will be notified about new memos:
+	新着メモを通知するタイミングを変更します。:
 	
-	    ON      You will be notified of memos when you log on,
-	               when you unset /AWAY, and when they are sent
-	               to you.
-	    LOGON   You will only be notified of memos when you log
-	               on or when you unset /AWAY.
-	    NEW     You will only be notified of memos when they
-	               are sent to you.
-	    MAIL    You will be notified of memos by email aswell as
-	               any other settings you have.
-	    NOMAIL  You will not be notified of memos by email.
-	    OFF     You will not receive any notification of memos.
+#	    ON      You will be notified of memos when you log on,
+#	               when you unset /AWAY, and when they are sent
+#	               to you.
+#	    LOGON   You will only be notified of memos when you log
+#	               on or when you unset /AWAY.
+#	    NEW     You will only be notified of memos when they
+#	               are sent to you.
+#	    MAIL    You will be notified of memos by email aswell as
+#	               any other settings you have.
+#	    NOMAIL  You will not be notified of memos by email.
+#	    OFF     You will not receive any notification of memos.
+	    ON      ログオン時、/AWAY の解除時、メモが到着した時に
+	               新着メモを通知します。
+	    LOGON   ログオン時と /AWAY の解除時に 新着メモを
+	               通知します。
+	    NEW     メモが到着した時に新着メモを通知します。
+	    MAIL    上の通知設定に加えて、メールでも新着メモを
+	               通知します。
+	    NOMAIL  メールでの新着メモの通知を止めます。
+	    OFF     新着メモの通知を止めます。
 	
-	ON is essentially LOGON and NEW combined.
+#	ON is essentially LOGON and NEW combined.
+	ON は LOGON と NEW を併せたものに相当します。
 
 MEMO_HELP_SET_LIMIT
 	Syntax: SET LIMIT [channel] limit
 	
-	Sets the maximum number of memos you (or the given channel)
-	are allowed to have. If you set this to 0, no one will be
-	able to send any memos to you.  However, you cannot set
-	this any higher than %d.
+#	Sets the maximum number of memos you (or the given channel)
+#	are allowed to have. If you set this to 0, no one will be
+#	able to send any memos to you.  However, you cannot set
+#	this any higher than %d.
+	あなた(又は指定されたチャンネル)のメモ保存量の上限値を
+	設定します。0を指定した場合は、あなた宛のメモを誰も送信
+	できなくなります。ただし、%d よりも大きな数値を指定する
+	ことはできません。
 
 MEMO_HELP_INFO
 	Syntax: INFO [channel]
 	
-	Displays information on the number of memos you have, how
-	many of them are unread, and how many total memos you can
-	receive.  With a parameter, displays the same information
-	for the given channel.
+#	Displays information on the number of memos you have, how
+#	many of them are unread, and how many total memos you can
+#	receive.  With a parameter, displays the same information
+#	for the given channel.
+	受け取ったメモの統計情報(未読数、上限)を表示します。
+	引数を指定すると、これらの統計情報をチャンネル宛てに
+	送られたメモについて表示します。
 
 MEMO_SERVADMIN_HELP_SET_LIMIT
 	Syntax: SET LIMIT [user | channel] {limit | NONE} [HARD]
 	
-	Sets the maximum number of memos a user or channel is
-	allowed to have.  Setting the limit to 0 prevents the user
-	from receiving any memos; setting it to NONE allows the
-	user to receive and keep as many memos as they want.  If
-	you do not give a nickname or channel, your own limit is
-	set.
+#	Sets the maximum number of memos a user or channel is
+#	allowed to have.  Setting the limit to 0 prevents the user
+#	from receiving any memos; setting it to NONE allows the
+#	user to receive and keep as many memos as they want.  If
+#	you do not give a nickname or channel, your own limit is
+#	set.
+	ユーザかチャンネルのメモ保存量の上限値を設定します。
+	0を指定した場合は、ユーザがメモを受け取ることを禁止します。
+	NONE を指定した場合は、ユーザのメモ保存量の上限を
+	無くします。ニックネームかチャンネル名を指定しなかった場合は、
+	あなた自身のメモ保存量の上限値を設定します。
 	
-	Adding HARD prevents the user from changing the limit.  Not
-	adding HARD has the opposite effect, allowing the user to
-	change the limit (even if a previous limit was set with
-	HARD).
+#	Adding HARD prevents the user from changing the limit.  Not
+#	adding HARD has the opposite effect, allowing the user to
+#	change the limit (even if a previous limit was set with
+#	HARD).
+	HARD を追加すると、ユーザがメモ保存量の上限値を変更
+	できなくします。HARD を指定した後でも、HARD を
+	外して同じコマンドを入力すれば、ユーザが上限値を変更
+	できるようにします。
 
-	This use of the SET LIMIT command is limited to Services
-	admins.  Other users may only enter a limit for themselves
-	or a channel on which they have such privileges, may not
-	remove their limit, may not set a limit above %d, and may
-	not set a hard limit.
+#	This use of the SET LIMIT command is limited to Services
+#	admins.  Other users may only enter a limit for themselves
+#	or a channel on which they have such privileges, may not
+#	remove their limit, may not set a limit above %d, and may
+#	not set a hard limit.
+	SET LIMIT コマンドを使えるのはサービス管理者だけです。
+	他のユーザは自分自身かチャンネルのメモ保存量の上限値を変える
+	ことができます。ただし、チャンネルのメモ保存量の上限値を変える
+	には、相応の権限が必要です。また、サービス管理者以外のユーザは
+	メモ保存量の上限値を NONE にすること、%d 以上の上限値を設定する
+	こと、HARD を指定することはできません。
 
 MEMO_SERVADMIN_HELP_INFO
 	Syntax: INFO [nick | channel]
 
-	Without a parameter, displays information on the number of
-	memos you have, how many of them are unread, and how many
-	total memos you can receive.
+#	Without a parameter, displays information on the number of
+#	memos you have, how many of them are unread, and how many
+#	total memos you can receive.
+	引数が指定されなかった場合、あなたが受け取っているメモの
+	統計情報(未読数、総数、上限値)を表示します。
 	
-	With a channel parameter, displays the same information for
-	the given channel.
+#	With a channel parameter, displays the same information for
+#	the given channel.
+	チャンネルを指定すると、同じ統計情報を指定したチャンネル
+	について表示します。
 	
-	With a nickname parameter, displays the same information
-	for the given nickname.  This use limited to Services
-	admins.
+#	With a nickname parameter, displays the same information
+#	for the given nickname.  This use limited to Services
+#	admins.
+	ニックネームを指定すると、同じ統計情報を指定した
+	ニックネームについて表示します。ニックネームの指定は
+	サービス管理者だけが行えます。
 
 MEMO_HELP_STAFF
 	Syntax: STAFF memo-text
 
-	Sends all services staff a memo containing memo-text.
-	Note: If you have opers on both the oper list and the
-	admin list they will receive the memo twice.  The same
-	applies for oper's on the Root list as well as other
-	lists.
+#	Sends all services staff a memo containing memo-text.
+#	Note: If you have opers on both the oper list and the
+#	admin list they will receive the memo twice.  The same
+#	applies for oper's on the Root list as well as other
+#	lists.
+	すべてのサービススタッフにmemo-text の内容でメモを
+	送信します。注意: サーバオペレータでかつサービス管理者
+	でもあるユーザは、この内容のメモを2回受け取ることになります。
+	つまり、複数のサービススタッフリストに登録されているユーザは
+	同じ内容のメモを複数回受け取ることになります。
 
 MEMO_HELP_SENDALL
 	Syntax: SENDALL memo-text
 
-	Sends all registered users a memo containing memo-text.
+#	Sends all registered users a memo containing memo-text.
+	登録済みユーザ全員に内容 memo-text でメモを送信します。
 	
 MEMO_HELP_RSEND
 	Syntax: RSEND {nick | channel} memo-text
 	
-	Sends the named nick or channel a memo containing
-	memo-text.  When sending to a nickname, the recipient will
-	receive a notice that he/she has a new memo.  The target
-	nickname/channel must be registered.
-	Once the memo is read by its recipient, an automatic notification
-	memo will be sent to the sender informing him/her that the memo
-	has been read.
+#	Sends the named nick or channel a memo containing
+#	memo-text.  When sending to a nickname, the recipient will
+#	receive a notice that he/she has a new memo.  The target
+#	nickname/channel must be registered.
+#	Once the memo is read by its recipient, an automatic notification
+#	memo will be sent to the sender informing him/her that the memo
+#	has been read.
+	nick か channel 宛てに内容 memo-text でメモを送信します。
+	宛先がニックネームの場合は、受取人は新規メモの到着を通知されます。
+	宛先のニックネーム/チャンネル名は登録済みの者でなければいけません。
+	受取人がメモを読むと、自動的に開封通知が送信者宛てに送られます。
 
 MEMO_HELP_CHECK
 	Syntax: CHECK nick
 	
-	Checks whether the _last_ memo you sent to nick has been read
-	or not. Note that this does only work with nicks, not with chans.
+#	Checks whether the _last_ memo you sent to nick has been read
+#	or not. Note that this does only work with nicks, not with chans.
+	nick 宛てに送信した最新のメモが開封されたか否かを確認します。
+	この機能はニックネームに対してのみ有効で、チャンネルに対しては無効
+	です。
 
 ###########################################################################
 #
