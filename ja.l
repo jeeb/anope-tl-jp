@@ -46,7 +46,7 @@
 # For languages other than English, this string should have the following
 # format:
 #     language-name-in-language (language-name-in-English)
-# For example, "Espaïŋ―l (Spanish)" or "Franïŋ―is (French)".
+# For example, "Español (Spanish)" or "Français (French)".
 
 LANG_NAME
 	日本語 (Japanese)
