@@ -7461,119 +7461,175 @@ HOST_LIST_KEY_FOOTER
 #
 ###########################################################################
 HOST_HELP_CMD_ON
-	    ON          Activates your assigned vhost
-	    ON          登録済みのバーチャルホストを有効化する。
+#	    ON          Activates your assigned vhost
+	    ON          登録済みのバーチャルホストを使います。
 
 HOST_HELP_CMD_OFF
-	    OFF         Deactivates your assigned vhost
+#	    OFF         Deactivates your assigned vhost
+	    OFF         登録済みのバーチャルホストを使いません。
 
 HOST_HELP_CMD_GROUP
-	    GROUP       Syncs the vhost for all nicks in a group
+#	    GROUP       Syncs the vhost for all nicks in a group
+	    GROUP       グループ内のユーザ全員のバーチャルホストを同じものに変更します。
 
 HOST_HELP_CMD_SET
-	    SET         Set the vhost of another user
+#	    SET         Set the vhost of another user
+	    SET         別のユーザのバーチャルホストを設定します。
 
 HOST_HELP_CMD_SETALL
-	    SETALL      Set the vhost for all nicks in a group
+#	    SETALL      Set the vhost for all nicks in a group
+	    SETALL      グループ内のユーザ全員のバーチャルホストを設定します
 
 HOST_HELP_CMD_DEL
-	    DEL         Delete the vhost of another user
+#	    DEL         Delete the vhost of another user
+	    DEL         別のユーザのバーチャルホストを削除します。
 
 HOST_HELP_CMD_DELALL
-	    DELALL      Delete the vhost for all nicks in a group
+#	    DELALL      Delete the vhost for all nicks in a group
+	    DELALL      グループ内のユーザ全員のバーチャルホストを削除します。
 
 HOST_HELP_CMD_LIST
-	    LIST        Displays one or more vhost entries.
+#	    LIST        Displays one or more vhost entries.
+	    LIST        バーチャルホストエントリーを表示します。
 
 HOST_OPER_HELP
-	not used.
+#	not used.
+	使われていません。
 
 HOST_ADMIN_HELP
-	not used.
+#	not used.
+	使われていません。
 
 HOST_HELP
-	%S commands:
+#	%S commands:
+	%S 機能に関するコマンド:
 
 HOST_HELP_ON
 	Syntax: ON
 
-	Activates the vhost currently assigned to the nick in use.
-	When you use this command any user who performs a /whois
-	on you will see the vhost instead of your real IP address.
+#	Activates the vhost currently assigned to the nick in use.
+#	When you use this command any user who performs a /whois
+#	on you will see the vhost instead of your real IP address.
+	使用中のニックネームに対応したバーチャルホスト設定を有効化します。
+	このコマンドを使うと、/whois で表示される本当のIPアドレスの
+	代わりに設定されたバーチャルホストが表示されます。
 
 HOST_HELP_SET
 	Syntax: SET <nick> <hostmask>.
 
-	Sets the vhost for the given nick to that of the given
-	hostmask.  If your IRCD supports vIdents, then using
-	SET <nick> <ident>@<hostmask> set idents for users as 
-	well as vhosts.
+#	Sets the vhost for the given nick to that of the given
+#	hostmask.  If your IRCD supports vIdents, then using
+#	SET <nick> <ident>@<hostmask> set idents for users as 
+#	well as vhosts.
+	指定されたニックネームに対応したバーチャルホストを設定します。
+	IRC デーモンが vIdents をサポートしていない場合は
+	SET <nick> <ident>@<hostmask> のように入力すると、
+	バーチャルホストに加えて idents も設定できます。
 
 HOST_HELP_DELALL
 	Syntax: DELALL <nick>.
 
-	Deletes the vhost for all nick's in the same group as
-	that of the given nick.
+#	Deletes the vhost for all nick's in the same group as
+#	that of the given nick.
+	指定されたニックネームと同じグループに所属する
+	ユーザ全員のバーチャルホスト設定を削除します。
 
 
 HOST_HELP_SETALL
 	Syntax: SETALL <nick> <hostmask>.
 
-	Sets the vhost for all nicks in the same group as that
-	of the given nick.  If your IRCD supports vIdents, then
-	using SETALL <nick> <ident>@<hostmask> will set idents
-	for users as well as vhosts.
+#	Sets the vhost for all nicks in the same group as that
+#	of the given nick.  If your IRCD supports vIdents, then
+#	using SETALL <nick> <ident>@<hostmask> will set idents
+#	for users as well as vhosts.
+	指定されたニックネームと同じグループに所属する
+	ユーザ全員のバーチャルホストを設定します。
+	IRC デーモンが vIdents をサポートしていない場合は
+	SETALL <nick> <ident>@<hostmask> のように入力すると、
+	バーチャルホストに加えて idents も設定できます。
 
-	* NOTE, this will not update the vhost for any nick's
-	added to the group after this command was used.
+#	* NOTE, this will not update the vhost for any nick's
+#	added to the group after this command was used.
+	* 注意、このコマンドはあるグループに所属するユーザの
+	バーチャルホストの初期値を設定するものではありません。
+	そのため、このコマンドを実行した後にグループに追加
+	されたユーザのバーチャルホストを変更するには、
+	再度同じコマンドを入力してください。
 
 HOST_HELP_OFF
 	Syntax: OFF
 
-	Deactivates the vhost currently assigned to the nick in use.
-	When you use this command any user who performs a /whois
-	on you will see your real IP address.
+#	Deactivates the vhost currently assigned to the nick in use.
+#	When you use this command any user who performs a /whois
+#	on you will see your real IP address.
+	使用中のニックネームに対応したバーチャルホスト設定を無効化します。
+	このコマンドを使うと、/whois で本当のIPアドレスが表示されます。
+
 
 HOST_HELP_DEL
 	Syntax: DEL <nick>
 
-	Deletes the vhost assigned to the given nick from the
-	database.
+#	Deletes the vhost assigned to the given nick from the
+#	database.
+	指定したニックネームに対応したバーチャルホストの設定
+	をデータベースから削除します。
 
 HOST_HELP_LIST
 	Syntax: LIST [<key>|<#X-Y>]
 
-	This command lists registered vhosts to the operator
-	if a Key is specified, only entries whos nick or vhost match
-	the pattern given in <key> are displayed e.g. Rob* for all
-	entries beginning with "Rob"
+#	This command lists registered vhosts to the operator
+#	if a Key is specified, only entries whos nick or vhost match
+#	the pattern given in <key> are displayed e.g. Rob* for all
+#	entries beginning with "Rob"
+	登録済みバーチャルホストを表示します。
+	Key が指定された場合は、ニックネームかバーチャルホスト
+	が <key> にマッチするエントリーのみを表示します。
+	例えば、Rob* と指定された場合は、"Rob" が含まれる
+	すべてのエントリーを表示します。
 
-	If a #X-Y style is used, only entries between the range of X
-	and Y will be displayed, e.g. #1-3 will display the first 3
-	nick/vhost entries.
+#	If a #X-Y style is used, only entries between the range of X
+#	and Y will be displayed, e.g. #1-3 will display the first 3
+#	nick/vhost entries.
+	#X-Y 形式が指定された場合は、XからY番目のエントリーを表示
+	します。例えば、#1-3 と指定された場合は、ニックネーム/
+	バーチャルホストエントリーの最初から3つを表示します。
 
-	The list uses the value of NSListMax as a hard limit for the
-	number of items to display to a operator at any 1 time.
+#	The list uses the value of NSListMax as a hard limit for the
+#	number of items to display to a operator at any 1 time.
+	1回に表示するエントリー数の上限値は NSListMax で指定します。
+
 
 HOST_HELP_GROUP
 	Syntax: GROUP
 	
-	This command allows users to set the vhost of their
-	CURRENT nick to be the vhost for all nicks in the same
-	group.
+#	This command allows users to set the vhost of their
+#	CURRENT nick to be the vhost for all nicks in the same
+#	group.
+	現在のニックネームと同じグループに所属するユーザ全員
+	のバーチャルホストを現在のニックネームに対応した
+	バーチャルホストに設定します。
 
 OPER_SVSNICK_UNSUPPORTED
-	Sorry, SVSNICK is not available on this network.
+#	Sorry, SVSNICK is not available on this network.
+	ご迷惑を掛けて申し訳ありません、このネットワークで
+	SVSNICK は使えません。
 
 OPER_SQLINE_UNSUPPORTED
-	Sorry, SQLINE is not available on this network.
+#	Sorry, SQLINE is not available on this network.
+	ご迷惑を掛けて申し訳ありません、このネットワークで
+	SQLINE は使えません。
 
 OPER_SVSO_UNSUPPORTED
-	Sorry, OLINE is not available on this network.
+#	Sorry, OLINE is not available on this network.
+	ご迷惑を掛けて申し訳ありません、このネットワークで
+	OLINE は使えません。
 
 OPER_UMODE_UNSUPPORTED
-	Sorry, UMODE is not available on this network.
+#	Sorry, UMODE is not available on this network.
+	ご迷惑を掛けて申し訳ありません、このネットワークで
+	UMODE は使えません。
 
 OPER_SUPER_ADMIN_NOT_ENABLED
-	SuperAdmin setting not enabled in services.conf
+#	SuperAdmin setting not enabled in services.conf
+	SuperAdmin の設定が services.conf の中で無効になっています。
 
