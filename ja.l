@@ -747,18 +747,21 @@ NICK_SET_HIDE_STATUS_OFF
 NICK_SET_MSG_SYNTAX
 	SET MSG {ON | OFF}
 NICK_SET_MSG_ON
-	Services will now reply to you with messages.
+#	Services will now reply to you with messages.
+	これから各サービスは連絡手段としてメッセージを使います。
 NICK_SET_MSG_OFF
-	Services will now reply to you with notices.
+#	Services will now reply to you with notices.
+	これから各サービスは連絡手段として告知を使います。
 
 # SET AUTOOP responses
 NICK_SET_AUTOOP_SYNTAX
 	SET AUTOOP {ON | OFF}
 NICK_SET_AUTOOP_ON
-	Services will now autoop you in channels.
+#	Services will now autoop you in channels.
+	サービスは自動的に管理者権を与えるように設定しました。
 NICK_SET_AUTOOP_OFF
-	Services will no longer autoop you in channels.
-
+#	Services will no longer autoop you in channels.
+	サービスは自動的に管理者権を与えないように設定しました。
 
 # SASET responses
 NICK_SASET_SYNTAX
@@ -779,9 +782,11 @@ NICK_SASET_OPTION_DISABLED
 	
 # SASET DISPLAY responses
 NICK_SASET_DISPLAY_INVALID
-	The new display for %s MUST be a nickname of the nickname group!
+#	The new display for %s MUST be a nickname of the nickname group!
+	%sの新しいディスプレー名はグループ内にあるニックネームである必要があります。
 NICK_SASET_DISPLAY_CHANGED
-	The new display is now %s.
+#	The new display is now %s.
+	ディスプレー名は %s に変更されました。
 
 # SASET PASSWORD responses
 NICK_SASET_PASSWORD_FAILED
