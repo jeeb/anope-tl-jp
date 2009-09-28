@@ -7462,6 +7462,7 @@ HOST_LIST_KEY_FOOTER
 ###########################################################################
 HOST_HELP_CMD_ON
 	    ON          Activates your assigned vhost
+	    ON          登録済みのバーチャルホストを有効化する。
 
 HOST_HELP_CMD_OFF
 	    OFF         Deactivates your assigned vhost
