@@ -7363,69 +7363,97 @@ BOT_SERVADMIN_HELP_SET_PRIVATE
 #
 ###########################################################################
 HOST_EMPTY
-	The vhost list is empty.
+#	The vhost list is empty.
+	バーチャルホストのリストに登録レコードがありません。
 HOST_ENTRY
-	#%d Nick:%s, vhost:%s (%s - %s)
+#	#%d Nick:%s, vhost:%s (%s - %s)
+	#%d ニックネーム:%s, バーチャルホスト:%s (%s - %s)
 HOST_IDENT_ENTRY
-	#%d Nick:%s, vhost:%s@%s (%s - %s)
+#	#%d Nick:%s, vhost:%s@%s (%s - %s)
+	#%d ニックネーム:%s, バーチャルホスト:%s@%s (%s - %s)
 HOST_SET
-	vhost for %s set to %s.
+#	vhost for %s set to %s.
+	%s のバーチャルホストを %s に設定しました。
 HOST_IDENT_SET
-	vhost for %s set to %s@%s.
+#	vhost for %s set to %s@%s.
+	%s のバーチャルホストを %s@%s に設定しました。
 HOST_SETALL
-	vhost for group %s set to %s.
+#	vhost for group %s set to %s.
+	グループ %s のバーチャルホストを %s に設定しました。
 HOST_DELALL
-	vhosts for group %s have been removed.
+#	vhosts for group %s have been removed.
+	グループ %s のバーチャルホストを削除しました。
 HOST_DELALL_SYNTAX
 	DELALL <nick>.
 HOST_IDENT_SETALL
-	vhost for group %s set to %s@%s.
+#	vhost for group %s set to %s@%s.
+	グループ %s のバーチャルホストを %s@%s に設定しました。
 HOST_SET_ERROR
-	A vhost must be in the format of a valid hostmask.
+#	A vhost must be in the format of a valid hostmask.
+	バーチャルホストを有効なホストマスクの形式にしてください。
 HOST_SET_IDENT_ERROR
-	A vhost ident must be in the format of a valid ident
+#	A vhost ident must be in the format of a valid ident
+	バーチャルホスト ident を有効な ident の形式にしてください。
 HOST_SET_TOOLONG
-	Error! The vhost is too long, please use a host shorter than %d characters.
+#	Error! The vhost is too long, please use a host shorter than %d characters.
+	エラー！バーチャルホストが長すぎます。%d 文字以下にしてください。
 HOST_SET_IDENTTOOLONG
-	Error! The Ident is too long, please use an ident shorter than %d characters.
+#	Error! The Ident is too long, please use an ident shorter than %d characters.
+	エラー！ ident が長すぎます。%d 文字以下にしてください。
 HOST_NOREG
-	User %s not found in the nickserv db.
+#	User %s not found in the nickserv db.
+	ユーザ %s が nickserv のデータベースに見つかりません。
 HOST_SET_SYNTAX
 	SET <nick> <hostmask>.
 HOST_SETALL_SYNTAX
 	SETALL <nick> <hostmask>.
 HOST_DENIED
-	Access Denied.
+#	Access Denied.
+	アクセスが拒否されました。
 HOST_NOT_ASSIGNED
-	Please contact an Operator to get a vhost assigned to this nick.
+#	Please contact an Operator to get a vhost assigned to this nick.
+	このニックネームにバーチャルホストを割り当てるには、サーバオペレータに連絡を取ってください。
 HOST_ACTIVATED
-	Your vhost of %s is now activated.
+#	Your vhost of %s is now activated.
+	あなたのバーチャルホスト %s を有効化しました。
 HOST_IDENT_ACTIVATED
-	Your vhost of %s@%s is now activated.
+#	Your vhost of %s@%s is now activated.
+	あなたのバーチャルホスト %s@%s を有効化しました。
 HOST_ID
-	Please identify to services first.
+#	Please identify to services first.
+	サービスが起動中かどうか確認してください。
 HOST_NOT_REGED
-	You need to register before a vhost can be assigned to you.
+#	You need to register before a vhost can be assigned to you.
+	バーチャルホストを登録してください。
 HOST_DEL
-	vhost for %s removed.
+#	vhost for %s removed.
+	バーチャルホスト %s を削除しました。
 HOST_DEL_SYNTAX
 	DEL <nick>.
 HOST_OFF
-	Your vhost was removed and the normal cloaking restored. 
+#	Your vhost was removed and the normal cloaking restored. 
+	バーチャルホストを削除し、通常の隠匿ホストに変更しました。
 HOST_OFF_UNREAL
-	Your vhost was removed. To re-enable the standard host cloaking, type /mode %s +%s
+#	Your vhost was removed. To re-enable the standard host cloaking, type /mode %s +%s
+	バーチャルホストを削除しました。/mode %s +%s と入力すれば、通常の隠匿ホストに変更できます。
 HOST_NO_VIDENT
-	Your IRCD does not support vIdent's, if this is incorrect, please report this as a possible bug
+#	Your IRCD does not support vIdent's, if this is incorrect, please report this as a possible bug
+	あなたの IRC デーモンは vIdent をサポートしていません。サポートしている場合はバグレポートを送ってください。
 HOST_GROUP
-	All vhost's in the group %s have been set to %s
+#	All vhost's in the group %s have been set to %s
+	グループ %s に所属しているすべてのバーチャルホストを %s に変更しました。
 HOST_IDENT_GROUP
-	All vhost's in the group %s have been set to %s@%s
+#	All vhost's in the group %s have been set to %s@%s
+	グループ %s に所属しているすべてのバーチャルホストを %s@%s に変更しました。
 HOST_LIST_FOOTER
-	Displayed all records (Count: %d)
+#	Displayed all records (Count: %d)
+	レコードを全て表示しました。(レコード数: %d)
 HOST_LIST_RANGE_FOOTER
-	Displayed records from %d to %d
+#	Displayed records from %d to %d
+	%d 番から %d 番のレコードを表示しました。
 HOST_LIST_KEY_FOOTER
-	Displayed records matching key %s (Count: %d)
+#	Displayed records matching key %s (Count: %d)
+	キー %s に該当するレコードを表示しました。(レコード数: %d)
 
 ###########################################################################
 #
