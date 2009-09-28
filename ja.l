@@ -2383,7 +2383,7 @@ BOT_DOES_NOT_EXIST
 BOT_NOT_ASSIGNED
 #	You must assign a bot to the channel before using this command.
 #	Type %R%S HELP ASSIGN for more information.
-	このコマンドを使う前に、ボットをチャンネルに招待しなければいけません。
+	このコマンドを使う前に、ボットをチャンネルに召喚しなければいけません。
 	より詳細なヘルプは、%R%S HELP ASSIGN で見る事ができます。
 BOT_NOT_ON_CHANNEL
 #	Bot is not on channel %s.
@@ -2404,7 +2404,7 @@ BOT_REASON_CAPS
 	caps lock を OFF にしてください！
 BOT_REASON_COLOR
 #	Don't use colors on this channel!
-	このチャンネルでは色つきの文字を使わないでください！
+	このチャンネルでは色付き文字を使わないでください！
 BOT_REASON_FLOOD
 #	Stop flooding!
 	flood 攻撃を止めてください！
@@ -2413,7 +2413,7 @@ BOT_REASON_REPEAT
 	何回も同じ発言をしないでください！
 BOT_REASON_REVERSE
 #	Don't use reverses on this channel!
-	このチャンネルでは反転表示を使わないでください！
+	このチャンネルでは反転文字を使わないでください！
 BOT_REASON_UNDERLINE
 #	Don't use underlines on this channel!
 	このチャンネルでは下線を使わないでください！
@@ -7021,250 +7021,380 @@ OPER_HELP_MODLIST
 #
 ###########################################################################
 BOT_HELP_CMD_BOTLIST
-	    BOTLIST        Lists available bots
+#	    BOTLIST        Lists available bots
+	    BOTLIST        ボットのリストを表示します。
 BOT_HELP_CMD_ASSIGN
-	    ASSIGN         Assigns a bot to a channel
+#	    ASSIGN         Assigns a bot to a channel
+	    ASSIGN         ボットをチャンネルに召喚します。
 BOT_HELP_CMD_SET
-	    SET            Configures bot options
+#	    SET            Configures bot options
+	    SET            ボットのオプションを設定します。
 BOT_HELP_CMD_KICK
-	    KICK           Configures kickers
+#	    KICK           Configures kickers
+	    KICK           キッカーを設定します。
 BOT_HELP_CMD_BADWORDS
-	    BADWORDS       Maintains bad words list
+#	    BADWORDS       Maintains bad words list
+	    BADWORDS       禁止ワードリストを設定します。
 BOT_HELP_CMD_ACT
-	    ACT            Makes the bot do the equivalent of a "/me" command
+#	    ACT            Makes the bot do the equivalent of a "/me" command
+	    ACT            ボットを"/me"コマンドと同様に発言させます。
 BOT_HELP_CMD_INFO
-	    INFO           Allows you to see BotServ information about a channel or a bot
+#	    INFO           Allows you to see BotServ information about a channel or a bot
+	    INFO           チャンネルかボットに関する BotServ の情報を表示します。
 BOT_HELP_CMD_SAY
-	    SAY            Makes the bot say the given text on the given channel
+#	    SAY            Makes the bot say the given text on the given channel
+	    SAY            指定されたテキストを指定されたチャンネルで発言させます。
 BOT_HELP_CMD_UNASSIGN
-	    UNASSIGN       Unassigns a bot from a channel
+#	    UNASSIGN       Unassigns a bot from a channel
+	    UNASSIGN       ボットをチャンネルから削除します。
 BOT_HELP_CMD_BOT
-	    BOT            Maintains network bot list
+#	    BOT            Maintains network bot list
+	    BOT            ボットリストを設定しま。
 
 BOT_HELP
-	%S allows you to have a bot on your own channel.
-	It has been created for users that can't host or
-	configure a bot, or for use on networks that don't
-	allow users' bot. Available commands are listed 
-	below; to use them, type %R%S command.  For 
-	more information on a specific command, type %R
-	%S HELP command.
+#	%S allows you to have a bot on your own channel.
+#	It has been created for users that can't host or
+#	configure a bot, or for use on networks that don't
+#	allow users' bot. Available commands are listed 
+#	below; to use them, type %R%S command.  For 
+#	more information on a specific command, type %R
+#	%S HELP command.
+	%S 機能を使うと、あなたのチャンネルにボットを
+	召喚できるようになります。これはボットを動かしたり、
+	設定できないユーザ、またはボットを動かすのを禁止
+	しているネットワークにいるユーザのための機能です。
+	使用可能なコマンドは以下に示してあります。これらを
+	使用するには、 %R%S command と入力してください。
+	また、それぞれのコマンドに関するより詳しい情報が、
+	%R %S HELP command と入力すれは見られます。
 	
 
 BOT_HELP_FOOTER
-	Bot will join a channel whenever there is at least
-	%d user(s) on it.
+#	Bot will join a channel whenever there is at least
+#	%d user(s) on it.
+	チャンネルに参加中のユーザ数が %d 人を超えると、
+	ボットがチャンネルにjoinできるようになります。
 
 	
 BOT_HELP_BOTLIST
 	Syntax: BOTLIST
 	
-	Lists all available bots on this network.
+#	Lists all available bots on this network.
+	このネットワークで使えるボットのリストを表示する。
 	
 BOT_HELP_ASSIGN
 	Syntax: ASSIGN chan nick
 	
-	Assigns a bot pointed out by nick to the channel chan. You
-	can then configure the bot for the channel so it fits
-	your needs.  
+#	Assigns a bot pointed out by nick to the channel chan. You
+#	can then configure the bot for the channel so it fits
+#	your needs.  
+	ボットを chan で指定したチャンネルに召喚します。
+	召喚の後には、チャンネルのポリシーに合うように
+	ボットを設定してください。
 	
 BOT_HELP_UNASSIGN
 	Syntax: UNASSIGN chan
 	
-	Unassigns a bot from a channel. When you use this command,
-	the bot won't join the channel anymore. However, bot
-	configuration for the channel is kept, so you will always
-	be able to reassign a bot later without have to reconfigure
-	it entirely.
+#	Unassigns a bot from a channel. When you use this command,
+#	the bot won't join the channel anymore. However, bot
+#	configuration for the channel is kept, so you will always
+#	be able to reassign a bot later without have to reconfigure
+#	it entirely.
+	ボットをチャンネルから削除します。このコマンドを使うと、
+	ボットはチャンネルから削除れます。ただし、このチャンネル
+	に関連したボットの設定は保存されますので、再度召喚した時に
+	改めて設定をやり直す必要はありません。
 	
 BOT_HELP_INFO
 	Syntax: INFO {chan | nick}
 	
-	Allows you to see %S information about a channel or a bot.
-	If the parameter is a channel, then you'll get information
-	such as enabled kickers. If the parameter is a nick,
-	you'll get information about a bot, such as creation
-	time or number of channels it is on.
+#	Allows you to see %S information about a channel or a bot.
+#	If the parameter is a channel, then you'll get information
+#	such as enabled kickers. If the parameter is a nick,
+#	you'll get information about a bot, such as creation
+#	time or number of channels it is on.
+	チャンネルかボットに関する %S の情報を表示します。
+	チャンネルを指定した場合には、有効になっているキッカー
+	等の情報を表示します。ニックネームを指定した場合には、
+	召喚された時間や召喚されているチャンネルの数等の、
+	ボットに関する情報を表示します。
 	
 BOT_HELP_SET
 	Syntax: SET (channel | bot) option parameters
 	
-	Configures bot options.  option can be one of:
+#	Configures bot options.  option can be one of:
+	ボットのオプションを設定します。option に指定できるのは以下です。
 	
-	    DONTKICKOPS      To protect ops against bot kicks
-	    DONTKICKVOICES   To protect voices against bot kicks
-	    GREET            Enable greet messages
-	    FANTASY          Enable fantaisist commands
-	    SYMBIOSIS        Allow the bot to act as a real bot
+#	    DONTKICKOPS      To protect ops against bot kicks
+#	    DONTKICKVOICES   To protect voices against bot kicks
+#	    GREET            Enable greet messages
+#	    FANTASY          Enable fantaisist commands
+#	    SYMBIOSIS        Allow the bot to act as a real bot
+	    DONTKICKOPS      オペレータのキックを禁止します。
+	    DONTKICKVOICES   voices ユーザのキックを禁止します。
+	    GREET            挨拶メッセージを有効にします。
+	    FANTASY          fantaisist モードを有効にします。
+	    SYMBIOSIS        ボットが実ユーザの如く振る舞うよう設定します。
 	
-	Type %R%S HELP SET option for more information
-	on a specific option.
+#	Type %R%S HELP SET option for more information
+#	on a specific option.
+	より詳しい情報を見るには、 %R%S HELP SET option と
+	入力してください。
 
-	Note: access to this command is controlled by the
-	level SET.
+#	Note: access to this command is controlled by the
+#	level SET.
+	注意: このコマンドを使うには SET コマンドで設定した
+	レベル以上の権限が必要です。
 	
 BOT_HELP_SET_DONTKICKOPS
 	Syntax: SET channel DONTKICKOPS {ON|OFF}
 	
-	Enables or disables ops protection mode on a channel.
-	When it is enabled, ops won't be kicked by the bot
-	even if they don't match the NOKICK level.
+#	Enables or disables ops protection mode on a channel.
+#	When it is enabled, ops won't be kicked by the bot
+#	even if they don't match the NOKICK level.
+	あるチャンネルでのオペレータ保護 モード
+	の有効無効を切り替えます。これが有効で、
+	オペレータが NOKICK レベルにマッチしない場合、
+	ボットはこのオペレータをキックしません。
+	
 	
 BOT_HELP_SET_DONTKICKVOICES
 	Syntax: SET channel DONTKICKVOICES {ON|OFF}
 	
-	Enables or disables voices protection mode on a channel.
-	When it is enabled, voices won't be kicked by the bot
-	even if they don't match the NOKICK level.
+#	Enables or disables voices protection mode on a channel.
+#	When it is enabled, voices won't be kicked by the bot
+#	even if they don't match the NOKICK level.
+	あるチャンネルでのvoices ユーザ保護 モード
+	の有効無効を切り替えます。これが有効で、voices
+	ユーザが NOKICK レベルにマッチしない場合、
+	ボットはこのvoices ユーザをキックしません。
 	
 BOT_HELP_SET_FANTASY
 	Syntax: SET channel FANTASY {ON|OFF}
 
-	Enables or disables fantasy mode on a channel.
-	When it is enabled, users will be able to use
-	commands !op, !deop, !voice, !devoice,
-	!kick, !kb, !unban, !seen on a channel (find how 
-	to use them; try with or without nick for each, 
-	and with a reason for some?).
+#	Enables or disables fantasy mode on a channel.
+#	When it is enabled, users will be able to use
+#	commands !op, !deop, !voice, !devoice,
+#	!kick, !kb, !unban, !seen on a channel (find how 
+#	to use them; try with or without nick for each, 
+#	and with a reason for some?).
+	あるチャンネルでのファンタジー モードの
+	有効無効を切り替えます。これが有効な場合ユーザは
+	チャンネル内で以下のコマンドが使えます。!op、
+	!deop、!voice、!devoice、!kick、!kb、!unban、
+	!seen。それぞれの使い方は、引数にニックネームを
+	つけたり外したり、理由をつけたりして色々試して
+	みてください。
 	
-	Note that users wanting to use fantaisist
-	commands MUST have enough level for both
-	the FANTASIA and another level depending
-	of the command if required (for example, to use 
-	!op, user must have enough access for the OPDEOP
-	level).
+#	Note that users wanting to use fantaisist
+#	commands MUST have enough level for both
+#	the FANTASIA and another level depending
+#	of the command if required (for example, to use 
+#	!op, user must have enough access for the OPDEOP
+#	level).
+	注意することは、ユーザがファンタジーモード
+	コマンドを使用するためには、そのユーザが
+	FANTASIA 以上の権限レベルとそれぞれのコマンドに
+	対応した権限レベルを持っていなければいけません。
+	例えば、!op を使うためには、ユーザは OPDEOP
+	レベル以上の権限を持っていなければいけません。
 
 BOT_HELP_SET_GREET
 	Syntax: SET channel GREET {ON|OFF}
 	
-	Enables or disables greet mode on a channel.
-	When it is enabled, the bot will display greet
-	messages of users joining the channel, provided
-	they have enough access to the channel.
+#	Enables or disables greet mode on a channel.
+#	When it is enabled, the bot will display greet
+#	messages of users joining the channel, provided
+#	they have enough access to the channel.
+	あるチャンネルでの挨拶 モードの有効無効を
+	切り替えます。これが有効の場合、ボットはチャンネル
+	にjoinしたユーザに挨拶メッセージを表示します。
 
 BOT_HELP_SET_SYMBIOSIS
 	Syntax: SET channel SYMBIOSIS {ON|OFF}
 	
-	Enables or disables symbiosis mode on a channel.
-	When it is enabled, the bot will do everything
-	normally done by %s on channels, such as MODEs,
-	KICKs, and even the entry message.
+#	Enables or disables symbiosis mode on a channel.
+#	When it is enabled, the bot will do everything
+#	normally done by %s on channels, such as MODEs,
+#	KICKs, and even the entry message.
+	あるチャンネルでのsymbiosis モードの有効無効を
+	切り替えます。これが有効の場合、ボットはチャンネルで
+	通常 %s ができることがすべてできるようになります。
+	例えば、MODE コマンド、KICK コマンド、メッセージの送信
+	等です。
 
 BOT_HELP_KICK
 	Syntax: KICK channel option parameters
 	
-	Configures bot kickers.  option can be one of:
+#	Configures bot kickers.  option can be one of:
+	キッカーを設定します。  option に指定できるのは以下です。
 	
-	    BOLDS         Sets if the bot kicks bolds
-	    BADWORDS      Sets if the bot kicks bad words
-	    CAPS          Sets if the bot kicks caps
-	    COLORS        Sets if the bot kicks colors
-	    FLOOD         Sets if the bot kicks flooding users
-	    REPEAT        Sets if the bot kicks users who repeat
-	                       themselves
-	    REVERSES      Sets if the bot kicks reverses
-	    UNDERLINES    Sets if the bot kicks underlines
+#	    BOLDS         Sets if the bot kicks bolds
+#	    BADWORDS      Sets if the bot kicks bad words
+#	    CAPS          Sets if the bot kicks caps
+#	    COLORS        Sets if the bot kicks colors
+#	    FLOOD         Sets if the bot kicks flooding users
+#	    REPEAT        Sets if the bot kicks users who repeat
+#	                       themselves
+#	    REVERSES      Sets if the bot kicks reverses
+#	    UNDERLINES    Sets if the bot kicks underlines
+	    BOLDS         太字キッカーの有効無効を切り替えます。
+	    BADWORDS      禁止ワードキッカーの有効無効を切り替えます。
+	    CAPS          大文字キッカーの有効無効を切り替えます。
+	    COLORS        色文字キッカーの有効無効を切り替えます。
+	    FLOOD         Flood 攻撃キッカーの有効無効を切り替えます。
+	    REPEAT        繰り返しキッカーの有効無効を切り替えます。
+	    REVERSES      反転文字キッカーの有効無効を切り替えます。
+	    UNDERLINES    下線キッカーの有効無効を切り替えます。
 	
-	Type %R%S HELP KICK option for more information
-	on a specific option.
+#	Type %R%S HELP KICK option for more information
+#	on a specific option.
+	より詳しい情報を見るには、 %R%S HELP KICK option と
+	入力してください。
 	
-	Note: access to this command is controlled by the
-	level SET.
+#	Note: access to this command is controlled by the
+#	level SET.
+	注意: このコマンドを使うには SET コマンドで設定した
+	レベル以上の権限が必要です。
 
 BOT_HELP_KICK_BOLDS
 	Syntax: KICK channel BOLDS {ON|OFF} [ttb]
 
-	Sets the bolds kicker on or off. When enabled, this
-	option tells the bot to kick users who use bolds.
+#	Sets the bolds kicker on or off. When enabled, this
+#	option tells the bot to kick users who use bolds.
+	太字キッカーの有効無効を切り替えます。
+	有効の場合、ボットは太字を発言したユーザをキックします。
 
-	ttb is the number of times an user can be kicked
-	before it get banned. Don't give ttb to disable
-	the ban system once activated.
+#	ttb is the number of times an user can be kicked
+#	before it get banned. Don't give ttb to disable
+#	the ban system once activated.
+	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_COLORS
 	Syntax: KICK channel COLORS {ON|OFF} [ttb]
 
-	Sets the colors kicker on or off. When enabled, this
-	option tells the bot to kick users who use colors.
+#	Sets the colors kicker on or off. When enabled, this
+#	option tells the bot to kick users who use colors.
+	色文字キッカーの有効無効を切り替えます。
+	有効の場合、ボットは色文字を発言したユーザをキックします。
 
-	ttb is the number of times an user can be kicked
-	before it get banned. Don't give ttb to disable
-	the ban system once activated.
+#	ttb is the number of times an user can be kicked
+#	before it get banned. Don't give ttb to disable
+#	the ban system once activated.
+	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_REVERSES
 	Syntax: KICK channel REVERSES {ON|OFF} [ttb]
 
-	Sets the reverses kicker on or off. When enabled, this
-	option tells the bot to kick users who use reverses.
+#	Sets the reverses kicker on or off. When enabled, this
+#	option tells the bot to kick users who use reverses.
+	反転文字キッカーの有効無効を切り替えます。
+	有効の場合、ボットは色文字を発言したユーザをキックします。
 
-	ttb is the number of times an user can be kicked
-	before it get banned. Don't give ttb to disable
-	the ban system once activated.
+#	ttb is the number of times an user can be kicked
+#	before it get banned. Don't give ttb to disable
+#	the ban system once activated.
+	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_UNDERLINES
 	Syntax: KICK channel UNDERLINES {ON|OFF} [ttb]
 
-	Sets the underlines kicker on or off. When enabled, this
-	option tells the bot to kick users who use underlines.
+#	Sets the underlines kicker on or off. When enabled, this
+#	option tells the bot to kick users who use underlines.
+	下線キッカーの有効無効を切り替えます。
+	有効の場合、ボットは下線を発言したユーザをキックします。
 
-	ttb is the number of times an user can be kicked
-	before it get banned. Don't give ttb to disable
-	the ban system once activated.
+#	ttb is the number of times an user can be kicked
+#	before it get banned. Don't give ttb to disable
+#	the ban system once activated.
+	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_CAPS
 	Syntax: KICK channel CAPS {ON|OFF} [ttb [min [percent]]]
 
-	Sets the caps kicker on or off. When enabled, this
-	option tells the bot to kick users who are talking in
-	CAPS.
+#	Sets the caps kicker on or off. When enabled, this
+#	option tells the bot to kick users who are talking in
+#	CAPS.
+	大文字キッカーの有効無効を切り替えます。
+	有効の場合、ボットは大文字を発言したユーザをキックします。
 
-	The bot kicks only if there are at least min caps
-	and they constitute at least percent%% of the total 
-	text line (if not given, it defaults to 10 characters
-	and 25%%).
+#	The bot kicks only if there are at least min caps
+#	and they constitute at least percent%% of the total 
+#	text line (if not given, it defaults to 10 characters
+#	and 25%%).
+	少なくとも min 文字以上の大文字があり、
+	1行に含まれる大文字が percent%% 以上の場合に、
+	キックします。(これらが指定されなかった場合の
+	初期値は 10 文字と 25 %%です。)
 
-	ttb is the number of times an user can be kicked
-	before it get banned. Don't give ttb to disable
-	the ban system once activated.
+#	ttb is the number of times an user can be kicked
+#	before it get banned. Don't give ttb to disable
+#	the ban system once activated.
+	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_FLOOD
 	Syntax: KICK channel FLOOD {ON|OFF} [ttb [ln [secs]]]
 
-	Sets the flood kicker on or off. When enabled, this
-	option tells the bot to kick users who are flooding
-	the channel using at least ln lines in secs seconds
-	(if not given, it defaults to 6 lines in 10 seconds).
+#	Sets the flood kicker on or off. When enabled, this
+#	option tells the bot to kick users who are flooding
+#	the channel using at least ln lines in secs seconds
+#	(if not given, it defaults to 6 lines in 10 seconds).
+	flood 攻撃キッカーの有効無効を切り替えます。
+	有効の場合、ボットはflood 攻撃をしたユーザをキックします。
+	secs 秒間にln 回の発言した場合を flood 攻撃
+	とみなします。(これらが指定されなかった場合の
+	初期値は 10 秒間に 6 発言です。)
 	
-	ttb is the number of times an user can be kicked
-	before it get banned. Don't give ttb to disable
-	the ban system once activated.
+#	ttb is the number of times an user can be kicked
+#	before it get banned. Don't give ttb to disable
+#	the ban system once activated.
+	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_REPEAT
 	Syntax: KICK #channel REPEAT {ON|OFF} [ttb [num]]
 
-	Sets the repeat kicker on or off. When enabled, this
-	option tells the bot to kick users who are repeating
-	themselves num times (if num is not given, it
-	defaults to 3).
+#	Sets the repeat kicker on or off. When enabled, this
+#	option tells the bot to kick users who are repeating
+#	themselves num times (if num is not given, it
+#	defaults to 3).
+	繰り返しキッカーの有効無効を切り替えます。
+	有効の場合、ボットは num 回同じ内容を
+	繰り返し発言をしたユーザをキックします。
+	(この値が指定されなかった場合の初期値は 3 回です。)
 
-	ttb is the number of times an user can be kicked
-	before it get banned. Don't give ttb to disable
-	the ban system once activated.
+#	ttb is the number of times an user can be kicked
+#	before it get banned. Don't give ttb to disable
+#	the ban system once activated.
+	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_BADWORDS
 	Syntax: KICK #channel BADWORDS {ON|OFF} [ttb]
 
-	Sets the bad words kicker on or off. When enabled, this
-	option tells the bot to kick users who say certain words
-	on the channels.
+#	Sets the bad words kicker on or off. When enabled, this
+#	option tells the bot to kick users who say certain words
+#	on the channels.
+	禁止ワードキッカーの有効無効を切り替えます。
+	有効の場合、ボットは 禁止ワードを発言したユーザをキックします。
 
-	You can define bad words for your channel using the
-	BADWORDS command. Type %R%S HELP BADWORDS for
-	more information.
+#	You can define bad words for your channel using the
+#	BADWORDS command. Type %R%S HELP BADWORDS for
+#	more information.
+	BADWORDS コマンドで禁止ワードを登録できます。
+	より詳しい情報を見るには %R%S HELP BADWORDS と
+	入力してください。
 
-	ttb is the number of times an user can be kicked
-	before it get banned. Don't give ttb to disable
-	the ban system once activated.
+#	ttb is the number of times an user can be kicked
+#	before it get banned. Don't give ttb to disable
+#	the ban system once activated.
+	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	バン機能を使わない場合は ttb を指定しないでください。
 	
 BOT_HELP_BADWORDS
 	Syntax: BADWORDS channel ADD word [SINGLE | START | END]
@@ -7272,46 +7402,71 @@ BOT_HELP_BADWORDS
 	        BADWORDS channel LIST [mask | list]
 	        BADWORDS channel CLEAR
 	
-	Maintains the bad words list for a channel. The bad
-	words list determines which words are to be kicked
-	when the bad words kicker is enabled. For more information,
+#	Maintains the bad words list for a channel. The bad
+#	words list determines which words are to be kicked
+#	when the bad words kicker is enabled. For more information,
 	type %R%S HELP KICK BADWORDS.
+	指定されたチャンネルの 禁止ワードリスト を編集します。
+	禁止ワードとは、禁止ワードキッカーが有効な場合にキック対象
+	となるワードのことです。より詳しい情報を見るには、
+	%R%S HELP KICK BADWORDS と入力してください。
 	
-	The BADWORDS ADD command adds the given word to the
-	badword list. If SINGLE is specified, a kick will be
-	done only if an user says the entire word. If START is 
-	specified, a kick will be done if an user says a word
-	that starts with word. If END is specified, a kick
-	will be done if an user says a word that ends with
-	word. If you don't specify anything, a kick will
-	be issued every time word is said by an user.
+#	The BADWORDS ADD command adds the given word to the
+#	badword list. If SINGLE is specified, a kick will be
+#	done only if an user says the entire word. If START is 
+#	specified, a kick will be done if an user says a word
+#	that starts with word. If END is specified, a kick
+#	will be done if an user says a word that ends with
+#	word. If you don't specify anything, a kick will
+#	be issued every time word is said by an user.
+	BADWORDS ADD コマンドは、指定されたワードを禁止ワード
+	リストに追加します。SINGLE が指定された場合、単独で
+	禁止ワードが使用された発言についてキックします。START が
+	指定された場合、word から始まる発言についてキック
+	します。END が指定された場合、word で終わる発言に
+	ついてキックします。これらの指定が無い場合、発言の
+	どの位置で禁止ワードを使用しても、キックします。
+
+#	The BADWORDS DEL command removes the given word from the
+#	bad words list.  If a list of entry numbers is given, those
+#	entries are deleted.  (See the example for LIST below.)
+	BADWORDS DEL コマンドは、指定されたワードを禁止ワード
+	リストから削除します。エントリー番号が指定された場合は、
+	この番号に対応した禁止ワードを削除します。(LISTの例も
+	参照してください。)
 	
-	The BADWORDS DEL command removes the given word from the
-	bad words list.  If a list of entry numbers is given, those
-	entries are deleted.  (See the example for LIST below.)
-	
-	The BADWORDS LIST command displays the bad words list.  If
-	a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The BADWORDS LIST command displays the bad words list.  If
+#	a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	BADWORDS LIST コマンドは、禁止ワードリストを表示します。
+	ワイルドカードマスクが指定された場合は、このマスクに該当する
+	エントリーのみを表示します。エントリー番号が指定された場合は、
+	指定されたものだけを表示します。例えば、以下のように指定できます。
 
 	   BADWORDS #channel LIST 2-5,7-9
-	      Lists bad words entries numbered 2 through 5 and
-	      7 through 9.
+#	      Lists bad words entries numbered 2 through 5 and
+#	      7 through 9.
+	      2から5番目と7から9番目の禁止ワードエントリーを表示します。
 	      
-	The BADWORDS CLEAR command clears all entries of the
-	bad words list.
+#	The BADWORDS CLEAR command clears all entries of the
+#	bad words list.
+	BADWORDS CLEAR コマンドは、禁止ワードリストに登録されている
+	全てのエントリーを削除します。
 
 BOT_HELP_SAY
 	Syntax: SAY channel text
 	
-	Makes the bot say the given text on the given channel.
+#	Makes the bot say the given text on the given channel.
+	ボットに指定したチャンネル宛に指定した内容で発言させます。
 
 BOT_HELP_ACT
 	Syntax: ACT channel text
 	
-	Makes the bot do the equivalent of a "/me" command
-	on the given channel using the given text.
+#	Makes the bot do the equivalent of a "/me" command
+#	on the given channel using the given text.
+	ボットに"/me"コマンドと同じように、指定したチャンネル
+	宛に指定した内容で発言させます。
 
 
 BOT_SERVADMIN_HELP_BOT
@@ -7319,43 +7474,65 @@ BOT_SERVADMIN_HELP_BOT
 	        BOT CHANGE oldnick newnick [user [host [real]]]
 	        BOT DEL nick
 	
-	Allows Services admins to create, modify, and delete
-	bots that users will be able to use on their own
-	channels.
+#	Allows Services admins to create, modify, and delete
+#	bots that users will be able to use on their own
+#	channels.
+	サービス管理者にボットを作成、変更、削除する許可を与えます。
+	ユーザは自分のチャンネルでこのボットを使うことができます。
 	
-	BOT ADD adds a bot with the given nickname, username,
-	hostname and realname. Since no integrity checks are done 
-	for these settings, be really careful.
-	BOT CHANGE allows to change nickname, username, hostname
-	or realname of a bot without actually delete it (and all
-	the data associated with it).
-	BOT DEL removes the given bot from the bot list.  
+#	BOT ADD adds a bot with the given nickname, username,
+#	hostname and realname. Since no integrity checks are done 
+#	for these settings, be really careful.
+#	BOT CHANGE allows to change nickname, username, hostname
+#	or realname of a bot without actually delete it (and all
+#	the data associated with it).
+#	BOT DEL removes the given bot from the bot list.  
+	BOT ADD は指定されたニックネーム、ユーザ名、ホスト名、
+	実名でボットを追加します。設定項目に関して整合性のチェック
+	は行われないので、十分気をつけてください。
+	BOT CHANGE は指定されたニックネーム、ユーザ名、ホスト名、
+	実名でボットの設定内容を変更します。ボットの削除を行わないので、
+	全ての設定内容は引き継がれます。
+	BOT DEL は指定されたボットをボットリストから削除します。
 	
-	Note: you cannot create a bot that has a nick that is
-	currently registered. If an unregistered user is currently
-	using the nick, they will be killed.
+#	Note: you cannot create a bot that has a nick that is
+#	currently registered. If an unregistered user is currently
+#	using the nick, they will be killed.
+	注意: 登録済みのニックネームで新規にボットを作成することは
+	できません。引数で指定されたニックネームを使用中の未登録
+	ユーザがいる場合は、このユーザを kill します。
 
 BOT_SERVADMIN_HELP_SET
 	
-	These options are reserved to Services admins:
+#	These options are reserved to Services admins:
+	これらのオプションはサービス管理者のみが使えます。
 	
-	    NOBOT            Prevent a bot from being assigned to 
-	                        a channel
-	    PRIVATE          Prevent a bot from being assigned by
-	                        non IRC operators
+#	    NOBOT            Prevent a bot from being assigned to 
+#	                        a channel
+#	    PRIVATE          Prevent a bot from being assigned by
+#	                        non IRC operators
+	    NOBOT            チャンネルでのボット召喚を禁止します。
+	    PRIVATE          IRC オペレータ以外のユーザによる
+	                        ボット召喚を禁止します。
 
 BOT_SERVADMIN_HELP_SET_NOBOT
 	Syntax: SET channel NOBOT {ON|OFF}
 	
-	This option makes a channel be unassignable. If a bot 
-	is already assigned to the channel, it is unassigned
-	automatically when you enable the option.
+#	This option makes a channel be unassignable. If a bot 
+#	is already assigned to the channel, it is unassigned
+#	automatically when you enable the option.
+	指定したチャンネルへのボット召喚を許可するか否か
+	を設定します。このオプションを有効にした時点で、
+	チャンネルにボットが召喚されている場合、
+	自動的にボットを削除します。
 
 BOT_SERVADMIN_HELP_SET_PRIVATE
 	Syntax: SET bot-nick PRIVATE {ON|OFF}
 
-	This option prevents a bot from being assigned to a
-	channel by users that aren't IRC operators.
+#	This option prevents a bot from being assigned to a
+#	channel by users that aren't IRC operators.
+	IRC オペレータでないユーザによるボット召喚を禁止
+	するか否かを設定します。
 
 ###########################################################################
 #
