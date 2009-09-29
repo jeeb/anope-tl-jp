@@ -893,49 +893,67 @@ NICK_SASET_HIDE_EMAIL_OFF
 #	The E-mail address of %s will now be shown in %s INFO displays.
 	現在 %s のメールアドレスは %s INFO 表示に公開されています。
 NICK_SASET_HIDE_MASK_ON
-	The last seen user@host mask of %s will now be hidden from %s INFO displays.
+#	The last seen user@host mask of %s will now be hidden from %s INFO displays.
+	%sのホスト・マスクは %s INFO 情報で表示しないように設定しました。
 NICK_SASET_HIDE_MASK_OFF
-	The last seen user@host mask of %s will now be shown in %s INFO displays.
+#	The last seen user@host mask of %s will now be shown in %s INFO displays.
+	%sのホスト・マスクは %s INFO 情報で表示するように設定しました。
 NICK_SASET_HIDE_QUIT_ON
-	The last quit message of %s will now be hidden from %s INFO displays.
+#	The last quit message of %s will now be hidden from %s INFO displays.
+	%sの最後に使った終了メッセージは %s INFO 情報で表示しないように設定しました。
 NICK_SASET_HIDE_QUIT_OFF
-	The last quit message of %s will now be shown in %s INFO displays.
+#	The last quit message of %s will now be shown in %s INFO displays.
+	%sの最後に使った終了メッセージは %s INFO 情報で表示するように設定しました。
 NICK_SASET_HIDE_STATUS_ON
-	The services access status of %s will now be hidden from %s INFO displays.
+#	The services access status of %s will now be hidden from %s INFO displays.
+	%s のサービスへ権限情報は %s INFO 情報で表示しないように設定しました。
 NICK_SASET_HIDE_STATUS_OFF
-	The services access status of %s will now be shown in %s INFO displays.
+#	The services access status of %s will now be shown in %s INFO displays.
+	%s のサービスへ権限情報は %s INFO 情報で表示するように設定しました。
 	
 # SASET MSG responses
 NICK_SASET_MSG_SYNTAX
-	SASAET nickname PRIVATE {ON | OFF}
+#	SASAET nickname PRIVATE {ON | OFF}
+	SASET ニックネーム PRIVATE {ON | OFF}
 NICK_SASET_MSG_ON
-	Services will now reply to %s with messages.
+#	Services will now reply to %s with messages.
+	これから %s に対して各サービスは連絡手段としてメッセージを使います。
 NICK_SASET_MSG_OFF
-	Services will now reply to %s with notices.
+#	Services will now reply to %s with notices.
+	これから %s に対して各サービスは連絡手段として告知を使います。
 
 # SASET NOEXPIRE responses
 NICK_SASET_NOEXPIRE_SYNTAX
-	SASET nickname NOEXPIRE {ON | OFF}
+#	SASET nickname NOEXPIRE {ON | OFF}
+	SASET ニックネーム NOEXPIRE {ON | OFF}
 NICK_SASET_NOEXPIRE_ON
-	Nick %s will not expire.
+#	Nick %s will not expire.
+	%sというニックネームの登録期限限定を外しました。
 NICK_SASET_NOEXPIRE_OFF
-	Nick %s will expire.
+#	Nick %s will expire.
+	%sというニックネームの登録期限限定を有効しました。
 
 # SASET AUTOOP responses
 NICK_SASET_AUTOOP_SYNTAX
-	SASET nickname AUTOOP {ON | OFF}
+#	SASET nickname AUTOOP {ON | OFF}
+	SASET ニックネーム AUTOOP {ON | OFF}
 NICK_SASET_AUTOOP_ON
-	Services will now autoop %s in channels.
+#	Services will now autoop %s in channels.
+	サービスは %s に対して自動的に管理者権を与えるように設定しました。
 NICK_SASET_AUTOOP_OFF
-	Services will no longer autoop %s in channels.
+#	Services will no longer autoop %s in channels.
+	サービスは %s に対して自動的に管理者権を与えないように設定しました。
 
 # SASET LANGUAGE responses
 NICK_SASET_LANGUAGE_SYNTAX
-	SASET nickname LANGUAGE number
+#	SASET nickname LANGUAGE number
+	SASET ニックネーム LANGUAGE 言語番号
 NICK_SASET_LANGUAGE_UNKNOWN
-	Unknown language number %d.  Type %R%s HELP SET LANGUAGE for a list of languages.
+#	Unknown language number %d.  Type %R%s HELP SET LANGUAGE for a list of languages.
+	未知の言語番号 %d を指定しました。言語の一覧を見るには %R%s HELP SET LANGUAGE と入力してください。
 NICK_SASET_LANGUAGE_CHANGED
-	Language for %s changed to %s.
+#	Language for %s changed to %s.
+	%sの使用言語を 日本語 に切り替えました。
 
 
 # ACCESS responses
