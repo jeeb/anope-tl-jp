@@ -6388,136 +6388,137 @@ MEMO_HELP_CHECK
 #
 ###########################################################################
 OPER_HELP_CMD_GLOBAL
-	    GLOBAL      Send a message to all users
+#	    GLOBAL      Send a message to all users
 	    GLOBAL      メッセージをユーザ全員に送ります。
 OPER_HELP_CMD_STATS
-	    STATS       Show status of Services and network
+#	    STATS       Show status of Services and network
 	    STATS       サービスとネットワークのの状態を表示します。
 OPER_HELP_CMD_OPER
-	    OPER        Modify the Services operator list
+#	    OPER        Modify the Services operator list
 	    OPER        サービスオペレータのリストを変更します。
 OPER_HELP_CMD_ADMIN
-	    ADMIN       Modify the Services admin list
+#	    ADMIN       Modify the Services admin list
 	    ADMIN       サービス管理者のリストほ変更します。
 OPER_HELP_CMD_STAFF
-	    STAFF       Display Services staff and online status
+#	    STAFF       Display Services staff and online status
 	    STAFF       サービススタッフとオンラインか否かを表示します。
 OPER_HELP_CMD_MODE
-	    MODE        Change a channel's modes
+#	    MODE        Change a channel's modes
 	    MODE        チャンネルモードを変更します。
 OPER_HELP_CMD_KICK
-	    KICK        Kick a user from a channel
+#	    KICK        Kick a user from a channel
 	    KICK        ユーザをチャンネルからキックします。
 OPER_HELP_CMD_CLEARMODES
-	    CLEARMODES  Clear modes of a channel
+#	    CLEARMODES  Clear modes of a channel
 	    CLEARMODES  チャンネルのモードを初期化します。
 OPER_HELP_CMD_KILLCLONES
-	    KILLCLONES  Kill all users that have a certain host
+#	    KILLCLONES  Kill all users that have a certain host
 	    KILLCLONES  あるホストからの接続を全てKILLします。
 OPER_HELP_CMD_AKILL
-	    AKILL       Manipulate the AKILL list
+#	    AKILL       Manipulate the AKILL list
 	    AKILL       AKILL リストを編集します。
 OPER_HELP_CMD_SGLINE
-	    SGLINE      Manipulate the SGLINE list
+#	    SGLINE      Manipulate the SGLINE list
 	    SGLINE      SGLINE リストを編集します。
 OPER_HELP_CMD_SQLINE
-	    SQLINE      Manipulate the SQLINE list
+#	    SQLINE      Manipulate the SQLINE list
 	    SQLINE      SQLINE リストを編集します。
 OPER_HELP_CMD_SZLINE
-	    SZLINE      Manipulate the SZLINE list
+#	    SZLINE      Manipulate the SZLINE list
 	    SZLINE      SZLINE リストを編集します。
 OPER_HELP_CMD_CHANLIST
-	    CHANLIST    Lists all channel records
+#	    CHANLIST    Lists all channel records
 	    CHANLIST    全てのチャンネルレコードを表示します。
 OPER_HELP_CMD_USERLIST
-	    USERLIST    Lists all user records
+#	    USERLIST    Lists all user records
 	    USERLIST    全てのユーザレコードを表示します。
 OPER_HELP_CMD_LOGONNEWS
-	    LOGONNEWS   Define messages to be shown to users at logon
+#	    LOGONNEWS   Define messages to be shown to users at logon
 	    LOGONNEWS   ログオン時に表示するメッセージを編集します。
 OPER_HELP_CMD_RANDOMNEWS
-	    RANDOMNEWS  Define messages to be randomly shown to users 
-	                at logon
+#	    RANDOMNEWS  Define messages to be randomly shown to users 
+#	                at logon
 	    RANDOMNEWS  ログオン時にランダムに表示するメッセージを編集します。
 OPER_HELP_CMD_OPERNEWS
-	    OPERNEWS    Define messages to be shown to users who oper
+#	    OPERNEWS    Define messages to be shown to users who oper
 	    OPERNEWS    オペレータに表示するメッセージを編集します。
 OPER_HELP_CMD_SESSION
-	    SESSION     View the list of host sessions
+#	    SESSION     View the list of host sessions
 	    SESSION     指定されたホストからのセッションを表示します。
 OPER_HELP_CMD_EXCEPTION
-	    EXCEPTION   Modify the session-limit exception list
+#	    EXCEPTION   Modify the session-limit exception list
 	    EXCEPTION   セッション制限からの除外リストを編集します。
 OPER_HELP_CMD_NOOP
-	    NOOP        Temporarily remove all O:lines of a server 
-	                remotely
+#	    NOOP        Temporarily remove all O:lines of a server 
+#	                remotely
 	    NOOP        サーバのO:linesを一時的に削除します。
 
 OPER_HELP_CMD_JUPE
-	    JUPE        "Jupiter" a server
+#	    JUPE        "Jupiter" a server
 	    JUPE        サーバを "Jupiter" にします。
 OPER_HELP_CMD_IGNORE
-	    IGNORE      Modify the Services ignore list
+#	    IGNORE      Modify the Services ignore list
 	    IGNORE      サービスの無視リストを編集します。
 OPER_HELP_CMD_SET
-	    SET         Set various global Services options
+#	    SET         Set various global Services options
 	    SET         各種グローバルサービスオプションを設定します。
 OPER_HELP_CMD_RELOAD
-	    RELOAD      Reload services' configuration file
+#	    RELOAD      Reload services' configuration file
 	    RELOAD      サービスの設定ファイルをリロードします。
 OPER_HELP_CMD_UPDATE
-	    UPDATE      Force the Services databases to be
-	                updated on disk immediately
+#	    UPDATE      Force the Services databases to be
+#	                updated on disk immediately
 	    UPDATE      今すぐサービスデータベースをディスクから読み出します。
 OPER_HELP_CMD_RESTART
-	    RESTART     Save databases and restart Services
+#	    RESTART     Save databases and restart Services
 	    RESTART     データベースを保存して、サービスを再起動します。
 OPER_HELP_CMD_QUIT
-	    QUIT        Terminate the Services program with no save
+#	    QUIT        Terminate the Services program with no save
 	    QUIT        保存せずにサービスを終了します。
 OPER_HELP_CMD_SHUTDOWN
-	    SHUTDOWN    Terminate the Services program with save
+#	    SHUTDOWN    Terminate the Services program with save
 	    SHUTDOWN    保存してサービスを終了します。
 OPER_HELP_CMD_DEFCON
-	    DEFCON      Manipulate the DefCon system
+#	    DEFCON      Manipulate the DefCon system
 	    DEFCON      DefCon システムを設定します。
 OPER_HELP_CMD_CHANKILL
-	    CHANKILL    AKILL all users on a specific channel
+#	    CHANKILL    AKILL all users on a specific channel
 	    CHANKILL    チャンネルに参加中のユーザ全員を AKILL します。
 OPER_HELP_CMD_OLINE
-	    OLINE       Give Operflags to a certain user
+#	    OLINE       Give Operflags to a certain user
 	    OLINE       オペレータフラグをユーザに与えます。
 OPER_HELP_CMD_UMODE
-	    UMODE       Change a user's modes
+#	    UMODE       Change a user's modes
 	    UMODE       ユーザモードを変更します。
 OPER_HELP_CMD_SVSNICK
-	    SVSNICK     Forcefully change a user's nickname
+#	    SVSNICK     Forcefully change a user's nickname
 	    SVSNICK     強制的にユーザのニックネームを変更します。
 OPER_HELP_CMD_MODLOAD
-	    MODLOAD     Load a module
+#	    MODLOAD     Load a module
 	    MODLOAD     モジュールをロードします。
 OPER_HELP_CMD_MODUNLOAD
-	    MODUNLOAD   Un-Load a module
+#	    MODUNLOAD   Un-Load a module
 	    MODUNLOAD   モジュールをアンロードします。
 OPER_HELP_CMD_MODINFO
-	    MODINFO     Info about a loaded module
+#	    MODINFO     Info about a loaded module
 	    MODINFO     ロード済みモジュールに関する情報を表示します。
 OPER_HELP_CMD_MODLIST
-	    MODLIST     List loaded modules
+#	    MODLIST     List loaded modules
 	    MODLIST     ロード済みモジュールを表示します。
 
 OPER_HELP
-	%S commands:
+#	%S commands:
+	%S に関連するコマンド:
 
 OPER_HELP_LOGGED
-	Notice: All commands sent to %S are logged!
+#	Notice: All commands sent to %S are logged!
 	注意: %S 宛てのコマンドは全て監視されています！
 
 OPER_HELP_GLOBAL
 	Syntax: GLOBAL message
 	
-	Allows Administrators to send messages to all users on the 
-	network. The message will be sent from the nick %s.
+#	Allows Administrators to send messages to all users on the 
+#	network. The message will be sent from the nick %s.
 	管理者によるネットワークにいるユーザ全員宛てのメッセージ送信
 	を許可します。このメッセージの送信者は %s になります。
 
