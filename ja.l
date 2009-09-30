@@ -6543,28 +6543,44 @@ OPER_HELP_GLOBAL
 OPER_HELP_STATS
 	Syntax: STATS [AKILL | ALL | RESET | MEMORY | UPLINK]
 	
-	Without any option, shows the current number of users and
-	IRCops online (excluding Services), the highest number of
-	users online since Services was started, and the length of
-	time Services has been running.
+#	Without any option, shows the current number of users and
+#	IRCops online (excluding Services), the highest number of
+#	users online since Services was started, and the length of
+#	time Services has been running.
+	オプションを指定しない場合、現在のユーザ数と IRC オペレータ
+	(サービスオペレータを除く)の数、サービスが開始されてからの
+	最大ユーザ数、サービス開始からの経過時間を表示します。
 	
-	With the AKILL option, displays the current size of the
-	AKILL list and the current default expiry time.
+#	With the AKILL option, displays the current size of the
+#	AKILL list and the current default expiry time.
+	AKILL オプションが指定された場合は、現在の AKILL リスト
+	のサイズと AKILL 解除時間の初期値を表示します。
 	
-	The RESET option currently resets the maximum user count
-	to the number of users currently present on the network.
+#	The RESET option currently resets the maximum user count
+#	to the number of users currently present on the network.
+	RESET オプションが指定された場合は、現在ネットワーク上に
+	いるユーザ数の最大値をリセットします。
 	
-	The MEMORY option displays information on the memory
-	usage of Services. Using this option can freeze Services for
-	a short period of time on large networks; don't overuse it!
+#	The MEMORY option displays information on the memory
+#	usage of Services. Using this option can freeze Services for
+#	a short period of time on large networks; don't overuse it!
+	MEMORY オプションが指定された場合、サービスが使用している
+	メモリーの情報を表示します。このオプションを使用すると、
+	大きなネットワークで稼働中のサービスが一時的に停止します。
 	
-	The UPLINK option displays information about the current
-	server Anope uses as an uplink to the network.
+#	The UPLINK option displays information about the current
+#	server Anope uses as an uplink to the network.
+	UPLINK オプションが指定された場合は、現在のサーバーで
+	稼働中の Anope が使用するアップリンクサーバを表示します。
 	
-	The ALL displays the user and uptime statistics, and
-	everything you'd see with MEMORY and UPLINK options.
+#	The ALL displays the user and uptime statistics, and
+#	everything you'd see with MEMORY and UPLINK options.
+	ALL オプションは ユーザと稼働時間の統計に加えて、
+	MEMORY と UPLINK オプションで表示される情報を
+	表示します。
 	
-	UPTIME may be used as a synonym for STATS.
+#	UPTIME may be used as a synonym for STATS.
+	UPTIME オプションは STATS オプションのエイリアスです。
 
 OPER_HELP_OPER
 	Syntax: OPER ADD nick
@@ -6572,31 +6588,52 @@ OPER_HELP_OPER
 	        OPER LIST [mask | list]
 	        OPER CLEAR
 	
-	Allows the Services Root Admins to add or remove nicknames
-	to or from the Services operator list.  A user whose nickname
-	is on the Services operator list and who has identified to
-	%s will be able to access Services operator commands.
+#	Allows the Services Root Admins to add or remove nicknames
+#	to or from the Services operator list.  A user whose nickname
+#	is on the Services operator list and who has identified to
+#	%s will be able to access Services operator commands.
+	サービスのルート管理者がサービスオペレータリストへの
+	ニックネームを追加したりや削除したりすることを許可します。
+	サービスオペレータリストに載っているニックネームのユーザか
+	%s で特定できるユーザはサービスオペレータコマンドを使用する
+	ことができます。
 	
-	The OPER ADD command adds the given nickname to the
-	Services operator list.
+#	The OPER ADD command adds the given nickname to the
+#	Services operator list.
+	OPER ADD コマンドは指定されたニックネームを
+	サービスオペレータリストに追加します。
 	
-	The OPER DEL command removes the given nick from the
-	Services operator list.  If a list of entry numbers is given, 
-	those entries are deleted.  (See the example for LIST below.)
+#	The OPER DEL command removes the given nick from the
+#	Services operator list.  If a list of entry numbers is given, 
+#	those entries are deleted.  (See the example for LIST below.)
+	OPER DEL コマンドは指定されたニックネームを
+	サービスオペレータリストから削除します。エントリー番号が指定
+	された場合は、番号に対応したエントリーが削除されます。(LIST
+	コマンドの例を参照してください。)
 	
-	The OPER LIST command displays the Services operator list.  
-	If a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The OPER LIST command displays the Services operator list.  
+#	If a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	OPER LIST コマンドはサービスオペレータリストを表示します。
+	ワイルドカードマスクが指定された場合は、このマスクに該当する
+	エントリーのみが表示されます。エントリー番号が指定された場合は、
+	それらに対応したエントリーのみが表示されます。例えば以下の
+	ような感じです。
 
 	   OPER LIST 2-5,7-9
-	      Lists Services operator entries numbered 2 through 
-	      5 and 7 through 9.
+#	      Lists Services operator entries numbered 2 through 
+#	      5 and 7 through 9.
+	      2から5番目と7から9番目のサービスオペレータの
+	      エントリーを表示します。
 	      
-	The OPER CLEAR command clears all entries of the
-	Services operator list.
+#	The OPER CLEAR command clears all entries of the
+#	Services operator list.
+	OPER CLEAR コマンドはサービスオペレータリストの
+	全てのエントリーを削除します。
 	
-	Any IRC operator may use the OPER LIST form of the command.
+#	Any IRC operator may use the OPER LIST form of the command.
+	IRC オペレータであれば誰でも OPER LIST 型のコマンドを使用できます。
 
 OPER_HELP_ADMIN
 	Syntax: ADMIN ADD nick
@@ -6604,93 +6641,146 @@ OPER_HELP_ADMIN
 	        ADMIN LIST [mask | list]
 	        ADMIN CLEAR
 	
-	Allows the Services root to add or remove nicknames
-	to or from the Services admin list.  A user whose nickname
-	is on the Services admin list and who has identified to
-	%s will be able to access Services admin commands.
+#	Allows the Services root to add or remove nicknames
+#	to or from the Services admin list.  A user whose nickname
+#	is on the Services admin list and who has identified to
+#	%s will be able to access Services admin commands.
+	サービスルートがサービス管理者リストにニックネームを
+	追加したり削除したりすることを許可します。
+	サービス管理者リストに載っているニックネームのユーザか
+	%s で特定できるユーザはサービス管理者コマンドを使用する
+	ことができます。
 	
-	The ADMIN ADD command adds the given nickname to the
-	Services admin list.
+#	The ADMIN ADD command adds the given nickname to the
+#	Services admin list.
+	ADMIN ADD コマンドは指定されたニックネームを
+	サービス管理者リストに追加します。
 	
-	The ADMIN DEL command removes the given nick from the
-	Services admin list.  If a list of entry numbers is given,
-	those entries are deleted.  (See the example for LIST below.)
+#	The ADMIN DEL command removes the given nick from the
+#	Services admin list.  If a list of entry numbers is given,
+#	those entries are deleted.  (See the example for LIST below.)
+	ADMIN DEL コマンドは指定されたニックネームを
+	サービス管理者リストから削除します。エントリー番号が指定
+	された場合は、番号に対応したエントリーが削除されます。(LIST
+	コマンドの例を参照してください。)
 	
-	The ADMIN LIST command displays the Services admin list.  
-	If a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The ADMIN LIST command displays the Services admin list.  
+#	If a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	ADMIN LIST コマンドはサービス管理者リストを表示します。
+	ワイルドカードマスクが指定された場合は、このマスクに該当する
+	エントリーのみが表示されます。エントリー番号が指定された場合は、
+	それらに対応したエントリーのみが表示されます。例えば以下の
+	ような感じです。
 
 	   ADMIN LIST 2-5,7-9
-	      Lists Services admin entries numbered 2 through 
-	      5 and 7 through 9.
+#	      Lists Services admin entries numbered 2 through 
+#	      5 and 7 through 9.
+	      2から5番目と7から9番目のサービス管理者の
+	      エントリーを表示します。
 	      
-	The ADMIN CLEAR command clears all entries of the
-	Services admin list.
+#	The ADMIN CLEAR command clears all entries of the
+#	Services admin list.
+	ADMIN CLEAR コマンドはサービス管理者リストの
+	全てのエントリーを削除します。
 	
-	Any IRC operator may use the ADMIN LIST form of the command.
-	All other use limited to Services root.
+#	Any IRC operator may use the ADMIN LIST form of the command.
+#	All other use limited to Services root.
+	IRC オペレータであれば誰でも ADMIN LIST 型のコマンドを使用できます。
+	それ以外のコマンドはは サービスルート でないと使えません。
 
 OPER_HELP_IGNORE
 	Syntax: IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]
 	
-	Allows Services Admins to make Services ignore a nick or mask
-	for a certain time or until the next restart. The default
-	time format is seconds. You can specify it by using units.
-	Valid units are: s for seconds, m for minutes, 
-	h for hours and d for days. 
-	Combinations of these units are not permitted.
-	To make Services permanently ignore the	user, type 0 as time.
-	When adding a mask, it should be in the format user@host
-	or nick!user@host, everything else will be considered a nick.
-	Wildcards are permitted.
+#	Allows Services Admins to make Services ignore a nick or mask
+#	for a certain time or until the next restart. The default
+#	time format is seconds. You can specify it by using units.
+#	Valid units are: s for seconds, m for minutes, 
+#	h for hours and d for days. 
+#	Combinations of these units are not permitted.
+#	To make Services permanently ignore the	user, type 0 as time.
+#	When adding a mask, it should be in the format user@host
+#	or nick!user@host, everything else will be considered a nick.
+#	Wildcards are permitted.
+	サービス管理者はサービスが指定されたニックネームかマスク
+	をある期間か次に再起動するまで無視するようにします。
+	時間フォーマットに単位を指定しない場合の初期値は秒です。
+	以下のようにして、単位を指定できます。使用可能な単位は、
+	s で秒、 m で分、h で時間、d で日と解釈
+	されます。これらを組み合わせて使用することはできません。
+	サービスが、あるユーザを恒久的に無視するためには、0を指定
+	してください。 mask を指定する場合は、この形式は
+	user@host の形か、nick!user@host の形で指定できます。
+	どちらでもない形式の場合はニックネームとみなされます。
+	また、ワイルドカードを使うこともできます。
 	
-	Ignores will not be enforced on IRC Operators.
+#	Ignores will not be enforced on IRC Operators.
+	IRC オペレータを無視することはできません。
 
 OPER_HELP_MODE
 	Syntax: MODE channel modes
 	
-	Allows Services operators to set channel modes for any
-	channel.  Parameters are the same as for the standard /MODE
-	command.
+#	Allows Services operators to set channel modes for any
+#	channel.  Parameters are the same as for the standard /MODE
+#	command.
+	サービスオペレータがチャンネルモードを変更できるように
+	します。引数は /MODE コマンドと同じです。
 
 OPER_HELP_UMODE
 	Syntax: UMODE user modes
 	
-	Allows Super Admins to set user modes for any user.
-	Parameters are the same as for the standard /MODE
-	command.
+#	Allows Super Admins to set user modes for any user.
+#	Parameters are the same as for the standard /MODE
+#	command.
+	スーパー管理者 がユーザモードを変更できるようにします。
+	引数は /MODE コマンドと同じです。
 
 OPER_HELP_OLINE
 	Syntax: OLINE user flags
 	
-	Allows Super Admins to give Operflags to any user.
-	Flags have to be prefixed with a "+" or a "-". To
-	remove all flags simply type a "-" instead of any flags.
+#	Allows Super Admins to give Operflags to any user.
+#	Flags have to be prefixed with a "+" or a "-". To
+#	remove all flags simply type a "-" instead of any flags.
+	スーパー管理者 がユーザにオペレータフラグを
+	与えることができるようにします。フラグは "+" か "-" で
+	はじめ、フラグを剥奪する場合は "-" を使用してください。
 
 OPER_HELP_CLEARMODES
 	Syntax: CLEARMODES channel [ALL]
 	
-	Clears all binary modes (i,k,l,m,n,p,s,t) and bans from a
-	channel.  If ALL is given, also clears all ops and
-	voices (+o and +v modes) from the channel.
+#	Clears all binary modes (i,k,l,m,n,p,s,t) and bans from a
+#	channel.  If ALL is given, also clears all ops and
+#	voices (+o and +v modes) from the channel.
+	チャンネルに対して、全てのバイナリモード(i,k,l,m,n,p,s,t)
+	を解除し、バンリストを空にします。ALL が指定された場合は、
+	さらにチャンネル内のユーザからチャンネルオペレータと
+	voices ユーザの権利を剥奪します。
 
 OPER_HELP_KICK
 	Syntax: KICK channel user reason
 	
-	Allows staff to kick a user from any channel.
-	Parameters are the same as for the standard /KICK
-	command.  The kick message will have the nickname of the
-	IRCop sending the KICK command prepended; for example:
+#	Allows staff to kick a user from any channel.
+#	Parameters are the same as for the standard /KICK
+#	command.  The kick message will have the nickname of the
+#	IRCop sending the KICK command prepended; for example:
+	スタッフがチャンネルからユーザをキックします。
+	引数は普通の /KICK コマンドと同じ形式です。
+	キック理由の先頭に KICK コマンドを使った IRC オペレータ
+	のニックネームを追記した内容でキックメッセージが送信されます。
+	例えば、下のような感じです。
 	
-	*** SpamMan has been kicked off channel #my_channel by %S (Alcan (Flood))
+#	*** SpamMan has been kicked off channel #my_channel by %S (Alcan (Flood))
+	*** %S が SpamMan をチャンネル #my_channel からキックしました。(Alcan (Flood 攻撃))
 
 OPER_HELP_SVSNICK
 	Syntax: SVSNICK nick newnick
 	
-	Forcefully changes a user's nickname from nick to newnick.
-	Limited to Super Admins.
-
+#	Forcefully changes a user's nickname from nick to newnick.
+#	Limited to Super Admins.
+	ユーザのニックネームを nick から newnick に変更します。
+	この機能は スーパー管理者 以外は使えません。
+ 
 OPER_HELP_AKILL
 	Syntax: AKILL ADD [+expiry] mask reason
 	        AKILL DEL {mask | entry-num | list}
