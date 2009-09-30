@@ -958,25 +958,35 @@ NICK_SASET_LANGUAGE_CHANGED
 
 # ACCESS responses
 NICK_ACCESS_SYNTAX
-	ACCESS {ADD | DEL | LIST} [mask]
+#	ACCESS {ADD | DEL | LIST} [mask]
+	ACCESS {ADD | DEL | LIST} [ホスト・マスク]
 NICK_ACCESS_ALREADY_PRESENT
-	Mask %s already present on your access list.
+#	Mask %s already present on your access list.
+	%s というマスクは既に許可リストに登録されています。
 NICK_ACCESS_REACHED_LIMIT
-	Sorry, you can only have %d access entries for a nickname.
+#	Sorry, you can only have %d access entries for a nickname.
+	一つのニックネームにつき、許可リスト%d個以上は登録出来ません。
 NICK_ACCESS_ADDED
-	%s added to your access list.
+#	%s added to your access list.
+	%s を許可リストに追加しました。
 NICK_ACCESS_NOT_FOUND
-	%s not found on your access list.
+#	%s not found on your access list.
+	許可リストに%sは見つかりませんでした。
 NICK_ACCESS_DELETED
-	%s deleted from your access list.
+#	%s deleted from your access list.
+	%s を許可リストから消去しました。
 NICK_ACCESS_LIST
-	Access list:
+#	Access list:
+	許可リスト一覧：
 NICK_ACCESS_LIST_X
-	Access list for %s:
+#	Access list for %s:
+	%sの許可リスト一覧：
 NICK_ACCESS_LIST_EMPTY
-	Your access list is empty.
+#	Your access list is empty.
+	許可リストにはニックネームは登録されていません。
 NICK_ACCESS_LIST_X_EMPTY
-	Access list for %s is empty.
+#	Access list for %s is empty.
+	%sの許可リストにはニックネームは登録されていません。
 
 # Status messages
 NICK_STATUS_0
@@ -990,74 +1000,107 @@ NICK_STATUS_3
 
 # INFO responses
 NICK_INFO_SYNTAX
-	INFO nick [ALL]
+#	INFO nick [ALL]
+	INFO ニックネーム [ALL]
 NICK_INFO_REALNAME
-	%s is %s
+#	%s is %s
+	%s の「本名」は %s です。
 NICK_INFO_SERVICES_OPER
-	%s is a services operator.
+#	%s is a services operator.
+	%sはサービス・オペレーターです。
 NICK_INFO_SERVICES_ADMIN
-	%s is a services admin.
+#	%s is a services admin.
+	%sは準サービス管理者です。
 NICK_INFO_SERVICES_ROOT
-	%s is a services root administrator.
+#	%s is a services root administrator.
+	%sはサービス管理者です。
 NICK_INFO_ADDRESS
-	Last seen address: %s
+#	Last seen address: %s
+	最後に確認されたアドレス： %s
 NICK_INFO_ADDRESS_ONLINE
-	   Is online from: %s
+#	Is online from: %s
+	このニックネームは %s から接続中です。
 NICK_INFO_ADDRESS_ONLINE_NOHOST
-	%s is currently online.
+#	%s is currently online.
+	%sは接続中です。
 NICK_INFO_TIME_REGGED
-	  Time registered: %s
+#	Time registered: %s
+	登録日付 : %s
 NICK_INFO_LAST_SEEN
-	   Last seen time: %s
+#	Last seen time: %s
+	最後に確認された日時 : %s
 NICK_INFO_LAST_QUIT
-	Last quit message: %s
+#	Last quit message: %s
+	最後に確認された終了時のメッセージ : %s
 NICK_INFO_URL
-	              URL: %s
+	URL: %s
 NICK_INFO_EMAIL
-	   E-mail address: %s
+#	   E-mail address: %s
+	電子メールアドレス : %s
 NICK_INFO_VHOST
-	            vhost: %s
+#	            vhost: %s
+	バーチャル・ホスト :  %s
 NICK_INFO_VHOST2
-	            vhost: %s@%s
+#	            vhost: %s@%s
+	バーチャル・ホスト : %s@%s
 NICK_INFO_ICQ
-	            ICQ #: %d
+#	            ICQ #: %d
+	ICQ番号 : %d
 NICK_INFO_GREET
-	    Greet message: %s
+#	    Greet message: %s
+	挨拶メッセージ : %s
 NICK_INFO_OPTIONS
-	          Options: %s
+#	          Options: %s
+	設定 : %s
 NICK_INFO_EXPIRE
-	Expires on: %s
+#	Expires on: %s
+	このニックネームは %s に期限終了となります。
 # These strings MUST NOT be empty
 NICK_INFO_OPT_KILL
-	Protection
+#	Protection
+	保護
 NICK_INFO_OPT_SECURE
-	Security
+#	Security
+	セキュリティー
 NICK_INFO_OPT_PRIVATE
-	Private
+#	Private
+	プライベート
 NICK_INFO_OPT_MSG
-	Message mode
+#	Message mode
+	連絡手段
 NICK_INFO_OPT_AUTOOP
-	Auto-op
+#	Auto-op
+	自動管理者権割り当て
 NICK_INFO_OPT_NONE
-	None
+# どういう意味になるんだこりゃ！
+#	None
+	無
 NICK_INFO_NO_EXPIRE
-	This nickname will not expire.
+#	This nickname will not expire.
+	このニックネームには期限はありません。
 NICK_INFO_FOR_MORE
-	For more verbose information, type %R%s INFO %s ALL.
+#	For more verbose information, type %R%s INFO %s ALL.
+	もっと詳しく知りたい場合は %R%s INFO %s ALL と入力してください。
 NICK_INFO_SUSPENDED
-	This nickname is currently suspended, reason: %s
+#	This nickname is currently suspended, reason: %s
+	%s という理由により、その使用を一時停止させていただいております。
 NICK_INFO_SUSPENDED_NO_REASON
-	This nickname is currently suspended
+#	This nickname is currently suspended
+	このニックネームの使用を一時停止させていただいております。
 
 # LIST responses
 NICK_LIST_SYNTAX
-	LIST pattern
+#	LIST pattern
+	LIST パターン
 NICK_LIST_SERVADMIN_SYNTAX
-	LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
+#	LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
+	LIST パターン [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 NICK_LIST_HEADER
-	List of entries matching %s:
+#	List of entries matching %s:
+	%sに一致するものの一覧 :
 NICK_LIST_RESULTS
-	End of list - %d/%d matches shown.
+#	End of list - %d/%d matches shown.
+	%d/%d の結果を表示しました。
 
 # ALIST responses
 NICK_ALIST_SYNTAX
