@@ -10,9 +10,11 @@ wordという単語が出た場合（例えば banned word)
 言葉
 単語
 Norgus) どれがいいか知りたい。（日本人の意見お願いします）
+reath:ワード　でいいんじゃないかな。
 
 半角の!や?は全角の！と？にする。
 http://github.com/jeeb/anope-tl-jp/commit/74c74bcc0acc1dd4f7e05becc3c7e96b5648d1ce
 
 IRCの連絡手段 'notice' はどう訳せばいいか？
 Norgus）告知でいいのかな・・・
+reath:notice は notice　の方がいいと思う。訳してしまうと逆に分かりにくいかと。
