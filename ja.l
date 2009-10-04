@@ -6831,28 +6831,28 @@ OPER_HELP_AKILL
 	        AKILL VIEW [mask | list]
 	        AKILL CLEAR
 	
-	Allows Services operators to manipulate the AKILL list.  If
-	a user matching an AKILL mask attempts to connect, Services
-	will issue a KILL for that user and, on supported server
-	types, will instruct all servers to add a ban (K-line) for
-	the mask which the user matched.
+#	Allows Services operators to manipulate the AKILL list.  If
+#	a user matching an AKILL mask attempts to connect, Services
+#	will issue a KILL for that user and, on supported server
+#	types, will instruct all servers to add a ban (K-line) for
+#	the mask which the user matched.
 	サービスオペレータが AKILL リストを編集することを許可します。
 	AKILL マスクに該当するユーザが接続してきた場合、サービスは
 	このユーザを KILL します。加えて、サーポート済みのサーバに
 	おいては、全てのサーバに対してこのユーザにマッチする K-line
 	を追加するように働きかけます。
 	
-	AKILL ADD adds the given user@host/ip mask to the AKILL
-	list for the given reason (which must be given).
-	expiry is specified as an integer followed by one of d 
-	(days), h (hours), or m (minutes).  Combinations (such as 
-	1h30m) are not permitted.  If a unit specifier is not 
-	included, the default is days (so +30 by itself means 30 
-	days).  To add an AKILL which does not expire, use +0.  If the
-	usermask to be added starts with a +, an expiry time must
-	be given, even if it is the same as the default.  The
-	current AKILL default expiry time can be found with the
-	STATS AKILL command.
+#	AKILL ADD adds the given user@host/ip mask to the AKILL
+#	list for the given reason (which must be given).
+#	expiry is specified as an integer followed by one of d 
+#	(days), h (hours), or m (minutes).  Combinations (such as 
+#	1h30m) are not permitted.  If a unit specifier is not 
+#	included, the default is days (so +30 by itself means 30 
+#	days).  To add an AKILL which does not expire, use +0.  If the
+#	usermask to be added starts with a +, an expiry time must
+#	be given, even if it is the same as the default.  The
+#	current AKILL default expiry time can be found with the
+#	STATS AKILL command.
 	AKILL ADD コマンドは user@host か ip で指定されたマスク
 	とその理由(必須です)を AKILL リストに追加します。
 	解除時間 expiry は整数の後に単位 d (日)、h (時間)、
@@ -6865,35 +6865,35 @@ OPER_HELP_AKILL
 	ものと解釈されます。AKILL 解除時間の初期値は STATS AKILL
 	コマンドで指定できます。
 	
-	The AKILL DEL command removes the given mask from the
-	AKILL list if it is present.  If a list of entry numbers is 
-	given, those entries are deleted.  (See the example for LIST 
-	below.)
+#	The AKILL DEL command removes the given mask from the
+#	AKILL list if it is present.  If a list of entry numbers is 
+#	given, those entries are deleted.  (See the example for LIST 
+#	below.)
 	AKILL DEL コマンドは指定されたマスクを AKILL リストから
 	削除します。エントリー番号が指定された場合は、該当する
 	エントリーを削除します。(LIST コマンドの例を参照してください)
 	
-	The AKILL LIST command displays the AKILL list.  
-	If a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The AKILL LIST command displays the AKILL list.  
+#	If a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
 	AKILL LIST コマンドは AKILL リストを表示します。
 	ワイルドカードが指定された場合、このワイルドカードに該当
 	するエントリーのみが表示されます。例えば、以下の様です。
 
 	   AKILL LIST 2-5,7-9
-	      Lists AKILL entries numbered 2 through 5 and 7 
-	      through 9.
+#	      Lists AKILL entries numbered 2 through 5 and 7 
+#	      through 9.
 	      2から5番と7から9番の AKILL エントリーを表示します。
 	      
-	AKILL VIEW is a more verbose version of AKILL LIST, and 
-	will show who added an AKILL, the date it was added, and when 
-	it expires, as well as the user@host/ip mask and reason.
+#	AKILL VIEW is a more verbose version of AKILL LIST, and 
+#	will show who added an AKILL, the date it was added, and when 
+#	it expires, as well as the user@host/ip mask and reason.
 	AKILL VIEW は AKILL LIST を詳細にしたもので、
 	AKILL の user@host か ip マスクとその理由に加えて、
 	追加したメンバー、追加日、解除日を表示します。
 	
-	AKILL CLEAR clears all entries of the AKILL list.
+#	AKILL CLEAR clears all entries of the AKILL list.
 	AKILL CLEAR で AKILL リストを削除します。
 	
 OPER_HELP_SGLINE
