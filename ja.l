@@ -6909,8 +6909,8 @@ OPER_HELP_SGLINE
 #	connect, Services will not allow it to pursue his IRC
 #	session.
 	サービスオペレータが SGLINE リストを編集することを許可します。
-	SGLINE マスクに該当するユーザが接続してきた場合、サービスは
-	このユーザの IRC セッションを破棄します。
+	SGLINE マスクに該当する実ユーザ名を持つユーザが接続してきた
+	場合、サービスはこのユーザの IRC セッションを破棄します。
 	
 #	SGLINE ADD adds the given realname mask to the SGLINE
 #	list for the given reason (which must be given).
@@ -6932,7 +6932,7 @@ OPER_HELP_SGLINE
 	組み合わせて指定することはできません。単位を指定しなかった場合、
 	日として解釈されます(+30 という指定は30日間と解釈されます。)。
 	永久に解除されない SGLINE を追加するには +0 と指定してください。
-	ユーザマスクを + から始めた場合、解除時間をを必ず指定して
+	実ユーザ名マスクを + から始めた場合、解除時間をを必ず指定して
 	ください。指定しない場合は初期値が指定されたものと解釈されます。
 	SGLINE 解除時間の初期値は STATS AKILL コマンドで指定できます。
 	注意: 実ユーザ名はスペースを含むことがあるので、マスクと
@@ -6969,7 +6969,7 @@ OPER_HELP_SGLINE
 	このエントリーを追加したメンバー、追加日、解除日を表示します。
 	
 #	SGLINE CLEAR clears all entries of the SGLINE list.
-	SGLINE CLEAR コマンドは AKILL リストを削除します。
+	SGLINE CLEAR コマンドは SGLINE リストを削除します。
 	
 
 OPER_HELP_SQLINE
@@ -6979,46 +6979,75 @@ OPER_HELP_SQLINE
 	        SQLINE VIEW [mask | list]
 	        SQLINE CLEAR
 	
-	Allows Services operators to manipulate the SQLINE list.  If
-	a user with a nick matching an SQLINE mask attempts to 
-	connect, Services will not allow it to pursue his IRC
-	session.
+#	Allows Services operators to manipulate the SQLINE list.  If
+#	a user with a nick matching an SQLINE mask attempts to 
+#	connect, Services will not allow it to pursue his IRC
+#	session.
+	サービスオペレータが SQLINE リストを編集することを許可します。
+	SQLINE マスクに該当するニックネームを持つユーザが接続してきた
+	場合、サービスはこのユーザの IRC セッションを破棄します。
 
-	If the first character of the mask is #, services will 
-	prevent the use of matching channels (on IRCds that 
-	support it).
+#	If the first character of the mask is #, services will 
+#	prevent the use of matching channels (on IRCds that 
+#	support it).
+	指定されたマスクが#から始まる場合、サービスは
+	該当するチャンネルを作れないようにします。
+	(ただし、IRCdがこれをサポートしていなければなりません。)
 	
-	SQLINE ADD adds the given mask to the SQLINE
-	list for the given reason (which must be given).
-	expiry is specified as an integer followed by one of d 
-	(days), h (hours), or m (minutes).  Combinations (such as 
-	1h30m) are not permitted.  If a unit specifier is not 
-	included, the default is days (so +30 by itself means 30 
-	days).  To add an SQLINE which does not expire, use +0.  
-	If the mask to be added starts with a +, an expiry time 
-	must be given, even if it is the same as the default. The
-	current SQLINE default expiry time can be found with the
-	STATS AKILL command.
+#	SQLINE ADD adds the given mask to the SQLINE
+#	list for the given reason (which must be given).
+#	expiry is specified as an integer followed by one of d 
+#	(days), h (hours), or m (minutes).  Combinations (such as 
+#	1h30m) are not permitted.  If a unit specifier is not 
+#	included, the default is days (so +30 by itself means 30 
+#	days).  To add an SQLINE which does not expire, use +0.  
+#	If the mask to be added starts with a +, an expiry time 
+#	must be given, even if it is the same as the default. The
+#	current SQLINE default expiry time can be found with the
+#	STATS AKILL command.
+	SQLINE ADD コマンドはマスク
+	とその理由(必須です)を SQLINE リストに追加します。
+	解除時間 expiry は整数の後に単位 d (日)、h (時間)、
+	m (分) の内1つを続けて指定します。ただし、1h30mのように
+	組み合わせて指定することはできません。単位を指定しなかった場合、
+	日として解釈されます(+30 という指定は30日間と解釈されます。)。
+	永久に解除されない SQLINE を追加するには +0 と指定してください。
+	マスクを + から始めた場合、解除時間をを必ず指定して
+	ください。指定しない場合は初期値が指定されたものと解釈されます。
+	SQLINE 解除時間の初期値は STATS AKILL コマンドで指定できます。
 	
-	The SQLINE DEL command removes the given mask from the
-	SQLINE list if it is present.  If a list of entry numbers is 
-	given, those entries are deleted.  (See the example for LIST 
-	below.)
+#	The SQLINE DEL command removes the given mask from the
+#	SQLINE list if it is present.  If a list of entry numbers is 
+#	given, those entries are deleted.  (See the example for LIST 
+#	below.)
+	SQLINE DEL コマンドは指定されたマスクを SQLINE リストから
+	削除します。エントリー番号が指定された場合は、番号に該当する
+	エントリーを削除します。(LIST コマンドの例を参照してください)
 	
-	The SQLINE LIST command displays the SQLINE list.  
-	If a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The SQLINE LIST command displays the SQLINE list.  
+#	If a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	SQLINE LIST コマンドは SQLINE リストを表示します。
+	ワイルドカードを指定した場合、このワイルドカードに該当
+	するエントリーのみが表示されます。エントリー番号を
+	指定した場合、番号に該当するエントリーのみが表示されます。
+	例えば、以下の様です。
 
 	   SQLINE LIST 2-5,7-9
-	      Lists SQLINE entries numbered 2 through 5 and 7 
-	      through 9.
+#	      Lists SQLINE entries numbered 2 through 5 and 7 
+#	      through 9.
+	      2から5番と7から9番の SQLINE エントリーを表示します。
 	      
-	SQLINE VIEW is a more verbose version of SQLINE LIST, and 
-	will show who added an SQLINE, the date it was added, and when 
-	it expires, as well as the mask and reason.
+#	SQLINE VIEW is a more verbose version of SQLINE LIST, and 
+#	will show who added an SQLINE, the date it was added, and when 
+#	it expires, as well as the mask and reason.
+	SQLINE VIEW は SQLINE LIST を詳細にしたもので、
+	SQLINE のマスクとその理由に加えて、
+	このエントリーを追加したメンバー、追加日、解除日を表示します。
 	
-	SQLINE CLEAR clears all entries of the SQLINE list.
+#	SQLINE CLEAR clears all entries of the SQLINE list.
+	SQLINE CLEAR コマンドは SQLINE リストを削除します。
 
 OPER_HELP_SZLINE
 	Syntax: SZLINE ADD [+expiry] mask reason
