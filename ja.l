@@ -7294,7 +7294,7 @@ OPER_HELP_JUPE
 #	otherwise, the server information field will contain the
 #	text "Juped by <nick>", showing the nickname of the
 #	person who jupitered the server.
-	サービスがサーバを守るようにする。これはつまり、
+	サービスがサーバを守るようにします。これはつまり、
 	サービスに接続する身代わりサーバを作り、同じ名前を持つ
 	サーバがサービスに接続できないようにします。この身代わり
 	サーバを削除するには通常の SQUIT コマンドが使えます。
@@ -7306,25 +7306,35 @@ OPER_HELP_JUPE
 OPER_HELP_RAW
 	Syntax: RAW text
 	
-	Sends a string of text directly to the server to which
-	Services is connected.  This command has a very limited
-	range of uses, and can wreak havoc on a network if used
-	improperly.  DO NOT USE THIS COMMAND unless you are
-	absolutely certain you know what you are doing!
+#	Sends a string of text directly to the server to which
+#	Services is connected.  This command has a very limited
+#	range of uses, and can wreak havoc on a network if used
+#	improperly.  DO NOT USE THIS COMMAND unless you are
+#	absolutely certain you know what you are doing!
+	サービスが接続しているサーバにテキストを直接送信します。
+	このコマンドは使用に制約があり、用法を間違えると
+	ネットワークに大きな障害を引き起こす可能性があります。
+	あなたがしようとしている事を十分に理解していない状態では
+	このコマンドを絶対に使用しないでください！
 
 OPER_HELP_UPDATE
 	Syntax: UPDATE
 	
-	Causes Services to update all database files as soon as you
-	send the command.
+#	Causes Services to update all database files as soon as you
+#	send the command.
+	コマンドを送信後できるだけ早く、サービスに全ての
+	データベースファイルをアップデートさせます。
 	
 OPER_HELP_RELOAD
 	Syntax: RELOAD
 
-	Causes Services to reload the configuration file. Note that
-	some directives still need the restart of the Services to
-	take effect (such as Services' nicknames, activation of the 
-	session limitation, etc.)
+#	Causes Services to reload the configuration file. Note that
+#	some directives still need the restart of the Services to
+#	take effect (such as Services' nicknames, activation of the 
+#	session limitation, etc.)
+	サービスに設定ファイルを再読み込みさせます。いくつかの命令
+	を有効化させるには、サービスの再起動が必要な場合があります。
+	例えば、サービスのニックネーム、セッション制限の有効化等です。
 
 OPER_HELP_QUIT
 	Syntax: QUIT
@@ -7334,17 +7344,26 @@ OPER_HELP_QUIT
 	damage to the in-memory copies of the databases is feared
 	and they should not be saved.  For normal shutdowns, use the
 	SHUTDOWN command.
+	サービスを今すぐ終了させます。データベースのセーブは
+	行われません。このコマンドはメモリ上に展開したデータベースの
+	コピーに障害が発生したおそれがあり、これを保存しないほうが良い
+	場合を除いて使用するべきではありません。通常の終了の際には
+	SHUTDOWN コマンドを使用してください。
+
 
 OPER_HELP_SHUTDOWN
 	Syntax: SHUTDOWN
 	
-	Causes Services to save all databases and then shut down.
+#	Causes Services to save all databases and then shut down.
+	サービスに全てのデータベースをセーブさせ、サービスを終了します。
 
 OPER_HELP_RESTART
 	Syntax: RESTART
 	
 	Causes Services to save all databases and then restart
 	(i.e. exit and immediately re-run the executable).
+	サービスに全てのデータベースを保存させ、サービスを再起動します。
+	(つまり、終了後直ぐに起動処理を繰り返します。)
 
 OPER_HELP_CHANLIST
 	Syntax: CHANLIST [{pattern | nick} [SECRET]]
