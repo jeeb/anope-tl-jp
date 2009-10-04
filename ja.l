@@ -6860,17 +6860,16 @@ OPER_HELP_AKILL
 	組み合わせて指定することはできません。単位を指定しなかった場合、
 	日として解釈されます(+30 という指定は30日間と解釈されます。)。
 	永久に解除されない AKILL を追加するには +0 と指定してください。
-	指定されたユーザマスクを + から始めた場合、解除時間を
-	を必ず指定してください。指定しない場合は初期値が指定された
-	ものと解釈されます。AKILL 解除時間の初期値は STATS AKILL
-	コマンドで指定できます。
+	ユーザマスクを + から始めた場合、解除時間をを必ず指定して
+	ください。指定しない場合は初期値が指定されたものと解釈されます。
+	AKILL 解除時間の初期値は STATS AKILL コマンドで指定できます。
 	
 #	The AKILL DEL command removes the given mask from the
 #	AKILL list if it is present.  If a list of entry numbers is 
 #	given, those entries are deleted.  (See the example for LIST 
 #	below.)
 	AKILL DEL コマンドは指定されたマスクを AKILL リストから
-	削除します。エントリー番号が指定された場合は、該当する
+	削除します。エントリー番号が指定された場合は、番号に該当する
 	エントリーを削除します。(LIST コマンドの例を参照してください)
 	
 #	The AKILL LIST command displays the AKILL list.  
@@ -6878,8 +6877,10 @@ OPER_HELP_AKILL
 #	mask are displayed.  If a list of entry numbers is given,
 #	only those entries are shown; for example:
 	AKILL LIST コマンドは AKILL リストを表示します。
-	ワイルドカードが指定された場合、このワイルドカードに該当
-	するエントリーのみが表示されます。例えば、以下の様です。
+	ワイルドカードを指定した場合、このワイルドカードに該当
+	するエントリーのみが表示されます。エントリー番号を
+	指定した場合、番号に該当するエントリーのみが表示されます。
+	例えば、以下の様です。
 
 	   AKILL LIST 2-5,7-9
 #	      Lists AKILL entries numbered 2 through 5 and 7 
@@ -6891,10 +6892,10 @@ OPER_HELP_AKILL
 #	it expires, as well as the user@host/ip mask and reason.
 	AKILL VIEW は AKILL LIST を詳細にしたもので、
 	AKILL の user@host か ip マスクとその理由に加えて、
-	追加したメンバー、追加日、解除日を表示します。
+	このエントリーを追加したメンバー、追加日、解除日を表示します。
 	
 #	AKILL CLEAR clears all entries of the AKILL list.
-	AKILL CLEAR で AKILL リストを削除します。
+	AKILL CLEAR コマンドは AKILL リストを削除します。
 	
 OPER_HELP_SGLINE
 	Syntax: SGLINE ADD [+expiry] mask:reason
@@ -6903,44 +6904,73 @@ OPER_HELP_SGLINE
 	        SGLINE VIEW [mask | list]
 	        SGLINE CLEAR
 	
-	Allows Services operators to manipulate the SGLINE list.  If
-	a user with a realname matching an SGLINE mask attempts to 
-	connect, Services will not allow it to pursue his IRC
-	session.
+#	Allows Services operators to manipulate the SGLINE list.  If
+#	a user with a realname matching an SGLINE mask attempts to 
+#	connect, Services will not allow it to pursue his IRC
+#	session.
+	サービスオペレータが SGLINE リストを編集することを許可します。
+	SGLINE マスクに該当するユーザが接続してきた場合、サービスは
+	このユーザの IRC セッションを破棄します。
 	
-	SGLINE ADD adds the given realname mask to the SGLINE
-	list for the given reason (which must be given).
-	expiry is specified as an integer followed by one of d 
-	(days), h (hours), or m (minutes).  Combinations (such as 
-	1h30m) are not permitted.  If a unit specifier is not 
-	included, the default is days (so +30 by itself means 30 
-	days).  To add an SGLINE which does not expire, use +0.  If the
-	realname mask to be added starts with a +, an expiry time must
-	be given, even if it is the same as the default.  The
-	current SGLINE default expiry time can be found with the
-	STATS AKILL command.
-	Note: because the realname mask may contain spaces, the
-	separator between it and the reason is a colon.
+#	SGLINE ADD adds the given realname mask to the SGLINE
+#	list for the given reason (which must be given).
+#	expiry is specified as an integer followed by one of d 
+#	(days), h (hours), or m (minutes).  Combinations (such as 
+#	1h30m) are not permitted.  If a unit specifier is not 
+#	included, the default is days (so +30 by itself means 30 
+#	days).  To add an SGLINE which does not expire, use +0.  If the
+#	realname mask to be added starts with a +, an expiry time must
+#	be given, even if it is the same as the default.  The
+#	current SGLINE default expiry time can be found with the
+#	STATS AKILL command.
+#	Note: because the realname mask may contain spaces, the
+#	separator between it and the reason is a colon.
+	SGLINE ADD コマンドは実ユーザ名マスク
+	とその理由(必須です)を SGLINE リストに追加します。
+	解除時間 expiry は整数の後に単位 d (日)、h (時間)、
+	m (分) の内1つを続けて指定します。ただし、1h30mのように
+	組み合わせて指定することはできません。単位を指定しなかった場合、
+	日として解釈されます(+30 という指定は30日間と解釈されます。)。
+	永久に解除されない SGLINE を追加するには +0 と指定してください。
+	ユーザマスクを + から始めた場合、解除時間をを必ず指定して
+	ください。指定しない場合は初期値が指定されたものと解釈されます。
+	SGLINE 解除時間の初期値は STATS AKILL コマンドで指定できます。
+	注意: 実ユーザ名はスペースを含むことがあるので、マスクと
+	理由の区切りはスペースの変わりにコロンを使ってください。
 	
-	The SGLINE DEL command removes the given mask from the
-	SGLINE list if it is present.  If a list of entry numbers is 
-	given, those entries are deleted.  (See the example for LIST 
-	below.)
+#	The SGLINE DEL command removes the given mask from the
+#	SGLINE list if it is present.  If a list of entry numbers is 
+#	given, those entries are deleted.  (See the example for LIST 
+#	below.)
+	SGLINE DEL コマンドは指定されたマスクを SGLINE リストから
+	削除します。エントリー番号が指定された場合は、番号に該当する
+	エントリーを削除します。(LIST コマンドの例を参照してください)
 	
-	The SGLINE LIST command displays the SGLINE list.  
-	If a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The SGLINE LIST command displays the SGLINE list.  
+#	If a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	SGLINE LIST コマンドは SGLINE リストを表示します。
+	ワイルドカードを指定した場合、このワイルドカードに該当
+	するエントリーのみが表示されます。エントリー番号を
+	指定した場合、番号に該当するエントリーのみが表示されます。
+	例えば、以下の様です。
 
 	   SGLINE LIST 2-5,7-9
-	      Lists SGLINE entries numbered 2 through 5 and 7 
-	      through 9.
+#	      Lists SGLINE entries numbered 2 through 5 and 7 
+#	      through 9.
+	      2から5番と7から9番の SGLINE エントリーを表示します。
 	      
-	SGLINE VIEW is a more verbose version of SGLINE LIST, and 
-	will show who added an SGLINE, the date it was added, and when 
-	it expires, as well as the realname mask and reason.
+#	SGLINE VIEW is a more verbose version of SGLINE LIST, and 
+#	will show who added an SGLINE, the date it was added, and when 
+#	it expires, as well as the realname mask and reason.
+	SGLINE VIEW は SGLINE LIST を詳細にしたもので、
+	SGLINE の実ユーザ名マスクとその理由に加えて、
+	このエントリーを追加したメンバー、追加日、解除日を表示します。
 	
-	SGLINE CLEAR clears all entries of the SGLINE list.
+#	SGLINE CLEAR clears all entries of the SGLINE list.
+	SGLINE CLEAR コマンドは AKILL リストを削除します。
+	
 
 OPER_HELP_SQLINE
 	Syntax: SQLINE ADD [+expiry] mask reason
