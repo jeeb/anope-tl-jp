@@ -1879,9 +1879,9 @@ CHAN_INFO_SYNTAX
 CHAN_INFO_HEADER
 	Information for channel %s:
 CHAN_INFO_FOUNDER
-		Founder: %s (%s)
+	        Founder: %s (%s)
 CHAN_INFO_NO_FOUNDER
-		Founder: %s
+	        Founder: %s
 CHAN_INFO_SUCCESSOR
 	      Successor: %s (%s)
 CHAN_INFO_NO_SUCCESSOR
@@ -1899,13 +1899,13 @@ CHAN_INFO_LAST_TOPIC
 CHAN_INFO_TOPIC_SET_BY
 	   Topic set by: %s
 CHAN_INFO_URL
-		    URL: %s
+	            URL: %s
 CHAN_INFO_EMAIL
 	 E-mail address: %s
 CHAN_INFO_BANTYPE
 	       Ban type: %d
 CHAN_INFO_OPTIONS
-		Options: %s
+	        Options: %s
 CHAN_INFO_OPT_KEEPTOPIC
 	Topic Retention
 CHAN_INFO_OPT_OPNOTICE
@@ -2670,7 +2670,7 @@ BOT_INFO_INACTIVE
 	無効
 BOT_INFO_CHAN_OPTIONS
 #	            Options : %s
-		 オプション : %s
+	            オプション : %s
 BOT_INFO_OPT_DONTKICKOPS
 #	Ops protection
 	オペレータ保護
@@ -3944,10 +3944,10 @@ OPER_SESSION_VIEW_FORMAT
 
 OPER_HELP_EXCEPTION
 	Syntax: EXCEPTION ADD [+expiry] mask limit reason
-		EXCEPTION DEL {mask | list}
-		EXCEPTION MOVE num position
-		EXCEPTION LIST [mask | list]
-		EXCEPTION VIEW [mask | list]
+	        EXCEPTION DEL {mask | list}
+	        EXCEPTION MOVE num position
+	        EXCEPTION LIST [mask | list]
+	        EXCEPTION VIEW [mask | list]
 	
 #	Allows Services admins to manipulate the list of hosts that
 #	have specific session limits - allowing certain machines, 
@@ -4012,7 +4012,7 @@ OPER_HELP_EXCEPTION
 
 OPER_HELP_SESSION
 	Syntax: SESSION LIST threshold
-		SESSION VIEW host
+	        SESSION VIEW host
 	
 #	Allows Services admins to view the session list.
 	サービス管理者はセッションリストを見ることができます。
@@ -4518,8 +4518,8 @@ NICK_HELP_DROP
 
 NICK_HELP_ACCESS
 	Syntax: ACCESS ADD mask
-		ACCESS DEL mask
-		ACCESS LIST
+	        ACCESS DEL mask
+	        ACCESS LIST
 	
 	Modifies or displays the access list for your nick.  This
 	is the list of addresses which will be automatically
@@ -4531,14 +4531,14 @@ NICK_HELP_ACCESS
 	Examples:
 	
 	    ACCESS ADD anyone@*.bepeg.com
-		Allows access to user anyone from any machine in
-		the bepeg.com domain.
+	        Allows access to user anyone from any machine in
+	        the bepeg.com domain.
 	
 	    ACCESS DEL anyone@*.bepeg.com
-		Reverses the previous command.
+	        Reverses the previous command.
 	
 	    ACCESS LIST
-		Displays the current access list.
+	        Displays the current access list.
 
 NICK_HELP_SET
 	Syntax: SET option parameters
@@ -4548,7 +4548,7 @@ NICK_HELP_SET
 	    DISPLAY    Set the display of your group in Services
 	    PASSWORD   Set your nickname password
 	    LANGUAGE   Set the language Services will use when
-			   sending messages to you
+	                   sending messages to you
 	    URL        Associate a URL with your nickname
 	    EMAIL      Associate an E-mail address with your nickname
 	    ICQ        Associate an ICQ number with your nickname
@@ -4556,7 +4556,7 @@ NICK_HELP_SET
 	    KILL       Turn protection on or off
 	    SECURE     Turn nickname security on or off
 	    PRIVATE    Prevent your nickname from appearing in a
-			   %R%S LIST
+	                   %R%S LIST
 	    HIDE       Hide certain pieces of nickname information
 	    MSG        Change the communication method of Services
 	    AUTOOP     Should services op you automatically.    
@@ -4692,13 +4692,13 @@ NICK_HELP_SASET
 	    KILL       Turn protection on or off
 	    SECURE     Turn nickname security on or off
 	    PRIVATE    Prevent the nickname from appearing in a
-			   %R%S LIST
+	                   %R%S LIST
 	    HIDE       Hide certain pieces of nickname information
 	    MSG        Change the communication method of Services
 	    NOEXPIRE   Prevent the nickname from expiring
 	    AUTOOP     Turn autoop on or off
 	    LANGUAGE   Set the language Services will use when
-		       sending messages to nickname
+	               sending messages to nickname
 	
 	Type %R%S HELP SASET option for more information
 	on a specific option. The options will be set on the given
@@ -4891,15 +4891,15 @@ NICK_HELP_LIST
 	Examples:
 	
 	    LIST *!joeuser@foo.com
-		Lists all nicks owned by joeuser@foo.com.
+	        Lists all nicks owned by joeuser@foo.com.
 	
 	    LIST *Bot*!*@*
-		Lists all registered nicks with Bot in their
-		names (case insensitive).
+	        Lists all registered nicks with Bot in their
+	        names (case insensitive).
 	
 	    LIST *!*@*.bar.org
-		Lists all nicks owned by users in the bar.org
-		domain.
+	        Lists all nicks owned by users in the bar.org
+	        domain.
 
 NICK_HELP_ALIST
 	Syntax: ALIST [level]
@@ -4910,16 +4910,16 @@ NICK_HELP_ALIST
 
 	Examples:
 	    ALIST Founder
-		Lists all channels where you have Founder
-		access.
+	        Lists all channels where you have Founder
+	        access.
 
 	    ALIST AOP
-		Lists all channels where you have AOP
-		access or greater.
+	        Lists all channels where you have AOP
+	        access or greater.
 
 	    ALIST 10
-		Lists all channels where you have level 10
-		access or greater.
+	        Lists all channels where you have level 10
+	        access or greater.
 
 	Channels that have the NOEXPIRE option set will be
 	prefixed by an exclamation mark.
@@ -5028,15 +5028,15 @@ NICK_SERVADMIN_HELP_LIST
 	Examples:
 	
 	    LIST *!joeuser@foo.com
-		Lists all registered nicks owned by joeuser@foo.com.
+	        Lists all registered nicks owned by joeuser@foo.com.
 	
 	    LIST *Bot*!*@*
-		Lists all registered nicks with Bot in their
-		names (case insensitive).
+	        Lists all registered nicks with Bot in their
+	        names (case insensitive).
 	
 	    LIST * NOEXPIRE
-		Lists all registered nicks which have been set to
-		not expire.
+	        Lists all registered nicks which have been set to
+	        not expire.
 
 NICK_SERVADMIN_HELP_ALIST
 	Syntax: ALIST [nickname] [level]
@@ -5106,12 +5106,12 @@ CHAN_HELP_CMD_FORBID
 	    FORBID     Prevent a channel from being used
 CHAN_HELP_CMD_SUSPEND
 	    SUSPEND    Prevent a channel from being used preserving
-		       channel data and settings
+	               channel data and settings
 CHAN_HELP_CMD_UNSUSPEND
 	    UNSUSPEND  Releases a suspended channel
 CHAN_HELP_CMD_STATUS
 	    STATUS     Returns the current access level of a user
-		       on a channel
+	               on a channel
 CHAN_HELP_CMD_REGISTER
 	    REGISTER   Register a channel
 CHAN_HELP_CMD_IDENTIFY
@@ -5259,7 +5259,7 @@ CHAN_HELP_SET
 	    URL           Associate a URL with the channel
 	    EMAIL         Associate an E-mail address with the channel
 	    ENTRYMSG      Set a message to be sent to users when they
-			     enter the channel
+	                     enter the channel
 	    BANTYPE       Set how Services make bans on the channel
 	    MLOCK         Lock channel modes on or off
 	    KEEPTOPIC     Retain topic when channel is not in use
@@ -5382,17 +5382,17 @@ CHAN_HELP_SET_MLOCK
 	Examples:
 	
 	    SET #channel MLOCK +nt-iklps
-		Forces modes n and t on, and modes i, k, l, p, and
-		s off.  Mode m is left free to be either on or off.
+	        Forces modes n and t on, and modes i, k, l, p, and
+	        s off.  Mode m is left free to be either on or off.
 	
 	    SET #channel MLOCK +knst-ilmp my-key
-		Forces modes k, n, s, and t on, and modes i, l, m,
-		and p off.  Also forces the channel key to be
-		"my-key".
+	        Forces modes k, n, s, and t on, and modes i, l, m,
+	        and p off.  Also forces the channel key to be
+	        "my-key".
 	
 	    SET #channel MLOCK +
-		Removes the mode lock; all channel modes are free
-		to be either on or off.
+	        Removes the mode lock; all channel modes are free
+	        to be either on or off.
 
 CHAN_HELP_SET_PEACE
 	Syntax: SET channel PEACE {ON | OFF}
@@ -5484,9 +5484,9 @@ CHAN_HELP_SET_OPNOTICE
 
 CHAN_HELP_AOP
 	Syntax: AOP channel ADD nick
-		AOP channel DEL {nick | entry-num | list}
-		AOP channel LIST [mask | list]
-		AOP channel CLEAR
+	        AOP channel DEL {nick | entry-num | list}
+	        AOP channel LIST [mask | list]
+	        AOP channel CLEAR
 	
 	Maintains the AOP (AutoOP) list for a channel. The AOP 
 	list gives users the right to be auto-opped on your channel,
@@ -5525,9 +5525,9 @@ CHAN_HELP_AOP
 
 CHAN_HELP_HOP
 	Syntax: HOP channel ADD nick
-		HOP channel DEL {nick | entry-num | list}
-		HOP channel LIST [mask | list]
-		HOP channel CLEAR
+	        HOP channel DEL {nick | entry-num | list}
+	        HOP channel LIST [mask | list]
+	        HOP channel CLEAR
 	
 	Maintains the HOP (HalfOP) list for a channel. The HOP 
 	list gives users the right to be auto-halfopped on your 
@@ -5564,9 +5564,9 @@ CHAN_HELP_HOP
 
 CHAN_HELP_SOP
 	Syntax: SOP channel ADD nick
-		SOP channel DEL {nick | entry-num | list}
-		SOP channel LIST [mask | list]
-		SOP channel CLEAR
+	        SOP channel DEL {nick | entry-num | list}
+	        SOP channel LIST [mask | list]
+	        SOP channel CLEAR
 	
 	Maintains the SOP (SuperOP) list for a channel. The SOP 
 	list gives users all rights given by the AOP list, and adds
@@ -5604,9 +5604,9 @@ CHAN_HELP_SOP
 
 CHAN_HELP_VOP
 	Syntax: VOP channel ADD nick
-		VOP channel DEL {nick | entry-num | list}
-		VOP channel LIST [mask | list]
-		VOP channel CLEAR
+	        VOP channel DEL {nick | entry-num | list}
+	        VOP channel LIST [mask | list]
+	        VOP channel CLEAR
 	
 	Maintains the VOP (VOicePeople) list for a channel.  
 	The VOP list allows users to be auto-voiced and to voice 
@@ -5643,9 +5643,9 @@ CHAN_HELP_VOP
 
 CHAN_HELP_ACCESS
 	Syntax: ACCESS channel ADD nick level
-		ACCESS channel DEL {nick | entry-num | list}
-		ACCESS channel LIST [mask | list]
-		ACCESS channel CLEAR
+	        ACCESS channel DEL {nick | entry-num | list}
+	        ACCESS channel LIST [mask | list]
+	        ACCESS channel CLEAR
 	
 	Maintains the access list for a channel.  The access
 	list specifies which users are allowed chanop status or
@@ -5686,15 +5686,15 @@ CHAN_HELP_ACCESS_LEVELS
 	By default, the following access levels are defined:
 	
 	   Founder   Full access to %S functions; automatic
-			     opping upon entering channel.  Note
-			     that only one person may have founder
-			     status (it cannot be given using the
-			     ACCESS command).
+	                     opping upon entering channel.  Note
+	                     that only one person may have founder
+	                     status (it cannot be given using the
+	                     ACCESS command).
 	        10   Access to AKICK command; automatic opping.
 	         5   Automatic opping.
 	         3   Automatic voicing.
 	         0   No special privileges; can be opped by other
-			     ops (unless secure-ops is set).
+	                     ops (unless secure-ops is set).
 	        <0   May not be opped.
 	
 	These levels may be changed, or new ones added, using the
@@ -5703,13 +5703,13 @@ CHAN_HELP_ACCESS_LEVELS
 
 CHAN_HELP_AKICK
 	Syntax: AKICK channel ADD {nick | mask} [reason]
-		AKICK channel STICK mask
-		AKICK channel UNSTICK mask
-		AKICK channel DEL {nick | mask | entry-num | list}
-		AKICK channel LIST [mask | entry-num | list]
-		AKICK channel VIEW [mask | entry-num | list]
-		AKICK channel ENFORCE
-		AKICK channel CLEAR
+	        AKICK channel STICK mask
+	        AKICK channel UNSTICK mask
+	        AKICK channel DEL {nick | mask | entry-num | list}
+	        AKICK channel LIST [mask | entry-num | list]
+	        AKICK channel VIEW [mask | entry-num | list]
+	        AKICK channel ENFORCE
+	        AKICK channel CLEAR
 	
 	Maintains the AutoKick list for a channel.  If a user
 	on the AutoKick list attempts to join the channel,
@@ -5755,9 +5755,9 @@ CHAN_HELP_AKICK
 
 CHAN_HELP_LEVELS
 	Syntax: LEVELS channel SET type level
-		LEVELS channel {DIS | DISABLE} type
-		LEVELS channel LIST
-		LEVELS channel RESET
+	        LEVELS channel {DIS | DISABLE} type
+	        LEVELS channel LIST
+	        LEVELS channel RESET
 	
 	The LEVELS command allows fine control over the meaning of
 	the numeric access levels used for channels.  With this
@@ -5974,16 +5974,16 @@ CHAN_HELP_CLEAR
 	can be any of the following:
 	
 	     MODES    Resets all modes on the channel (i.e. clears
-			  modes i,k,l,m,n,p,s,t).
+	                  modes i,k,l,m,n,p,s,t).
 	     BANS     Clears all bans on the channel.
 	     EXCEPTS  Clears all excepts on the channel.
 	     INVITES  Clears all invites on the channel.
 	     OPS      Removes channel-operator status (mode +o) from
-			  all channel operators.
+	                  all channel operators.
 	     HOPS     Removes channel-halfoperator status (mode +h) from
-			  all channel halfoperators, if supported.
+	                  all channel halfoperators, if supported.
 	     VOICES   Removes "voice" status (mode +v) from anyone
-			  with that mode set.
+	                  with that mode set.
 	     USERS    Removes (kicks) all users from the channel.
 	
 	By default, limited to those with founder access on the
@@ -6307,12 +6307,12 @@ MEMO_HELP_SET_NOTIFY
 #	    NOMAIL  You will not be notified of memos by email.
 #	    OFF     You will not receive any notification of memos.
 	    ON      ログオン時、/AWAY の解除時、メモが到着した時に
-		       新着メモを通知します。
+	               新着メモを通知します。
 	    LOGON   ログオン時と /AWAY の解除時に 新着メモを
-		       通知します。
+	               通知します。
 	    NEW     メモが到着した時に新着メモを通知します。
 	    MAIL    上の通知設定に加えて、メールでも新着メモを
-		       通知します。
+	               通知します。
 	    NOMAIL  メールでの新着メモの通知を止めます。
 	    OFF     新着メモの通知を止めます。
 	
@@ -6900,9 +6900,9 @@ OPER_HELP_AKILL
 OPER_HELP_SGLINE
 	Syntax: SGLINE ADD [+expiry] mask:reason
 	    SGLINE DEL {mask | entry-num | list}
-		SGLINE LIST [mask | list]
-		SGLINE VIEW [mask | list]
-		SGLINE CLEAR
+	        SGLINE LIST [mask | list]
+	        SGLINE VIEW [mask | list]
+	        SGLINE CLEAR
 	
 #	Allows Services operators to manipulate the SGLINE list.  If
 #	a user with a realname matching an SGLINE mask attempts to 
