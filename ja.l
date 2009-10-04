@@ -7242,39 +7242,46 @@ OPER_HELP_SET_SUPERADMIN
 OPER_HELP_SET_SQL
 	Syntax: SET SQL {ON | OFF}
 
-	Setting this will toggle Anope's usage of SQL, this should
-	be used to disable and enable SQL should your SQL server go down
-	while services are running.
-	Anope が SQL を使用するか否かを切り替えます。この設定は
+#	Setting this will toggle Anope's usage of SQL, this should
+#	be used to disable and enable SQL should your SQL server go down
+#	while services are running.
+#	Anope が SQL を使用するか否かを切り替えます。この設定は
 	サービスの運用中に SQL サーバを終了させる場合に使用します。
 
 OPER_HELP_SET_IGNORE
 	Syntax: SET IGNORE {ON | OFF}
 
-	Setting this will toggle Anope's usage of the IGNORE system 
-	on or off.
+#	Setting this will toggle Anope's usage of the IGNORE system 
+#	on or off.
 	無視モードのの有効無効を切り替えます。
 
 OPER_HELP_SET_LIST
 	Syntax: SET LIST
 
-	Display the various %S settings
+#	Display the various %S settings
 	%S の設定を表示します。
 
 OPER_HELP_NOOP
 	Syntax: NOOP SET server
 	        NOOP REVOKE server
 
-	NOOP SET remove all O:lines of the given
-	server and kill all IRCops currently on it to
-	prevent them from rehashing the server (because this
-	would just cancel the effect).
+#	NOOP SET remove all O:lines of the given
+#	server and kill all IRCops currently on it to
+#	prevent them from rehashing the server (because this
+#	would just cancel the effect).
+	NOOP SET は指定された server の O:lines を
+	全て削除し、サーバ設定が書き換えられるのを防ぐために、
+	現在このサーバにいる IRC オペレータ全員を kill します。
 
-	NOOP REVOKE makes all removed O:lines available again
-	on the given server.
+#	NOOP REVOKE makes all removed O:lines available again
+#	on the given server.
+	NOOP REVOKE は指定された server の
+	削除された O:line を復活させます。
 
-	Note: The server is not checked at all by the
-	Services.
+#	Note: The server is not checked at all by the
+#	Services.
+	注意: サービスは server が正しいかどうか
+	チェックしません。
 
 OPER_HELP_JUPE
 	Syntax: JUPE server [reason]
