@@ -7339,11 +7339,11 @@ OPER_HELP_RELOAD
 OPER_HELP_QUIT
 	Syntax: QUIT
 	
-	Causes Services to do an immediate shutdown; databases are
-	not saved.  This command should not be used unless
-	damage to the in-memory copies of the databases is feared
-	and they should not be saved.  For normal shutdowns, use the
-	SHUTDOWN command.
+#	Causes Services to do an immediate shutdown; databases are
+#	not saved.  This command should not be used unless
+#	damage to the in-memory copies of the databases is feared
+#	and they should not be saved.  For normal shutdowns, use the
+#	SHUTDOWN command.
 	サービスを今すぐ終了させます。データベースのセーブは
 	行われません。このコマンドはメモリ上に展開したデータベースの
 	コピーに障害が発生したおそれがあり、これを保存しないほうが良い
@@ -7360,8 +7360,8 @@ OPER_HELP_SHUTDOWN
 OPER_HELP_RESTART
 	Syntax: RESTART
 	
-	Causes Services to save all databases and then restart
-	(i.e. exit and immediately re-run the executable).
+#	Causes Services to save all databases and then restart
+#	(i.e. exit and immediately re-run the executable).
 	サービスに全てのデータベースを保存させ、サービスを再起動します。
 	(つまり、終了後直ぐに起動処理を繰り返します。)
 
