@@ -7286,14 +7286,22 @@ OPER_HELP_NOOP
 OPER_HELP_JUPE
 	Syntax: JUPE server [reason]
 	
-	Tells Services to jupiter a server -- that is, to create
-	a fake "server" connected to Services which prevents
-	the real server of that name from connecting.  The jupe
-	may be removed using a standard SQUIT.  If a reason is
-	given, it is placed in the server information field;
-	otherwise, the server information field will contain the
-	text "Juped by <nick>", showing the nickname of the
-	person who jupitered the server.
+#	Tells Services to jupiter a server -- that is, to create
+#	a fake "server" connected to Services which prevents
+#	the real server of that name from connecting.  The jupe
+#	may be removed using a standard SQUIT.  If a reason is
+#	given, it is placed in the server information field;
+#	otherwise, the server information field will contain the
+#	text "Juped by <nick>", showing the nickname of the
+#	person who jupitered the server.
+	サービスがサーバを守るようにする。これはつまり、
+	サービスに接続する身代わりサーバを作り、同じ名前を持つ
+	サーバがサービスに接続できないようにします。この身代わり
+	サーバを削除するには通常の SQUIT コマンドが使えます。
+	理由を指定した場合は、サーバ情報フィールドにこれを
+	書き込みます。理由を指定しなかった場合、サーバ情報フィールド
+	には "Juped by <nick>" のようにこの身代わりサーバを
+	つくったユーザのニックネームを含む内容を書き込みます。
 
 OPER_HELP_RAW
 	Syntax: RAW text
