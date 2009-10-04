@@ -7148,17 +7148,26 @@ OPER_HELP_SET
 OPER_HELP_SET_READONLY
 	Syntax: SET READONLY {ON | OFF}
 	
-	Sets read-only mode on or off.  In read-only mode, normal
-	users will not be allowed to modify any Services data,
-	including channel and nickname access lists, etc.  IRCops
-	with sufficient Services privileges will be able to modify
-	Services' AKILL list and drop or forbid nicknames and
-	channels, but any such changes will not be saved unless
-	read-only mode is deactivated before Services is terminated
-	or restarted.
+#	Sets read-only mode on or off.  In read-only mode, normal
+#	users will not be allowed to modify any Services data,
+#	including channel and nickname access lists, etc.  IRCops
+#	with sufficient Services privileges will be able to modify
+#	Services' AKILL list and drop or forbid nicknames and
+#	channels, but any such changes will not be saved unless
+#	read-only mode is deactivated before Services is terminated
+#	or restarted.
+	読み込み専用モードの有効無効を切り替えます。読み込み専用モード
+	では、通常のユーザはチャンネルとニックネームのリスト等、全ての
+	サービスデータを変更できません。適当な権利を持つ IRC オペレータ
+	だけがサービスの AKILL リストを変更して、ニックネームや
+	チャンネルを削除追加できます。ただし、この時行った変更は
+	サービスを終了するか再起動する前に読み取り専用モードを
+	無効にしない限り保存されません。
 	
-	This option is equivalent to the command-line option
-	-readonly.
+#	This option is equivalent to the command-line option
+#	-readonly.
+	このオプションはコマンドラインオプション -readonly を
+	指定することと等価です。
 
 OPER_HELP_SET_LOGCHAN
 	Syntax: SET LOGCHAN {ON | OFF}
