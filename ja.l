@@ -7368,46 +7368,66 @@ OPER_HELP_RESTART
 OPER_HELP_CHANLIST
 	Syntax: CHANLIST [{pattern | nick} [SECRET]]
 	
-	Lists all channels currently in use on the IRC network, whether they
-	are registered or not.
+#	Lists all channels currently in use on the IRC network, whether they
+#	are registered or not.
+	IRC ネットワーク上に現在あるチャンネルを、
+	登録済みか否かにかかわらず全て表示します。
 
-	If pattern is given, lists only channels that match it. If a nickname
-	is given, lists only the channels the user using it is on. If SECRET is
-	specified, lists only channels matching pattern that have the +s or
-	+p mode.
+#	If pattern is given, lists only channels that match it. If a nickname
+#	is given, lists only the channels the user using it is on. If SECRET is
+#	specified, lists only channels matching pattern that have the +s or
+#	+p mode.
+	pattern が指定された場合は、該当するチャンネルのみを
+	表示します。ニックネームが指定された場合は、このユーザが
+	join しているチャンネルのみを表示します。SECRET が指定
+	された場合は、pattern に該当するチャンネルのうち
+	+s か +p モードのチャンネルのみを表示します。
 
 OPER_HELP_USERLIST
 	Syntax: USERLIST [{pattern | channel} [INVISIBLE]]
 	
-	Lists all users currently online on the IRC network, whether their
-	nick is registered or not.
+#	Lists all users currently online on the IRC network, whether their
+#	nick is registered or not.
+	IRC ネットワーク上に現在いるユーザを、
+	登録済みニックネームが否かにかかわらず全員表示します。
 	
-	If pattern is given, lists only users that match it (it must be in
-	the format nick!user@host). If channel is given, lists only users
-	that are on the given channel. If INVISIBLE is specified, only users
-	with the +i flag will be listed.
+#	If pattern is given, lists only users that match it (it must be in
+#	the format nick!user@host). If channel is given, lists only users
+#	that are on the given channel. If INVISIBLE is specified, only users
+#	with the +i flag will be listed.
+	pattern (フォーマットはnick!user@host) が指定された場合、
+	これに該当するユーザのみを表示します。 channel が指定
+	された場合、このチャンネルに join しているユーザのみを表示
+	します。INVISIBLE が指定された場合は、+i フラグが立っている
+	ユーザのみを表示します。
 
 OPER_HELP_MODLOAD
 	Syntax: MODLOAD FileName
 	
-	This command loads the module named FileName from the modules
-	directory.
+#	This command loads the module named FileName from the modules
+#	directory.
+	モジュールディレクトリ内から FileName で指定した
+	モジュールをロードします。
 
 OPER_HELP_MODUNLOAD
 	Syntax: MODUNLOAD FileName
 	
-	This command unloads the module named FileName from the modules
-	directory.
+#	This command unloads the module named FileName from the modules
+#	directory.
+	モジュールディレクトリ内から FileName で指定した
+	モジュールをアンロードします。
 
 OPER_HELP_MODINFO
 	Syntax: MODINFO FileName
 	
-	This command lists information about the specified loaded module
+#	This command lists information about the specified loaded module
+	指定されたロード済みモジュールの情報を表示します。
 
 OPER_HELP_MODLIST
 	Syntax: MODLIST [Core|3rd|protocol|encryption|supported|qatested]
 	
-	Lists all currently loaded modules.
+#	Lists all currently loaded modules.
+	ロード済みモジュールを全て表示します。
 
 
 ###########################################################################
