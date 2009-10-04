@@ -1879,9 +1879,9 @@ CHAN_INFO_SYNTAX
 CHAN_INFO_HEADER
 	Information for channel %s:
 CHAN_INFO_FOUNDER
-	        Founder: %s (%s)
+		Founder: %s (%s)
 CHAN_INFO_NO_FOUNDER
-	        Founder: %s
+		Founder: %s
 CHAN_INFO_SUCCESSOR
 	      Successor: %s (%s)
 CHAN_INFO_NO_SUCCESSOR
@@ -1899,13 +1899,13 @@ CHAN_INFO_LAST_TOPIC
 CHAN_INFO_TOPIC_SET_BY
 	   Topic set by: %s
 CHAN_INFO_URL
-	            URL: %s
+		    URL: %s
 CHAN_INFO_EMAIL
 	 E-mail address: %s
 CHAN_INFO_BANTYPE
 	       Ban type: %d
 CHAN_INFO_OPTIONS
-	        Options: %s
+		Options: %s
 CHAN_INFO_OPT_KEEPTOPIC
 	Topic Retention
 CHAN_INFO_OPT_OPNOTICE
@@ -2670,7 +2670,7 @@ BOT_INFO_INACTIVE
 	無効
 BOT_INFO_CHAN_OPTIONS
 #	            Options : %s
-	         オプション : %s
+		 オプション : %s
 BOT_INFO_OPT_DONTKICKOPS
 #	Ops protection
 	オペレータ保護
@@ -3079,97 +3079,97 @@ OPER_STATS_AKILL_COUNT
 	現在までに AKILL した数 : %d
 OPER_STATS_AKILL_EXPIRE_DAYS
 #	Default AKILL expiry time: %d days
-	AKILL 解除時間の初期値   : %d 日
+	AKILL 失効時間の初期値   : %d 日
 OPER_STATS_AKILL_EXPIRE_DAY
 #	Default AKILL expiry time: 1 day
-	AKILL 解除時間の初期値   : 1 日
+	AKILL 失効時間の初期値   : 1 日
 OPER_STATS_AKILL_EXPIRE_HOURS
 #	Default AKILL expiry time: %d hours
-	AKILL 解除時間の初期値   : %d 時間
+	AKILL 失効時間の初期値   : %d 時間
 OPER_STATS_AKILL_EXPIRE_HOUR
 #	Default AKILL expiry time: 1 hour
-	AKILL 解除時間の初期値   : 1 時間
+	AKILL 失効時間の初期値   : 1 時間
 OPER_STATS_AKILL_EXPIRE_MINS
 #	Default AKILL expiry time: %d minutes
-	AKILL 解除時間の初期値   : %d 分
+	AKILL 失効時間の初期値   : %d 分
 OPER_STATS_AKILL_EXPIRE_MIN
 #	Default AKILL expiry time: 1 minute
-	AKILL 解除時間の初期値   : 1 分
+	AKILL 失効時間の初期値   : 1 分
 OPER_STATS_AKILL_EXPIRE_NONE
 #	Default AKILL expiry time: No expiration
-	AKILL 解除時間の初期値   : 未設定
+	AKILL 失効時間の初期値   : 未設定
 OPER_STATS_SGLINE_COUNT
 #	Current number of SGLINEs: %d
 	現在の SGLINE 数         : %d
 OPER_STATS_SGLINE_EXPIRE_DAYS
 #	Default SGLINE expiry time: %d days
-	SGLINE 解除時間の初期値   : %d 日
+	SGLINE 失効時間の初期値   : %d 日
 OPER_STATS_SGLINE_EXPIRE_DAY
 #	Default SGLINE expiry time: 1 day
-	SGLINE 解除時間の初期値   : 1 日
+	SGLINE 失効時間の初期値   : 1 日
 OPER_STATS_SGLINE_EXPIRE_HOURS
 #	Default SGLINE expiry time: %d hours
-	SGLINE 解除時間の初期値   : %d 時間
+	SGLINE 失効時間の初期値   : %d 時間
 OPER_STATS_SGLINE_EXPIRE_HOUR
 #	Default SGLINE expiry time: 1 hour
-	SGLINE 解除時間の初期値   : 1 時間
+	SGLINE 失効時間の初期値   : 1 時間
 OPER_STATS_SGLINE_EXPIRE_MINS
 #	Default SGLINE expiry time: %d minutes
-	SGLINE 解除時間の初期値   : %d 分
+	SGLINE 失効時間の初期値   : %d 分
 OPER_STATS_SGLINE_EXPIRE_MIN
 #	Default SGLINE expiry time: 1 minute
-	SGLINE 解除時間の初期値   : 1 分
+	SGLINE 失効時間の初期値   : 1 分
 OPER_STATS_SGLINE_EXPIRE_NONE
 #	Default SGLINE expiry time: No expiration
-	SGLINE 解除時間の初期値   : 未設定
+	SGLINE 失効時間の初期値   : 未設定
 OPER_STATS_SQLINE_COUNT
 #	Current number of SQLINEs: %d
 	現在の SQLINE 数         : %d
 OPER_STATS_SQLINE_EXPIRE_DAYS
 #	Default SQLINE expiry time: %d days
-	SQLINE 解除時間の初期値   : %d 日
+	SQLINE 失効時間の初期値   : %d 日
 OPER_STATS_SQLINE_EXPIRE_DAY
 #	Default SQLINE expiry time: 1 day
-	SQLINE 解除時間の初期値   : 1 日
+	SQLINE 失効時間の初期値   : 1 日
 OPER_STATS_SQLINE_EXPIRE_HOURS
 #	Default SQLINE expiry time: %d hours
-	SQLINE 解除時間の初期値   : %d 時間
+	SQLINE 失効時間の初期値   : %d 時間
 OPER_STATS_SQLINE_EXPIRE_HOUR
 #	Default SQLINE expiry time: 1 hour
-	SQLINE 解除時間の初期値   : 1 時間
+	SQLINE 失効時間の初期値   : 1 時間
 OPER_STATS_SQLINE_EXPIRE_MINS
 #	Default SQLINE expiry time: %d minutes
-	SQLINE 解除時間の初期値   : %d 分
+	SQLINE 失効時間の初期値   : %d 分
 OPER_STATS_SQLINE_EXPIRE_MIN
 #	Default SQLINE expiry time: 1 minute
-	SQLINE 解除時間の初期値   : 1 分
+	SQLINE 失効時間の初期値   : 1 分
 OPER_STATS_SQLINE_EXPIRE_NONE
 #	Default SQLINE expiry time: No expiration
-	SQLINE 解除時間の初期値   : 未設定
+	SQLINE 失効時間の初期値   : 未設定
 OPER_STATS_SZLINE_COUNT
 #	Current number of SZLINEs: %d
 	現在の SZLINE 数         : %d
 OPER_STATS_SZLINE_EXPIRE_DAYS
 #	Default SZLINE expiry time: %d days
-	SZLINE 解除時間の初期値   : %d 日
+	SZLINE 失効時間の初期値   : %d 日
 OPER_STATS_SZLINE_EXPIRE_DAY
 #	Default SZLINE expiry time: 1 day
-	SZLINE 解除時間の初期値   : 1 日
+	SZLINE 失効時間の初期値   : 1 日
 OPER_STATS_SZLINE_EXPIRE_HOURS
 #	Default SZLINE expiry time: %d hours
-	SZLINE 解除時間の初期値   : %d 時間
+	SZLINE 失効時間の初期値   : %d 時間
 OPER_STATS_SZLINE_EXPIRE_HOUR
 #	Default SZLINE expiry time: 1 hour
-	SZLINE 解除時間の初期値   : 1 時間
+	SZLINE 失効時間の初期値   : 1 時間
 OPER_STATS_SZLINE_EXPIRE_MINS
 #	Default SZLINE expiry time: %d minutes
-	SZLINE 解除時間の初期値   : %d 分
+	SZLINE 失効時間の初期値   : %d 分
 OPER_STATS_SZLINE_EXPIRE_MIN
 #	Default SZLINE expiry time: 1 minute
-	SZLINE 解除時間の初期値   : 1 分
+	SZLINE 失効時間の初期値   : 1 分
 OPER_STATS_SZLINE_EXPIRE_NONE
 #	Default SZLINE expiry time: No expiration
-	SZLINE 解除時間の初期値   : 未設定
+	SZLINE 失効時間の初期値   : 未設定
 OPER_STATS_RESET
 #	Statistics reset.
 	設定がリセットされました。
@@ -3341,7 +3341,7 @@ OPER_AKILL_ADDED
 	%s が AKILL リストに登録されました。
 OPER_AKILL_CHANGED
 #	Expiry time of %s changed.
-	%s の AKILL 解除時間が変更されました。
+	%s の AKILL 失効時間が変更されました。
 OPER_AKILL_NOT_FOUND
 #	%s not found on the AKILL list.
 	%s は AKILL リストに登録されていません。
@@ -3399,7 +3399,7 @@ OPER_SGLINE_ADDED
 	%s が SGLINE リストに登録されました。
 OPER_SGLINE_CHANGED
 #	Expiry time of %s changed.
-	%s の SGLINE 解除時間が変更されました。
+	%s の SGLINE 失効時間が変更されました。
 OPER_SGLINE_NOT_FOUND
 #	%s not found on the SGLINE list.
 	%s は SGLINE リストに登録されていません。
@@ -3456,7 +3456,7 @@ OPER_SQLINE_ADDED
 	%s が SQLINE リストに登録されました。
 OPER_SQLINE_CHANGED
 #	Expiry time of %s changed.
-	%s の SQLINE 解除時間が変更されました。
+	%s の SQLINE 失効時間が変更されました。
 OPER_SQLINE_NOT_FOUND
 #	%s not found on the SQLINE list.
 	%s は SQLINE リストに登録されていません。
@@ -3516,7 +3516,7 @@ OPER_SZLINE_ADDED
 	%s が SZLINE リストに登録されました。
 OPER_SZLINE_CHANGED
 #	Expiry time of %s changed.
-	%s の SZLINE 解除時間が変更されました。
+	%s の SZLINE 失効時間が変更されました。
 OPER_SZLINE_NOT_FOUND
 #	%s not found on the SZLINE list.
 	%s は SZLINE リストに登録されていません。
@@ -3944,10 +3944,10 @@ OPER_SESSION_VIEW_FORMAT
 
 OPER_HELP_EXCEPTION
 	Syntax: EXCEPTION ADD [+expiry] mask limit reason
-	        EXCEPTION DEL {mask | list}
-	        EXCEPTION MOVE num position
-	        EXCEPTION LIST [mask | list]
-	        EXCEPTION VIEW [mask | list]
+		EXCEPTION DEL {mask | list}
+		EXCEPTION MOVE num position
+		EXCEPTION LIST [mask | list]
+		EXCEPTION VIEW [mask | list]
 	
 #	Allows Services admins to manipulate the list of hosts that
 #	have specific session limits - allowing certain machines, 
@@ -4000,7 +4000,7 @@ OPER_HELP_EXCEPTION
 	表示します。mask 引数を指定した場合は、これにマッチする除外エントリー
 	のみを表示します。2 つの違いは、EXCEPTION VIEW の方が詳細
 	(除外エントリーを設定した人の名前、セッション数の上限値、その理由、
-	ホストマスク、解除日時を表示します。) という点です。
+	ホストマスク、失効日時を表示します。) という点です。
 	
 #	Note that a connecting client will "use" the first exception
 #	their host matches. Large exception lists and widely matching
@@ -4012,7 +4012,7 @@ OPER_HELP_EXCEPTION
 
 OPER_HELP_SESSION
 	Syntax: SESSION LIST threshold
-	        SESSION VIEW host
+		SESSION VIEW host
 	
 #	Allows Services admins to view the session list.
 	サービス管理者はセッションリストを見ることができます。
@@ -4214,8 +4214,8 @@ NEWS_RANDOM_DELETED_ALL
 
 NEWS_HELP_LOGON
 	Syntax: LOGONNEWS ADD text
-	        LOGONNEWS DEL {num | ALL}
-	        LOGONNEWS LIST
+		LOGONNEWS DEL {num | ALL}
+		LOGONNEWS LIST
 	
 #	Edits or displays the list of logon news messages.  When a
 #	user connects to the network, these messages will be sent
@@ -4235,8 +4235,8 @@ NEWS_HELP_LOGON
 
 NEWS_HELP_OPER
 	Syntax: OPERNEWS ADD text
-	        OPERNEWS DEL {num | ALL}
-	        OPERNEWS LIST
+		OPERNEWS DEL {num | ALL}
+		OPERNEWS LIST
 	
 #	Edits or displays the list of oper news messages.  When a
 #	user opers up (with the /OPER command), these messages will
@@ -4256,8 +4256,8 @@ NEWS_HELP_OPER
 
 NEWS_HELP_RANDOM
 	Syntax: RANDOMNEWS ADD text
-	        RANDOMNEWS DEL {num | ALL}
-	        RANDOMNEWS LIST
+		RANDOMNEWS DEL {num | ALL}
+		RANDOMNEWS LIST
 	
 #	Edits or displays the list of random news messages.  When a
 #	user connects to the network, one (and only one) of the
@@ -4518,8 +4518,8 @@ NICK_HELP_DROP
 
 NICK_HELP_ACCESS
 	Syntax: ACCESS ADD mask
-	        ACCESS DEL mask
-	        ACCESS LIST
+		ACCESS DEL mask
+		ACCESS LIST
 	
 	Modifies or displays the access list for your nick.  This
 	is the list of addresses which will be automatically
@@ -4531,14 +4531,14 @@ NICK_HELP_ACCESS
 	Examples:
 	
 	    ACCESS ADD anyone@*.bepeg.com
-	        Allows access to user anyone from any machine in
-	        the bepeg.com domain.
+		Allows access to user anyone from any machine in
+		the bepeg.com domain.
 	
 	    ACCESS DEL anyone@*.bepeg.com
-	        Reverses the previous command.
+		Reverses the previous command.
 	
 	    ACCESS LIST
-	        Displays the current access list.
+		Displays the current access list.
 
 NICK_HELP_SET
 	Syntax: SET option parameters
@@ -4548,7 +4548,7 @@ NICK_HELP_SET
 	    DISPLAY    Set the display of your group in Services
 	    PASSWORD   Set your nickname password
 	    LANGUAGE   Set the language Services will use when
-	                   sending messages to you
+			   sending messages to you
 	    URL        Associate a URL with your nickname
 	    EMAIL      Associate an E-mail address with your nickname
 	    ICQ        Associate an ICQ number with your nickname
@@ -4556,7 +4556,7 @@ NICK_HELP_SET
 	    KILL       Turn protection on or off
 	    SECURE     Turn nickname security on or off
 	    PRIVATE    Prevent your nickname from appearing in a
-	                   %R%S LIST
+			   %R%S LIST
 	    HIDE       Hide certain pieces of nickname information
 	    MSG        Change the communication method of Services
 	    AUTOOP     Should services op you automatically.    
@@ -4692,13 +4692,13 @@ NICK_HELP_SASET
 	    KILL       Turn protection on or off
 	    SECURE     Turn nickname security on or off
 	    PRIVATE    Prevent the nickname from appearing in a
-	                   %R%S LIST
+			   %R%S LIST
 	    HIDE       Hide certain pieces of nickname information
 	    MSG        Change the communication method of Services
 	    NOEXPIRE   Prevent the nickname from expiring
 	    AUTOOP     Turn autoop on or off
 	    LANGUAGE   Set the language Services will use when
-	               sending messages to nickname
+		       sending messages to nickname
 	
 	Type %R%S HELP SASET option for more information
 	on a specific option. The options will be set on the given
@@ -4891,15 +4891,15 @@ NICK_HELP_LIST
 	Examples:
 	
 	    LIST *!joeuser@foo.com
-	        Lists all nicks owned by joeuser@foo.com.
+		Lists all nicks owned by joeuser@foo.com.
 	
 	    LIST *Bot*!*@*
-	        Lists all registered nicks with Bot in their
-	        names (case insensitive).
+		Lists all registered nicks with Bot in their
+		names (case insensitive).
 	
 	    LIST *!*@*.bar.org
-	        Lists all nicks owned by users in the bar.org
-	        domain.
+		Lists all nicks owned by users in the bar.org
+		domain.
 
 NICK_HELP_ALIST
 	Syntax: ALIST [level]
@@ -4910,16 +4910,16 @@ NICK_HELP_ALIST
 
 	Examples:
 	    ALIST Founder
-	        Lists all channels where you have Founder
-	        access.
+		Lists all channels where you have Founder
+		access.
 
 	    ALIST AOP
-	        Lists all channels where you have AOP
-	        access or greater.
+		Lists all channels where you have AOP
+		access or greater.
 
 	    ALIST 10
-	        Lists all channels where you have level 10
-	        access or greater.
+		Lists all channels where you have level 10
+		access or greater.
 
 	Channels that have the NOEXPIRE option set will be
 	prefixed by an exclamation mark.
@@ -5028,15 +5028,15 @@ NICK_SERVADMIN_HELP_LIST
 	Examples:
 	
 	    LIST *!joeuser@foo.com
-	        Lists all registered nicks owned by joeuser@foo.com.
+		Lists all registered nicks owned by joeuser@foo.com.
 	
 	    LIST *Bot*!*@*
-	        Lists all registered nicks with Bot in their
-	        names (case insensitive).
+		Lists all registered nicks with Bot in their
+		names (case insensitive).
 	
 	    LIST * NOEXPIRE
-	        Lists all registered nicks which have been set to
-	        not expire.
+		Lists all registered nicks which have been set to
+		not expire.
 
 NICK_SERVADMIN_HELP_ALIST
 	Syntax: ALIST [nickname] [level]
@@ -5106,12 +5106,12 @@ CHAN_HELP_CMD_FORBID
 	    FORBID     Prevent a channel from being used
 CHAN_HELP_CMD_SUSPEND
 	    SUSPEND    Prevent a channel from being used preserving
-	               channel data and settings
+		       channel data and settings
 CHAN_HELP_CMD_UNSUSPEND
 	    UNSUSPEND  Releases a suspended channel
 CHAN_HELP_CMD_STATUS
 	    STATUS     Returns the current access level of a user
-	               on a channel
+		       on a channel
 CHAN_HELP_CMD_REGISTER
 	    REGISTER   Register a channel
 CHAN_HELP_CMD_IDENTIFY
@@ -5259,7 +5259,7 @@ CHAN_HELP_SET
 	    URL           Associate a URL with the channel
 	    EMAIL         Associate an E-mail address with the channel
 	    ENTRYMSG      Set a message to be sent to users when they
-	                     enter the channel
+			     enter the channel
 	    BANTYPE       Set how Services make bans on the channel
 	    MLOCK         Lock channel modes on or off
 	    KEEPTOPIC     Retain topic when channel is not in use
@@ -5382,17 +5382,17 @@ CHAN_HELP_SET_MLOCK
 	Examples:
 	
 	    SET #channel MLOCK +nt-iklps
-	        Forces modes n and t on, and modes i, k, l, p, and
-	        s off.  Mode m is left free to be either on or off.
+		Forces modes n and t on, and modes i, k, l, p, and
+		s off.  Mode m is left free to be either on or off.
 	
 	    SET #channel MLOCK +knst-ilmp my-key
-	        Forces modes k, n, s, and t on, and modes i, l, m,
-	        and p off.  Also forces the channel key to be
-	        "my-key".
+		Forces modes k, n, s, and t on, and modes i, l, m,
+		and p off.  Also forces the channel key to be
+		"my-key".
 	
 	    SET #channel MLOCK +
-	        Removes the mode lock; all channel modes are free
-	        to be either on or off.
+		Removes the mode lock; all channel modes are free
+		to be either on or off.
 
 CHAN_HELP_SET_PEACE
 	Syntax: SET channel PEACE {ON | OFF}
@@ -5484,9 +5484,9 @@ CHAN_HELP_SET_OPNOTICE
 
 CHAN_HELP_AOP
 	Syntax: AOP channel ADD nick
-	        AOP channel DEL {nick | entry-num | list}
-	        AOP channel LIST [mask | list]
-	        AOP channel CLEAR
+		AOP channel DEL {nick | entry-num | list}
+		AOP channel LIST [mask | list]
+		AOP channel CLEAR
 	
 	Maintains the AOP (AutoOP) list for a channel. The AOP 
 	list gives users the right to be auto-opped on your channel,
@@ -5525,9 +5525,9 @@ CHAN_HELP_AOP
 
 CHAN_HELP_HOP
 	Syntax: HOP channel ADD nick
-	        HOP channel DEL {nick | entry-num | list}
-	        HOP channel LIST [mask | list]
-	        HOP channel CLEAR
+		HOP channel DEL {nick | entry-num | list}
+		HOP channel LIST [mask | list]
+		HOP channel CLEAR
 	
 	Maintains the HOP (HalfOP) list for a channel. The HOP 
 	list gives users the right to be auto-halfopped on your 
@@ -5564,9 +5564,9 @@ CHAN_HELP_HOP
 
 CHAN_HELP_SOP
 	Syntax: SOP channel ADD nick
-	        SOP channel DEL {nick | entry-num | list}
-	        SOP channel LIST [mask | list]
-	        SOP channel CLEAR
+		SOP channel DEL {nick | entry-num | list}
+		SOP channel LIST [mask | list]
+		SOP channel CLEAR
 	
 	Maintains the SOP (SuperOP) list for a channel. The SOP 
 	list gives users all rights given by the AOP list, and adds
@@ -5604,9 +5604,9 @@ CHAN_HELP_SOP
 
 CHAN_HELP_VOP
 	Syntax: VOP channel ADD nick
-	        VOP channel DEL {nick | entry-num | list}
-	        VOP channel LIST [mask | list]
-	        VOP channel CLEAR
+		VOP channel DEL {nick | entry-num | list}
+		VOP channel LIST [mask | list]
+		VOP channel CLEAR
 	
 	Maintains the VOP (VOicePeople) list for a channel.  
 	The VOP list allows users to be auto-voiced and to voice 
@@ -5643,9 +5643,9 @@ CHAN_HELP_VOP
 
 CHAN_HELP_ACCESS
 	Syntax: ACCESS channel ADD nick level
-	        ACCESS channel DEL {nick | entry-num | list}
-	        ACCESS channel LIST [mask | list]
-	        ACCESS channel CLEAR
+		ACCESS channel DEL {nick | entry-num | list}
+		ACCESS channel LIST [mask | list]
+		ACCESS channel CLEAR
 	
 	Maintains the access list for a channel.  The access
 	list specifies which users are allowed chanop status or
@@ -5686,15 +5686,15 @@ CHAN_HELP_ACCESS_LEVELS
 	By default, the following access levels are defined:
 	
 	   Founder   Full access to %S functions; automatic
-	                     opping upon entering channel.  Note
-	                     that only one person may have founder
-	                     status (it cannot be given using the
-	                     ACCESS command).
+			     opping upon entering channel.  Note
+			     that only one person may have founder
+			     status (it cannot be given using the
+			     ACCESS command).
 	        10   Access to AKICK command; automatic opping.
 	         5   Automatic opping.
 	         3   Automatic voicing.
 	         0   No special privileges; can be opped by other
-	                     ops (unless secure-ops is set).
+			     ops (unless secure-ops is set).
 	        <0   May not be opped.
 	
 	These levels may be changed, or new ones added, using the
@@ -5703,13 +5703,13 @@ CHAN_HELP_ACCESS_LEVELS
 
 CHAN_HELP_AKICK
 	Syntax: AKICK channel ADD {nick | mask} [reason]
-	        AKICK channel STICK mask
-	        AKICK channel UNSTICK mask
-	        AKICK channel DEL {nick | mask | entry-num | list}
-	        AKICK channel LIST [mask | entry-num | list]
-	        AKICK channel VIEW [mask | entry-num | list]
-	        AKICK channel ENFORCE
-	        AKICK channel CLEAR
+		AKICK channel STICK mask
+		AKICK channel UNSTICK mask
+		AKICK channel DEL {nick | mask | entry-num | list}
+		AKICK channel LIST [mask | entry-num | list]
+		AKICK channel VIEW [mask | entry-num | list]
+		AKICK channel ENFORCE
+		AKICK channel CLEAR
 	
 	Maintains the AutoKick list for a channel.  If a user
 	on the AutoKick list attempts to join the channel,
@@ -5755,9 +5755,9 @@ CHAN_HELP_AKICK
 
 CHAN_HELP_LEVELS
 	Syntax: LEVELS channel SET type level
-	        LEVELS channel {DIS | DISABLE} type
-	        LEVELS channel LIST
-	        LEVELS channel RESET
+		LEVELS channel {DIS | DISABLE} type
+		LEVELS channel LIST
+		LEVELS channel RESET
 	
 	The LEVELS command allows fine control over the meaning of
 	the numeric access levels used for channels.  With this
@@ -5974,16 +5974,16 @@ CHAN_HELP_CLEAR
 	can be any of the following:
 	
 	     MODES    Resets all modes on the channel (i.e. clears
-	                  modes i,k,l,m,n,p,s,t).
+			  modes i,k,l,m,n,p,s,t).
 	     BANS     Clears all bans on the channel.
 	     EXCEPTS  Clears all excepts on the channel.
 	     INVITES  Clears all invites on the channel.
 	     OPS      Removes channel-operator status (mode +o) from
-	                  all channel operators.
+			  all channel operators.
 	     HOPS     Removes channel-halfoperator status (mode +h) from
-	                  all channel halfoperators, if supported.
+			  all channel halfoperators, if supported.
 	     VOICES   Removes "voice" status (mode +v) from anyone
-	                  with that mode set.
+			  with that mode set.
 	     USERS    Removes (kicks) all users from the channel.
 	
 	By default, limited to those with founder access on the
@@ -6281,7 +6281,7 @@ MEMO_HELP_SET
 #	    LIMIT       Sets the maximum number of memos you can
 #	                    receive
 	    NOTIFY      新着メモを通知するタイミングを変更します。
-	                    引数ではニックネームを指定します。
+			    引数ではニックネームを指定します。
 	    LIMIT       あなたが受け取るメモの上限数を設定します。
 	
 #	Type %R%S HELP SET option for more information
@@ -6307,12 +6307,12 @@ MEMO_HELP_SET_NOTIFY
 #	    NOMAIL  You will not be notified of memos by email.
 #	    OFF     You will not receive any notification of memos.
 	    ON      ログオン時、/AWAY の解除時、メモが到着した時に
-	               新着メモを通知します。
+		       新着メモを通知します。
 	    LOGON   ログオン時と /AWAY の解除時に 新着メモを
-	               通知します。
+		       通知します。
 	    NEW     メモが到着した時に新着メモを通知します。
 	    MAIL    上の通知設定に加えて、メールでも新着メモを
-	               通知します。
+		       通知します。
 	    NOMAIL  メールでの新着メモの通知を止めます。
 	    OFF     新着メモの通知を止めます。
 	
@@ -6597,7 +6597,7 @@ OPER_HELP_STATS
 #	With the AKILL option, displays the current size of the
 #	AKILL list and the current default expiry time.
 	AKILL オプションが指定された場合は、現在の AKILL リスト
-	のサイズと AKILL 解除時間の初期値を表示します。
+	のサイズと AKILL 失効時間の初期値を表示します。
 	
 #	The RESET option currently resets the maximum user count
 #	to the number of users currently present on the network.
@@ -6627,9 +6627,9 @@ OPER_HELP_STATS
 
 OPER_HELP_OPER
 	Syntax: OPER ADD nick
-	        OPER DEL {nick | entry-num | list}
-	        OPER LIST [mask | list]
-	        OPER CLEAR
+		OPER DEL {nick | entry-num | list}
+		OPER LIST [mask | list]
+		OPER CLEAR
 	
 #	Allows the Services Root Admins to add or remove nicknames
 #	to or from the Services operator list.  A user whose nickname
@@ -6680,9 +6680,9 @@ OPER_HELP_OPER
 
 OPER_HELP_ADMIN
 	Syntax: ADMIN ADD nick
-	        ADMIN DEL {nick | entry-num | list}
-	        ADMIN LIST [mask | list]
-	        ADMIN CLEAR
+		ADMIN DEL {nick | entry-num | list}
+		ADMIN LIST [mask | list]
+		ADMIN CLEAR
 	
 #	Allows the Services root to add or remove nicknames
 #	to or from the Services admin list.  A user whose nickname
@@ -6826,10 +6826,10 @@ OPER_HELP_SVSNICK
  
 OPER_HELP_AKILL
 	Syntax: AKILL ADD [+expiry] mask reason
-	        AKILL DEL {mask | entry-num | list}
-	        AKILL LIST [mask | list]
-	        AKILL VIEW [mask | list]
-	        AKILL CLEAR
+		AKILL DEL {mask | entry-num | list}
+		AKILL LIST [mask | list]
+		AKILL VIEW [mask | list]
+		AKILL CLEAR
 	
 #	Allows Services operators to manipulate the AKILL list.  If
 #	a user matching an AKILL mask attempts to connect, Services
@@ -6855,14 +6855,14 @@ OPER_HELP_AKILL
 #	STATS AKILL command.
 	AKILL ADD コマンドは user@host か ip で指定されたマスク
 	とその理由(必須です)を AKILL リストに追加します。
-	解除時間 expiry は整数の後に単位 d (日)、h (時間)、
+	失効時間 expiry は整数の後に単位 d (日)、h (時間)、
 	m (分) の内1つを続けて指定します。ただし、1h30mのように
 	組み合わせて指定することはできません。単位を指定しなかった場合、
 	日として解釈されます(+30 という指定は30日間と解釈されます。)。
-	永久に解除されない AKILL を追加するには +0 と指定してください。
-	ユーザマスクを + から始めた場合、解除時間をを必ず指定して
+	永久に失効されない AKILL を追加するには +0 と指定してください。
+	ユーザマスクを + から始めた場合、失効時間をを必ず指定して
 	ください。指定しない場合は初期値が指定されたものと解釈されます。
-	AKILL 解除時間の初期値は STATS AKILL コマンドで指定できます。
+	AKILL 失効時間の初期値は STATS AKILL コマンドで指定できます。
 	
 #	The AKILL DEL command removes the given mask from the
 #	AKILL list if it is present.  If a list of entry numbers is 
@@ -6892,7 +6892,7 @@ OPER_HELP_AKILL
 #	it expires, as well as the user@host/ip mask and reason.
 	AKILL VIEW は AKILL LIST を詳細にしたもので、
 	AKILL の user@host か ip マスクとその理由に加えて、
-	このエントリーを追加したメンバー、追加日、解除日を表示します。
+	このエントリーを追加したメンバー、追加日、失効日を表示します。
 	
 #	AKILL CLEAR clears all entries of the AKILL list.
 	AKILL CLEAR コマンドは AKILL リストを削除します。
@@ -6900,9 +6900,9 @@ OPER_HELP_AKILL
 OPER_HELP_SGLINE
 	Syntax: SGLINE ADD [+expiry] mask:reason
 	    SGLINE DEL {mask | entry-num | list}
-	        SGLINE LIST [mask | list]
-	        SGLINE VIEW [mask | list]
-	        SGLINE CLEAR
+		SGLINE LIST [mask | list]
+		SGLINE VIEW [mask | list]
+		SGLINE CLEAR
 	
 #	Allows Services operators to manipulate the SGLINE list.  If
 #	a user with a realname matching an SGLINE mask attempts to 
@@ -6927,14 +6927,14 @@ OPER_HELP_SGLINE
 #	separator between it and the reason is a colon.
 	SGLINE ADD コマンドは実ユーザ名マスク
 	とその理由(必須です)を SGLINE リストに追加します。
-	解除時間 expiry は整数の後に単位 d (日)、h (時間)、
+	失効時間 expiry は整数の後に単位 d (日)、h (時間)、
 	m (分) の内1つを続けて指定します。ただし、1h30mのように
 	組み合わせて指定することはできません。単位を指定しなかった場合、
 	日として解釈されます(+30 という指定は30日間と解釈されます。)。
-	永久に解除されない SGLINE を追加するには +0 と指定してください。
-	実ユーザ名マスクを + から始めた場合、解除時間をを必ず指定して
+	永久に失効されない SGLINE を追加するには +0 と指定してください。
+	実ユーザ名マスクを + から始めた場合、失効時間をを必ず指定して
 	ください。指定しない場合は初期値が指定されたものと解釈されます。
-	SGLINE 解除時間の初期値は STATS AKILL コマンドで指定できます。
+	SGLINE 失効時間の初期値は STATS AKILL コマンドで指定できます。
 	注意: 実ユーザ名はスペースを含むことがあるので、マスクと
 	理由の区切りはスペースの変わりにコロンを使ってください。
 	
@@ -6966,7 +6966,7 @@ OPER_HELP_SGLINE
 #	it expires, as well as the realname mask and reason.
 	SGLINE VIEW は SGLINE LIST を詳細にしたもので、
 	SGLINE の実ユーザ名マスクとその理由に加えて、
-	このエントリーを追加したメンバー、追加日、解除日を表示します。
+	このエントリーを追加したメンバー、追加日、失効日を表示します。
 	
 #	SGLINE CLEAR clears all entries of the SGLINE list.
 	SGLINE CLEAR コマンドは SGLINE リストを削除します。
@@ -7007,14 +7007,14 @@ OPER_HELP_SQLINE
 #	STATS AKILL command.
 	SQLINE ADD コマンドはマスク
 	とその理由(必須です)を SQLINE リストに追加します。
-	解除時間 expiry は整数の後に単位 d (日)、h (時間)、
+	失効時間 expiry は整数の後に単位 d (日)、h (時間)、
 	m (分) の内1つを続けて指定します。ただし、1h30mのように
 	組み合わせて指定することはできません。単位を指定しなかった場合、
 	日として解釈されます(+30 という指定は30日間と解釈されます。)。
-	永久に解除されない SQLINE を追加するには +0 と指定してください。
-	マスクを + から始めた場合、解除時間をを必ず指定して
+	永久に失効されない SQLINE を追加するには +0 と指定してください。
+	マスクを + から始めた場合、失効時間をを必ず指定して
 	ください。指定しない場合は初期値が指定されたものと解釈されます。
-	SQLINE 解除時間の初期値は STATS AKILL コマンドで指定できます。
+	SQLINE 失効時間の初期値は STATS AKILL コマンドで指定できます。
 	
 #	The SQLINE DEL command removes the given mask from the
 #	SQLINE list if it is present.  If a list of entry numbers is 
@@ -7044,7 +7044,7 @@ OPER_HELP_SQLINE
 #	it expires, as well as the mask and reason.
 	SQLINE VIEW は SQLINE LIST を詳細にしたもので、
 	SQLINE のマスクとその理由に加えて、
-	このエントリーを追加したメンバー、追加日、解除日を表示します。
+	このエントリーを追加したメンバー、追加日、失効日を表示します。
 	
 #	SQLINE CLEAR clears all entries of the SQLINE list.
 	SQLINE CLEAR コマンドは SQLINE リストを削除します。
@@ -7079,14 +7079,14 @@ OPER_HELP_SZLINE
 #	STATS AKILL command.
 	SZLINE ADD コマンドは IP アドレスマスク
 	とその理由(必須です)を SZLINE リストに追加します。
-	解除時間 expiry は整数の後に単位 d (日)、h (時間)、
+	失効時間 expiry は整数の後に単位 d (日)、h (時間)、
 	m (分) の内1つを続けて指定します。ただし、1h30mのように
 	組み合わせて指定することはできません。単位を指定しなかった場合、
 	日として解釈されます(+30 という指定は30日間と解釈されます。)。
-	永久に解除されない SZLINE を追加するには +0 と指定してください。
-	マスクを + から始めた場合、解除時間をを必ず指定して
+	永久に失効されない SZLINE を追加するには +0 と指定してください。
+	マスクを + から始めた場合、失効時間をを必ず指定して
 	ください。指定しない場合は初期値が指定されたものと解釈されます。
-	SZLINE 解除時間の初期値は STATS AKILL コマンドで指定できます。
+	SZLINE 失効時間の初期値は STATS AKILL コマンドで指定できます。
 	
 #	The SZLINE DEL command removes the given mask from the
 #	SZLINE list if it is present.  If a list of entry numbers is 
@@ -7116,7 +7116,7 @@ OPER_HELP_SZLINE
 #	it expires, as well as the IP mask and reason.
 	SZLINE VIEW は SZLINE LIST を詳細にしたもので、
 	SZLINE の IP アドレスマスクとその理由に加えて、
-	このエントリーを追加したメンバー、追加日、解除日を表示します。
+	このエントリーを追加したメンバー、追加日、失効日を表示します。
 	
 #	SZLINE CLEAR clears all entries of the SZLINE list.
 	SZLINE CLEAR コマンドは SZLINE リストを削除します。
@@ -7124,16 +7124,26 @@ OPER_HELP_SZLINE
 OPER_HELP_SET
 	Syntax: SET option setting
 
-	Sets various global Services options.  Option names
-	currently defined are:
-	    READONLY   Set read-only or read-write mode
-	    LOGCHAN    Report log messages to a channel
-	    DEBUG      Activate or deactivate debug mode
-	    NOEXPIRE   Activate or deactivate no expire mode
-	    SUPERADMIN Activate or deactivate super-admin mode
-	    SQL        Activate or deactivate sql mode
-	    IGNORE     Activate or deactivate ignore mode
-	    LIST       List the options
+#	Sets various global Services options.  Option names
+#	currently defined are:
+#	    READONLY   Set read-only or read-write mode
+#	    LOGCHAN    Report log messages to a channel
+#	    DEBUG      Activate or deactivate debug mode
+#	    NOEXPIRE   Activate or deactivate no expire mode
+#	    SUPERADMIN Activate or deactivate super-admin mode
+#	    SQL        Activate or deactivate sql mode
+#	    IGNORE     Activate or deactivate ignore mode
+#	    LIST       List the options
+	サービスのグローバルオプションを設定します。現在
+	定義されているオプションは:
+	    READONLY   読み込み専用か読み書きモードにします。
+	    LOGCHAN    チャンネルにログメッセージを流します。
+	    DEBUG      デバッグモードの有効無効を切り替えます。
+	    NOEXPIRE   非失効モードの有効無効を切り替えます。
+	    SUPERADMIN スーパー管理者モードの有効無効を切り替えます。
+	    SQL        sql モードの有効無効を切り替えます。
+	    IGNORE     無視モードの有効無効を切り替えます。
+	    LIST       オプションを表示します。
 
 OPER_HELP_SET_READONLY
 	Syntax: SET READONLY {ON | OFF}
