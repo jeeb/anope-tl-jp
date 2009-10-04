@@ -7182,7 +7182,7 @@ OPER_HELP_SET_LOGCHAN
 	しなければいけません。
 	
 #	This option is equivalent to the command-line option -logchan.
-	このオプションはコマンドラインオプション  -logchan を
+	このオプションはコマンドラインオプション -logchan を
 	指定することと等価です。
 	
 #	Note: This can have strong security implications if your log
@@ -7194,33 +7194,50 @@ OPER_HELP_SET_LOGCHAN
 OPER_HELP_SET_DEBUG
 	Syntax: SET DEBUG {ON | OFF | num}
 	
-	Sets debug mode on or off.  In debug mode, all data sent to
-	and from Services as well as a number of other debugging
-	messages are written to the log file.  If num is
-	given, debug mode is activated, with the debugging level set
-	to num.
+#	Sets debug mode on or off.  In debug mode, all data sent to
+#	and from Services as well as a number of other debugging
+#	messages are written to the log file.  If num is
+#	given, debug mode is activated, with the debugging level set
+#	to num.
+	デバッグモードの有効無効を切り替えます。デバッグモードでは
+	サービスが送受信する全てのデータに加えて多くのデバッグメッセージ
+	がログファイルに記録されます。num を指定した場合は、
+	デバックモードが有効になり、デバッグレベルが num に
+	設定されます。
 
-	This option is equivalent to the command-line option
-	-debug.
+#	This option is equivalent to the command-line option
+#	-debug.
+	このオプションはコマンドラインオプション -debug を
+	指定することと等価です。
 
 OPER_HELP_SET_NOEXPIRE
 	Syntax: SET NOEXPIRE {ON | OFF}
 
-	Sets no expire mode on or off.  In no expire mode, nicks,
-	channels, akills and exceptions won't expire until the
-	option is unset.
+#	Sets no expire mode on or off.  In no expire mode, nicks,
+#	channels, akills and exceptions won't expire until the
+#	option is unset.
+	非失効モードの有効無効を切り替えます。非失効モードでは、
+	ニックネーム、チャンネル、akill、例外が失効を迎えることは
+	ありません。これは非失効モードが無効になるまで続きます。
 
-	This option is equivalent to the command-line option
-	-noexpire.
+#	This option is equivalent to the command-line option
+#	-noexpire.
+	このオプションはコマンドラインオプション -noexpire を
+	指定することと等価です。
 
 OPER_HELP_SET_SUPERADMIN
 	Syntax: SET SUPERADMIN {ON | OFF}
 
-	Setting this will grant you extra privileges such as the
-	ability to be "founder" on all channel's etc...
+#	Setting this will grant you extra privileges such as the
+#	ability to be "founder" on all channel's etc...
+	スーパー管理者モードの有効無効を切り替えます。スーパー管理者
+	モードでは、全てのチャンネルの"founder"になったりできます。
 
-	This option is not persistent, and should only be used when
-	needed, and set back to OFF when no longer needed.
+#	This option is not persistent, and should only be used when
+#	needed, and set back to OFF when no longer needed.
+	このオプションは通常は無効化すべきもので、必要に迫られた
+	場合にのみ有効化されるべきです。また、不要になったら無効にする
+	べきです。
 
 OPER_HELP_SET_SQL
 	Syntax: SET SQL {ON | OFF}
@@ -7228,17 +7245,21 @@ OPER_HELP_SET_SQL
 	Setting this will toggle Anope's usage of SQL, this should
 	be used to disable and enable SQL should your SQL server go down
 	while services are running.
+	Anope が SQL を使用するか否かを切り替えます。この設定は
+	サービスの運用中に SQL サーバを終了させる場合に使用します。
 
 OPER_HELP_SET_IGNORE
 	Syntax: SET IGNORE {ON | OFF}
 
 	Setting this will toggle Anope's usage of the IGNORE system 
 	on or off.
+	無視モードのの有効無効を切り替えます。
 
 OPER_HELP_SET_LIST
 	Syntax: SET LIST
 
 	Display the various %S settings
+	%S の設定を表示します。
 
 OPER_HELP_NOOP
 	Syntax: NOOP SET server
