@@ -7056,42 +7056,70 @@ OPER_HELP_SZLINE
 	        SZLINE VIEW [mask | list]
 	        SZLINE CLEAR
 	
-	Allows Services operators to manipulate the SZLINE list.  If
-	a user with an IP matching an SZLINE mask attempts to 
-	connect, Services will not allow it to pursue his IRC
-	session (and this, whether the IP has a PTR RR or not).
+#	Allows Services operators to manipulate the SZLINE list.  If
+#	a user with an IP matching an SZLINE mask attempts to 
+#	connect, Services will not allow it to pursue his IRC
+#	session (and this, whether the IP has a PTR RR or not).
+	サービスオペレータが SZLINE リストを編集することを許可します。
+	SZLINE マスクに該当する IP アドレスを持つユーザが接続してきた
+	場合、サービスはこのユーザの IRC セッションを破棄します。
+	(破棄は IP アドレスがドメインネームポインタのリソースレコード
+	を持っているか否かにかかわらず行われます。)
 	
-	SZLINE ADD adds the given IP mask to the SZLINE
-	list for the given reason (which must be given).
-	expiry is specified as an integer followed by one of d 
-	(days), h (hours), or m (minutes).  Combinations (such as 
-	1h30m) are not permitted.  If a unit specifier is not 
-	included, the default is days (so +30 by itself means 30 
-	days).  To add an SZLINE which does not expire, use +0.  If the
-	realname mask to be added starts with a +, an expiry time must
-	be given, even if it is the same as the default.  The
-	current SZLINE default expiry time can be found with the
-	STATS AKILL command.
+#	SZLINE ADD adds the given IP mask to the SZLINE
+#	list for the given reason (which must be given).
+#	expiry is specified as an integer followed by one of d 
+#	(days), h (hours), or m (minutes).  Combinations (such as 
+#	1h30m) are not permitted.  If a unit specifier is not 
+#	included, the default is days (so +30 by itself means 30 
+#	days).  To add an SZLINE which does not expire, use +0.  If the
+#	realname mask to be added starts with a +, an expiry time must
+#	be given, even if it is the same as the default.  The
+#	current SZLINE default expiry time can be found with the
+#	STATS AKILL command.
+	SZLINE ADD コマンドは IP アドレスマスク
+	とその理由(必須です)を SZLINE リストに追加します。
+	解除時間 expiry は整数の後に単位 d (日)、h (時間)、
+	m (分) の内1つを続けて指定します。ただし、1h30mのように
+	組み合わせて指定することはできません。単位を指定しなかった場合、
+	日として解釈されます(+30 という指定は30日間と解釈されます。)。
+	永久に解除されない SZLINE を追加するには +0 と指定してください。
+	マスクを + から始めた場合、解除時間をを必ず指定して
+	ください。指定しない場合は初期値が指定されたものと解釈されます。
+	SZLINE 解除時間の初期値は STATS AKILL コマンドで指定できます。
 	
-	The SZLINE DEL command removes the given mask from the
-	SZLINE list if it is present.  If a list of entry numbers is 
-	given, those entries are deleted.  (See the example for LIST 
-	below.)
+#	The SZLINE DEL command removes the given mask from the
+#	SZLINE list if it is present.  If a list of entry numbers is 
+#	given, those entries are deleted.  (See the example for LIST 
+#	below.)
+	SZLINE DEL コマンドは指定されたマスクを SZLINE リストから
+	削除します。エントリー番号が指定された場合は、番号に該当する
+	エントリーを削除します。(LIST コマンドの例を参照してください)
 	
-	The SZLINE LIST command displays the SZLINE list.  
-	If a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The SZLINE LIST command displays the SZLINE list.  
+#	If a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	SZLINE LIST コマンドは SZLINE リストを表示します。
+	ワイルドカードを指定した場合、このワイルドカードに該当
+	するエントリーのみが表示されます。エントリー番号を
+	指定した場合、番号に該当するエントリーのみが表示されます。
+	例えば、以下の様です。
 
 	   SZLINE LIST 2-5,7-9
-	      Lists SZLINE entries numbered 2 through 5 and 7 
-	      through 9.
+#	      Lists SZLINE entries numbered 2 through 5 and 7 
+#	      through 9.
+	      2から5番と7から9番の SZLINE エントリーを表示します。
 	      
-	SZLINE VIEW is a more verbose version of SZLINE LIST, and 
-	will show who added an SZLINE, the date it was added, and when
-	it expires, as well as the IP mask and reason.
+#	SZLINE VIEW is a more verbose version of SZLINE LIST, and 
+#	will show who added an SZLINE, the date it was added, and when
+#	it expires, as well as the IP mask and reason.
+	SZLINE VIEW は SZLINE LIST を詳細にしたもので、
+	SZLINE の IP アドレスマスクとその理由に加えて、
+	このエントリーを追加したメンバー、追加日、解除日を表示します。
 	
-	SZLINE CLEAR clears all entries of the SZLINE list.
+#	SZLINE CLEAR clears all entries of the SZLINE list.
+	SZLINE CLEAR コマンドは SZLINE リストを削除します。
 
 OPER_HELP_SET
 	Syntax: SET option setting
