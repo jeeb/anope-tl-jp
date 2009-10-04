@@ -7172,15 +7172,24 @@ OPER_HELP_SET_READONLY
 OPER_HELP_SET_LOGCHAN
 	Syntax: SET LOGCHAN {ON | OFF}
 
-	With this setting on, Services will send its logs to a specified
-	channel as well as the log file. LogChannel must also be defined
-	in the Services configuration file for this setting to be of any
-	use.
+#	With this setting on, Services will send its logs to a specified
+#	channel as well as the log file. LogChannel must also be defined
+#	in the Services configuration file for this setting to be of any
+#	use.
+	この設定を有効にすると、サービスはサービスログをログファイルに
+	保存するのと同時に、これを特定のチャンネルに出力します。
+	その場合は、変数 LogChannel をサービス設定ファイル内で定義
+	しなければいけません。
 	
-	This option is equivalent to the command-line option -logchan.
+#	This option is equivalent to the command-line option -logchan.
+	このオプションはコマンドラインオプション  -logchan を
+	指定することと等価です。
 	
-	Note: This can have strong security implications if your log
-	channel is not properly secured.
+#	Note: This can have strong security implications if your log
+#	channel is not properly secured.
+	注意: このオプションは強固なセキュリティの観点からすれば
+	好ましくありません。有効にする場合に、ログ出力チャンネルを
+	公開チャンネルにすることはお勧めできません。
 
 OPER_HELP_SET_DEBUG
 	Syntax: SET DEBUG {ON | OFF | num}
