@@ -1276,7 +1276,7 @@ CHAN_LEVEL_AUTOPROTECT
 	自動的にニックネーム保護モードを得る[AUTOPROTECT](+a)
 CHAN_LEVEL_AUTODEOP
 #	Channel operator status disallowed
-	チャンネルオペレータ状態を禁止される[AUTODEOP]
+	チャンネルオペレーター状態を禁止される[AUTODEOP]
 CHAN_LEVEL_NOJOIN
 #	Not allowed to join channel
 	チャンネルへの参加を禁止される[NOJOIN]
@@ -2138,7 +2138,7 @@ MEMO_SENT
 	%s 宛てにメモを送信しました。
 MEMO_MASS_SENT
 #	A massmemo has been sent to all registered users.
-	登録済みのユーザ全員宛にメモの大量送信が行われました。
+	登録済みのユーザー全員宛にメモの大量送信が行われました。
 	
 # STAFF responses
 MEMO_STAFF_SYNTAX
@@ -2514,7 +2514,7 @@ BOT_BOT_SYNTAX
 	BOT DEL nick
 BOT_BOT_ALREADY_EXISTS
 #	Bot %s already exists.
-	ボット %s は既にこのサーバにいます。
+	ボット %s は既にこのサーバーにいます。
 BOT_BOT_CREATION_FAILED
 #	Sorry, bot creation failed.
 	ご迷惑をかけて申し訳ございません。ボット召喚に失敗しました。
@@ -2540,7 +2540,7 @@ BOT_BOTLIST_HEADER
 	ボットリスト:
 BOT_BOTLIST_PRIVATE_HEADER
 #	Bots reserved to IRC operators:
-	オペレータに管理されているボット:
+	オペレーターに管理されているボット:
 BOT_BOTLIST_FOOTER
 #	%d bots available.
 	%d 個のボットが活動中です。
@@ -2548,7 +2548,7 @@ BOT_BOTLIST_EMPTY
 #	There are no bots available at this time.
 #	Ask a Services admin to create one!
 	現在活動中のボットはいません。
-	サーバオペレータに1つボットを作るように要請してください!
+	サーバーオペレーターに1つボットを作るように要請してください!
 	
 # ASSIGN responses
 BOT_ASSIGN_SYNTAX
@@ -2673,10 +2673,10 @@ BOT_INFO_CHAN_OPTIONS
 	            オプション : %s
 BOT_INFO_OPT_DONTKICKOPS
 #	Ops protection
-	オペレータ保護
+	オペレーター保護
 BOT_INFO_OPT_DONTKICKVOICES
 #	Voices protection
-	Voicesユーザ保護
+	Voicesユーザー保護
 BOT_INFO_OPT_FANTASY
 #	Fantasy
 	ファンタジー
@@ -2709,20 +2709,20 @@ BOT_SET_DONTKICKOPS_SYNTAX
 	SET channel DONTKICKOPS {ON|OFF}
 BOT_SET_DONTKICKOPS_ON
 	Bot won't kick ops on channel %s.
-	ボットはチャンネル %s から オペレータをキックしません。
+	ボットはチャンネル %s から オペレーターをキックしません。
 BOT_SET_DONTKICKOPS_OFF
 	Bot will kick ops on channel %s.
-	ボットはチャンネル %s から オペレータをキックします。
+	ボットはチャンネル %s から オペレーターをキックします。
 	
 # SET DONTKICKVOICES messages
 BOT_SET_DONTKICKVOICES_SYNTAX
 	SET channel DONTKICKVOICES {ON|OFF}
 BOT_SET_DONTKICKVOICES_ON
 #	Bot won't kick voices on channel %s.
-	ボットはチャンネル %s から voiceユーザをキックしません。
+	ボットはチャンネル %s から voiceユーザーをキックしません。
 BOT_SET_DONTKICKVOICES_OFF
 #	Bot will kick voices on channel %s.
-	ボットはチャンネル %s から voiceユーザをキックします。
+	ボットはチャンネル %s から voiceユーザーをキックします。
 
 # SET FANTASY messages
 BOT_SET_FANTASY_SYNTAX
@@ -2798,7 +2798,7 @@ BOT_KICK_BADWORDS_ON_BAN
 #	%d kicks for the same user. Use the BADWORDS command
 #	to add or remove a bad word.
 	ボットは 禁止ワード に反応してキックを行い、
-	同一ユーザのキックが %d 回になったところでバンします。
+	同一ユーザーのキックが %d 回になったところでバンします。
 	BADWORD コマンドで禁止ワードの追加と削除が行えます。
 BOT_KICK_BADWORDS_OFF
 #	Bot won't kick bad words anymore.
@@ -2810,7 +2810,7 @@ BOT_KICK_BOLDS_ON_BAN
 #	Bot will now kick bolds, and will place a ban after 
 #	%d kicks for the same user.
 	ボットは 太文字 発言に対してキックを行い、
-	同一ユーザのキックが %d 回になったところでバンします。
+	同一ユーザーのキックが %d 回になったところでバンします。
 BOT_KICK_BOLDS_OFF
 #	Bot won't kick bolds anymore.
 	ボットは 太文字 発言に対してキックを行いません。
@@ -2825,7 +2825,7 @@ BOT_KICK_CAPS_ON_BAN
 #	place a ban after %d kicks for the same user.
 	ボットは 大文字 発言に対してキックを行い、
 	(大文字が少なくとも %d 文字以上で発言全体の文字数に対する割合が %d%% 以上)
-	同一ユーザのキックが %d 回になったところでバンします。
+	同一ユーザーのキックが %d 回になったところでバンします。
 BOT_KICK_CAPS_OFF
 #	Bot won't kick caps anymore.
 	ボットは 大文字 発言に対してキックを行いません。
@@ -2836,7 +2836,7 @@ BOT_KICK_COLORS_ON_BAN
 #	Bot will now kick colors, and will place a ban after %d 
 #	kicks for the same user.
 	ボットは 色文字 発言に対してキックを行い、
-	同一ユーザのキックが %d 回になったところでバンします。
+	同一ユーザーのキックが %d 回になったところでバンします。
 BOT_KICK_COLORS_OFF
 #	Bot won't kick colors anymore.
 	ボットは 色文字 発言に対してキックを行いません。
@@ -2847,7 +2847,7 @@ BOT_KICK_FLOOD_ON_BAN
 #	Bot will now kick flood (%d lines in %d seconds), and 
 #	will place a ban after %d kicks for the same user.
 	ボットは flood 攻撃 に対してキックを行い、(%d 回の発言を %d 秒以内に繰り返したら)
-	同一ユーザのキックが %d 回になったところでバンします。
+	同一ユーザーのキックが %d 回になったところでバンします。
 BOT_KICK_FLOOD_OFF
 #	Bot won't kick flood anymore.
 	ボットは flood 攻撃 に対してキックを行いません。
@@ -2861,7 +2861,7 @@ BOT_KICK_REPEAT_ON_BAN
 #	the same thing), and will place a ban after %d 
 #	kicks for the same user.
 	ボットは 同一内容の発言 に対してキックを行い、(%d 回
-	繰り返して同じ内容を発言した場合) 同一ユーザのキックが %d 回
+	繰り返して同じ内容を発言した場合) 同一ユーザーのキックが %d 回
 	になったところでバンします。
 BOT_KICK_REPEAT_OFF
 #	Bot won't kick repeats anymore.
@@ -2872,7 +2872,7 @@ BOT_KICK_REVERSES_ON
 BOT_KICK_REVERSES_ON_BAN
 #	Bot will now kick reverses, and will place a ban after %d 
 #	kicks for the same user.
-	ボットは 反転文字発言 に対してキックを行い、同一ユーザのキックが %d 回
+	ボットは 反転文字発言 に対してキックを行い、同一ユーザーのキックが %d 回
 	になったところでバンします。
 BOT_KICK_REVERSES_OFF
 #	Bot won't kick reverses anymore.
@@ -2883,7 +2883,7 @@ BOT_KICK_UNDERLINES_ON
 BOT_KICK_UNDERLINES_ON_BAN
 #	Bot will now kick underlines, and will place a ban after %d 
 #	kicks for the same user.
-	ボットは 下線発言 に対してキックを行い、同一ユーザのキックが %d 回
+	ボットは 下線発言 に対してキックを行い、同一ユーザーのキックが %d 回
 	になったところでバンします。
 BOT_KICK_UNDERLINES_OFF
 #	Bot won't kick underlines anymore.
@@ -2972,10 +2972,10 @@ BOT_LONG_HOST
 # General messages
 OPER_BOUNCY_MODES
 #	Services is unable to change modes.  Are your servers configured correctly?
-	モードを変えることができません。サーバの設定を見直してください。
+	モードを変えることができません。サーバーの設定を見直してください。
 OPER_BOUNCY_MODES_U_LINE
 #	Services is unable to change modes.  Are your servers' U:lines configured correctly?
-	モードを変えることができません。サーバの設定項目のU:linesの項目を見直してください。
+	モードを変えることができません。サーバーの設定項目のU:linesの項目を見直してください。
 
 # GLOBAL responses
 OPER_GLOBAL_SYNTAX
@@ -2987,10 +2987,10 @@ OPER_STATS_UNKNOWN_OPTION
 	STATS オプションに %s が見つかりません。
 OPER_STATS_CURRENT_USERS
 #	Current users: %d (%d ops)
-	現在のユーザ数: %d (オペレータ数 %d)
+	現在のユーザー数: %d (オペレーター数 %d)
 OPER_STATS_MAX_USERS
 #	Maximum users: %d (%s)
-	ユーザ数の上限: %d (%s)
+	ユーザー数の上限: %d (%s)
 # This is ugly, but at least it's language-portable...
 # Note that you can include seconds in any of these--my personal preference
 # is to only give resolution to the nearest minute when uptime is one hour
@@ -3049,7 +3049,7 @@ OPER_STATS_BYTES_WRITTEN
 	書き込みバイト: %5d kB
 OPER_STATS_USER_MEM
 #	User          : %6d records, %5d kB
-	ユーザ数      : %6d レコード, %5d kB
+	ユーザー数      : %6d レコード, %5d kB
 OPER_STATS_CHANNEL_MEM
 #	Channel       : %6d records, %5d kB
 	チャンネル数  : %6d レコード, %5d kB
@@ -3175,12 +3175,12 @@ OPER_STATS_RESET
 	設定がリセットされました。
 OPER_STATS_UPLINK_SERVER
 #	Uplink server: %s
-	アップリンクサーバ: %s
+	アップリンクサーバー: %s
 OPER_STATS_UPLINK_CAPAB
 	Uplink capab: %s
 OPER_STATS_UPLINK_SERVER_COUNT
 #	Servers found: %d
-	アップリンクサーバ数: %d
+	アップリンクサーバー数: %d
 
 # MODE responses
 OPER_MODE_SYNTAX
@@ -3191,20 +3191,20 @@ OPER_UMODE_SYNTAX
 	UMODE nick modes
 OPER_UMODE_SUCCESS
 #	Changed usermodes of %s.
-	%s のユーザモードを変更しました。
+	%s のユーザーモードを変更しました。
 OPER_UMODE_CHANGED
 #	%s changed your usermodes.
-	%s があなたのユーザモードを変更しました。
+	%s があなたのユーザーモードを変更しました。
 
 # OLINE responses
 OPER_OLINE_SYNTAX
 	OLINE nick flags
 OPER_OLINE_SUCCESS
 #	Operflags %s have been added for %s.
-	オペレータフラグ %s が %s に設定されました。
+	オペレーターフラグ %s が %s に設定されました。
 OPER_OLINE_IRCOP
 #	You are now an IRC Operator.
-	あなたは現在 IRC オペレータです。
+	あなたは現在 IRC オペレーターです。
 
 # CLEARMODES responses
 OPER_CLEARMODES_SYNTAX
@@ -3282,44 +3282,44 @@ OPER_OPER_SKELETON
 	サービスはスケルトンモードになっています。OPER コマンドは使えません。
 OPER_OPER_EXISTS
 #	%s already exists on Services operator list.
-	%s は既にサービスオペレータリストに登録されています。
+	%s は既にサービスオペレーターリストに登録されています。
 OPER_OPER_REACHED_LIMIT
 #	Sorry, you can only have %d Services operators.
-	ご迷惑をかけて申し訳ありません。あなたは %d 個以上のサービスオペレータにはなれません。
+	ご迷惑をかけて申し訳ありません。あなたは %d 個以上のサービスオペレーターにはなれません。
 OPER_OPER_ADDED
 #	%s added to Services operator list.
-	%s がサービスオペレータリストに登録されました。
+	%s がサービスオペレーターリストに登録されました。
 OPER_OPER_NOT_FOUND
 #	%s not found on Services operator list.
-	%s はサービスオペレータリストに登録されていません。
+	%s はサービスオペレーターリストに登録されていません。
 OPER_OPER_NO_MATCH
 #	No matching entries on Services operator list.
-	サービスオペレータリストに該当するエントリーが見つかりませんでした。
+	サービスオペレーターリストに該当するエントリーが見つかりませんでした。
 OPER_OPER_DELETED
 #	%s deleted from Services operator list.
-	%s がサービスオペレータリストから削除されました。
+	%s がサービスオペレーターリストから削除されました。
 OPER_OPER_DELETED_ONE
 #	Deleted 1 entry from Services operator list.
-	1 個のエントリーがサービスオペレータリストから削除されました。
+	1 個のエントリーがサービスオペレーターリストから削除されました。
 OPER_OPER_DELETED_SEVERAL
 #	Deleted %d entries from Services operator list.
-	%d 個のエントリーがサービスオペレータリストから削除されました。
+	%d 個のエントリーがサービスオペレーターリストから削除されました。
 OPER_OPER_LIST_EMPTY
 #	Services operator list is empty.
-	サービスオペレータリストが空です。
+	サービスオペレーターリストが空です。
 OPER_OPER_LIST_HEADER
 #	Services operator list:
 #	  Num   Nick
-	サービスオペレータリスト:
+	サービスオペレーターリスト:
 	  番号  ニックネーム
 OPER_OPER_LIST_FORMAT
 	  %3d   %s
 OPER_OPER_CLEAR
 #	Services operator list has been cleared.
-	サービスオペレータリストが空になりました。
+	サービスオペレーターリストが空になりました。
 OPER_OPER_MOVED
 #	%s has been moved to Services Operators list.
-	%s がサービスオペレータリストに移動されました。
+	%s がサービスオペレーターリストに移動されました。
 
 # AKILL responses
 OPER_AKILL_SYNTAX
@@ -3636,10 +3636,10 @@ OPER_NOOP_SYNTAX
 	NOOP {SET|REVOKE} server
 OPER_NOOP_SET
 #	All O:lines of %s have been removed.
-	サーバ %s  に対するすべての O:lines が削除されました。
+	サーバー %s  に対するすべての O:lines が削除されました。
 OPER_NOOP_REVOKE
 #	All O:lines of %s have been reset.
-	サーバ %s  に対するすべての O:lines がリセットされました。
+	サーバー %s  に対するすべての O:lines がリセットされました。
 
 # JUPE responses
 OPER_JUPE_SYNTAX
@@ -3649,7 +3649,7 @@ OPER_JUPE_HOST_ERROR
 	正しいホスト名を使ってください。
 OPER_JUPE_INVALID_SERVER
 #	You can not jupe your services server or your uplink server.
-	あなた自身のサーバあなたのアップリンクサーバにはjupeできません。。
+	あなた自身のサーバーあなたのアップリンクサーバーにはjupeできません。。
 	
 # RAW responses
 OPER_RAW_SYNTAX
@@ -3703,19 +3703,19 @@ OPER_KILLCLONES_SYNTAX
 	KILLCLONES nick
 OPER_KILLCLONES_UNKNOWN_NICK
 #	Could not find user %s.
-	ニックネーム %s のユーザが見つかりませんでした。
+	ニックネーム %s のユーザーが見つかりませんでした。
 	
 # CHANLIST responses
 OPER_CHANLIST_HEADER
 #	Channel list:
 #	Name                 Users Modes   Topic
 	チャンネルリスト:
-	チャンネル名         ユーザモード  トピック 
+	チャンネル名         ユーザーモード  トピック 
 OPER_CHANLIST_HEADER_USER
 #	%s channel list:
 #	Name                 Users Modes   Topic
-	ユーザ %s のチャンネルリスト:
-	チャンネル名         ユーザモード  トピック 
+	ユーザー %s のチャンネルリスト:
+	チャンネル名         ユーザーモード  トピック 
 OPER_CHANLIST_RECORD
 	%-20s  %4d +%-6s %s
 OPER_CHANLIST_END
@@ -3726,18 +3726,18 @@ OPER_CHANLIST_END
 OPER_USERLIST_HEADER
 #	Users list:
 #	Nick                 Mask
-	ユーザリスト:
+	ユーザーリスト:
 	ニックネーム         マスク
 OPER_USERLIST_HEADER_CHAN
 #	%s users list:
 #	Nick                 Mask
-	チャンネル %s のユーザリスト:
+	チャンネル %s のユーザーリスト:
 	ニックネーム         マスク
 OPER_USERLIST_RECORD
 	%-20s %s@%s
 OPER_USERLIST_END
 #	End of users list.
-	ユーザリストは以上です。
+	ユーザーリストは以上です。
 
 OPER_SUPER_ADMIN_ON
 #	You are now a SuperAdmin
@@ -3902,7 +3902,7 @@ OPER_EXCEPTION_INVALID_LIMIT
 	無効なセッション数の上限値です。零以上で %d より小さな整数を設定してください。
 OPER_EXCEPTION_INVALID_HOSTMASK
 #	Invalid hostmask. Only real hostmasks are valid as exceptions are not matched against nicks or usernames.
-	無効なホストマスクです。単純なホストマスクのみが有効で、マッチングはニックネームやユーザネームに対しては行われません。
+	無効なホストマスクです。単純なホストマスクのみが有効で、マッチングはニックネームやユーザーネームに対しては行われません。
 OPER_EXCEPTION_EXISTS
 #	%s already exists on the EXCEPTION list.
 	%s は既にセッション数制限からの除外リストに登録済みです。
@@ -3959,10 +3959,10 @@ OPER_HELP_EXCEPTION
 #	limiting. The content of this notice is a config setting.
 	サービス管理者はセッション数制限からの除外ホスト名のリストを編集できます。
 	このリストには、各ホストに対するセッション数の上限値が記述 されています。
-	たとえばシェルサーバのようなマシンからのセッション数の上限値を初期値
+	たとえばシェルサーバーのようなマシンからのセッション数の上限値を初期値
 	から増やすことができます。あるホストからのセッション数が上限値に達すると、
 	以降にこのホストから接続試行を行ったクライアントは kill されます。
-	セッション数制限機能の円滑な運用のために、このようなユーザが kill
+	セッション数制限機能の円滑な運用のために、このようなユーザーが kill
 	される前に、%S からの /NOTICE で上限に達したことが通知されます。
 	この通知の内容は設定ファイルで指定できます。
 	
@@ -3988,7 +3988,7 @@ OPER_HELP_EXCEPTION
 	注意する点は、nick!user@host や user@host のようなマスク
 	は無効だという点です。 例えば、box.host.dom や *.host.dom
 	のような単純なホストマスクのみが有効です。その理由は、セッション数制限
-	はニックネームやユーザネームを考慮しないからです。また、limit は
+	はニックネームやユーザーネームを考慮しないからです。また、limit は
 	0以上の数字でなければいけません。この引数はマスクで指定したホスト群
 	から一度に受け付けるセッション数の上限値を示しています。ただし、0を
 	指定した場合はセッション数制限が無いという意味になります。
@@ -4077,10 +4077,10 @@ OPER_HELP_DEFCON_NO_NEW_CLIENTS
 	* 全ての新しいクライアントからの接続を Kill します。
 OPER_HELP_DEFCON_OPER_ONLY
 #	* Ignore any non-opers with message
-	* メッセージを出して、全てのオペレータでないユーザを無視します。
+	* メッセージを出して、全てのオペレーターでないユーザーを無視します。
 OPER_HELP_DEFCON_SILENT_OPER_ONLY
 #	* Silently ignore non-opers
-	* メッセージを出さずに、全てのオペレータでないユーザを無視します。
+	* メッセージを出さずに、全てのオペレーターでないユーザーを無視します。
 OPER_HELP_DEFCON_AKILL_NEW_CLIENTS
 #	* AKILL any new clients connecting
 	* 新規クライアントからの接続を AKILL します。 
@@ -4148,13 +4148,13 @@ NEWS_OPER_SYNTAX
 	OPERNEWS {ADD|DEL|LIST} [text|num]
 NEWS_OPER_LIST_HEADER
 	Oper news items:
-	サーバオペレータニュース:
+	サーバーオペレーターニュース:
 NEWS_OPER_LIST_ENTRY
 	%5d (%s by %s)
 	    %s
 NEWS_OPER_LIST_NONE
 #	There is no oper news.
-	サーバオペレータニュースがありません。
+	サーバーオペレーターニュースがありません。
 NEWS_OPER_ADD_SYNTAX
 	OPERNEWS ADD text
 NEWS_OPER_ADD_FULL
@@ -4162,21 +4162,21 @@ NEWS_OPER_ADD_FULL
 	ニュースリストが満杯です。
 NEWS_OPER_ADDED
 #	Added new oper news item (#%d).
-	新しいサーバオペレータニュース (#%d) を追加しました。
+	新しいサーバーオペレーターニュース (#%d) を追加しました。
 NEWS_OPER_DEL_SYNTAX
 	OPERNEWS DEL {num | ALL}
 NEWS_OPER_DEL_NOT_FOUND
 #	Oper news item #%d not found!
-	サーバオペレータニュース #%d が見つかりません！
+	サーバーオペレーターニュース #%d が見つかりません！
 NEWS_OPER_DELETED
 #	Oper news item #%d deleted.
-	サーバオペレータニュース #%d を削除しました。
+	サーバーオペレーターニュース #%d を削除しました。
 NEWS_OPER_DEL_NONE
 #	No oper news items to delete!
-	サーバオペレータニュースを削除できませんでした！
+	サーバーオペレーターニュースを削除できませんでした！
 NEWS_OPER_DELETED_ALL
 #	All oper news items deleted.
-	サーバオペレータニュースを全て削除しました。
+	サーバーオペレーターニュースを全て削除しました。
 
 NEWS_RANDOM_SYNTAX
 	RANDOMNEWS {ADD|DEL|LIST} [text|num]
@@ -4223,9 +4223,9 @@ NEWS_HELP_LOGON
 #	sent in order to avoid flooding the user.  If there are
 #	more news messages, only the most recent will be sent.)
 #	NewsCount can be configured in services.conf.
-	ログオンニュースを編集または表示する。ユーザがネットワークに
-	接続したときに、これらのメッセージがユーザに送信される(ただし、
-	ユーザにこれを flood 攻撃と勘違いさせないために、%s 個以上
+	ログオンニュースを編集または表示する。ユーザーがネットワークに
+	接続したときに、これらのメッセージがユーザーに送信される(ただし、
+	ユーザーにこれを flood 攻撃と勘違いさせないために、%s 個以上
 	のメッセージは送信されない。この場合、メッセージは新しいもの
 	から順に送信される。)。NewsCount は services.conf 内で設定する。
 	
@@ -4244,9 +4244,9 @@ NEWS_HELP_OPER
 #	be sent in order to avoid flooding the user.  If there are
 #	more news messages, only the most recent will be sent.)
 #	NewsCount can be configured in services.conf.
-	サーバオペレータニュースを編集または表示する。ユーザが
-	サーバオペレータになる(/OPER コマンドで)と、これらのメッセージ
-	がユーザに送信される。(ただし、ユーザにこれを flood 攻撃と勘違い
+	サーバーオペレーターニュースを編集または表示する。ユーザーが
+	サーバーオペレーターになる(/OPER コマンドで)と、これらのメッセージ
+	がユーザーに送信される。(ただし、ユーザーにこれを flood 攻撃と勘違い
 	させないために、%s 個以上のメッセージは送信されない。
 	この場合、メッセージは新しいものから順に送信される。)。
 	NewsCount は services.conf 内で設定する。
@@ -4262,7 +4262,7 @@ NEWS_HELP_RANDOM
 #	Edits or displays the list of random news messages.  When a
 #	user connects to the network, one (and only one) of the
 #	random news will be randomly chosen and sent to them.
-	ランダムニュースを編集または表示する。ユーザがネットワークに
+	ランダムニュースを編集または表示する。ユーザーがネットワークに
 	接続すると、ランダムニュースの中から1つ、ニュースが無作為に
 	選ばれ、これが送信される。
 
@@ -4294,7 +4294,7 @@ HELP_HELP
 
 	%R%s HELP
 #	     for information on sending messages to off-line users
-	     現在接続していないユーザにメッセージを送る事についての情報。
+	     現在接続していないユーザーにメッセージを送る事についての情報。
 
 HELP_HELP_BOT
 
@@ -4343,7 +4343,7 @@ NICK_HELP_CMD_DROP
 	    DROP       ニックネーム登録を解除する。
 NICK_HELP_CMD_RECOVER
 #	    RECOVER    Kill another user who has taken your nick
-	    RECOVER    貴方のニックネームを使っているユーザを殺す(KILL)。
+	    RECOVER    貴方のニックネームを使っているユーザーを殺す(KILL)。
 NICK_HELP_CMD_RELEASE
 #	    RELEASE    Regain custody of your nick after RECOVER
 	    RELEASE    RECOVERの後でニックネームを取り戻す。
@@ -4379,7 +4379,7 @@ NICK_HELP_CMD_GETPASS
 	    GETPASS    指定されたニックネームのパスワードを出力する。
 NICK_HELP_CMD_GETEMAIL
 #	    GETEMAIL   Matches and returns all users that registered using given email
-	    GETEMAIL   指定されたメールアドレスで登録されてる全てのユーザを出力する。
+	    GETEMAIL   指定されたメールアドレスで登録されてる全てのユーザーを出力する。
 NICK_HELP_CMD_FORBID
 #	    FORBID     Prevents a nickname from being registered
 	    FORBID     指定されたニックネームを登録禁止にする。
@@ -6146,10 +6146,10 @@ MEMO_HELP_CMD_CHECK
 	    CHECK  ニックネーム宛ての最新のメモが読まれたかチェックする
 MEMO_HELP_CMD_SENDALL
 #	    SENDALL  Send a memo to all registered users
-	    SENDALL  登録済みのユーザ全員にメモを送信
+	    SENDALL  登録済みのユーザー全員にメモを送信
 MEMO_HELP_CMD_STAFF
 #	    STAFF  Send a memo to all opers/admins
-	    STAFF  サーバオペレータと管理者にメモを送信
+	    STAFF  サーバーオペレーターと管理者にメモを送信
 
 MEMO_HELP_HEADER
 #	%S is a utility allowing IRC users to send short
@@ -6157,9 +6157,9 @@ MEMO_HELP_HEADER
 #	the time or not, or to channels(*).  Both the sender's
 #	nickname and the target nickname or channel must be
 #	registered in order to send a memo.
-	IRCユーザは %S を使って他の IRC ユーザやチャンネル
-	に短いメッセージを送信できます。ユーザ宛てのメッセージは、
-	そのIRCユーザがオンラインでなくても送信できます。
+	IRCユーザーは %S を使って他の IRC ユーザーやチャンネル
+	に短いメッセージを送信できます。ユーザー宛てのメッセージは、
+	そのIRCユーザーがオンラインでなくても送信できます。
 	メモを送信するためには、あなたのニックネームと宛先の
 	ニックネーム、又はチャンネル名が登録済みでなければいけません。
 
@@ -6185,7 +6185,7 @@ MEMO_HELP_FOOTER
 #	    channel can read that channel's memos.  This can be
 #	    changed with the %s LEVELS command.
 	(*) 初期状態では、チャンネルに参加中で権限レベル 10 以上
-	    のユーザのみがチャンネルメモを読むことができます。
+	    のユーザーのみがチャンネルメモを読むことができます。
 	    このレベルは %s LEVELS コマンドで変更できます。
 	
 
@@ -6351,9 +6351,9 @@ MEMO_SERVADMIN_HELP_SET_LIMIT
 #	user to receive and keep as many memos as they want.  If
 #	you do not give a nickname or channel, your own limit is
 #	set.
-	ユーザかチャンネルのメモ保存量の上限値を設定します。
-	0を指定した場合は、ユーザがメモを受け取ることを禁止します。
-	NONE を指定した場合は、ユーザのメモ保存量の上限を
+	ユーザーかチャンネルのメモ保存量の上限値を設定します。
+	0を指定した場合は、ユーザーがメモを受け取ることを禁止します。
+	NONE を指定した場合は、ユーザーのメモ保存量の上限を
 	無くします。ニックネームかチャンネル名を指定しなかった場合は、
 	あなた自身のメモ保存量の上限値を設定します。
 	
@@ -6361,9 +6361,9 @@ MEMO_SERVADMIN_HELP_SET_LIMIT
 #	adding HARD has the opposite effect, allowing the user to
 #	change the limit (even if a previous limit was set with
 #	HARD).
-	HARD を追加すると、ユーザがメモ保存量の上限値を変更
+	HARD を追加すると、ユーザーがメモ保存量の上限値を変更
 	できなくします。HARD を指定した後でも、HARD を
-	外して同じコマンドを入力すれば、ユーザが上限値を変更
+	外して同じコマンドを入力すれば、ユーザーが上限値を変更
 	できるようにします。
 
 #	This use of the SET LIMIT command is limited to Services
@@ -6372,9 +6372,9 @@ MEMO_SERVADMIN_HELP_SET_LIMIT
 #	remove their limit, may not set a limit above %d, and may
 #	not set a hard limit.
 	SET LIMIT コマンドを使えるのはサービス管理者だけです。
-	他のユーザは自分自身かチャンネルのメモ保存量の上限値を変える
+	他のユーザーは自分自身かチャンネルのメモ保存量の上限値を変える
 	ことができます。ただし、チャンネルのメモ保存量の上限値を変える
-	には、相応の権限が必要です。また、サービス管理者以外のユーザは
+	には、相応の権限が必要です。また、サービス管理者以外のユーザーは
 	メモ保存量の上限値を NONE にすること、%d 以上の上限値を設定する
 	こと、HARD を指定することはできません。
 
@@ -6408,16 +6408,16 @@ MEMO_HELP_STAFF
 #	applies for oper's on the Root list as well as other
 #	lists.
 	すべてのサービススタッフにmemo-text の内容でメモを
-	送信します。注意: サーバオペレータでかつサービス管理者
-	でもあるユーザは、この内容のメモを2回受け取ることになります。
-	つまり、複数のサービススタッフリストに登録されているユーザは
+	送信します。注意: サーバーオペレーターでかつサービス管理者
+	でもあるユーザーは、この内容のメモを2回受け取ることになります。
+	つまり、複数のサービススタッフリストに登録されているユーザーは
 	同じ内容のメモを複数回受け取ることになります。
 
 MEMO_HELP_SENDALL
 	Syntax: SENDALL memo-text
 
 #	Sends all registered users a memo containing memo-text.
-	登録済みユーザ全員に内容 memo-text でメモを送信します。
+	登録済みユーザー全員に内容 memo-text でメモを送信します。
 	
 MEMO_HELP_RSEND
 	Syntax: RSEND {nick | channel} memo-text
@@ -6450,13 +6450,13 @@ MEMO_HELP_CHECK
 ###########################################################################
 OPER_HELP_CMD_GLOBAL
 #	    GLOBAL      Send a message to all users
-	    GLOBAL      メッセージをユーザ全員に送ります。
+	    GLOBAL      メッセージをユーザー全員に送ります。
 OPER_HELP_CMD_STATS
 #	    STATS       Show status of Services and network
 	    STATS       サービスとネットワークのの状態を表示します。
 OPER_HELP_CMD_OPER
 #	    OPER        Modify the Services operator list
-	    OPER        サービスオペレータのリストを変更します。
+	    OPER        サービスオペレーターのリストを変更します。
 OPER_HELP_CMD_ADMIN
 #	    ADMIN       Modify the Services admin list
 	    ADMIN       サービス管理者のリストほ変更します。
@@ -6468,7 +6468,7 @@ OPER_HELP_CMD_MODE
 	    MODE        チャンネルモードを変更します。
 OPER_HELP_CMD_KICK
 #	    KICK        Kick a user from a channel
-	    KICK        ユーザをチャンネルからキックします。
+	    KICK        ユーザーをチャンネルからキックします。
 OPER_HELP_CMD_CLEARMODES
 #	    CLEARMODES  Clear modes of a channel
 	    CLEARMODES  チャンネルのモードを初期化します。
@@ -6492,7 +6492,7 @@ OPER_HELP_CMD_CHANLIST
 	    CHANLIST    全てのチャンネルレコードを表示します。
 OPER_HELP_CMD_USERLIST
 #	    USERLIST    Lists all user records
-	    USERLIST    全てのユーザレコードを表示します。
+	    USERLIST    全てのユーザーレコードを表示します。
 OPER_HELP_CMD_LOGONNEWS
 #	    LOGONNEWS   Define messages to be shown to users at logon
 	    LOGONNEWS   ログオン時に表示するメッセージを編集します。
@@ -6502,7 +6502,7 @@ OPER_HELP_CMD_RANDOMNEWS
 	    RANDOMNEWS  ログオン時にランダムに表示するメッセージを編集します。
 OPER_HELP_CMD_OPERNEWS
 #	    OPERNEWS    Define messages to be shown to users who oper
-	    OPERNEWS    オペレータに表示するメッセージを編集します。
+	    OPERNEWS    オペレーターに表示するメッセージを編集します。
 OPER_HELP_CMD_SESSION
 #	    SESSION     View the list of host sessions
 	    SESSION     指定されたホストからのセッションを表示します。
@@ -6512,11 +6512,11 @@ OPER_HELP_CMD_EXCEPTION
 OPER_HELP_CMD_NOOP
 #	    NOOP        Temporarily remove all O:lines of a server 
 #	                remotely
-	    NOOP        サーバのO:linesを一時的に削除します。
+	    NOOP        サーバーのO:linesを一時的に削除します。
 
 OPER_HELP_CMD_JUPE
 #	    JUPE        "Jupiter" a server
-	    JUPE        サーバを "Jupiter" にします。
+	    JUPE        サーバーを "Jupiter" にします。
 OPER_HELP_CMD_IGNORE
 #	    IGNORE      Modify the Services ignore list
 	    IGNORE      サービスの無視リストを編集します。
@@ -6544,16 +6544,16 @@ OPER_HELP_CMD_DEFCON
 	    DEFCON      DefCon システムを設定します。
 OPER_HELP_CMD_CHANKILL
 #	    CHANKILL    AKILL all users on a specific channel
-	    CHANKILL    チャンネルに参加中のユーザ全員を AKILL します。
+	    CHANKILL    チャンネルに参加中のユーザー全員を AKILL します。
 OPER_HELP_CMD_OLINE
 #	    OLINE       Give Operflags to a certain user
-	    OLINE       オペレータフラグをユーザに与えます。
+	    OLINE       オペレーターフラグをユーザーに与えます。
 OPER_HELP_CMD_UMODE
 #	    UMODE       Change a user's modes
-	    UMODE       ユーザモードを変更します。
+	    UMODE       ユーザーモードを変更します。
 OPER_HELP_CMD_SVSNICK
 #	    SVSNICK     Forcefully change a user's nickname
-	    SVSNICK     強制的にユーザのニックネームを変更します。
+	    SVSNICK     強制的にユーザーのニックネームを変更します。
 OPER_HELP_CMD_MODLOAD
 #	    MODLOAD     Load a module
 	    MODLOAD     モジュールをロードします。
@@ -6580,7 +6580,7 @@ OPER_HELP_GLOBAL
 	
 #	Allows Administrators to send messages to all users on the 
 #	network. The message will be sent from the nick %s.
-	管理者によるネットワークにいるユーザ全員宛てのメッセージ送信
+	管理者によるネットワークにいるユーザー全員宛てのメッセージ送信
 	を許可します。このメッセージの送信者は %s になります。
 
 OPER_HELP_STATS
@@ -6590,9 +6590,9 @@ OPER_HELP_STATS
 #	IRCops online (excluding Services), the highest number of
 #	users online since Services was started, and the length of
 #	time Services has been running.
-	オプションを指定しない場合、現在のユーザ数と IRC オペレータ
-	(サービスオペレータを除く)の数、サービスが開始されてからの
-	最大ユーザ数、サービス開始からの経過時間を表示します。
+	オプションを指定しない場合、現在のユーザー数と IRC オペレーター
+	(サービスオペレーターを除く)の数、サービスが開始されてからの
+	最大ユーザー数、サービス開始からの経過時間を表示します。
 	
 #	With the AKILL option, displays the current size of the
 #	AKILL list and the current default expiry time.
@@ -6602,7 +6602,7 @@ OPER_HELP_STATS
 #	The RESET option currently resets the maximum user count
 #	to the number of users currently present on the network.
 	RESET オプションが指定された場合は、現在ネットワーク上に
-	いるユーザ数の最大値をリセットします。
+	いるユーザー数の最大値をリセットします。
 	
 #	The MEMORY option displays information on the memory
 #	usage of Services. Using this option can freeze Services for
@@ -6614,11 +6614,11 @@ OPER_HELP_STATS
 #	The UPLINK option displays information about the current
 #	server Anope uses as an uplink to the network.
 	UPLINK オプションが指定された場合は、現在のサーバーで
-	稼働中の Anope が使用するアップリンクサーバを表示します。
+	稼働中の Anope が使用するアップリンクサーバーを表示します。
 	
 #	The ALL displays the user and uptime statistics, and
 #	everything you'd see with MEMORY and UPLINK options.
-	ALL オプションは ユーザと稼働時間の統計に加えて、
+	ALL オプションは ユーザーと稼働時間の統計に加えて、
 	MEMORY と UPLINK オプションで表示される情報を
 	表示します。
 	
@@ -6635,22 +6635,22 @@ OPER_HELP_OPER
 #	to or from the Services operator list.  A user whose nickname
 #	is on the Services operator list and who has identified to
 #	%s will be able to access Services operator commands.
-	サービスのルート管理者がサービスオペレータリストへの
+	サービスのルート管理者がサービスオペレーターリストへの
 	ニックネームを追加したりや削除したりすることを許可します。
-	サービスオペレータリストに載っているニックネームのユーザか
-	%s で特定できるユーザはサービスオペレータコマンドを使用する
+	サービスオペレーターリストに載っているニックネームのユーザーか
+	%s で特定できるユーザーはサービスオペレーターコマンドを使用する
 	ことができます。
 	
 #	The OPER ADD command adds the given nickname to the
 #	Services operator list.
 	OPER ADD コマンドは指定されたニックネームを
-	サービスオペレータリストに追加します。
+	サービスオペレーターリストに追加します。
 	
 #	The OPER DEL command removes the given nick from the
 #	Services operator list.  If a list of entry numbers is given, 
 #	those entries are deleted.  (See the example for LIST below.)
 	OPER DEL コマンドは指定されたニックネームを
-	サービスオペレータリストから削除します。エントリー番号が指定
+	サービスオペレーターリストから削除します。エントリー番号が指定
 	された場合は、番号に対応したエントリーが削除されます。(LIST
 	コマンドの例を参照してください。)
 	
@@ -6658,7 +6658,7 @@ OPER_HELP_OPER
 #	If a wildcard mask is given, only those entries matching the
 #	mask are displayed.  If a list of entry numbers is given,
 #	only those entries are shown; for example:
-	OPER LIST コマンドはサービスオペレータリストを表示します。
+	OPER LIST コマンドはサービスオペレーターリストを表示します。
 	ワイルドカードマスクが指定された場合は、このマスクに該当する
 	エントリーのみが表示されます。エントリー番号が指定された場合は、
 	それらに対応したエントリーのみが表示されます。例えば以下の
@@ -6667,16 +6667,16 @@ OPER_HELP_OPER
 	   OPER LIST 2-5,7-9
 #	      Lists Services operator entries numbered 2 through 
 #	      5 and 7 through 9.
-	      2から5番目と7から9番目のサービスオペレータの
+	      2から5番目と7から9番目のサービスオペレーターの
 	      エントリーを表示します。
 	      
 #	The OPER CLEAR command clears all entries of the
 #	Services operator list.
-	OPER CLEAR コマンドはサービスオペレータリストの
+	OPER CLEAR コマンドはサービスオペレーターリストの
 	全てのエントリーを削除します。
 	
 #	Any IRC operator may use the OPER LIST form of the command.
-	IRC オペレータであれば誰でも OPER LIST 型のコマンドを使用できます。
+	IRC オペレーターであれば誰でも OPER LIST 型のコマンドを使用できます。
 
 OPER_HELP_ADMIN
 	Syntax: ADMIN ADD nick
@@ -6690,8 +6690,8 @@ OPER_HELP_ADMIN
 #	%s will be able to access Services admin commands.
 	サービスルートがサービス管理者リストにニックネームを
 	追加したり削除したりすることを許可します。
-	サービス管理者リストに載っているニックネームのユーザか
-	%s で特定できるユーザはサービス管理者コマンドを使用する
+	サービス管理者リストに載っているニックネームのユーザーか
+	%s で特定できるユーザーはサービス管理者コマンドを使用する
 	ことができます。
 	
 #	The ADMIN ADD command adds the given nickname to the
@@ -6730,7 +6730,7 @@ OPER_HELP_ADMIN
 	
 #	Any IRC operator may use the ADMIN LIST form of the command.
 #	All other use limited to Services root.
-	IRC オペレータであれば誰でも ADMIN LIST 型のコマンドを使用できます。
+	IRC オペレーターであれば誰でも ADMIN LIST 型のコマンドを使用できます。
 	それ以外のコマンドはは サービスルート でないと使えません。
 
 OPER_HELP_IGNORE
@@ -6752,14 +6752,14 @@ OPER_HELP_IGNORE
 	以下のようにして、単位を指定できます。使用可能な単位は、
 	s で秒、 m で分、h で時間、d で日と解釈
 	されます。これらを組み合わせて使用することはできません。
-	サービスが、あるユーザを恒久的に無視するためには、0を指定
+	サービスが、あるユーザーを恒久的に無視するためには、0を指定
 	してください。 mask を指定する場合は、この形式は
 	user@host の形か、nick!user@host の形で指定できます。
 	どちらでもない形式の場合はニックネームとみなされます。
 	また、ワイルドカードを使うこともできます。
 	
 #	Ignores will not be enforced on IRC Operators.
-	IRC オペレータを無視することはできません。
+	IRC オペレーターを無視することはできません。
 
 OPER_HELP_MODE
 	Syntax: MODE channel modes
@@ -6767,7 +6767,7 @@ OPER_HELP_MODE
 #	Allows Services operators to set channel modes for any
 #	channel.  Parameters are the same as for the standard /MODE
 #	command.
-	サービスオペレータがチャンネルモードを変更できるように
+	サービスオペレーターがチャンネルモードを変更できるように
 	します。引数は /MODE コマンドと同じです。
 
 OPER_HELP_UMODE
@@ -6776,7 +6776,7 @@ OPER_HELP_UMODE
 #	Allows Super Admins to set user modes for any user.
 #	Parameters are the same as for the standard /MODE
 #	command.
-	スーパー管理者 がユーザモードを変更できるようにします。
+	スーパー管理者 がユーザーモードを変更できるようにします。
 	引数は /MODE コマンドと同じです。
 
 OPER_HELP_OLINE
@@ -6785,7 +6785,7 @@ OPER_HELP_OLINE
 #	Allows Super Admins to give Operflags to any user.
 #	Flags have to be prefixed with a "+" or a "-". To
 #	remove all flags simply type a "-" instead of any flags.
-	スーパー管理者 がユーザにオペレータフラグを
+	スーパー管理者 がユーザーにオペレーターフラグを
 	与えることができるようにします。フラグは "+" か "-" で
 	はじめ、フラグを剥奪する場合は "-" を使用してください。
 
@@ -6797,8 +6797,8 @@ OPER_HELP_CLEARMODES
 #	voices (+o and +v modes) from the channel.
 	チャンネルに対して、全てのバイナリモード(i,k,l,m,n,p,s,t)
 	を解除し、バンリストを空にします。ALL が指定された場合は、
-	さらにチャンネル内のユーザからチャンネルオペレータと
-	voices ユーザの権利を剥奪します。
+	さらにチャンネル内のユーザーからチャンネルオペレーターと
+	voices ユーザーの権利を剥奪します。
 
 OPER_HELP_KICK
 	Syntax: KICK channel user reason
@@ -6807,9 +6807,9 @@ OPER_HELP_KICK
 #	Parameters are the same as for the standard /KICK
 #	command.  The kick message will have the nickname of the
 #	IRCop sending the KICK command prepended; for example:
-	スタッフがチャンネルからユーザをキックします。
+	スタッフがチャンネルからユーザーをキックします。
 	引数は普通の /KICK コマンドと同じ形式です。
-	キック理由の先頭に KICK コマンドを使った IRC オペレータ
+	キック理由の先頭に KICK コマンドを使った IRC オペレーター
 	のニックネームを追記した内容でキックメッセージが送信されます。
 	例えば、下のような感じです。
 	
@@ -6821,7 +6821,7 @@ OPER_HELP_SVSNICK
 	
 #	Forcefully changes a user's nickname from nick to newnick.
 #	Limited to Super Admins.
-	ユーザのニックネームを nick から newnick に変更します。
+	ユーザーのニックネームを nick から newnick に変更します。
 	この機能は スーパー管理者 以外は使えません。
  
 OPER_HELP_AKILL
@@ -6836,10 +6836,10 @@ OPER_HELP_AKILL
 #	will issue a KILL for that user and, on supported server
 #	types, will instruct all servers to add a ban (K-line) for
 #	the mask which the user matched.
-	サービスオペレータが AKILL リストを編集することを許可します。
-	AKILL マスクに該当するユーザが接続してきた場合、サービスは
-	このユーザを KILL します。加えて、サーポート済みのサーバに
-	おいては、全てのサーバに対してこのユーザにマッチする K-line
+	サービスオペレーターが AKILL リストを編集することを許可します。
+	AKILL マスクに該当するユーザーが接続してきた場合、サービスは
+	このユーザーを KILL します。加えて、サーポート済みのサーバーに
+	おいては、全てのサーバーに対してこのユーザーにマッチする K-line
 	を追加するように働きかけます。
 	
 #	AKILL ADD adds the given user@host/ip mask to the AKILL
@@ -6860,7 +6860,7 @@ OPER_HELP_AKILL
 	組み合わせて指定することはできません。単位を指定しなかった場合、
 	日として解釈されます(+30 という指定は30日間と解釈されます。)。
 	永久に失効されない AKILL を追加するには +0 と指定してください。
-	ユーザマスクを + から始めた場合、失効時間をを必ず指定して
+	ユーザーマスクを + から始めた場合、失効時間をを必ず指定して
 	ください。指定しない場合は初期値が指定されたものと解釈されます。
 	AKILL 失効時間の初期値は STATS AKILL コマンドで指定できます。
 	
@@ -6908,9 +6908,9 @@ OPER_HELP_SGLINE
 #	a user with a realname matching an SGLINE mask attempts to 
 #	connect, Services will not allow it to pursue his IRC
 #	session.
-	サービスオペレータが SGLINE リストを編集することを許可します。
-	SGLINE マスクに該当する実ユーザ名を持つユーザが接続してきた
-	場合、サービスはこのユーザの IRC セッションを破棄します。
+	サービスオペレーターが SGLINE リストを編集することを許可します。
+	SGLINE マスクに該当する実ユーザー名を持つユーザーが接続してきた
+	場合、サービスはこのユーザーの IRC セッションを破棄します。
 	
 #	SGLINE ADD adds the given realname mask to the SGLINE
 #	list for the given reason (which must be given).
@@ -6925,17 +6925,17 @@ OPER_HELP_SGLINE
 #	STATS AKILL command.
 #	Note: because the realname mask may contain spaces, the
 #	separator between it and the reason is a colon.
-	SGLINE ADD コマンドは実ユーザ名マスク
+	SGLINE ADD コマンドは実ユーザー名マスク
 	とその理由(必須です)を SGLINE リストに追加します。
 	失効時間 expiry は整数の後に単位 d (日)、h (時間)、
 	m (分) の内1つを続けて指定します。ただし、1h30mのように
 	組み合わせて指定することはできません。単位を指定しなかった場合、
 	日として解釈されます(+30 という指定は30日間と解釈されます。)。
 	永久に失効されない SGLINE を追加するには +0 と指定してください。
-	実ユーザ名マスクを + から始めた場合、失効時間をを必ず指定して
+	実ユーザー名マスクを + から始めた場合、失効時間をを必ず指定して
 	ください。指定しない場合は初期値が指定されたものと解釈されます。
 	SGLINE 失効時間の初期値は STATS AKILL コマンドで指定できます。
-	注意: 実ユーザ名はスペースを含むことがあるので、マスクと
+	注意: 実ユーザー名はスペースを含むことがあるので、マスクと
 	理由の区切りはスペースの変わりにコロンを使ってください。
 	
 #	The SGLINE DEL command removes the given mask from the
@@ -6965,7 +6965,7 @@ OPER_HELP_SGLINE
 #	will show who added an SGLINE, the date it was added, and when 
 #	it expires, as well as the realname mask and reason.
 	SGLINE VIEW は SGLINE LIST を詳細にしたもので、
-	SGLINE の実ユーザ名マスクとその理由に加えて、
+	SGLINE の実ユーザー名マスクとその理由に加えて、
 	このエントリーを追加したメンバー、追加日、失効日を表示します。
 	
 #	SGLINE CLEAR clears all entries of the SGLINE list.
@@ -6983,9 +6983,9 @@ OPER_HELP_SQLINE
 #	a user with a nick matching an SQLINE mask attempts to 
 #	connect, Services will not allow it to pursue his IRC
 #	session.
-	サービスオペレータが SQLINE リストを編集することを許可します。
-	SQLINE マスクに該当するニックネームを持つユーザが接続してきた
-	場合、サービスはこのユーザの IRC セッションを破棄します。
+	サービスオペレーターが SQLINE リストを編集することを許可します。
+	SQLINE マスクに該当するニックネームを持つユーザーが接続してきた
+	場合、サービスはこのユーザーの IRC セッションを破棄します。
 
 #	If the first character of the mask is #, services will 
 #	prevent the use of matching channels (on IRCds that 
@@ -7060,9 +7060,9 @@ OPER_HELP_SZLINE
 #	a user with an IP matching an SZLINE mask attempts to 
 #	connect, Services will not allow it to pursue his IRC
 #	session (and this, whether the IP has a PTR RR or not).
-	サービスオペレータが SZLINE リストを編集することを許可します。
-	SZLINE マスクに該当する IP アドレスを持つユーザが接続してきた
-	場合、サービスはこのユーザの IRC セッションを破棄します。
+	サービスオペレーターが SZLINE リストを編集することを許可します。
+	SZLINE マスクに該当する IP アドレスを持つユーザーが接続してきた
+	場合、サービスはこのユーザーの IRC セッションを破棄します。
 	(破棄は IP アドレスがドメインネームポインタのリソースレコード
 	を持っているか否かにかかわらず行われます。)
 	
@@ -7157,8 +7157,8 @@ OPER_HELP_SET_READONLY
 #	read-only mode is deactivated before Services is terminated
 #	or restarted.
 	読み込み専用モードの有効無効を切り替えます。読み込み専用モード
-	では、通常のユーザはチャンネルとニックネームのリスト等、全ての
-	サービスデータを変更できません。適当な権利を持つ IRC オペレータ
+	では、通常のユーザーはチャンネルとニックネームのリスト等、全ての
+	サービスデータを変更できません。適当な権利を持つ IRC オペレーター
 	だけがサービスの AKILL リストを変更して、ニックネームや
 	チャンネルを削除追加できます。ただし、この時行った変更は
 	サービスを終了するか再起動する前に読み取り専用モードを
@@ -7246,7 +7246,7 @@ OPER_HELP_SET_SQL
 #	be used to disable and enable SQL should your SQL server go down
 #	while services are running.
 #	Anope が SQL を使用するか否かを切り替えます。この設定は
-	サービスの運用中に SQL サーバを終了させる場合に使用します。
+	サービスの運用中に SQL サーバーを終了させる場合に使用します。
 
 OPER_HELP_SET_IGNORE
 	Syntax: SET IGNORE {ON | OFF}
@@ -7270,8 +7270,8 @@ OPER_HELP_NOOP
 #	prevent them from rehashing the server (because this
 #	would just cancel the effect).
 	NOOP SET は指定された server の O:lines を
-	全て削除し、サーバ設定が書き換えられるのを防ぐために、
-	現在このサーバにいる IRC オペレータ全員を kill します。
+	全て削除し、サーバー設定が書き換えられるのを防ぐために、
+	現在このサーバーにいる IRC オペレーター全員を kill します。
 
 #	NOOP REVOKE makes all removed O:lines available again
 #	on the given server.
@@ -7294,14 +7294,14 @@ OPER_HELP_JUPE
 #	otherwise, the server information field will contain the
 #	text "Juped by <nick>", showing the nickname of the
 #	person who jupitered the server.
-	サービスがサーバを守るようにします。これはつまり、
-	サービスに接続する身代わりサーバを作り、同じ名前を持つ
-	サーバがサービスに接続できないようにします。この身代わり
-	サーバを削除するには通常の SQUIT コマンドが使えます。
-	理由を指定した場合は、サーバ情報フィールドにこれを
-	書き込みます。理由を指定しなかった場合、サーバ情報フィールド
-	には "Juped by <nick>" のようにこの身代わりサーバを
-	つくったユーザのニックネームを含む内容を書き込みます。
+	サービスがサーバーを守るようにします。これはつまり、
+	サービスに接続する身代わりサーバーを作り、同じ名前を持つ
+	サーバーがサービスに接続できないようにします。この身代わり
+	サーバーを削除するには通常の SQUIT コマンドが使えます。
+	理由を指定した場合は、サーバー情報フィールドにこれを
+	書き込みます。理由を指定しなかった場合、サーバー情報フィールド
+	には "Juped by <nick>" のようにこの身代わりサーバーを
+	つくったユーザーのニックネームを含む内容を書き込みます。
 
 OPER_HELP_RAW
 	Syntax: RAW text
@@ -7311,7 +7311,7 @@ OPER_HELP_RAW
 #	range of uses, and can wreak havoc on a network if used
 #	improperly.  DO NOT USE THIS COMMAND unless you are
 #	absolutely certain you know what you are doing!
-	サービスが接続しているサーバにテキストを直接送信します。
+	サービスが接続しているサーバーにテキストを直接送信します。
 	このコマンドは使用に制約があり、用法を間違えると
 	ネットワークに大きな障害を引き起こす可能性があります。
 	あなたがしようとしている事を十分に理解していない状態では
@@ -7378,7 +7378,7 @@ OPER_HELP_CHANLIST
 #	specified, lists only channels matching pattern that have the +s or
 #	+p mode.
 	pattern が指定された場合は、該当するチャンネルのみを
-	表示します。ニックネームが指定された場合は、このユーザが
+	表示します。ニックネームが指定された場合は、このユーザーが
 	join しているチャンネルのみを表示します。SECRET が指定
 	された場合は、pattern に該当するチャンネルのうち
 	+s か +p モードのチャンネルのみを表示します。
@@ -7388,7 +7388,7 @@ OPER_HELP_USERLIST
 	
 #	Lists all users currently online on the IRC network, whether their
 #	nick is registered or not.
-	IRC ネットワーク上に現在いるユーザを、
+	IRC ネットワーク上に現在いるユーザーを、
 	登録済みニックネームが否かにかかわらず全員表示します。
 	
 #	If pattern is given, lists only users that match it (it must be in
@@ -7396,10 +7396,10 @@ OPER_HELP_USERLIST
 #	that are on the given channel. If INVISIBLE is specified, only users
 #	with the +i flag will be listed.
 	pattern (フォーマットはnick!user@host) が指定された場合、
-	これに該当するユーザのみを表示します。 channel が指定
-	された場合、このチャンネルに join しているユーザのみを表示
+	これに該当するユーザーのみを表示します。 channel が指定
+	された場合、このチャンネルに join しているユーザーのみを表示
 	します。INVISIBLE が指定された場合は、+i フラグが立っている
-	ユーザのみを表示します。
+	ユーザーのみを表示します。
 
 OPER_HELP_MODLOAD
 	Syntax: MODLOAD FileName
@@ -7476,8 +7476,8 @@ BOT_HELP
 #	%S HELP command.
 	%S 機能を使うと、あなたのチャンネルにボットを
 	召喚できるようになります。これはボットを動かしたり、
-	設定できないユーザ、またはボットを動かすのを禁止
-	しているネットワークにいるユーザのための機能です。
+	設定できないユーザー、またはボットを動かすのを禁止
+	しているネットワークにいるユーザーのための機能です。
 	使用可能なコマンドは以下に示してあります。これらを
 	使用するには、 %R%S command と入力してください。
 	また、それぞれのコマンドに関するより詳しい情報が、
@@ -7487,7 +7487,7 @@ BOT_HELP
 BOT_HELP_FOOTER
 #	Bot will join a channel whenever there is at least
 #	%d user(s) on it.
-	チャンネルに参加中のユーザ数が %d 人を超えると、
+	チャンネルに参加中のユーザー数が %d 人を超えると、
 	ボットがチャンネルにjoinできるようになります。
 
 	
@@ -7545,11 +7545,11 @@ BOT_HELP_SET
 #	    GREET            Enable greet messages
 #	    FANTASY          Enable fantaisist commands
 #	    SYMBIOSIS        Allow the bot to act as a real bot
-	    DONTKICKOPS      オペレータのキックを禁止します。
-	    DONTKICKVOICES   voices ユーザのキックを禁止します。
+	    DONTKICKOPS      オペレーターのキックを禁止します。
+	    DONTKICKVOICES   voices ユーザーのキックを禁止します。
 	    GREET            挨拶メッセージを有効にします。
 	    FANTASY          fantaisist モードを有効にします。
-	    SYMBIOSIS        ボットが実ユーザの如く振る舞うよう設定します。
+	    SYMBIOSIS        ボットが実ユーザーの如く振る舞うよう設定します。
 	
 #	Type %R%S HELP SET option for more information
 #	on a specific option.
@@ -7567,10 +7567,10 @@ BOT_HELP_SET_DONTKICKOPS
 #	Enables or disables ops protection mode on a channel.
 #	When it is enabled, ops won't be kicked by the bot
 #	even if they don't match the NOKICK level.
-	あるチャンネルでのオペレータ保護 モード
+	あるチャンネルでのオペレーター保護 モード
 	の有効無効を切り替えます。これが有効で、
-	オペレータが NOKICK レベルにマッチしない場合、
-	ボットはこのオペレータをキックしません。
+	オペレーターが NOKICK レベルにマッチしない場合、
+	ボットはこのオペレーターをキックしません。
 	
 	
 BOT_HELP_SET_DONTKICKVOICES
@@ -7579,10 +7579,10 @@ BOT_HELP_SET_DONTKICKVOICES
 #	Enables or disables voices protection mode on a channel.
 #	When it is enabled, voices won't be kicked by the bot
 #	even if they don't match the NOKICK level.
-	あるチャンネルでのvoices ユーザ保護 モード
+	あるチャンネルでのvoices ユーザー保護 モード
 	の有効無効を切り替えます。これが有効で、voices
-	ユーザが NOKICK レベルにマッチしない場合、
-	ボットはこのvoices ユーザをキックしません。
+	ユーザーが NOKICK レベルにマッチしない場合、
+	ボットはこのvoices ユーザーをキックしません。
 	
 BOT_HELP_SET_FANTASY
 	Syntax: SET channel FANTASY {ON|OFF}
@@ -7594,7 +7594,7 @@ BOT_HELP_SET_FANTASY
 #	to use them; try with or without nick for each, 
 #	and with a reason for some?).
 	あるチャンネルでのファンタジー モードの
-	有効無効を切り替えます。これが有効な場合ユーザは
+	有効無効を切り替えます。これが有効な場合ユーザーは
 	チャンネル内で以下のコマンドが使えます。!op、
 	!deop、!voice、!devoice、!kick、!kb、!unban、
 	!seen。それぞれの使い方は、引数にニックネームを
@@ -7607,11 +7607,11 @@ BOT_HELP_SET_FANTASY
 #	of the command if required (for example, to use 
 #	!op, user must have enough access for the OPDEOP
 #	level).
-	注意することは、ユーザがファンタジーモード
-	コマンドを使用するためには、そのユーザが
+	注意することは、ユーザーがファンタジーモード
+	コマンドを使用するためには、そのユーザーが
 	FANTASIA 以上の権限レベルとそれぞれのコマンドに
 	対応した権限レベルを持っていなければいけません。
-	例えば、!op を使うためには、ユーザは OPDEOP
+	例えば、!op を使うためには、ユーザーは OPDEOP
 	レベル以上の権限を持っていなければいけません。
 
 BOT_HELP_SET_GREET
@@ -7623,7 +7623,7 @@ BOT_HELP_SET_GREET
 #	they have enough access to the channel.
 	あるチャンネルでの挨拶 モードの有効無効を
 	切り替えます。これが有効の場合、ボットはチャンネル
-	にjoinしたユーザに挨拶メッセージを表示します。
+	にjoinしたユーザーに挨拶メッセージを表示します。
 
 BOT_HELP_SET_SYMBIOSIS
 	Syntax: SET channel SYMBIOSIS {ON|OFF}
@@ -7678,12 +7678,12 @@ BOT_HELP_KICK_BOLDS
 #	Sets the bolds kicker on or off. When enabled, this
 #	option tells the bot to kick users who use bolds.
 	太字キッカーの有効無効を切り替えます。
-	有効の場合、ボットは太字を発言したユーザをキックします。
+	有効の場合、ボットは太字を発言したユーザーをキックします。
 
 #	ttb is the number of times an user can be kicked
 #	before it get banned. Don't give ttb to disable
 #	the ban system once activated.
-	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	あるユーザーが ttb 回キックされるとこのユーザーをバンします。
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_COLORS
@@ -7692,12 +7692,12 @@ BOT_HELP_KICK_COLORS
 #	Sets the colors kicker on or off. When enabled, this
 #	option tells the bot to kick users who use colors.
 	色文字キッカーの有効無効を切り替えます。
-	有効の場合、ボットは色文字を発言したユーザをキックします。
+	有効の場合、ボットは色文字を発言したユーザーをキックします。
 
 #	ttb is the number of times an user can be kicked
 #	before it get banned. Don't give ttb to disable
 #	the ban system once activated.
-	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	あるユーザーが ttb 回キックされるとこのユーザーをバンします。
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_REVERSES
@@ -7706,12 +7706,12 @@ BOT_HELP_KICK_REVERSES
 #	Sets the reverses kicker on or off. When enabled, this
 #	option tells the bot to kick users who use reverses.
 	反転文字キッカーの有効無効を切り替えます。
-	有効の場合、ボットは色文字を発言したユーザをキックします。
+	有効の場合、ボットは色文字を発言したユーザーをキックします。
 
 #	ttb is the number of times an user can be kicked
 #	before it get banned. Don't give ttb to disable
 #	the ban system once activated.
-	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	あるユーザーが ttb 回キックされるとこのユーザーをバンします。
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_UNDERLINES
@@ -7720,12 +7720,12 @@ BOT_HELP_KICK_UNDERLINES
 #	Sets the underlines kicker on or off. When enabled, this
 #	option tells the bot to kick users who use underlines.
 	下線キッカーの有効無効を切り替えます。
-	有効の場合、ボットは下線を発言したユーザをキックします。
+	有効の場合、ボットは下線を発言したユーザーをキックします。
 
 #	ttb is the number of times an user can be kicked
 #	before it get banned. Don't give ttb to disable
 #	the ban system once activated.
-	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	あるユーザーが ttb 回キックされるとこのユーザーをバンします。
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_CAPS
@@ -7735,7 +7735,7 @@ BOT_HELP_KICK_CAPS
 #	option tells the bot to kick users who are talking in
 #	CAPS.
 	大文字キッカーの有効無効を切り替えます。
-	有効の場合、ボットは大文字を発言したユーザをキックします。
+	有効の場合、ボットは大文字を発言したユーザーをキックします。
 
 #	The bot kicks only if there are at least min caps
 #	and they constitute at least percent%% of the total 
@@ -7749,7 +7749,7 @@ BOT_HELP_KICK_CAPS
 #	ttb is the number of times an user can be kicked
 #	before it get banned. Don't give ttb to disable
 #	the ban system once activated.
-	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	あるユーザーが ttb 回キックされるとこのユーザーをバンします。
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_FLOOD
@@ -7760,7 +7760,7 @@ BOT_HELP_KICK_FLOOD
 #	the channel using at least ln lines in secs seconds
 #	(if not given, it defaults to 6 lines in 10 seconds).
 	flood 攻撃キッカーの有効無効を切り替えます。
-	有効の場合、ボットはflood 攻撃をしたユーザをキックします。
+	有効の場合、ボットはflood 攻撃をしたユーザーをキックします。
 	secs 秒間にln 回の発言した場合を flood 攻撃
 	とみなします。(これらが指定されなかった場合の
 	初期値は 10 秒間に 6 発言です。)
@@ -7768,7 +7768,7 @@ BOT_HELP_KICK_FLOOD
 #	ttb is the number of times an user can be kicked
 #	before it get banned. Don't give ttb to disable
 #	the ban system once activated.
-	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	あるユーザーが ttb 回キックされるとこのユーザーをバンします。
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_REPEAT
@@ -7780,13 +7780,13 @@ BOT_HELP_KICK_REPEAT
 #	defaults to 3).
 	繰り返しキッカーの有効無効を切り替えます。
 	有効の場合、ボットは num 回同じ内容を
-	繰り返し発言をしたユーザをキックします。
+	繰り返し発言をしたユーザーをキックします。
 	(この値が指定されなかった場合の初期値は 3 回です。)
 
 #	ttb is the number of times an user can be kicked
 #	before it get banned. Don't give ttb to disable
 #	the ban system once activated.
-	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	あるユーザーが ttb 回キックされるとこのユーザーをバンします。
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_BADWORDS
@@ -7796,7 +7796,7 @@ BOT_HELP_KICK_BADWORDS
 #	option tells the bot to kick users who say certain words
 #	on the channels.
 	禁止ワードキッカーの有効無効を切り替えます。
-	有効の場合、ボットは 禁止ワードを発言したユーザをキックします。
+	有効の場合、ボットは 禁止ワードを発言したユーザーをキックします。
 
 #	You can define bad words for your channel using the
 #	BADWORDS command. Type %R%S HELP BADWORDS for
@@ -7808,7 +7808,7 @@ BOT_HELP_KICK_BADWORDS
 #	ttb is the number of times an user can be kicked
 #	before it get banned. Don't give ttb to disable
 #	the ban system once activated.
-	あるユーザが ttb 回キックされるとこのユーザをバンします。
+	あるユーザーが ttb 回キックされるとこのユーザーをバンします。
 	バン機能を使わない場合は ttb を指定しないでください。
 	
 BOT_HELP_BADWORDS
@@ -7893,7 +7893,7 @@ BOT_SERVADMIN_HELP_BOT
 #	bots that users will be able to use on their own
 #	channels.
 	サービス管理者にボットを作成、変更、削除する許可を与えます。
-	ユーザは自分のチャンネルでこのボットを使うことができます。
+	ユーザーは自分のチャンネルでこのボットを使うことができます。
 	
 #	BOT ADD adds a bot with the given nickname, username,
 #	hostname and realname. Since no integrity checks are done 
@@ -7902,10 +7902,10 @@ BOT_SERVADMIN_HELP_BOT
 #	or realname of a bot without actually delete it (and all
 #	the data associated with it).
 #	BOT DEL removes the given bot from the bot list.  
-	BOT ADD は指定されたニックネーム、ユーザ名、ホスト名、
+	BOT ADD は指定されたニックネーム、ユーザー名、ホスト名、
 	実名でボットを追加します。設定項目に関して整合性のチェック
 	は行われないので、十分気をつけてください。
-	BOT CHANGE は指定されたニックネーム、ユーザ名、ホスト名、
+	BOT CHANGE は指定されたニックネーム、ユーザー名、ホスト名、
 	実名でボットの設定内容を変更します。ボットの削除を行わないので、
 	全ての設定内容は引き継がれます。
 	BOT DEL は指定されたボットをボットリストから削除します。
@@ -7915,7 +7915,7 @@ BOT_SERVADMIN_HELP_BOT
 #	using the nick, they will be killed.
 	注意: 登録済みのニックネームで新規にボットを作成することは
 	できません。引数で指定されたニックネームを使用中の未登録
-	ユーザがいる場合は、このユーザを kill します。
+	ユーザーがいる場合は、このユーザーを kill します。
 
 BOT_SERVADMIN_HELP_SET
 	
@@ -7927,7 +7927,7 @@ BOT_SERVADMIN_HELP_SET
 #	    PRIVATE          Prevent a bot from being assigned by
 #	                        non IRC operators
 	    NOBOT            チャンネルでのボット召喚を禁止します。
-	    PRIVATE          IRC オペレータ以外のユーザによる
+	    PRIVATE          IRC オペレーター以外のユーザーによる
 	                        ボット召喚を禁止します。
 
 BOT_SERVADMIN_HELP_SET_NOBOT
@@ -7946,7 +7946,7 @@ BOT_SERVADMIN_HELP_SET_PRIVATE
 
 #	This option prevents a bot from being assigned to a
 #	channel by users that aren't IRC operators.
-	IRC オペレータでないユーザによるボット召喚を禁止
+	IRC オペレーターでないユーザーによるボット召喚を禁止
 	するか否かを設定します。
 
 ###########################################################################
@@ -7994,7 +7994,7 @@ HOST_SET_IDENTTOOLONG
 	エラー！ ident が長すぎます。%d 文字以下にしてください。
 HOST_NOREG
 #	User %s not found in the nickserv db.
-	ユーザ %s が nickserv のデータベースに見つかりません。
+	ユーザー %s が nickserv のデータベースに見つかりません。
 HOST_SET_SYNTAX
 	SET <nick> <hostmask>.
 HOST_SETALL_SYNTAX
@@ -8004,7 +8004,7 @@ HOST_DENIED
 	アクセスが拒否されました。
 HOST_NOT_ASSIGNED
 #	Please contact an Operator to get a vhost assigned to this nick.
-	このニックネームにバーチャルホストを割り当てるには、サーバオペレータに連絡を取ってください。
+	このニックネームにバーチャルホストを割り当てるには、サーバーオペレーターに連絡を取ってください。
 HOST_ACTIVATED
 #	Your vhost of %s is now activated.
 	あなたのバーチャルホスト %s を有効化しました。
@@ -8062,23 +8062,23 @@ HOST_HELP_CMD_OFF
 
 HOST_HELP_CMD_GROUP
 #	    GROUP       Syncs the vhost for all nicks in a group
-	    GROUP       グループ内のユーザ全員のバーチャルホストを同じものに変更します。
+	    GROUP       グループ内のユーザー全員のバーチャルホストを同じものに変更します。
 
 HOST_HELP_CMD_SET
 #	    SET         Set the vhost of another user
-	    SET         別のユーザのバーチャルホストを設定します。
+	    SET         別のユーザーのバーチャルホストを設定します。
 
 HOST_HELP_CMD_SETALL
 #	    SETALL      Set the vhost for all nicks in a group
-	    SETALL      グループ内のユーザ全員のバーチャルホストを設定します
+	    SETALL      グループ内のユーザー全員のバーチャルホストを設定します
 
 HOST_HELP_CMD_DEL
 #	    DEL         Delete the vhost of another user
-	    DEL         別のユーザのバーチャルホストを削除します。
+	    DEL         別のユーザーのバーチャルホストを削除します。
 
 HOST_HELP_CMD_DELALL
 #	    DELALL      Delete the vhost for all nicks in a group
-	    DELALL      グループ内のユーザ全員のバーチャルホストを削除します。
+	    DELALL      グループ内のユーザー全員のバーチャルホストを削除します。
 
 HOST_HELP_CMD_LIST
 #	    LIST        Displays one or more vhost entries.
@@ -8124,7 +8124,7 @@ HOST_HELP_DELALL
 #	Deletes the vhost for all nick's in the same group as
 #	that of the given nick.
 	指定されたニックネームと同じグループに所属する
-	ユーザ全員のバーチャルホスト設定を削除します。
+	ユーザー全員のバーチャルホスト設定を削除します。
 
 
 HOST_HELP_SETALL
@@ -8135,17 +8135,17 @@ HOST_HELP_SETALL
 #	using SETALL <nick> <ident>@<hostmask> will set idents
 #	for users as well as vhosts.
 	指定されたニックネームと同じグループに所属する
-	ユーザ全員のバーチャルホストを設定します。
+	ユーザー全員のバーチャルホストを設定します。
 	IRC デーモンが vIdents をサポートしていない場合は
 	SETALL <nick> <ident>@<hostmask> のように入力すると、
 	バーチャルホストに加えて idents も設定できます。
 
 #	* NOTE, this will not update the vhost for any nick's
 #	added to the group after this command was used.
-	* 注意、このコマンドはあるグループに所属するユーザの
+	* 注意、このコマンドはあるグループに所属するユーザーの
 	バーチャルホストの初期値を設定するものではありません。
 	そのため、このコマンドを実行した後にグループに追加
-	されたユーザのバーチャルホストを変更するには、
+	されたユーザーのバーチャルホストを変更するには、
 	再度同じコマンドを入力してください。
 
 HOST_HELP_OFF
@@ -8197,7 +8197,7 @@ HOST_HELP_GROUP
 #	This command allows users to set the vhost of their
 #	CURRENT nick to be the vhost for all nicks in the same
 #	group.
-	現在のニックネームと同じグループに所属するユーザ全員
+	現在のニックネームと同じグループに所属するユーザー全員
 	のバーチャルホストを現在のニックネームに対応した
 	バーチャルホストに設定します。
 
