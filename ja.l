@@ -2906,25 +2906,25 @@ BOT_BADWORDS_ADDED
 	%s が %s の禁止ワードリストに登録されました。
 BOT_BADWORDS_NO_SUCH_ENTRY
 #	No such entry (#%d) on %s bad words list.
-	#%d というエントリーは %s の禁止ワードリストに登録されていません。
+	#%d というエントリは %s の禁止ワードリストに登録されていません。
 BOT_BADWORDS_NOT_FOUND
 #	%s not found on %s bad words list.
 	%s は %s の禁止ワードリストに登録されていません。
 BOT_BADWORDS_NO_MATCH
 #	No matching entries on %s bad words list.
-	該当するエントリーが %s の禁止ワードリストに登録されていません。
+	該当するエントリが %s の禁止ワードリストに登録されていません。
 BOT_BADWORDS_DELETED
 #	%s deleted from %s bad words list.
 	%s が %s の禁止ワードリストから削除されました。
 BOT_BADWORDS_DELETED_ONE
 #	Deleted 1 entry from %s bad words list.
-	1個のエントリーが %s の禁止ワードリストから削除されました。
+	1個のエントリが %s の禁止ワードリストから削除されました。
 BOT_BADWORDS_DELETED_SEVERAL
 #	Deleted %d entries from %s bad words list.
-	%d 個のエントリーが %s の禁止ワードリストから削除されました。
+	%d 個のエントリが %s の禁止ワードリストから削除されました。
 BOT_BADWORDS_LIST_EMPTY
 #	%s bad words list is empty.
-	%s の禁止ワードリストに登録されているエントリーはありません。
+	%s の禁止ワードリストに登録されているエントリはありません。
 BOT_BADWORDS_LIST_HEADER
 #	Bad words list for %s:
 #	  Num   Word                           Type
@@ -2934,7 +2934,7 @@ BOT_BADWORDS_LIST_FORMAT
 	  %3d   %-30s %s
 BOT_BADWORDS_CLEAR
 #	Bad words list is now empty.
-	禁止ワードリストに登録されているエントリーはありません。
+	禁止ワードリストに登録されているエントリはありません。
 
 # SAY responses
 BOT_SAY_SYNTAX
@@ -3247,16 +3247,16 @@ OPER_ADMIN_NOT_FOUND
 	%s はサービス管理者リストに登録されていません。
 OPER_ADMIN_NO_MATCH
 #	No matching entries on Services admin list.
-	サービス管理者リストに該当するエントリーが見つかりませんでした。
+	サービス管理者リストに該当するエントリが見つかりませんでした。
 OPER_ADMIN_DELETED
 #	%s deleted from Services admin list.
 	%s がサービス管理者リストから削除されました。
 OPER_ADMIN_DELETED_ONE
 #	Deleted 1 entry from Services admin list.
-	1 個のエントリーがサービス管理者リストから削除されました。
+	1 個のエントリがサービス管理者リストから削除されました。
 OPER_ADMIN_DELETED_SEVERAL
 #	Deleted %d entries from Services admin list.
-	%d 個のエントリーがサービス管理者リストから削除されました。
+	%d 個のエントリがサービス管理者リストから削除されました。
 OPER_ADMIN_LIST_EMPTY
 #	Services admin list is empty.
 	サービス管理者リストが空です。
@@ -3294,16 +3294,16 @@ OPER_OPER_NOT_FOUND
 	%s はサービスオペレーターリストに登録されていません。
 OPER_OPER_NO_MATCH
 #	No matching entries on Services operator list.
-	サービスオペレーターリストに該当するエントリーが見つかりませんでした。
+	サービスオペレーターリストに該当するエントリが見つかりませんでした。
 OPER_OPER_DELETED
 #	%s deleted from Services operator list.
 	%s がサービスオペレーターリストから削除されました。
 OPER_OPER_DELETED_ONE
 #	Deleted 1 entry from Services operator list.
-	1 個のエントリーがサービスオペレーターリストから削除されました。
+	1 個のエントリがサービスオペレーターリストから削除されました。
 OPER_OPER_DELETED_SEVERAL
 #	Deleted %d entries from Services operator list.
-	%d 個のエントリーがサービスオペレーターリストから削除されました。
+	%d 個のエントリがサービスオペレーターリストから削除されました。
 OPER_OPER_LIST_EMPTY
 #	Services operator list is empty.
 	サービスオペレーターリストが空です。
@@ -3347,16 +3347,16 @@ OPER_AKILL_NOT_FOUND
 	%s は AKILL リストに登録されていません。
 OPER_AKILL_NO_MATCH
 #	No matching entries on the AKILL list.
-	AKILL リストに該当するエントリーが見つかりませんでした。
+	AKILL リストに該当するエントリが見つかりませんでした。
 OPER_AKILL_DELETED
 #	%s deleted from the AKILL list.
 	%s が AKILL リストから削除されました。
 OPER_AKILL_DELETED_ONE
 #	Deleted 1 entry from the AKILL list.
-	1 個のエントリーが AKILL リストから削除されました。
+	1 個のエントリが AKILL リストから削除されました。
 OPER_AKILL_DELETED_SEVERAL
 #	Deleted %d entries from the AKILL list.
-	%d 個のエントリーが AKILL リストから削除されました。
+	%d 個のエントリが AKILL リストから削除されました。
 OPER_AKILL_LIST_EMPTY
 #	AKILL list is empty.
 	AKILL リストが空です。
@@ -3405,16 +3405,16 @@ OPER_SGLINE_NOT_FOUND
 	%s は SGLINE リストに登録されていません。
 OPER_SGLINE_NO_MATCH
 #	No matching entries on the SGLINE list.
-	SGLINE リストに該当するエントリーが見つかりませんでした。
+	SGLINE リストに該当するエントリが見つかりませんでした。
 OPER_SGLINE_DELETED
 #	%s deleted from the SGLINE list.
 	%s が SGLINE リストから削除されました。
 OPER_SGLINE_DELETED_ONE
 #	Deleted 1 entry from the SGLINE list.
-	1 個のエントリーが SGLINE リストから削除されました。
+	1 個のエントリが SGLINE リストから削除されました。
 OPER_SGLINE_DELETED_SEVERAL
 #	Deleted %d entries from the SGLINE list.
-	%d 個のエントリーが SGLINE リストから削除されました。
+	%d 個のエントリが SGLINE リストから削除されました。
 OPER_SGLINE_LIST_EMPTY
 #	SGLINE list is empty.
 	SGLINE リストが空です。
@@ -3462,16 +3462,16 @@ OPER_SQLINE_NOT_FOUND
 	%s は SQLINE リストに登録されていません。
 OPER_SQLINE_NO_MATCH
 #	No matching entries on the SQLINE list.
-	SQLINE リストに該当するエントリーが見つかりませんでした。
+	SQLINE リストに該当するエントリが見つかりませんでした。
 OPER_SQLINE_DELETED
 #	%s deleted from the SQLINE list.
 	%s が SQLINE リストから削除されました。
 OPER_SQLINE_DELETED_ONE
 #	Deleted 1 entry from the SQLINE list.
-	1 個のエントリーが SQLINE リストから削除されました。
+	1 個のエントリが SQLINE リストから削除されました。
 OPER_SQLINE_DELETED_SEVERAL
 #	Deleted %d entries from the SQLINE list.
-	%d 個のエントリーが SQLINE リストから削除されました。
+	%d 個のエントリが SQLINE リストから削除されました。
 OPER_SQLINE_LIST_EMPTY
 #	SQLINE list is empty.
 	SQLINE リストが空です。
@@ -3522,16 +3522,16 @@ OPER_SZLINE_NOT_FOUND
 	%s は SZLINE リストに登録されていません。
 OPER_SZLINE_NO_MATCH
 #	No matching entries on the SZLINE list.
-	SZLINE リストに該当するエントリーが見つかりませんでした。
+	SZLINE リストに該当するエントリが見つかりませんでした。
 OPER_SZLINE_DELETED
 #	%s deleted from the SZLINE list.
 	%s が SZLINE リストから削除されました。
 OPER_SZLINE_DELETED_ONE
 #	Deleted 1 entry from the SZLINE list.
-	1 個のエントリーが SZLINE リストから削除されました。
+	1 個のエントリが SZLINE リストから削除されました。
 OPER_SZLINE_DELETED_SEVERAL
 #	Deleted %d entries from the SZLINE list.
-	%d 個のエントリーが SZLINE リストから削除されました。
+	%d 個のエントリが SZLINE リストから削除されました。
 OPER_SZLINE_LIST_EMPTY
 #	SZLINE list is empty.
 	SZLINE リストが空です。
@@ -3868,22 +3868,22 @@ OPER_EXCEPTION_MOVED
 	%s (#%d) に対する除外リストの番号が %d に変わりました。
 OPER_EXCEPTION_NO_SUCH_ENTRY
 #	No such entry (#%d) session-limit exception list.
-	セッション数制限からの除外リストに #%d というエントリーはありません。
+	セッション数制限からの除外リストに #%d というエントリはありません。
 OPER_EXCEPTION_NOT_FOUND
 #	%s not found on session-limit exception list.
-	セッション数制限からの除外リストに %s というエントリーはありません。
+	セッション数制限からの除外リストに %s というエントリはありません。
 OPER_EXCEPTION_NO_MATCH
 #	No matching entries on session-limit exception list.
-	セッション数制限からの除外リストに該当するエントリーはありません。
+	セッション数制限からの除外リストに該当するエントリはありません。
 OPER_EXCEPTION_DELETED
 #	%s deleted from session-limit exception list.
-	セッション数制限からの除外リストから %s というエントリーを削除しました。
+	セッション数制限からの除外リストから %s というエントリを削除しました。
 OPER_EXCEPTION_DELETED_ONE
 #	Deleted 1 entry from session-limit exception list.
-	セッション数制限からの除外リストから 1 個のエントリーを削除しました。
+	セッション数制限からの除外リストから 1 個のエントリを削除しました。
 OPER_EXCEPTION_DELETED_SEVERAL
 #	Deleted %d entries from session-limit exception list.
-	セッション数制限からの除外リストから %d 個のエントリーを削除しました。
+	セッション数制限からの除外リストから %d 個のエントリを削除しました。
 OPER_EXCEPTION_LIST_HEADER
 #	Current Session Limit Exception list:
 	現在のセッション数制限からの除外リスト:
@@ -3993,13 +3993,13 @@ OPER_HELP_EXCEPTION
 	から一度に受け付けるセッション数の上限値を示しています。ただし、0を
 	指定した場合はセッション数制限が無いという意味になります。
 	EXCEPTION DEL は引数で指定されたマスクを除外リストから削除します。
-	EXCEPTION MOVE は num 番目の除外エントリーを position
-	番目のエントリーに移動します。2つのエントリー間にあるエントリーは
+	EXCEPTION MOVE は num 番目の除外エントリを position
+	番目のエントリに移動します。2つのエントリ間にあるエントリは
 	順番を保存したまま上下にシフトします。
 	EXCEPTION LIST と EXCEPTION VIEW はすべての除外リストを
-	表示します。mask 引数を指定した場合は、これにマッチする除外エントリー
+	表示します。mask 引数を指定した場合は、これにマッチする除外エントリ
 	のみを表示します。2 つの違いは、EXCEPTION VIEW の方が詳細
-	(除外エントリーを設定した人の名前、セッション数の上限値、その理由、
+	(除外エントリを設定した人の名前、セッション数の上限値、その理由、
 	ホストマスク、失効日時を表示します。) という点です。
 	
 #	Note that a connecting client will "use" the first exception
@@ -6650,8 +6650,8 @@ OPER_HELP_OPER
 #	Services operator list.  If a list of entry numbers is given, 
 #	those entries are deleted.  (See the example for LIST below.)
 	OPER DEL コマンドは指定されたニックネームを
-	サービスオペレーターリストから削除します。エントリー番号が指定
-	された場合は、番号に対応したエントリーが削除されます。(LIST
+	サービスオペレーターリストから削除します。エントリ番号が指定
+	された場合は、番号に対応したエントリが削除されます。(LIST
 	コマンドの例を参照してください。)
 	
 #	The OPER LIST command displays the Services operator list.  
@@ -6660,20 +6660,20 @@ OPER_HELP_OPER
 #	only those entries are shown; for example:
 	OPER LIST コマンドはサービスオペレーターリストを表示します。
 	ワイルドカードマスクが指定された場合は、このマスクに該当する
-	エントリーのみが表示されます。エントリー番号が指定された場合は、
-	それらに対応したエントリーのみが表示されます。例えば以下の
+	エントリのみが表示されます。エントリ番号が指定された場合は、
+	それらに対応したエントリのみが表示されます。例えば以下の
 	ような感じです。
 
 	   OPER LIST 2-5,7-9
 #	      Lists Services operator entries numbered 2 through 
 #	      5 and 7 through 9.
 	      2から5番目と7から9番目のサービスオペレーターの
-	      エントリーを表示します。
+	      エントリを表示します。
 	      
 #	The OPER CLEAR command clears all entries of the
 #	Services operator list.
 	OPER CLEAR コマンドはサービスオペレーターリストの
-	全てのエントリーを削除します。
+	全てのエントリを削除します。
 	
 #	Any IRC operator may use the OPER LIST form of the command.
 	IRC オペレーターであれば誰でも OPER LIST 型のコマンドを使用できます。
@@ -6703,8 +6703,8 @@ OPER_HELP_ADMIN
 #	Services admin list.  If a list of entry numbers is given,
 #	those entries are deleted.  (See the example for LIST below.)
 	ADMIN DEL コマンドは指定されたニックネームを
-	サービス管理者リストから削除します。エントリー番号が指定
-	された場合は、番号に対応したエントリーが削除されます。(LIST
+	サービス管理者リストから削除します。エントリ番号が指定
+	された場合は、番号に対応したエントリが削除されます。(LIST
 	コマンドの例を参照してください。)
 	
 #	The ADMIN LIST command displays the Services admin list.  
@@ -6713,20 +6713,20 @@ OPER_HELP_ADMIN
 #	only those entries are shown; for example:
 	ADMIN LIST コマンドはサービス管理者リストを表示します。
 	ワイルドカードマスクが指定された場合は、このマスクに該当する
-	エントリーのみが表示されます。エントリー番号が指定された場合は、
-	それらに対応したエントリーのみが表示されます。例えば以下の
+	エントリのみが表示されます。エントリ番号が指定された場合は、
+	それらに対応したエントリのみが表示されます。例えば以下の
 	ような感じです。
 
 	   ADMIN LIST 2-5,7-9
 #	      Lists Services admin entries numbered 2 through 
 #	      5 and 7 through 9.
 	      2から5番目と7から9番目のサービス管理者の
-	      エントリーを表示します。
+	      エントリを表示します。
 	      
 #	The ADMIN CLEAR command clears all entries of the
 #	Services admin list.
 	ADMIN CLEAR コマンドはサービス管理者リストの
-	全てのエントリーを削除します。
+	全てのエントリを削除します。
 	
 #	Any IRC operator may use the ADMIN LIST form of the command.
 #	All other use limited to Services root.
@@ -6869,8 +6869,8 @@ OPER_HELP_AKILL
 #	given, those entries are deleted.  (See the example for LIST 
 #	below.)
 	AKILL DEL コマンドは指定されたマスクを AKILL リストから
-	削除します。エントリー番号が指定された場合は、番号に該当する
-	エントリーを削除します。(LIST コマンドの例を参照してください)
+	削除します。エントリ番号が指定された場合は、番号に該当する
+	エントリを削除します。(LIST コマンドの例を参照してください)
 	
 #	The AKILL LIST command displays the AKILL list.  
 #	If a wildcard mask is given, only those entries matching the
@@ -6878,21 +6878,21 @@ OPER_HELP_AKILL
 #	only those entries are shown; for example:
 	AKILL LIST コマンドは AKILL リストを表示します。
 	ワイルドカードを指定した場合、このワイルドカードに該当
-	するエントリーのみが表示されます。エントリー番号を
-	指定した場合、番号に該当するエントリーのみが表示されます。
+	するエントリのみが表示されます。エントリ番号を
+	指定した場合、番号に該当するエントリのみが表示されます。
 	例えば、以下の様です。
 
 	   AKILL LIST 2-5,7-9
 #	      Lists AKILL entries numbered 2 through 5 and 7 
 #	      through 9.
-	      2から5番と7から9番の AKILL エントリーを表示します。
+	      2から5番と7から9番の AKILL エントリを表示します。
 	      
 #	AKILL VIEW is a more verbose version of AKILL LIST, and 
 #	will show who added an AKILL, the date it was added, and when 
 #	it expires, as well as the user@host/ip mask and reason.
 	AKILL VIEW は AKILL LIST を詳細にしたもので、
 	AKILL の user@host か ip マスクとその理由に加えて、
-	このエントリーを追加したメンバー、追加日、失効日を表示します。
+	このエントリを追加したメンバー、追加日、失効日を表示します。
 	
 #	AKILL CLEAR clears all entries of the AKILL list.
 	AKILL CLEAR コマンドは AKILL リストを削除します。
@@ -6943,8 +6943,8 @@ OPER_HELP_SGLINE
 #	given, those entries are deleted.  (See the example for LIST 
 #	below.)
 	SGLINE DEL コマンドは指定されたマスクを SGLINE リストから
-	削除します。エントリー番号が指定された場合は、番号に該当する
-	エントリーを削除します。(LIST コマンドの例を参照してください)
+	削除します。エントリ番号が指定された場合は、番号に該当する
+	エントリを削除します。(LIST コマンドの例を参照してください)
 	
 #	The SGLINE LIST command displays the SGLINE list.  
 #	If a wildcard mask is given, only those entries matching the
@@ -6952,21 +6952,21 @@ OPER_HELP_SGLINE
 #	only those entries are shown; for example:
 	SGLINE LIST コマンドは SGLINE リストを表示します。
 	ワイルドカードを指定した場合、このワイルドカードに該当
-	するエントリーのみが表示されます。エントリー番号を
-	指定した場合、番号に該当するエントリーのみが表示されます。
+	するエントリのみが表示されます。エントリ番号を
+	指定した場合、番号に該当するエントリのみが表示されます。
 	例えば、以下の様です。
 
 	   SGLINE LIST 2-5,7-9
 #	      Lists SGLINE entries numbered 2 through 5 and 7 
 #	      through 9.
-	      2から5番と7から9番の SGLINE エントリーを表示します。
+	      2から5番と7から9番の SGLINE エントリを表示します。
 	      
 #	SGLINE VIEW is a more verbose version of SGLINE LIST, and 
 #	will show who added an SGLINE, the date it was added, and when 
 #	it expires, as well as the realname mask and reason.
 	SGLINE VIEW は SGLINE LIST を詳細にしたもので、
 	SGLINE の実ユーザー名マスクとその理由に加えて、
-	このエントリーを追加したメンバー、追加日、失効日を表示します。
+	このエントリを追加したメンバー、追加日、失効日を表示します。
 	
 #	SGLINE CLEAR clears all entries of the SGLINE list.
 	SGLINE CLEAR コマンドは SGLINE リストを削除します。
@@ -7021,8 +7021,8 @@ OPER_HELP_SQLINE
 #	given, those entries are deleted.  (See the example for LIST 
 #	below.)
 	SQLINE DEL コマンドは指定されたマスクを SQLINE リストから
-	削除します。エントリー番号が指定された場合は、番号に該当する
-	エントリーを削除します。(LIST コマンドの例を参照してください)
+	削除します。エントリ番号が指定された場合は、番号に該当する
+	エントリを削除します。(LIST コマンドの例を参照してください)
 	
 #	The SQLINE LIST command displays the SQLINE list.  
 #	If a wildcard mask is given, only those entries matching the
@@ -7030,21 +7030,21 @@ OPER_HELP_SQLINE
 #	only those entries are shown; for example:
 	SQLINE LIST コマンドは SQLINE リストを表示します。
 	ワイルドカードを指定した場合、このワイルドカードに該当
-	するエントリーのみが表示されます。エントリー番号を
-	指定した場合、番号に該当するエントリーのみが表示されます。
+	するエントリのみが表示されます。エントリ番号を
+	指定した場合、番号に該当するエントリのみが表示されます。
 	例えば、以下の様です。
 
 	   SQLINE LIST 2-5,7-9
 #	      Lists SQLINE entries numbered 2 through 5 and 7 
 #	      through 9.
-	      2から5番と7から9番の SQLINE エントリーを表示します。
+	      2から5番と7から9番の SQLINE エントリを表示します。
 	      
 #	SQLINE VIEW is a more verbose version of SQLINE LIST, and 
 #	will show who added an SQLINE, the date it was added, and when 
 #	it expires, as well as the mask and reason.
 	SQLINE VIEW は SQLINE LIST を詳細にしたもので、
 	SQLINE のマスクとその理由に加えて、
-	このエントリーを追加したメンバー、追加日、失効日を表示します。
+	このエントリを追加したメンバー、追加日、失効日を表示します。
 	
 #	SQLINE CLEAR clears all entries of the SQLINE list.
 	SQLINE CLEAR コマンドは SQLINE リストを削除します。
@@ -7093,8 +7093,8 @@ OPER_HELP_SZLINE
 #	given, those entries are deleted.  (See the example for LIST 
 #	below.)
 	SZLINE DEL コマンドは指定されたマスクを SZLINE リストから
-	削除します。エントリー番号が指定された場合は、番号に該当する
-	エントリーを削除します。(LIST コマンドの例を参照してください)
+	削除します。エントリ番号が指定された場合は、番号に該当する
+	エントリを削除します。(LIST コマンドの例を参照してください)
 	
 #	The SZLINE LIST command displays the SZLINE list.  
 #	If a wildcard mask is given, only those entries matching the
@@ -7102,21 +7102,21 @@ OPER_HELP_SZLINE
 #	only those entries are shown; for example:
 	SZLINE LIST コマンドは SZLINE リストを表示します。
 	ワイルドカードを指定した場合、このワイルドカードに該当
-	するエントリーのみが表示されます。エントリー番号を
-	指定した場合、番号に該当するエントリーのみが表示されます。
+	するエントリのみが表示されます。エントリ番号を
+	指定した場合、番号に該当するエントリのみが表示されます。
 	例えば、以下の様です。
 
 	   SZLINE LIST 2-5,7-9
 #	      Lists SZLINE entries numbered 2 through 5 and 7 
 #	      through 9.
-	      2から5番と7から9番の SZLINE エントリーを表示します。
+	      2から5番と7から9番の SZLINE エントリを表示します。
 	      
 #	SZLINE VIEW is a more verbose version of SZLINE LIST, and 
 #	will show who added an SZLINE, the date it was added, and when
 #	it expires, as well as the IP mask and reason.
 	SZLINE VIEW は SZLINE LIST を詳細にしたもので、
 	SZLINE の IP アドレスマスクとその理由に加えて、
-	このエントリーを追加したメンバー、追加日、失効日を表示します。
+	このエントリを追加したメンバー、追加日、失効日を表示します。
 	
 #	SZLINE CLEAR clears all entries of the SZLINE list.
 	SZLINE CLEAR コマンドは SZLINE リストを削除します。
@@ -7846,7 +7846,7 @@ BOT_HELP_BADWORDS
 #	bad words list.  If a list of entry numbers is given, those
 #	entries are deleted.  (See the example for LIST below.)
 	BADWORDS DEL コマンドは、指定されたワードを禁止ワード
-	リストから削除します。エントリー番号が指定された場合は、
+	リストから削除します。エントリ番号が指定された場合は、
 	この番号に対応した禁止ワードを削除します。(LISTの例も
 	参照してください。)
 	
@@ -7856,18 +7856,18 @@ BOT_HELP_BADWORDS
 #	only those entries are shown; for example:
 	BADWORDS LIST コマンドは、禁止ワードリストを表示します。
 	ワイルドカードマスクが指定された場合は、このマスクに該当する
-	エントリーのみを表示します。エントリー番号が指定された場合は、
+	エントリのみを表示します。エントリ番号が指定された場合は、
 	指定されたものだけを表示します。例えば、以下のように指定できます。
 
 	   BADWORDS #channel LIST 2-5,7-9
 #	      Lists bad words entries numbered 2 through 5 and
 #	      7 through 9.
-	      2から5番目と7から9番目の禁止ワードエントリーを表示します。
+	      2から5番目と7から9番目の禁止ワードエントリを表示します。
 	      
 #	The BADWORDS CLEAR command clears all entries of the
 #	bad words list.
 	BADWORDS CLEAR コマンドは、禁止ワードリストに登録されている
-	全てのエントリーを削除します。
+	全てのエントリを削除します。
 
 BOT_HELP_SAY
 	Syntax: SAY channel text
@@ -8082,7 +8082,7 @@ HOST_HELP_CMD_DELALL
 
 HOST_HELP_CMD_LIST
 #	    LIST        Displays one or more vhost entries.
-	    LIST        バーチャルホストエントリーを表示します。
+	    LIST        バーチャルホストエントリを表示します。
 
 HOST_OPER_HELP
 #	not used.
@@ -8175,20 +8175,20 @@ HOST_HELP_LIST
 #	entries beginning with "Rob"
 	登録済みバーチャルホストを表示します。
 	Key が指定された場合は、ニックネームかバーチャルホスト
-	が <key> にマッチするエントリーのみを表示します。
+	が <key> にマッチするエントリのみを表示します。
 	例えば、Rob* と指定された場合は、"Rob" が含まれる
-	すべてのエントリーを表示します。
+	すべてのエントリを表示します。
 
 #	If a #X-Y style is used, only entries between the range of X
 #	and Y will be displayed, e.g. #1-3 will display the first 3
 #	nick/vhost entries.
-	#X-Y 形式が指定された場合は、XからY番目のエントリーを表示
+	#X-Y 形式が指定された場合は、XからY番目のエントリを表示
 	します。例えば、#1-3 と指定された場合は、ニックネーム/
-	バーチャルホストエントリーの最初から3つを表示します。
+	バーチャルホストエントリの最初から3つを表示します。
 
 #	The list uses the value of NSListMax as a hard limit for the
 #	number of items to display to a operator at any 1 time.
-	1回に表示するエントリー数の上限値は NSListMax で指定します。
+	1回に表示するエントリ数の上限値は NSListMax で指定します。
 
 
 HOST_HELP_GROUP
