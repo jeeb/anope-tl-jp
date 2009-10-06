@@ -3585,13 +3585,13 @@ OPER_SET_LOGCHAN_ERROR
 	LOGCHAN の setting 引数は ON か OFF のどちらかにし、LogChannel を定義してください。
 OPER_SET_DEBUG_ON
 #	Services are now in debug mode.
-	サービスをデバックモードに設定しました。
+	サービスをデバッグモードに設定しました。
 OPER_SET_DEBUG_OFF
 #	Services are now in non-debug mode.
-	サービスのデバックモードを解除しました。
+	サービスのデバッグモードを解除しました。
 OPER_SET_DEBUG_LEVEL
 #	Services are now in debug mode (level %d).
-	サービスをデバックモード(デバックレベル %d)に設定しました。
+	サービスをデバッグモード(デバッグレベル %d)に設定しました。
 OPER_SET_DEBUG_ERROR
 #	Setting for DEBUG must be ON, OFF, or a positive number.
 	DEBUG の setting 引数は ON か OFF か正数のどれかにしてください。
@@ -7202,7 +7202,7 @@ OPER_HELP_SET_DEBUG
 	デバッグモードの有効無効を切り替えます。デバッグモードでは
 	サービスが送受信する全てのデータに加えて多くのデバッグメッセージ
 	がログファイルに記録されます。num を指定した場合は、
-	デバックモードが有効になり、デバッグレベルが num に
+	デバッグモードが有効になり、デバッグレベルが num に
 	設定されます。
 
 #	This option is equivalent to the command-line option
