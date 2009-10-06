@@ -3943,7 +3943,8 @@ OPER_SESSION_VIEW_FORMAT
 # EXCEPTION help
 
 OPER_HELP_EXCEPTION
-	Syntax: EXCEPTION ADD [+expiry] mask limit reason
+#	Syntax: EXCEPTION ADD [+expiry] mask limit reason
+	構文:   EXCEPTION ADD [+expiry] mask limit reason
 	        EXCEPTION DEL {mask | list}
 	        EXCEPTION MOVE num position
 	        EXCEPTION LIST [mask | list]
@@ -4011,7 +4012,8 @@ OPER_HELP_EXCEPTION
 	パフォーマンスを低下させます。
 
 OPER_HELP_SESSION
-	Syntax: SESSION LIST threshold
+#	Syntax: SESSION LIST threshold
+	構文:   SESSION LIST threshold
 	        SESSION VIEW host
 	
 #	Allows Services admins to view the session list.
@@ -4040,7 +4042,8 @@ OPER_HELP_SESSION
 	ヘルプも参照してください。
 
 OPER_HELP_STAFF
-	Syntax: STAFF
+#	Syntax: STAFF
+	構文:   STAFF
 
 #	Displays all Services Staff nicks along with level
 #	and on-line status.
@@ -4048,7 +4051,8 @@ OPER_HELP_STAFF
 	とオンラインか否かを表示します。
 
 OPER_HELP_DEFCON
-	Syntax: DEFCON [1|2|3|4|5]
+#	Syntax: DEFCON [1|2|3|4|5]
+	構文:   DEFCON [1|2|3|4|5]
 
 #	The defcon system can be used to implement a pre-defined
 #	set of restrictions to services useful during an attempted
@@ -4088,7 +4092,8 @@ OPER_HELP_DEFCON_NO_NEW_MEMOS
 #	* No new memos sent
 	* 新規メモの送信を禁止します。
 OPER_HELP_CHANKILL
-	Syntax: CHANKILL [+expiry] channel reason
+#	Syntax: CHANKILL [+expiry] channel reason
+	構文:   CHANKILL [+expiry] channel reason
 
 #	Puts an AKILL for every nick on the specified channel. It
 #	uses the entire and complete real ident@host for every nick,
@@ -4213,7 +4218,8 @@ NEWS_RANDOM_DELETED_ALL
 	ランダムニュースを全て削除しました。
 
 NEWS_HELP_LOGON
-	Syntax: LOGONNEWS ADD text
+#	Syntax: LOGONNEWS ADD text
+	構文:   LOGONNEWS ADD text
 		LOGONNEWS DEL {num | ALL}
 		LOGONNEWS LIST
 	
@@ -4234,7 +4240,8 @@ NEWS_HELP_LOGON
 
 
 NEWS_HELP_OPER
-	Syntax: OPERNEWS ADD text
+#	Syntax: OPERNEWS ADD text
+	構文:   OPERNEWS ADD text
 		OPERNEWS DEL {num | ALL}
 		OPERNEWS LIST
 	
@@ -4255,7 +4262,8 @@ NEWS_HELP_OPER
 	OPERNEWS はサービス管理者以外は使えない。
 
 NEWS_HELP_RANDOM
-	Syntax: RANDOMNEWS ADD text
+#	Syntax: RANDOMNEWS ADD text
+	構文:   RANDOMNEWS ADD text
 		RANDOMNEWS DEL {num | ALL}
 		RANDOMNEWS LIST
 	
@@ -4415,7 +4423,8 @@ NICK_HELP_EXPIRES
 	after %d days if not used.
 
 NICK_HELP_REGISTER
-	Syntax: REGISTER password [email]
+#	Syntax: REGISTER password [email]
+	構文:   REGISTER password [email]
 	
 	Registers your nickname in the %S database.  Once
 	your nick is registered, you can use the SET and ACCESS
@@ -4448,7 +4457,8 @@ NICK_HELP_REGISTER
 	feature, type %R%S HELP GROUP.
 	
 NICK_HELP_GROUP
-	Syntax: GROUP target password
+#	Syntax: GROUP target password
+	構文:   GROUP target password
 	
 	This command makes your nickname join the target nickname's 
 	group. password is the password of the target nickname.
@@ -4480,7 +4490,8 @@ NICK_HELP_GROUP
 	Note: all the nicknames of a group have the same password.
 
 NICK_HELP_IDENTIFY
-	Syntax: IDENTIFY password
+#	Syntax: IDENTIFY password
+	構文:   IDENTIFY password
 	
 	Tells %S that you are really the owner of this
 	nick.  Many commands require you to authenticate yourself
@@ -4489,14 +4500,16 @@ NICK_HELP_IDENTIFY
 	command.
 
 NICK_HELP_UPDATE
-	Syntax: UPDATE
+#	Syntax: UPDATE
+	構文:   UPDATE
 
 	Updates your current status, i.e. it checks for new memos,
 	sets needed chanmodes (ModeonID) and updates your vhost and
 	your userflags (lastseentime, etc).
 	
 NICK_HELP_LOGOUT
-	Syntax: LOGOUT
+#	Syntax: LOGOUT
+	構文:   LOGOUT
 	
 	This reverses the effect of the IDENTIFY command, i.e.
 	make you not recognized as the real owner of the nick
@@ -4504,7 +4517,8 @@ NICK_HELP_LOGOUT
 	yourself.
 
 NICK_HELP_DROP
-	Syntax: DROP [nickname]
+#	Syntax: DROP [nickname]
+	構文:   DROP [nickname]
 	
 	Drops your nickname from the %S database.  A nick
 	that has been dropped is free for anyone to re-register.
@@ -4517,7 +4531,8 @@ NICK_HELP_DROP
 	information).
 
 NICK_HELP_ACCESS
-	Syntax: ACCESS ADD mask
+#	Syntax: ACCESS ADD mask
+	構文:   ACCESS ADD mask
 	        ACCESS DEL mask
 	        ACCESS LIST
 	
@@ -4541,7 +4556,8 @@ NICK_HELP_ACCESS
 	        Displays the current access list.
 
 NICK_HELP_SET
-	Syntax: SET option parameters
+#	Syntax: SET option parameters
+	構文:   SET option parameters
 	
 	Sets various nickname options.  option can be one of:
 	
@@ -4569,19 +4585,22 @@ NICK_HELP_SET
 	on a specific option.
 
 NICK_HELP_SET_DISPLAY
-	Syntax: SET DISPLAY new-display
+#	Syntax: SET DISPLAY new-display
+	構文:   SET DISPLAY new-display
 	
 	Changes the display used to refer to your nickname group in 
 	Services. The new display MUST be a nick of your group.
 
 NICK_HELP_SET_PASSWORD
-	Syntax: SET PASSWORD new-password
+#	Syntax: SET PASSWORD new-password
+	構文:   SET PASSWORD new-password
 	
 	Changes the password used to identify you as the nick's
 	owner.
 
 NICK_HELP_SET_LANGUAGE
-	Syntax: SET LANGUAGE number
+#	Syntax: SET LANGUAGE number
+	構文:   SET LANGUAGE number
 	
 	Changes the language Services uses when sending messages to
 	you (for example, when responding to a command you send).
@@ -4590,28 +4609,32 @@ NICK_HELP_SET_LANGUAGE
 	
 
 NICK_HELP_SET_URL
-	Syntax: SET URL url
+#	Syntax: SET URL url
+	構文:   SET URL url
 	
 	Associates the given URL with your nickname.  This URL
 	will be displayed whenever someone requests information
 	on your nick with the INFO command.
 
 NICK_HELP_SET_EMAIL
-	Syntax: SET EMAIL address
+#	Syntax: SET EMAIL address
+	構文:   SET EMAIL address
 	
 	Associates the given E-mail address with your nickname.
 	This address will be displayed whenever someone requests
 	information on the nickname with the INFO command.
 	
 NICK_HELP_SET_ICQ
-	Syntax: SET ICQ number
+#	Syntax: SET ICQ number
+	構文:   SET ICQ number
 	
 	Associates the given ICQ number with your nickname.  This 
 	number will be displayed whenever someone requests 
 	information on your nick with the INFO command.
 	
 NICK_HELP_SET_GREET
-	Syntax: SET GREET message
+#	Syntax: SET GREET message
+	構文:   SET GREET message
 	
 	Makes the given message the greet of your nickname, that
 	will be displayed when joining a channel that has GREET
@@ -4619,7 +4642,8 @@ NICK_HELP_SET_GREET
 	access on it.
 
 NICK_HELP_SET_KILL
-	Syntax: SET KILL {ON | QUICK | IMMED | OFF}
+#	Syntax: SET KILL {ON | QUICK | IMMED | OFF}
+	構文:   SET KILL {ON | QUICK | IMMED | OFF}
 	
 	Turns the automatic protection option for your nick
 	on or off.  With protection on, if another user
@@ -4635,7 +4659,8 @@ NICK_HELP_SET_KILL
 	network's administrators may have disabled this option.
 
 NICK_HELP_SET_SECURE
-	Syntax: SET SECURE {ON | OFF}
+#	Syntax: SET SECURE {ON | OFF}
+	構文:   SET SECURE {ON | OFF}
 	
 	Turns %S's security features on or off for your
 	nick.  With SECURE set, you must enter your password
@@ -4646,7 +4671,8 @@ NICK_HELP_SET_SECURE
 	KILL option.
 
 NICK_HELP_SET_PRIVATE
-	Syntax: SET PRIVATE {ON | OFF}
+#	Syntax: SET PRIVATE {ON | OFF}
+	構文:   SET PRIVATE {ON | OFF}
 	
 	Turns %S's privacy option on or off for your nick.
 	With PRIVATE set, your nickname will not appear in
@@ -4655,7 +4681,8 @@ NICK_HELP_SET_PRIVATE
 	information on it using the INFO command.)
 
 NICK_HELP_SET_HIDE
-	Syntax: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
+#	Syntax: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
+	構文:   SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	
 	Allows you to prevent certain pieces of information from
 	being displayed when someone does a %S INFO on your
@@ -4666,20 +4693,23 @@ NICK_HELP_SET_HIDE
 	be displayed (OFF) or hidden (ON).
 	
 NICK_HELP_SET_MSG
-	Syntax: SET MSG {ON | OFF}
+#	Syntax: SET MSG {ON | OFF}
+	構文:   SET MSG {ON | OFF}
 	
 	Allows you to choose the way Services are communicating with 
 	you. With MSG set, Services will use messages, else they'll 
 	use notices.
 
 NICK_HELP_SET_AUTOOP
-	Syntax: SET AUTOOP {ON | OFF}
+#	Syntax: SET AUTOOP {ON | OFF}
+	構文:   SET AUTOOP {ON | OFF}
 	
 	Sets whether you will be opped automatically. Set to ON to 
 	allow ChanServ to op you automatically when entering channels.
 
 NICK_HELP_SASET
-	Syntax: SASET nickname option parameters.
+#	Syntax: SASET nickname option parameters.
+	構文:   SASET nickname option parameters.
 	
 	Sets various nickname options.  option can be one of:
 	
@@ -4705,37 +4735,43 @@ NICK_HELP_SASET
 	nickname. 
 
 NICK_HELP_SASET_DISPLAY
-	Syntax: SASET nickname DISPLAY new-display
+#	Syntax: SASET nickname DISPLAY new-display
+	構文:   SASET nickname DISPLAY new-display
 	
 	Changes the display used to refer to the nickname group in 
 	Services. The new display MUST be a nick of the group.
 
 NICK_HELP_SASET_PASSWORD
-	Syntax: SASET nickname PASSWORD new-password
+#	Syntax: SASET nickname PASSWORD new-password
+	構文:   SASET nickname PASSWORD new-password
 	
 	Changes the password used to identify as the nick's	owner.
 
 NICK_HELP_SASET_URL
-	Syntax: SASET nickname URL url
+#	Syntax: SASET nickname URL url
+	構文:   SASET nickname URL url
 	
 	Associates the given URL with the nickname.  This URL
 	will be displayed whenever someone requests information
 	on the nick with the INFO command.
 
 NICK_HELP_SASET_EMAIL
-	Syntax: SASET nickname EMAIL address
+#	Syntax: SASET nickname EMAIL address
+	構文:   SASET nickname EMAIL address
 	
 	Associates the given E-mail address with the nickname.
 	
 NICK_HELP_SASET_ICQ
-	Syntax: SASET nickname ICQ number
+#	Syntax: SASET nickname ICQ number
+	構文:   SASET nickname ICQ number
 	
 	Associates the given ICQ number with the nickname.  This 
 	number will be displayed whenever someone requests 
 	information on the nick with the INFO command.
 	
 NICK_HELP_SASET_GREET
-	Syntax: SASET nickname GREET message
+#	Syntax: SASET nickname GREET message
+	構文:   SASET nickname GREET message
 	
 	Makes the given message the greet of the nickname, that
 	will be displayed when joining a channel that has GREET
@@ -4743,7 +4779,8 @@ NICK_HELP_SASET_GREET
 	access on it.
 
 NICK_HELP_SASET_KILL
-	Syntax: SASET nickname KILL {ON | QUICK | IMMED | OFF}
+#	Syntax: SASET nickname KILL {ON | QUICK | IMMED | OFF}
+	構文:   SASET nickname KILL {ON | QUICK | IMMED | OFF}
 	
 	Turns the automatic protection option for the nick
 	on or off.  With protection on, if another user
@@ -4759,7 +4796,8 @@ NICK_HELP_SASET_KILL
 	network's administrators may have disabled this option.
 
 NICK_HELP_SASET_SECURE
-	Syntax: SASET nickname SECURE {ON | OFF}
+#	Syntax: SASET nickname SECURE {ON | OFF}
+	構文:   SASET nickname SECURE {ON | OFF}
 	
 	Turns %S's security features on or off for your
 	nick.  With SECURE set, you must enter your password
@@ -4770,7 +4808,8 @@ NICK_HELP_SASET_SECURE
 	KILL option.
 
 NICK_HELP_SASET_PRIVATE
-	Syntax: SASET nickname PRIVATE {ON | OFF}
+#	Syntax: SASET nickname PRIVATE {ON | OFF}
+	構文:   SASET nickname PRIVATE {ON | OFF}
 	
 	Turns %S's privacy option on or off for the nick.
 	With PRIVATE set, the nickname will not appear in
@@ -4779,7 +4818,8 @@ NICK_HELP_SASET_PRIVATE
 	information on it using the INFO command.)
 
 NICK_HELP_SASET_HIDE
-	Syntax: SASET nickname HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
+#	Syntax: SASET nickname HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
+	構文:   SASET nickname HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	
 	Allows you to prevent certain pieces of information from
 	being displayed when someone does a %S INFO on the
@@ -4790,27 +4830,31 @@ NICK_HELP_SASET_HIDE
 	be displayed (OFF) or hidden (ON).
 	
 NICK_HELP_SASET_MSG
-	Syntax: SASET nickname MSG {ON | OFF}
+#	Syntax: SASET nickname MSG {ON | OFF}
+	構文:   SASET nickname MSG {ON | OFF}
 	
 	Allows you to choose the way Services are communicating with 
 	the given user. With MSG set, Services will use messages,
 	else they'll use notices.
 
 NICK_HELP_SASET_NOEXPIRE
-	Syntax: SASET nickname NOEXPIRE {ON | OFF}
+#	Syntax: SASET nickname NOEXPIRE {ON | OFF}
+	構文:   SASET nickname NOEXPIRE {ON | OFF}
 	
 	Sets whether the given nickname will expire.  Setting this
 	to ON prevents the nickname from expiring.
 
 NICK_HELP_SASET_AUTOOP
-	Syntax: SASET nickname AUTOOP {ON | OFF}
+#	Syntax: SASET nickname AUTOOP {ON | OFF}
+	構文:   SASET nickname AUTOOP {ON | OFF}
 	
 	Sets whether the given nickname will be opped automatically.
 	Set to ON to allow ChanServ to op the given nickname 
 	automatically when joining channels.
 
 NICK_HELP_SASET_LANGUAGE
-	Syntax: SASET nickname LANGUAGE number
+#	Syntax: SASET nickname LANGUAGE number
+	構文:   SASET nickname LANGUAGE number
 	
 	Changes the language Services uses when sending messages to
 	nickname (for example, when responding to a command he sends).
@@ -4818,7 +4862,8 @@ NICK_HELP_SASET_LANGUAGE
 	that you can get by typing %R%S HELP SET LANGUAGE.
 
 NICK_HELP_RECOVER
-	Syntax: RECOVER nickname [password]
+#	Syntax: RECOVER nickname [password]
+	構文:   RECOVER nickname [password]
 	
 	Allows you to recover your nickname if someone else has
 	taken it; this does the same thing that %S does
@@ -4842,7 +4887,8 @@ NICK_HELP_RECOVER
 	the nickname.
 
 NICK_HELP_RELEASE
-	Syntax: RELEASE nickname [password]
+#	Syntax: RELEASE nickname [password]
+	構文:   RELEASE nickname [password]
 	
 	Instructs %S to remove any hold on your nickname
 	caused by automatic kill protection or use of the RECOVER
@@ -4856,7 +4902,8 @@ NICK_HELP_RELEASE
 	the nickname.
 
 NICK_HELP_GHOST
-	Syntax: GHOST nickname [password]
+#	Syntax: GHOST nickname [password]
+	構文:   GHOST nickname [password]
 	
 	Terminates a "ghost" IRC session using your nick.  A
 	"ghost" session is one which is not actually connected,
@@ -4872,7 +4919,8 @@ NICK_HELP_GHOST
 	the nickname.
 
 NICK_HELP_INFO
-	Syntax: INFO nickname [ALL]
+#	Syntax: INFO nickname [ALL]
+	構文:   INFO nickname [ALL]
 	
 	Displays information about the given nickname, such as
 	the nick's owner, last seen address and time, and nick
@@ -4882,7 +4930,8 @@ NICK_HELP_INFO
 	it's hidden or not.
 
 NICK_HELP_LIST
-	Syntax: LIST pattern
+#	Syntax: LIST pattern
+	構文:   LIST pattern
 	
 	Lists all registered nicknames which match the given
 	pattern, in nick!user@host format.  Nicks with the
@@ -4902,7 +4951,8 @@ NICK_HELP_LIST
 	        domain.
 
 NICK_HELP_ALIST
-	Syntax: ALIST [level]
+#	Syntax: ALIST [level]
+	構文:   ALIST [level]
 	
 	Lists all channels you have access on. Optionally, you can specify
 	a level in XOP or ACCESS format. The resulting list will only
@@ -4925,12 +4975,14 @@ NICK_HELP_ALIST
 	prefixed by an exclamation mark.
 
 NICK_HELP_GLIST
-	Syntax: GLIST
+#	Syntax: GLIST
+	構文:   GLIST
 	
 	Lists all nicks in your group.
 
 NICK_HELP_STATUS
-	Syntax: STATUS nickname...
+#	Syntax: STATUS nickname...
+	構文:   STATUS nickname...
 	
 	Returns whether the user using the given nickname is
 	recognized as the owner of the nickname.  The response has
@@ -4951,7 +5003,8 @@ NICK_HELP_STATUS
 	will be returned.
 
 NICK_HELP_SENDPASS
-	Syntax: SENDPASS nickname
+#	Syntax: SENDPASS nickname
+	構文:   SENDPASS nickname
 	
 	Send the password of the given nickname to the e-mail address
 	set in the nickname record. This command is really useful
@@ -4962,7 +5015,8 @@ NICK_HELP_SENDPASS
 	This command is unavailable when encryption is enabled.
 
 NICK_HELP_CONFIRM
-	Syntax: CONFIRM passcode
+#	Syntax: CONFIRM passcode
+	構文:   CONFIRM passcode
 	
 	This is the second step of nickname registration process.
 	You must perform this command in order to get your nickname
@@ -4972,7 +5026,8 @@ NICK_HELP_CONFIRM
 	stage of the registration process, type: %R%S HELP REGISTER
 
 NICK_HELP_RESEND
-	Syntax: RESEND
+#	Syntax: RESEND
+	構文:   RESEND
 	
 	This command will re-send the auth code (also called passcode)
 	to the e-mail address of the user whom is performing it.
@@ -4984,7 +5039,8 @@ NICK_SERVADMIN_HELP
 	any nickname (%R%S ACCESS LIST nick).
 
 NICK_SERVADMIN_HELP_LOGOUT
-	Syntax: LOGOUT [nickname [REVALIDATE]]
+#	Syntax: LOGOUT [nickname [REVALIDATE]]
+	構文:   LOGOUT [nickname [REVALIDATE]]
 	
 	Without a parameter, reverses the effect of the IDENTIFY 
 	command, i.e. make you not recognized as the real owner of the nick
@@ -4996,7 +5052,8 @@ NICK_SERVADMIN_HELP_LOGOUT
 	to re-identify. This use limited to Services admins.
 
 NICK_SERVADMIN_HELP_DROP
-	Syntax: DROP [nickname]
+#	Syntax: DROP [nickname]
+	構文:   DROP [nickname]
 	
 	Without a parameter, drops your nickname from the
 	%S database.
@@ -5011,7 +5068,8 @@ NICK_SERVADMIN_HELP_INFO
 	Services admins may use the ALL parameter with any nick.
 
 NICK_SERVADMIN_HELP_LIST
-	Syntax: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
+#	Syntax: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
+	構文:   LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 	
 	Lists all registered nicknames which match the given
 	pattern, in nick!user@host format.  Nicks with the PRIVATE
@@ -5039,7 +5097,8 @@ NICK_SERVADMIN_HELP_LIST
 	        not expire.
 
 NICK_SERVADMIN_HELP_ALIST
-	Syntax: ALIST [nickname] [level]
+#	Syntax: ALIST [nickname] [level]
+	構文:   ALIST [nickname] [level]
 	
 	With no parameters, lists channels you have access on. With
 	one parameter, lists channels that nickname has access 
@@ -5049,7 +5108,8 @@ NICK_SERVADMIN_HELP_ALIST
 	This use limited to Services admins.
 
 NICK_SERVADMIN_HELP_GLIST
-	Syntax: GLIST [nickname]
+#	Syntax: GLIST [nickname]
+	構文:   GLIST [nickname]
 	
 	Without a parameter, lists all nicknames that are in
 	your group.
@@ -5059,7 +5119,8 @@ NICK_SERVADMIN_HELP_GLIST
 	This use limited to Services admins.
 
 NICK_SERVADMIN_HELP_GETPASS
-	Syntax: GETPASS nickname
+#	Syntax: GETPASS nickname
+	構文:   GETPASS nickname
 	
 	Returns the password for the given nickname.  Note that
 	whenever this command is used, a message including the
@@ -5069,7 +5130,8 @@ NICK_SERVADMIN_HELP_GETPASS
 	This command is unavailable when encryption is enabled.
 
 NICK_SERVADMIN_HELP_GETEMAIL
-	Syntax: GETEMAIL user@emailhost
+#	Syntax: GETEMAIL user@emailhost
+	構文:   GETEMAIL user@emailhost
 
 	Returns the matching nicks that used given email. Note that
 	you can not use wildcards for either user or emailhost. Whenever
@@ -5077,7 +5139,8 @@ NICK_SERVADMIN_HELP_GETEMAIL
 	the command and the email it was used on will be logged.
 
 NICK_SERVADMIN_HELP_FORBID
-	Syntax: FORBID nickname [reason]
+#	Syntax: FORBID nickname [reason]
+	構文:   FORBID nickname [reason]
 	
 	Disallows a nickname from being registered or used by
 	anyone.  May be cancelled by dropping the nick.
@@ -5085,12 +5148,14 @@ NICK_SERVADMIN_HELP_FORBID
 	On certain networks, reason is required.
 
 NICK_SERVADMIN_HELP_SUSPEND
-	Syntax: SUSPEND nickname reason
+#	Syntax: SUSPEND nickname reason
+	構文:   SUSPEND nickname reason
 
 	SUSPENDs a nickname from being used.
 
 NICK_SERVADMIN_HELP_UNSUSPEND
-	Syntax: UNSUSPEND nickname
+#	Syntax: UNSUSPEND nickname
+	構文:   UNSUSPEND nickname
 
 	UNSUSPENDS a nickname from being used.
 
@@ -5198,7 +5263,8 @@ CHAN_HELP_EXPIRES
 	for that period of time) will be automatically dropped.
 
 CHAN_HELP_REGISTER
-	Syntax: REGISTER channel password description
+#	Syntax: REGISTER channel password description
+	構文:   REGISTER channel password description
 	
 	Registers a channel in the %S database.  In order
 	to use this command, you must first be a channel operator
@@ -5222,7 +5288,8 @@ CHAN_HELP_REGISTER
 	%R%s HELP for information on how to do so.
 
 CHAN_HELP_IDENTIFY
-	Syntax: IDENTIFY channel password
+#	Syntax: IDENTIFY channel password
+	構文:   IDENTIFY channel password
 	
 	Authenticates you to %S as the founder of the given
 	channel.  Many commands require you to use this command
@@ -5230,7 +5297,8 @@ CHAN_HELP_IDENTIFY
 	you sent with the REGISTER command.
 	
 CHAN_HELP_LOGOUT
-	Syntax: LOGOUT channel nickname
+#	Syntax: LOGOUT channel nickname
+	構文:   LOGOUT channel nickname
 	
 	This command will log the selected nickname out meaning they 
 	would have to reidentify themselves to regain their access.
@@ -5239,13 +5307,15 @@ CHAN_HELP_LOGOUT
 	else you can only log out yourself.
 
 CHAN_HELP_DROP
-	Syntax: DROP channel
+#	Syntax: DROP channel
+	構文:   DROP channel
 	
 	Unregisters the named channel.  Can only be used by
 	channel founder, who must use the IDENTIFY command first.
 
 CHAN_HELP_SET
-	Syntax: SET channel option parameters
+#	Syntax: SET channel option parameters
+	構文:   SET channel option parameters
 	
 	Allows the channel founder to set various channel options
 	and other information.
@@ -5278,13 +5348,15 @@ CHAN_HELP_SET
 	particular option.
 
 CHAN_HELP_SET_FOUNDER
-	Syntax: SET channel FOUNDER nick
+#	Syntax: SET channel FOUNDER nick
+	構文:   SET channel FOUNDER nick
 	
 	Changes the founder of a channel.  The new nickname must
 	be a registered one.
 
 CHAN_HELP_SET_SUCCESSOR
-	Syntax: SET channel SUCCESSOR nick
+#	Syntax: SET channel SUCCESSOR nick
+	構文:   SET channel SUCCESSOR nick
 	
 	Changes the successor of a channel.  If the founder's
 	nickname expires or is dropped while the channel is still
@@ -5295,19 +5367,22 @@ CHAN_HELP_SET_SUCCESSOR
 	nickname must be a registered one.
 
 CHAN_HELP_SET_PASSWORD
-	Syntax: SET channel PASSWORD password
+#	Syntax: SET channel PASSWORD password
+	構文:   SET channel PASSWORD password
 	
 	Sets the password used to identify as the founder of the
 	channel.
 
 CHAN_HELP_SET_DESC
-	Syntax: SET channel DESC description
+#	Syntax: SET channel DESC description
+	構文:   SET channel DESC description
 	
 	Sets the description for the channel, which shows up with
 	the LIST and INFO commands.
 
 CHAN_HELP_SET_URL
-	Syntax: SET channel URL [url]
+#	Syntax: SET channel URL [url]
+	構文:   SET channel URL [url]
 	
 	Associates the given URL with the channel.  This URL will
 	be displayed whenever someone requests information on the
@@ -5315,7 +5390,8 @@ CHAN_HELP_SET_URL
 	deletes any current URL for the channel.
 
 CHAN_HELP_SET_EMAIL
-	Syntax: SET channel EMAIL [address]
+#	Syntax: SET channel EMAIL [address]
+	構文:   SET channel EMAIL [address]
 	
 	Associates the given E-mail address with the channel.
 	This address will be displayed whenever someone requests
@@ -5324,14 +5400,16 @@ CHAN_HELP_SET_EMAIL
 	the channel.
 
 CHAN_HELP_SET_ENTRYMSG
-	Syntax: SET channel ENTRYMSG [message]
+#	Syntax: SET channel ENTRYMSG [message]
+	構文:   SET channel ENTRYMSG [message]
 	
 	Sets the message which will be sent via /notice to users
 	when they enter the channel.  If no parameter is given,
 	causes no message to be sent upon entering the channel.
 
 CHAN_HELP_SET_BANTYPE
-	Syntax: SET channel BANTYPE bantype
+#	Syntax: SET channel BANTYPE bantype
+	構文:   SET channel BANTYPE bantype
 	
 	Sets the ban type that will be used by services whenever
 	they need to ban someone from your channel.
@@ -5344,7 +5422,8 @@ CHAN_HELP_SET_BANTYPE
 	3: ban in the form *!*user@*.domain
 
 CHAN_HELP_SET_KEEPTOPIC
-	Syntax: SET channel KEEPTOPIC {ON | OFF}
+#	Syntax: SET channel KEEPTOPIC {ON | OFF}
+	構文:   SET channel KEEPTOPIC {ON | OFF}
 	
 	Enables or disables the topic retention option for a
 	channel.  When topic retention is set, the topic for the
@@ -5353,7 +5432,8 @@ CHAN_HELP_SET_KEEPTOPIC
 	next time the channel is created.
 
 CHAN_HELP_SET_TOPICLOCK
-	Syntax: SET channel TOPICLOCK {ON | OFF}
+#	Syntax: SET channel TOPICLOCK {ON | OFF}
+	構文:   SET channel TOPICLOCK {ON | OFF}
 	
 	Enables or disables the topic lock option for a channel.
 	When topic lock is set, %S will not allow the
@@ -5361,7 +5441,8 @@ CHAN_HELP_SET_TOPICLOCK
 	command.
 
 CHAN_HELP_SET_MLOCK
-	Syntax: SET channel MLOCK modes
+#	Syntax: SET channel MLOCK modes
+	構文:   SET channel MLOCK modes
 	
 	Sets the mode-lock parameter for the channel. %S
 	allows you to define certain channel modes to be always
@@ -5395,7 +5476,8 @@ CHAN_HELP_SET_MLOCK
 	        to be either on or off.
 
 CHAN_HELP_SET_PEACE
-	Syntax: SET channel PEACE {ON | OFF}
+#	Syntax: SET channel PEACE {ON | OFF}
+	構文:   SET channel PEACE {ON | OFF}
 	
 	Enables or disables the peace option for a channel.
 	When peace is set, an user won't be able to kick,
@@ -5403,21 +5485,24 @@ CHAN_HELP_SET_PEACE
 	a level superior or equal to his via %S commands.
 
 CHAN_HELP_SET_PRIVATE
-	Syntax: SET channel PRIVATE {ON | OFF}
+#	Syntax: SET channel PRIVATE {ON | OFF}
+	構文:   SET channel PRIVATE {ON | OFF}
 	
 	Enables or disables the private option for a channel.
 	When private is set, a %R%S LIST will not
 	include the channel in any lists.
 
 CHAN_HELP_SET_RESTRICTED
-	Syntax: SET channel RESTRICTED {ON | OFF}
+#	Syntax: SET channel RESTRICTED {ON | OFF}
+	構文:   SET channel RESTRICTED {ON | OFF}
 	
 	Enables or disables the restricted access option for a
 	channel.  When restricted access is set, users not on
 	the access list will instead be kicked and banned from the channel.
 
 CHAN_HELP_SET_SECURE
-	Syntax: SET channel SECURE {ON | OFF}
+#	Syntax: SET channel SECURE {ON | OFF}
+	構文:   SET channel SECURE {ON | OFF}
 	
 	Enables or disables %S's security features for a
 	channel.  When SECURE is set, only users who have
@@ -5426,14 +5511,16 @@ CHAN_HELP_SET_SECURE
 	as controlled by the access list.
 
 CHAN_HELP_SET_SECUREOPS
-	Syntax: SET channel SECUREOPS {ON | OFF}
+#	Syntax: SET channel SECUREOPS {ON | OFF}
+	構文:   SET channel SECUREOPS {ON | OFF}
 	
 	Enables or disables the secure ops option for a channel.
 	When secure ops is set, users who are not on the userlist
 	will not be allowed chanop status.
 	
 CHAN_HELP_SET_SECUREFOUNDER
-	Syntax: SET channel SECUREFOUNDER {ON | OFF}
+#	Syntax: SET channel SECUREFOUNDER {ON | OFF}
+	構文:   SET channel SECUREFOUNDER {ON | OFF}
 	
 	Enables or disables the secure founder option for a channel.
 	When secure founder is set, only the real founder will be
@@ -5441,7 +5528,8 @@ CHAN_HELP_SET_SECUREFOUNDER
 	successor, and not those who are IDENTIFY'd with %S.
 	
 CHAN_HELP_SET_SIGNKICK
-	Syntax: SET channel SIGNKICK {ON | LEVEL | OFF}
+#	Syntax: SET channel SIGNKICK {ON | LEVEL | OFF}
+	構文:   SET channel SIGNKICK {ON | LEVEL | OFF}
 	
 	Enables or disables signed kicks for a
 	channel.  When SIGNKICK is set, kicks issued with
@@ -5453,7 +5541,8 @@ CHAN_HELP_SET_SIGNKICK
 	kicks signed. See %R%S HELP LEVELS for more information. 
 
 CHAN_HELP_SET_XOP
-	Syntax: SET channel XOP {ON | OFF}
+#	Syntax: SET channel XOP {ON | OFF}
+	構文:   SET channel XOP {ON | OFF}
 	
 	Enables or disables the xOP lists system for a channel.
 	When XOP is set, you have to use the AOP/SOP/VOP
@@ -5475,7 +5564,8 @@ CHAN_HELP_SET_XOP
 	causes no problem though.
 
 CHAN_HELP_SET_OPNOTICE
-	Syntax: SET channel OPNOTICE {ON | OFF}
+#	Syntax: SET channel OPNOTICE {ON | OFF}
+	構文:   SET channel OPNOTICE {ON | OFF}
 	
 	Enables or disables the op-notice option for a channel.
 	When op-notice is set, %S will send a notice to the
@@ -5483,7 +5573,8 @@ CHAN_HELP_SET_OPNOTICE
 	in the channel.
 
 CHAN_HELP_AOP
-	Syntax: AOP channel ADD nick
+#	Syntax: AOP channel ADD nick
+	構文:   AOP channel ADD nick
 	        AOP channel DEL {nick | entry-num | list}
 	        AOP channel LIST [mask | list]
 	        AOP channel CLEAR
@@ -5524,7 +5615,8 @@ CHAN_HELP_AOP
 	the access list and xOP list systems.
 
 CHAN_HELP_HOP
-	Syntax: HOP channel ADD nick
+#	Syntax: HOP channel ADD nick
+	構文:   HOP channel ADD nick
 	        HOP channel DEL {nick | entry-num | list}
 	        HOP channel LIST [mask | list]
 	        HOP channel CLEAR
@@ -5563,7 +5655,8 @@ CHAN_HELP_HOP
 	the access list and xOP list systems.
 
 CHAN_HELP_SOP
-	Syntax: SOP channel ADD nick
+#	Syntax: SOP channel ADD nick
+	構文:   SOP channel ADD nick
 	        SOP channel DEL {nick | entry-num | list}
 	        SOP channel LIST [mask | list]
 	        SOP channel CLEAR
@@ -5603,7 +5696,8 @@ CHAN_HELP_SOP
 	the access list and xOP list systems.
 
 CHAN_HELP_VOP
-	Syntax: VOP channel ADD nick
+#	Syntax: VOP channel ADD nick
+	構文:   VOP channel ADD nick
 	        VOP channel DEL {nick | entry-num | list}
 	        VOP channel LIST [mask | list]
 	        VOP channel CLEAR
@@ -5642,7 +5736,8 @@ CHAN_HELP_VOP
 	the access list and xOP list systems.
 
 CHAN_HELP_ACCESS
-	Syntax: ACCESS channel ADD nick level
+#	Syntax: ACCESS channel ADD nick level
+	構文:   ACCESS channel ADD nick level
 	        ACCESS channel DEL {nick | entry-num | list}
 	        ACCESS channel LIST [mask | list]
 	        ACCESS channel CLEAR
@@ -5702,7 +5797,8 @@ CHAN_HELP_ACCESS_LEVELS
 	information.
 
 CHAN_HELP_AKICK
-	Syntax: AKICK channel ADD {nick | mask} [reason]
+#	Syntax: AKICK channel ADD {nick | mask} [reason]
+	構文:   AKICK channel ADD {nick | mask} [reason]
 	        AKICK channel STICK mask
 	        AKICK channel UNSTICK mask
 	        AKICK channel DEL {nick | mask | entry-num | list}
@@ -5754,7 +5850,8 @@ CHAN_HELP_AKICK
 	akick list.
 
 CHAN_HELP_LEVELS
-	Syntax: LEVELS channel SET type level
+#	Syntax: LEVELS channel SET type level
+	構文:   LEVELS channel SET type level
 	        LEVELS channel {DIS | DISABLE} type
 	        LEVELS channel LIST
 	        LEVELS channel RESET
@@ -5787,7 +5884,8 @@ CHAN_HELP_LEVELS_DESC_FORMAT
 	    %-*s  %s
 
 CHAN_HELP_INFO
-	Syntax: INFO channel [ALL]
+#	Syntax: INFO channel [ALL]
+	構文:   INFO channel [ALL]
 	
 	Lists information about the named registered channel,
 	including its founder, time of registration, last time
@@ -5799,7 +5897,8 @@ CHAN_HELP_INFO
 	founder access on the channel.
 
 CHAN_HELP_LIST
-	Syntax: LIST pattern
+#	Syntax: LIST pattern
+	構文:   LIST pattern
 	
 	Lists all registered channels matching the given pattern.
 	(Channels with the PRIVATE option set are not listed.)
@@ -5807,7 +5906,8 @@ CHAN_HELP_LIST
 	are to be written without '#'.
 
 CHAN_HELP_OP
-	Syntax: OP [#channel [nick]]
+#	Syntax: OP [#channel [nick]]
+	構文:   OP [#channel [nick]]
 	
 	Ops a selected nick on a channel. If nick is not given,
 	it will op you. If channel and nick are not given,
@@ -5818,7 +5918,8 @@ CHAN_HELP_OP
 	and above on the channel.
 
 CHAN_HELP_DEOP
-	Syntax: DEOP [#channel [nick]]
+#	Syntax: DEOP [#channel [nick]]
+	構文:   DEOP [#channel [nick]]
 	
 	Deops a selected nick on a channel. If nick is not given,
 	it will deop you. If channel and nick are not given,
@@ -5829,7 +5930,8 @@ CHAN_HELP_DEOP
 	and above on the channel.
 	
 CHAN_HELP_VOICE
-	Syntax: VOICE [#channel [nick]]
+#	Syntax: VOICE [#channel [nick]]
+	構文:   VOICE [#channel [nick]]
 	
 	Voices a selected nick on a channel. If nick is not given,
 	it will voice you. If channel and nick are not given,
@@ -5841,7 +5943,8 @@ CHAN_HELP_VOICE
 	and above for self voicing.
 
 CHAN_HELP_DEVOICE
-	Syntax: DEVOICE [#channel [nick]]
+#	Syntax: DEVOICE [#channel [nick]]
+	構文:   DEVOICE [#channel [nick]]
 	
 	Devoices a selected nick on a channel. If nick is not given,
 	it will devoice you. If channel and nick are not given,
@@ -5853,7 +5956,8 @@ CHAN_HELP_DEVOICE
 	and above for self devoicing.
 	
 CHAN_HELP_HALFOP
-	Syntax: HALFOP [#channel [nick]]
+#	Syntax: HALFOP [#channel [nick]]
+	構文:   HALFOP [#channel [nick]]
 	
 	Halfops a selected nick on a channel. If nick is not given,
 	it will halfop you. If channel and nick are not given,
@@ -5865,7 +5969,8 @@ CHAN_HELP_HALFOP
 	and above for self halfopping.
 
 CHAN_HELP_DEHALFOP
-	Syntax: DEHALFOP [#channel [nick]]
+#	Syntax: DEHALFOP [#channel [nick]]
+	構文:   DEHALFOP [#channel [nick]]
 	
 	Dehalfops a selected nick on a channel. If nick is not given,
 	it will dehalfop you. If channel and nick are not given,
@@ -5877,7 +5982,8 @@ CHAN_HELP_DEHALFOP
 	and above for self dehalfopping.
 	
 CHAN_HELP_PROTECT
-	Syntax: PROTECT [#channel [nick]]
+#	Syntax: PROTECT [#channel [nick]]
+	構文:   PROTECT [#channel [nick]]
 	
 	Protects a selected nick on a channel. If nick is not given,
 	it will protect you. If channel and nick are not given,
@@ -5888,7 +5994,8 @@ CHAN_HELP_PROTECT
 	level 10 and above on the channel for self protecting.
 
 CHAN_HELP_DEPROTECT
-	Syntax: DEPROTECT [#channel [nick]]
+#	Syntax: DEPROTECT [#channel [nick]]
+	構文:   DEPROTECT [#channel [nick]]
 	
 	Deprotects a selected nick on a channel. If nick is not given,
 	it will deprotect you. If channel and nick are not given,
@@ -5899,7 +6006,8 @@ CHAN_HELP_DEPROTECT
 	level 10 and above on the channel for self deprotecting.
 
 CHAN_HELP_OWNER
-	Syntax: OWNER [#channel]
+#	Syntax: OWNER [#channel]
+	構文:   OWNER [#channel]
 	
 	Gives you owner status on channel. If channel is not 
 	given, it will give you owner status on all channels you're 
@@ -5908,7 +6016,8 @@ CHAN_HELP_OWNER
 	Limited to those with founder access on the channel.
 
 CHAN_HELP_DEOWNER
-	Syntax: DEOWNER [#channel]
+#	Syntax: DEOWNER [#channel]
+	構文:   DEOWNER [#channel]
 	
 	Removes your owner status on channel. If channel is 
 	not given, it will remove your owner status on all channels 
@@ -5917,7 +6026,8 @@ CHAN_HELP_DEOWNER
 	Limited to those with founder access on the channel.
 
 CHAN_HELP_INVITE
-	Syntax: INVITE channel
+#	Syntax: INVITE channel
+	構文:   INVITE channel
 	
 	Tells %S to invite you into the given channel.  
 	
@@ -5925,7 +6035,8 @@ CHAN_HELP_INVITE
 	on the channel.
 
 CHAN_HELP_UNBAN
-	Syntax: UNBAN channel
+#	Syntax: UNBAN channel
+	構文:   UNBAN channel
 	
 	Tells %S to remove all bans preventing you from
 	entering the given channel.  
@@ -5934,7 +6045,8 @@ CHAN_HELP_UNBAN
 	on the channel.
 	
 CHAN_HELP_KICK
-	Syntax: KICK [#channel [nick [reason]]]
+#	Syntax: KICK [#channel [nick [reason]]]
+	構文:   KICK [#channel [nick [reason]]]
 	
 	Kicks a selected nick on a channel. If nick is not given,
 	it will kick you. If channel and nick are not given,
@@ -5945,7 +6057,8 @@ CHAN_HELP_KICK
 	and above on the channel.
 
 CHAN_HELP_BAN
-	Syntax: BAN [#channel [nick [reason]]]
+#	Syntax: BAN [#channel [nick [reason]]]
+	構文:   BAN [#channel [nick [reason]]]
 	
 	Bans a selected nick on a channel. If nick is not given,
 	it will ban you. If channel and nick are not given,
@@ -5956,7 +6069,8 @@ CHAN_HELP_BAN
 	and above on the channel.
 
 CHAN_HELP_TOPIC
-	Syntax: TOPIC channel [topic]
+#	Syntax: TOPIC channel [topic]
+	構文:   TOPIC channel [topic]
 	
 	Causes %S to set the channel topic to the one
 	specified. If topic is not given, then an empty topic
@@ -5968,7 +6082,8 @@ CHAN_HELP_TOPIC
 	channel. 
 
 CHAN_HELP_CLEAR
-	Syntax: CLEAR channel what
+#	Syntax: CLEAR channel what
+	構文:   CLEAR channel what
 	
 	Tells %S to clear certain settings on a channel.  what
 	can be any of the following:
@@ -5990,7 +6105,8 @@ CHAN_HELP_CLEAR
 	channel.
 	
 CHAN_HELP_GETKEY
-	Syntax: GETKEY channel
+#	Syntax: GETKEY channel
+	構文:   GETKEY channel
 	
 	Returns the key of the given channel. This is a command
 	mainly intended to be used by bots and/or scripts, so
@@ -6001,7 +6117,8 @@ CHAN_HELP_GETKEY
 	key is "NO KEY" if no key is set.
 	
 CHAN_HELP_SENDPASS
-	Syntax: SENDPASS channel
+#	Syntax: SENDPASS channel
+	構文:   SENDPASS channel
 	
 	Send the password of the given channel to the e-mail address
 	set in the founder's nickname record. This command is really 
@@ -6018,7 +6135,8 @@ CHAN_SERVADMIN_HELP
 	and level setting lists for any channel.
 	
 CHAN_SERVADMIN_HELP_LOGOUT
-	Syntax: LOGOUT channel [nickname]
+#	Syntax: LOGOUT channel [nickname]
+	構文:   LOGOUT channel [nickname]
 	
 	This command will log the selected nickname out meaning they 
 	would have to reidentify themselves to regain their access.
@@ -6032,7 +6150,8 @@ CHAN_SERVADMIN_HELP_LOGOUT
 	this will log out all identified users from the channel.
 
 CHAN_SERVADMIN_HELP_DROP
-	Syntax: DROP channel
+#	Syntax: DROP channel
+	構文:   DROP channel
 	
 	Unregisters the named channel.  Only Services admins
 	can drop a channel for which they have not identified.
@@ -6045,7 +6164,8 @@ CHAN_SERVADMIN_HELP_SET
 	channel without identifying by password for the channel.
 
 CHAN_SERVADMIN_HELP_SET_NOEXPIRE
-	Syntax: SET channel NOEXPIRE {ON | OFF}
+#	Syntax: SET channel NOEXPIRE {ON | OFF}
+	構文:   SET channel NOEXPIRE {ON | OFF}
 	
 	Sets whether the given channel will expire.  Setting this
 	to ON prevents the channel from expiring.
@@ -6055,7 +6175,8 @@ CHAN_SERVADMIN_HELP_INFO
 	Services admins can use the ALL parameter with any channel.
 
 CHAN_SERVADMIN_HELP_LIST
-	Syntax: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
+#	Syntax: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
+	構文:   LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
 	
 	Lists all registered channels matching the given pattern.
 	Channels with the PRIVATE option set will only be displayed
@@ -6069,7 +6190,8 @@ CHAN_SERVADMIN_HELP_LIST
 	limited to Services admins.
 
 CHAN_SERVADMIN_HELP_GETPASS
-	Syntax: GETPASS channel
+#	Syntax: GETPASS channel
+	構文:   GETPASS channel
 	
 	Returns the password for the given channel.  Note that
 	whenever this command is used, a message including the
@@ -6077,7 +6199,8 @@ CHAN_SERVADMIN_HELP_GETPASS
 	on will be logged and sent out as a WALLOPS/GLOBOPS.
 
 CHAN_SERVADMIN_HELP_FORBID
-	Syntax: FORBID channel [reason]
+#	Syntax: FORBID channel [reason]
+	構文:   FORBID channel [reason]
 	
 	Disallows anyone from registering or using the given
 	channel.  May be cancelled by dropping the channel.
@@ -6085,7 +6208,8 @@ CHAN_SERVADMIN_HELP_FORBID
 	Reason may be required on certain networks.
 
 CHAN_SERVADMIN_HELP_SUSPEND
-	Syntax: SUSPEND channel [reason]
+#	Syntax: SUSPEND channel [reason]
+	構文:   SUSPEND channel [reason]
 	
 	Disallows anyone from registering or using the given
 	channel.  May be cancelled by using the UNSUSPEND
@@ -6094,13 +6218,15 @@ CHAN_SERVADMIN_HELP_SUSPEND
 	Reason may be required on certain networks.
 
 CHAN_SERVADMIN_HELP_UNSUSPEND
-	Syntax: UNSUSPEND channel
+#	Syntax: UNSUSPEND channel
+	構文:   UNSUSPEND channel
 	
 	Releases a suspended channel. All data and settings
 	are preserved from before the suspension.
 
 CHAN_SERVADMIN_HELP_STATUS
-	Syntax: STATUS channel nickname
+#	Syntax: STATUS channel nickname
+	構文:   STATUS channel nickname
 	
 	Returns the current access level of the given nick on the
 	given channel.  The reply is of the form:
@@ -6190,7 +6316,8 @@ MEMO_HELP_FOOTER
 	
 
 MEMO_HELP_SEND
-	Syntax: SEND {nick | channel} memo-text
+#	Syntax: SEND {nick | channel} memo-text
+	構文:   SEND {nick | channel} memo-text
 	
 #	Sends the named nick or channel a memo containing
 #	memo-text.  When sending to a nickname, the recipient will
@@ -6203,7 +6330,8 @@ MEMO_HELP_SEND
 	いけません。
 	
 MEMO_HELP_CANCEL
-	Syntax: CANCEL {nick | channel}
+#	Syntax: CANCEL {nick | channel}
+	構文:   CANCEL {nick | channel}
 	
 	Cancels the last memo you sent to the given nick or channel,
 	provided it has not been read at the time you use the command.
@@ -6211,7 +6339,8 @@ MEMO_HELP_CANCEL
 	キャンセルし、このコマンドを実行後はメモが読まれないようにします。
 
 MEMO_HELP_LIST
-	Syntax: LIST [channel] [list | NEW]
+#	Syntax: LIST [channel] [list | NEW]
+	構文:   LIST [channel] [list | NEW]
 	
 #	Lists any memos you currently have.  With NEW, lists only
 #	new (unread) memos.  Unread memos are marked with a "*"
@@ -6227,7 +6356,8 @@ MEMO_HELP_LIST
 	      2から5番と7から8番のメモを表示します。
 
 MEMO_HELP_READ
-	Syntax: READ [channel] {num | list | LAST | NEW}
+#	Syntax: READ [channel] {num | list | LAST | NEW}
+	構文:   READ [channel] {num | list | LAST | NEW}
 	
 #	Sends you the text of the memos specified.  If LAST is
 #	given, sends you the memo you most recently received.  If
@@ -6245,7 +6375,8 @@ MEMO_HELP_READ
 	      2から5番と7から8番のメモを表示します。
 
 MEMO_HELP_DEL
-	Syntax: DEL [channel] {num | list | LAST | ALL}
+#	Syntax: DEL [channel] {num | list | LAST | ALL}
+	構文:   DEL [channel] {num | list | LAST | ALL}
 	
 #	Deletes the specified memo or memos.  You can supply
 #	multiple memo numbers or ranges of numbers instead of a
@@ -6271,7 +6402,8 @@ MEMO_HELP_DEL
 	      2から5番と7から8番のメモを削除します。
 
 MEMO_HELP_SET
-	Syntax: SET option parameters
+#	Syntax: SET option parameters
+	構文:   SET option parameters
 
 #	Sets various memo options.  option can be one of:
 	メモ機能に関するオプションを設定します。 option に指定できるのは以下:
@@ -6290,7 +6422,8 @@ MEMO_HELP_SET
 	と入力すれば、より詳しい情報を見ることができます。
 
 MEMO_HELP_SET_NOTIFY
-	Syntax: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
+#	Syntax: SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
+	構文:   SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}
 
 #	Changes when you will be notified about new memos:
 	新着メモを通知するタイミングを変更します。:
@@ -6320,7 +6453,8 @@ MEMO_HELP_SET_NOTIFY
 	ON は LOGON と NEW を併せたものに相当します。
 
 MEMO_HELP_SET_LIMIT
-	Syntax: SET LIMIT [channel] limit
+#	Syntax: SET LIMIT [channel] limit
+	構文:   SET LIMIT [channel] limit
 	
 #	Sets the maximum number of memos you (or the given channel)
 #	are allowed to have. If you set this to 0, no one will be
@@ -6332,7 +6466,8 @@ MEMO_HELP_SET_LIMIT
 	ことはできません。
 
 MEMO_HELP_INFO
-	Syntax: INFO [channel]
+#	Syntax: INFO [channel]
+	構文:   INFO [channel]
 	
 #	Displays information on the number of memos you have, how
 #	many of them are unread, and how many total memos you can
@@ -6343,7 +6478,8 @@ MEMO_HELP_INFO
 	送られたメモについて表示します。
 
 MEMO_SERVADMIN_HELP_SET_LIMIT
-	Syntax: SET LIMIT [user | channel] {limit | NONE} [HARD]
+#	Syntax: SET LIMIT [user | channel] {limit | NONE} [HARD]
+	構文:   SET LIMIT [user | channel] {limit | NONE} [HARD]
 	
 #	Sets the maximum number of memos a user or channel is
 #	allowed to have.  Setting the limit to 0 prevents the user
@@ -6379,7 +6515,8 @@ MEMO_SERVADMIN_HELP_SET_LIMIT
 	こと、HARD を指定することはできません。
 
 MEMO_SERVADMIN_HELP_INFO
-	Syntax: INFO [nick | channel]
+#	Syntax: INFO [nick | channel]
+	構文:   INFO [nick | channel]
 
 #	Without a parameter, displays information on the number of
 #	memos you have, how many of them are unread, and how many
@@ -6400,7 +6537,8 @@ MEMO_SERVADMIN_HELP_INFO
 	サービス管理者だけが行えます。
 
 MEMO_HELP_STAFF
-	Syntax: STAFF memo-text
+#	Syntax: STAFF memo-text
+	構文:   STAFF memo-text
 
 #	Sends all services staff a memo containing memo-text.
 #	Note: If you have opers on both the oper list and the
@@ -6414,13 +6552,15 @@ MEMO_HELP_STAFF
 	同じ内容のメモを複数回受け取ることになります。
 
 MEMO_HELP_SENDALL
-	Syntax: SENDALL memo-text
+#	Syntax: SENDALL memo-text
+	構文:   SENDALL memo-text
 
 #	Sends all registered users a memo containing memo-text.
 	登録済みユーザー全員に内容 memo-text でメモを送信します。
 	
 MEMO_HELP_RSEND
-	Syntax: RSEND {nick | channel} memo-text
+#	Syntax: RSEND {nick | channel} memo-text
+	構文:   RSEND {nick | channel} memo-text
 	
 #	Sends the named nick or channel a memo containing
 #	memo-text.  When sending to a nickname, the recipient will
@@ -6435,7 +6575,8 @@ MEMO_HELP_RSEND
 	受取人がメモを読むと、自動的に開封通知が送信者宛てに送られます。
 
 MEMO_HELP_CHECK
-	Syntax: CHECK nick
+#	Syntax: CHECK nick
+	構文:   CHECK nick
 	
 #	Checks whether the _last_ memo you sent to nick has been read
 #	or not. Note that this does only work with nicks, not with chans.
@@ -6576,7 +6717,8 @@ OPER_HELP_LOGGED
 	注意: %S 宛てのコマンドは全て監視されています！
 
 OPER_HELP_GLOBAL
-	Syntax: GLOBAL message
+#	Syntax: GLOBAL message
+	構文:   GLOBAL message
 	
 #	Allows Administrators to send messages to all users on the 
 #	network. The message will be sent from the nick %s.
@@ -6584,7 +6726,8 @@ OPER_HELP_GLOBAL
 	を許可します。このメッセージの送信者は %s になります。
 
 OPER_HELP_STATS
-	Syntax: STATS [AKILL | ALL | RESET | MEMORY | UPLINK]
+#	Syntax: STATS [AKILL | ALL | RESET | MEMORY | UPLINK]
+	構文:   STATS [AKILL | ALL | RESET | MEMORY | UPLINK]
 	
 #	Without any option, shows the current number of users and
 #	IRCops online (excluding Services), the highest number of
@@ -6626,7 +6769,8 @@ OPER_HELP_STATS
 	UPTIME オプションは STATS オプションのエイリアスです。
 
 OPER_HELP_OPER
-	Syntax: OPER ADD nick
+#	Syntax: OPER ADD nick
+	構文:   OPER ADD nick
 		OPER DEL {nick | entry-num | list}
 		OPER LIST [mask | list]
 		OPER CLEAR
@@ -6679,7 +6823,8 @@ OPER_HELP_OPER
 	IRC オペレーターであれば誰でも OPER LIST 型のコマンドを使用できます。
 
 OPER_HELP_ADMIN
-	Syntax: ADMIN ADD nick
+#	Syntax: ADMIN ADD nick
+	構文:   ADMIN ADD nick
 		ADMIN DEL {nick | entry-num | list}
 		ADMIN LIST [mask | list]
 		ADMIN CLEAR
@@ -6734,7 +6879,8 @@ OPER_HELP_ADMIN
 	それ以外のコマンドはは サービスルート でないと使えません。
 
 OPER_HELP_IGNORE
-	Syntax: IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]
+#	Syntax: IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]
+	構文:   IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]
 	
 #	Allows Services Admins to make Services ignore a nick or mask
 #	for a certain time or until the next restart. The default
@@ -6762,7 +6908,8 @@ OPER_HELP_IGNORE
 	IRC オペレーターを無視することはできません。
 
 OPER_HELP_MODE
-	Syntax: MODE channel modes
+#	Syntax: MODE channel modes
+	構文:   MODE channel modes
 	
 #	Allows Services operators to set channel modes for any
 #	channel.  Parameters are the same as for the standard /MODE
@@ -6771,7 +6918,8 @@ OPER_HELP_MODE
 	します。引数は /MODE コマンドと同じです。
 
 OPER_HELP_UMODE
-	Syntax: UMODE user modes
+#	Syntax: UMODE user modes
+	構文:   UMODE user modes
 	
 #	Allows Super Admins to set user modes for any user.
 #	Parameters are the same as for the standard /MODE
@@ -6780,7 +6928,8 @@ OPER_HELP_UMODE
 	引数は /MODE コマンドと同じです。
 
 OPER_HELP_OLINE
-	Syntax: OLINE user flags
+#	Syntax: OLINE user flags
+	構文:   OLINE user flags
 	
 #	Allows Super Admins to give Operflags to any user.
 #	Flags have to be prefixed with a "+" or a "-". To
@@ -6790,7 +6939,8 @@ OPER_HELP_OLINE
 	はじめ、フラグを剥奪する場合は "-" を使用してください。
 
 OPER_HELP_CLEARMODES
-	Syntax: CLEARMODES channel [ALL]
+#	Syntax: CLEARMODES channel [ALL]
+	構文:   CLEARMODES channel [ALL]
 	
 #	Clears all binary modes (i,k,l,m,n,p,s,t) and bans from a
 #	channel.  If ALL is given, also clears all ops and
@@ -6801,7 +6951,8 @@ OPER_HELP_CLEARMODES
 	voices ユーザーの権利を剥奪します。
 
 OPER_HELP_KICK
-	Syntax: KICK channel user reason
+#	Syntax: KICK channel user reason
+	構文:   KICK channel user reason
 	
 #	Allows staff to kick a user from any channel.
 #	Parameters are the same as for the standard /KICK
@@ -6817,7 +6968,8 @@ OPER_HELP_KICK
 	*** %S が SpamMan をチャンネル #my_channel からキックしました。(Alcan (Flood 攻撃))
 
 OPER_HELP_SVSNICK
-	Syntax: SVSNICK nick newnick
+#	Syntax: SVSNICK nick newnick
+	構文:   SVSNICK nick newnick
 	
 #	Forcefully changes a user's nickname from nick to newnick.
 #	Limited to Super Admins.
@@ -6825,7 +6977,8 @@ OPER_HELP_SVSNICK
 	この機能は スーパー管理者 以外は使えません。
  
 OPER_HELP_AKILL
-	Syntax: AKILL ADD [+expiry] mask reason
+#	Syntax: AKILL ADD [+expiry] mask reason
+	構文:   AKILL ADD [+expiry] mask reason
 		AKILL DEL {mask | entry-num | list}
 		AKILL LIST [mask | list]
 		AKILL VIEW [mask | list]
@@ -6898,7 +7051,8 @@ OPER_HELP_AKILL
 	AKILL CLEAR コマンドは AKILL リストを削除します。
 	
 OPER_HELP_SGLINE
-	Syntax: SGLINE ADD [+expiry] mask:reason
+#	Syntax: SGLINE ADD [+expiry] mask:reason
+	構文:   SGLINE ADD [+expiry] mask:reason
 	    SGLINE DEL {mask | entry-num | list}
 	        SGLINE LIST [mask | list]
 	        SGLINE VIEW [mask | list]
@@ -6973,7 +7127,8 @@ OPER_HELP_SGLINE
 	
 
 OPER_HELP_SQLINE
-	Syntax: SQLINE ADD [+expiry] mask reason
+#	Syntax: SQLINE ADD [+expiry] mask reason
+	構文:   SQLINE ADD [+expiry] mask reason
 	        SQLINE DEL {mask | entry-num | list}
 	        SQLINE LIST [mask | list]
 	        SQLINE VIEW [mask | list]
@@ -7050,7 +7205,8 @@ OPER_HELP_SQLINE
 	SQLINE CLEAR コマンドは SQLINE リストを削除します。
 
 OPER_HELP_SZLINE
-	Syntax: SZLINE ADD [+expiry] mask reason
+#	Syntax: SZLINE ADD [+expiry] mask reason
+	構文:   SZLINE ADD [+expiry] mask reason
 	        SZLINE DEL {mask | entry-num | list}
 	        SZLINE LIST [mask | list]
 	        SZLINE VIEW [mask | list]
@@ -7122,7 +7278,8 @@ OPER_HELP_SZLINE
 	SZLINE CLEAR コマンドは SZLINE リストを削除します。
 
 OPER_HELP_SET
-	Syntax: SET option setting
+#	Syntax: SET option setting
+	構文:   SET option setting
 
 #	Sets various global Services options.  Option names
 #	currently defined are:
@@ -7146,7 +7303,8 @@ OPER_HELP_SET
 	    LIST       オプションを表示します。
 
 OPER_HELP_SET_READONLY
-	Syntax: SET READONLY {ON | OFF}
+#	Syntax: SET READONLY {ON | OFF}
+	構文:   SET READONLY {ON | OFF}
 	
 #	Sets read-only mode on or off.  In read-only mode, normal
 #	users will not be allowed to modify any Services data,
@@ -7170,7 +7328,8 @@ OPER_HELP_SET_READONLY
 	指定することと等価です。
 
 OPER_HELP_SET_LOGCHAN
-	Syntax: SET LOGCHAN {ON | OFF}
+#	Syntax: SET LOGCHAN {ON | OFF}
+	構文:   SET LOGCHAN {ON | OFF}
 
 #	With this setting on, Services will send its logs to a specified
 #	channel as well as the log file. LogChannel must also be defined
@@ -7192,7 +7351,8 @@ OPER_HELP_SET_LOGCHAN
 	公開チャンネルにすることはお勧めできません。
 
 OPER_HELP_SET_DEBUG
-	Syntax: SET DEBUG {ON | OFF | num}
+#	Syntax: SET DEBUG {ON | OFF | num}
+	構文:   SET DEBUG {ON | OFF | num}
 	
 #	Sets debug mode on or off.  In debug mode, all data sent to
 #	and from Services as well as a number of other debugging
@@ -7211,7 +7371,8 @@ OPER_HELP_SET_DEBUG
 	指定することと等価です。
 
 OPER_HELP_SET_NOEXPIRE
-	Syntax: SET NOEXPIRE {ON | OFF}
+#	Syntax: SET NOEXPIRE {ON | OFF}
+	構文:   SET NOEXPIRE {ON | OFF}
 
 #	Sets no expire mode on or off.  In no expire mode, nicks,
 #	channels, akills and exceptions won't expire until the
@@ -7226,7 +7387,8 @@ OPER_HELP_SET_NOEXPIRE
 	指定することと等価です。
 
 OPER_HELP_SET_SUPERADMIN
-	Syntax: SET SUPERADMIN {ON | OFF}
+#	Syntax: SET SUPERADMIN {ON | OFF}
+	構文:   SET SUPERADMIN {ON | OFF}
 
 #	Setting this will grant you extra privileges such as the
 #	ability to be "founder" on all channel's etc...
@@ -7240,7 +7402,8 @@ OPER_HELP_SET_SUPERADMIN
 	べきです。
 
 OPER_HELP_SET_SQL
-	Syntax: SET SQL {ON | OFF}
+#	Syntax: SET SQL {ON | OFF}
+	構文:   SET SQL {ON | OFF}
 
 #	Setting this will toggle Anope's usage of SQL, this should
 #	be used to disable and enable SQL should your SQL server go down
@@ -7249,20 +7412,23 @@ OPER_HELP_SET_SQL
 	サービスの運用中に SQL サーバーを終了させる場合に使用します。
 
 OPER_HELP_SET_IGNORE
-	Syntax: SET IGNORE {ON | OFF}
+#	Syntax: SET IGNORE {ON | OFF}
+	構文:   SET IGNORE {ON | OFF}
 
 #	Setting this will toggle Anope's usage of the IGNORE system 
 #	on or off.
 	無視モードのの有効無効を切り替えます。
 
 OPER_HELP_SET_LIST
-	Syntax: SET LIST
+#	Syntax: SET LIST
+	構文:   SET LIST
 
 #	Display the various %S settings
 	%S の設定を表示します。
 
 OPER_HELP_NOOP
-	Syntax: NOOP SET server
+#	Syntax: NOOP SET server
+	構文:   NOOP SET server
 	        NOOP REVOKE server
 
 #	NOOP SET remove all O:lines of the given
@@ -7284,7 +7450,8 @@ OPER_HELP_NOOP
 	チェックしません。
 
 OPER_HELP_JUPE
-	Syntax: JUPE server [reason]
+#	Syntax: JUPE server [reason]
+	構文:   JUPE server [reason]
 	
 #	Tells Services to jupiter a server -- that is, to create
 #	a fake "server" connected to Services which prevents
@@ -7304,7 +7471,8 @@ OPER_HELP_JUPE
 	つくったユーザーのニックネームを含む内容を書き込みます。
 
 OPER_HELP_RAW
-	Syntax: RAW text
+#	Syntax: RAW text
+	構文:   RAW text
 	
 #	Sends a string of text directly to the server to which
 #	Services is connected.  This command has a very limited
@@ -7318,7 +7486,8 @@ OPER_HELP_RAW
 	このコマンドを絶対に使用しないでください！
 
 OPER_HELP_UPDATE
-	Syntax: UPDATE
+#	Syntax: UPDATE
+	構文:   UPDATE
 	
 #	Causes Services to update all database files as soon as you
 #	send the command.
@@ -7326,7 +7495,8 @@ OPER_HELP_UPDATE
 	データベースファイルをアップデートさせます。
 	
 OPER_HELP_RELOAD
-	Syntax: RELOAD
+#	Syntax: RELOAD
+	構文:   RELOAD
 
 #	Causes Services to reload the configuration file. Note that
 #	some directives still need the restart of the Services to
@@ -7337,7 +7507,8 @@ OPER_HELP_RELOAD
 	例えば、サービスのニックネーム、セッション制限の有効化等です。
 
 OPER_HELP_QUIT
-	Syntax: QUIT
+#	Syntax: QUIT
+	構文:   QUIT
 	
 #	Causes Services to do an immediate shutdown; databases are
 #	not saved.  This command should not be used unless
@@ -7352,13 +7523,15 @@ OPER_HELP_QUIT
 
 
 OPER_HELP_SHUTDOWN
-	Syntax: SHUTDOWN
+#	Syntax: SHUTDOWN
+	構文:   SHUTDOWN
 	
 #	Causes Services to save all databases and then shut down.
 	サービスに全てのデータベースをセーブさせ、サービスを終了します。
 
 OPER_HELP_RESTART
-	Syntax: RESTART
+#	Syntax: RESTART
+	構文:   RESTART
 	
 #	Causes Services to save all databases and then restart
 #	(i.e. exit and immediately re-run the executable).
@@ -7366,7 +7539,8 @@ OPER_HELP_RESTART
 	(つまり、終了後直ぐに起動処理を繰り返します。)
 
 OPER_HELP_CHANLIST
-	Syntax: CHANLIST [{pattern | nick} [SECRET]]
+#	Syntax: CHANLIST [{pattern | nick} [SECRET]]
+	構文:   CHANLIST [{pattern | nick} [SECRET]]
 	
 #	Lists all channels currently in use on the IRC network, whether they
 #	are registered or not.
@@ -7384,7 +7558,8 @@ OPER_HELP_CHANLIST
 	+s か +p モードのチャンネルのみを表示します。
 
 OPER_HELP_USERLIST
-	Syntax: USERLIST [{pattern | channel} [INVISIBLE]]
+#	Syntax: USERLIST [{pattern | channel} [INVISIBLE]]
+	構文:   USERLIST [{pattern | channel} [INVISIBLE]]
 	
 #	Lists all users currently online on the IRC network, whether their
 #	nick is registered or not.
@@ -7402,7 +7577,8 @@ OPER_HELP_USERLIST
 	ユーザーのみを表示します。
 
 OPER_HELP_MODLOAD
-	Syntax: MODLOAD FileName
+#	Syntax: MODLOAD FileName
+	構文:   MODLOAD FileName
 	
 #	This command loads the module named FileName from the modules
 #	directory.
@@ -7410,7 +7586,8 @@ OPER_HELP_MODLOAD
 	モジュールをロードします。
 
 OPER_HELP_MODUNLOAD
-	Syntax: MODUNLOAD FileName
+#	Syntax: MODUNLOAD FileName
+	構文:   MODUNLOAD FileName
 	
 #	This command unloads the module named FileName from the modules
 #	directory.
@@ -7418,13 +7595,15 @@ OPER_HELP_MODUNLOAD
 	モジュールをアンロードします。
 
 OPER_HELP_MODINFO
-	Syntax: MODINFO FileName
+#	Syntax: MODINFO FileName
+	構文:   MODINFO FileName
 	
 #	This command lists information about the specified loaded module
 	指定されたロード済みモジュールの情報を表示します。
 
 OPER_HELP_MODLIST
-	Syntax: MODLIST [Core|3rd|protocol|encryption|supported|qatested]
+#	Syntax: MODLIST [Core|3rd|protocol|encryption|supported|qatested]
+	構文:   MODLIST [Core|3rd|protocol|encryption|supported|qatested]
 	
 #	Lists all currently loaded modules.
 	ロード済みモジュールを全て表示します。
@@ -7492,13 +7671,15 @@ BOT_HELP_FOOTER
 
 	
 BOT_HELP_BOTLIST
-	Syntax: BOTLIST
+#	Syntax: BOTLIST
+	構文:   BOTLIST
 	
 #	Lists all available bots on this network.
 	このネットワークで使えるボットのリストを表示する。
 	
 BOT_HELP_ASSIGN
-	Syntax: ASSIGN chan nick
+#	Syntax: ASSIGN chan nick
+	構文:   ASSIGN chan nick
 	
 #	Assigns a bot pointed out by nick to the channel chan. You
 #	can then configure the bot for the channel so it fits
@@ -7508,7 +7689,8 @@ BOT_HELP_ASSIGN
 	ボットを設定してください。
 	
 BOT_HELP_UNASSIGN
-	Syntax: UNASSIGN chan
+#	Syntax: UNASSIGN chan
+	構文:   UNASSIGN chan
 	
 #	Unassigns a bot from a channel. When you use this command,
 #	the bot won't join the channel anymore. However, bot
@@ -7521,7 +7703,8 @@ BOT_HELP_UNASSIGN
 	改めて設定をやり直す必要はありません。
 	
 BOT_HELP_INFO
-	Syntax: INFO {chan | nick}
+#	Syntax: INFO {chan | nick}
+	構文:   INFO {chan | nick}
 	
 #	Allows you to see %S information about a channel or a bot.
 #	If the parameter is a channel, then you'll get information
@@ -7535,7 +7718,8 @@ BOT_HELP_INFO
 	ボットに関する情報を表示します。
 	
 BOT_HELP_SET
-	Syntax: SET (channel | bot) option parameters
+#	Syntax: SET (channel | bot) option parameters
+	構文:   SET (channel | bot) option parameters
 	
 #	Configures bot options.  option can be one of:
 	ボットのオプションを設定します。option に指定できるのは以下です。
@@ -7562,7 +7746,8 @@ BOT_HELP_SET
 	レベル以上の権限が必要です。
 	
 BOT_HELP_SET_DONTKICKOPS
-	Syntax: SET channel DONTKICKOPS {ON|OFF}
+#	Syntax: SET channel DONTKICKOPS {ON|OFF}
+	構文:   SET channel DONTKICKOPS {ON|OFF}
 	
 #	Enables or disables ops protection mode on a channel.
 #	When it is enabled, ops won't be kicked by the bot
@@ -7574,7 +7759,8 @@ BOT_HELP_SET_DONTKICKOPS
 	
 	
 BOT_HELP_SET_DONTKICKVOICES
-	Syntax: SET channel DONTKICKVOICES {ON|OFF}
+#	Syntax: SET channel DONTKICKVOICES {ON|OFF}
+	構文:   SET channel DONTKICKVOICES {ON|OFF}
 	
 #	Enables or disables voices protection mode on a channel.
 #	When it is enabled, voices won't be kicked by the bot
@@ -7585,7 +7771,8 @@ BOT_HELP_SET_DONTKICKVOICES
 	ボットはこのvoices ユーザーをキックしません。
 	
 BOT_HELP_SET_FANTASY
-	Syntax: SET channel FANTASY {ON|OFF}
+#	Syntax: SET channel FANTASY {ON|OFF}
+	構文:   SET channel FANTASY {ON|OFF}
 
 #	Enables or disables fantasy mode on a channel.
 #	When it is enabled, users will be able to use
@@ -7615,7 +7802,8 @@ BOT_HELP_SET_FANTASY
 	レベル以上の権限を持っていなければいけません。
 
 BOT_HELP_SET_GREET
-	Syntax: SET channel GREET {ON|OFF}
+#	Syntax: SET channel GREET {ON|OFF}
+	構文:   SET channel GREET {ON|OFF}
 	
 #	Enables or disables greet mode on a channel.
 #	When it is enabled, the bot will display greet
@@ -7626,7 +7814,8 @@ BOT_HELP_SET_GREET
 	にjoinしたユーザーに挨拶メッセージを表示します。
 
 BOT_HELP_SET_SYMBIOSIS
-	Syntax: SET channel SYMBIOSIS {ON|OFF}
+#	Syntax: SET channel SYMBIOSIS {ON|OFF}
+	構文:   SET channel SYMBIOSIS {ON|OFF}
 	
 #	Enables or disables symbiosis mode on a channel.
 #	When it is enabled, the bot will do everything
@@ -7639,7 +7828,8 @@ BOT_HELP_SET_SYMBIOSIS
 	等です。
 
 BOT_HELP_KICK
-	Syntax: KICK channel option parameters
+#	Syntax: KICK channel option parameters
+	構文:   KICK channel option parameters
 	
 #	Configures bot kickers.  option can be one of:
 	キッカーを設定します。  option に指定できるのは以下です。
@@ -7673,7 +7863,8 @@ BOT_HELP_KICK
 	レベル以上の権限が必要です。
 
 BOT_HELP_KICK_BOLDS
-	Syntax: KICK channel BOLDS {ON|OFF} [ttb]
+#	Syntax: KICK channel BOLDS {ON|OFF} [ttb]
+	構文:   KICK channel BOLDS {ON|OFF} [ttb]
 
 #	Sets the bolds kicker on or off. When enabled, this
 #	option tells the bot to kick users who use bolds.
@@ -7687,7 +7878,8 @@ BOT_HELP_KICK_BOLDS
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_COLORS
-	Syntax: KICK channel COLORS {ON|OFF} [ttb]
+#	Syntax: KICK channel COLORS {ON|OFF} [ttb]
+	構文:   KICK channel COLORS {ON|OFF} [ttb]
 
 #	Sets the colors kicker on or off. When enabled, this
 #	option tells the bot to kick users who use colors.
@@ -7701,7 +7893,8 @@ BOT_HELP_KICK_COLORS
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_REVERSES
-	Syntax: KICK channel REVERSES {ON|OFF} [ttb]
+#	Syntax: KICK channel REVERSES {ON|OFF} [ttb]
+	構文:   KICK channel REVERSES {ON|OFF} [ttb]
 
 #	Sets the reverses kicker on or off. When enabled, this
 #	option tells the bot to kick users who use reverses.
@@ -7715,7 +7908,8 @@ BOT_HELP_KICK_REVERSES
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_UNDERLINES
-	Syntax: KICK channel UNDERLINES {ON|OFF} [ttb]
+#	Syntax: KICK channel UNDERLINES {ON|OFF} [ttb]
+	構文:   KICK channel UNDERLINES {ON|OFF} [ttb]
 
 #	Sets the underlines kicker on or off. When enabled, this
 #	option tells the bot to kick users who use underlines.
@@ -7729,7 +7923,8 @@ BOT_HELP_KICK_UNDERLINES
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_CAPS
-	Syntax: KICK channel CAPS {ON|OFF} [ttb [min [percent]]]
+#	Syntax: KICK channel CAPS {ON|OFF} [ttb [min [percent]]]
+	構文:   KICK channel CAPS {ON|OFF} [ttb [min [percent]]]
 
 #	Sets the caps kicker on or off. When enabled, this
 #	option tells the bot to kick users who are talking in
@@ -7753,7 +7948,8 @@ BOT_HELP_KICK_CAPS
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_FLOOD
-	Syntax: KICK channel FLOOD {ON|OFF} [ttb [ln [secs]]]
+#	Syntax: KICK channel FLOOD {ON|OFF} [ttb [ln [secs]]]
+	構文:   KICK channel FLOOD {ON|OFF} [ttb [ln [secs]]]
 
 #	Sets the flood kicker on or off. When enabled, this
 #	option tells the bot to kick users who are flooding
@@ -7772,7 +7968,8 @@ BOT_HELP_KICK_FLOOD
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_REPEAT
-	Syntax: KICK #channel REPEAT {ON|OFF} [ttb [num]]
+#	Syntax: KICK #channel REPEAT {ON|OFF} [ttb [num]]
+	構文:   KICK #channel REPEAT {ON|OFF} [ttb [num]]
 
 #	Sets the repeat kicker on or off. When enabled, this
 #	option tells the bot to kick users who are repeating
@@ -7790,7 +7987,8 @@ BOT_HELP_KICK_REPEAT
 	バン機能を使わない場合は ttb を指定しないでください。
 
 BOT_HELP_KICK_BADWORDS
-	Syntax: KICK #channel BADWORDS {ON|OFF} [ttb]
+#	Syntax: KICK #channel BADWORDS {ON|OFF} [ttb]
+	構文:   KICK #channel BADWORDS {ON|OFF} [ttb]
 
 #	Sets the bad words kicker on or off. When enabled, this
 #	option tells the bot to kick users who say certain words
@@ -7812,7 +8010,8 @@ BOT_HELP_KICK_BADWORDS
 	バン機能を使わない場合は ttb を指定しないでください。
 	
 BOT_HELP_BADWORDS
-	Syntax: BADWORDS channel ADD word [SINGLE | START | END]
+#	Syntax: BADWORDS channel ADD word [SINGLE | START | END]
+	構文:   BADWORDS channel ADD word [SINGLE | START | END]
 	        BADWORDS channel DEL {word | entry-num | list}
 	        BADWORDS channel LIST [mask | list]
 	        BADWORDS channel CLEAR
@@ -7870,13 +8069,15 @@ BOT_HELP_BADWORDS
 	全てのエントリを削除します。
 
 BOT_HELP_SAY
-	Syntax: SAY channel text
+#	Syntax: SAY channel text
+	構文:   SAY channel text
 	
 #	Makes the bot say the given text on the given channel.
 	ボットに指定したチャンネル宛に指定した内容で発言させます。
 
 BOT_HELP_ACT
-	Syntax: ACT channel text
+#	Syntax: ACT channel text
+	構文:   ACT channel text
 	
 #	Makes the bot do the equivalent of a "/me" command
 #	on the given channel using the given text.
@@ -7885,7 +8086,8 @@ BOT_HELP_ACT
 
 
 BOT_SERVADMIN_HELP_BOT
-	Syntax: BOT ADD nick user host real
+#	Syntax: BOT ADD nick user host real
+	構文:   BOT ADD nick user host real
 	        BOT CHANGE oldnick newnick [user [host [real]]]
 	        BOT DEL nick
 	
@@ -7931,7 +8133,8 @@ BOT_SERVADMIN_HELP_SET
 	                        ボット召喚を禁止します。
 
 BOT_SERVADMIN_HELP_SET_NOBOT
-	Syntax: SET channel NOBOT {ON|OFF}
+#	Syntax: SET channel NOBOT {ON|OFF}
+	構文:   SET channel NOBOT {ON|OFF}
 	
 #	This option makes a channel be unassignable. If a bot 
 #	is already assigned to the channel, it is unassigned
@@ -7942,7 +8145,8 @@ BOT_SERVADMIN_HELP_SET_NOBOT
 	自動的にボットを削除します。
 
 BOT_SERVADMIN_HELP_SET_PRIVATE
-	Syntax: SET bot-nick PRIVATE {ON|OFF}
+#	Syntax: SET bot-nick PRIVATE {ON|OFF}
+	構文:   SET bot-nick PRIVATE {ON|OFF}
 
 #	This option prevents a bot from being assigned to a
 #	channel by users that aren't IRC operators.
@@ -8097,7 +8301,8 @@ HOST_HELP
 	%S 機能に関するコマンド:
 
 HOST_HELP_ON
-	Syntax: ON
+#	Syntax: ON
+	構文:   ON
 
 #	Activates the vhost currently assigned to the nick in use.
 #	When you use this command any user who performs a /whois
@@ -8107,7 +8312,8 @@ HOST_HELP_ON
 	代わりに設定されたバーチャルホストが表示されます。
 
 HOST_HELP_SET
-	Syntax: SET <nick> <hostmask>.
+#	Syntax: SET <nick> <hostmask>.
+	構文:   SET <nick> <hostmask>.
 
 #	Sets the vhost for the given nick to that of the given
 #	hostmask.  If your IRCD supports vIdents, then using
@@ -8119,7 +8325,8 @@ HOST_HELP_SET
 	バーチャルホストに加えて idents も設定できます。
 
 HOST_HELP_DELALL
-	Syntax: DELALL <nick>.
+#	Syntax: DELALL <nick>.
+	構文:   DELALL <nick>.
 
 #	Deletes the vhost for all nick's in the same group as
 #	that of the given nick.
@@ -8128,7 +8335,8 @@ HOST_HELP_DELALL
 
 
 HOST_HELP_SETALL
-	Syntax: SETALL <nick> <hostmask>.
+#	Syntax: SETALL <nick> <hostmask>.
+	構文:   SETALL <nick> <hostmask>.
 
 #	Sets the vhost for all nicks in the same group as that
 #	of the given nick.  If your IRCD supports vIdents, then
@@ -8149,7 +8357,8 @@ HOST_HELP_SETALL
 	再度同じコマンドを入力してください。
 
 HOST_HELP_OFF
-	Syntax: OFF
+#	Syntax: OFF
+	構文:   OFF
 
 #	Deactivates the vhost currently assigned to the nick in use.
 #	When you use this command any user who performs a /whois
@@ -8159,7 +8368,8 @@ HOST_HELP_OFF
 
 
 HOST_HELP_DEL
-	Syntax: DEL <nick>
+#	Syntax: DEL <nick>
+	構文:   DEL <nick>
 
 #	Deletes the vhost assigned to the given nick from the
 #	database.
@@ -8167,7 +8377,8 @@ HOST_HELP_DEL
 	をデータベースから削除します。
 
 HOST_HELP_LIST
-	Syntax: LIST [<key>|<#X-Y>]
+#	Syntax: LIST [<key>|<#X-Y>]
+	構文:   LIST [<key>|<#X-Y>]
 
 #	This command lists registered vhosts to the operator
 #	if a Key is specified, only entries whos nick or vhost match
@@ -8192,7 +8403,8 @@ HOST_HELP_LIST
 
 
 HOST_HELP_GROUP
-	Syntax: GROUP
+#	Syntax: GROUP
+	構文:   GROUP
 	
 #	This command allows users to set the vhost of their
 #	CURRENT nick to be the vhost for all nicks in the same
