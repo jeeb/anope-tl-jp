@@ -406,30 +406,39 @@ END_OF_ANY_LIST
 
 # Generic List error messages
 LIST_INCORRECT_RANGE
-	Incorrect range specified. The correct syntax is #from-to.
+#	Incorrect range specified. The correct syntax is #from-to.
+	無効な範囲が指定されました。正しい構文は #from-to の形です。
 CS_LIST_INCORRECT_RANGE
-	To search for channels starting with #, search for the channel
-	name without the #-sign prepended (anope instead of #anope).
+#	To search for channels starting with #, search for the channel
+#	name without the #-sign prepended (anope instead of #anope).
+	#から始まるチャンネルを検索するには、#を前置しないでください。
+	(つまり、#anope の代わりに anope のように指定してください。)
 
 # Generic help limited to messages
 HELP_LIMIT_SERV_OPER
 	
-	Limited to Services Operators.
+#	Limited to Services Operators.
+	サービスオペレーター の権限が必要です。
 HELP_LIMIT_SERV_ADMIN
 	
-	Limited to Services Administrators.
+#	Limited to Services Administrators.
+	サービス管理者 の権限が必要です。
 HELP_LIMIT_SERV_ROOT
 	
-	Limited to Services Roots.
+#	Limited to Services Roots.
+	サービスルート の権限が必要です。
 HELP_LIMIT_IRC_OPER
 	
-	Limited to IRC Operators.
+#	Limited to IRC Operators.
+	IRC オペレーター の権限が必要です。
 HELP_LIMIT_HOST_SETTER
 	
-	Limited to Host Setters.
+#	Limited to Host Setters.
+	Host Setters の権限が必要です。
 HELP_LIMIT_HOST_REMOVER
 	
-	Limited to Host Removers.
+#	Limited to Host Removers.
+	Host Removers の権限が必要です。
 
 
 ###########################################################################
