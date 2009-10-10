@@ -1234,9 +1234,11 @@ NICK_SENDPASS_OK
 NICK_SUSPEND_SYNTAX
 	SUSPEND nickname reason
 NICK_SUSPEND_SUCCEEDED
-	Nick %s is now suspended.
+#	Nick %s is now suspended.
+	ニック %s を一時的に使用禁止にしました。
 NICK_SUSPEND_FAILED
-	Couldn't suspend nick %s!
+#	Couldn't suspend nick %s!
+	ニック %s を使用禁止にできませんでした。
 
 # UNSUSPEND responses
 NICK_UNSUSPEND_SYNTAX
