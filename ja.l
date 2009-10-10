@@ -1152,10 +1152,14 @@ NICK_GLIST_REPLY_ADMIN
 NICK_RECOVER_SYNTAX
 	RECOVER nickname [password]
 NICK_NO_RECOVER_SELF
-	You can't recover yourself!
+#	You can't recover yourself!
+	自分自身を回復させることはできません。
 NICK_RECOVERED
-	User claiming your nick has been killed.
-	%R%s RELEASE %s to get it back before %s timeout.
+#	User claiming your nick has been killed.
+#	%R%s RELEASE %s to get it back before %s timeout.
+	あなたのニックネームを要求したユーザが kill されました。
+	ニックネームを回復するには %R%s RELEASE %s 
+	のように入力してください(%s がタイムアウトする前に)。.
 
 # RELEASE responses
 NICK_RELEASE_SYNTAX
