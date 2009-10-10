@@ -1203,23 +1203,32 @@ NICK_GETEMAIL_NOT_USED
 NICK_SENDPASS_SYNTAX
 	SENDPASS nickname
 NICK_SENDPASS_UNAVAILABLE
-	SENDPASS command unavailable because encryption is in use.
+#	SENDPASS command unavailable because encryption is in use.
+	暗号化が有効になっているため、SENDPASS コマンドは使えません。
 NICK_SENDPASS_SUBJECT
-	Nickname password (%s)
+#	Nickname password (%s)
+	ニックネーム パスワード (%s)
 NICK_SENDPASS_HEAD
-	Hi,
+#	Hi,
+	やぁ,
 NICK_SENDPASS_LINE_1
-	You have requested to receive the password of nickname %s by e-mail.
+#	You have requested to receive the password of nickname %s by e-mail.
+	ニックネーム %s のパスワードを e-mail で要求しました。
 NICK_SENDPASS_LINE_2
-	The password is %s for security purposes, you should change it as soon as you receive this mail.
+#	The password is %s for security purposes, you should change it as soon as you receive this mail.
+	パスワードは %s です。セキュリティ確保のため、このメールを受け取ったらすぐにパスワードを変更してください。
 NICK_SENDPASS_LINE_3
-	If you don't know why this mail is sent to you, please ignore it silently.
+#	If you don't know why this mail is sent to you, please ignore it silently.
+	このメールに身に覚えの無い場合は、黙って無視してください。
 NICK_SENDPASS_LINE_4
-	PLEASE DON'T ANSWER TO THIS MAIL!
+#	PLEASE DON'T ANSWER TO THIS MAIL!
+	このメールに返信しないでください!
 NICK_SENDPASS_LINE_5
-	%s administrators.
+#	%s administrators.
+	%s 管理人.
 NICK_SENDPASS_OK
-	Password of %s has been sent.
+#	Password of %s has been sent.
+	%s のパスワードが送信されました。
 
 # SUSPEND responses
 NICK_SUSPEND_SYNTAX
