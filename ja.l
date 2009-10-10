@@ -1222,7 +1222,7 @@ NICK_SENDPASS_LINE_3
 	このメールに身に覚えの無い場合は、黙って無視してください。
 NICK_SENDPASS_LINE_4
 #	PLEASE DON'T ANSWER TO THIS MAIL!
-	このメールに返信しないでください!
+	このメールに返信しないでください！
 NICK_SENDPASS_LINE_5
 #	%s administrators.
 	%s 管理人.
@@ -1238,15 +1238,17 @@ NICK_SUSPEND_SUCCEEDED
 	ニック %s を一時的に使用禁止にしました。
 NICK_SUSPEND_FAILED
 #	Couldn't suspend nick %s!
-	ニック %s を使用禁止にできませんでした。
+	ニック %s を使用禁止にできませんでした！
 
 # UNSUSPEND responses
 NICK_UNSUSPEND_SYNTAX
 	UNSUSPEND nickname
 NICK_UNSUSPEND_SUCCEEDED
-	Nick %s is now released.
+#	Nick %s is now released.
+	ニック %s の登録を解除しました。
 NICK_UNSUSPEND_FAILED
-	Couldn't release nick %s!
+#	Couldn't release nick %s!
+	ニック %s の登録を解除できませんでした！
 
 # FORBID responses
 NICK_FORBID_SYNTAX
