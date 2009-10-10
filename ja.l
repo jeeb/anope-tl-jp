@@ -1115,17 +1115,22 @@ NICK_LIST_RESULTS
 NICK_ALIST_SYNTAX
 	ALIST nickname
 NICK_ALIST_HEADER
-	Channels that you have access on:
-	  Num  Channel              Level    Description 
+#	Channels that you have access on:
+#	  Num  Channel              Level    Description 
+	あなたがアクセスしているチャンネル:
+	 番号  チャンネル           レベル   備考
 NICK_ALIST_HEADER_X
-	Channels that %s has access on:
-	  Num  Channel              Level    Description
+#	Channels that %s has access on:
+#	  Num  Channel              Level    Description
+	%s がアクセスしているチャンネル:
+	 番号  チャンネル           レベル   備考
 NICK_ALIST_XOP_FORMAT
 	  %3d %c%-20s %-8s %s
 NICK_ALIST_ACCESS_FORMAT
 	  %3d %c%-20s %-8d %s
 NICK_ALIST_FOOTER
-	End of list - %d/%d channels shown.
+#	End of list - %d/%d channels shown.
+	リストはここまで - チャンネル数 %d/%d
 
 # GLIST responses
 NICK_GLIST_HEADER
