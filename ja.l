@@ -1256,9 +1256,11 @@ NICK_FORBID_SYNTAX
 NICK_FORBID_SYNTAX_REASON
 	FORBID nickname reason
 NICK_FORBID_SUCCEEDED
-	Nick %s is now forbidden.
+#	Nick %s is now forbidden.
+	現在、ニック %s は使用禁止になっています。
 NICK_FORBID_FAILED
-	Couldn't forbid nick %s!
+#	Couldn't forbid nick %s!
+	ニック %s を使用禁止にできませんでした。
 
 # Nick Registraion responses
 NICK_REQUESTED
