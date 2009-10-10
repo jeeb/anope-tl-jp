@@ -1183,9 +1183,11 @@ NICK_GHOST_KILLED
 NICK_GETPASS_SYNTAX
 	GETPASS nickname
 NICK_GETPASS_UNAVAILABLE
-	GETPASS command unavailable because encryption is in use.
+#	GETPASS command unavailable because encryption is in use.
+	暗号化が有効になっているため、GETPASS コマンドは使えません。
 NICK_GETPASS_PASSWORD_IS
-	Password for %s is %s.
+#	Password for %s is %s.
+	%s のパスワードは %s です。
 
 # GETEMAIL responses
 NICK_GETEMAIL_SYNTAX
