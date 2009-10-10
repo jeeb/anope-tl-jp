@@ -1134,15 +1134,19 @@ NICK_ALIST_FOOTER
 
 # GLIST responses
 NICK_GLIST_HEADER
-	List of nicknames in your group:
+#	List of nicknames in your group:
+	あなたと同じグループに所属しているニックネームのリスト:
 NICK_GLIST_HEADER_X
-	List of nicknames in the group of %s:
+#	List of nicknames in the group of %s:
+	%s と同じグループに所属しているニックネームのリスト:
 NICK_GLIST_FOOTER
-	%d nicknames in the group.
+#	%d nicknames in the group.
+	%d 個のニックネームがこのグループに登録されています。
 NICK_GLIST_REPLY
 	   %c%s
 NICK_GLIST_REPLY_ADMIN
-	   %c%s (expires in %s)
+#	   %c%s (expires in %s)
+	   %c%s (%s 後に解除予定)
 
 # RECOVER responses
 NICK_RECOVER_SYNTAX
