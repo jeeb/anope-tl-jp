@@ -1173,9 +1173,11 @@ NICK_RELEASED
 NICK_GHOST_SYNTAX
 	GHOST nickname [password]
 NICK_NO_GHOST_SELF
-	You can't ghost yourself!
+#	You can't ghost yourself!
+	自分自身はゴースト化できません。
 NICK_GHOST_KILLED
-	Ghost with your nick has been killed.
+#	Ghost with your nick has been killed.
+	あなたのニックネームを使っていたゴーストが kill されました。
 
 # GETPASS responses
 NICK_GETPASS_SYNTAX
