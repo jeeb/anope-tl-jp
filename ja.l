@@ -1210,7 +1210,7 @@ NICK_SENDPASS_SUBJECT
 	ニックネーム パスワード (%s)
 NICK_SENDPASS_HEAD
 #	Hi,
-	やぁ,
+	こんにちは、
 NICK_SENDPASS_LINE_1
 #	You have requested to receive the password of nickname %s by e-mail.
 	ニックネーム %s のパスワードを e-mail で要求しました。
@@ -1264,37 +1264,53 @@ NICK_FORBID_FAILED
 
 # Nick Registraion responses
 NICK_REQUESTED
-	This nick has already been requested, please check your e-mail address for the pass code
+#	This nick has already been requested, please check your e-mail address for the pass code
+	このニックは現在、だれかが使用中です。あなたの e-mail アドレスとパスコードを確認してください。
 NICK_REG_RESENT
-	Your passcode has been re-sent to %s.
+#	Your passcode has been re-sent to %s.
+	あなたのパスコードが %s 宛てに再送信されました。.
 NICK_REG_UNABLE
-	Nick NOT registered, please try again later.
+#	Nick NOT registered, please try again later.
+	ニックが登録されていません。時間をおいてやり直してください。
 NICK_IS_PREREG
-	This nick is awaiting an e-mail verification code before completing registration.
+#	This nick is awaiting an e-mail verification code before completing registration.
+	ニックネーム登録を完了する前に e-mail 確認コードの入力が必要です。
 NICK_ENTER_REG_CODE
-	A passcode has been sent to %s, please type %R%s confirm <passcode> to complete registration
+#	A passcode has been sent to %s, please type %R%s confirm <passcode> to complete registration
+	%s 宛てにパスコードが送信されました。%R%s confirm <passcode> のように入力して、ニックネーム登録を完了させてください。
 NICK_CONFIRM_NOT_FOUND
-	Registration step 1 may have expired, please use "%R%s register <password> <email>" first.
+#	Registration step 1 may have expired, please use "%R%s register <password> <email>" first.
+	ニックネーム登録手順 1 が期限切れになりました。"%R%s register <password> <email>" のように入力してください。
 NICK_CONFIRM_INVALID
-	Invalid passcode has been entered, please check the e-mail again, and retry
+#	Invalid passcode has been entered, please check the e-mail again, and retry
+	パスコードが間違っています。e-mail アドレスを再確認し、やり直してください。
 NICK_REG_MAIL_SUBJECT
-	Nickname Registration (%s)
+#	Nickname Registration (%s)
+	ニックネーム登録 (%s)
 NICK_REG_MAIL_HEAD
-	Hi,
+#	Hi,
+	こんにちは、
 NICK_REG_MAIL_LINE_1
-	You have requested to register the following nickname %s.
+#	You have requested to register the following nickname %s.
+	ニックネーム %s の登録要請を行いました。
 NICK_REG_MAIL_LINE_2
-	Please type " %R%s confirm %s " to complete registration.
+#	Please type " %R%s confirm %s " to complete registration.
+	登録を完了するには " %R%s confirm %s " のように入力してください。
 NICK_REG_MAIL_LINE_3
-	If you don't know why this mail is sent to you, please ignore it silently.
+#	If you don't know why this mail is sent to you, please ignore it silently.
+	このメールに身に覚えの無い場合は、黙って無視してください。
 NICK_REG_MAIL_LINE_4
-	PLEASE DON'T ANSWER TO THIS MAIL!
+#	PLEASE DON'T ANSWER TO THIS MAIL!
+	このメールに返信しないでください！
 NICK_REG_MAIL_LINE_5
-	%s administrators.
+#	%s administrators.
+	%s 管理人.
 NICK_GETPASS_PASSCODE_IS
-	Passcode for %s is %s.
+#	Passcode for %s is %s.
+	%s のパスコードは %s です。
 NICK_FORCE_REG
-	Nickname %s confirmed
+#	Nickname %s confirmed
+	ニックネーム %s の登録を完了しました。
 
 
 
