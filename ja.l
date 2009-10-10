@@ -1193,9 +1193,11 @@ NICK_GETPASS_PASSWORD_IS
 NICK_GETEMAIL_SYNTAX
 	GETEMAIL user@email-host No WildCards!!
 NICK_GETEMAIL_EMAILS_ARE
-	Emails Match %s to %s.
+#	Emails Match %s to %s.
+	%s と %s に該当する Email アドレスは次の通りです。
 NICK_GETEMAIL_NOT_USED
-	No Emails listed for %s.
+#	No Emails listed for %s.
+	%s に該当する Email アドレスはありませんでした。.
 	
 # SENDPASS responses
 NICK_SENDPASS_SYNTAX
