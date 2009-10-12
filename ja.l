@@ -1461,7 +1461,7 @@ CHAN_MUST_REGISTER_NICK
 CHAN_MUST_IDENTIFY_NICK
 #	Please identify with %s first, using the command:
 #	%R%s IDENTIFY password
-	先に以下のコマンドで %s の識別確認を行ってください、
+	先に以下のコマンドで %s の認証を行ってください、
 	%R%s IDENTIFY password
 CHAN_MAY_NOT_BE_REGISTERED
 #	Channel %s may not be registered.
@@ -1500,8 +1500,10 @@ CHAN_IDENTIFY_SYNTAX
 	IDENTIFY channel password
 CHAN_IDENTIFY_FAILED
 	Sorry, identification failed.
+	ご迷惑をおかけして申し訳ありません。認証に失敗しました。
 CHAN_IDENTIFY_SUCCEEDED
 	Password accepted - you now have founder-level access to %s.
+	認証に成功しました。founder 権限で %s へのアクセスが可能です。
 
 # LOGOUT responses
 CHAN_LOGOUT_SYNTAX
