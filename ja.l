@@ -1450,34 +1450,49 @@ CHAN_X_INVALID
 CHAN_REGISTER_SYNTAX
 	REGISTER channel password description
 CHAN_REGISTER_DISABLED
-	Sorry, channel registration is temporarily disabled.
+#	Sorry, channel registration is temporarily disabled.
+	ご迷惑をかけて申し訳ありません。チャンネル登録は一時的に禁止されています。
 CHAN_REGISTER_NOT_LOCAL
-	Local channels cannot be registered.
+#	Local channels cannot be registered.
+	ローカルチャンネルは登録できません。
 CHAN_MUST_REGISTER_NICK
-	You must register your nickname first.  Type %R%s HELP for information on registering nicknames.
+#	You must register your nickname first.  Type %R%s HELP for information on registering nicknames.
+	先にニックネームの登録を行ってください。%R%s HELP とタイプすることでより詳細な情報が見られます。
 CHAN_MUST_IDENTIFY_NICK
-	Please identify with %s first, using the command:
+#	Please identify with %s first, using the command:
+#	%R%s IDENTIFY password
+	先に以下のコマンドで %s の識別確認を行ってください、
 	%R%s IDENTIFY password
 CHAN_MAY_NOT_BE_REGISTERED
-	Channel %s may not be registered.
+#	Channel %s may not be registered.
+	チャンネル %s は未登録です。
 CHAN_ALREADY_REGISTERED
-	Channel %s is already registered!
+#	Channel %s is already registered!
+	チャンネル %s は登録済みです！
 CHAN_MUST_BE_CHANOP
-	You must be a channel operator to register the channel.
+#	You must be a channel operator to register the channel.
+	チャンネルを登録するにはオペレータ権限が必要です。
 CHAN_REACHED_CHANNEL_LIMIT
-	Sorry, you have already reached your limit of %d channels.
+#	Sorry, you have already reached your limit of %d channels.
+	ご迷惑をおかけして申し訳ありません。join 中のチャンネル数が %d に達したため、これ以上 join できません。
 CHAN_EXCEEDED_CHANNEL_LIMIT
-	Sorry, you have already exceeded your limit of %d channels.
+#	Sorry, you have already exceeded your limit of %d channels.
+	ご迷惑をおかけして申し訳ありません。join 中のチャンネル数が %d 以上のため、これ以上 join できません。
 CHAN_REGISTRATION_FAILED
-	Sorry, registration failed.
+#	Sorry, registration failed.
+	ご迷惑をおかけして申し訳ありません。登録に失敗しました。
 CHAN_REGISTERED
-	Channel %s registered under your nickname: %s
+#	Channel %s registered under your nickname: %s
+	チャンネル %s はあなたのニックネーム %s で登録済みです。
 CHAN_PASSWORD_IS
-	Your channel password is %s - remember it for later use.
+#	Your channel password is %s - remember it for later use.
+	チャンネルパスワードは %s です。join するにはこれが必要になります。
 CHAN_REGISTER_NONE_CHANNEL
-	You have attempted to register a nonexistent channel %s
+#	You have attempted to register a nonexistent channel %s
+	存在しないチャンネル %s は登録できません。
 CHAN_SYMBOL_REQUIRED
-	Please use the symbol of # when attempting to register
+#	Please use the symbol of # when attempting to register
+	登録の際には、# を使用してください。
 
 
 # IDENTIFY responses
