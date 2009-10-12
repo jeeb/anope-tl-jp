@@ -1391,31 +1391,44 @@ CHAN_LEVEL_VOICE
 #	Allowed to use VOICE/DEVOICE commands
 	VOICE/DEVOICEコマンドの使用を許可
 CHAN_LEVEL_GETKEY
-	Allowed to use GETKEY command
+#	Allowed to use GETKEY command
+	GETKEY コマンドを使えます。
 CHAN_LEVEL_OPDEOPME
-	Allowed to (de)op him/herself
+#	Allowed to (de)op him/herself
+	自分自身にオペレータ権限を付与、剥奪することができます。
 CHAN_LEVEL_HALFOPME
-	Allowed to (de)halfop him/herself
+#	Allowed to (de)halfop him/herself
+	自分自身に halfop 権限を付与、剥奪することができます。
 CHAN_LEVEL_HALFOP
-	Allowed to use HALFOP/DEHALFOP commands
+#	Allowed to use HALFOP/DEHALFOP commands
+	HALFOP/DEHALFOP コマンドを使えます。
 CHAN_LEVEL_PROTECTME
-	Allowed to (de)protect him/herself
+#	Allowed to (de)protect him/herself
+	自分自身に protect 権限を付与、剥奪することができます。
 CHAN_LEVEL_PROTECT
-	Allowed to use PROTECT/DEPROTECT commands
+#	Allowed to use PROTECT/DEPROTECT commands
+	PROTECT/DEPROTECT コマンドを使えます。
 CHAN_LEVEL_KICKME
-	Allowed to kick him/herself
+#	Allowed to kick him/herself
+	自分自身をキックできます。
 CHAN_LEVEL_KICK
-	Allowed to use KICK command
+#	Allowed to use KICK command
+	KICK コマンドを使えます。
 CHAN_LEVEL_SIGNKICK
-	No signed kick when SIGNKICK LEVEL is used
+#	No signed kick when SIGNKICK LEVEL is used
+	SIGNKICK レベルが有効な場合、キックできません。
 CHAN_LEVEL_BANME
-	Allowed to ban him/herself
+#	Allowed to ban him/herself
+	自分自身をバンできます。
 CHAN_LEVEL_BAN
-	Allowed to use BAN command
+#	Allowed to use BAN command
+	BAN コマンドを使えます。
 CHAN_LEVEL_TOPIC
-	Allowed to use TOPIC command
+#	Allowed to use TOPIC command
+	TOPIC コマンドを使えます。
 CHAN_LEVEL_INFO
-	Allowed to use INFO command with ALL option
+#	Allowed to use INFO command with ALL option
+	ALL オプション付きで INFO コマンドを使えます。
 
 # Automatic responses
 CHAN_IS_REGISTERED
