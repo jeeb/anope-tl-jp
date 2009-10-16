@@ -1511,11 +1511,14 @@ CHAN_LOGOUT_SYNTAX
 CHAN_LOGOUT_SERVADMIN_SYNTAX
 	LOGOUT channel [nickname]
 CHAN_LOGOUT_SUCCEEDED
-	User %s has been logged out of channel %s.
+#	User %s has been logged out of channel %s.
+	 ユーザ %s がチャンネル %s からログアウトしました。
 CHAN_LOGOUT_ALL_SUCCEEDED
-	All users identified have been logged out of channel %s (except the channel founder).
+#	All users identified have been logged out of channel %s (except the channel founder).
+	チャンネルを作ったユーザを除く指定されたユーザ全員がチャンネル %s からログアウトしました。
 CHAN_LOGOUT_FOUNDER_FAILED
-	You may not log out of %s (you are founder).
+#	You may not log out of %s (you are founder).
+	あなたはチャンネルを作ったユーザなので %s からログアウトすることはできません。
 
 # DROP responses
 CHAN_DROP_SYNTAX
