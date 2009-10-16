@@ -1525,9 +1525,11 @@ CHAN_LOGOUT_FOUNDER_FAILED
 CHAN_DROP_SYNTAX
 	DROP channel
 CHAN_DROP_DISABLED
-	Sorry, channel de-registration is temporarily disabled.
+#	Sorry, channel de-registration is temporarily disabled.
+	ご迷惑を掛けて申し訳ございません。一時的にチャンネルの登録を解除することができなくなっています。
 CHAN_DROPPED
-	Channel %s has been dropped.
+#	Channel %s has been dropped.
+	チャンネル %s の登録が解除されました。
 
 # SET responses
 CHAN_SET_SYNTAX
