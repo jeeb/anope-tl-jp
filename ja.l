@@ -1497,12 +1497,13 @@ CHAN_SYMBOL_REQUIRED
 
 # IDENTIFY responses
 CHAN_IDENTIFY_SYNTAX
-	IDENTIFY channel password
+#	IDENTIFY channel password
+	IDENTIFY チャンネル パスワード
 CHAN_IDENTIFY_FAILED
-	Sorry, identification failed.
+#	Sorry, identification failed.
 	ご迷惑をおかけして申し訳ありません。認証に失敗しました。
 CHAN_IDENTIFY_SUCCEEDED
-	Password accepted - you now have founder-level access to %s.
+#	Password accepted - you now have founder-level access to %s.
 	認証に成功しました。founder 権限で %s へのアクセスが可能です。
 
 # LOGOUT responses
