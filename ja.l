@@ -1535,9 +1535,11 @@ CHAN_DROPPED
 CHAN_SET_SYNTAX
 	SET channel option parameters
 CHAN_SET_DISABLED
-	Sorry, channel option setting is temporarily disabled.
+#	Sorry, channel option setting is temporarily disabled.
+	ご迷惑を掛けて申し訳ございません。一時的にチャンネルオプションを変更することができなくなっています。
 CHAN_SET_UNKNOWN_OPTION
-	Unknown SET option %s.
+#	Unknown SET option %s.
+	オプション %s は定義されていません。
 
 # SET FOUNDER responses
 CHAN_SET_FOUNDER_TOO_MANY_CHANS
