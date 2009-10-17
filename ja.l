@@ -1543,9 +1543,11 @@ CHAN_SET_UNKNOWN_OPTION
 
 # SET FOUNDER responses
 CHAN_SET_FOUNDER_TOO_MANY_CHANS
-	%s has too many channels registered.
+#	%s has too many channels registered.
+	%s が登録できるチャンネル数の上限に到達しました。
 CHAN_FOUNDER_CHANGED
-	Founder of %s changed to %s.
+#	Founder of %s changed to %s.
+	チャンネル %s の登録メンバーが %s に変更されました。
 
 # SET SUCCESSOR responses
 CHAN_SUCCESSOR_CHANGED
