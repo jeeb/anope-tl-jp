@@ -1551,11 +1551,14 @@ CHAN_FOUNDER_CHANGED
 
 # SET SUCCESSOR responses
 CHAN_SUCCESSOR_CHANGED
-	Successor for %s changed to %s.
+#	Successor for %s changed to %s.
+	チャンネル %s のメンテナ権を %s に譲渡しました。
 CHAN_SUCCESSOR_UNSET
-	Successor for %s unset.
+#	Successor for %s unset.
+	チャンネル %s のメンテナが解除されました。
 CHAN_SUCCESSOR_IS_FOUNDER
-	%s cannot be the successor on channel %s because he is its founder.
+#	%s cannot be the successor on channel %s because he is its founder.
+	%s はチャンネル %s のメンテナになれません。なぜなら、 %s はチャンネル開設者だからです。
 
 # SET PASSWORD responses
 CHAN_SET_PASSWORD_FAILED
