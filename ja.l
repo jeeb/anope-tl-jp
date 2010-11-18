@@ -1779,34 +1779,49 @@ CHAN_XOP_NOT_AVAILABLE
 
 # AOP messages
 CHAN_AOP_SYNTAX
-	AOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
+#	AOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
+	AOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリー番号]
 CHAN_AOP_DISABLED
-	Sorry, channel AOP list modification is temporarily disabled.
+#	Sorry, channel AOP list modification is temporarily disabled.
+	チャンネルの AOP リストの変更は一時的に禁止されています。
 CHAN_AOP_NICKS_ONLY
-	Channel AOP lists may only contain registered nicknames.
+#	Channel AOP lists may only contain registered nicknames.
+	チャンネルの AOP リストに追加できるニックネームは登録されたものでなければいけません。
 CHAN_AOP_ADDED
-	%s added to %s AOP list.
+#	%s added to %s AOP list.
+	チャンネル %s の AOP リストに%s を追加しました。
 CHAN_AOP_MOVED
-	%s moved to %s AOP list.
+#	%s moved to %s AOP list.
+	チャンネル %s の AOP リストに%s を移動しました。
 CHAN_AOP_NO_SUCH_ENTRY
-	No such entry (#%d) on %s AOP list.
+#	No such entry (#%d) on %s AOP list.
+	チャンネル %s の AOP リストにエントリー(#%d) は見つかりません。
 CHAN_AOP_NOT_FOUND
-	%s not found on %s AOP list.
+#	%s not found on %s AOP list.
+	チャンネル %s の AOP リストに %s は見つかりません。
 CHAN_AOP_NO_MATCH
-	No matching entries on %s AOP list.
+#	No matching entries on %s AOP list.
+	チャンネル %s の AOP リストにマッチするエントリーがありません。
 CHAN_AOP_DELETED
-	%s deleted from %s AOP list.
+#	%s deleted from %s AOP list.
+	チャンネル %s の AOP リストから %s を削除しました。
 CHAN_AOP_DELETED_ONE
-	Deleted 1 entry from %s AOP list.
+#	Deleted 1 entry from %s AOP list.
+	チャンネル %s の AOP リストからエントリーを 1 個削除しました。
 CHAN_AOP_DELETED_SEVERAL
-	Deleted %d entries from %s AOP list.
+#	Deleted %d entries from %s AOP list.
+	チャンネル %s の AOP リストからエントリーを %d 個削除しました。
 CHAN_AOP_LIST_EMPTY
-	%s AOP list is empty.
+#	%s AOP list is empty.
+	チャンネル %s の AOP リストは空です。
 CHAN_AOP_LIST_HEADER
-	AOP list for %s:
-	  Num  Nick
+#	AOP list for %s:
+#	  Num  Nick
+	チャンネル %s の AOP リスト:
+	  番号 ニックネーム
 CHAN_AOP_CLEAR
-	Channel %s AOP list has been cleared.
+#	Channel %s AOP list has been cleared.
+	チャンネル %s の AOP リストを初期化しました。
 
 # HOP messages
 CHAN_HOP_SYNTAX
