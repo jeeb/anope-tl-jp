@@ -2341,11 +2341,14 @@ CHAN_FORBID_SYNTAX
 CHAN_FORBID_SYNTAX_REASON
 	FORBID channel reason
 CHAN_FORBID_SUCCEEDED
-	Channel %s is now forbidden.
+#	Channel %s is now forbidden.
+	チャンネル %s は禁止になりました。
 CHAN_FORBID_FAILED
-	Couldn't forbid channel %s!
+#	Couldn't forbid channel %s!
+	チャンネル %s を禁止に出来ません!
 CHAN_FORBID_REASON
-	This channel has been forbidden.
+#	This channel has been forbidden.
+	このチャンネルは禁止にされています。
 
 # SUSPEND responses
 CHAN_SUSPEND_SYNTAX
