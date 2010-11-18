@@ -1628,7 +1628,7 @@ CHAN_MLOCK_CHANGED
 # SET KEEPTOPIC responses
 CHAN_SET_KEEPTOPIC_SYNTAX
 #	SET channel KEEPTOPIC {ON | OFF}
-	チャンネル の KEEPTOPIC オプションを {ON | OFF} に設定
+	SET チャンネル名 KEEPTOPIC {ON | OFF}
 CHAN_SET_KEEPTOPIC_ON
 #	Topic retention option for %s is now ON.
 	チャンネル %s のトピック保存オプションは ON です。
@@ -1639,7 +1639,7 @@ CHAN_SET_KEEPTOPIC_OFF
 # SET TOPICLOCK responses
 CHAN_SET_TOPICLOCK_SYNTAX
 #	SET channel TOPICLOCK {ON | OFF}
-	チャンネル の TOPICLOCK オプションを {ON | OFF} に設定
+	SET チャンネル名 TOPICLOCK {ON | OFF}
 CHAN_SET_TOPICLOCK_ON
 #	Topic lock option for %s is now ON.
 	チャンネル %s のトピックロックオプションは ON です。
@@ -1650,7 +1650,7 @@ CHAN_SET_TOPICLOCK_OFF
 # SET PEACE responses
 CHAN_SET_PEACE_SYNTAX
 #	SET channel PEACE {ON | OFF}
-	チャンネル の PEACE オプションを {ON | OFF} に設定
+	SET チャンネル名 PEACE {ON | OFF}
 CHAN_SET_PEACE_ON
 #	Peace option for %s is now ON.
 	チャンネル %s の Peace オプションは ON です。
@@ -1661,7 +1661,7 @@ CHAN_SET_PEACE_OFF
 # SET PRIVATE responses
 CHAN_SET_PRIVATE_SYNTAX
 #	SET channel PRIVATE {ON | OFF}
-	チャンネル の PRIVATE オプションを {ON | OFF} に設定
+	SET チャンネル名 PRIVATE {ON | OFF}
 CHAN_SET_PRIVATE_ON
 #	Private option for %s is now ON.
 	チャンネル %s のプライベートオプションは ON です。
@@ -1672,7 +1672,7 @@ CHAN_SET_PRIVATE_OFF
 # SET SECUREOPS responses
 CHAN_SET_SECUREOPS_SYNTAX
 #	SET channel SECUREOPS {ON | OFF}
-	チャンネル の SECUREOPS オプションを {ON | OFF} に設定
+	SET チャンネル名 SECUREOPS {ON | OFF}
 CHAN_SET_SECUREOPS_ON
 #	Secure ops option for %s is now ON.
 	チャンネル %s の安全オペレータオプションは ON です。
@@ -1683,7 +1683,7 @@ CHAN_SET_SECUREOPS_OFF
 # SET SECUREFOUNDER responses
 CHAN_SET_SECUREFOUNDER_SYNTAX
 #	SET channel SECUREFOUNDER {ON | OFF}
-	チャンネル の SECUREFOUNDER オプションを {ON | OFF} に設定
+	SET チャンネル名 SECUREFOUNDER {ON | OFF}
 CHAN_SET_SECUREFOUNDER_ON
 #	Secure founder option for %s is now ON.
 	チャンネル %s の安全開設者オプションは ON です。
@@ -1694,7 +1694,7 @@ CHAN_SET_SECUREFOUNDER_OFF
 # SET RESTRICTED responses
 CHAN_SET_RESTRICTED_SYNTAX
 #	SET channel RESTRICTED {ON | OFF}
-	チャンネル の RESTRICTED オプションを {ON | OFF} に設定
+	SET チャンネル名 RESTRICTED {ON | OFF}
 CHAN_SET_RESTRICTED_ON
 #	Restricted access option for %s is now ON.
 	チャンネル %s の制限アクセスオプションは ON です。
@@ -1705,7 +1705,7 @@ CHAN_SET_RESTRICTED_OFF
 # SET SECURE responses
 CHAN_SET_SECURE_SYNTAX
 #	SET channel SECURE {ON | OFF}
-	チャンネル の SECURE オプションを {ON | OFF} に設定
+	SET チャンネル名 SECURE {ON | OFF}
 CHAN_SET_SECURE_ON
 #	Secure option for %s is now ON.
 	チャンネル %s の安全オプションは ON です。
@@ -1715,30 +1715,41 @@ CHAN_SET_SECURE_OFF
 
 # SET SIGNKICK responses
 CHAN_SET_SIGNKICK_SYNTAX
-	SET channel SIGNKICK {ON | LEVEL | OFF}
+#	SET channel SIGNKICK {ON | LEVEL | OFF}
+	SET チャンネル名 SIGNKICK {ON | LEVEL | OFF}
 CHAN_SET_SIGNKICK_ON
-	Signed kick option for %s is now ON.
+#	Signed kick option for %s is now ON.
+	チャンネル %s の Signed kick オプションは ON です。
 CHAN_SET_SIGNKICK_LEVEL
-	Signed kick option for %s is now ON, but depends of the
-	level of the user that is using the command.
+#	Signed kick option for %s is now ON, but depends of the
+#	level of the user that is using the command.
+	チャンネル %s の Signed kick オプションは ON ですが、
+	レベルはコマンドを発行したユーザの設定に依存します。
 CHAN_SET_SIGNKICK_OFF
-	Signed kick option for %s is now OFF.
+#	Signed kick option for %s is now OFF.
+	チャンネル %s の Signed kick オプションは OFF です。
 
 # SET OPNOTICE responses
 CHAN_SET_OPNOTICE_SYNTAX
-	SET channel OPNOTICE {ON | OFF}
+#	SET channel OPNOTICE {ON | OFF}
+	SET チャンネル名 OPNOTICE {ON | OFF}
 CHAN_SET_OPNOTICE_ON
-	Op-notice option for %s is now ON.
+#	Op-notice option for %s is now ON.
+	チャンネル %s の Op-notice オプションは ON です。
 CHAN_SET_OPNOTICE_OFF
-	Op-notice option for %s is now OFF.
+#	Op-notice option for %s is now OFF.
+	チャンネル %s の Op-notice オプションは OFF です。
 
 # SET XOP responses
 CHAN_SET_XOP_SYNTAX
-	SET channel XOP {ON | OFF}
+#	SET channel XOP {ON | OFF}
+	SET チャンネル名 XOP {ON | OFF}
 CHAN_SET_XOP_ON
-	xOP lists system for %s is now ON.
+#	xOP lists system for %s is now ON.
+	チャンネル %s の xOP オプションは ON です。
 CHAN_SET_XOP_OFF
-	xOP lists system for %s is now OFF.
+#	xOP lists system for %s is now OFF.
+	チャンネル %s の xOP オプションは OFF です。
 
 # SET NOEXPIRE responses
 CHAN_SET_NOEXPIRE_SYNTAX
