@@ -1693,19 +1693,25 @@ CHAN_SET_SECUREFOUNDER_OFF
 
 # SET RESTRICTED responses
 CHAN_SET_RESTRICTED_SYNTAX
-	SET channel RESTRICTED {ON | OFF}
+#	SET channel RESTRICTED {ON | OFF}
+	チャンネル の RESTRICTED オプションを {ON | OFF} に設定
 CHAN_SET_RESTRICTED_ON
-	Restricted access option for %s is now ON.
+#	Restricted access option for %s is now ON.
+	チャンネル %s の制限アクセスオプションは ON です。
 CHAN_SET_RESTRICTED_OFF
-	Restricted access option for %s is now OFF.
+#	Restricted access option for %s is now OFF.
+	チャンネル %s の制限アクセスオプションは OFF です。
 
 # SET SECURE responses
 CHAN_SET_SECURE_SYNTAX
-	SET channel SECURE {ON | OFF}
+#	SET channel SECURE {ON | OFF}
+	チャンネル の SECURE オプションを {ON | OFF} に設定
 CHAN_SET_SECURE_ON
-	Secure option for %s is now ON.
+#	Secure option for %s is now ON.
+	チャンネル %s の安全オプションは ON です。
 CHAN_SET_SECURE_OFF
-	Secure option for %s is now OFF.
+#	Secure option for %s is now OFF.
+	チャンネル %s の安全オプションは OFF です。
 
 # SET SIGNKICK responses
 CHAN_SET_SIGNKICK_SYNTAX
