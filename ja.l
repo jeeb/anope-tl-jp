@@ -2261,21 +2261,29 @@ CHAN_TOPIC_SYNTAX
 CHAN_CLEAR_SYNTAX
 	CLEAR channel what
 CHAN_CLEARED_BANS
-	All bans on channel %s have been removed.
+#	All bans on channel %s have been removed.
+	チャンネル %s の禁止リストを初期化しました。
 CHAN_CLEARED_EXCEPTS
-	All excepts on channel %s have been removed.
+#	All excepts on channel %s have been removed.
+	チャンネル %s の除外リストを初期化しました。
 CHAN_CLEARED_MODES
-	All modes on channel %s have been reset.
+#	All modes on channel %s have been reset.
+	チャンネル %s のモードからすべてのモードを初期化しました。
 CHAN_CLEARED_OPS
-	Mode +o has been cleared from channel %s.
+#	Mode +o has been cleared from channel %s.
+	チャンネル %s のモードから +o を無効化しました。
 CHAN_CLEARED_HOPS
-	Mode +h has been cleared from channel %s.
+#	Mode +h has been cleared from channel %s.
+	チャンネル %s のモードから +h を無効化しました。
 CHAN_CLEARED_VOICES
-	Mode +v has been cleared from channel %s.
+#	Mode +v has been cleared from channel %s.
+	チャンネル %s のモードから +v を無効化しました。
 CHAN_CLEARED_USERS
-	All users have been kicked from channel %s.
+#	All users have been kicked from channel %s.
+	チャンネル %s からすべてのユーザをキックしました。
 CHAN_CLEARED_INVITES
-	All invites on channel %s have been removed.
+#	All invites on channel %s have been removed.
+	チャンネル %s の招聘リストを初期化しました。
 
 # GETPASS responses
 CHAN_GETPASS_SYNTAX
