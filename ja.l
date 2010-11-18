@@ -2308,23 +2308,32 @@ CHAN_GETKEY_KEY
 CHAN_SENDPASS_SYNTAX
 	SENDPASS channel
 CHAN_SENDPASS_UNAVAILABLE
-	SENDPASS command unavailable because encryption is in use.
+#	SENDPASS command unavailable because encryption is in use.
+	暗号化されているため、SENDPASS コマンドは使えません。
 CHAN_SENDPASS_SUBJECT
-	Channel password (%s)
+#	Channel password (%s)
+	チャンネルパスワード (%s)
 CHAN_SENDPASS_HEAD
-	Hi,
+#	Hi,
+	こんにちわ。
 CHAN_SENDPASS_LINE_1
-	You have requested to receive the password of channel %s by e-mail.
+#	You have requested to receive the password of channel %s by e-mail.
+	チャンネル %s のパスワードを電子メールで要求しました。
 CHAN_SENDPASS_LINE_2
-	The password is %s. For security reasons, you should change it as soon as you receive this mail.
+#	The password is %s. For security reasons, you should change it as soon as you receive this mail.
+	パスワードは %s です。保安上の理由からこのメールを受け取ったらすぐにパスワードを変更してください。
 CHAN_SENDPASS_LINE_3
-	If you don't know why this mail is sent to you, please ignore it silently.
+#	If you don't know why this mail is sent to you, please ignore it silently.
+	このメールを受け取った理由がわからない場合、無視してください。
 CHAN_SENDPASS_LINE_4
-	PLEASE DON'T ANSWER TO THIS MAIL!
+#	PLEASE DON'T ANSWER TO THIS MAIL!
+	このメールに返信しないでください!
 CHAN_SENDPASS_LINE_5
-	%s administrators.
+#	%s administrators.
+	チャンネル %s の管理人。
 CHAN_SENDPASS_OK
-	Password of %s has been sent.
+#	Password of %s has been sent.
+	チャンネル %s のパスワードが送信されました。
 
 # FORBID responses
 CHAN_FORBID_SYNTAX
