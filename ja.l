@@ -2299,7 +2299,8 @@ CHAN_GETPASS_PASSWORD_IS
 CHAN_GETKEY_SYNTAX
 	GETKEY channel
 CHAN_GETKEY_NOKEY
-	The channel %s has no key.
+#	The channel %s has no key.
+	チャンネル %s にキーが設定されていません。
 CHAN_GETKEY_KEY
 	KEY %s %s
 
