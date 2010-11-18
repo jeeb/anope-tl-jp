@@ -1753,11 +1753,14 @@ CHAN_SET_XOP_OFF
 
 # SET NOEXPIRE responses
 CHAN_SET_NOEXPIRE_SYNTAX
-	SET channel NOEXPIRE {ON | OFF}
+#	SET channel NOEXPIRE {ON | OFF}
+	SET チャンネル名 NOEXPIRE {ON | OFF}
 CHAN_SET_NOEXPIRE_ON
 	Channel %s will not expire.
+	チャンネル %s はユーザがいなくなってもなくなりません。
 CHAN_SET_NOEXPIRE_OFF
 	Channel %s will expire.
+	チャンネル %s はユーザがいなくなったら なくなります。
 
 # xOP messages
 CHAN_XOP_REACHED_LIMIT
