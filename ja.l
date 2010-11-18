@@ -1671,11 +1671,14 @@ CHAN_SET_PRIVATE_OFF
 
 # SET SECUREOPS responses
 CHAN_SET_SECUREOPS_SYNTAX
-	SET channel SECUREOPS {ON | OFF}
+#	SET channel SECUREOPS {ON | OFF}
+	チャンネル の SECUREOPS オプションを {ON | OFF} に設定
 CHAN_SET_SECUREOPS_ON
-	Secure ops option for %s is now ON.
+#	Secure ops option for %s is now ON.
+	チャンネル %s の秘密オペレータオプションは ON です。
 CHAN_SET_SECUREOPS_OFF
-	Secure ops option for %s is now OFF.
+#	Secure ops option for %s is now OFF.
+	チャンネル %s の秘密オペレータオプションは OFF です。
 
 # SET SECUREFOUNDER responses
 CHAN_SET_SECUREFOUNDER_SYNTAX
