@@ -1573,7 +1573,8 @@ CHAN_PASSWORD_CHANGED_TO
 
 # SET DESC responses
 CHAN_DESC_CHANGED
-	Description of %s changed to %s.
+#	Description of %s changed to %s.
+	チャンネル %s の説明を %s に変更しました。
 
 # SET URL responses
 CHAN_URL_CHANGED
