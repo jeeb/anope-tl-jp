@@ -1917,34 +1917,49 @@ CHAN_SOP_CLEAR
 
 # VOP messages
 CHAN_VOP_SYNTAX
-	VOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
+#	VOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
+	VOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリー番号]
 CHAN_VOP_DISABLED
-	Sorry, channel VOP list modification is temporarily disabled.
+#	Sorry, channel VOP list modification is temporarily disabled.
+	チャンネルの VOP リストの変更は一時的に禁止されています。
 CHAN_VOP_NICKS_ONLY
-	Channel VOP lists may only contain registered nicknames.
+#	Channel VOP lists may only contain registered nicknames.
+	チャンネルの VOP リストに追加できるニックネームは登録されたものでなければいけません。
 CHAN_VOP_ADDED
-	%s added to %s VOP list.
+#	%s added to %s VOP list.
+	チャンネル %s の VOP リストに%s を追加しました。
 CHAN_VOP_MOVED
-	%s moved to %s VOP list.
+#	%s moved to %s VOP list.
+	チャンネル %s の VOP リストに%s を移動しました。
 CHAN_VOP_NO_SUCH_ENTRY
-	No such entry (#%d) on %s VOP list.
+#	No such entry (#%d) on %s VOP list.
+	チャンネル %s の VOP リストにエントリー(#%d) は見つかりません。
 CHAN_VOP_NOT_FOUND
-	%s not found on %s VOP list.
+#	%s not found on %s VOP list.
+	チャンネル %s の VOP リストに %s は見つかりません。
 CHAN_VOP_NO_MATCH
-	No matching entries on %s VOP list.
+#	No matching entries on %s VOP list.
+	チャンネル %s の VOP リストにマッチするエントリーがありません。
 CHAN_VOP_DELETED
-	%s deleted from %s VOP list.
+#	%s deleted from %s VOP list.
+	チャンネル %s の VOP リストから %s を削除しました。
 CHAN_VOP_DELETED_ONE
-	Deleted 1 entry from %s VOP list.
+#	Deleted 1 entry from %s VOP list.
+	チャンネル %s の VOP リストからエントリーを 1 個削除しました。
 CHAN_VOP_DELETED_SEVERAL
-	Deleted %d entries from %s VOP list.
+#	Deleted %d entries from %s VOP list.
+	チャンネル %s の VOP リストからエントリーを %d 個削除しました。
 CHAN_VOP_LIST_EMPTY
-	%s VOP list is empty.
+#	%s VOP list is empty.
+	チャンネル %s の VOP リストは空です。
 CHAN_VOP_LIST_HEADER
-	VOP list for %s:
-	  Num  Nick
+#	VOP list for %s:
+#	  Num  Nick
+	チャンネル %s の VOP リスト:
+	  番号 ニックネーム
 CHAN_VOP_CLEAR
-	Channel %s VOP list has been cleared.
+#	Channel %s VOP list has been cleared.
+	チャンネル %s の VOP リストを初期化しました。
 
 # ACCESS messages
 CHAN_ACCESS_SYNTAX
