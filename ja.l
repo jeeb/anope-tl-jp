@@ -1756,22 +1756,26 @@ CHAN_SET_NOEXPIRE_SYNTAX
 #	SET channel NOEXPIRE {ON | OFF}
 	SET チャンネル名 NOEXPIRE {ON | OFF}
 CHAN_SET_NOEXPIRE_ON
-	Channel %s will not expire.
+#	Channel %s will not expire.
 	チャンネル %s はユーザがいなくなってもなくなりません。
 CHAN_SET_NOEXPIRE_OFF
-	Channel %s will expire.
+#	Channel %s will expire.
 	チャンネル %s はユーザがいなくなったら なくなります。
 
 # xOP messages
 CHAN_XOP_REACHED_LIMIT
-	Sorry, you can only have %d AOP/SOP/VOP entries on a channel.
+#	Sorry, you can only have %d AOP/SOP/VOP entries on a channel.
+	%d AOP/SOP/VOP エントリーより多くは登録出来ません。
 CHAN_XOP_LIST_FORMAT
 	  %3d  %s
 CHAN_XOP_ACCESS
-	You can't use this command. Use the ACCESS command instead.
-	Type %R%s HELP ACCESS for more information.
+#	You can't use this command. Use the ACCESS command instead.
+#	Type %R%s HELP ACCESS for more information.
+	このコマンドは使用できません。 ACCESS コマンドを使用してください。
+	より詳しい情報は %R%s HELP ACCESS とタイプしてください。
 CHAN_XOP_NOT_AVAILABLE
-	xOP system is not available.
+#	xOP system is not available.
+	xOP システムは使用できません。
 
 # AOP messages
 CHAN_AOP_SYNTAX
