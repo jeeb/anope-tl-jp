@@ -2135,13 +2135,17 @@ CHAN_LEVELS_RESET
 
 # Status Messages
 CHAN_STATUS_SYNTAX
-	STATUS ERROR Syntax error
+#	STATUS ERROR Syntax error
+	STATUS ERROR 構文エラー
 CHAN_STATUS_NOT_REGGED
-	STATUS ERROR Channel %s not registered
+#	STATUS ERROR Channel %s not registered
+	STATUS ERROR チャンネル %s は登録されていません。
 CHAN_STATUS_FORBIDDEN
-	STATUS ERROR Channel %s forbidden
+#	STATUS ERROR Channel %s forbidden
+	STATUS ERROR チャンネル %s は禁止されています。
 CHAN_STATUS_NOTONLINE
-	STATUS ERROR Nick %s not online
+#	STATUS ERROR Nick %s not online
+	STATUS ERROR ニックネーム %s はオフラインです。
 CHAN_STATUS_INFO
 	STATUS %s %s %d
 
