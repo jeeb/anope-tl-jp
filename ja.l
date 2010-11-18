@@ -1638,11 +1638,14 @@ CHAN_SET_KEEPTOPIC_OFF
 
 # SET TOPICLOCK responses
 CHAN_SET_TOPICLOCK_SYNTAX
-	SET channel TOPICLOCK {ON | OFF}
+#	SET channel TOPICLOCK {ON | OFF}
+	チャンネル の TOPICLOCK を {ON | OFF} に設定
 CHAN_SET_TOPICLOCK_ON
-	Topic lock option for %s is now ON.
+#	Topic lock option for %s is now ON.
+	チャンネル %s のトピックロックオプションは ON です。
 CHAN_SET_TOPICLOCK_OFF
-	Topic lock option for %s is now OFF.
+#	Topic lock option for %s is now OFF.
+	チャンネル %s のトピックロックオプションは OFF です。
 
 # SET PEACE responses
 CHAN_SET_PEACE_SYNTAX
