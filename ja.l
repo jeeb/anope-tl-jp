@@ -2289,9 +2289,11 @@ CHAN_CLEARED_INVITES
 CHAN_GETPASS_SYNTAX
 	GETPASS channel
 CHAN_GETPASS_UNAVAILABLE
-	GETPASS command unavailable because encryption is in use.
+#	GETPASS command unavailable because encryption is in use.
+	暗号化されているため、GETPASS コマンドは使えません。
 CHAN_GETPASS_PASSWORD_IS
-	Password for channel %s is %s.
+#	Password for channel %s is %s.
+	チャンネル %s のパスワードは %s です。
 
 # GETKEY responses
 CHAN_GETKEY_SYNTAX
