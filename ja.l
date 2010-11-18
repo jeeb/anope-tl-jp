@@ -1963,56 +1963,82 @@ CHAN_VOP_CLEAR
 
 # ACCESS messages
 CHAN_ACCESS_SYNTAX
-	ACCESS channel {ADD|DEL|LIST|CLEAR} [nick [level] | entry-list]
+#	ACCESS channel {ADD|DEL|LIST|CLEAR} [nick [level] | entry-list]
+	ACCESS チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム [レベル] | エントリー番号]
 CHAN_ACCESS_XOP
-	You can't use this command. 
-	Use the AOP, SOP and VOP commands instead.
-	Type %R%s HELP command for more information.
+#	You can't use this command. 
+#	Use the AOP, SOP and VOP commands instead.
+#	Type %R%s HELP command for more information.
+	このコマンドを使うことは出来ません。
+	AOP, SOP 又は VOP コマンドを使ってください。
+	より詳しい情報は %R%s HELP command とタイプしてください。
 CHAN_ACCESS_XOP_HOP
-	You can't use this command. 
-	Use the AOP, SOP, HOP and VOP commands instead.
-	Type %R%s HELP command for more information.
+#	You can't use this command. 
+#	Use the AOP, SOP, HOP and VOP commands instead.
+#	Type %R%s HELP command for more information.
+	このコマンドを使うことは出来ません。
+	AOP, SOP, HOP 又は VOP コマンドを使ってください。
+	より詳しい情報は %R%s HELP command とタイプしてください。
 CHAN_ACCESS_DISABLED
-	Sorry, channel access list modification is temporarily disabled.
+#	Sorry, channel access list modification is temporarily disabled.
+	チャンネルのアクセスリストの変更は一時的に禁止されています。
 CHAN_ACCESS_LEVEL_NONZERO
-	Access level must be non-zero.
+#	Access level must be non-zero.
+	アクセスレベルはゼロではいけません。
 CHAN_ACCESS_LEVEL_RANGE
-	Access level must be between %d and %d inclusive.
+#	Access level must be between %d and %d inclusive.
+	アクセスレベルは %d から %d の間に無くてはいけません。
 CHAN_ACCESS_NICKS_ONLY
-	Channel access lists may only contain registered nicknames.
+#	Channel access lists may only contain registered nicknames.
+	チャンネルのアクセスリストに追加できるニックネームは登録されたものでなければいけません。
 CHAN_ACCESS_REACHED_LIMIT
-	Sorry, you can only have %d access entries on a channel.
+#	Sorry, you can only have %d access entries on a channel.
+	チャンネルのアクセスエントリーを %d 個以上変えることは出来ません。
 CHAN_ACCESS_LEVEL_UNCHANGED
-	Access level for %s on %s unchanged from %d.
+#	Access level for %s on %s unchanged from %d.
+	チャンネル %s のアクセスリスト、%s のレベルを %d から変更しませんでした。
 CHAN_ACCESS_LEVEL_CHANGED
-	Access level for %s on %s changed to %d.
+#	Access level for %s on %s changed to %d.
+	チャンネル %s のアクセスリスト、%s のレベルを %d に変更しました。
 CHAN_ACCESS_ADDED
-	%s added to %s access list at level %d.
+#	%s added to %s access list at level %d.
+	チャンネル %s のアクセスリスト、レベル %d に%s を追加しました。
 CHAN_ACCESS_NO_SUCH_ENTRY
-	No such entry (#%d) on %s access list.
+#	No such entry (#%d) on %s access list.
+	チャンネル %s のアクセスリストにエントリー(#%d) は見つかりません。
 CHAN_ACCESS_NOT_FOUND
-	%s not found on %s access list.
+#	%s not found on %s access list.
+	チャンネル %s のアクセスリストに %s は見つかりません。
 CHAN_ACCESS_NO_MATCH
-	No matching entries on %s access list.
+#	No matching entries on %s access list.
+	チャンネル %s のアクセスリストにマッチするエントリーがありません。
 CHAN_ACCESS_DELETED
-	%s deleted from %s access list.
+#	%s deleted from %s access list.
+	チャンネル %s のアクセスリストから %s を削除しました。
 CHAN_ACCESS_DELETED_ONE
-	Deleted 1 entry from %s access list.
+#	Deleted 1 entry from %s access list.
+	チャンネル %s のアクセスリストからエントリーを 1 個削除しました。
 CHAN_ACCESS_DELETED_SEVERAL
-	Deleted %d entries from %s access list.
+#	Deleted %d entries from %s access list.
+	チャンネル %s のアクセスリストからエントリーを %d 個削除しました。
 CHAN_ACCESS_LIST_EMPTY
-	%s access list is empty.
+#	%s access list is empty.
+	チャンネル %s のアクセスリストは空です。
 CHAN_ACCESS_LIST_HEADER
-	Access list for %s:
-	  Num   Lev  Nick
+#	Access list for %s:
+#	  Num   Lev  Nick
+	チャンネル %s のアクセスリスト:
+	  番号  レベル ニックネーム
 CHAN_ACCESS_LIST_FOOTER
-	End of access list.
+#	End of access list.
+	アクセスリストの最後。
 CHAN_ACCESS_LIST_XOP_FORMAT
 	  %3d   %s  %s
 CHAN_ACCESS_LIST_AXS_FORMAT
 	  %3d  %4d  %s
 CHAN_ACCESS_CLEAR
-	Channel %s access list has been cleared.
+#	Channel %s access list has been cleared.
+	チャンネル %s の AOP リストを初期化しました。
 
 # AKICK responses
 CHAN_AKICK_SYNTAX
