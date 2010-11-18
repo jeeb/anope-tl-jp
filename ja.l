@@ -2235,10 +2235,12 @@ CHAN_LIST_SERVADMIN_SYNTAX
 	LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
 CHAN_LIST_HEADER
 	List of entries matching %s:
+	%s にマッチするリスト:
 CHAN_LIST_FORMAT
 	    %-20s  %s
 CHAN_LIST_END
 	End of list - %d/%d matches shown.
+	リストの最後 - %d/%d 個のマッチしたエントリー。
 	
 # INVITE responses
 CHAN_INVITE_SYNTAX
