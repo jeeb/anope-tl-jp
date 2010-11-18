@@ -2103,19 +2103,26 @@ CHAN_AKICK_CLEAR
 
 # LEVELS responses
 CHAN_LEVELS_SYNTAX
-	LEVELS channel {SET | DIS[ABLE] | LIST | RESET} [item [level]]
+#	LEVELS channel {SET | DIS[ABLE] | LIST | RESET} [item [level]]
+	LEVELS チャンネル {SET | DIS[ABLE] | LIST | RESET} [アイテム [レベル]]
 CHAN_LEVELS_XOP
-	Levels are not available as xOP is enabled on this channel.
+#	Levels are not available as xOP is enabled on this channel.
+	このチャンネルでは xOP が有効なので、レベル設定を使えません。
 CHAN_LEVELS_RANGE
-	Level must be between %d and %d inclusive.
+#	Level must be between %d and %d inclusive.
+	レベルは %d から %d の間に無くてはいけません。
 CHAN_LEVELS_CHANGED
-	Level for %s on channel %s changed to %d.
+#	Level for %s on channel %s changed to %d.
+	チャンネル %s の%s に対するレベルを %dに変更しました。
 CHAN_LEVELS_UNKNOWN
-	Setting %s not known.  Type %R%s HELP LEVELS DESC for a list of valid settings.
+#	Setting %s not known.  Type %R%s HELP LEVELS DESC for a list of valid settings.
+	設定 %s は定義されていません。定義された設定のリストは %R%s HELP LEVELS DESC とタイプしてください。
 CHAN_LEVELS_DISABLED
-	%s disabled on channel %s.
+#	%s disabled on channel %s.
+	チャンネル %s にてアクセスレベル%s の使用を禁止しました。
 CHAN_LEVELS_LIST_HEADER
-	Access level settings for channel %s:
+#	Access level settings for channel %s:
+	チャンネル %s のアクセスレベル:
 CHAN_LEVELS_LIST_DISABLED
 	    %-*s  (disabled)
 CHAN_LEVELS_LIST_FOUNDER
@@ -2123,7 +2130,8 @@ CHAN_LEVELS_LIST_FOUNDER
 CHAN_LEVELS_LIST_NORMAL
 	    %-*s  %d
 CHAN_LEVELS_RESET
-	Access levels for %s reset to defaults.
+#	Access levels for %s reset to defaults.
+	%s のアクセスレベルを初期値に戻しました。
 
 # Status Messages
 CHAN_STATUS_SYNTAX
