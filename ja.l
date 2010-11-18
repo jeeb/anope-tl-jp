@@ -1578,9 +1578,11 @@ CHAN_DESC_CHANGED
 
 # SET URL responses
 CHAN_URL_CHANGED
-	URL for %s changed to %s.
+#	URL for %s changed to %s.
+	チャンネル %s のURLを %s に変更しました。
 CHAN_URL_UNSET
-	URL for %s unset.
+#	URL for %s unset.
+	チャンネル %s のURLを未設定に戻しました。
 
 # SET EMAIL responses
 CHAN_EMAIL_CHANGED
