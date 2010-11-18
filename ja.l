@@ -2153,35 +2153,49 @@ CHAN_STATUS_INFO
 CHAN_INFO_SYNTAX
 	INFO channel [ALL]
 CHAN_INFO_HEADER
-	Information for channel %s:
+#	Information for channel %s:
+	チャンネル %s の情報:
 CHAN_INFO_FOUNDER
-	        Founder: %s (%s)
+#	        Founder: %s (%s)
+	        設立者: %s (%s)
 CHAN_INFO_NO_FOUNDER
-	        Founder: %s
+#	        Founder: %s
+	        設立者: %s
 CHAN_INFO_SUCCESSOR
-	      Successor: %s (%s)
+#	      Successor: %s (%s)
+	      後継者: %s (%s)
 CHAN_INFO_NO_SUCCESSOR
-	      Successor: %s
+#	      Successor: %s
+	      後継者: %s
 CHAN_INFO_DESCRIPTION
-	    Description: %s
+#	    Description: %s
+	    説明: %s
 CHAN_INFO_ENTRYMSG
-	  Entry message: %s
+#	  Entry message: %s
+	  エントリーメッセージ: %s
 CHAN_INFO_TIME_REGGED
-	     Registered: %s
+#	     Registered: %s
+	     登録済み: %s
 CHAN_INFO_LAST_USED
-	      Last used: %s
+#	      Last used: %s
+	      最新の使用: %s
 CHAN_INFO_LAST_TOPIC
-	     Last topic: %s
+#	     Last topic: %s
+	     最新のトピック: %s
 CHAN_INFO_TOPIC_SET_BY
-	   Topic set by: %s
+#	   Topic set by: %s
+	   トピックを設定したユーザ: %s
 CHAN_INFO_URL
 	            URL: %s
 CHAN_INFO_EMAIL
-	 E-mail address: %s
+#	 E-mail address: %s
+	 E-mail アドレス: %s
 CHAN_INFO_BANTYPE
-	       Ban type: %d
+#	       Ban type: %d
+	       禁止タイプ: %d
 CHAN_INFO_OPTIONS
-	        Options: %s
+#	        Options: %s
+	        オプション: %s
 CHAN_INFO_OPT_KEEPTOPIC
 	Topic Retention
 CHAN_INFO_OPT_OPNOTICE
@@ -2211,7 +2225,8 @@ CHAN_INFO_MODE_LOCK
 CHAN_INFO_EXPIRE
 	      Expires on: %s
 CHAN_INFO_NO_EXPIRE
-	This channel will not expire.
+#	This channel will not expire.
+	このチャンネルはユーザがいなくなってもなくなりません。
 
 # LIST responses
 CHAN_LIST_SYNTAX
