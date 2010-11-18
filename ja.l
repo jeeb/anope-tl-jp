@@ -2342,7 +2342,7 @@ CHAN_FORBID_SYNTAX_REASON
 	FORBID channel reason
 CHAN_FORBID_SUCCEEDED
 #	Channel %s is now forbidden.
-	チャンネル %s は禁止になりました。
+	チャンネル %s を禁止にしました。
 CHAN_FORBID_FAILED
 #	Couldn't forbid channel %s!
 	チャンネル %s を禁止に出来ません!
@@ -2356,25 +2356,33 @@ CHAN_SUSPEND_SYNTAX
 CHAN_SUSPEND_SYNTAX_REASON
 	SUSPEND channel reason
 CHAN_SUSPEND_SUCCEEDED
-	Channel %s is now suspended.
+#	Channel %s is now suspended.
+	チャンネル %s を休止状態にしました。
 CHAN_SUSPEND_FAILED
-	Couldn't suspended channel %s!
+#	Couldn't suspended channel %s!
+	チャンネル %s を休止状態に出来ません!
 CHAN_SUSPEND_REASON
-	This channel has been suspended.
+#	This channel has been suspended.
+	このチャンネルは休止状態です。
 
 # UNSUSPEND responses
 CHAN_UNSUSPEND_SYNTAX
 	UNSUSPEND channel
 CHAN_UNSUSPEND_ERROR
-	No # found in front of channel name.
+#	No # found in front of channel name.
+	#がチャンネル名の前にありません。
 CHAN_UNSUSPEND_SUCCEEDED
-	Channel %s is now released.
+#	Channel %s is now released.
+	チャンネル %s をリリースしました。
 CHAN_UNSUSPEND_FAILED
-	Couldn't release channel %s!
+#	Couldn't release channel %s!
+	このチャンネルをリリースできません!
+
 
 # Misc responses
 CHAN_EXCEPTED
-	%s matches an except on %s and cannot be banned until the except have been removed.
+#	%s matches an except on %s and cannot be banned until the except have been removed.
+	例外が解除されるまでは、チャンネル %s の例外にマッチした %s を禁止できません。
 
 ###########################################################################
 #
