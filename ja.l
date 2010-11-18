@@ -1627,11 +1627,14 @@ CHAN_MLOCK_CHANGED
 
 # SET KEEPTOPIC responses
 CHAN_SET_KEEPTOPIC_SYNTAX
-	SET channel KEEPTOPIC {ON | OFF}
+#	SET channel KEEPTOPIC {ON | OFF}
+	チャンネル の KEEPTOPIC を {ON | OFF} に設定
 CHAN_SET_KEEPTOPIC_ON
-	Topic retention option for %s is now ON.
+#	Topic retention option for %s is now ON.
+	チャンネル %s のトピック保存オプションは ON です。
 CHAN_SET_KEEPTOPIC_OFF
-	Topic retention option for %s is now OFF.
+#	Topic retention option for %s is now OFF.
+	チャンネル %s のトピック保存オプションは OFF です。
 
 # SET TOPICLOCK responses
 CHAN_SET_TOPICLOCK_SYNTAX
