@@ -2042,35 +2042,50 @@ CHAN_ACCESS_CLEAR
 
 # AKICK responses
 CHAN_AKICK_SYNTAX
-	AKICK channel {ADD | STICK | UNSTICK | DEL | LIST | VIEW | ENFORCE | CLEAR} [nick-or-usermask] [reason]
+#	AKICK channel {ADD | STICK | UNSTICK | DEL | LIST | VIEW | ENFORCE | CLEAR} [nick-or-usermask] [reason]
+	AKICK チャンネル {ADD | STICK | UNSTICK | DEL | LIST | VIEW | ENFORCE | CLEAR} [ニックネーム又はマスク] [理由]
 CHAN_AKICK_DISABLED
-	Sorry, channel autokick list modification is temporarily disabled.
+#	Sorry, channel autokick list modification is temporarily disabled.
+	チャンネルの自動キックリストの変更は一時的に禁止されています。
 CHAN_AKICK_ALREADY_EXISTS
-	%s already exists on %s autokick list.
+#	%s already exists on %s autokick list.
+	チャンネル %s の自動キックリストに%s は登録済みです。
 CHAN_AKICK_REACHED_LIMIT
-	Sorry, you can only have %d autokick masks on a channel.
+#	Sorry, you can only have %d autokick masks on a channel.
+	%d 個以上の自動キックマスクをつけることは出来ません。
 CHAN_AKICK_ADDED
-	%s added to %s autokick list.
+#	%s added to %s autokick list.
+	チャンネル %s の自動キックリストに%s を追加しました。
 CHAN_AKICK_NO_SUCH_ENTRY
-	No such entry (#%d) on %s autokick list.
+#	No such entry (#%d) on %s autokick list.
+	チャンネル %s の自動キックリストにエントリー(#%d) は見つかりません。
 CHAN_AKICK_NOT_FOUND
-	%s not found on %s autokick list.
+#	%s not found on %s autokick list.
+	チャンネル %s の自動キックリストに %s は見つかりません。
 CHAN_AKICK_NO_MATCH
-	No matching entries on %s autokick list.
+#	No matching entries on %s autokick list.
+	チャンネル %s の自動キックリストにマッチするエントリーがありません。
 CHAN_AKICK_STUCK
-	%s is now always active on channel %s.
+#	%s is now always active on channel %s.
+	チャンネル %s の自動キックリスト内の%s に対するキック常に有効です。
 CHAN_AKICK_UNSTUCK
-	%s is not always active anymore on channel %s.
+#	%s is not always active anymore on channel %s.
+	チャンネル %s の自動キックリスト内の%s に対するキック常に有効ではありません。
 CHAN_AKICK_DELETED
-	%s deleted from %s autokick list.
+#	%s deleted from %s autokick list.
+	チャンネル %s の自動キックリストから %s を削除しました。
 CHAN_AKICK_DELETED_ONE
-	Deleted 1 entry from %s autokick list.
+#	Deleted 1 entry from %s autokick list.
+	チャンネル %s の自動キックリストからエントリーを 1 個削除しました。
 CHAN_AKICK_DELETED_SEVERAL
-	Deleted %d entries from %s autokick list.
+#	Deleted %d entries from %s autokick list.
+	チャンネル %s の自動キックリストからエントリーを %d 個削除しました。
 CHAN_AKICK_LIST_EMPTY
-	%s autokick list is empty.
+#	%s autokick list is empty.
+	チャンネル %s の自動キックリストは空です。
 CHAN_AKICK_LIST_HEADER
-	Autokick list for %s:
+#	Autokick list for %s:
+	チャンネル %s の自動キックリスト:
 CHAN_AKICK_LIST_FORMAT
 	  %3d %s (%s)
 CHAN_AKICK_VIEW_FORMAT
@@ -2080,9 +2095,11 @@ CHAN_AKICK_VIEW_FORMAT_STUCK
 	%3d %s (stuck) (by %s on %s)
 	    %s
 CHAN_AKICK_ENFORCE_DONE
-	AKICK ENFORCE for %s complete; %d users were affected.
+#	AKICK ENFORCE for %s complete; %d users were affected.
+	%s AKICK ENFORCE コマンド完了; %d 人のユーザに影響が出ました。
 CHAN_AKICK_CLEAR
-	Channel %s akick list has been cleared.
+#	Channel %s akick list has been cleared.
+	チャンネル %s の自動キックリストは空です。
 
 # LEVELS responses
 CHAN_LEVELS_SYNTAX
