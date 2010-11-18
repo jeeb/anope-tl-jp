@@ -1562,11 +1562,14 @@ CHAN_SUCCESSOR_IS_FOUNDER
 
 # SET PASSWORD responses
 CHAN_SET_PASSWORD_FAILED
-	Sorry, couldn't set password.
+#	Sorry, couldn't set password.
+	パスワードを設定できません。
 CHAN_PASSWORD_CHANGED
-	%s password changed.
+#	%s password changed.
+	%s のパスワードを変更しました。
 CHAN_PASSWORD_CHANGED_TO
-	%s password changed to %s.
+#	%s password changed to %s.
+	%s のパスワードを %s に変更しました。
 
 # SET DESC responses
 CHAN_DESC_CHANGED
