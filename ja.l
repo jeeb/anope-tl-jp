@@ -1602,9 +1602,11 @@ CHAN_ENTRY_MSG_UNSET
 	
 # SET BANTYPE responses
 CHAN_SET_BANTYPE_INVALID
-	%s is not a valid ban type.
+#	%s is not a valid ban type.
+	%s は有効な禁止タイプではありません。
 CHAN_SET_BANTYPE_CHANGED
-	Ban type for channel %s is now #%d.
+#	Ban type for channel %s is now #%d.
+	チャンネル %s の現在の禁止タイプは #%d です。
 
 # SET MLOCK responses
 CHAN_SET_MLOCK_UNKNOWN_CHAR
