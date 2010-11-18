@@ -1594,9 +1594,11 @@ CHAN_EMAIL_UNSET
 
 # SET ENTRYMSG responses
 CHAN_ENTRY_MSG_CHANGED
-	Entry message for %s changed.
+#	Entry message for %s changed.
+	チャンネル %s のエントリーメッセージを変更しました。
 CHAN_ENTRY_MSG_UNSET
-	Entry message for %s unset.
+#	Entry message for %s unset.
+	チャンネル %s のエントリーメッセージを未設定に戻しました。
 	
 # SET BANTYPE responses
 CHAN_SET_BANTYPE_INVALID
