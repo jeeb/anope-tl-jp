@@ -1825,34 +1825,49 @@ CHAN_AOP_CLEAR
 
 # HOP messages
 CHAN_HOP_SYNTAX
-	HOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
+#	HOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
+	HOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリー番号]
 CHAN_HOP_DISABLED
-	Sorry, channel HOP list modification is temporarily disabled.
+#	Sorry, channel HOP list modification is temporarily disabled.
+	チャンネルの HOP リストの変更は一時的に禁止されています。
 CHAN_HOP_NICKS_ONLY
-	Channel HOP lists may only contain registered nicknames.
+#	Channel HOP lists may only contain registered nicknames.
+	チャンネルの HOP リストに追加できるニックネームは登録されたものでなければいけません。
 CHAN_HOP_ADDED
-	%s added to %s HOP list.
+#	%s added to %s HOP list.
+	チャンネル %s の HOP リストに%s を追加しました。
 CHAN_HOP_MOVED
-	%s moved to %s HOP list.
+#	%s moved to %s HOP list.
+	チャンネル %s の HOP リストに%s を移動しました。
 CHAN_HOP_NO_SUCH_ENTRY
-	No such entry (#%d) on %s HOP list.
+#	No such entry (#%d) on %s HOP list.
+	チャンネル %s の HOP リストにエントリー(#%d) は見つかりません。
 CHAN_HOP_NOT_FOUND
-	%s not found on %s HOP list.
+#	%s not found on %s HOP list.
+	チャンネル %s の HOP リストに %s は見つかりません。
 CHAN_HOP_NO_MATCH
-	No matching entries on %s HOP list.
+#	No matching entries on %s HOP list.
+	チャンネル %s の HOP リストにマッチするエントリーがありません。
 CHAN_HOP_DELETED
-	%s deleted from %s HOP list.
+#	%s deleted from %s HOP list.
+	チャンネル %s の HOP リストから %s を削除しました。
 CHAN_HOP_DELETED_ONE
-	Deleted 1 entry from %s HOP list.
+#	Deleted 1 entry from %s HOP list.
+	チャンネル %s の HOP リストからエントリーを 1 個削除しました。
 CHAN_HOP_DELETED_SEVERAL
-	Deleted %d entries from %s HOP list.
+#	Deleted %d entries from %s HOP list.
+	チャンネル %s の HOP リストからエントリーを %d 個削除しました。
 CHAN_HOP_LIST_EMPTY
-	%s HOP list is empty.
+#	%s HOP list is empty.
+	チャンネル %s の HOP リストは空です。
 CHAN_HOP_LIST_HEADER
-	HOP list for %s:
-	  Num  Nick
+#	HOP list for %s:
+#	  Num  Nick
+	チャンネル %s の HOP リスト:
+	  番号 ニックネーム
 CHAN_HOP_CLEAR
-	Channel %s HOP list has been cleared.
+#	Channel %s HOP list has been cleared.
+	チャンネル %s の HOP リストを初期化しました。
 
 # SOP messages
 CHAN_SOP_SYNTAX
