@@ -1586,9 +1586,11 @@ CHAN_URL_UNSET
 
 # SET EMAIL responses
 CHAN_EMAIL_CHANGED
-	E-mail address for %s changed to %s.
+#	E-mail address for %s changed to %s.
+	チャンネル %s のメールアドレスを %s に変更しました。
 CHAN_EMAIL_UNSET
-	E-mail address for %s unset.
+#	E-mail address for %s unset.
+	チャンネル %s のメールアドレスを未設定に戻しました。
 
 # SET ENTRYMSG responses
 CHAN_ENTRY_MSG_CHANGED
