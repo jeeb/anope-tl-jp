@@ -1610,15 +1610,20 @@ CHAN_SET_BANTYPE_CHANGED
 
 # SET MLOCK responses
 CHAN_SET_MLOCK_UNKNOWN_CHAR
-	Unknown mode character %c ignored.
+#	Unknown mode character %c ignored.
+	認識できないモードキャラクタ %c を無視しました。
 CHAN_SET_MLOCK_IMPOSSIBLE_CHAR
-	Mode %c ignored because you can't lock it.
+#	Mode %c ignored because you can't lock it.
+	ロック権限が無いのでモード %c を無視しました。
 CHAN_SET_MLOCK_L_REQUIRED
-	You must lock mode +l as well to lock mode +L.
+#	You must lock mode +l as well to lock mode +L.
+	ロックモード +L をONにするのと同時に +l もONにしてください。
 CHAN_SET_MLOCK_K_REQUIRED
-	You must lock mode +i as well to lock mode +K.
+#	You must lock mode +i as well to lock mode +K.
+	ロックモード +K をONにするのと同時に +i もONにしてください。
 CHAN_MLOCK_CHANGED
-	Mode lock on channel %s changed to %s.
+#	Mode lock on channel %s changed to %s.
+	チャンネル %s のロックモードを %s に変更しました。
 
 # SET KEEPTOPIC responses
 CHAN_SET_KEEPTOPIC_SYNTAX
