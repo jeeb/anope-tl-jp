@@ -1871,34 +1871,49 @@ CHAN_HOP_CLEAR
 
 # SOP messages
 CHAN_SOP_SYNTAX
-	SOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
+#	SOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
+	SOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリー番号]
 CHAN_SOP_DISABLED
-	Sorry, channel SOP list modification is temporarily disabled.
+#	Sorry, channel SOP list modification is temporarily disabled.
+	チャンネルの SOP リストの変更は一時的に禁止されています。
 CHAN_SOP_NICKS_ONLY
-	Channel SOP lists may only contain registered nicknames.
+#	Channel SOP lists may only contain registered nicknames.
+	チャンネルの SOP リストに追加できるニックネームは登録されたものでなければいけません。
 CHAN_SOP_ADDED
-	%s added to %s SOP list.
+#	%s added to %s SOP list.
+	チャンネル %s の SOP リストに%s を追加しました。
 CHAN_SOP_MOVED
-	%s moved to %s SOP list.
+#	%s moved to %s SOP list.
+	チャンネル %s の SOP リストに%s を移動しました。
 CHAN_SOP_NO_SUCH_ENTRY
-	No such entry (#%d) on %s SOP list.
+#	No such entry (#%d) on %s SOP list.
+	チャンネル %s の SOP リストにエントリー(#%d) は見つかりません。
 CHAN_SOP_NOT_FOUND
-	%s not found on %s SOP list.
+#	%s not found on %s SOP list.
+	チャンネル %s の SOP リストに %s は見つかりません。
 CHAN_SOP_NO_MATCH
-	No matching entries on %s SOP list.
+#	No matching entries on %s SOP list.
+	チャンネル %s の SOP リストにマッチするエントリーがありません。
 CHAN_SOP_DELETED
-	%s deleted from %s SOP list.
+#	%s deleted from %s SOP list.
+	チャンネル %s の SOP リストから %s を削除しました。
 CHAN_SOP_DELETED_ONE
-	Deleted 1 entry from %s SOP list.
+#	Deleted 1 entry from %s SOP list.
+	チャンネル %s の SOP リストからエントリーを 1 個削除しました。
 CHAN_SOP_DELETED_SEVERAL
-	Deleted %d entries from %s SOP list.
+#	Deleted %d entries from %s SOP list.
+	チャンネル %s の SOP リストからエントリーを %d 個削除しました。
 CHAN_SOP_LIST_EMPTY
-	%s SOP list is empty.
+#	%s SOP list is empty.
+	チャンネル %s の SOP リストは空です。
 CHAN_SOP_LIST_HEADER
-	SOP list for %s:
-	  Num  Nick
+#	SOP list for %s:
+#	  Num  Nick
+	チャンネル %s の SOP リスト:
+	  番号 ニックネーム
 CHAN_SOP_CLEAR
 	Channel %s SOP list has been cleared.
+	チャンネル %s の SOP リストを初期化しました。
 
 # VOP messages
 CHAN_VOP_SYNTAX
