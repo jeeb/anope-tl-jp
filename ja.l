@@ -1675,18 +1675,21 @@ CHAN_SET_SECUREOPS_SYNTAX
 	チャンネル の SECUREOPS オプションを {ON | OFF} に設定
 CHAN_SET_SECUREOPS_ON
 #	Secure ops option for %s is now ON.
-	チャンネル %s の秘密オペレータオプションは ON です。
+	チャンネル %s の安全オペレータオプションは ON です。
 CHAN_SET_SECUREOPS_OFF
 #	Secure ops option for %s is now OFF.
-	チャンネル %s の秘密オペレータオプションは OFF です。
+	チャンネル %s の安全オペレータオプションは OFF です。
 
 # SET SECUREFOUNDER responses
 CHAN_SET_SECUREFOUNDER_SYNTAX
-	SET channel SECUREFOUNDER {ON | OFF}
+#	SET channel SECUREFOUNDER {ON | OFF}
+	チャンネル の SECUREFOUNDER オプションを {ON | OFF} に設定
 CHAN_SET_SECUREFOUNDER_ON
-	Secure founder option for %s is now ON.
+#	Secure founder option for %s is now ON.
+	チャンネル %s の安全開設者オプションは ON です。
 CHAN_SET_SECUREFOUNDER_OFF
-	Secure founder option for %s is now OFF.
+#	Secure founder option for %s is now OFF.
+	チャンネル %s の安全開設者オプションは OFF です。
 
 # SET RESTRICTED responses
 CHAN_SET_RESTRICTED_SYNTAX
