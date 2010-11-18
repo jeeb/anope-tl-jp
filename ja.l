@@ -1660,11 +1660,14 @@ CHAN_SET_PEACE_OFF
 
 # SET PRIVATE responses
 CHAN_SET_PRIVATE_SYNTAX
-	SET channel PRIVATE {ON | OFF}
+#	SET channel PRIVATE {ON | OFF}
+	チャンネル の PRIVATE オプションを {ON | OFF} に設定
 CHAN_SET_PRIVATE_ON
-	Private option for %s is now ON.
+#	Private option for %s is now ON.
+	チャンネル %s のプライベートオプションは ON です。
 CHAN_SET_PRIVATE_OFF
-	Private option for %s is now OFF.
+#	Private option for %s is now OFF.
+	チャンネル %s のプライベートオプションは OFF です。
 
 # SET SECUREOPS responses
 CHAN_SET_SECUREOPS_SYNTAX
