@@ -5072,9 +5072,12 @@ NICK_HELP_SET_EMAIL
 #	Syntax: SET EMAIL address
 	構文: SET EMAIL address
 	
-	Associates the given E-mail address with your nickname.
-	This address will be displayed whenever someone requests
-	information on the nickname with the INFO command.
+#	Associates the given E-mail address with your nickname.
+#	This address will be displayed whenever someone requests
+#	information on the nickname with the INFO command.
+	ニックネームと電子メールアドレスを紐付けます。
+	このアドレスは INFO コマンドで得られるニックネーム
+	に関する情報に表示されます。
 	
 NICK_HELP_SET_ICQ
 #	Syntax: SET ICQ number
