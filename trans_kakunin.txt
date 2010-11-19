@@ -4,6 +4,9 @@ Please feel free to add new points to this file.
 気軽にお書き添えください。
 
 'type'という表現がある場合は「入力」で訳す。（種類という意味のtypeを除いて）
+例:
+#	Type %R%s HELP ACCESS for more information.
+	より詳しい情報は %R%s HELP ACCESS と入力してください。
 
 wordという単語が出た場合（例えば banned word)
 ワード

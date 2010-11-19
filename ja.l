@@ -1457,7 +1457,7 @@ CHAN_REGISTER_NOT_LOCAL
 	ローカルチャンネルは登録できません。
 CHAN_MUST_REGISTER_NICK
 #	You must register your nickname first.  Type %R%s HELP for information on registering nicknames.
-	先にニックネームの登録を行ってください。%R%s HELP とタイプすることでより詳細な情報が見られます。
+	先にニックネームの登録を行ってください。%R%s HELP と入力することでより詳細な情報が見られます。
 CHAN_MUST_IDENTIFY_NICK
 #	Please identify with %s first, using the command:
 #	%R%s IDENTIFY password
@@ -1772,7 +1772,7 @@ CHAN_XOP_ACCESS
 #	You can't use this command. Use the ACCESS command instead.
 #	Type %R%s HELP ACCESS for more information.
 	このコマンドは使用できません。 ACCESS コマンドを使用してください。
-	より詳しい情報は %R%s HELP ACCESS とタイプしてください。
+	より詳しい情報は %R%s HELP ACCESS と入力してください。
 CHAN_XOP_NOT_AVAILABLE
 #	xOP system is not available.
 	xOP システムは使用できません。
@@ -1971,14 +1971,14 @@ CHAN_ACCESS_XOP
 #	Type %R%s HELP command for more information.
 	このコマンドを使うことは出来ません。
 	AOP, SOP 又は VOP コマンドを使ってください。
-	より詳しい情報は %R%s HELP command とタイプしてください。
+	より詳しい情報は %R%s HELP command と入力してください。
 CHAN_ACCESS_XOP_HOP
 #	You can't use this command. 
 #	Use the AOP, SOP, HOP and VOP commands instead.
 #	Type %R%s HELP command for more information.
 	このコマンドを使うことは出来ません。
 	AOP, SOP, HOP 又は VOP コマンドを使ってください。
-	より詳しい情報は %R%s HELP command とタイプしてください。
+	より詳しい情報は %R%s HELP command と入力してください。
 CHAN_ACCESS_DISABLED
 #	Sorry, channel access list modification is temporarily disabled.
 	チャンネルのアクセスリストの変更は一時的に禁止されています。
@@ -2116,7 +2116,7 @@ CHAN_LEVELS_CHANGED
 	チャンネル %s の%s に対するレベルを %dに変更しました。
 CHAN_LEVELS_UNKNOWN
 #	Setting %s not known.  Type %R%s HELP LEVELS DESC for a list of valid settings.
-	設定 %s は定義されていません。定義された設定のリストは %R%s HELP LEVELS DESC とタイプしてください。
+	設定 %s は定義されていません。定義された設定のリストは %R%s HELP LEVELS DESC と入力してください。
 CHAN_LEVELS_DISABLED
 #	%s disabled on channel %s.
 	チャンネル %s にてアクセスレベル%s の使用を禁止しました。
@@ -4742,9 +4742,9 @@ NICK_HELP
 	%S を使うとニックネームの登録と、登録済みニックネーム
 	をほかの人に使われることを防ぐことが出来ます。
 	ニックネームの登録とメンテナンスをするには、
-	%R%S command とタイプしてください。
+	%R%S command と入力してください。
 	より詳細なコマンドについての情報は
-	%R%S HELP command とタイプしてください。
+	%R%S HELP command と入力してください。
 	
 NICK_HELP_FOOTER
 	 
@@ -4824,7 +4824,7 @@ NICK_HELP_REGISTER
 	作成します。このグループには同じ設定を共有するほかのニックネーム
 	を登録することが出来ます。ここで設定とはメモや同じチャンネル
 	に対する特権の事を指します。より詳しい情報は、
-	%R%S HELP GROUP とタイプしてください。
+	%R%S HELP GROUP と入力してください。
 
 	
 NICK_HELP_GROUP
@@ -4860,7 +4860,7 @@ NICK_HELP_GROUP
 	ニックネームが登録されていない場合、このコマンドを使えます。
 	ニックネームが登録されている場合は、このコマンドを使う前に
 	認証が必要です。より詳しい情報は %R%S HELP IDENTIFY 
-	とタイプしてください。IRCネットワークによっては
+	と入力してください。IRCネットワークによっては
 	このコマンドが使えない場合があります。
 	
 #	It is recommended to use this command with a non-registered
