@@ -5083,18 +5083,26 @@ NICK_HELP_SET_ICQ
 #	Syntax: SET ICQ number
 	構文: SET ICQ number
 	
-	Associates the given ICQ number with your nickname.  This 
-	number will be displayed whenever someone requests 
-	information on your nick with the INFO command.
+#	Associates the given ICQ number with your nickname.  This 
+#	number will be displayed whenever someone requests 
+#	information on your nick with the INFO command.
+	ニックネームとICQ番号を紐付けます。
+	このICQ番号は INFO コマンドで得られるニックネーム
+	に関する情報に表示されます。
+	
 	
 NICK_HELP_SET_GREET
 #	Syntax: SET GREET message
 	構文: SET GREET message
 	
-	Makes the given message the greet of your nickname, that
-	will be displayed when joining a channel that has GREET
-	option enabled, provided that you have the necessary 
-	access on it.
+#	Makes the given message the greet of your nickname, that
+#	will be displayed when joining a channel that has GREET
+#	option enabled, provided that you have the necessary 
+#	access on it.
+	ニックネームの挨拶メッセージを設定します。
+	この挨拶メッセージはGREETオプションが有効化されたチャンネル
+	にjoinした際に表示され、あなたがチャンネルに必要なアクセス
+	をもっている場合に供給されます。
 
 NICK_HELP_SET_KILL
 #	Syntax: SET KILL {ON | QUICK | IMMED | OFF}
