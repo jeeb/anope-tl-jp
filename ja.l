@@ -5062,9 +5062,11 @@ NICK_HELP_SET_URL
 #	Syntax: SET URL url
 	構文: SET URL url
 	
-	Associates the given URL with your nickname.  This URL
-	will be displayed whenever someone requests information
-	on your nick with the INFO command.
+#	Associates the given URL with your nickname.  This URL
+#	will be displayed whenever someone requests information
+#	on your nick with the INFO command.
+	ニックネームとURLを紐付けます。このURLはINFO コマンド
+	で得られるニックネームに関する情報に表示されます。
 
 NICK_HELP_SET_EMAIL
 #	Syntax: SET EMAIL address
