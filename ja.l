@@ -4831,34 +4831,57 @@ NICK_HELP_GROUP
 #	Syntax: GROUP target password
 	構文: GROUP target password
 	
-	This command makes your nickname join the target nickname's 
-	group. password is the password of the target nickname.
+#	This command makes your nickname join the target nickname's 
+#	group. password is the password of the target nickname.
+	このコマンドで target ニックネームのグループにあなたの
+	ニックネームを追加します。password はターゲットニックネーム
+	のパスワードです。
 	
-	Joining a group will allow you to share your configuration,
-	memos, and channel privileges with all the nicknames in the
-	group, and much more!
+#	Joining a group will allow you to share your configuration,
+#	memos, and channel privileges with all the nicknames in the
+#	group, and much more!
+	グループに登録すると、グループに登録されているニックネーム
+	すべてに対して設定、メモ、チャンネル特権を共有できます。
 	 
-	A group exists as long as it is useful. This means that even
-	if a nick of the group is dropped, you won't lose the
-	shared things described above, as long as there is at
-	least one nick remaining in the group.
+#	A group exists as long as it is useful. This means that even
+#	if a nick of the group is dropped, you won't lose the
+#	shared things described above, as long as there is at
+#	least one nick remaining in the group.
+	グループは使用可能な状態であれば存在し続けます。これは、
+	グループに含まれるニックネームが無くなったとしても、
+	1つ以上のニックネームがグループに含まれている限り、
+	上で書いたような共有設定は失われないということです。
 	
-	You can use this command even if you have not registered
-	your nick yet. If your nick is already registered, you'll
-	need to identify yourself before using this command. Type
-	%R%S HELP IDENTIFY for more information. This
-	last may be not possible on your IRC network.
+#	You can use this command even if you have not registered
+#	your nick yet. If your nick is already registered, you'll
+#	need to identify yourself before using this command. Type
+#	%R%S HELP IDENTIFY for more information. This
+#	last may be not possible on your IRC network.
+	ニックネームが登録されていない場合、このコマンドを使えます。
+	ニックネームが登録されている場合は、このコマンドを使う前に
+	認証が必要です。より詳しい情報は %R%S HELP IDENTIFY 
+	とタイプしてください。IRCネットワークによっては
+	このコマンドが使えない場合があります。
 	
-	It is recommended to use this command with a non-registered
-	nick because it will be registered automatically when 
-	using this command. You may use it with a registered nick (to 
-	change your group) only if your network administrators allowed 
-	it.
+#	It is recommended to use this command with a non-registered
+#	nick because it will be registered automatically when 
+#	using this command. You may use it with a registered nick (to 
+#	change your group) only if your network administrators allowed 
+#	it.
+	このコマンドは未登録のニックネームと共に使うことをお勧めします。
+	なぜなら、このコマンドを使うと自動的にニックネーム登録も
+	されるからです。IRCネットワークの管理者が許している場合に限り、
+	登録済みのニックネームと共に使う(グループ変更する)ことも可能です。
 	
-	You can only be in one group at a time. Group merging is
-	not possible.
+#	You can only be in one group at a time. Group merging is
+#	not possible.
+	同時に複数ののグループに登録することは出来ません。また、
+	グループの結合は出来ません。
 	
-	Note: all the nicknames of a group have the same password.
+#	Note: all the nicknames of a group have the same password.
+	注意: あるグループに含まれるニックネームのパスワードは
+	すべて同じです。
+	
 
 NICK_HELP_IDENTIFY
 #	Syntax: IDENTIFY password
