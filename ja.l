@@ -4912,10 +4912,14 @@ NICK_HELP_LOGOUT
 #	Syntax: LOGOUT
 	構文: LOGOUT
 	
-	This reverses the effect of the IDENTIFY command, i.e.
-	make you not recognized as the real owner of the nick
-	anymore. Note, however, that you won't be asked to reidentify
-	yourself.
+#	This reverses the effect of the IDENTIFY command, i.e.
+#	make you not recognized as the real owner of the nick
+#	anymore. Note, however, that you won't be asked to reidentify
+#	yourself.
+	IDENTIFY コマンドの影響を逆転します。例えば、
+	自分がニックネームの正統なユーザであることを未証明の状態
+	にします。再度証明するかどうかを尋ねられることは無いという
+	点にに注意してください。
 
 NICK_HELP_DROP
 #	Syntax: DROP [nickname]
