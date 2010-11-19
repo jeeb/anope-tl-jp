@@ -5050,12 +5050,14 @@ NICK_HELP_SET_LANGUAGE
 #	Syntax: SET LANGUAGE number
 	構文: SET LANGUAGE number
 	
-	Changes the language Services uses when sending messages to
-	you (for example, when responding to a command you send).
-	number should be chosen from the following list of
-	supported languages:
+#	Changes the language Services uses when sending messages to
+#	you (for example, when responding to a command you send).
+#	number should be chosen from the following list of
+#	supported languages:
+	サーバからのメッセージ表示言語を変更します。(例えば、
+	あなたからのコマンドのレスポンス等。)number は
+	以下の言語リストから選択してください。
 	
-
 NICK_HELP_SET_URL
 #	Syntax: SET URL url
 	構文: SET URL url
