@@ -4762,9 +4762,9 @@ NICK_HELP_FOOTER
 
 NICK_HELP_EXPIRES
 	
-	Nicknames that are not used anymore are subject to 
-	the automatic expiration, i.e. they will be deleted
-	after %d days if not used.
+#	Nicknames that are not used anymore are subject to 
+#	the automatic expiration, i.e. they will be deleted
+#	after %d days if not used.
 	使用禁止ニックネームの登録は自動的に解除されます。
 	たとえば、使用禁止ニックネームが使用されない場合には
 	%d 日後に自動的に登録解除されます。
@@ -4773,35 +4773,59 @@ NICK_HELP_REGISTER
 #	Syntax: REGISTER password [email]
 	構文: REGISTER password [email]
 	
-	Registers your nickname in the %S database.  Once
-	your nick is registered, you can use the SET and ACCESS
-	commands to configure your nick's settings as you like
-	them.  Make sure you remember the password you use when
-	registering - you'll need it to make changes to your nick
-	later.  (Note that case matters!  ANOPE, Anope, and 
-	anope are all different passwords!)
+#	Registers your nickname in the %S database.  Once
+#	your nick is registered, you can use the SET and ACCESS
+#	commands to configure your nick's settings as you like
+#	them.  Make sure you remember the password you use when
+#	registering - you'll need it to make changes to your nick
+#	later.  (Note that case matters!  ANOPE, Anope, and 
+#	anope are all different passwords!)
+	%S のデータベースにニックネームを登録します。登録した後は、
+	SET や ACCESS コマンドを使ってニックネームの設定
+	を変更できます。登録時のパスワードを忘れないようにしてください。
+	また、登録時のパスワードを変更することも忘れないでください。
+	(大文字と小文字は区別されることに注意してください。
+	ANOPE、Anope、anope これらはすべて異なるパスワードです!)
 	
-	Guidelines on choosing passwords:
+#	Guidelines on choosing passwords:
+	パスワード選択に関するガイドライン:
 	
-	Passwords should not be easily guessable.  For example,
-	using your real name as a password is a bad idea.  Using
-	your nickname as a password is a much worse idea ;) and,
-	in fact, %S will not allow it.  Also, short
-	passwords are vulnerable to trial-and-error searches, so
-	you should choose a password at least 5 characters long.
-	Finally, the space character cannot be used in passwords.
+#	Passwords should not be easily guessable.  For example,
+#	using your real name as a password is a bad idea.  Using
+#	your nickname as a password is a much worse idea ;) and,
+#	in fact, %S will not allow it.  Also, short
+#	passwords are vulnerable to trial-and-error searches, so
+#	you should choose a password at least 5 characters long.
+#	Finally, the space character cannot be used in passwords.
+	パスワードは簡単に推測できるものであってはなりません。例えば、
+	あなたの実際の名前をパスワードにするのは良くありません。さらに、
+	ニックネームをパスワードにするのは最悪ですし、%S はそれを
+	許しません。また、短いパスワードは総当り検索に対して脆弱です。
+	少なくとも5文字以上のパスワードを設定することをお勧めします。
+	最後に、空白文字はパスワードとして使用できません。
 	
-	The parameter email is optional and will set the email
-	for your nick immediately. However, it may be required
-	on certain networks.
-	Your privacy is respected; this e-mail won't be given to
-	any third-party person.
+#	The parameter email is optional and will set the email
+#	for your nick immediately. However, it may be required
+#	on certain networks.
+#	Your privacy is respected; this e-mail won't be given to
+#	any third-party person.
+	パラメータemail は任意で設定可能で、ニックネームに対する
+	メールアドレスの紐付けが直ちに行われます。しかし、ネットワーク
+	によってはこの設定が必須な場合があります。
+	我々はあなたのプライバシーを尊重します。ここで設定した
+	メールアドレスが第三者に譲渡されることはありません。
 	
-	This command also creates a new group for your nickname,
-	that will allow you to register other nicks later sharing
-	the same configuration, the same set of memos and the
-	same channel privileges. For more information on this
-	feature, type %R%S HELP GROUP.
+#	This command also creates a new group for your nickname,
+#	that will allow you to register other nicks later sharing
+#	the same configuration, the same set of memos and the
+#	same channel privileges. For more information on this
+#	feature, type %R%S HELP GROUP.
+	このコマンドはあなたのニックネームに対する新しいグループを
+	作成します。このグループには同じ設定を共有するほかのニックネーム
+	を登録することが出来ます。ここで設定とはメモや同じチャンネル
+	に対する特権の事を指します。より詳しい情報は、
+	%R%S HELP GROUP とタイプしてください。
+
 	
 NICK_HELP_GROUP
 #	Syntax: GROUP target password
