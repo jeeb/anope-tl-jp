@@ -4887,11 +4887,15 @@ NICK_HELP_IDENTIFY
 #	Syntax: IDENTIFY password
 	構文: IDENTIFY password
 	
-	Tells %S that you are really the owner of this
-	nick.  Many commands require you to authenticate yourself
-	with this command before you use them.  The password
-	should be the same one you sent with the REGISTER
-	command.
+#	Tells %S that you are really the owner of this
+#	nick.  Many commands require you to authenticate yourself
+#	with this command before you use them.  The password
+#	should be the same one you sent with the REGISTER
+#	command.
+	%S にあなたがこのニックネームの正統なオーナーであることを
+	伝えます。このコマンドを使う前に多くのコマンドを使わなければ
+	いけません。パスワードは REGISTER コマンドで指定した
+	ものと同じでなければいけません。
 
 NICK_HELP_UPDATE
 #	Syntax: UPDATE
