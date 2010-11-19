@@ -4733,28 +4733,41 @@ NICK_HELP_CMD_UNSUSPEND
 	    UNSUSPEND  指定されたニックネームの使用禁止を解除する。
 
 NICK_HELP
-	%S allows you to "register" a nickname and
-	prevent others from using it. The following
-	commands allow for registration and maintenance of
-	nicknames; to use them, type %R%S command.
-	For more information on a specific command, type
-	%R%S HELP command.
-	
+#	%S allows you to "register" a nickname and
+#	prevent others from using it. The following
+#	commands allow for registration and maintenance of
+#	nicknames; to use them, type %R%S command.
+#	For more information on a specific command, type
+#	%R%S HELP command.
+	%S を使うとニックネームの登録と、登録済みニックネーム
+	をほかの人に使われることを防ぐことが出来ます。
+	ニックネームの登録とメンテナンスをするには、
+	%R%S command とタイプしてください。
+	より詳細なコマンドについての情報は
+	%R%S HELP command とタイプしてください。
 	
 NICK_HELP_FOOTER
 	 
-	NOTICE: This service is intended to provide a way for
-	IRC users to ensure their identity is not compromised.
-	It is NOT intended to facilitate "stealing" of
-	nicknames or other malicious actions.  Abuse of %S
-	will result in, at minimum, loss of the abused
-	nickname(s).
-	
+#	NOTICE: This service is intended to provide a way for
+#	IRC users to ensure their identity is not compromised.
+#	It is NOT intended to facilitate "stealing" of
+#	nicknames or other malicious actions.  Abuse of %S
+#	will result in, at minimum, loss of the abused
+#	nickname(s).
+	注意: このサービスを使うことで、IRCユーザに
+	自分の正体が乗っ取られる可能性を示唆できます。
+	ただし、これはニックネームやそのほかの挙動を盗むことを
+	抑制出来ません。%S を乱用することは少なくとも
+	乱用されたニックネームの損失を招きます。
+
 NICK_HELP_EXPIRES
 	
 	Nicknames that are not used anymore are subject to 
 	the automatic expiration, i.e. they will be deleted
 	after %d days if not used.
+	使用禁止ニックネームの登録は自動的に解除されます。
+	たとえば、使用禁止ニックネームが使用されない場合には
+	%d 日後に自動的に登録解除されます。
 
 NICK_HELP_REGISTER
 #	Syntax: REGISTER password [email]
