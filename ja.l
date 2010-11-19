@@ -5016,12 +5016,17 @@ NICK_HELP_SET
 #	    AUTOOP     Should services op you automatically.    
 	    AUTOOP     自動的にサービスオペレータ権をもらう
 	
-	In order to use this command, you must first identify
-	with your password (%R%S HELP IDENTIFY for more
-	information).
+#	In order to use this command, you must first identify
+#	with your password (%R%S HELP IDENTIFY for more
+#	information).
+	このコマンドを使うためには、まず自分の正統性を
+	パスワードによって認証する必要があります。(より詳しい
+	情報は%R%S HELP IDENTIFY と入力してください。)
 	
-	Type %R%S HELP SET option for more information
-	on a specific option.
+#	Type %R%S HELP SET option for more information
+#	on a specific option.
+	それぞれのオプションに関するより詳しい情報は、
+	%R%S HELP SET option と入力してください。
 
 NICK_HELP_SET_DISPLAY
 #	Syntax: SET DISPLAY new-display
