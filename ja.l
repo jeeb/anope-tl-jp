@@ -4950,24 +4950,34 @@ NICK_HELP_ACCESS
 	      ACCESS DEL mask
 	      ACCESS LIST
 	
-	Modifies or displays the access list for your nick.  This
-	is the list of addresses which will be automatically
-	recognized by %S as allowed to use the nick.  If
-	you want to use the nick from a different address, you
-	need to send an IDENTIFY command to make %S
-	recognize you.
+#	Modifies or displays the access list for your nick.  This
+#	is the list of addresses which will be automatically
+#	recognized by %S as allowed to use the nick.  If
+#	you want to use the nick from a different address, you
+#	need to send an IDENTIFY command to make %S
+#	recognize you.
+	ニックネームへのアクセスリストを変更又は表示します。
+	%S が自動的にこのニックネームを使用できると判断する
+	アドレスのリストです。別のアドレスからこのニックネーム
+	を使いたい場合は、IDENTIFY コマンドを使用して、
+	%S にアドレスとニックネームの紐付けを行ってください。
 	
-	Examples:
+#	Examples:
+	例:
 	
 	    ACCESS ADD anyone@*.bepeg.com
-	        Allows access to user anyone from any machine in
-	        the bepeg.com domain.
+#	        Allows access to user anyone from any machine in
+#	        the bepeg.com domain.
+	        bepeg.com ドメインに属するマシンからの
+		ユーザ anyone のアクセスを許可します。
 	
 	    ACCESS DEL anyone@*.bepeg.com
-	        Reverses the previous command.
+#	        Reverses the previous command.
+	        上のコマンドを無効化します。
 	
 	    ACCESS LIST
-	        Displays the current access list.
+#	        Displays the current access list.
+		現在のアクセスリストを表示します。
 
 NICK_HELP_SET
 #	Syntax: SET option parameters
