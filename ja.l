@@ -5042,8 +5042,9 @@ NICK_HELP_SET_PASSWORD
 #	Syntax: SET PASSWORD new-password
 	構文: SET PASSWORD new-password
 	
-	Changes the password used to identify you as the nick's
-	owner.
+#	Changes the password used to identify you as the nick's
+#	owner.
+	ニックネームのオーナーパスワードを変更します。
 
 NICK_HELP_SET_LANGUAGE
 #	Syntax: SET LANGUAGE number
