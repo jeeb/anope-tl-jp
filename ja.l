@@ -5032,8 +5032,11 @@ NICK_HELP_SET_DISPLAY
 #	Syntax: SET DISPLAY new-display
 	構文: SET DISPLAY new-display
 	
-	Changes the display used to refer to your nickname group in 
-	Services. The new display MUST be a nick of your group.
+#	Changes the display used to refer to your nickname group in 
+#	Services. The new display MUST be a nick of your group.
+	サービス内でのあなたのニックネームに関連付けられたグループ
+	の表示状態を変更します。新しい表示はあなたのグループに登録された
+	ニックネームでなければいけません。
 
 NICK_HELP_SET_PASSWORD
 #	Syntax: SET PASSWORD new-password
