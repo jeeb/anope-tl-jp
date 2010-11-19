@@ -4925,15 +4925,22 @@ NICK_HELP_DROP
 #	Syntax: DROP [nickname]
 	構文: DROP [nickname]
 	
-	Drops your nickname from the %S database.  A nick
-	that has been dropped is free for anyone to re-register.
+#	Drops your nickname from the %S database.  A nick
+#	that has been dropped is free for anyone to re-register.
+	ニックネームを %S のデータベースから削除します。
+	削除されたニックネームを改めて登録することも出来ます。
 	
-	You may drop a nick within your group by passing it
-	as the nick parameter.
+#	You may drop a nick within your group by passing it
+#	as the nick parameter.
+	nick パラメータを渡すことで、
+	あなたのグループからニックネームを削除できます。
 	
-	In order to use this command, you must first identify
-	with your password (%R%S HELP IDENTIFY for more
-	information).
+#	In order to use this command, you must first identify
+#	with your password (%R%S HELP IDENTIFY for more
+#	information).
+	このコマンドを使うためには、まず自分の正統性を
+	パスワードによって認証する必要があります。(より詳しい
+	情報は%R%S HELP IDENTIFY と入力してください。)
 
 NICK_HELP_ACCESS
 #	Syntax: ACCESS ADD mask
