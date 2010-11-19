@@ -4983,23 +4983,38 @@ NICK_HELP_SET
 #	Syntax: SET option parameters
 	構文: SET option parameters
 	
-	Sets various nickname options.  option can be one of:
+#	Sets various nickname options.  option can be one of:
+	ニックネームに関するオプションを設定する。option は以下の1つ:
 	
-	    DISPLAY    Set the display of your group in Services
-	    PASSWORD   Set your nickname password
-	    LANGUAGE   Set the language Services will use when
-	                   sending messages to you
-	    URL        Associate a URL with your nickname
-	    EMAIL      Associate an E-mail address with your nickname
-	    ICQ        Associate an ICQ number with your nickname
-	    GREET      Associate a greet message with your nickname
-	    KILL       Turn protection on or off
-	    SECURE     Turn nickname security on or off
-	    PRIVATE    Prevent your nickname from appearing in a
-	                   %R%S LIST
-	    HIDE       Hide certain pieces of nickname information
-	    MSG        Change the communication method of Services
-	    AUTOOP     Should services op you automatically.    
+#	    DISPLAY    Set the display of your group in Services
+	    DISPLAY    サービス内でのグループ表示状態の設定
+#	    PASSWORD   Set your nickname password
+	    PASSWORD   ニックネームパスワードの設定
+#	    LANGUAGE   Set the language Services will use when
+#	                   sending messages to you
+	    LANGUAGE   サービスからのメッセージの表示言語の設定
+#	    URL        Associate a URL with your nickname
+	    URL        ニックネームとURLの紐付け
+#	    EMAIL      Associate an E-mail address with your nickname
+	    EMAIL      ニックネームと電子メールアドレスの紐付け
+#	    ICQ        Associate an ICQ number with your nickname
+	    ICQ        ニックネームとICQ番号の紐付け
+#	    GREET      Associate a greet message with your nickname
+	    GREET      ニックネームと挨拶メッセージの紐付け
+#	    KILL       Turn protection on or off
+	    KILL       プロテクトのonとoffの設定
+#	    SECURE     Turn nickname security on or off
+	    SECURE     ニックネーム保護のonとoffの設定
+#	    PRIVATE    Prevent your nickname from appearing in a
+#	                   %R%S LIST
+	    PRIVATE    ニックネームが%R%S LIST の中に
+	                   現れないようにする。
+#	    HIDE       Hide certain pieces of nickname information
+	    HIDE       ニックネーム情報の一部を隠す
+#	    MSG        Change the communication method of Services
+	    MSG        サービスとの通信方法を変更
+#	    AUTOOP     Should services op you automatically.    
+	    AUTOOP     自動的にサービスオペレータ権をもらう
 	
 	In order to use this command, you must first identify
 	with your password (%R%S HELP IDENTIFY for more
