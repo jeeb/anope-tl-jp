@@ -4901,9 +4901,12 @@ NICK_HELP_UPDATE
 #	Syntax: UPDATE
 	構文: UPDATE
 
-	Updates your current status, i.e. it checks for new memos,
-	sets needed chanmodes (ModeonID) and updates your vhost and
-	your userflags (lastseentime, etc).
+#	Updates your current status, i.e. it checks for new memos,
+#	sets needed chanmodes (ModeonID) and updates your vhost and
+#	your userflags (lastseentime, etc).
+	現在の状態を更新します。例えば、新しいメモをチェックしたり、
+	必要なチャンネルモード(ModeonID)の設定を行ったり、仮想ホストや
+	ユーザフラグ(最終更新時間)のアップデートをします。
 	
 NICK_HELP_LOGOUT
 #	Syntax: LOGOUT
