@@ -5269,15 +5269,18 @@ NICK_HELP_SASET_URL
 #	Syntax: SASET nickname URL url
 	構文: SASET nickname URL url
 	
-	Associates the given URL with the nickname.  This URL
-	will be displayed whenever someone requests information
-	on the nick with the INFO command.
+#	Associates the given URL with the nickname.  This URL
+#	will be displayed whenever someone requests information
+#	on the nick with the INFO command.
+	ニックネームとURLを紐付けます。このURLはINFO コマンド
+	で得られるニックネームに関する情報に表示されます。
 
 NICK_HELP_SASET_EMAIL
 #	Syntax: SASET nickname EMAIL address
 	構文: SASET nickname EMAIL address
 	
-	Associates the given E-mail address with the nickname.
+#	Associates the given E-mail address with the nickname.
+	ニックネームと電子メールアドレスを紐付けます。
 	
 NICK_HELP_SASET_ICQ
 #	Syntax: SASET nickname ICQ number
