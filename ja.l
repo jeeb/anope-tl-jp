@@ -5196,8 +5196,11 @@ NICK_HELP_SET_AUTOOP
 #	Syntax: SET AUTOOP {ON | OFF}
 	構文: SET AUTOOP {ON | OFF}
 	
-	Sets whether you will be opped automatically. Set to ON to 
-	allow ChanServ to op you automatically when entering channels.
+#	Sets whether you will be opped automatically. Set to ON to 
+#	allow ChanServ to op you automatically when entering channels.
+	オペレータ権を自動的にもらうかどうかを設定します。これがON
+	の場合、ChanServはチャンネルに入った時に自動的にオペレータ権を
+	配布します。
 
 NICK_HELP_SASET
 #	Syntax: SASET nickname option parameters.
