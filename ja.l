@@ -5262,7 +5262,8 @@ NICK_HELP_SASET_PASSWORD
 #	Syntax: SASET nickname PASSWORD new-password
 	構文: SASET nickname PASSWORD new-password
 	
-	Changes the password used to identify as the nick's	owner.
+#	Changes the password used to identify as the nick's	owner.
+	ニックネームのオーナーパスワードを変更します。
 
 NICK_HELP_SASET_URL
 #	Syntax: SASET nickname URL url
