@@ -5186,9 +5186,11 @@ NICK_HELP_SET_MSG
 #	Syntax: SET MSG {ON | OFF}
 	構文: SET MSG {ON | OFF}
 	
-	Allows you to choose the way Services are communicating with 
-	you. With MSG set, Services will use messages, else they'll 
-	use notices.
+#	Allows you to choose the way Services are communicating with 
+#	you. With MSG set, Services will use messages, else they'll 
+#	use notices.
+	サービスとの通信方法を選択できます。MSG がセットされると、
+	サービスは messages を使用しますが、されなければ notices を使います。
 
 NICK_HELP_SET_AUTOOP
 #	Syntax: SET AUTOOP {ON | OFF}
