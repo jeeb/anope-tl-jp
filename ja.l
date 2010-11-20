@@ -5252,8 +5252,11 @@ NICK_HELP_SASET_DISPLAY
 #	Syntax: SASET nickname DISPLAY new-display
 	構文: SASET nickname DISPLAY new-display
 	
-	Changes the display used to refer to the nickname group in 
-	Services. The new display MUST be a nick of the group.
+#	Changes the display used to refer to the nickname group in 
+#	Services. The new display MUST be a nick of the group.
+	サービス内でのあなたのニックネームに関連付けられたグループ
+	の表示状態を変更します。新しい表示はあなたのグループに登録された
+	ニックネームでなければいけません。
 
 NICK_HELP_SASET_PASSWORD
 #	Syntax: SASET nickname PASSWORD new-password
