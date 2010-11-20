@@ -5206,28 +5206,47 @@ NICK_HELP_SASET
 #	Syntax: SASET nickname option parameters.
 	構文: SASET nickname option parameters.
 	
-	Sets various nickname options.  option can be one of:
+#	Sets various nickname options.  option can be one of:
+	ニックネームに関するオプションを設定する。option は以下の1つ:
 	
-	    DISPLAY    Set the display of the group in Services
-	    PASSWORD   Set the nickname password
-	    URL        Associate a URL with the nickname
-	    EMAIL      Associate an E-mail address with the nickname
-	    ICQ        Associate an ICQ number with the nickname
-	    GREET      Associate a greet message with the nickname
-	    KILL       Turn protection on or off
-	    SECURE     Turn nickname security on or off
-	    PRIVATE    Prevent the nickname from appearing in a
-	                   %R%S LIST
-	    HIDE       Hide certain pieces of nickname information
-	    MSG        Change the communication method of Services
-	    NOEXPIRE   Prevent the nickname from expiring
-	    AUTOOP     Turn autoop on or off
-	    LANGUAGE   Set the language Services will use when
-	               sending messages to nickname
+#	    DISPLAY    Set the display of the group in Services
+	    DISPLAY    サービス内でのグループ表示状態の設定
+#	    PASSWORD   Set the nickname password
+	    PASSWORD   ニックネームパスワードの設定
+#	    URL        Associate a URL with the nickname
+	    URL        ニックネームとURLの紐付け
+#	    EMAIL      Associate an E-mail address with the nickname
+	    EMAIL      ニックネームと電子メールアドレスの紐付け
+#	    ICQ        Associate an ICQ number with the nickname
+	    ICQ        ニックネームとICQ番号の紐付け
+#	    GREET      Associate a greet message with the nickname
+	    GREET      ニックネームと挨拶メッセージの紐付け
+#	    KILL       Turn protection on or off
+	    KILL       プロテクトのonとoffの設定
+#	    SECURE     Turn nickname security on or off
+	    SECURE     ニックネーム保護のonとoffの設定
+#	    PRIVATE    Prevent the nickname from appearing in a
+#	                   %R%S LIST
+	    PRIVATE    ニックネームが%R%S LIST の中に
+	                   現れないようにする。
+#	    HIDE       Hide certain pieces of nickname information
+	    HIDE       ニックネーム情報の一部を隠す
+#	    MSG        Change the communication method of Services
+	    MSG        サービスとの通信方法を変更
+#	    NOEXPIRE   Prevent the nickname from expiring
+	    NOEXPIRE   ニックネームの期限切れを無くす
+#	    AUTOOP     Turn autoop on or off
+	    AUTOOP     自動的にサービスオペレータ権をもらう
+#	    LANGUAGE   Set the language Services will use when
+#	               sending messages to nickname
+	    LANGUAGE   サービスからのメッセージの表示言語の設定
 	
-	Type %R%S HELP SASET option for more information
-	on a specific option. The options will be set on the given
-	nickname. 
+#	Type %R%S HELP SASET option for more information
+#	on a specific option. The options will be set on the given
+#	nickname. 
+	それぞれのオプションに関するより詳しい情報は、
+	%R%S HELP SASET option と入力してください。
+	オプションは与えられた nickname に関して設定されます。
 
 NICK_HELP_SASET_DISPLAY
 #	Syntax: SASET nickname DISPLAY new-display
