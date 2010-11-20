@@ -5168,13 +5168,19 @@ NICK_HELP_SET_HIDE
 #	Syntax: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	構文: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	
-	Allows you to prevent certain pieces of information from
-	being displayed when someone does a %S INFO on your
-	nick.  You can hide your E-mail address (EMAIL), last seen
-	user@host mask (USERMASK), your services access status
-	(STATUS) and  last quit message (QUIT).
-	The second parameter specifies whether the information should
-	be displayed (OFF) or hidden (ON).
+#	Allows you to prevent certain pieces of information from
+#	being displayed when someone does a %S INFO on your
+#	nick.  You can hide your E-mail address (EMAIL), last seen
+#	user@host mask (USERMASK), your services access status
+#	(STATUS) and  last quit message (QUIT).
+#	The second parameter specifies whether the information should
+#	be displayed (OFF) or hidden (ON).
+	ニックネームに関する %S の INFO コマンドで表示される情報
+	を制限できます。電子メールアドレス(EMAIL)、user@host
+	マスク(USERMASK)、サービスアクセス状態(STATUS)、最後の
+	切断メッセージ(QUIT)を非表示に出来ます。
+	二番目のパラメータで表示するか(OFF)、隠すか(ON)を
+	指定します。
 	
 NICK_HELP_SET_MSG
 #	Syntax: SET MSG {ON | OFF}
