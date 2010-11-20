@@ -5108,18 +5108,26 @@ NICK_HELP_SET_KILL
 #	Syntax: SET KILL {ON | QUICK | IMMED | OFF}
 	構文: SET KILL {ON | QUICK | IMMED | OFF}
 	
-	Turns the automatic protection option for your nick
-	on or off.  With protection on, if another user
-	tries to take your nick, they will be given one minute to
-	change to another nick, after which %S will forcibly change
-	their nick.
+#	Turns the automatic protection option for your nick
+#	on or off.  With protection on, if another user
+#	tries to take your nick, they will be given one minute to
+#	change to another nick, after which %S will forcibly change
+#	their nick.
+	ニックネームに関する自動プロテクトのonとoffを切り替えます。
+	プロテクトがonの状態で、ほかのユーザがあなたのニックネームを
+	使おうとした場合、ほかのユーザは %S がニックネームを強制
+	変更するまでの1分間にニックネームを変更しなければなりません。
 	
-	If you select QUICK, the user will be given only 20 seconds
-	to change nicks instead of the usual 60.  If you select
-	IMMED, user's nick will be changed immediately without being
-	warned first or given a chance to change their nick; please
-	do not use this option unless necessary.  Also, your
-	network's administrators may have disabled this option.
+#	If you select QUICK, the user will be given only 20 seconds
+#	to change nicks instead of the usual 60.  If you select
+#	IMMED, user's nick will be changed immediately without being
+#	warned first or given a chance to change their nick; please
+#	do not use this option unless necessary.  Also, your
+#	network's administrators may have disabled this option.
+	QUICK を選んだ場合、通常60秒の猶予時間を20秒にします。
+	IMMED を選んだ場合、警告無しにニックネームを強制変更
+	します。このオプションは極力使わないでください。また、
+	ネットワーク管理者がこれを使わせないようにしているかもしれません。
 
 NICK_HELP_SET_SECURE
 #	Syntax: SET SECURE {ON | OFF}
