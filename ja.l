@@ -5172,7 +5172,7 @@ NICK_HELP_SET_HIDE
 #	(STATUS) and  last quit message (QUIT).
 #	The second parameter specifies whether the information should
 #	be displayed (OFF) or hidden (ON).
-	ニックネームに関する %S の INFO コマンドで表示される情報
+	あなたのニックネームに関する %S の INFO コマンドで表示される情報
 	を制限できます。電子メールアドレス(EMAIL)、user@host
 	マスク(USERMASK)、サービスアクセス状態(STATUS)、最後の
 	切断メッセージ(QUIT)を非表示に出来ます。
@@ -5186,7 +5186,7 @@ NICK_HELP_SET_MSG
 #	Allows you to choose the way Services are communicating with 
 #	you. With MSG set, Services will use messages, else they'll 
 #	use notices.
-	サービスとの通信方法を選択できます。MSG がセットされると、
+	あなたとサービスとの通信方法を選択できます。MSG がセットされると、
 	サービスは messages を使用しますが、されなければ notices を使います。
 
 NICK_HELP_SET_AUTOOP
@@ -5195,9 +5195,9 @@ NICK_HELP_SET_AUTOOP
 	
 #	Sets whether you will be opped automatically. Set to ON to 
 #	allow ChanServ to op you automatically when entering channels.
-	オペレータ権を自動的にもらうかどうかを設定します。これがON
-	の場合、ChanServはチャンネルに入った時に自動的にオペレータ権を
-	配布します。
+	あなたにオペレータ権を自動的に配布するかどうかを設定します。
+	これがONの場合、ChanServはチャンネルに入った時に自動的に
+	オペレータ権を配布します。
 
 NICK_HELP_SASET
 #	Syntax: SASET nickname option parameters.
@@ -5365,45 +5365,62 @@ NICK_HELP_SASET_HIDE
 #	Syntax: SASET nickname HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	構文: SASET nickname HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
 	
-	Allows you to prevent certain pieces of information from
-	being displayed when someone does a %S INFO on the
-	nick.  You can hide the E-mail address (EMAIL), last seen
-	user@host mask (USERMASK), the services access status
-	(STATUS) and  last quit message (QUIT).
-	The second parameter specifies whether the information should
-	be displayed (OFF) or hidden (ON).
+#	Allows you to prevent certain pieces of information from
+#	being displayed when someone does a %S INFO on the
+#	nick.  You can hide the E-mail address (EMAIL), last seen
+#	user@host mask (USERMASK), the services access status
+#	(STATUS) and  last quit message (QUIT).
+#	The second parameter specifies whether the information should
+#	be displayed (OFF) or hidden (ON).
+	このニックネームに関する %S の INFO コマンドで表示される情報
+	を制限できます。電子メールアドレス(EMAIL)、user@host
+	マスク(USERMASK)、サービスアクセス状態(STATUS)、最後の
+	切断メッセージ(QUIT)を非表示に出来ます。
+	二番目のパラメータで表示するか(OFF)、隠すか(ON)を
+	指定します。
 	
 NICK_HELP_SASET_MSG
 #	Syntax: SASET nickname MSG {ON | OFF}
 	構文: SASET nickname MSG {ON | OFF}
 	
-	Allows you to choose the way Services are communicating with 
-	the given user. With MSG set, Services will use messages,
-	else they'll use notices.
+#	Allows you to choose the way Services are communicating with 
+#	the given user. With MSG set, Services will use messages,
+#	else they'll use notices.
+	ユーザとサービスとの通信方法を選択できます。MSG がセットされると、
+	サービスは messages を使用しますが、されなければ notices を使います。
 
 NICK_HELP_SASET_NOEXPIRE
 #	Syntax: SASET nickname NOEXPIRE {ON | OFF}
 	構文: SASET nickname NOEXPIRE {ON | OFF}
 	
-	Sets whether the given nickname will expire.  Setting this
-	to ON prevents the nickname from expiring.
+#	Sets whether the given nickname will expire.  Setting this
+#	to ON prevents the nickname from expiring.
+	ニックネームを破棄するかどうか設定します。これをONにすると、
+	ニックネームは破棄されません。
 
 NICK_HELP_SASET_AUTOOP
 #	Syntax: SASET nickname AUTOOP {ON | OFF}
 	構文: SASET nickname AUTOOP {ON | OFF}
 	
-	Sets whether the given nickname will be opped automatically.
-	Set to ON to allow ChanServ to op the given nickname 
-	automatically when joining channels.
+#	Sets whether the given nickname will be opped automatically.
+#	Set to ON to allow ChanServ to op the given nickname 
+#	automatically when joining channels.
+	ユーザにオペレータ権を自動的に配布するかどうかを設定します。
+	これがONの場合、ChanServはチャンネルに入った時に自動的に
+	オペレータ権を配布します。
 
 NICK_HELP_SASET_LANGUAGE
 #	Syntax: SASET nickname LANGUAGE number
 	構文: SASET nickname LANGUAGE number
 	
-	Changes the language Services uses when sending messages to
-	nickname (for example, when responding to a command he sends).
-	number should be chosen from a list of supported languages
-	that you can get by typing %R%S HELP SET LANGUAGE.
+#	Changes the language Services uses when sending messages to
+#	nickname (for example, when responding to a command he sends).
+#	number should be chosen from a list of supported languages
+#	that you can get by typing %R%S HELP SET LANGUAGE.
+	サーバからのメッセージ表示言語を変更します。(例えば、
+	あなたからのコマンドのレスポンス等。)number は
+	%R%S HELP SET LANGUAGE を入力して得られるリストから
+	選択してください。
 
 NICK_HELP_RECOVER
 #	Syntax: RECOVER nickname [password]
