@@ -5133,13 +5133,20 @@ NICK_HELP_SET_SECURE
 #	Syntax: SET SECURE {ON | OFF}
 	構文: SET SECURE {ON | OFF}
 	
-	Turns %S's security features on or off for your
-	nick.  With SECURE set, you must enter your password
-	before you will be recognized as the owner of the nick,
-	regardless of whether your address is on the access
-	list.  However, if you are on the access list, %S
-	will not auto-kill you regardless of the setting of the
-	KILL option.
+
+#	Turns %S's security features on or off for your
+#	nick.  With SECURE set, you must enter your password
+#	before you will be recognized as the owner of the nick,
+#	regardless of whether your address is on the access
+#	list.  However, if you are on the access list, %S
+#	will not auto-kill you regardless of the setting of the
+#	KILL option.
+	あなたのニックネームに対する %S の保護機能をonかoffにします。
+	SECURE をON二すると、このニックネームのオーナー認証
+	を行う前に、アクセスリスト上のあなたのアドレスの有無にかかわらず
+	パスワードを入力しなければなりません。ただし、アクセスリスト
+	に穴画のアドレスが有る場合は、 KILL オプションの
+	設定にかかわらず %S はあなたを自動的にKILLすることはありません。
 
 NICK_HELP_SET_PRIVATE
 #	Syntax: SET PRIVATE {ON | OFF}
