@@ -5090,7 +5090,6 @@ NICK_HELP_SET_ICQ
 	このICQ番号は INFO コマンドで得られるニックネーム
 	に関する情報に表示されます。
 	
-	
 NICK_HELP_SET_GREET
 #	Syntax: SET GREET message
 	構文: SET GREET message
@@ -5286,18 +5285,25 @@ NICK_HELP_SASET_ICQ
 #	Syntax: SASET nickname ICQ number
 	構文: SASET nickname ICQ number
 	
-	Associates the given ICQ number with the nickname.  This 
-	number will be displayed whenever someone requests 
-	information on the nick with the INFO command.
+#	Associates the given ICQ number with the nickname.  This 
+#	number will be displayed whenever someone requests 
+#	information on the nick with the INFO command.
+	ニックネームとICQ番号を紐付けます。
+	このICQ番号は INFO コマンドで得られるニックネーム
+	に関する情報に表示されます。
 	
 NICK_HELP_SASET_GREET
 #	Syntax: SASET nickname GREET message
 	構文: SASET nickname GREET message
 	
-	Makes the given message the greet of the nickname, that
-	will be displayed when joining a channel that has GREET
-	option enabled, provided that the user has the necessary 
-	access on it.
+#	Makes the given message the greet of the nickname, that
+#	will be displayed when joining a channel that has GREET
+#	option enabled, provided that the user has the necessary 
+#	access on it.
+	ニックネームの挨拶メッセージを設定します。
+	この挨拶メッセージはGREETオプションが有効化されたチャンネル
+	にjoinした際に表示され、ユーザがチャンネルに必要なアクセス
+	をもっている場合に供給されます。
 
 NICK_HELP_SASET_KILL
 #	Syntax: SASET nickname KILL {ON | QUICK | IMMED | OFF}
