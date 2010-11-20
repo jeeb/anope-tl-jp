@@ -5152,11 +5152,17 @@ NICK_HELP_SET_PRIVATE
 #	Syntax: SET PRIVATE {ON | OFF}
 	構文: SET PRIVATE {ON | OFF}
 	
-	Turns %S's privacy option on or off for your nick.
-	With PRIVATE set, your nickname will not appear in
-	nickname lists generated with %S's LIST command.
-	(However, anyone who knows your nickname can still get
-	information on it using the INFO command.)
+#	Turns %S's privacy option on or off for your nick.
+#	With PRIVATE set, your nickname will not appear in
+#	nickname lists generated with %S's LIST command.
+#	(However, anyone who knows your nickname can still get
+#	information on it using the INFO command.)
+	あなたのニックネームに関する %S のプライバシーオプションを
+	onかoffにします。PRIVATE をONにすると、%S の LIST
+	コマンドで表示されるニックネームリストに出てこなくなります。
+	(ただし、ニックネームを知っている人は、INFO コマンドで
+	情報を見ることが出来ます。)
+	
 
 NICK_HELP_SET_HIDE
 #	Syntax: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
