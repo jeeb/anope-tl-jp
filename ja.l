@@ -5426,26 +5426,42 @@ NICK_HELP_RECOVER
 #	Syntax: RECOVER nickname [password]
 	構文: RECOVER nickname [password]
 	
-	Allows you to recover your nickname if someone else has
-	taken it; this does the same thing that %S does
-	automatically if someone tries to use a kill-protected
-	nick.
+#	Allows you to recover your nickname if someone else has
+#	taken it; this does the same thing that %S does
+#	automatically if someone tries to use a kill-protected
+#	nick.
+	もし、誰かがあなたのニックネームを使用している場合に、
+	これを取り上げることが出来ます。この機能は、誰かが
+	kill-保護されたニックネームを使おうとした場合に、
+	%S がやることと同じです。
 	
-	When you give this command, %S will bring a fake
-	user online with the same nickname as the user you're
-	trying to recover your nick from.  This causes the IRC
-	servers to disconnect the other user.  This fake user will
-	remain online for %s to ensure that the other
-	user does not immediately reconnect; after that time, you
-	can reclaim your nick.  Alternatively, use the RELEASE
-	command (%R%S HELP RELEASE) to get the nick
-	back sooner.
+#	When you give this command, %S will bring a fake
+#	user online with the same nickname as the user you're
+#	trying to recover your nick from.  This causes the IRC
+#	servers to disconnect the other user.  This fake user will
+#	remain online for %s to ensure that the other
+#	user does not immediately reconnect; after that time, you
+#	can reclaim your nick.  Alternatively, use the RELEASE
+#	command (%R%S HELP RELEASE) to get the nick
+#	back sooner.
+	このコマンドを使用すると、%S は保護したいニックネームと同じ
+	ニックネームを使用する仮ユーザをネットワークに参加させます。
+	こうすることで、IRCサーバは他のユーザからの接続を切断できます。
+	%s が他のユーザからの再接続要求が無くなったと判断するまで、
+	仮ユーザのオンライン状態は維持されます。この後に、あなたは
+	自分のニックネームを再取得できます。別の方法として、
+	RELEASE コマンド(%R%S HELP RELEASE) を使うことで、
+	ニックネームをすばやく再取得できます。
 	
-	In order to use the RECOVER command for a nick, your
-	current address as shown in /WHOIS must be on that nick's
-	access list, you must be identified and in the group of
-	that nick, or you must supply the correct password for
-	the nickname.
+#	In order to use the RECOVER command for a nick, your
+#	current address as shown in /WHOIS must be on that nick's
+#	access list, you must be identified and in the group of
+#	that nick, or you must supply the correct password for
+#	the nickname.
+	RECOVER コマンドを使うためには、/WHOIS で表示される
+	現在のアドレスがニックネームのアドレスリストとニックネーム
+	の所属するグループのアドレスリストに含まれるか、このニック
+	ネームの正しいパスワードを知っていなければいけません。
 
 NICK_HELP_RELEASE
 #	Syntax: RELEASE nickname [password]
