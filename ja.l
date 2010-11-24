@@ -5458,10 +5458,11 @@ NICK_HELP_RECOVER
 #	access list, you must be identified and in the group of
 #	that nick, or you must supply the correct password for
 #	the nickname.
-	RECOVER コマンドを使うためには、/WHOIS で表示される
-	現在のアドレスがニックネームのアドレスリストとニックネーム
-	の所属するグループのアドレスリストに含まれるか、このニック
-	ネームの正しいパスワードを知っていなければいけません。
+	あるニックネームに対して RECOVER コマンドを使うためには、
+	/WHOIS で表示される現在のアドレスがニックネームの
+	アドレスリストとニックネームの所属するグループの
+	アドレスリストに含まれるか、このニックネームの正しい
+	パスワードを知っていなければいけません。
 
 NICK_HELP_RELEASE
 #	Syntax: RELEASE nickname [password]
@@ -5471,12 +5472,20 @@ NICK_HELP_RELEASE
 	caused by automatic kill protection or use of the RECOVER
 	command.  This holds lasts for %s;
 	this command gets rid of them sooner.
+	自動kill保護機能かRECOVER コマンドを使うことで
+	使用中のあなたのニックネームを使えるようにします。
+	%s の間ずっと試行を続けることですぐに使えるようになります。
 	
 	In order to use the RELEASE command for a nick, your
 	current address as shown in /WHOIS must be on that nick's
 	access list, you must be identified and in the group of
 	that nick, or you must supply the correct password for
 	the nickname.
+	あるニックネームに対して RELEASE コマンドを使うためには、
+	/WHOIS で表示される現在のアドレスがニックネームの
+	アドレスリストとニックネームの所属するグループの
+	アドレスリストに含まれるか、このニックネームの正しい
+	パスワードを知っていなければいけません。
 
 NICK_HELP_GHOST
 #	Syntax: GHOST nickname [password]
