@@ -5468,19 +5468,19 @@ NICK_HELP_RELEASE
 #	Syntax: RELEASE nickname [password]
 	構文: RELEASE nickname [password]
 	
-	Instructs %S to remove any hold on your nickname
-	caused by automatic kill protection or use of the RECOVER
-	command.  This holds lasts for %s;
-	this command gets rid of them sooner.
+#	Instructs %S to remove any hold on your nickname
+#	caused by automatic kill protection or use of the RECOVER
+#	command.  This holds lasts for %s;
+#	this command gets rid of them sooner.
 	自動kill保護機能かRECOVER コマンドを使うことで
 	使用中のあなたのニックネームを使えるようにします。
 	%s の間ずっと試行を続けることですぐに使えるようになります。
 	
-	In order to use the RELEASE command for a nick, your
-	current address as shown in /WHOIS must be on that nick's
-	access list, you must be identified and in the group of
-	that nick, or you must supply the correct password for
-	the nickname.
+#	In order to use the RELEASE command for a nick, your
+#	current address as shown in /WHOIS must be on that nick's
+#	access list, you must be identified and in the group of
+#	that nick, or you must supply the correct password for
+#	the nickname.
 	あるニックネームに対して RELEASE コマンドを使うためには、
 	/WHOIS で表示される現在のアドレスがニックネームの
 	アドレスリストとニックネームの所属するグループの
@@ -5491,12 +5491,12 @@ NICK_HELP_GHOST
 #	Syntax: GHOST nickname [password]
 	構文: GHOST nickname [password]
 	
-	Terminates a "ghost" IRC session using your nick.  A
-	"ghost" session is one which is not actually connected,
-	but which the IRC server believes is still online for one
-	reason or another.  Typically, this happens if your
-	computer crashes or your Internet or modem connection
-	goes down while you're on IRC.
+#	Terminates a "ghost" IRC session using your nick.  A
+#	"ghost" session is one which is not actually connected,
+#	but which the IRC server believes is still online for one
+#	reason or another.  Typically, this happens if your
+#	computer crashes or your Internet or modem connection
+#	goes down while you're on IRC.
 	あなたのニックネームを使用している「ゴースト」IRCセッション
 	を終了します。「ゴースト」セッションとは、実際には接続
 	していませんが、ニックネームを使用するユーザが何らかの
@@ -5505,11 +5505,11 @@ NICK_HELP_GHOST
 	IRCサーバに接続中に、あなたのコンピュータがクラッシュするか、
 	インターネットやモデムの接続が切れた場合に起きます。
 	
-	In order to use the GHOST command for a nick, your
-	current address as shown in /WHOIS must be on that nick's
-	access list, you must be identified and in the group of
-	that nick, or you must supply the correct password for
-	the nickname.
+#	In order to use the GHOST command for a nick, your
+#	current address as shown in /WHOIS must be on that nick's
+#	access list, you must be identified and in the group of
+#	that nick, or you must supply the correct password for
+#	the nickname.
 	あるニックネームに対して GHOST コマンドを使うためには、
 	/WHOIS で表示される現在のアドレスがニックネームの
 	アドレスリストとニックネームの所属するグループの
@@ -5520,12 +5520,18 @@ NICK_HELP_INFO
 #	Syntax: INFO nickname [ALL]
 	構文: INFO nickname [ALL]
 	
-	Displays information about the given nickname, such as
-	the nick's owner, last seen address and time, and nick
-	options. If you are identified for the nick you're 
-	getting information for and ALL is specified, you will
-	be shown all the information; regardless of whether 
-	it's hidden or not.
+#	Displays information about the given nickname, such as
+#	the nick's owner, last seen address and time, and nick
+#	options. If you are identified for the nick you're 
+#	getting information for and ALL is specified, you will
+#	be shown all the information; regardless of whether 
+#	it's hidden or not.
+	与えられたニックネームに関する情報を表示します。
+	ニックネームのオーナー、最後にこのニックネームを使用した
+	ユーザのアドレスと時間、ニックネームオプション。もし
+	自分自身の情報を表示しようとして、かつ引数にALL
+	が与えられていた場合、隠しているかどうかにかかわらず、
+	すべての情報を表示します。
 
 NICK_HELP_LIST
 #	Syntax: LIST pattern
