@@ -5611,23 +5611,34 @@ NICK_HELP_STATUS
 #	Syntax: STATUS nickname...
 	構文: STATUS nickname...
 	
-	Returns whether the user using the given nickname is
-	recognized as the owner of the nickname.  The response has
-	this format:
+#	Returns whether the user using the given nickname is
+#	recognized as the owner of the nickname.  The response has
+#	this format:
+	ニックネームを使用しているユーザがオーナーであるか
+	確認します。レスポンスフォーマットは以下です。
 	
 	    nickname status-code
 	
-	where nickname is the nickname sent with the command, and
-	status-code is one of the following:
+#	where nickname is the nickname sent with the command, and
+#	status-code is one of the following:
+	ここで、nickname はコマンドで送られたニックネームで、
+	status-code は以下の内の1つです。
 	
-	    0 - no such user online or nickname not registered
-	    1 - user not recognized as nickname's owner
-	    2 - user recognized as owner via access list only
-	    3 - user recognized as owner via password identification
+#	    0 - no such user online or nickname not registered
+#	    1 - user not recognized as nickname's owner
+#	    2 - user recognized as owner via access list only
+#	    3 - user recognized as owner via password identification
+	    0 - このニックネームを使用中のユーザがいない、又は ニックネームが登録されていない。
+	    1 - ユーザはニックネームのオーナーであるか確認できない。
+	    2 - アクセスリストでユーザがオーナーであると判断された。
+	    3 - パスワード認証でユーザがオーナーであると判断された。
 	
-	Up to sixteen nicknames may be sent with each command; the
-	rest will be ignored. If no nickname is given, your status
-	will be returned.
+#	Up to sixteen nicknames may be sent with each command; the
+#	rest will be ignored. If no nickname is given, your status
+#	will be returned.
+	16個までのニックネームを一度に送信できます。17個目からは
+	無視されます。ニックネームが与えられない場合、自分の
+	ステータスが返されます。
 
 NICK_HELP_SENDPASS
 #	Syntax: SENDPASS nickname
