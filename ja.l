@@ -5685,9 +5685,12 @@ NICK_HELP_RESEND
 
 NICK_SERVADMIN_HELP
 	 
-	Services admins can also drop any nickname without needing
-	to identify for the nick, and may view the access list for
-	any nickname (%R%S ACCESS LIST nick).
+#	Services admins can also drop any nickname without needing
+#	to identify for the nick, and may view the access list for
+#	any nickname (%R%S ACCESS LIST nick).
+	サービス管理者はニックネームオーナー認証無しにニックネーム
+	登録を破棄できます。また、ニックネームのアクセスリスト
+	を観覧することが出来ます(%R%S ACCESS LIST nick)。
 
 NICK_SERVADMIN_HELP_LOGOUT
 #	Syntax: LOGOUT [nickname [REVALIDATE]]
