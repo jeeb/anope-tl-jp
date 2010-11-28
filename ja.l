@@ -5497,12 +5497,24 @@ NICK_HELP_GHOST
 	reason or another.  Typically, this happens if your
 	computer crashes or your Internet or modem connection
 	goes down while you're on IRC.
+	あなたのニックネームを使用している「ゴースト」IRCセッション
+	を終了します。「ゴースト」セッションとは、実際には接続
+	していませんが、ニックネームを使用するユーザが何らかの
+	理由でまだオンライン状態を保っているとIRCサーバに思わせる
+	セッションのことです。このような状態は、典型的に言って、
+	IRCサーバに接続中に、あなたのコンピュータがクラッシュするか、
+	インターネットやモデムの接続が切れた場合に起きます。
 	
 	In order to use the GHOST command for a nick, your
 	current address as shown in /WHOIS must be on that nick's
 	access list, you must be identified and in the group of
 	that nick, or you must supply the correct password for
 	the nickname.
+	あるニックネームに対して GHOST コマンドを使うためには、
+	/WHOIS で表示される現在のアドレスがニックネームの
+	アドレスリストとニックネームの所属するグループの
+	アドレスリストに含まれるか、このニックネームの正しい
+	パスワードを知っていなければいけません。
 
 NICK_HELP_INFO
 #	Syntax: INFO nickname [ALL]
