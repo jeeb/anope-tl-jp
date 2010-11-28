@@ -5662,12 +5662,17 @@ NICK_HELP_CONFIRM
 #	Syntax: CONFIRM passcode
 	構文: CONFIRM passcode
 	
-	This is the second step of nickname registration process.
-	You must perform this command in order to get your nickname
-	registered with %S. The passcode (or called auth code also)
-	is sent to your e-mail address in the first step of the
-	registration process. For more information about the first
-	stage of the registration process, type: %R%S HELP REGISTER
+#	This is the second step of nickname registration process.
+#	You must perform this command in order to get your nickname
+#	registered with %S. The passcode (or called auth code also)
+#	is sent to your e-mail address in the first step of the
+#	registration process. For more information about the first
+#	stage of the registration process, type: %R%S HELP REGISTER
+	これはニックネーム登録手順の2番目のステップです。
+	%S に登録されたあなたのニックネームを使用するためにこのコマンド
+	が必要です。認証の最初のステップでは、パスコード(認証コード)が
+	あなたのメールアドレスに送信さます。認証の最初のステップに関する
+	より詳しい情報は、%R%S HELP REGISTER と入力してください。
 
 NICK_HELP_RESEND
 #	Syntax: RESEND
