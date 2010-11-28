@@ -5604,7 +5604,8 @@ NICK_HELP_GLIST
 #	Syntax: GLIST
 	構文: GLIST
 	
-	Lists all nicks in your group.
+#	Lists all nicks in your group.
+	あなたのグループに所属するすべてのニックネームを表示します。
 
 NICK_HELP_STATUS
 #	Syntax: STATUS nickname...
