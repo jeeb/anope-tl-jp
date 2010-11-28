@@ -5644,13 +5644,19 @@ NICK_HELP_SENDPASS
 #	Syntax: SENDPASS nickname
 	構文: SENDPASS nickname
 	
-	Send the password of the given nickname to the e-mail address
-	set in the nickname record. This command is really useful
-	to deal with lost passwords.
+#	Send the password of the given nickname to the e-mail address
+#	set in the nickname record. This command is really useful
+#	to deal with lost passwords.
+	指定されたニックネームのパスワードをニックネームレコードに
+	登録済みのメールアドレスに送信します。このコマンドは
+	判らなくなったパスワードを解決するのに役立ちます。
 	
-	May be limited to IRC operators on certain networks.
+#	May be limited to IRC operators on certain networks.
+	一部のネットワークでは、IRC オペレータ だけが
+	このコマンドを使用できます。
 	
-	This command is unavailable when encryption is enabled.
+#	This command is unavailable when encryption is enabled.
+	暗号化が有効化されている場合にはこのコマンドは使用できません。
 
 NICK_HELP_CONFIRM
 #	Syntax: CONFIRM passcode
