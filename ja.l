@@ -5678,8 +5678,10 @@ NICK_HELP_RESEND
 #	Syntax: RESEND
 	構文: RESEND
 	
-	This command will re-send the auth code (also called passcode)
-	to the e-mail address of the user whom is performing it.
+#	This command will re-send the auth code (also called passcode)
+#	to the e-mail address of the user whom is performing it.
+	このコマンドを発行したユーザのメールアドレス宛に、
+	認証コード(パスコード)を再度送信します。
 
 NICK_SERVADMIN_HELP
 	 
