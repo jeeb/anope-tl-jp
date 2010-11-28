@@ -5568,25 +5568,37 @@ NICK_HELP_ALIST
 #	Syntax: ALIST [level]
 	構文: ALIST [level]
 	
-	Lists all channels you have access on. Optionally, you can specify
-	a level in XOP or ACCESS format. The resulting list will only
-	include channels where you have the given level of access.
+#	Lists all channels you have access on. Optionally, you can specify
+#	a level in XOP or ACCESS format. The resulting list will only
+#	include channels where you have the given level of access.
+	あなたがアクセス中のすべてのチャンネルを表示します。引数に
+	XOP か ACCESS コマンドと同じフォーマットのレベルを指定
+	出来ます。与えられたアクセスレベルのチャンネルを表示します。
 
-	Examples:
+#	Examples:
+	例:
 	    ALIST Founder
-	        Lists all channels where you have Founder
-	        access.
+#	        Lists all channels where you have Founder
+#	        access.
+	        あなたが設立者のアクセス権を持つ
+		チャンネルをすべて表示します。
 
 	    ALIST AOP
-	        Lists all channels where you have AOP
-	        access or greater.
+#	        Lists all channels where you have AOP
+#	        access or greater.
+	        あなたが AOP かそれ以上のアクセス権を持つ
+		チャンネルをすべて表示します。
 
 	    ALIST 10
-	        Lists all channels where you have level 10
-	        access or greater.
+#	        Lists all channels where you have level 10
+#	        access or greater.
+		あなたが 10 以上のアクセス権を持つ
+		チャンネルをすべて表示します。
 
-	Channels that have the NOEXPIRE option set will be
-	prefixed by an exclamation mark.
+#	Channels that have the NOEXPIRE option set will be
+#	prefixed by an exclamation mark.
+	NOEXPIRE オプションが有効化されているチャンネルは
+	感嘆符から始まるチャンネル名になります。
 
 NICK_HELP_GLIST
 #	Syntax: GLIST
