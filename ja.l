@@ -5537,22 +5537,32 @@ NICK_HELP_LIST
 #	Syntax: LIST pattern
 	構文: LIST pattern
 	
-	Lists all registered nicknames which match the given
-	pattern, in nick!user@host format.  Nicks with the
-	PRIVATE option set will not be displayed.
+#	Lists all registered nicknames which match the given
+#	pattern, in nick!user@host format.  Nicks with the
+#	PRIVATE option set will not be displayed.
+	nick!user@host型のフォーマットに従って指定された
+	パターンに一致するすべての登録済みニックネームを表示します。
+	PRIVATEオプションが有効になっているニックネームは
+	表示されません。
 	
-	Examples:
+#	Examples:
+	例:
 	
 	    LIST *!joeuser@foo.com
-	        Lists all nicks owned by joeuser@foo.com.
+#	        Lists all nicks owned by joeuser@foo.com.
+	        joeuser@foo.com が所有するニックネームを表示。
 	
 	    LIST *Bot*!*@*
-	        Lists all registered nicks with Bot in their
-	        names (case insensitive).
+#	        Lists all registered nicks with Bot in their
+#	        names (case insensitive).
+	        ニックネームに Bot (大文字小文字は区別される)
+		が含まれる登録済みニックネームを表示。
 	
 	    LIST *!*@*.bar.org
-	        Lists all nicks owned by users in the bar.org
-	        domain.
+#	        Lists all nicks owned by users in the bar.org
+#	        domain.
+	        bar.org ドメインに所属するユーザが所有する
+		ニックネームを表示。
 
 NICK_HELP_ALIST
 #	Syntax: ALIST [level]
