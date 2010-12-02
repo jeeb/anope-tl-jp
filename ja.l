@@ -5696,14 +5696,21 @@ NICK_SERVADMIN_HELP_LOGOUT
 #	Syntax: LOGOUT [nickname [REVALIDATE]]
 	構文: LOGOUT [nickname [REVALIDATE]]
 	
-	Without a parameter, reverses the effect of the IDENTIFY 
-	command, i.e. make you not recognized as the real owner of the nick
-	anymore. Note, however, that you won't be asked to reidentify
-	yourself.
+#	Without a parameter, reverses the effect of the IDENTIFY 
+#	command, i.e. make you not recognized as the real owner of the nick
+#	anymore. Note, however, that you won't be asked to reidentify
+#	yourself.
+	パラメータが無い場合、IDENTIFY コマンドの効果を逆転させます。
+	例えば、あなたをこのニックネームの正統な所有者でなくします。
+	また、再度認証を行うように聞かれることはありません。
 	
-	With a parameter, does the same for the given nick. If you 
-	specify REVALIDATE as well, Services will ask the given nick
-	to re-identify. This use limited to Services admins.
+#	With a parameter, does the same for the given nick. If you 
+#	specify REVALIDATE as well, Services will ask the given nick
+#	to re-identify. This use limited to Services admins.
+	パラメータ有りの場合、与えられたニックネームに対して同様の
+	操作を行います。REVALIDATE を引数に与えると、サービスは
+	ユーザに再度認証を行うように聞きます。このコマンドを使うのは
+	サービス管理者 だけに制限されています。
 
 NICK_SERVADMIN_HELP_DROP
 #	Syntax: DROP [nickname]
