@@ -5862,7 +5862,8 @@ NICK_SERVADMIN_HELP_SUSPEND
 #	Syntax: SUSPEND nickname reason
 	構文: SUSPEND nickname reason
 
-	SUSPENDs a nickname from being used.
+#	SUSPENDs a nickname from being used.
+	あるニックネームを使用中から一時使用停止の状態に変化させます。
 
 NICK_SERVADMIN_HELP_UNSUSPEND
 #	Syntax: UNSUSPEND nickname
