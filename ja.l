@@ -5735,6 +5735,7 @@ NICK_SERVADMIN_HELP_DROP
 NICK_SERVADMIN_HELP_INFO
 	
 	Services admins may use the ALL parameter with any nick.
+	サービス管理者は ALL パラメータとニックネームを自由に使えます。
 
 NICK_SERVADMIN_HELP_LIST
 #	Syntax: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
