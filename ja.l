@@ -5850,10 +5850,13 @@ NICK_SERVADMIN_HELP_FORBID
 #	Syntax: FORBID nickname [reason]
 	構文: FORBID nickname [reason]
 	
-	Disallows a nickname from being registered or used by
-	anyone.  May be cancelled by dropping the nick.
+#	Disallows a nickname from being registered or used by
+#	anyone.  May be cancelled by dropping the nick.
+	ニックネームが登録されないようにするか、使用中の
+	状態にします。ニックネームの不正使用に有効かもしれません。
 	
-	On certain networks, reason is required.
+#	On certain networks, reason is required.
+	一部のネットワークでは reason の指定が不可欠です。
 
 NICK_SERVADMIN_HELP_SUSPEND
 #	Syntax: SUSPEND nickname reason
