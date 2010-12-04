@@ -5879,85 +5879,126 @@ NICK_SERVADMIN_HELP_UNSUSPEND
 ###########################################################################
 
 CHAN_HELP_CMD_GETPASS
-	    GETPASS    Retrieve the founder password for a channel
+#	    GETPASS    Retrieve the founder password for a channel
+	    GETPASS    チャンネルの創始者パスワードを表示する。
 CHAN_HELP_CMD_FORBID
-	    FORBID     Prevent a channel from being used
+#	    FORBID     Prevent a channel from being used
+	    FORBID     チャンネルを使用不可能にする。
 CHAN_HELP_CMD_SUSPEND
-	    SUSPEND    Prevent a channel from being used preserving
-	               channel data and settings
+#	    SUSPEND    Prevent a channel from being used preserving
+#	               channel data and settings
+	    SUSPEND    チャンネルデータと設定を保存した状態で
+	               チャンネルを使用不可能(一時使用不可)にする。
 CHAN_HELP_CMD_UNSUSPEND
-	    UNSUSPEND  Releases a suspended channel
+#	    UNSUSPEND  Releases a suspended channel
+	    UNSUSPEND  一時使用不可のチャンネルを使用可能にする。
 CHAN_HELP_CMD_STATUS
-	    STATUS     Returns the current access level of a user
-	               on a channel
+#	    STATUS     Returns the current access level of a user
+#	               on a channel
+	    STATUS     あるチャンネルのにいるあるユーザの
+	               現在のアクセスレベルを表示する。
 CHAN_HELP_CMD_REGISTER
-	    REGISTER   Register a channel
+#	    REGISTER   Register a channel
+	    REGISTER   チャンネルを登録する。
 CHAN_HELP_CMD_IDENTIFY
-	    IDENTIFY   Identify yourself with your password
+#	    IDENTIFY   Identify yourself with your password
+	    IDENTIFY   パスワードで自分の認証を行う。
 CHAN_HELP_CMD_SET
-	    SET        Set channel options and information
+#	    SET        Set channel options and information
+	    SET        チャンネルオプションと情報の設定。
 CHAN_HELP_CMD_AOP
-	    AOP        Modify the list of AOP users
+#	    AOP        Modify the list of AOP users
+	    AOP        AOPユーザのリストを変更する。
 CHAN_HELP_CMD_SOP
-	    SOP        Modify the list of SOP users
+#	    SOP        Modify the list of SOP users
+	    SOP        SOPユーザのリストを変更する。
 CHAN_HELP_CMD_ACCESS
-	    ACCESS     Modify the list of privileged users
+#	    ACCESS     Modify the list of privileged users
+	    ACCESS     登録済みユーザのリストを変更する。
 CHAN_HELP_CMD_LEVELS
-	    LEVELS     Redefine the meanings of access levels
+#	    LEVELS     Redefine the meanings of access levels
+	    LEVELS     アクセスレベルの定義を変更する。
 CHAN_HELP_CMD_AKICK
-	    AKICK      Maintain the AutoKick list
+#	    AKICK      Maintain the AutoKick list
+	    AKICK      自動キックリストを操作する。
 CHAN_HELP_CMD_DROP
-	    DROP       Cancel the registration of a channel
+#	    DROP       Cancel the registration of a channel
+	    DROP       チャンネル登録を解除する。
 CHAN_HELP_CMD_SENDPASS
-	    SENDPASS   Help retrieve lost passwords
+#	    SENDPASS   Help retrieve lost passwords
+	    SENDPASS   紛失したパスワードを回復する。
 CHAN_HELP_CMD_BAN
-	    BAN        Bans a selected nick on a channel
+#	    BAN        Bans a selected nick on a channel
+	    BAN        指定したニックネームをあるチャンネルからバンする。
 CHAN_HELP_CMD_CLEAR
-	    CLEAR      Tells ChanServ to clear certain settings on a channel
+#	    CLEAR      Tells ChanServ to clear certain settings on a channel
+	    CLEAR      ChanServに対してあるチャンネルのある設定を破棄させる。
 CHAN_HELP_CMD_DEVOICE
-	    DEVOICE    Devoices a selected nick on a channel
+#	    DEVOICE    Devoices a selected nick on a channel
+	    DEVOICE    あるチャンネルで指定したニックネームを発言不可能にする。
 CHAN_HELP_CMD_GETKEY
-	    GETKEY     Returns the key of the given channel
+#	    GETKEY     Returns the key of the given channel
+	    GETKEY     指定されたチャンネルのキーを返す。
 CHAN_HELP_CMD_INFO
-	    INFO       Lists information about the named registered channel
+#	    INFO       Lists information about the named registered channel
+	    INFO       登録済みチャンネルの情報を返す。
 CHAN_HELP_CMD_INVITE
-	    INVITE     Tells ChanServ to invite you into a channel
+#	    INVITE     Tells ChanServ to invite you into a channel
+	    INVITE     ChanServ に対してあるチャンネルに自分を招待させる。
 CHAN_HELP_CMD_KICK
-	    KICK       Kicks a selected nick from a channel
+#	    KICK       Kicks a selected nick from a channel
+	    KICK       あるチャンネルから指定したニックネームをキックする。
 CHAN_HELP_CMD_LIST
-	    LIST       Lists all registered channels matching the given pattern
+#	    LIST       Lists all registered channels matching the given pattern
+	    LIST       与えられたパターンに該当する登録済みチャンネルを返す。
 CHAN_HELP_CMD_LOGOUT
-	    LOGOUT     This command will logout the selected nickname
+#	    LOGOUT     This command will logout the selected nickname
+	    LOGOUT     指定されたニックネームをログアウトさせる。
 CHAN_HELP_CMD_OP
-	    OP         Gives Op status to a selected nick on a channel
+#	    OP         Gives Op status to a selected nick on a channel
+	    OP         あるチャンネルにいる指定されたニックネームの管理者状態を返す。
 CHAN_HELP_CMD_TOPIC
-	    TOPIC      Manipulate the topic of the specified channel
+#	    TOPIC      Manipulate the topic of the specified channel
+	    TOPIC      指定されたチャンネルのトピックを変更する。
 CHAN_HELP_CMD_UNBAN
-	    UNBAN      Remove all bans preventing you from entering a channel
+#	    UNBAN      Remove all bans preventing you from entering a channel
+	    UNBAN      自分が入れないあるチャンネルのバンをすべて削除する。
 CHAN_HELP_CMD_VOICE
-	    VOICE      Voices a selected nick on a channel
+#	    VOICE      Voices a selected nick on a channel
+	    VOICE      あるチャンネルの指定されたニックネームに発言権を与える。
 CHAN_HELP_CMD_VOP
-	    VOP        Maintains the VOP (VOicePeople) list for a channel
+#	    VOP        Maintains the VOP (VOicePeople) list for a channel
+	    VOP        あるチャンネルのVOP(発言可能なユーザ)リストを操作する
 CHAN_HELP_CMD_DEHALFOP
-	    DEHALFOP   Dehalfops a selected nick on a channel
+#	    DEHALFOP   Dehalfops a selected nick on a channel
+	    DEHALFOP   あるチャンネルの指定されたニックネームからhalfop権を剥奪する。
 CHAN_HELP_CMD_DEOWNER
-	    DEOWNER    Removes your owner status on a channel
+#	    DEOWNER    Removes your owner status on a channel
+	    DEOWNER    あるチャンネルのあなたから所有者状態を剥奪する。
 CHAN_HELP_CMD_DEPROTECT
-	    DEPROTECT  Deprotects a selected nick on a channel
+#	    DEPROTECT  Deprotects a selected nick on a channel
+	    DEPROTECT  あるチャンネルの指定されたニックネームを保護しないようにする。
 CHAN_HELP_CMD_HALFOP
-	    HALFOP     Halfops a selected nick on a channel
+#	    HALFOP     Halfops a selected nick on a channel
+	    HALFOP     あるチャンネルの指定されたニックネームにhalfop権を渡す。
 CHAN_HELP_CMD_HOP
-	    HOP        Maintains the HOP (HalfOP) list for a channel
+#	    HOP        Maintains the HOP (HalfOP) list for a channel
+	    HOP        あるチャンネルのHOP(halfop)リストを操作する。
 CHAN_HELP_CMD_OWNER
-	    OWNER      Gives you owner status on channel
+#	    OWNER      Gives you owner status on channel
+	    OWNER      所有者状態ををあなたに与える。
 CHAN_HELP_CMD_PROTECT
-	    PROTECT    Protects a selected nick on a channel
+#	    PROTECT    Protects a selected nick on a channel
+	    PROTECT    あるチャンネルの指定されたニックネームを保護する。
 CHAN_HELP_CMD_ADMIN
-	    ADMIN      Protects a selected nick on a channel
+#	    ADMIN      Protects a selected nick on a channel
+	    ADMIN      あるチャンネルの指定されたニックネームを保護する。
 CHAN_HELP_CMD_DEADMIN
-	    DEADMIN    Deprotects a selected nick on a channel
+#	    DEADMIN    Deprotects a selected nick on a channel
+	    DEADMIN    あるチャンネルの指定されたニックネームを保護しないようにする。
 CHAN_HELP_CMD_DEOP
-	    DEOP       Deops a selected nick on a channel
+#	    DEOP       Deops a selected nick on a channel
+	    DEOP       あるチャンネルの指定されたニックネームからオペレータ権を剥奪する。
 
 CHAN_HELP
 	%S allows you to register and control various
