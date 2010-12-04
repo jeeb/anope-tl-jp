@@ -5914,7 +5914,7 @@ CHAN_HELP_CMD_SOP
 	    SOP        SOPユーザのリストを変更する。
 CHAN_HELP_CMD_ACCESS
 #	    ACCESS     Modify the list of privileged users
-	    ACCESS     登録済みユーザのリストを変更する。
+	    ACCESS     特権ユーザのリストを変更する。
 CHAN_HELP_CMD_LEVELS
 #	    LEVELS     Redefine the meanings of access levels
 	    LEVELS     アクセスレベルの定義を変更する。
@@ -6001,13 +6001,20 @@ CHAN_HELP_CMD_DEOP
 	    DEOP       あるチャンネルの指定されたニックネームからオペレータ権を剥奪する。
 
 CHAN_HELP
-	%S allows you to register and control various
-	aspects of channels.  %S can often prevent
-	malicious users from "taking over" channels by limiting
-	who is allowed channel operator privileges.  Available
-	commands are listed below; to use them, type
-	%R%S command.  For more information on a
-	specific command, type %R%S HELP command.
+#	%S allows you to register and control various
+#	aspects of channels.  %S can often prevent
+#	malicious users from "taking over" channels by limiting
+#	who is allowed channel operator privileges.  Available
+#	commands are listed below; to use them, type
+#	%R%S command.  For more information on a
+#	specific command, type %R%S HELP command.
+	%S はチャンネルの登録と設定を可能にします。
+	%S にチャンネルオペレータ特権付加の登録を行うことで、
+	悪意のあるユーザがチャンネルを乗っ取ることを防止します。
+	使用できるコマンドは以下です。コマンドを使うには、
+	%R%S command  と入力してください。それぞれの
+	コマンドに対するより詳しい情報は%R%S HELP command
+	 と入力してください。
 	 
 	
 CHAN_HELP_EXPIRES
