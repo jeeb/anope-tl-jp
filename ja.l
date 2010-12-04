@@ -5788,12 +5788,18 @@ NICK_SERVADMIN_HELP_ALIST
 #	Syntax: ALIST [nickname] [level]
 	構文: ALIST [nickname] [level]
 	
-	With no parameters, lists channels you have access on. With
-	one parameter, lists channels that nickname has access 
-	on. With two parameters lists channels that nickname has 
-	level access or greater on.
+#	With no parameters, lists channels you have access on. With
+#	one parameter, lists channels that nickname has access 
+#	on. With two parameters lists channels that nickname has 
+#	level access or greater on.
+	パラメータ無しの場合、アクセス中のチャンネルのリストを表示
+	します。パラメータが1つの場合、nicknameがアクセス
+	しているチャンネルのリストを表示します。パラメータが2つの場合、
+	nicknameがlevelアクセスかそれ以上のアクセス権を
+	持っているチャンネルのリストを表示します。
 
-	This use limited to Services admins.
+#	This use limited to Services admins.
+	このコマンドはサービス管理者だけが使えます。
 
 NICK_SERVADMIN_HELP_GLIST
 #	Syntax: GLIST [nickname]
