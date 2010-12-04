@@ -5821,12 +5821,17 @@ NICK_SERVADMIN_HELP_GETPASS
 #	Syntax: GETPASS nickname
 	構文: GETPASS nickname
 	
-	Returns the password for the given nickname.  Note that
-	whenever this command is used, a message including the
-	person who issued the command and the nickname it was used
-	on will be logged and sent out as a WALLOPS/GLOBOPS.
+#	Returns the password for the given nickname.  Note that
+#	whenever this command is used, a message including the
+#	person who issued the command and the nickname it was used
+#	on will be logged and sent out as a WALLOPS/GLOBOPS.
+	引数で指定されたニックネームのパスワードを返します。
+	注意するべきことは、このコマンドが使用されると、
+	コマンドを発行したユーザとニックネームが記録され、
+	WALLOPS/GLOBOPS	宛に送信されます。
 	
-	This command is unavailable when encryption is enabled.
+#	This command is unavailable when encryption is enabled.
+	このコマンドは暗号化が有効な場合には使用できません。
 
 NICK_SERVADMIN_HELP_GETEMAIL
 #	Syntax: GETEMAIL user@emailhost
