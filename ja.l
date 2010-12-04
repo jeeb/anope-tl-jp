@@ -5805,12 +5805,17 @@ NICK_SERVADMIN_HELP_GLIST
 #	Syntax: GLIST [nickname]
 	構文: GLIST [nickname]
 	
-	Without a parameter, lists all nicknames that are in
-	your group.
+#	Without a parameter, lists all nicknames that are in
+#	your group.
+	パラメータ無しの場合、あなたのグループに所属する
+	すべてのニックネームを表示します。
 	
-	With a parameter, lists all nicknames that are in the
-	group of the given nick.
-	This use limited to Services admins.
+#	With a parameter, lists all nicknames that are in the
+#	group of the given nick.
+#	This use limited to Services admins.
+	パラメータ有りの場合、引数で指定されたニックネーム
+	のグループに所属するすべてのニックネームを表示します。
+	これはサービス管理者だけに制限されています。
 
 NICK_SERVADMIN_HELP_GETPASS
 #	Syntax: GETPASS nickname
