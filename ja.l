@@ -5869,7 +5869,8 @@ NICK_SERVADMIN_HELP_UNSUSPEND
 #	Syntax: UNSUSPEND nickname
 	構文: UNSUSPEND nickname
 
-	UNSUSPENDS a nickname from being used.
+#	UNSUSPENDS a nickname from being used.
+	あるニックネームを使用中から使用可能の状態に変化させます。
 
 ###########################################################################
 #
