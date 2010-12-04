@@ -5827,7 +5827,7 @@ NICK_SERVADMIN_HELP_GETPASS
 #	on will be logged and sent out as a WALLOPS/GLOBOPS.
 	引数で指定されたニックネームのパスワードを返します。
 	注意するべきことは、このコマンドが使用されると、
-	コマンドを発行したユーザとニックネームが記録され、
+	コマンドを発行したユーザと引数のニックネームが記録され、
 	WALLOPS/GLOBOPS	宛に送信されます。
 	
 #	This command is unavailable when encryption is enabled.
@@ -5837,10 +5837,14 @@ NICK_SERVADMIN_HELP_GETEMAIL
 #	Syntax: GETEMAIL user@emailhost
 	構文: GETEMAIL user@emailhost
 
-	Returns the matching nicks that used given email. Note that
-	you can not use wildcards for either user or emailhost. Whenever
-	this command is used, a message including the person who issued
-	the command and the email it was used on will be logged.
+#	Returns the matching nicks that used given email. Note that
+#	you can not use wildcards for either user or emailhost. Whenever
+#	this command is used, a message including the person who issued
+#	the command and the email it was used on will be logged.
+	引数で指定されたメールアドレスに該当するニックネームを
+	返します。注意することは、userにもemailhostにもワイルドカード
+	は使えないということです。このコマンドが使用されると、
+	コマンドを発行したユーザと引数のメールアドレスが記録されます。
 
 NICK_SERVADMIN_HELP_FORBID
 #	Syntax: FORBID nickname [reason]
