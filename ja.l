@@ -5741,30 +5741,48 @@ NICK_SERVADMIN_HELP_LIST
 #	Syntax: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 	構文: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]
 	
-	Lists all registered nicknames which match the given
-	pattern, in nick!user@host format.  Nicks with the PRIVATE
-	option set will only be displayed to Services admins.  Nicks
-	with the NOEXPIRE option set will have a ! appended to
-	the nickname for Services admins.
+#	Lists all registered nicknames which match the given
+#	pattern, in nick!user@host format.  Nicks with the PRIVATE
+#	option set will only be displayed to Services admins.  Nicks
+#	with the NOEXPIRE option set will have a ! appended to
+#	the nickname for Services admins.
+	nick!user@host型のフォーマットに従って指定された
+	パターンに一致するすべての登録済みニックネームを表示します。
+	PRIVATEオプションが有効になっているニックネームは
+	サービス管理者に対してだけ表示されます。サービス管理者に対しては
+	NOEXPIRE オプションが有効化されているニックネームには
+	! が付加されます。
 	
-	If the FORBIDDEN, SUSPENDED, NOEXPIRE or UNCONFIRMED options are given, only
-	nicks which, respectively, are FORBIDDEN, SUSPENDED, UNCONFIRMED or have the
-	NOEXPIRE flag set will be displayed. If multiple options are
-	given, all nicks matching at least one option will be displayed.
-	These options are limited to Services admins.  
+#	If the FORBIDDEN, SUSPENDED, NOEXPIRE or UNCONFIRMED options are given, only
+#	nicks which, respectively, are FORBIDDEN, SUSPENDED, UNCONFIRMED or have the
+#	NOEXPIRE flag set will be displayed. If multiple options are
+#	given, all nicks matching at least one option will be displayed.
+#	These options are limited to Services admins.  
+	FORBIDDEN、SUSPENDED、NOEXPIRE、UNCONFIRMED オプションが引数に
+	指定されている場合、禁止、一時停止、未確認のニックネーム
+	又はNOEXPIREのフラグがセットされているニックネームが表示されます。
+	複数のオプションが引数に指定された場合、少なくとも1つに
+	該当するニックネームが表示されます。これらのオプションは
+	サービス管理者だけが使用できます。
 
-	Examples:
+#	Examples:
+	例:
 	
 	    LIST *!joeuser@foo.com
-	        Lists all registered nicks owned by joeuser@foo.com.
+#	        Lists all registered nicks owned by joeuser@foo.com.
+	        joeuser@foo.com が所有する登録済みニックネームを表示。
 	
 	    LIST *Bot*!*@*
-	        Lists all registered nicks with Bot in their
-	        names (case insensitive).
+#	        Lists all registered nicks with Bot in their
+#	        names (case insensitive).
+	        ニックネームに Bot (大文字小文字は区別される)
+		が含まれる登録済みニックネームを表示。
 	
 	    LIST * NOEXPIRE
-	        Lists all registered nicks which have been set to
-	        not expire.
+#	        Lists all registered nicks which have been set to
+#	        not expire.
+		登録破棄期限が設定されていない登録済みニックネームを
+		表示。
 
 NICK_SERVADMIN_HELP_ALIST
 #	Syntax: ALIST [nickname] [level]
