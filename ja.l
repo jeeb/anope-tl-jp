@@ -5716,13 +5716,21 @@ NICK_SERVADMIN_HELP_DROP
 #	Syntax: DROP [nickname]
 	構文: DROP [nickname]
 	
-	Without a parameter, drops your nickname from the
-	%S database.
+#	Without a parameter, drops your nickname from the
+#	%S database.
+	パラメータ無しの場合、あなたのニックネームを
+	%S のデータベースから削除します。
 	
-	With a parameter, drops the named nick from the database.
-	You may drop any nick within your group without any 
-	special privileges. Dropping any nick is limited to 
-	Services admins.
+#	With a parameter, drops the named nick from the database.
+#	You may drop any nick within your group without any 
+#	special privileges. Dropping any nick is limited to 
+#	Services admins.
+	パラメータ有りの場合、引数で指定されたニックネームを
+	データベースから削除します。あなたのグループ内であれば、
+	どんなニックネームでも削除できます。自分の所属するグループに
+	かかわらず、ニックネームを削除出来るのは、サービス管理者
+	だけに限定されています。
+	
 
 NICK_SERVADMIN_HELP_INFO
 	
