@@ -6019,9 +6019,12 @@ CHAN_HELP
 	
 CHAN_HELP_EXPIRES
 	
-	Note that any channel which is not used for %d days
-	(i.e. which no user on the channel's access list enters
-	for that period of time) will be automatically dropped.
+#	Note that any channel which is not used for %d days
+#	(i.e. which no user on the channel's access list enters
+#	for that period of time) will be automatically dropped.
+	%d 日以上使われていないチャンネル(例えば、チャンネルの
+	アクセスリストに載っているユーザが一人もいない状態が
+	この期間を超えた場合)は自動的に破棄されます。
 
 CHAN_HELP_REGISTER
 #	Syntax: REGISTER channel password description
