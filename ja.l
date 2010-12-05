@@ -6030,26 +6030,44 @@ CHAN_HELP_REGISTER
 #	Syntax: REGISTER channel password description
 	構文: REGISTER channel password description
 	
-	Registers a channel in the %S database.  In order
-	to use this command, you must first be a channel operator
-	on the channel you're trying to register.  The password
-	is used with the IDENTIFY command to allow others to
-	make changes to the channel settings at a later time.
-	The last parameter, which must be included, is a
-	general description of the channel's purpose.
+#	Registers a channel in the %S database.  In order
+#	to use this command, you must first be a channel operator
+#	on the channel you're trying to register.  The password
+#	is used with the IDENTIFY command to allow others to
+#	make changes to the channel settings at a later time.
+#	The last parameter, which must be included, is a
+#	general description of the channel's purpose.
+	%S のデータベースにチャンネルを登録する。このコマンドを使うには、
+	登録したいチャンネルのチャンネルオペレータにならなければ
+	いけません。ほかのユーザがこのチャンネルの設定を後から
+	変更するためには、IDENTIFY コマンドと共にパスワードを
+	使います。最後の引数は必須で、これはチャンネルの目的
+	を説明します。
 	
-	When you register a channel, you are recorded as the
-	"founder" of the channel.  The channel founder is allowed
-	to change all of the channel settings for the channel;
-	%S will also automatically give the founder
-	channel-operator privileges when s/he enters the channel.
-	See the ACCESS command (%R%S HELP ACCESS) for
-	information on giving a subset of these privileges to
-	other channel users.
+#	When you register a channel, you are recorded as the
+#	"founder" of the channel.  The channel founder is allowed
+#	to change all of the channel settings for the channel;
+#	%S will also automatically give the founder
+#	channel-operator privileges when s/he enters the channel.
+#	See the ACCESS command (%R%S HELP ACCESS) for
+#	information on giving a subset of these privileges to
+#	other channel users.
+	チャンネルを登録するには、あなたはチャンネルの"founder"
+	として登録済みで無ければいけません。チャンネル創始者は、
+	このチャンネルの設定を変更することが許されています。
+	%S はチャンネル創始者がチャンネルに入ったときに
+	チャンネルオペレータ権限を自動的に与えます。
+	ほかのユーザに対するアクセス権限に関するより詳しい情報は
+	ACCESS コマンド(%R%S HELP ACCESS) を
+	参照してください。
 	
-	NOTICE: In order to register a channel, you must have
-	first registered your nickname.  If you haven't,
-	%R%s HELP for information on how to do so.
+#	NOTICE: In order to register a channel, you must have
+#	first registered your nickname.  If you haven't,
+#	%R%s HELP for information on how to do so.
+	注意: チャンネルを登録する前に、あなたのニックネームが
+	登録されていなければいけません。未登録の場合、
+	%R%s HELP と入力して、ニックネーム登録方法を
+	参照してください。
 
 CHAN_HELP_IDENTIFY
 #	Syntax: IDENTIFY channel password
