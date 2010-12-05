@@ -6073,10 +6073,13 @@ CHAN_HELP_IDENTIFY
 #	Syntax: IDENTIFY channel password
 	構文: IDENTIFY channel password
 	
-	Authenticates you to %S as the founder of the given
-	channel.  Many commands require you to use this command
-	before using them.  The password should be the same one
-	you sent with the REGISTER command.
+#	Authenticates you to %S as the founder of the given
+#	channel.  Many commands require you to use this command
+#	before using them.  The password should be the same one
+#	you sent with the REGISTER command.
+	引数で指定されたチャンネルの創始者権を %S から貰う。
+	多くのコマンドがこれを使う前に必要です。パスワードは
+	REGISTER コマンドで使用したものと同じです。
 	
 CHAN_HELP_LOGOUT
 #	Syntax: LOGOUT channel nickname
