@@ -6099,8 +6099,12 @@ CHAN_HELP_DROP
 #	Syntax: DROP channel
 	構文: DROP channel
 	
-	Unregisters the named channel.  Can only be used by
-	channel founder, who must use the IDENTIFY command first.
+#	Unregisters the named channel.  Can only be used by
+#	channel founder, who must use the IDENTIFY command first.
+	引数で指定されたチャンネルの登録を破棄します。
+	これが出来るのは、IDENTIFY コマンドを使って認証済みの
+	チャンネル創始者だけです。
+
 
 CHAN_HELP_SET
 #	Syntax: SET channel option parameters
