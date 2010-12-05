@@ -6110,35 +6110,60 @@ CHAN_HELP_SET
 #	Syntax: SET channel option parameters
 	構文: SET channel option parameters
 	
-	Allows the channel founder to set various channel options
-	and other information.
+#	Allows the channel founder to set various channel options
+#	and other information.
+	チャンネル創始者がチャンネルオプションとそのほかの情報
+	を設定できます。
 	
-	Available options:
+#	Available options:
+	設定できるオプション:
 	
-	    FOUNDER       Set the founder of a channel
-	    SUCCESSOR     Set the successor for a channel
-	    PASSWORD      Set the founder password
-	    DESC          Set the channel description
-	    URL           Associate a URL with the channel
-	    EMAIL         Associate an E-mail address with the channel
-	    ENTRYMSG      Set a message to be sent to users when they
-	                     enter the channel
-	    BANTYPE       Set how Services make bans on the channel
-	    MLOCK         Lock channel modes on or off
-	    KEEPTOPIC     Retain topic when channel is not in use
-	    OPNOTICE      Send a notice when OP/DEOP commands are used
-	    PEACE         Regulate the use of critical commands
-	    PRIVATE       Hide channel from LIST command
-	    RESTRICTED    Restrict access to the channel
-	    SECURE        Activate %S security features
-	    SECUREOPS     Stricter control of chanop status
-	    SECUREFOUNDER Stricter control of channel founder status
-	    SIGNKICK      Sign kicks that are done with KICK command
-	    TOPICLOCK     Topic can only be changed with TOPIC
-	    XOP           Toggle the user privilege system
+#	    FOUNDER       Set the founder of a channel
+	    FOUNDER       チャンネル創始者の設定
+#	    SUCCESSOR     Set the successor for a channel
+	    SUCCESSOR     チャンネル相続人の設定
+#	    PASSWORD      Set the founder password
+	    PASSWORD      創始者パスワードの設定
+#	    DESC          Set the channel description
+	    DESC          チャンネルの説明の設定
+#	    URL           Associate a URL with the channel
+	    URL           チャンネルとURLの紐付け
+#	    EMAIL         Associate an E-mail address with the channel
+	    EMAIL         チャンネルと電子メールアドレスを紐付け
+#	    ENTRYMSG      Set a message to be sent to users when they
+#	                     enter the channel
+	    ENTRYMSG      チャンネルに入ったときの挨拶メッセージの設定
+#	    BANTYPE       Set how Services make bans on the channel
+	    BANTYPE       チャンネルの禁止設定
+#	    MLOCK         Lock channel modes on or off
+	    MLOCK         チャンネルモードのON/OFFをロック
+#	    KEEPTOPIC     Retain topic when channel is not in use
+	    KEEPTOPIC     チャンネルが使われていないときにトピックを保存
+#	    OPNOTICE      Send a notice when OP/DEOP commands are used
+	    OPNOTICE      OP/DEOPコマンド使用時にnoticeを送る
+#	    PEACE         Regulate the use of critical commands
+	    PEACE         重要なコマンドの使用を制限
+#	    PRIVATE       Hide channel from LIST command
+	    PRIVATE       LIST コマンドの結果にチャンネルを表示させない
+#	    RESTRICTED    Restrict access to the channel
+	    RESTRICTED    チャンネルへのアクセスを制限
+#	    SECURE        Activate %S security features
+	    SECURE        %S の保安機能を有効化
+#	    SECUREOPS     Stricter control of chanop status
+	    SECUREOPS     チャンネルオペレータ状態の厳格な制御
+#	    SECUREFOUNDER Stricter control of channel founder status
+	    SECUREFOUNDER チャンネル創始者状態の厳格な制御
+#	    SIGNKICK      Sign kicks that are done with KICK command
+	    SIGNKICK      KICKコマンドでのキックを署名する
+#	    TOPICLOCK     Topic can only be changed with TOPIC
+	    TOPICLOCK     TOPICコマンドだけがトピックを変更出来るようにする
+#	    XOP           Toggle the user privilege system
+	    XOP           ユーザ権限システムをトグル
 	
-	Type %R%S HELP SET option for more information on a
-	particular option.
+#	Type %R%S HELP SET option for more information on a
+#	particular option.
+	夫々のオプションに関するより詳しい情報は
+	%R%S HELP SET option と入力。
 
 CHAN_HELP_SET_FOUNDER
 #	Syntax: SET channel FOUNDER nick
