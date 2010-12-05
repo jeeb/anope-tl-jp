@@ -6085,11 +6085,15 @@ CHAN_HELP_LOGOUT
 #	Syntax: LOGOUT channel nickname
 	構文: LOGOUT channel nickname
 	
-	This command will log the selected nickname out meaning they 
-	would have to reidentify themselves to regain their access.
+#	This command will log the selected nickname out meaning they 
+#	would have to reidentify themselves to regain their access.
+	このコマンドは指定されたニックネームをログアウトさせます。
+	ログアウトさせられたユーザは再度認証をする必要があります。
 	
-	If you are the founder of the channel, you can log out anybody,
-	else you can only log out yourself.
+#	If you are the founder of the channel, you can log out anybody,
+#	else you can only log out yourself.
+	このチャンネルの創始者であれば、自分以外は誰でも強制的に
+	ログアウトさせることが出来ます。
 
 CHAN_HELP_DROP
 #	Syntax: DROP channel
