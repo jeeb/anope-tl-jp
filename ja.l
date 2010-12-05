@@ -6169,8 +6169,10 @@ CHAN_HELP_SET_FOUNDER
 #	Syntax: SET channel FOUNDER nick
 	構文: SET channel FOUNDER nick
 	
-	Changes the founder of a channel.  The new nickname must
-	be a registered one.
+#	Changes the founder of a channel.  The new nickname must
+#	be a registered one.
+	チャンネルの創始者を変更する。新しいニックネームは
+	登録済みのもので無ければいけません。
 
 CHAN_HELP_SET_SUCCESSOR
 #	Syntax: SET channel SUCCESSOR nick
