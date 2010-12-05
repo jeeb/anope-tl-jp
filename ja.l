@@ -6178,13 +6178,20 @@ CHAN_HELP_SET_SUCCESSOR
 #	Syntax: SET channel SUCCESSOR nick
 	構文: SET channel SUCCESSOR nick
 	
-	Changes the successor of a channel.  If the founder's
-	nickname expires or is dropped while the channel is still
-	registered, the successor will become the new founder of the
-	channel.  However, if the successor already has too many
-	channels registered (%d), the channel will be dropped
-	instead, just as if no successor had been set.  The new
-	nickname must be a registered one.
+#	Changes the successor of a channel.  If the founder's
+#	nickname expires or is dropped while the channel is still
+#	registered, the successor will become the new founder of the
+#	channel.  However, if the successor already has too many
+#	channels registered (%d), the channel will be dropped
+#	instead, just as if no successor had been set.  The new
+#	nickname must be a registered one.
+	チャンネル後継者を変更する。チャンネル登録が有効な状態で、
+	創始者ニックネームが期限切れになったり、無効化された場合、
+	チャンネルの後継者は新しいチャンネルの創始者になります。
+	しかし、後継者がすでに多くの(%d)登録済みチャンネルで創始者
+	になっている場合で、どの後継者も創始者になれなかった場合、
+	このチャンネル登録が無効化されます。新しいニックネームは
+	登録済みのものでなくてはいけません。
 
 CHAN_HELP_SET_PASSWORD
 #	Syntax: SET channel PASSWORD password
