@@ -6197,8 +6197,9 @@ CHAN_HELP_SET_PASSWORD
 #	Syntax: SET channel PASSWORD password
 	構文: SET channel PASSWORD password
 	
-	Sets the password used to identify as the founder of the
-	channel.
+#	Sets the password used to identify as the founder of the
+#	channel.
+	チャンネルの創始者を認証するためのパスワードを設定する。
 
 CHAN_HELP_SET_DESC
 #	Syntax: SET channel DESC description
