@@ -6273,11 +6273,16 @@ CHAN_HELP_SET_KEEPTOPIC
 #	Syntax: SET channel KEEPTOPIC {ON | OFF}
 	構文: SET channel KEEPTOPIC {ON | OFF}
 	
-	Enables or disables the topic retention option for a
-	channel.  When topic retention is set, the topic for the
-	channel will be remembered by %S even after the
-	last user leaves the channel, and will be restored the
-	next time the channel is created.
+#	Enables or disables the topic retention option for a
+#	channel.  When topic retention is set, the topic for the
+#	channel will be remembered by %S even after the
+#	last user leaves the channel, and will be restored the
+#	next time the channel is created.
+	あるチャンネルのトピック保存オプションの有効と無効
+	を切り替える。トピック保存 が有効化されると、
+	最後のユーザがこのチャンネルから退出した後も、
+	トピックが %S によって記憶され、次にチャンネルが作られた時に
+	自動的に設定される。
 
 CHAN_HELP_SET_TOPICLOCK
 #	Syntax: SET channel TOPICLOCK {ON | OFF}
