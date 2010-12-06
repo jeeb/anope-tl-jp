@@ -6227,11 +6227,15 @@ CHAN_HELP_SET_EMAIL
 #	Syntax: SET channel EMAIL [address]
 	構文: SET channel EMAIL [address]
 	
-	Associates the given E-mail address with the channel.
-	This address will be displayed whenever someone requests
-	information on the channel with the INFO command.  If no
-	parameter is given, deletes any current E-mail address for
-	the channel.
+#	Associates the given E-mail address with the channel.
+#	This address will be displayed whenever someone requests
+#	information on the channel with the INFO command.  If no
+#	parameter is given, deletes any current E-mail address for
+#	the channel.
+	引数で指定された電子メールアドレスをチャンネルと紐付ける。
+	このアドレスは INFO コマンドでチャンネルの情報を
+	リクエストしたときに返される。パラメータが与えられなかった場合、
+	このチャンネルに紐付けられた電子メールアドレスを削除する。
 
 CHAN_HELP_SET_ENTRYMSG
 #	Syntax: SET channel ENTRYMSG [message]
