@@ -6214,10 +6214,14 @@ CHAN_HELP_SET_URL
 #	Syntax: SET channel URL [url]
 	構文: SET channel URL [url]
 	
-	Associates the given URL with the channel.  This URL will
-	be displayed whenever someone requests information on the
-	channel with the INFO command.  If no parameter is given,
-	deletes any current URL for the channel.
+#	Associates the given URL with the channel.  This URL will
+#	be displayed whenever someone requests information on the
+#	channel with the INFO command.  If no parameter is given,
+#	deletes any current URL for the channel.
+	引数で指定されたURLをチャンネルと紐付ける。このURLは
+	INFO コマンドでチャンネルの情報をリクエストしたときに
+	返される。パラメータが与えられなかった場合、このチャンネルに
+	紐付けられたURLを削除する。
 
 CHAN_HELP_SET_EMAIL
 #	Syntax: SET channel EMAIL [address]
