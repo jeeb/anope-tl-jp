@@ -6252,15 +6252,22 @@ CHAN_HELP_SET_BANTYPE
 #	Syntax: SET channel BANTYPE bantype
 	構文: SET channel BANTYPE bantype
 	
-	Sets the ban type that will be used by services whenever
-	they need to ban someone from your channel.
+#	Sets the ban type that will be used by services whenever
+#	they need to ban someone from your channel.
+	バンタイプを設定する。サービスによってあなたのチャンネル
+	から誰かをbanするときに、このタイプ分けが使われる。
+
+#	bantype is a number between 0 and 3 that means:
+	バンタイプは0から3の整数で表現される:
 	
-	bantype is a number between 0 and 3 that means:
-	
-	0: ban in the form *!user@host
-	1: ban in the form *!*user@host
-	2: ban in the form *!*@host
-	3: ban in the form *!*user@*.domain
+#	0: ban in the form *!user@host
+#	1: ban in the form *!*user@host
+#	2: ban in the form *!*@host
+#	3: ban in the form *!*user@*.domain
+	0: *!user@host 型のバン指定
+	1: *!*user@host 型のバン指定
+	2: *!*@host 型のバン指定
+	3: *!*user@*.domain 型のバン指定
 
 CHAN_HELP_SET_KEEPTOPIC
 #	Syntax: SET channel KEEPTOPIC {ON | OFF}
