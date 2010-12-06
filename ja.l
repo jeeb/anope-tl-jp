@@ -6288,10 +6288,15 @@ CHAN_HELP_SET_TOPICLOCK
 #	Syntax: SET channel TOPICLOCK {ON | OFF}
 	構文: SET channel TOPICLOCK {ON | OFF}
 	
-	Enables or disables the topic lock option for a channel.
-	When topic lock is set, %S will not allow the
-	channel topic to be changed except via the TOPIC
-	command.
+#	Enables or disables the topic lock option for a channel.
+#	When topic lock is set, %S will not allow the
+#	channel topic to be changed except via the TOPIC
+#	command.
+	あるチャンネルのトピックロックオプションの有効と無効
+	を切り替える。トピックロック が有効化されると、
+	TOPIC コマンド以外ではチャンネルトピックが変更
+	出来なくなる。
+
 
 CHAN_HELP_SET_MLOCK
 #	Syntax: SET channel MLOCK modes
