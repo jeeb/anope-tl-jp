@@ -6205,8 +6205,10 @@ CHAN_HELP_SET_DESC
 #	Syntax: SET channel DESC description
 	構文: SET channel DESC description
 	
-	Sets the description for the channel, which shows up with
-	the LIST and INFO commands.
+#	Sets the description for the channel, which shows up with
+#	the LIST and INFO commands.
+	チャンネルの説明を設定する。この説明は
+	LIST と INFO コマンドで見ることが出来る。
 
 CHAN_HELP_SET_URL
 #	Syntax: SET channel URL [url]
