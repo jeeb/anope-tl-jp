@@ -6241,9 +6241,12 @@ CHAN_HELP_SET_ENTRYMSG
 #	Syntax: SET channel ENTRYMSG [message]
 	構文: SET channel ENTRYMSG [message]
 	
-	Sets the message which will be sent via /notice to users
-	when they enter the channel.  If no parameter is given,
-	causes no message to be sent upon entering the channel.
+#	Sets the message which will be sent via /notice to users
+#	when they enter the channel.  If no parameter is given,
+#	causes no message to be sent upon entering the channel.
+	ユーザがチャンネルに入ったときの/notice 経由で送信する
+	ユーザ宛メッセージを設定する。パラメータが無い場合、
+	チャンネルに入ったときにメッセージを送らない。
 
 CHAN_HELP_SET_BANTYPE
 #	Syntax: SET channel BANTYPE bantype
