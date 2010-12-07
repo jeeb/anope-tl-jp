@@ -6302,36 +6302,55 @@ CHAN_HELP_SET_MLOCK
 #	Syntax: SET channel MLOCK modes
 	構文: SET channel MLOCK modes
 	
-	Sets the mode-lock parameter for the channel. %S
-	allows you to define certain channel modes to be always
-	on, off or free to be either on or off.
+#	Sets the mode-lock parameter for the channel. %S
+#	allows you to define certain channel modes to be always
+#	on, off or free to be either on or off.
+	チャンネルのモードロックパラメータを設定する。
+	%S は、あるチャンネルモードを常にONにするかOFFにするか、
+	自由に変更できるようにするかを定義することを可能にする。
 	
-	The modes parameter is constructed exactly the same way 
-	as a /MODE command; that is, modes followed by a + are 
-	locked on, and modes followed by a - are locked off. Note,
-	however, that unlike the /MODE command, each use of
-	SET MLOCK will remove all modes previously locked before
-	setting the new!
+#	The modes parameter is constructed exactly the same way 
+#	as a /MODE command; that is, modes followed by a + are 
+#	locked on, and modes followed by a - are locked off. Note,
+#	however, that unlike the /MODE command, each use of
+#	SET MLOCK will remove all modes previously locked before
+#	setting the new!
+	modes パラメータは/MODE コマンドのパラメータと同じもの
+	が定義されています。つまり、+に続けてモードパラメータを設定
+	することで、ロックがONになります。-に続けが場合はOFFになります。
+	ただし、/MODE コマンドと異なり、SET MLOCK を使うことで
+	以前にロックがONにされたモードをOFFにすることが出来ます。
 	
-	Warning:  If you set a mode-locked key, as in the second
-	example below, you should also set the RESTRICTED option for
-	the channel (see HELP SET RESTRICTED), or anyone entering
-	the channel when it is empty will be able to see the key!
+#	Warning:  If you set a mode-locked key, as in the second
+#	example below, you should also set the RESTRICTED option for
+#	the channel (see HELP SET RESTRICTED), or anyone entering
+#	the channel when it is empty will be able to see the key!
+	警告: 下の2番目の例のようにモードロックキーを使った場合、
+	このチャンネルに対して RESTRICTED オプションをセットするか、
+	(HELP SET RESTRICTED を参照)誰かがチャンネルに入って
+	キーが変更されたかどうか確認してください。
 	
-	Examples:
+#	Examples:
+	例:
 	
 	    SET #channel MLOCK +nt-iklps
-	        Forces modes n and t on, and modes i, k, l, p, and
-	        s off.  Mode m is left free to be either on or off.
+#	        Forces modes n and t on, and modes i, k, l, p, and
+#	        s off.  Mode m is left free to be either on or off.
+	        モードの n と t をONにして、i、k、l、p、s、をOFFにする。
+		モード m は自由に変更できるようにする。
 	
 	    SET #channel MLOCK +knst-ilmp my-key
-	        Forces modes k, n, s, and t on, and modes i, l, m,
-	        and p off.  Also forces the channel key to be
+#	        Forces modes k, n, s, and t on, and modes i, l, m,
+#	        and p off.  Also forces the channel key to be
 	        "my-key".
+		モードの k、n、s、tをONにして、i、l、m、pを OFFにする。
+		また、チャンネルキーを "my-key" にする。
 	
 	    SET #channel MLOCK +
-	        Removes the mode lock; all channel modes are free
-	        to be either on or off.
+#	        Removes the mode lock; all channel modes are free
+#	        to be either on or off.
+	        全てのモードロックを解除する。全てのチャンネルモードは
+		自由に変更できる。
 
 CHAN_HELP_SET_PEACE
 #	Syntax: SET channel PEACE {ON | OFF}
