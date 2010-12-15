@@ -6381,9 +6381,13 @@ CHAN_HELP_SET_RESTRICTED
 #	Syntax: SET channel RESTRICTED {ON | OFF}
 	構文: SET channel RESTRICTED {ON | OFF}
 	
-	Enables or disables the restricted access option for a
-	channel.  When restricted access is set, users not on
-	the access list will instead be kicked and banned from the channel.
+#	Enables or disables the restricted access option for a
+#	channel.  When restricted access is set, users not on
+#	the access list will instead be kicked and banned from the channel.
+	あるチャンネルのrestricted accessオプションの有効と無効
+	を切り替える。restricted access が有効化されると、
+	アクセスリストに含まれないユーザーはチャンネルから
+	キックされるかバンされる。
 
 CHAN_HELP_SET_SECURE
 #	Syntax: SET channel SECURE {ON | OFF}
