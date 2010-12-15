@@ -6360,6 +6360,11 @@ CHAN_HELP_SET_PEACE
 	When peace is set, an user won't be able to kick,
 	ban or remove a channel status of an user that has
 	a level superior or equal to his via %S commands.
+	あるチャンネルのpeaceオプションの有効と無効
+	を切り替える。peace が有効化されると、
+	%S コマンドを使って、ユーザはキック、バン又は自分より
+	高位か同じレベルを持つユーザのチャンネル状態の削除を
+	することが出来なくなる。
 
 CHAN_HELP_SET_PRIVATE
 #	Syntax: SET channel PRIVATE {ON | OFF}
