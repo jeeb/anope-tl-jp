@@ -6434,14 +6434,21 @@ CHAN_HELP_SET_SIGNKICK
 #	Syntax: SET channel SIGNKICK {ON | LEVEL | OFF}
 	構文: SET channel SIGNKICK {ON | LEVEL | OFF}
 	
-	Enables or disables signed kicks for a
-	channel.  When SIGNKICK is set, kicks issued with
-	%S KICK command will have the nick that used the
-	command in their reason.
+#	Enables or disables signed kicks for a
+#	channel.  When SIGNKICK is set, kicks issued with
+#	%S KICK command will have the nick that used the
+#	command in their reason.
+	あるチャンネルに対するsigned kicksオプションの有効と無効
+	を切り替える。SIGNKICK が有効化されると、
+	%S KICKコマンドから発行されたキックはその理由の欄に
+	コマンドを発行したユーザのニックネームの署名を含むようになる。
 	
-	If you use LEVEL, those who have a level that is superior 
-	or equal to the SIGNKICK level on the channel won't have their 
-	kicks signed. See %R%S HELP LEVELS for more information. 
+#	If you use LEVEL, those who have a level that is superior 
+#	or equal to the SIGNKICK level on the channel won't have their 
+#	kicks signed. See %R%S HELP LEVELS for more information. 
+	LEVEL が使用された場合、SIGNKICK レベルよりも高位又は同位
+	のレベルを持つユーザからのキックには署名がなされない。
+	より詳しい情報は %R%S HELP LEVELS を入力してください。
 
 CHAN_HELP_SET_XOP
 #	Syntax: SET channel XOP {ON | OFF}
