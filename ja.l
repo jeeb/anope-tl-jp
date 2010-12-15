@@ -6393,11 +6393,16 @@ CHAN_HELP_SET_SECURE
 #	Syntax: SET channel SECURE {ON | OFF}
 	構文: SET channel SECURE {ON | OFF}
 	
-	Enables or disables %S's security features for a
-	channel.  When SECURE is set, only users who have
-	registered their nicknames with %s and IDENTIFY'd
-	with their password will be given access to the channel
-	as controlled by the access list.
+#	Enables or disables %S's security features for a
+#	channel.  When SECURE is set, only users who have
+#	registered their nicknames with %s and IDENTIFY'd
+#	with their password will be given access to the channel
+#	as controlled by the access list.
+	あるチャンネルに対する%Sの保安機能の有効と無効
+	を切り替える。SECURE が有効化されると、
+	アクセスリストによるコントロールと同様に、
+	%sにニックネームが登録済みで、パスワードでIDENTIFYされた
+	ユーザだけがこのチャンネルにアクセスできるようになる。
 
 CHAN_HELP_SET_SECUREOPS
 #	Syntax: SET channel SECUREOPS {ON | OFF}
