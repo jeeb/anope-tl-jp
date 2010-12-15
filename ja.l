@@ -6420,10 +6420,15 @@ CHAN_HELP_SET_SECUREFOUNDER
 #	Syntax: SET channel SECUREFOUNDER {ON | OFF}
 	構文: SET channel SECUREFOUNDER {ON | OFF}
 	
-	Enables or disables the secure founder option for a channel.
-	When secure founder is set, only the real founder will be
-	able to drop the channel, change its password, its founder and its
-	successor, and not those who are IDENTIFY'd with %S.
+#	Enables or disables the secure founder option for a channel.
+#	When secure founder is set, only the real founder will be
+#	able to drop the channel, change its password, its founder and its
+#	successor, and not those who are IDENTIFY'd with %S.
+	あるチャンネルに対するsecure founderオプションの有効と無効
+	を切り替える。secure founder が有効化されると、
+	真のチャンネル創始者だけがチャンネルを未登録状態に変更できる。
+	また、チャンネルパスワード、チャンネル創始者、チャンネル後継者、
+	%SにIDENTIFYされていないユーザを変更できる。
 	
 CHAN_HELP_SET_SIGNKICK
 #	Syntax: SET channel SIGNKICK {ON | LEVEL | OFF}
