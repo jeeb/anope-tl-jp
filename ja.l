@@ -6408,9 +6408,13 @@ CHAN_HELP_SET_SECUREOPS
 #	Syntax: SET channel SECUREOPS {ON | OFF}
 	構文: SET channel SECUREOPS {ON | OFF}
 	
-	Enables or disables the secure ops option for a channel.
-	When secure ops is set, users who are not on the userlist
-	will not be allowed chanop status.
+#	Enables or disables the secure ops option for a channel.
+#	When secure ops is set, users who are not on the userlist
+#	will not be allowed chanop status.
+	あるチャンネルに対するsecure opsオプションの有効と無効
+	を切り替える。secure ops が有効化されると、
+	ユーザリストに含まれないユーザはチャンネル管理者に
+	なれなくなる。
 	
 CHAN_HELP_SET_SECUREFOUNDER
 #	Syntax: SET channel SECUREFOUNDER {ON | OFF}
