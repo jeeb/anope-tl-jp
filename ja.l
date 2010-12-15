@@ -6356,10 +6356,10 @@ CHAN_HELP_SET_PEACE
 #	Syntax: SET channel PEACE {ON | OFF}
 	構文: SET channel PEACE {ON | OFF}
 	
-	Enables or disables the peace option for a channel.
-	When peace is set, an user won't be able to kick,
-	ban or remove a channel status of an user that has
-	a level superior or equal to his via %S commands.
+#	Enables or disables the peace option for a channel.
+#	When peace is set, an user won't be able to kick,
+#	ban or remove a channel status of an user that has
+#	a level superior or equal to his via %S commands.
 	あるチャンネルのpeaceオプションの有効と無効
 	を切り替える。peace が有効化されると、
 	%S コマンドを使って、ユーザはキック、バン又は自分より
@@ -6370,9 +6370,12 @@ CHAN_HELP_SET_PRIVATE
 #	Syntax: SET channel PRIVATE {ON | OFF}
 	構文: SET channel PRIVATE {ON | OFF}
 	
-	Enables or disables the private option for a channel.
-	When private is set, a %R%S LIST will not
-	include the channel in any lists.
+#	Enables or disables the private option for a channel.
+#	When private is set, a %R%S LIST will not
+#	include the channel in any lists.
+	あるチャンネルのprivateオプションの有効と無効
+	を切り替える。private が有効化されると、
+	%R%S LIST コマンドの出力にこのチャンネルは含まれなくなる。
 
 CHAN_HELP_SET_RESTRICTED
 #	Syntax: SET channel RESTRICTED {ON | OFF}
