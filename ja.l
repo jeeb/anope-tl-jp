@@ -6723,38 +6723,63 @@ CHAN_HELP_VOP
 	      VOP channel LIST [mask | list]
 	      VOP channel CLEAR
 	
-	Maintains the VOP (VOicePeople) list for a channel.  
-	The VOP list allows users to be auto-voiced and to voice 
-	themselves if they aren't.
+#	Maintains the VOP (VOicePeople) list for a channel.  
+#	The VOP list allows users to be auto-voiced and to voice 
+#	themselves if they aren't.
+	あるチャンネルに対するVOP (VOicePeople) リスト を編集
+	する。チャンネルのVOPリストに登録されているユーザは、自動的に
+	発言権を与えられ、もし発言権を与えられていなくても発言出来ます。
 	
-	The VOP ADD command adds the given nickname to the
-	VOP list.
+#	The VOP ADD command adds the given nickname to the
+#	VOP list.
+	VOP ADD コマンドは与えられたニックネームを VOP リスト
+	に追加する。
 	
-	The VOP DEL command removes the given nick from the
-	VOP list.  If a list of entry numbers is given, those
-	entries are deleted.  (See the example for LIST below.)
+#	The VOP DEL command removes the given nick from the
+#	VOP list.  If a list of entry numbers is given, those
+#	entries are deleted.  (See the example for LIST below.)
+	VOP DEL コマンドは与えられたニックネームを VOP リスト
+	から削除する。もし、リストのエントリ番号が与えられた場合、
+	このエントリを削除する。(下のLISTに関する例を見よ)
 	
-	The VOP LIST command displays the VOP list.  If
-	a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The VOP LIST command displays the VOP list.  If
+#	a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	VOP LIST コマンドはVOPリストを表示する。もしワイルドカード
+	マスクが与えられた場合、マスクにマッチするエントリだけが
+	表示される。もしリストのエントリ番号が与えられた場合、
+	このエントリ番号だけが表示される。例えば、
 
 	   VOP #channel LIST 2-5,7-9
-	      Lists VOP entries numbered 2 through 5 and
-	      7 through 9.
+#	      Lists VOP entries numbered 2 through 5 and
+#	      7 through 9.
+	      2から5、7から9番目の VOP リストエントリを表示する。
 	      
-	The VOP CLEAR command clears all entries of the
-	VOP list.
+#	The VOP CLEAR command clears all entries of the
+#	VOP list.
+	VOP CLEAR コマンドは VOP リストの全てのエントリを
+	削除する。
 	
-	The VOP ADD, VOP DEL and VOP LIST commands are 
-	limited to AOPs or above, while the VOP CLEAR command 
-	can only be used by the channel founder.
+#	The VOP ADD, VOP DEL and VOP LIST commands are 
+#	limited to AOPs or above, while the VOP CLEAR command 
+#	can only be used by the channel founder.
+	VOP ADD、 VOP DEL と VOP LISTコマンドは AOP か
+	それより高位の権限を持つものだけに使用が制限されています。
+	これに対して、HOP CLEAR コマンドは、チャンネル創始者
+	だけが使えます。
 	
-	This command may have been disabled for your channel, and
-	in that case you need to use the access list. See 
-	%R%S HELP ACCESS for information about the access list,
-	and %R%S HELP SET XOP to know how to toggle between 
-	the access list and xOP list systems.
+#	This command may have been disabled for your channel, and
+#	in that case you need to use the access list. See 
+#	%R%S HELP ACCESS for information about the access list,
+#	and %R%S HELP SET XOP to know how to toggle between 
+#	the access list and xOP list systems.
+	このコマンドをあなたのチャンネルで使用できないように出来ます。
+	その場合は、アクセスリストを使わなければいけません。
+	%R%S HELP ACCESS と入力することで、アクセスリストに関する
+	より詳しい情報が見れます。アクセスリストと xOP リストを
+	切り替える方法に関する詳細は %R%S HELP SET XOP
+	と入力してください。
 
 CHAN_HELP_ACCESS
 #	Syntax: ACCESS channel ADD nick level
