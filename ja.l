@@ -6848,25 +6848,41 @@ CHAN_HELP_ACCESS
 	削除する。
 
 CHAN_HELP_ACCESS_LEVELS
-	User access levels
+#	User access levels
+	ユーザアクセスレベル
 	
-	By default, the following access levels are defined:
+#	By default, the following access levels are defined:
+	初期状態では、以下のアクセスレベルが定義されています。
 	
-	   Founder   Full access to %S functions; automatic
-	                     opping upon entering channel.  Note
-	                     that only one person may have founder
-	                     status (it cannot be given using the
-	                     ACCESS command).
-	        10   Access to AKICK command; automatic opping.
-	         5   Automatic opping.
-	         3   Automatic voicing.
-	         0   No special privileges; can be opped by other
-	                     ops (unless secure-ops is set).
-	        <0   May not be opped.
+#	   Founder   Full access to %S functions; automatic
+#	                     opping upon entering channel.  Note
+#	                     that only one person may have founder
+#	                     status (it cannot be given using the
+#	                     ACCESS command).
+	   創始者    %Sの機能にフルアクセスできる。チャンネルに
+	                     入った時に自動オペレータ化される。
+	                     注意することは、一人だけが創始者権限
+	                     (この権限はACCESSコマンドで誰かに
+	                     貸与できない。)
+#	        10   Access to AKICK command; automatic opping.
+	        10   AKICKコマンドにアクセスできる。自動オペレータ権付加。
+#	         5   Automatic opping.
+	         5   自動オペレータ権付加。
+#	         3   Automatic voicing.
+	         3   自動発言権付加。
+#	         0   No special privileges; can be opped by other
+#	                     ops (unless secure-ops is set).
+	         0   特別な権限を持たない。別のオペレータからオペレータ
+	                     権限を貰う。(secure-opsが無効の場合)
+#	        <0   May not be opped.
+	        <0   オペレータになれない。
 	
-	These levels may be changed, or new ones added, using the
-	LEVELS command; type %R%S HELP LEVELS for
-	information.
+#	These levels may be changed, or new ones added, using the
+#	LEVELS command; type %R%S HELP LEVELS for
+#	information.
+	これらのレベルは変更可能で、LEVELS コマンドを使って
+	新しいレベルを加えることが出来る。より詳しい情報には
+	%R%S HELP LEVELS と入力。
 
 CHAN_HELP_AKICK
 #	Syntax: AKICK channel ADD {nick | mask} [reason]
