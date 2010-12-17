@@ -6902,47 +6902,80 @@ CHAN_HELP_AKICK
 	      AKICK channel ENFORCE
 	      AKICK channel CLEAR
 	
-	Maintains the AutoKick list for a channel.  If a user
-	on the AutoKick list attempts to join the channel,
-	%S will ban that user from the channel, then kick
-	the user.
+#	Maintains the AutoKick list for a channel.  If a user
+#	on the AutoKick list attempts to join the channel,
+#	%S will ban that user from the channel, then kick
+#	the user.
+	あるチャンネルの 自動キックリスト を編集する。
+	自動キックリストに登録されているユーザがチャンネルにjoin
+	しようとした場合には、%Sはこのユーザをチャンネルからbanして、
+	その後にキックする。
 	
-	The AKICK ADD command adds the given nick or usermask
-	to the AutoKick list.  If a reason is given with
-	the command, that reason will be used when the user is
-	kicked; if not, the default reason is "You have been
-	banned from the channel".
-	When akicking a registered nick the nickserv account
-	will be added to the akick list instead of the mask.
-	All users within that nickgroup will then be akicked.
+#	The AKICK ADD command adds the given nick or usermask
+#	to the AutoKick list.  If a reason is given with
+#	the command, that reason will be used when the user is
+#	kicked; if not, the default reason is "You have been
+#	banned from the channel".
+#	When akicking a registered nick the nickserv account
+#	will be added to the akick list instead of the mask.
+#	All users within that nickgroup will then be akicked.
+	AKICK ADD コマンドは与えられたニックネームかユーザマスク
+	を自動キックリストに追加する。もしreason が与えられた
+	場合は、この理由はユーザがキックされるときに使用される。
+	もし与えなければ、初期値である"You have been
+	banned from the channel" が使われる。
+	登録済みニックネーム を自動キックする場合は、このnickserv
+	アカウントがマスクの変わりにakickリストに加えられ、
+	このアカウントに関するニックグループに含まれる全ての
+	ユーザが自動キックリストに加えられる。
 	
-	The AKICK STICK command permanently bans the given mask 
-	on the channel. If someone tries to remove the ban, %S
-	will automatically set it again. You can't use it for
-	registered nicks.
+#	The AKICK STICK command permanently bans the given mask 
+#	on the channel. If someone tries to remove the ban, %S
+#	will automatically set it again. You can't use it for
+#	registered nicks.
+	AKICK STICK コマンドはあるチャンネルで与えられたマスクに
+	該当するユーザをbanする。もし誰かがこのbanを削除しようとした
+	場合には、%S は自動的にこれを回復する。この機能を登録済み
+	ニックネームに対してつかうことはできない。
 	
-	The AKICK UNSTICK command cancels the effect of the
-	AKICK STICK command, so you'll be able to unset the
-	ban again on the channel.
+#	The AKICK UNSTICK command cancels the effect of the
+#	AKICK STICK command, so you'll be able to unset the
+#	ban again on the channel.
+	AKICK UNSTICK コマンドはAKICK STICKの効果を
+	キャンセルする。そのため、このチャンネルに関するbanを
+	キャンセルすることが出来る。
 	
-	The AKICK DEL command removes the given nick or mask
-	from the AutoKick list.  It does not, however, remove any
-	bans placed by an AutoKick; those must be removed
-	manually.
+#	The AKICK DEL command removes the given nick or mask
+#	from the AutoKick list.  It does not, however, remove any
+#	bans placed by an AutoKick; those must be removed
+#	manually.
+	AKICK DEL コマンドは与えられたニックネームかマスクを
+	自動キックリストから削除する。もしこれらの引数が与えられ
+	なければ、自動キックリストに含まれる全てのbanを削除する。
+	このようなことは通常は1つずつ行われるべきである。
 	
-	The AKICK LIST command displays the AutoKick list, or
-	optionally only those AutoKick entries which match the
-	given mask.
+#	The AKICK LIST command displays the AutoKick list, or
+#	optionally only those AutoKick entries which match the
+#	given mask.
+	AKICK LIST コマンドは自動キックリストを表示するか、
+	与えられたマスクに一致する自動キックリストエントリの
+	一部を表示する。
 	
-	The AKICK VIEW command is a more verbose version of
-	AKICK LIST command.
+#	The AKICK VIEW command is a more verbose version of
+#	AKICK LIST command.
+	AKICK VIEW コマンドは、AKICK LISTのより詳細な
+	バージョンである。
 	
-	The AKICK ENFORCE command causes %S to enforce the
-	current AKICK list by removing those users who match an
-	AKICK mask.
+#	The AKICK ENFORCE command causes %S to enforce the
+#	current AKICK list by removing those users who match an
+#	AKICK mask.
+	AKICK ENFORCE コマンドは AKICK マスクにマッチするユーザ
+	を削除することで、現在の自動キックリストを適応させる。
 	
-	The AKICK CLEAR command clears all entries of the
-	akick list.
+#	The AKICK CLEAR command clears all entries of the
+#	akick list.
+	AKICK CLEAR コマンドは自動キックリストに含まれる
+	全てのエントリを削除する。
 
 CHAN_HELP_LEVELS
 #	Syntax: LEVELS channel SET type level
