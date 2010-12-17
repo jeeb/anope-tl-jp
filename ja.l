@@ -6987,24 +6987,40 @@ CHAN_HELP_LEVELS
 	      LEVELS channel LIST
 	      LEVELS channel RESET
 	
-	The LEVELS command allows fine control over the meaning of
-	the numeric access levels used for channels.  With this
-	command, you can define the access level required for most
-	of %S's functions.  (The SET FOUNDER and SET PASSWORD
-	commands, as well as this command, are always restricted to
-	the channel founder.)
+#	The LEVELS command allows fine control over the meaning of
+#	the numeric access levels used for channels.  With this
+#	command, you can define the access level required for most
+#	of %S's functions.  (The SET FOUNDER and SET PASSWORD
+#	commands, as well as this command, are always restricted to
+#	the channel founder.)
+	LEVELS コマンドはチャンネル内でアクセスレベルを設定することで
+	詳細なアクセスコントロールを可能にする。このコマンドを使うことで
+	%S の機能の殆どで使用されるアクセスレベルを定義できる。
+	 (SET FOUNDER と SET PASSWORD コマンドとこのコマンドは、
+	 チャンネル創始者だけに使用が制限されている。)
 	
-	LEVELS SET allows the access level for a function or group of
-	functions to be changed.  LEVELS DISABLE (or DIS for short)
-	disables an automatic feature or disallows access to a
-	function by anyone other than the channel founder.
-	LEVELS LIST shows the current levels for each function or
-	group of functions.  LEVELS RESET resets the levels to the
-	default levels of a newly-created channel (see
-	HELP ACCESS LEVELS).
+#	LEVELS SET allows the access level for a function or group of
+#	functions to be changed.  LEVELS DISABLE (or DIS for short)
+#	disables an automatic feature or disallows access to a
+#	function by anyone other than the channel founder.
+#	LEVELS LIST shows the current levels for each function or
+#	group of functions.  LEVELS RESET resets the levels to the
+#	default levels of a newly-created channel (see
+#	HELP ACCESS LEVELS).
+	LEVELS SET コマンドはアクセスレベルの機能を変更するか、
+	グループの機能を変更するときに使う。LEVELS DISABLE
+	(又は DIS) は自動配布機能の無効化やある機能に対する
+	チャンネル創始者以外のユーザのアクセス禁止をおこなう。
+	LEVELS LIST はそれぞれの機能やグループがどのような
+	レベルに許可されているかのリストを表示する。
+	 LEVELS RESET はアクセスレベルの設定を新しく作成された
+	 チャンネルに適用されれるデフォルトレベルに戻す。
+	(HELP ACCESS LEVELS を参照)
 	
-	For a list of the features and functions whose levels can be
-	set, see HELP LEVELS DESC.
+#	For a list of the features and functions whose levels can be
+#	set, see HELP LEVELS DESC.
+	全ての機能のリストとどのようなレベルが設定できるかに関する
+	詳細は、HELP LEVELS DESC を参照。
 
 CHAN_HELP_LEVELS_DESC
 	The following feature/function names are understood.  Note
