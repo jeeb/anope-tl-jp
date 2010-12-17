@@ -7069,13 +7069,21 @@ CHAN_HELP_OP
 #	Syntax: OP [#channel [nick]]
 	構文: OP [#channel [nick]]
 	
-	Ops a selected nick on a channel. If nick is not given,
-	it will op you. If channel and nick are not given,
-	it will op you on all channels you're on, provided you
-	have the rights to.
+#	Ops a selected nick on a channel. If nick is not given,
+#	it will op you. If channel and nick are not given,
+#	it will op you on all channels you're on, provided you
+#	have the rights to.
+	あるチャンネルのニックネームにオペレータ権限を配布します。
+	ニックネームが与えられなかった場合には、自分にオペレータ
+	権限を配布します。チャンネルとニックネームが与えられ
+	無かった場合は、自分がjoinしている全てのチャンネルで
+	自分にオペレータ権限が配布されます。ただし、オペレータ
+	権限を貰う権利がある場合に限られます。
 	
-	By default, limited to AOPs or those with level 5 access 
-	and above on the channel.
+#	By default, limited to AOPs or those with level 5 access 
+#	and above on the channel.
+	初期状態では、このコマンドは AOP かレベル5以上のアクセス
+	レベルを持っているユーザだけに使用が制限されています。
 
 CHAN_HELP_DEOP
 #	Syntax: DEOP [#channel [nick]]
