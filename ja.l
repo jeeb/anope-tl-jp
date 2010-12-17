@@ -7082,7 +7082,7 @@ CHAN_HELP_OP
 	
 #	By default, limited to AOPs or those with level 5 access 
 #	and above on the channel.
-	初期状態では、このコマンドは AOP かレベル5以上のアクセス
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
 	レベルを持っているユーザだけに使用が制限されています。
 
 CHAN_HELP_DEOP
@@ -7102,21 +7102,29 @@ CHAN_HELP_DEOP
 	
 #	By default, limited to AOPs or those with level 5 access 
 #	and above on the channel.
-	初期状態では、このコマンドは AOP かレベル5以上のアクセス
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
 	レベルを持っているユーザだけに使用が制限されています。
 	
 CHAN_HELP_VOICE
 #	Syntax: VOICE [#channel [nick]]
 	構文: VOICE [#channel [nick]]
 	
-	Voices a selected nick on a channel. If nick is not given,
-	it will voice you. If channel and nick are not given,
-	it will voice you on all channels you're on, provided you
-	have the rights to.
+#	Voices a selected nick on a channel. If nick is not given,
+#	it will voice you. If channel and nick are not given,
+#	it will voice you on all channels you're on, provided you
+#	have the rights to.
+	チャンネルの与えられたニックネームに発言権を与える。
+	ニックネームが与えられなかった場合、自分に発言権を
+	与える。チャンネル名とニックネームが与えられなかった場合、
+	joinしている全てのチャンネルの自分に発言権を与える。
+	ただし、発言権を与えられる権利がある場合に限られます。
 	
-	By default, limited to AOPs or those with level 5 access 
-	and above on the channel, or to VOPs or those with level 3 
-	and above for self voicing.
+#	By default, limited to AOPs or those with level 5 access 
+#	and above on the channel, or to VOPs or those with level 3 
+#	and above for self voicing.
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
+	レベルを持っているユーザか、VOPでレベル3以上のアクセスレベル
+	を持っているユーザだけに使用が制限されています。
 
 CHAN_HELP_DEVOICE
 #	Syntax: DEVOICE [#channel [nick]]
