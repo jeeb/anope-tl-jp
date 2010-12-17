@@ -6791,38 +6791,61 @@ CHAN_HELP_ACCESS
 	      ACCESS channel LIST [mask | list]
 	      ACCESS channel CLEAR
 	
-	Maintains the access list for a channel.  The access
-	list specifies which users are allowed chanop status or
-	access to %S commands on the channel.  Different
-	user levels allow for access to different subsets of
-	privileges; %R%S HELP ACCESS LEVELS for more
-	specific information.  Any nick not on the access list has
-	a user level of 0.
+#	Maintains the access list for a channel.  The access
+#	list specifies which users are allowed chanop status or
+#	access to %S commands on the channel.  Different
+#	user levels allow for access to different subsets of
+#	privileges; %R%S HELP ACCESS LEVELS for more
+#	specific information.  Any nick not on the access list has
+#	a user level of 0.
+	チャンネルの アクセスリスト を編集する。アクセスリストは
+	チャンネル管理者になれるユーザ、又はこのチャンネルの %S コマンド
+	にアクセスできるユーザを指定します。異なるユーザレベル
+	のユーザには異なる権限を与えます。より詳しい情報は、
+	%R%S HELP ACCESS LEVELS を参照してください。アクセスリスト
+	に載っていない全てのニックのユーザレベルは0です。
 	
-	The ACCESS ADD command adds the given nickname to the
-	access list with the given user level; if the nick is
-	already present on the list, its access level is changed to
-	the level specified in the command.  The level specified
-	must be less than that of the user giving the command, and
-	if the nick is already on the access list, the current
-	access level of that nick must be less than the access level
-	of the user giving the command.
+#	The ACCESS ADD command adds the given nickname to the
+#	access list with the given user level; if the nick is
+#	already present on the list, its access level is changed to
+#	the level specified in the command.  The level specified
+#	must be less than that of the user giving the command, and
+#	if the nick is already on the access list, the current
+#	access level of that nick must be less than the access level
+#	of the user giving the command.
+	ACCESS ADD コマンドは与えられたニックネームとそのレベル
+	をアクセスリストに追加する。もしニックネームがすでにアクセス
+	リストに登録済みであれば、アクセスレベルが変更される。
+	コマンドを発行したユーザは自分よりも高位の level を
+	与えることは出来ない。また、nick がすでにアクセスリスト
+	に登録済みの場合、このニックネームの登録済みのアクセスレベル
+	はコマンドで指定されたものよりも低いもので無ければいけない。
 	
-	The ACCESS DEL command removes the given nick from the
-	access list.  If a list of entry numbers is given, those
-	entries are deleted.  (See the example for LIST below.)
+#	The ACCESS DEL command removes the given nick from the
+#	access list.  If a list of entry numbers is given, those
+#	entries are deleted.  (See the example for LIST below.)
+	ACCESS DEL コマンドは与えられたニックネームを VOP リスト
+	から削除する。もし、リストのエントリ番号が与えられた場合、
+	このエントリを削除する。(下のLISTに関する例を見よ)
 	
-	The ACCESS LIST command displays the access list.  If
-	a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The ACCESS LIST command displays the access list.  If
+#	a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	ACCESS LIST コマンドはVOPリストを表示する。もしワイルドカード
+	マスクが与えられた場合、マスクにマッチするエントリだけが
+	表示される。もしリストのエントリ番号が与えられた場合、
+	このエントリ番号だけが表示される。例えば、
 
 	   ACCESS #channel LIST 2-5,7-9
-	      Lists access entries numbered 2 through 5 and
-	      7 through 9.
+#	      Lists access entries numbered 2 through 5 and
+#	      7 through 9.
+	      2から5、7から9番目のアクセスリストエントリを表示する。
 	      
-	The ACCESS CLEAR command clears all entries of the
-	access list.
+#	The ACCESS CLEAR command clears all entries of the
+#	access list.
+	ACCESS CLEAR コマンドはアクセスリストの全てのエントリを
+	削除する。
 
 CHAN_HELP_ACCESS_LEVELS
 	User access levels
