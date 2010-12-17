@@ -6454,24 +6454,39 @@ CHAN_HELP_SET_XOP
 #	Syntax: SET channel XOP {ON | OFF}
 	構文: SET channel XOP {ON | OFF}
 	
-	Enables or disables the xOP lists system for a channel.
-	When XOP is set, you have to use the AOP/SOP/VOP
-	commands in order to give channel privileges to
-	users, else you have to use the ACCESS command.
+#	Enables or disables the xOP lists system for a channel.
+#	When XOP is set, you have to use the AOP/SOP/VOP
+#	commands in order to give channel privileges to
+#	users, else you have to use the ACCESS command.
+	あるチャンネルに対する xOP リストシステムの有効と無効
+	を切り替える。XOP が有効化されると、
+	ユーザにチャンネルでの権限を与えるにはAOP/SOP/VOP
+	を使うか、ACCESSコマンドを使うことになる。
 	
-	Technical Note: when you switch from access list to xOP 
-	lists system, your level definitions and user levels will be
-	changed, so you won't find the same values if you
-	switch back to access system! 
+#	Technical Note: when you switch from access list to xOP 
+#	lists system, your level definitions and user levels will be
+#	changed, so you won't find the same values if you
+#	switch back to access system! 
+	技術的な注意: アクセススリストから xOP リスト知る手無に変更
+	するときには、あなたのレベル定義とユーザレベルも変更されなければ
+	いけません。そうでなければ、アクセスリストシステムに戻った際に
+	同じレベルを使えなくなります。
 	
-	You should also check that your users are in the good xOP 
-	list after the switch from access to xOP lists, because the 
-	guess is not always perfect... in fact, it is not recommended 
-	to use the xOP lists if you changed level definitions with 
-	the LEVELS command.
+#	You should also check that your users are in the good xOP 
+#	list after the switch from access to xOP lists, because the 
+#	guess is not always perfect... in fact, it is not recommended 
+#	to use the xOP lists if you changed level definitions with 
+#	the LEVELS command.
+	xOPリストに変更した後に、ユーザが良い xOP リストにいるかどうか
+	チェックしなければいけません。なぜなら、思い込みはいつも
+	完璧であるとは限らないからです。実際、LEVEL コマンドを
+	使ってレベルの定義を変更する場合には、xOP リストを使うこと
+	は推奨されません。
 	
-	Switching from xOP lists system to access list system
-	causes no problem though.
+#	Switching from xOP lists system to access list system
+#	causes no problem though.
+	xOP リストシステムからアクセスリストシステムに変更
+	する場合には問題は起こりません。
 
 CHAN_HELP_SET_OPNOTICE
 #	Syntax: SET channel OPNOTICE {ON | OFF}
