@@ -6492,10 +6492,14 @@ CHAN_HELP_SET_OPNOTICE
 #	Syntax: SET channel OPNOTICE {ON | OFF}
 	構文: SET channel OPNOTICE {ON | OFF}
 	
-	Enables or disables the op-notice option for a channel.
-	When op-notice is set, %S will send a notice to the
-	channel whenever the OP or DEOP commands are used for a user
-	in the channel.
+#	Enables or disables the op-notice option for a channel.
+#	When op-notice is set, %S will send a notice to the
+#	channel whenever the OP or DEOP commands are used for a user
+#	in the channel.
+	あるチャンネルに対する op-notice オプションの有効と無効
+	を切り替える。op-notice が有効化されると、
+	OP 又は DEOP がこのチャンネルにいるユーザに対して
+	使用されたときに、%S は notice をチャンネルに送信する。
 
 CHAN_HELP_AOP
 #	Syntax: AOP channel ADD nick
