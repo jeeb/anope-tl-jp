@@ -6511,40 +6511,68 @@ CHAN_HELP_AOP
 	      AOP channel LIST [mask | list]
 	      AOP channel CLEAR
 	
-	Maintains the AOP (AutoOP) list for a channel. The AOP 
-	list gives users the right to be auto-opped on your channel,
-	to unban or invite themselves if needed, to have their
-	greet message showed on join, and so on.
+#	Maintains the AOP (AutoOP) list for a channel. The AOP 
+#	list gives users the right to be auto-opped on your channel,
+#	to unban or invite themselves if needed, to have their
+#	greet message showed on join, and so on.
+	あるチャンネルに対するAOP (自動OP) リスト を編集
+	する。AOPリストはあなたのチャンネルで自動的にオペレータ
+	になることの出来るユーザのリストです。バン解除と招待すること
+	も出来ます。もし必要であればユーザに対する挨拶メッセージを
+	設定することも出来ます。
 	
-	The AOP ADD command adds the given nickname to the
-	AOP list.
+#	The AOP ADD command adds the given nickname to the
+#	AOP list.
+	AOP ADD コマンドは与えられたニックネームを AOP リスト
+	に追加する。
 	
-	The AOP DEL command removes the given nick from the
-	AOP list.  If a list of entry numbers is given, those
-	entries are deleted.  (See the example for LIST below.)
+#	The AOP DEL command removes the given nick from the
+#	AOP list.  If a list of entry numbers is given, those
+#	entries are deleted.  (See the example for LIST below.)
+	AOP DEL コマンドは与えられたニックネームを AOP リスト
+	から削除する。もし、リストのエントリ番号が与えられた場合、
+	このエントリを削除する。(下のLISTに関する例を見よ)
 	
-	The AOP LIST command displays the AOP list.  If
-	a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The AOP LIST command displays the AOP list.  If
+#	a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	AOP LIST コマンドはAOPリストを表示する。もしワイルドカード
+	マスクが与えられた場合、マスクにマッチするエントリだけが
+	表示される。もしリストのエントリ番号が与えられた場合、
+	このエントリ番号だけが表示される。
 
 	   AOP #channel LIST 2-5,7-9
-	      Lists AOP entries numbered 2 through 5 and
+#	      Lists AOP entries numbered 2 through 5 and
 	      7 through 9.
+	      2から5、7から9番目の AOP リストエントリを表示する。
 	      
-	The AOP CLEAR command clears all entries of the
-	AOP list.
+#	The AOP CLEAR command clears all entries of the
+#	AOP list.
+	AOP CLEAR コマンドは AOP リストの全てのエントリを
+	削除する。
 	
-	The AOP ADD and AOP DEL commands are limited to
-	SOPs or above, while the AOP CLEAR command can only
-	be used by the channel founder. However, any user on the
-	AOP list may use the AOP LIST command.
+#	The AOP ADD and AOP DEL commands are limited to
+#	SOPs or above, while the AOP CLEAR command can only
+#	be used by the channel founder. However, any user on the
+#	AOP list may use the AOP LIST command.
+	AOP ADD と AOP DEL コマンドは SOP かそれより高位の
+	権限を持つものだけに使用が制限されています。これに対して、
+	AOP CLEAR コマンドは、チャンネル創始者だけが使えます。
+	しかし、AOP リストに登録されているユーザであれば誰でも
+	AOP LIST コマンドを使うことが出来ます。
 	
-	This command may have been disabled for your channel, and
-	in that case you need to use the access list. See 
-	%R%S HELP ACCESS for information about the access list,
-	and %R%S HELP SET XOP to know how to toggle between 
-	the access list and xOP list systems.
+#	This command may have been disabled for your channel, and
+#	in that case you need to use the access list. See 
+#	%R%S HELP ACCESS for information about the access list,
+#	and %R%S HELP SET XOP to know how to toggle between 
+#	the access list and xOP list systems.
+	このコマンドをあなたのチャンネルで使用できないように出来ます。
+	その場合は、アクセスリストを使わなければいけません。
+	%R%S HELP ACCESS と入力することで、アクセスリストに関する
+	より詳しい情報が見れます。アクセスリストと xOP リストを
+	切り替える方法に関する詳細は %R%S HELP SET XOP
+	と入力してください。
 
 CHAN_HELP_HOP
 #	Syntax: HOP channel ADD nick
