@@ -7036,14 +7036,21 @@ CHAN_HELP_INFO
 #	Syntax: INFO channel [ALL]
 	構文: INFO channel [ALL]
 	
-	Lists information about the named registered channel,
-	including its founder, time of registration, last time
-	used, description, and mode lock, if any. If ALL is 
-	specified, the entry message and successor will also 
-	be displayed.
+#	Lists information about the named registered channel,
+#	including its founder, time of registration, last time
+#	used, description, and mode lock, if any. If ALL is 
+#	specified, the entry message and successor will also 
+#	be displayed.
+	登録済みチャンネルに関する情報を表示する。
+	情報には、チャンネル創始者、登録日時、最終使用日時、
+	説明、もしあるならロックモード、が含まれる。ALL
+	が与えられた場合、挨拶メッセージ、後継者の情報も
+	含まれる。
 	
-	By default, the ALL option is limited to those with
-	founder access on the channel.
+#	By default, the ALL option is limited to those with
+#	founder access on the channel.
+	初期状態では、ALLオプションはチャンネル創始者以外は
+	使えないようになっている。
 
 CHAN_HELP_LIST
 #	Syntax: LIST pattern
