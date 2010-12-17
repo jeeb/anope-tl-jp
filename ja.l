@@ -7023,9 +7023,11 @@ CHAN_HELP_LEVELS
 	詳細は、HELP LEVELS DESC を参照。
 
 CHAN_HELP_LEVELS_DESC
-	The following feature/function names are understood.  Note
-	that the levels for AUTODEOP and NOJOIN are maximum levels,
-	while all others are minimum levels.
+#	The following feature/function names are understood.  Note
+#	that the levels for AUTODEOP and NOJOIN are maximum levels,
+#	while all others are minimum levels.
+	以下の機能が認識できる。AUTODEOP と NOJOIN レベルは
+	最大のレベルで、それ以外は最低のレベルである。
 
 CHAN_HELP_LEVELS_DESC_FORMAT
 	    %-*s  %s
