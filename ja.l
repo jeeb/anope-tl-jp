@@ -6652,39 +6652,66 @@ CHAN_HELP_SOP
 	      SOP channel LIST [mask | list]
 	      SOP channel CLEAR
 	
-	Maintains the SOP (SuperOP) list for a channel. The SOP 
-	list gives users all rights given by the AOP list, and adds
-	those needed to use the AutoKick and the BadWords lists, 
-	to send and read channel memos, and so on.
+#	Maintains the SOP (SuperOP) list for a channel. The SOP 
+#	list gives users all rights given by the AOP list, and adds
+#	those needed to use the AutoKick and the BadWords lists, 
+#	to send and read channel memos, and so on.
+	あるチャンネルに対するSOP (SuperOP) リスト を編集
+	する。チャンネルのSOPリストに登録されているユーザは、AOP
+	リストで得られる全ての権限が与えられ、自動キックと
+	禁止ワードリストの可否、チャンネルメモの送信と受信などを
+	行えます。
 	
-	The SOP ADD command adds the given nickname to the
-	SOP list.
+#	The SOP ADD command adds the given nickname to the
+#	SOP list.
+	SOP ADD コマンドは与えられたニックネームを SOP リスト
+	に追加する。
 	
-	The SOP DEL command removes the given nick from the
-	SOP list.  If a list of entry numbers is given, those
-	entries are deleted.  (See the example for LIST below.)
+#	The SOP DEL command removes the given nick from the
+#	SOP list.  If a list of entry numbers is given, those
+#	entries are deleted.  (See the example for LIST below.)
+	SOP DEL コマンドは与えられたニックネームを SOP リスト
+	から削除する。もし、リストのエントリ番号が与えられた場合、
+	このエントリを削除する。(下のLISTに関する例を見よ)
 	
-	The SOP LIST command displays the SOP list.  If
-	a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The SOP LIST command displays the SOP list.  If
+#	a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	SOP LIST コマンドはSOPリストを表示する。もしワイルドカード
+	マスクが与えられた場合、マスクにマッチするエントリだけが
+	表示される。もしリストのエントリ番号が与えられた場合、
+	このエントリ番号だけが表示される。例えば、
 
 	   SOP #channel LIST 2-5,7-9
-	      Lists AOP entries numbered 2 through 5 and
-	      7 through 9.
+#	      Lists AOP entries numbered 2 through 5 and
+#	      7 through 9.
+	      2から5、7から9番目の HOP リストエントリを表示する。
 	      
-	The SOP CLEAR command clears all entries of the
-	SOP list.
+#	The SOP CLEAR command clears all entries of the
+#	SOP list.
+	SOP CLEAR コマンドは SOP リストの全てのエントリを
+	削除する。
 	
-	The SOP ADD, SOP DEL and SOP CLEAR commands are 
-	limited to the channel founder. However, any user on the
-	AOP list may use the SOP LIST command.
+#	The SOP ADD, SOP DEL and SOP CLEAR commands are 
+#	limited to the channel founder. However, any user on the
+#	AOP list may use the SOP LIST command.
+	SOP ADD、 SOP DEL と SOP CLEARコマンドは
+	チャンネル創始者だけに使用が制限されています。
+	これに対して、HOP LIST コマンドは、AOPリストに含まれる
+	ユーザであれば誰でも使えます。
 	
-	This command may have been disabled for your channel, and
-	in that case you need to use the access list. See 
-	%R%S HELP ACCESS for information about the access list,
-	and %R%S HELP SET XOP to know how to toggle between 
-	the access list and xOP list systems.
+#	This command may have been disabled for your channel, and
+#	in that case you need to use the access list. See 
+#	%R%S HELP ACCESS for information about the access list,
+#	and %R%S HELP SET XOP to know how to toggle between 
+#	the access list and xOP list systems.
+	このコマンドをあなたのチャンネルで使用できないように出来ます。
+	その場合は、アクセスリストを使わなければいけません。
+	%R%S HELP ACCESS と入力することで、アクセスリストに関する
+	より詳しい情報が見れます。アクセスリストと xOP リストを
+	切り替える方法に関する詳細は %R%S HELP SET XOP
+	と入力してください。
 
 CHAN_HELP_VOP
 #	Syntax: VOP channel ADD nick
