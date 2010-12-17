@@ -6540,11 +6540,11 @@ CHAN_HELP_AOP
 	AOP LIST コマンドはAOPリストを表示する。もしワイルドカード
 	マスクが与えられた場合、マスクにマッチするエントリだけが
 	表示される。もしリストのエントリ番号が与えられた場合、
-	このエントリ番号だけが表示される。
+	このエントリ番号だけが表示される。例えば、
 
 	   AOP #channel LIST 2-5,7-9
 #	      Lists AOP entries numbered 2 through 5 and
-	      7 through 9.
+#	      7 through 9.
 	      2から5、7から9番目の AOP リストエントリを表示する。
 	      
 #	The AOP CLEAR command clears all entries of the
@@ -6584,38 +6584,63 @@ CHAN_HELP_HOP
 	      HOP channel LIST [mask | list]
 	      HOP channel CLEAR
 	
-	Maintains the HOP (HalfOP) list for a channel. The HOP 
-	list gives users the right to be auto-halfopped on your 
-	channel.
+#	Maintains the HOP (HalfOP) list for a channel. The HOP 
+#	list gives users the right to be auto-halfopped on your 
+#	channel.
+	あるチャンネルに対するHOP (HalfOP) リスト を編集
+	する。チャンネルのHOPリストに登録されているユーザは、自動で
+	halfopされます。
 	
-	The HOP ADD command adds the given nickname to the
-	HOP list.
+#	The HOP ADD command adds the given nickname to the
+#	HOP list.
+	HOP ADD コマンドは与えられたニックネームを HOP リスト
+	に追加する。
 	
-	The HOP DEL command removes the given nick from the
-	HOP list.  If a list of entry numbers is given, those
-	entries are deleted.  (See the example for LIST below.)
+#	The HOP DEL command removes the given nick from the
+#	HOP list.  If a list of entry numbers is given, those
+#	entries are deleted.  (See the example for LIST below.)
+	HOP DEL コマンドは与えられたニックネームを HOP リスト
+	から削除する。もし、リストのエントリ番号が与えられた場合、
+	このエントリを削除する。(下のLISTに関する例を見よ)
 	
-	The HOP LIST command displays the HOP list.  If
-	a wildcard mask is given, only those entries matching the
-	mask are displayed.  If a list of entry numbers is given,
-	only those entries are shown; for example:
+#	The HOP LIST command displays the HOP list.  If
+#	a wildcard mask is given, only those entries matching the
+#	mask are displayed.  If a list of entry numbers is given,
+#	only those entries are shown; for example:
+	HOP LIST コマンドはHOPリストを表示する。もしワイルドカード
+	マスクが与えられた場合、マスクにマッチするエントリだけが
+	表示される。もしリストのエントリ番号が与えられた場合、
+	このエントリ番号だけが表示される。例えば、
 
 	   HOP #channel LIST 2-5,7-9
-	      Lists HOP entries numbered 2 through 5 and
-	      7 through 9.
+#	      Lists HOP entries numbered 2 through 5 and
+#	      7 through 9.
+	      2から5、7から9番目の HOP リストエントリを表示する。
 	      
-	The HOP CLEAR command clears all entries of the
-	HOP list.
+#	The HOP CLEAR command clears all entries of the
+#	HOP list.
+	HOP CLEAR コマンドは HOP リストの全てのエントリを
+	削除する。
 	
-	The HOP ADD, HOP DEL and HOP LIST commands are 
-	limited to AOPs or above, while the HOP CLEAR command 
-	can only be used by the channel founder.
+#	The HOP ADD, HOP DEL and HOP LIST commands are 
+#	limited to AOPs or above, while the HOP CLEAR command 
+#	can only be used by the channel founder.
+	HOP ADD、 HOP DEL と HOP LISTコマンドは AOP か
+	それより高位の権限を持つものだけに使用が制限されています。
+	これに対して、HOP CLEAR コマンドは、チャンネル創始者
+	だけが使えます。
 	
-	This command may have been disabled for your channel, and
-	in that case you need to use the access list. See 
-	%R%S HELP ACCESS for information about the access list,
-	and %R%S HELP SET XOP to know how to toggle between 
-	the access list and xOP list systems.
+#	This command may have been disabled for your channel, and
+#	in that case you need to use the access list. See 
+#	%R%S HELP ACCESS for information about the access list,
+#	and %R%S HELP SET XOP to know how to toggle between 
+#	the access list and xOP list systems.
+	このコマンドをあなたのチャンネルで使用できないように出来ます。
+	その場合は、アクセスリストを使わなければいけません。
+	%R%S HELP ACCESS と入力することで、アクセスリストに関する
+	より詳しい情報が見れます。アクセスリストと xOP リストを
+	切り替える方法に関する詳細は %R%S HELP SET XOP
+	と入力してください。
 
 CHAN_HELP_SOP
 #	Syntax: SOP channel ADD nick
