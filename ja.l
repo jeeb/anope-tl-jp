@@ -7130,14 +7130,22 @@ CHAN_HELP_DEVOICE
 #	Syntax: DEVOICE [#channel [nick]]
 	構文: DEVOICE [#channel [nick]]
 	
-	Devoices a selected nick on a channel. If nick is not given,
-	it will devoice you. If channel and nick are not given,
-	it will devoice you on all channels you're on, provided you
-	have the rights to.
+#	Devoices a selected nick on a channel. If nick is not given,
+#	it will devoice you. If channel and nick are not given,
+#	it will devoice you on all channels you're on, provided you
+#	have the rights to.
+	チャンネルの与えられたニックネームから発言権を剥奪する。
+	ニックネームが与えられなかった場合、自分から発言権を
+	剥奪する。チャンネル名とニックネームが与えられなかった場合、
+	joinしている全てのチャンネルの自分から発言権を剥奪する。
+	ただし、発言権を剥奪できる権利がある場合に限られます。
 	
-	By default, limited to AOPs or those with level 5 access 
-	and above on the channel, or to VOPs or those with level 3 
-	and above for self devoicing.
+#	By default, limited to AOPs or those with level 5 access 
+#	and above on the channel, or to VOPs or those with level 3 
+#	and above for self devoicing.
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
+	レベルを持っているユーザか、VOPでレベル3以上のアクセスレベル
+	を持っているユーザだけに使用が制限されています。
 	
 CHAN_HELP_HALFOP
 #	Syntax: HALFOP [#channel [nick]]
