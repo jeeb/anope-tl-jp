@@ -7089,13 +7089,21 @@ CHAN_HELP_DEOP
 #	Syntax: DEOP [#channel [nick]]
 	構文: DEOP [#channel [nick]]
 	
-	Deops a selected nick on a channel. If nick is not given,
-	it will deop you. If channel and nick are not given,
-	it will deop you on all channels you're on, provided you
-	have the rights to.
+#	Deops a selected nick on a channel. If nick is not given,
+#	it will deop you. If channel and nick are not given,
+#	it will deop you on all channels you're on, provided you
+#	have the rights to.
+	与えられたチャンネルのニックネームからオペレータ権限を剥奪する。
+	もしニックネームが与えられなかった場合には、自分から
+	オペレータ権限を剥奪する。チャンネルとニックネームが
+	与えられなかった場合には、自分がjoinしている全てのチャンネルで
+	自分からオペレータ権限を剥奪します。ただし、オペレータ
+	権限を剥奪できる権利がある場合に限られます。
 	
-	By default, limited to AOPs or those with level 5 access 
-	and above on the channel.
+#	By default, limited to AOPs or those with level 5 access 
+#	and above on the channel.
+	初期状態では、このコマンドは AOP かレベル5以上のアクセス
+	レベルを持っているユーザだけに使用が制限されています。
 	
 CHAN_HELP_VOICE
 #	Syntax: VOICE [#channel [nick]]
