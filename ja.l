@@ -7056,10 +7056,14 @@ CHAN_HELP_LIST
 #	Syntax: LIST pattern
 	構文: LIST pattern
 	
-	Lists all registered channels matching the given pattern.
-	(Channels with the PRIVATE option set are not listed.)
-	Note that a preceding '#' specifies a range, channel names
-	are to be written without '#'.
+#	Lists all registered channels matching the given pattern.
+#	(Channels with the PRIVATE option set are not listed.)
+#	Note that a preceding '#' specifies a range, channel names
+#	are to be written without '#'.
+	与えられたパターンにマッチする登録済みチャンネルをリスト
+	する。(PRIVATE オプションが有効になっているチャンネルは
+	リストされません。) #から始まるとそれは範囲を意味します。
+	チャンネル名に#をつける必要はありません。
 
 CHAN_HELP_OP
 #	Syntax: OP [#channel [nick]]
