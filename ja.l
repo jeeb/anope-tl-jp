@@ -7289,25 +7289,39 @@ CHAN_HELP_KICK
 #	Syntax: KICK [#channel [nick [reason]]]
 	構文: KICK [#channel [nick [reason]]]
 	
-	Kicks a selected nick on a channel. If nick is not given,
-	it will kick you. If channel and nick are not given,
-	it will kick you on all channels you're on, provided you
-	have the rights to.
+#	Kicks a selected nick on a channel. If nick is not given,
+#	it will kick you. If channel and nick are not given,
+#	it will kick you on all channels you're on, provided you
+#	have the rights to.
+	与えられたチャンネルにいるニックネームをキックします。
+	ニックネームが与えられなかった場合、自分自身をキックします。
+	チャンネル名とニックネームが与えられなかった場合、
+	joinしている全てのチャンネルの自分をキックします。
+	ただし、キックする権利がある場合に限られます。
 	
-	By default, limited to AOPs or those with level 5 access 
-	and above on the channel.
+#	By default, limited to AOPs or those with level 5 access 
+#	and above on the channel.
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
+	レベルを持っているユーザだけに使用が制限されています。
 
 CHAN_HELP_BAN
 #	Syntax: BAN [#channel [nick [reason]]]
 	構文: BAN [#channel [nick [reason]]]
 	
-	Bans a selected nick on a channel. If nick is not given,
-	it will ban you. If channel and nick are not given,
-	it will ban you on all channels you're on, provided you
-	have the rights to.
+#	Bans a selected nick on a channel. If nick is not given,
+#	it will ban you. If channel and nick are not given,
+#	it will ban you on all channels you're on, provided you
+#	have the rights to.
+	与えられたチャンネルにいるニックネームをbanします。
+	ニックネームが与えられなかった場合、自分自身をbanします。
+	チャンネル名とニックネームが与えられなかった場合、
+	joinしている全てのチャンネルの自分をbanします。
+	ただし、banする権利がある場合に限られます。
 	
-	By default, limited to AOPs or those with level 5 access 
-	and above on the channel.
+#	By default, limited to AOPs or those with level 5 access 
+#	and above on the channel.
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
+	レベルを持っているユーザだけに使用が制限されています。
 
 CHAN_HELP_TOPIC
 #	Syntax: TOPIC channel [topic]
