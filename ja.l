@@ -7416,9 +7416,11 @@ CHAN_HELP_SENDPASS
 
 CHAN_SERVADMIN_HELP
 	 
-	Services admins can also drop any channel without needing
-	to identify via password, and may view the access, AKICK,
-	and level setting lists for any channel.
+#	Services admins can also drop any channel without needing
+#	to identify via password, and may view the access, AKICK,
+#	and level setting lists for any channel.
+	サービス管理者はパスワード認証無しに、全てのチャンネルを
+	無効化、アクセスチェック、AKICK、レベル設定できます。
 	
 CHAN_SERVADMIN_HELP_LOGOUT
 #	Syntax: LOGOUT channel [nickname]
