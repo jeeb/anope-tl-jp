@@ -7553,8 +7553,10 @@ CHAN_SERVADMIN_HELP_UNSUSPEND
 #	Syntax: UNSUSPEND channel
 	構文: UNSUSPEND channel
 	
-	Releases a suspended channel. All data and settings
-	are preserved from before the suspension.
+#	Releases a suspended channel. All data and settings
+#	are preserved from before the suspension.
+	一時停止状態のチャンネルを破棄する。ただし、全てのデータと
+	設定は保存される。
 
 CHAN_SERVADMIN_HELP_STATUS
 #	Syntax: STATUS channel nickname
