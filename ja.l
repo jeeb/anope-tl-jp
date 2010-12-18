@@ -7212,13 +7212,20 @@ CHAN_HELP_DEPROTECT
 #	Syntax: DEPROTECT [#channel [nick]]
 	構文: DEPROTECT [#channel [nick]]
 	
-	Deprotects a selected nick on a channel. If nick is not given,
-	it will deprotect you. If channel and nick are not given,
-	it will deprotect you on all channels you're on, provided you
-	have the rights to.
+#	Deprotects a selected nick on a channel. If nick is not given,
+#	it will deprotect you. If channel and nick are not given,
+#	it will deprotect you on all channels you're on, provided you
+#	have the rights to.
+	与えられたチャンネルにいるニックネームを保護しない。
+	ニックネームが与えられなかった場合、自分自身を保護しない。
+	チャンネル名とニックネームが与えられなかった場合、
+	joinしている全てのチャンネルの自分を保護しない。
+	ただし、保護しない権利がある場合に限られます。
 	
-	By default, limited to the founder, or to SOPs or those with 
-	level 10 and above on the channel for self deprotecting.
+#	By default, limited to the founder, or to SOPs or those with 
+#	level 10 and above on the channel for self deprotecting.
+	初期状態では、このコマンドは創始者か、 SOP でレベル10以上の
+	アクセスレベルを持っているユーザだけに使用が制限されています。
 
 CHAN_HELP_OWNER
 #	Syntax: OWNER [#channel]
