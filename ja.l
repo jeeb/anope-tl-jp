@@ -7340,31 +7340,45 @@ CHAN_HELP_TOPIC
 
 #	By default, limited to those with founder access on the
 #	channel. 
-	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザだけに使用が制限されています。
+	このコマンドはチャンネルにいる創始者だけに使用が制限
+	されています。
 
 CHAN_HELP_CLEAR
 #	Syntax: CLEAR channel what
 	構文: CLEAR channel what
 	
-	Tells %S to clear certain settings on a channel.  what
-	can be any of the following:
+#	Tells %S to clear certain settings on a channel.  what
+#	can be any of the following:
+	チャンネルの設定を初期状態に戻す。what は以下の
+	1つである。
 	
-	     MODES    Resets all modes on the channel (i.e. clears
-	                  modes i,k,l,m,n,p,s,t).
-	     BANS     Clears all bans on the channel.
-	     EXCEPTS  Clears all excepts on the channel.
-	     INVITES  Clears all invites on the channel.
-	     OPS      Removes channel-operator status (mode +o) from
-	                  all channel operators.
-	     HOPS     Removes channel-halfoperator status (mode +h) from
-	                  all channel halfoperators, if supported.
-	     VOICES   Removes "voice" status (mode +v) from anyone
-	                  with that mode set.
-	     USERS    Removes (kicks) all users from the channel.
+#	     MODES    Resets all modes on the channel (i.e. clears
+#	                  modes i,k,l,m,n,p,s,t).
+	     MODES    全てのチャンネルモードをリセットする。(例:
+	                  i,k,l,m,n,p,s,tをクリアする。)
+#	     BANS     Clears all bans on the channel.
+	     BANS     チャンネルのbanエントリを全てのクリアする。
+#	     EXCEPTS  Clears all excepts on the channel.
+	     EXCEPTS  チャンネルの例外エントリを全てクリアする。
+#	     INVITES  Clears all invites on the channel.
+	     INVITES  チャンネルの招待エントリを全てクリアする。
+#	     OPS      Removes channel-operator status (mode +o) from
+#	                  all channel operators.
+	     OPS      チャンネルオペレータ(+o)全員からオペレータ権を剥奪する。
+#	     HOPS     Removes channel-halfoperator status (mode +h) from
+#	                  all channel halfoperators, if supported.
+	     HOPS     channel-halfoperator(+h)全員からこの権利を剥奪する。
+	                  ただしサポートされている場合に限る。
+#	     VOICES   Removes "voice" status (mode +v) from anyone
+#	                  with that mode set.
+	     VOICES   発言権(+v)を持つユーザ全員から発言権を剥奪する。
+#	     USERS    Removes (kicks) all users from the channel.
+	     USERS    チャンネルにいるユーザ全員をキックする。
 	
-	By default, limited to those with founder access on the
-	channel.
+#	By default, limited to those with founder access on the
+#	channel.
+	このコマンドはチャンネルにいる創始者だけに使用が制限
+	されています。
 	
 CHAN_HELP_GETKEY
 #	Syntax: GETKEY channel
