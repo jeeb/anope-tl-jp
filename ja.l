@@ -7263,10 +7263,13 @@ CHAN_HELP_INVITE
 #	Syntax: INVITE channel
 	構文: INVITE channel
 	
-	Tells %S to invite you into the given channel.  
+#	Tells %S to invite you into the given channel.  
+	与えられたチャンネルに自分を招待する。
 	
-	By default, limited to AOPs or those with level 5 and above
-	on the channel.
+#	By default, limited to AOPs or those with level 5 and above
+#	on the channel.
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
+	レベルを持っているユーザだけに使用が制限されています。
 
 CHAN_HELP_UNBAN
 #	Syntax: UNBAN channel
