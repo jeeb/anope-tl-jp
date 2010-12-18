@@ -7538,11 +7538,16 @@ CHAN_SERVADMIN_HELP_SUSPEND
 #	Syntax: SUSPEND channel [reason]
 	構文: SUSPEND channel [reason]
 	
-	Disallows anyone from registering or using the given
-	channel.  May be cancelled by using the UNSUSPEND
-	command to preserve all previous channel data/settings.
+#	Disallows anyone from registering or using the given
+#	channel.  May be cancelled by using the UNSUSPEND
+#	command to preserve all previous channel data/settings.
+	与えられたチャンネル名を登録することと、
+	これを使用することを禁止する。UNSUSPENDコマンドを
+	使用することで、チャンネルデータと設定を保存したままで
+	キャンセルすることが出来る。
 	
-	Reason may be required on certain networks.
+#	Reason may be required on certain networks.
+	一部のネットワークでは理由を書くことが必須です。
 
 CHAN_SERVADMIN_HELP_UNSUSPEND
 #	Syntax: UNSUSPEND channel
