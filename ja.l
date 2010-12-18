@@ -7172,14 +7172,22 @@ CHAN_HELP_DEHALFOP
 #	Syntax: DEHALFOP [#channel [nick]]
 	構文: DEHALFOP [#channel [nick]]
 	
-	Dehalfops a selected nick on a channel. If nick is not given,
-	it will dehalfop you. If channel and nick are not given,
-	it will dehalfop you on all channels you're on, provided you
-	have the rights to.
+#	Dehalfops a selected nick on a channel. If nick is not given,
+#	it will dehalfop you. If channel and nick are not given,
+#	it will dehalfop you on all channels you're on, provided you
+#	have the rights to.
+	与えられたチャンネルにいるニックネームから Halfops 権を剥奪する。
+	ニックネームが与えられなかった場合、自分自身から halfops 権
+	を剥奪する。チャンネル名とニックネームが与えられなかった場合、
+	joinしている全てのチャンネルの自分から halfops 権を剥奪する。
+	ただし、halfops 権を剥奪できる権利がある場合に限られます。
 	
-	By default, limited to AOPs and those with level 5 access 
-	and above on the channel, or to HOPs or those with level 4 
-	and above for self dehalfopping.
+#	By default, limited to AOPs and those with level 5 access 
+#	and above on the channel, or to HOPs or those with level 4 
+#	and above for self dehalfopping.
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
+	レベルを持っているユーザか、HOPでレベル4以上のアクセスレベル
+	を持っているユーザだけに使用が制限されています。
 	
 CHAN_HELP_PROTECT
 #	Syntax: PROTECT [#channel [nick]]
