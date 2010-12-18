@@ -7426,16 +7426,27 @@ CHAN_SERVADMIN_HELP_LOGOUT
 #	Syntax: LOGOUT channel [nickname]
 	構文: LOGOUT channel [nickname]
 	
-	This command will log the selected nickname out meaning they 
-	would have to reidentify themselves to regain their access.
+#	This command will log the selected nickname out meaning they 
+#	would have to reidentify themselves to regain their access.
+	このコマンドは与えられたニックネームをログアウトさせます。
+	つまり、ログアウトさせられたユーザが再度アクセスするためには
+	認証が必要になります。
 	
-	If you are the founder of the channel, you can log out anybody,
-	else you can only log out yourself.
+#	If you are the founder of the channel, you can log out anybody,
+#	else you can only log out yourself.
+	もしあなたがチャンネル創始者だった場合は、自分のチャンネル
+	にいるユーザであれば誰でも強制ログアウトさせることが出来ます。
+	そうでない場合は、強制ログアウトさせることが出来るのは自分だけです。
 	
-	If you are a Services admin, you can log out 
-	anybody of any channel without having to be the founder
-	of the channel. Also, you can omit the nickname parameter;
-	this will log out all identified users from the channel.
+#	If you are a Services admin, you can log out 
+#	anybody of any channel without having to be the founder
+#	of the channel. Also, you can omit the nickname parameter;
+#	this will log out all identified users from the channel.
+	もしあなたがサービス管理者だった場合は、チャンネル創始者
+	の権限を持っていなくてもどのチャンネルにいるどのユーザでも
+	強制ログアウトさせることが出来ます。また、ニックネーム
+	パラメータを省略することで、チャンネルにいる認証済み
+	ユーザを全員強制ログアウトさせることが出来ます。
 
 CHAN_SERVADMIN_HELP_DROP
 #	Syntax: DROP channel
