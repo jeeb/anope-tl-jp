@@ -7479,7 +7479,9 @@ CHAN_SERVADMIN_HELP_SET_NOEXPIRE
 
 CHAN_SERVADMIN_HELP_INFO
 	
-	Services admins can use the ALL parameter with any channel.
+#	Services admins can use the ALL parameter with any channel.
+	サービス管理者はどんなチャンネルに対しても
+	ALLパラメータを使うことが出来ます。
 
 CHAN_SERVADMIN_HELP_LIST
 #	Syntax: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
