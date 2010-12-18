@@ -7060,7 +7060,7 @@ CHAN_HELP_LIST
 #	(Channels with the PRIVATE option set are not listed.)
 #	Note that a preceding '#' specifies a range, channel names
 #	are to be written without '#'.
-	与えられたパターンにマッチする登録済みチャンネルをリスト
+	与えられたパターンにマッチする全ての登録済みチャンネルをリスト
 	する。(PRIVATE オプションが有効になっているチャンネルは
 	リストされません。) #から始まるとそれは範囲を意味します。
 	チャンネル名に#をつける必要はありません。
@@ -7487,25 +7487,39 @@ CHAN_SERVADMIN_HELP_LIST
 #	Syntax: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
 	構文: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE]
 	
-	Lists all registered channels matching the given pattern.
-	Channels with the PRIVATE option set will only be displayed
-	to Services admins. Channels with the NOEXPIRE option set 
-	will have a ! appended to the channel name for Services admins.
+#	Lists all registered channels matching the given pattern.
+#	Channels with the PRIVATE option set will only be displayed
+#	to Services admins. Channels with the NOEXPIRE option set 
+#	will have a ! appended to the channel name for Services admins.
+	与えられたパターンにマッチする全ての登録済みチャンネルをリスト
+	する。PRIVATE オプションが有効になっているチャンネルは
+	サービス管理者に対してのみリストされます。NOEXPIRE オプション
+	が有効になっているチャンネルは!がチャンネル名に付加され、
+	サービス管理者に対してのみリストされます。
 	
-	If the FORBIDDEN, SUSPENDED or NOEXPIRE options are given, only 
-	channels which, respectively, are FORBIDden, SUSPENDed or have 
-	the NOEXPIRE flag set will be displayed.  If multiple options are 
-	given, more types of channels will be displayed. These options are 
-	limited to Services admins.
+#	If the FORBIDDEN, SUSPENDED or NOEXPIRE options are given, only 
+#	channels which, respectively, are FORBIDden, SUSPENDed or have 
+#	the NOEXPIRE flag set will be displayed.  If multiple options are 
+#	given, more types of channels will be displayed. These options are 
+#	limited to Services admins.
+	FORBIDDEN、SUSPENDED、NOEXPIREオプションが与えられた場合、
+	それぞれのオプションが有効化されているチャンネルだけが表示されます。
+	複数のオプションが与えられた場合、それぞれにマッチする
+	チャンネルが表示されます。これらのオプションが使えるのは
+	サービス管理者だけに制限されています。
 
 CHAN_SERVADMIN_HELP_GETPASS
 #	Syntax: GETPASS channel
 	構文: GETPASS channel
 	
-	Returns the password for the given channel.  Note that
-	whenever this command is used, a message including the
-	person who issued the command and the channel it was used
-	on will be logged and sent out as a WALLOPS/GLOBOPS.
+#	Returns the password for the given channel.  Note that
+#	whenever this command is used, a message including the
+#	person who issued the command and the channel it was used
+#	on will be logged and sent out as a WALLOPS/GLOBOPS.
+	与えられたチャンネルのパスワードを返します。注意する点
+	は、このコマンドが使用された場合、コマンドを発行したユーザと
+	チャンネル名が記録され、WALLOPSかGLOBOPSとして送信
+	されます。
 
 CHAN_SERVADMIN_HELP_FORBID
 #	Syntax: FORBID channel [reason]
