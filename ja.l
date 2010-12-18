@@ -7231,11 +7231,17 @@ CHAN_HELP_OWNER
 #	Syntax: OWNER [#channel]
 	構文: OWNER [#channel]
 	
-	Gives you owner status on channel. If channel is not 
-	given, it will give you owner status on all channels you're 
-	on, provided you have the rights to.
+#	Gives you owner status on channel. If channel is not 
+#	given, it will give you owner status on all channels you're 
+#	on, provided you have the rights to.
+	与えられたchannelの所有権を自分に付加する。
+	チャンネル名が与えられなかった場合、
+	joinしている全てのチャンネルの自分自身に所有権を付加する。
+	ただし、所有権を付加できる権利がある場合に限られます。
 	
-	Limited to those with founder access on the channel.
+#	Limited to those with founder access on the channel.
+	このコマンドはチャンネルにいる創始者だけに使用が制限
+	されています。
 
 CHAN_HELP_DEOWNER
 #	Syntax: DEOWNER [#channel]
