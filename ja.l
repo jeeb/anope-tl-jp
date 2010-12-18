@@ -7459,10 +7459,14 @@ CHAN_SERVADMIN_HELP_DROP
 
 CHAN_SERVADMIN_HELP_SET
 	
-	Services admins can also set the option NOEXPIRE, with
-	which channels can be prevented from expiring.
-	Additionally, Services admins can set options for any
-	channel without identifying by password for the channel.
+#	Services admins can also set the option NOEXPIRE, with
+#	which channels can be prevented from expiring.
+#	Additionally, Services admins can set options for any
+#	channel without identifying by password for the channel.
+	サービス管理者はNOEXPIREオプションをセットすることが出来ます。
+	これがセットされたチャンネルは登録を抹消できなくなります。
+	加えて、サービス管理者はチャンネルパスワードによる
+	認証無しにチャンネルオプションを設定することが出来ます。
 
 CHAN_SERVADMIN_HELP_SET_NOEXPIRE
 #	Syntax: SET channel NOEXPIRE {ON | OFF}
