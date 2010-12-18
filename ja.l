@@ -7472,8 +7472,10 @@ CHAN_SERVADMIN_HELP_SET_NOEXPIRE
 #	Syntax: SET channel NOEXPIRE {ON | OFF}
 	構文: SET channel NOEXPIRE {ON | OFF}
 	
-	Sets whether the given channel will expire.  Setting this
-	to ON prevents the channel from expiring.
+#	Sets whether the given channel will expire.  Setting this
+#	to ON prevents the channel from expiring.
+	与えられたチャンネルの登録を抹消するかどうか設定する。
+	ONの場合はチャンネル登録を抹消できなくなります。
 
 CHAN_SERVADMIN_HELP_INFO
 	
