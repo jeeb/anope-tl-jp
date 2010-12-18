@@ -26,16 +26,25 @@ Resolving deltas: 100% (605/605), done.
 $ cd anope-tl-jp/
 $ git pull
 Enter passphrase for key '/******************************/************':
-Already up-to-date.
-$ vi trans_kakunin.txt
-$echou git commit -a -m "テスト"
-Created commit 523b370: テスト
- 1 files changed, 2 insertions(+), 0 deletions(-)
+remote: Counting objects: 8, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 2), reused 0 (delta 0)
+Unpacking objects: 100% (5/5), done.
+From git@github.com:jeeb/anope-tl-jp
+   523b370..5980f87  master     -> origin/master
+Updating 523b370..5980f87
+Fast forward
+ README |   29 +++++++++++++++++++++++++++++
+ 1 files changed, 29 insertions(+), 0 deletions(-)
+$ echo "test" >> trans_kakunin.txt
+$ git commit -a -m "再テスト"
+Created commit 9bb9d97: 再テスト
+ 1 files changed, 1 insertions(+), 0 deletions(-)
 $ git push
 Enter passphrase for key '/******************************/************':
 Counting objects: 5, done.
 Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 277 bytes, done.
+Writing objects: 100% (3/3), 283 bytes, done.
 Total 3 (delta 2), reused 0 (delta 0)
 To git@github.com:jeeb/anope-tl-jp.git
-   c64c6f6..523b370  master -> master
+   5980f87..9bb9d97  master -> master
