@@ -10,3 +10,32 @@ git commit -a -m "何がどう変わったかの説明"
 git push origin master
 
 これでコミットが作成されます＋プッシュでデータが送信されます。
+
+
+1. 自分の ssh 公開鍵をレポジトリに登録しているユーザが
+   git@github.com:jeeb/anope-tl-jp.gitに直接pushする場合。
+
+$ git clone git@github.com:jeeb/anope-tl-jp.git
+Initialized empty Git repository in /***********************************/anope-tl-jp/.git/
+Enter passphrase for key '/******************************/************':
+remote: Counting objects: 968, done.
+remote: Compressing objects: 100% (412/412), done.
+remote: Total 968 (delta 605), reused 889 (delta 554)
+Receiving objects: 100% (968/968), 439.81 KiB | 342 KiB/s, done.
+Resolving deltas: 100% (605/605), done.
+$ cd anope-tl-jp/
+$ git pull
+Enter passphrase for key '/******************************/************':
+Already up-to-date.
+$ vi trans_kakunin.txt
+$echou git commit -a -m "テスト"
+Created commit 523b370: テスト
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+$ git push
+Enter passphrase for key '/******************************/************':
+Counting objects: 5, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 277 bytes, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To git@github.com:jeeb/anope-tl-jp.git
+   c64c6f6..523b370  master -> master
