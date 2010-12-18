@@ -7247,11 +7247,17 @@ CHAN_HELP_DEOWNER
 #	Syntax: DEOWNER [#channel]
 	構文: DEOWNER [#channel]
 	
-	Removes your owner status on channel. If channel is 
-	not given, it will remove your owner status on all channels 
-	you're on, provided you have the rights to.
+#	Removes your owner status on channel. If channel is 
+#	not given, it will remove your owner status on all channels 
+#	you're on, provided you have the rights to.
+	与えられたchannelの所有権を自分から剥奪する。
+	チャンネル名が与えられなかった場合、
+	joinしている全てのチャンネルの自分自身から所有権を剥奪する。
+	ただし、所有権を剥奪できる権利がある場合に限られます。
 	
-	Limited to those with founder access on the channel.
+#	Limited to those with founder access on the channel.
+	このコマンドはチャンネルにいる創始者だけに使用が制限
+	されています。
 
 CHAN_HELP_INVITE
 #	Syntax: INVITE channel
