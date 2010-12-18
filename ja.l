@@ -7275,11 +7275,15 @@ CHAN_HELP_UNBAN
 #	Syntax: UNBAN channel
 	構文: UNBAN channel
 	
-	Tells %S to remove all bans preventing you from
-	entering the given channel.  
+#	Tells %S to remove all bans preventing you from
+#	entering the given channel.  
+	与えられたチャンネルにあなたが入ることを妨げる
+	全てのbanを削除します。
 	
-	By default, limited to AOPs or those with level 5 and above
-	on the channel.
+#	By default, limited to AOPs or those with level 5 and above
+#	on the channel.
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
+	レベルを持っているユーザだけに使用が制限されています。
 	
 CHAN_HELP_KICK
 #	Syntax: KICK [#channel [nick [reason]]]
