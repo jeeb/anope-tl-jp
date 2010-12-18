@@ -7400,13 +7400,19 @@ CHAN_HELP_SENDPASS
 #	Syntax: SENDPASS channel
 	構文: SENDPASS channel
 	
-	Send the password of the given channel to the e-mail address
-	set in the founder's nickname record. This command is really 
-	useful to deal with lost passwords.
+#	Send the password of the given channel to the e-mail address
+#	set in the founder's nickname record. This command is really 
+#	useful to deal with lost passwords.
+	与えられたチャンネルのパスワードを創始者のニックネームレコード
+	に登録された電子メールアドレス宛に送信します。このコマンドは
+	パスワードを紛失したときに役に立ちます。
 	
-	May be limited to IRC operators on certain networks.
+#	May be limited to IRC operators on certain networks.
+	一部のネットワークでは、このコマンドを使用できるのは、
+	IRCオペレータだけに制限されています。
 	
-	This command is unavailable when encryption is enabled.
+#	This command is unavailable when encryption is enabled.
+	このコマンドは暗号化が有効な場合には使用できません。
 
 CHAN_SERVADMIN_HELP
 	 
