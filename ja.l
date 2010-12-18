@@ -7327,14 +7327,21 @@ CHAN_HELP_TOPIC
 #	Syntax: TOPIC channel [topic]
 	構文: TOPIC channel [topic]
 	
-	Causes %S to set the channel topic to the one
-	specified. If topic is not given, then an empty topic
-	is set. This command is most useful in conjunction
-	with SET TOPICLOCK. See %R%S HELP SET TOPICLOCK
-	for more information.
-	
-	By default, limited to those with founder access on the
-	channel. 
+#	Causes %S to set the channel topic to the one
+#	specified. If topic is not given, then an empty topic
+#	is set. This command is most useful in conjunction
+#	with SET TOPICLOCK. See %R%S HELP SET TOPICLOCK
+#	for more information.
+	チャンネルトピックを与えられたものに変更します。
+	topic が与えられなかった場合、空のトピックになります。
+	このコマンドは、SET TOPICLOCK と組み合わせて使うと
+	便利です。より詳しい情報は %R%S HELP SET TOPICLOCK
+	を参照してください。
+
+#	By default, limited to those with founder access on the
+#	channel. 
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
+	レベルを持っているユーザだけに使用が制限されています。
 
 CHAN_HELP_CLEAR
 #	Syntax: CLEAR channel what
