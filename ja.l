@@ -7452,8 +7452,10 @@ CHAN_SERVADMIN_HELP_DROP
 #	Syntax: DROP channel
 	構文: DROP channel
 	
-	Unregisters the named channel.  Only Services admins
-	can drop a channel for which they have not identified.
+#	Unregisters the named channel.  Only Services admins
+#	can drop a channel for which they have not identified.
+	チャンネルの登録を無効化する。認証済みでないユーザが
+	これをするには サービス管理者 である必要があります。
 
 CHAN_SERVADMIN_HELP_SET
 	
