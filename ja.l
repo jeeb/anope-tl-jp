@@ -7193,13 +7193,20 @@ CHAN_HELP_PROTECT
 #	Syntax: PROTECT [#channel [nick]]
 	構文: PROTECT [#channel [nick]]
 	
-	Protects a selected nick on a channel. If nick is not given,
-	it will protect you. If channel and nick are not given,
-	it will protect you on all channels you're on, provided you
-	have the rights to.
+#	Protects a selected nick on a channel. If nick is not given,
+#	it will protect you. If channel and nick are not given,
+#	it will protect you on all channels you're on, provided you
+#	have the rights to.
+	与えられたチャンネルにいるニックネームを保護する。
+	ニックネームが与えられなかった場合、自分自身を保護する。
+	チャンネル名とニックネームが与えられなかった場合、
+	joinしている全てのチャンネルの自分を保護する。
+	ただし、保護できる権利がある場合に限られます。
 	
-	By default, limited to the founder, or to SOPs or those with 
-	level 10 and above on the channel for self protecting.
+#	By default, limited to the founder, or to SOPs or those with 
+#	level 10 and above on the channel for self protecting.
+	初期状態では、このコマンドは創始者か、 SOP でレベル10以上の
+	アクセスレベルを持っているユーザだけに使用が制限されています。
 
 CHAN_HELP_DEPROTECT
 #	Syntax: DEPROTECT [#channel [nick]]
