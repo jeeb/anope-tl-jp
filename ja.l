@@ -7562,12 +7562,15 @@ CHAN_SERVADMIN_HELP_STATUS
 #	Syntax: STATUS channel nickname
 	構文: STATUS channel nickname
 	
-	Returns the current access level of the given nick on the
-	given channel.  The reply is of the form:
+#	Returns the current access level of the given nick on the
+#	given channel.  The reply is of the form:
+	与えられたチャンネルにいるニックネームの現在の
+	アクセスレベルを返す。応答は以下のフォーマットに従う。
 	
 	    STATUS channel nickname access-level
 	
-	If an error occurs, the reply will be in the form:
+#	If an error occurs, the reply will be in the form:
+	エラーが起きた場合、以下のフォーマットが返される。
 	
 	    STATUS ERROR error-message
 
