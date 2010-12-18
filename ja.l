@@ -7151,14 +7151,22 @@ CHAN_HELP_HALFOP
 #	Syntax: HALFOP [#channel [nick]]
 	構文: HALFOP [#channel [nick]]
 	
-	Halfops a selected nick on a channel. If nick is not given,
-	it will halfop you. If channel and nick are not given,
-	it will halfop you on all channels you're on, provided you
-	have the rights to.
+#	Halfops a selected nick on a channel. If nick is not given,
+#	it will halfop you. If channel and nick are not given,
+#	it will halfop you on all channels you're on, provided you
+#	have the rights to.
+	与えられたチャンネルにいるニックネームに Halfops 権を付与する。
+	ニックネームが与えられなかった場合、自分自身に halfops 権
+	を付与する。チャンネル名とニックネームが与えられなかった場合、
+	joinしている全てのチャンネルの自分に halfops 権を付与する。
+	ただし、halfops 権を付与できる権利がある場合に限られます。
 	
-	By default, limited to AOPs and those with level 5 access 
-	and above on the channel, or to HOPs or those with level 4 
-	and above for self halfopping.
+#	By default, limited to AOPs and those with level 5 access 
+#	and above on the channel, or to HOPs or those with level 4 
+#	and above for self halfopping.
+	初期状態では、このコマンドは AOP でレベル5以上のアクセス
+	レベルを持っているユーザか、HOPでレベル4以上のアクセスレベル
+	を持っているユーザだけに使用が制限されています。
 
 CHAN_HELP_DEHALFOP
 #	Syntax: DEHALFOP [#channel [nick]]
