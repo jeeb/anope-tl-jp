@@ -1157,7 +1157,7 @@ NICK_NO_RECOVER_SELF
 NICK_RECOVERED
 #	User claiming your nick has been killed.
 #	%R%s RELEASE %s to get it back before %s timeout.
-	あなたのニックネームを要求したユーザが kill されました。
+	あなたのニックネームを要求したユーザーが kill されました。
 	ニックネームを回復するには %R%s RELEASE %s 
 	のように入力してください(%s がタイムアウトする前に)。.
 
@@ -1395,7 +1395,7 @@ CHAN_LEVEL_GETKEY
 	GETKEY コマンドを使えます。
 CHAN_LEVEL_OPDEOPME
 #	Allowed to (de)op him/herself
-	自分自身にオペレータ権限を付与、剥奪することができます。
+	自分自身にオペレーター権限を付与、剥奪することができます。
 CHAN_LEVEL_HALFOPME
 #	Allowed to (de)halfop him/herself
 	自分自身に halfop 権限を付与、剥奪することができます。
@@ -1471,7 +1471,7 @@ CHAN_ALREADY_REGISTERED
 	チャンネル %s は登録済みです！
 CHAN_MUST_BE_CHANOP
 #	You must be a channel operator to register the channel.
-	チャンネルを登録するにはオペレータ権限が必要です。
+	チャンネルを登録するにはオペレーター権限が必要です。
 CHAN_REACHED_CHANNEL_LIMIT
 #	Sorry, you have already reached your limit of %d channels.
 	ご迷惑をおかけして申し訳ありません。join 中のチャンネル数が %d に達したため、これ以上 join できません。
@@ -1513,13 +1513,13 @@ CHAN_LOGOUT_SERVADMIN_SYNTAX
 	LOGOUT channel [nickname]
 CHAN_LOGOUT_SUCCEEDED
 #	User %s has been logged out of channel %s.
-	 ユーザ %s がチャンネル %s からログアウトしました。
+	 ユーザー %s がチャンネル %s からログアウトしました。
 CHAN_LOGOUT_ALL_SUCCEEDED
 #	All users identified have been logged out of channel %s (except the channel founder).
-	チャンネルを作ったユーザを除く指定されたユーザ全員がチャンネル %s からログアウトしました。
+	チャンネルを作ったユーザーを除く指定されたユーザー全員がチャンネル %s からログアウトしました。
 CHAN_LOGOUT_FOUNDER_FAILED
 #	You may not log out of %s (you are founder).
-	あなたはチャンネルを作ったユーザなので %s からログアウトすることはできません。
+	あなたはチャンネルを作ったユーザーなので %s からログアウトすることはできません。
 
 # DROP responses
 CHAN_DROP_SYNTAX
@@ -1595,10 +1595,10 @@ CHAN_EMAIL_UNSET
 # SET ENTRYMSG responses
 CHAN_ENTRY_MSG_CHANGED
 #	Entry message for %s changed.
-	チャンネル %s のエントリーメッセージを変更しました。
+	チャンネル %s のエントリメッセージを変更しました。
 CHAN_ENTRY_MSG_UNSET
 #	Entry message for %s unset.
-	チャンネル %s のエントリーメッセージを未設定に戻しました。
+	チャンネル %s のエントリメッセージを未設定に戻しました。
 	
 # SET BANTYPE responses
 CHAN_SET_BANTYPE_INVALID
@@ -1675,10 +1675,10 @@ CHAN_SET_SECUREOPS_SYNTAX
 	SET チャンネル名 SECUREOPS {ON | OFF}
 CHAN_SET_SECUREOPS_ON
 #	Secure ops option for %s is now ON.
-	チャンネル %s の安全オペレータオプションは ON です。
+	チャンネル %s の安全オペレーターオプションは ON です。
 CHAN_SET_SECUREOPS_OFF
 #	Secure ops option for %s is now OFF.
-	チャンネル %s の安全オペレータオプションは OFF です。
+	チャンネル %s の安全オペレーターオプションは OFF です。
 
 # SET SECUREFOUNDER responses
 CHAN_SET_SECUREFOUNDER_SYNTAX
@@ -1724,7 +1724,7 @@ CHAN_SET_SIGNKICK_LEVEL
 #	Signed kick option for %s is now ON, but depends of the
 #	level of the user that is using the command.
 	チャンネル %s の Signed kick オプションは ON ですが、
-	レベルはコマンドを発行したユーザの設定に依存します。
+	レベルはコマンドを発行したユーザーの設定に依存します。
 CHAN_SET_SIGNKICK_OFF
 #	Signed kick option for %s is now OFF.
 	チャンネル %s の Signed kick オプションは OFF です。
@@ -1757,15 +1757,15 @@ CHAN_SET_NOEXPIRE_SYNTAX
 	SET チャンネル名 NOEXPIRE {ON | OFF}
 CHAN_SET_NOEXPIRE_ON
 #	Channel %s will not expire.
-	チャンネル %s はユーザがいなくなってもなくなりません。
+	チャンネル %s はユーザーがいなくなってもなくなりません。
 CHAN_SET_NOEXPIRE_OFF
 #	Channel %s will expire.
-	チャンネル %s はユーザがいなくなったら なくなります。
+	チャンネル %s はユーザーがいなくなったら なくなります。
 
 # xOP messages
 CHAN_XOP_REACHED_LIMIT
 #	Sorry, you can only have %d AOP/SOP/VOP entries on a channel.
-	%d AOP/SOP/VOP エントリーより多くは登録出来ません。
+	%d AOP/SOP/VOP エントリより多くは登録出来ません。
 CHAN_XOP_LIST_FORMAT
 	  %3d  %s
 CHAN_XOP_ACCESS
@@ -1780,7 +1780,7 @@ CHAN_XOP_NOT_AVAILABLE
 # AOP messages
 CHAN_AOP_SYNTAX
 #	AOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
-	AOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリー番号]
+	AOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリ番号]
 CHAN_AOP_DISABLED
 #	Sorry, channel AOP list modification is temporarily disabled.
 	チャンネルの AOP リストの変更は一時的に禁止されています。
@@ -1795,22 +1795,22 @@ CHAN_AOP_MOVED
 	チャンネル %s の AOP リストに%s を移動しました。
 CHAN_AOP_NO_SUCH_ENTRY
 #	No such entry (#%d) on %s AOP list.
-	チャンネル %s の AOP リストにエントリー(#%d) は見つかりません。
+	チャンネル %s の AOP リストにエントリ(#%d) は見つかりません。
 CHAN_AOP_NOT_FOUND
 #	%s not found on %s AOP list.
 	チャンネル %s の AOP リストに %s は見つかりません。
 CHAN_AOP_NO_MATCH
 #	No matching entries on %s AOP list.
-	チャンネル %s の AOP リストにマッチするエントリーがありません。
+	チャンネル %s の AOP リストにマッチするエントリがありません。
 CHAN_AOP_DELETED
 #	%s deleted from %s AOP list.
 	チャンネル %s の AOP リストから %s を削除しました。
 CHAN_AOP_DELETED_ONE
 #	Deleted 1 entry from %s AOP list.
-	チャンネル %s の AOP リストからエントリーを 1 個削除しました。
+	チャンネル %s の AOP リストからエントリを 1 個削除しました。
 CHAN_AOP_DELETED_SEVERAL
 #	Deleted %d entries from %s AOP list.
-	チャンネル %s の AOP リストからエントリーを %d 個削除しました。
+	チャンネル %s の AOP リストからエントリを %d 個削除しました。
 CHAN_AOP_LIST_EMPTY
 #	%s AOP list is empty.
 	チャンネル %s の AOP リストは空です。
@@ -1826,7 +1826,7 @@ CHAN_AOP_CLEAR
 # HOP messages
 CHAN_HOP_SYNTAX
 #	HOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
-	HOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリー番号]
+	HOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリ番号]
 CHAN_HOP_DISABLED
 #	Sorry, channel HOP list modification is temporarily disabled.
 	チャンネルの HOP リストの変更は一時的に禁止されています。
@@ -1841,22 +1841,22 @@ CHAN_HOP_MOVED
 	チャンネル %s の HOP リストに%s を移動しました。
 CHAN_HOP_NO_SUCH_ENTRY
 #	No such entry (#%d) on %s HOP list.
-	チャンネル %s の HOP リストにエントリー(#%d) は見つかりません。
+	チャンネル %s の HOP リストにエントリ(#%d) は見つかりません。
 CHAN_HOP_NOT_FOUND
 #	%s not found on %s HOP list.
 	チャンネル %s の HOP リストに %s は見つかりません。
 CHAN_HOP_NO_MATCH
 #	No matching entries on %s HOP list.
-	チャンネル %s の HOP リストにマッチするエントリーがありません。
+	チャンネル %s の HOP リストにマッチするエントリがありません。
 CHAN_HOP_DELETED
 #	%s deleted from %s HOP list.
 	チャンネル %s の HOP リストから %s を削除しました。
 CHAN_HOP_DELETED_ONE
 #	Deleted 1 entry from %s HOP list.
-	チャンネル %s の HOP リストからエントリーを 1 個削除しました。
+	チャンネル %s の HOP リストからエントリを 1 個削除しました。
 CHAN_HOP_DELETED_SEVERAL
 #	Deleted %d entries from %s HOP list.
-	チャンネル %s の HOP リストからエントリーを %d 個削除しました。
+	チャンネル %s の HOP リストからエントリを %d 個削除しました。
 CHAN_HOP_LIST_EMPTY
 #	%s HOP list is empty.
 	チャンネル %s の HOP リストは空です。
@@ -1872,7 +1872,7 @@ CHAN_HOP_CLEAR
 # SOP messages
 CHAN_SOP_SYNTAX
 #	SOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
-	SOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリー番号]
+	SOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリ番号]
 CHAN_SOP_DISABLED
 #	Sorry, channel SOP list modification is temporarily disabled.
 	チャンネルの SOP リストの変更は一時的に禁止されています。
@@ -1887,22 +1887,22 @@ CHAN_SOP_MOVED
 	チャンネル %s の SOP リストに%s を移動しました。
 CHAN_SOP_NO_SUCH_ENTRY
 #	No such entry (#%d) on %s SOP list.
-	チャンネル %s の SOP リストにエントリー(#%d) は見つかりません。
+	チャンネル %s の SOP リストにエントリ(#%d) は見つかりません。
 CHAN_SOP_NOT_FOUND
 #	%s not found on %s SOP list.
 	チャンネル %s の SOP リストに %s は見つかりません。
 CHAN_SOP_NO_MATCH
 #	No matching entries on %s SOP list.
-	チャンネル %s の SOP リストにマッチするエントリーがありません。
+	チャンネル %s の SOP リストにマッチするエントリがありません。
 CHAN_SOP_DELETED
 #	%s deleted from %s SOP list.
 	チャンネル %s の SOP リストから %s を削除しました。
 CHAN_SOP_DELETED_ONE
 #	Deleted 1 entry from %s SOP list.
-	チャンネル %s の SOP リストからエントリーを 1 個削除しました。
+	チャンネル %s の SOP リストからエントリを 1 個削除しました。
 CHAN_SOP_DELETED_SEVERAL
 #	Deleted %d entries from %s SOP list.
-	チャンネル %s の SOP リストからエントリーを %d 個削除しました。
+	チャンネル %s の SOP リストからエントリを %d 個削除しました。
 CHAN_SOP_LIST_EMPTY
 #	%s SOP list is empty.
 	チャンネル %s の SOP リストは空です。
@@ -1918,7 +1918,7 @@ CHAN_SOP_CLEAR
 # VOP messages
 CHAN_VOP_SYNTAX
 #	VOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]
-	VOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリー番号]
+	VOP チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム | エントリ番号]
 CHAN_VOP_DISABLED
 #	Sorry, channel VOP list modification is temporarily disabled.
 	チャンネルの VOP リストの変更は一時的に禁止されています。
@@ -1933,22 +1933,22 @@ CHAN_VOP_MOVED
 	チャンネル %s の VOP リストに%s を移動しました。
 CHAN_VOP_NO_SUCH_ENTRY
 #	No such entry (#%d) on %s VOP list.
-	チャンネル %s の VOP リストにエントリー(#%d) は見つかりません。
+	チャンネル %s の VOP リストにエントリ(#%d) は見つかりません。
 CHAN_VOP_NOT_FOUND
 #	%s not found on %s VOP list.
 	チャンネル %s の VOP リストに %s は見つかりません。
 CHAN_VOP_NO_MATCH
 #	No matching entries on %s VOP list.
-	チャンネル %s の VOP リストにマッチするエントリーがありません。
+	チャンネル %s の VOP リストにマッチするエントリがありません。
 CHAN_VOP_DELETED
 #	%s deleted from %s VOP list.
 	チャンネル %s の VOP リストから %s を削除しました。
 CHAN_VOP_DELETED_ONE
 #	Deleted 1 entry from %s VOP list.
-	チャンネル %s の VOP リストからエントリーを 1 個削除しました。
+	チャンネル %s の VOP リストからエントリを 1 個削除しました。
 CHAN_VOP_DELETED_SEVERAL
 #	Deleted %d entries from %s VOP list.
-	チャンネル %s の VOP リストからエントリーを %d 個削除しました。
+	チャンネル %s の VOP リストからエントリを %d 個削除しました。
 CHAN_VOP_LIST_EMPTY
 #	%s VOP list is empty.
 	チャンネル %s の VOP リストは空です。
@@ -1964,7 +1964,7 @@ CHAN_VOP_CLEAR
 # ACCESS messages
 CHAN_ACCESS_SYNTAX
 #	ACCESS channel {ADD|DEL|LIST|CLEAR} [nick [level] | entry-list]
-	ACCESS チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム [レベル] | エントリー番号]
+	ACCESS チャンネル名 {ADD|DEL|LIST|CLEAR} [ニックネーム [レベル] | エントリ番号]
 CHAN_ACCESS_XOP
 #	You can't use this command. 
 #	Use the AOP, SOP and VOP commands instead.
@@ -1993,7 +1993,7 @@ CHAN_ACCESS_NICKS_ONLY
 	チャンネルのアクセスリストに追加できるニックネームは登録されたものでなければいけません。
 CHAN_ACCESS_REACHED_LIMIT
 #	Sorry, you can only have %d access entries on a channel.
-	チャンネルのアクセスエントリーを %d 個以上変えることは出来ません。
+	チャンネルのアクセスエントリを %d 個以上変えることは出来ません。
 CHAN_ACCESS_LEVEL_UNCHANGED
 #	Access level for %s on %s unchanged from %d.
 	チャンネル %s のアクセスリスト、%s のレベルを %d から変更しませんでした。
@@ -2005,22 +2005,22 @@ CHAN_ACCESS_ADDED
 	チャンネル %s のアクセスリスト、レベル %d に%s を追加しました。
 CHAN_ACCESS_NO_SUCH_ENTRY
 #	No such entry (#%d) on %s access list.
-	チャンネル %s のアクセスリストにエントリー(#%d) は見つかりません。
+	チャンネル %s のアクセスリストにエントリ(#%d) は見つかりません。
 CHAN_ACCESS_NOT_FOUND
 #	%s not found on %s access list.
 	チャンネル %s のアクセスリストに %s は見つかりません。
 CHAN_ACCESS_NO_MATCH
 #	No matching entries on %s access list.
-	チャンネル %s のアクセスリストにマッチするエントリーがありません。
+	チャンネル %s のアクセスリストにマッチするエントリがありません。
 CHAN_ACCESS_DELETED
 #	%s deleted from %s access list.
 	チャンネル %s のアクセスリストから %s を削除しました。
 CHAN_ACCESS_DELETED_ONE
 #	Deleted 1 entry from %s access list.
-	チャンネル %s のアクセスリストからエントリーを 1 個削除しました。
+	チャンネル %s のアクセスリストからエントリを 1 個削除しました。
 CHAN_ACCESS_DELETED_SEVERAL
 #	Deleted %d entries from %s access list.
-	チャンネル %s のアクセスリストからエントリーを %d 個削除しました。
+	チャンネル %s のアクセスリストからエントリを %d 個削除しました。
 CHAN_ACCESS_LIST_EMPTY
 #	%s access list is empty.
 	チャンネル %s のアクセスリストは空です。
@@ -2058,13 +2058,13 @@ CHAN_AKICK_ADDED
 	チャンネル %s の自動キックリストに%s を追加しました。
 CHAN_AKICK_NO_SUCH_ENTRY
 #	No such entry (#%d) on %s autokick list.
-	チャンネル %s の自動キックリストにエントリー(#%d) は見つかりません。
+	チャンネル %s の自動キックリストにエントリ(#%d) は見つかりません。
 CHAN_AKICK_NOT_FOUND
 #	%s not found on %s autokick list.
 	チャンネル %s の自動キックリストに %s は見つかりません。
 CHAN_AKICK_NO_MATCH
 #	No matching entries on %s autokick list.
-	チャンネル %s の自動キックリストにマッチするエントリーがありません。
+	チャンネル %s の自動キックリストにマッチするエントリがありません。
 CHAN_AKICK_STUCK
 #	%s is now always active on channel %s.
 	チャンネル %s の自動キックリスト内の%s に対するキック常に有効です。
@@ -2076,10 +2076,10 @@ CHAN_AKICK_DELETED
 	チャンネル %s の自動キックリストから %s を削除しました。
 CHAN_AKICK_DELETED_ONE
 #	Deleted 1 entry from %s autokick list.
-	チャンネル %s の自動キックリストからエントリーを 1 個削除しました。
+	チャンネル %s の自動キックリストからエントリを 1 個削除しました。
 CHAN_AKICK_DELETED_SEVERAL
 #	Deleted %d entries from %s autokick list.
-	チャンネル %s の自動キックリストからエントリーを %d 個削除しました。
+	チャンネル %s の自動キックリストからエントリを %d 個削除しました。
 CHAN_AKICK_LIST_EMPTY
 #	%s autokick list is empty.
 	チャンネル %s の自動キックリストは空です。
@@ -2096,7 +2096,7 @@ CHAN_AKICK_VIEW_FORMAT_STUCK
 	    %s
 CHAN_AKICK_ENFORCE_DONE
 #	AKICK ENFORCE for %s complete; %d users were affected.
-	%s AKICK ENFORCE コマンド完了; %d 人のユーザに影響が出ました。
+	%s AKICK ENFORCE コマンド完了; %d 人のユーザーに影響が出ました。
 CHAN_AKICK_CLEAR
 #	Channel %s akick list has been cleared.
 	チャンネル %s の自動キックリストは空です。
@@ -2172,7 +2172,7 @@ CHAN_INFO_DESCRIPTION
 	    説明: %s
 CHAN_INFO_ENTRYMSG
 #	  Entry message: %s
-	  エントリーメッセージ: %s
+	  エントリメッセージ: %s
 CHAN_INFO_TIME_REGGED
 #	     Registered: %s
 	     登録済み: %s
@@ -2184,7 +2184,7 @@ CHAN_INFO_LAST_TOPIC
 	     最新のトピック: %s
 CHAN_INFO_TOPIC_SET_BY
 #	   Topic set by: %s
-	   トピックを設定したユーザ: %s
+	   トピックを設定したユーザー: %s
 CHAN_INFO_URL
 	            URL: %s
 CHAN_INFO_EMAIL
@@ -2226,7 +2226,7 @@ CHAN_INFO_EXPIRE
 	      Expires on: %s
 CHAN_INFO_NO_EXPIRE
 #	This channel will not expire.
-	このチャンネルはユーザがいなくなってもなくなりません。
+	このチャンネルはユーザーがいなくなってもなくなりません。
 
 # LIST responses
 CHAN_LIST_SYNTAX
@@ -2240,7 +2240,7 @@ CHAN_LIST_FORMAT
 	    %-20s  %s
 CHAN_LIST_END
 #	End of list - %d/%d matches shown.
-	リストの最後 - %d/%d 個のマッチしたエントリー。
+	リストの最後 - %d/%d 個のマッチしたエントリ。
 	
 # INVITE responses
 CHAN_INVITE_SYNTAX
@@ -2280,7 +2280,7 @@ CHAN_CLEARED_VOICES
 	チャンネル %s のモードから +v を無効化しました。
 CHAN_CLEARED_USERS
 #	All users have been kicked from channel %s.
-	チャンネル %s からすべてのユーザをキックしました。
+	チャンネル %s からすべてのユーザーをキックしました。
 CHAN_CLEARED_INVITES
 #	All invites on channel %s have been removed.
 	チャンネル %s の招聘リストを初期化しました。
@@ -4754,7 +4754,7 @@ NICK_HELP_FOOTER
 #	nicknames or other malicious actions.  Abuse of %S
 #	will result in, at minimum, loss of the abused
 #	nickname(s).
-	注意: このサービスを使うことで、IRCユーザに
+	注意: このサービスを使うことで、IRCユーザーに
 	自分の正体が乗っ取られる可能性を示唆できます。
 	ただし、これはニックネームやそのほかの挙動を盗むことを
 	抑制出来ません。%S を乱用することは少なくとも
@@ -4906,7 +4906,7 @@ NICK_HELP_UPDATE
 #	your userflags (lastseentime, etc).
 	現在の状態を更新します。例えば、新しいメモをチェックしたり、
 	必要なチャンネルモード(ModeonID)の設定を行ったり、仮想ホストや
-	ユーザフラグ(最終更新時間)のアップデートをします。
+	ユーザーフラグ(最終更新時間)のアップデートをします。
 	
 NICK_HELP_LOGOUT
 #	Syntax: LOGOUT
@@ -4917,7 +4917,7 @@ NICK_HELP_LOGOUT
 #	anymore. Note, however, that you won't be asked to reidentify
 #	yourself.
 	IDENTIFY コマンドの影響を逆転します。例えば、
-	自分がニックネームの正統なユーザであることを未証明の状態
+	自分がニックネームの正統なユーザーであることを未証明の状態
 	にします。再度証明するかどうかを尋ねられることは無いという
 	点にに注意してください。
 
@@ -4969,7 +4969,7 @@ NICK_HELP_ACCESS
 #	        Allows access to user anyone from any machine in
 #	        the bepeg.com domain.
 	        bepeg.com ドメインに属するマシンからの
-		ユーザ anyone のアクセスを許可します。
+		ユーザー anyone のアクセスを許可します。
 	
 	    ACCESS DEL anyone@*.bepeg.com
 #	        Reverses the previous command.
@@ -5014,7 +5014,7 @@ NICK_HELP_SET
 #	    MSG        Change the communication method of Services
 	    MSG        サービスとの通信方法を変更
 #	    AUTOOP     Should services op you automatically.    
-	    AUTOOP     自動的にサービスオペレータ権をもらう
+	    AUTOOP     自動的にサービスオペレーター権をもらう
 	
 #	In order to use this command, you must first identify
 #	with your password (%R%S HELP IDENTIFY for more
@@ -5054,7 +5054,7 @@ NICK_HELP_SET_LANGUAGE
 #	you (for example, when responding to a command you send).
 #	number should be chosen from the following list of
 #	supported languages:
-	サーバからのメッセージ表示言語を変更します。(例えば、
+	サーバーからのメッセージ表示言語を変更します。(例えば、
 	あなたからのコマンドのレスポンス等。)number は
 	以下の言語リストから選択してください。
 	
@@ -5113,8 +5113,8 @@ NICK_HELP_SET_KILL
 #	change to another nick, after which %S will forcibly change
 #	their nick.
 	あなたのニックネームに関する自動プロテクトのonとoffを切り替えます。
-	プロテクトがonの状態で、ほかのユーザがあなたのニックネームを
-	使おうとした場合、ほかのユーザは %S がニックネームを強制
+	プロテクトがonの状態で、ほかのユーザーがあなたのニックネームを
+	使おうとした場合、ほかのユーザーは %S がニックネームを強制
 	変更するまでの1分間にニックネームを変更しなければなりません。
 	
 #	If you select QUICK, the user will be given only 20 seconds
@@ -5195,9 +5195,9 @@ NICK_HELP_SET_AUTOOP
 	
 #	Sets whether you will be opped automatically. Set to ON to 
 #	allow ChanServ to op you automatically when entering channels.
-	あなたにオペレータ権を自動的に配布するかどうかを設定します。
+	あなたにオペレーター権を自動的に配布するかどうかを設定します。
 	これがONの場合、ChanServはチャンネルに入った時に自動的に
-	オペレータ権を配布します。
+	オペレーター権を配布します。
 
 NICK_HELP_SASET
 #	Syntax: SASET nickname option parameters.
@@ -5233,7 +5233,7 @@ NICK_HELP_SASET
 #	    NOEXPIRE   Prevent the nickname from expiring
 	    NOEXPIRE   ニックネームの期限切れを無くす
 #	    AUTOOP     Turn autoop on or off
-	    AUTOOP     自動的にサービスオペレータ権をもらう
+	    AUTOOP     自動的にサービスオペレーター権をもらう
 #	    LANGUAGE   Set the language Services will use when
 #	               sending messages to nickname
 	    LANGUAGE   サービスからのメッセージの表示言語の設定
@@ -5300,7 +5300,7 @@ NICK_HELP_SASET_GREET
 #	access on it.
 	ニックネームの挨拶メッセージを設定します。
 	この挨拶メッセージはGREETオプションが有効化されたチャンネル
-	にjoinした際に表示され、ユーザがチャンネルに必要なアクセス
+	にjoinした際に表示され、ユーザーがチャンネルに必要なアクセス
 	をもっている場合に供給されます。
 
 NICK_HELP_SASET_KILL
@@ -5313,8 +5313,8 @@ NICK_HELP_SASET_KILL
 #	change to another nick, after which %S will forcibly change
 #	their nick.
 	ニックネームに関する自動プロテクトのonとoffを切り替えます。
-	プロテクトがonの状態で、ほかのユーザがこのニックネームを
-	使おうとした場合、ほかのユーザは %S がニックネームを強制
+	プロテクトがonの状態で、ほかのユーザーがこのニックネームを
+	使おうとした場合、ほかのユーザーは %S がニックネームを強制
 	変更するまでの1分間にニックネームを変更しなければなりません。
 	
 #	If you select QUICK, the user will be given only 20 seconds
@@ -5341,10 +5341,10 @@ NICK_HELP_SASET_SECURE
 #	KILL option.
 	このニックネームに対する %S の保護機能をonかoffにします。
 	SECURE をON二すると、このニックネームのオーナー認証
-	を行う前に、アクセスリスト上のユーザのアドレスの有無にかかわらず
+	を行う前に、アクセスリスト上のユーザーのアドレスの有無にかかわらず
 	パスワードを入力しなければなりません。ただし、アクセスリスト
-	にユーザのアドレスが有る場合は、 KILL オプションの
-	設定にかかわらず %S はユーザを自動的にKILLすることはありません。
+	にユーザーのアドレスが有る場合は、 KILL オプションの
+	設定にかかわらず %S はユーザーを自動的にKILLすることはありません。
 
 NICK_HELP_SASET_PRIVATE
 #	Syntax: SASET nickname PRIVATE {ON | OFF}
@@ -5386,7 +5386,7 @@ NICK_HELP_SASET_MSG
 #	Allows you to choose the way Services are communicating with 
 #	the given user. With MSG set, Services will use messages,
 #	else they'll use notices.
-	ユーザとサービスとの通信方法を選択できます。MSG がセットされると、
+	ユーザーとサービスとの通信方法を選択できます。MSG がセットされると、
 	サービスは messages を使用しますが、されなければ notices を使います。
 
 NICK_HELP_SASET_NOEXPIRE
@@ -5405,9 +5405,9 @@ NICK_HELP_SASET_AUTOOP
 #	Sets whether the given nickname will be opped automatically.
 #	Set to ON to allow ChanServ to op the given nickname 
 #	automatically when joining channels.
-	ユーザにオペレータ権を自動的に配布するかどうかを設定します。
+	ユーザーにオペレーター権を自動的に配布するかどうかを設定します。
 	これがONの場合、ChanServはチャンネルに入った時に自動的に
-	オペレータ権を配布します。
+	オペレーター権を配布します。
 
 NICK_HELP_SASET_LANGUAGE
 #	Syntax: SASET nickname LANGUAGE number
@@ -5417,7 +5417,7 @@ NICK_HELP_SASET_LANGUAGE
 #	nickname (for example, when responding to a command he sends).
 #	number should be chosen from a list of supported languages
 #	that you can get by typing %R%S HELP SET LANGUAGE.
-	サーバからのメッセージ表示言語を変更します。(例えば、
+	サーバーからのメッセージ表示言語を変更します。(例えば、
 	あなたからのコマンドのレスポンス等。)number は
 	%R%S HELP SET LANGUAGE を入力して得られるリストから
 	選択してください。
@@ -5445,10 +5445,10 @@ NICK_HELP_RECOVER
 #	command (%R%S HELP RELEASE) to get the nick
 #	back sooner.
 	このコマンドを使用すると、%S は保護したいニックネームと同じ
-	ニックネームを使用する仮ユーザをネットワークに参加させます。
-	こうすることで、IRCサーバは他のユーザからの接続を切断できます。
-	%s が他のユーザからの再接続要求が無くなったと判断するまで、
-	仮ユーザのオンライン状態は維持されます。この後に、あなたは
+	ニックネームを使用する仮ユーザーをネットワークに参加させます。
+	こうすることで、IRCサーバーは他のユーザーからの接続を切断できます。
+	%s が他のユーザーからの再接続要求が無くなったと判断するまで、
+	仮ユーザーのオンライン状態は維持されます。この後に、あなたは
 	自分のニックネームを再取得できます。別の方法として、
 	RELEASE コマンド(%R%S HELP RELEASE) を使うことで、
 	ニックネームをすばやく再取得できます。
@@ -5499,10 +5499,10 @@ NICK_HELP_GHOST
 #	goes down while you're on IRC.
 	あなたのニックネームを使用している「ゴースト」IRCセッション
 	を終了します。「ゴースト」セッションとは、実際には接続
-	していませんが、ニックネームを使用するユーザが何らかの
-	理由でまだオンライン状態を保っているとIRCサーバに思わせる
+	していませんが、ニックネームを使用するユーザーが何らかの
+	理由でまだオンライン状態を保っているとIRCサーバーに思わせる
 	セッションのことです。このような状態は、典型的に言って、
-	IRCサーバに接続中に、あなたのコンピュータがクラッシュするか、
+	IRCサーバーに接続中に、あなたのコンピュータがクラッシュするか、
 	インターネットやモデムの接続が切れた場合に起きます。
 	
 #	In order to use the GHOST command for a nick, your
@@ -5528,7 +5528,7 @@ NICK_HELP_INFO
 #	it's hidden or not.
 	与えられたニックネームに関する情報を表示します。
 	ニックネームのオーナー、最後にこのニックネームを使用した
-	ユーザのアドレスと時間、ニックネームオプション。もし
+	ユーザーのアドレスと時間、ニックネームオプション。もし
 	自分自身の情報を表示しようとして、かつ引数にALL
 	が与えられていた場合、隠しているかどうかにかかわらず、
 	すべての情報を表示します。
@@ -5561,7 +5561,7 @@ NICK_HELP_LIST
 	    LIST *!*@*.bar.org
 #	        Lists all nicks owned by users in the bar.org
 #	        domain.
-	        bar.org ドメインに所属するユーザが所有する
+	        bar.org ドメインに所属するユーザーが所有する
 		ニックネームを表示。
 
 NICK_HELP_ALIST
@@ -5614,7 +5614,7 @@ NICK_HELP_STATUS
 #	Returns whether the user using the given nickname is
 #	recognized as the owner of the nickname.  The response has
 #	this format:
-	ニックネームを使用しているユーザがオーナーであるか
+	ニックネームを使用しているユーザーがオーナーであるか
 	確認します。レスポンスフォーマットは以下です。
 	
 	    nickname status-code
@@ -5628,10 +5628,10 @@ NICK_HELP_STATUS
 #	    1 - user not recognized as nickname's owner
 #	    2 - user recognized as owner via access list only
 #	    3 - user recognized as owner via password identification
-	    0 - このニックネームを使用中のユーザがいない、又は ニックネームが登録されていない。
-	    1 - ユーザはニックネームのオーナーであるか確認できない。
-	    2 - アクセスリストでユーザがオーナーであると判断された。
-	    3 - パスワード認証でユーザがオーナーであると判断された。
+	    0 - このニックネームを使用中のユーザーがいない、又は ニックネームが登録されていない。
+	    1 - ユーザーはニックネームのオーナーであるか確認できない。
+	    2 - アクセスリストでユーザーがオーナーであると判断された。
+	    3 - パスワード認証でユーザーがオーナーであると判断された。
 	
 #	Up to sixteen nicknames may be sent with each command; the
 #	rest will be ignored. If no nickname is given, your status
@@ -5652,7 +5652,7 @@ NICK_HELP_SENDPASS
 	判らなくなったパスワードを解決するのに役立ちます。
 	
 #	May be limited to IRC operators on certain networks.
-	一部のネットワークでは、IRC オペレータ だけが
+	一部のネットワークでは、IRC オペレーター だけが
 	このコマンドを使用できます。
 	
 #	This command is unavailable when encryption is enabled.
@@ -5680,7 +5680,7 @@ NICK_HELP_RESEND
 	
 #	This command will re-send the auth code (also called passcode)
 #	to the e-mail address of the user whom is performing it.
-	このコマンドを発行したユーザのメールアドレス宛に、
+	このコマンドを発行したユーザーのメールアドレス宛に、
 	認証コード(パスコード)を再度送信します。
 
 NICK_SERVADMIN_HELP
@@ -5709,7 +5709,7 @@ NICK_SERVADMIN_HELP_LOGOUT
 #	to re-identify. This use limited to Services admins.
 	パラメータ有りの場合、与えられたニックネームに対して同様の
 	操作を行います。REVALIDATE を引数に与えると、サービスは
-	ユーザに再度認証を行うように聞きます。このコマンドを使うのは
+	ユーザーに再度認証を行うように聞きます。このコマンドを使うのは
 	サービス管理者 だけに制限されています。
 
 NICK_SERVADMIN_HELP_DROP
@@ -5827,7 +5827,7 @@ NICK_SERVADMIN_HELP_GETPASS
 #	on will be logged and sent out as a WALLOPS/GLOBOPS.
 	引数で指定されたニックネームのパスワードを返します。
 	注意するべきことは、このコマンドが使用されると、
-	コマンドを発行したユーザと引数のニックネームが記録され、
+	コマンドを発行したユーザーと引数のニックネームが記録され、
 	WALLOPS/GLOBOPS	宛に送信されます。
 	
 #	This command is unavailable when encryption is enabled.
@@ -5844,7 +5844,7 @@ NICK_SERVADMIN_HELP_GETEMAIL
 	引数で指定されたメールアドレスに該当するニックネームを
 	返します。注意することは、userにもemailhostにもワイルドカード
 	は使えないということです。このコマンドが使用されると、
-	コマンドを発行したユーザと引数のメールアドレスが記録されます。
+	コマンドを発行したユーザーと引数のメールアドレスが記録されます。
 
 NICK_SERVADMIN_HELP_FORBID
 #	Syntax: FORBID nickname [reason]
@@ -5895,7 +5895,7 @@ CHAN_HELP_CMD_UNSUSPEND
 CHAN_HELP_CMD_STATUS
 #	    STATUS     Returns the current access level of a user
 #	               on a channel
-	    STATUS     あるチャンネルのにいるあるユーザの
+	    STATUS     あるチャンネルのにいるあるユーザーの
 	               現在のアクセスレベルを表示する。
 CHAN_HELP_CMD_REGISTER
 #	    REGISTER   Register a channel
@@ -5908,13 +5908,13 @@ CHAN_HELP_CMD_SET
 	    SET        チャンネルオプションと情報の設定。
 CHAN_HELP_CMD_AOP
 #	    AOP        Modify the list of AOP users
-	    AOP        AOPユーザのリストを変更する。
+	    AOP        AOPユーザーのリストを変更する。
 CHAN_HELP_CMD_SOP
 #	    SOP        Modify the list of SOP users
-	    SOP        SOPユーザのリストを変更する。
+	    SOP        SOPユーザーのリストを変更する。
 CHAN_HELP_CMD_ACCESS
 #	    ACCESS     Modify the list of privileged users
-	    ACCESS     特権ユーザのリストを変更する。
+	    ACCESS     特権ユーザーのリストを変更する。
 CHAN_HELP_CMD_LEVELS
 #	    LEVELS     Redefine the meanings of access levels
 	    LEVELS     アクセスレベルの定義を変更する。
@@ -5968,7 +5968,7 @@ CHAN_HELP_CMD_VOICE
 	    VOICE      あるチャンネルの指定されたニックネームに発言権を与える。
 CHAN_HELP_CMD_VOP
 #	    VOP        Maintains the VOP (VOicePeople) list for a channel
-	    VOP        あるチャンネルのVOP(発言可能なユーザ)リストを操作する
+	    VOP        あるチャンネルのVOP(発言可能なユーザー)リストを操作する
 CHAN_HELP_CMD_DEHALFOP
 #	    DEHALFOP   Dehalfops a selected nick on a channel
 	    DEHALFOP   あるチャンネルの指定されたニックネームからhalfop権を剥奪する。
@@ -5998,7 +5998,7 @@ CHAN_HELP_CMD_DEADMIN
 	    DEADMIN    あるチャンネルの指定されたニックネームを保護しないようにする。
 CHAN_HELP_CMD_DEOP
 #	    DEOP       Deops a selected nick on a channel
-	    DEOP       あるチャンネルの指定されたニックネームからオペレータ権を剥奪する。
+	    DEOP       あるチャンネルの指定されたニックネームからオペレーター権を剥奪する。
 
 CHAN_HELP
 #	%S allows you to register and control various
@@ -6009,8 +6009,8 @@ CHAN_HELP
 #	%R%S command.  For more information on a
 #	specific command, type %R%S HELP command.
 	%S はチャンネルの登録と設定を可能にします。
-	%S にチャンネルオペレータ特権付加の登録を行うことで、
-	悪意のあるユーザがチャンネルを乗っ取ることを防止します。
+	%S にチャンネルオペレーター特権付加の登録を行うことで、
+	悪意のあるユーザーがチャンネルを乗っ取ることを防止します。
 	使用できるコマンドは以下です。コマンドを使うには、
 	%R%S command  と入力してください。それぞれの
 	コマンドに対するより詳しい情報は%R%S HELP command
@@ -6023,7 +6023,7 @@ CHAN_HELP_EXPIRES
 #	(i.e. which no user on the channel's access list enters
 #	for that period of time) will be automatically dropped.
 	%d 日以上使われていないチャンネル(例えば、チャンネルの
-	アクセスリストに載っているユーザが一人もいない状態が
+	アクセスリストに載っているユーザーが一人もいない状態が
 	この期間を超えた場合)は自動的に破棄されます。
 
 CHAN_HELP_REGISTER
@@ -6038,8 +6038,8 @@ CHAN_HELP_REGISTER
 #	The last parameter, which must be included, is a
 #	general description of the channel's purpose.
 	%S のデータベースにチャンネルを登録する。このコマンドを使うには、
-	登録したいチャンネルのチャンネルオペレータにならなければ
-	いけません。ほかのユーザがこのチャンネルの設定を後から
+	登録したいチャンネルのチャンネルオペレーターにならなければ
+	いけません。ほかのユーザーがこのチャンネルの設定を後から
 	変更するためには、IDENTIFY コマンドと共にパスワードを
 	使います。最後の引数は必須で、これはチャンネルの目的
 	を説明します。
@@ -6056,8 +6056,8 @@ CHAN_HELP_REGISTER
 	として登録済みで無ければいけません。チャンネル創始者は、
 	このチャンネルの設定を変更することが許されています。
 	%S はチャンネル創始者がチャンネルに入ったときに
-	チャンネルオペレータ権限を自動的に与えます。
-	ほかのユーザに対するアクセス権限に関するより詳しい情報は
+	チャンネルオペレーター権限を自動的に与えます。
+	ほかのユーザーに対するアクセス権限に関するより詳しい情報は
 	ACCESS コマンド(%R%S HELP ACCESS) を
 	参照してください。
 	
@@ -6088,7 +6088,7 @@ CHAN_HELP_LOGOUT
 #	This command will log the selected nickname out meaning they 
 #	would have to reidentify themselves to regain their access.
 	このコマンドは指定されたニックネームをログアウトさせます。
-	ログアウトさせられたユーザは再度認証をする必要があります。
+	ログアウトさせられたユーザーは再度認証をする必要があります。
 	
 #	If you are the founder of the channel, you can log out anybody,
 #	else you can only log out yourself.
@@ -6150,7 +6150,7 @@ CHAN_HELP_SET
 #	    SECURE        Activate %S security features
 	    SECURE        %S の保安機能を有効化
 #	    SECUREOPS     Stricter control of chanop status
-	    SECUREOPS     チャンネルオペレータ状態の厳格な制御
+	    SECUREOPS     チャンネルオペレーター状態の厳格な制御
 #	    SECUREFOUNDER Stricter control of channel founder status
 	    SECUREFOUNDER チャンネル創始者状態の厳格な制御
 #	    SIGNKICK      Sign kicks that are done with KICK command
@@ -6158,7 +6158,7 @@ CHAN_HELP_SET
 #	    TOPICLOCK     Topic can only be changed with TOPIC
 	    TOPICLOCK     TOPICコマンドだけがトピックを変更出来るようにする
 #	    XOP           Toggle the user privilege system
-	    XOP           ユーザ権限システムをトグル
+	    XOP           ユーザー権限システムをトグル
 	
 #	Type %R%S HELP SET option for more information on a
 #	particular option.
@@ -6244,8 +6244,8 @@ CHAN_HELP_SET_ENTRYMSG
 #	Sets the message which will be sent via /notice to users
 #	when they enter the channel.  If no parameter is given,
 #	causes no message to be sent upon entering the channel.
-	ユーザがチャンネルに入ったときの/notice 経由で送信する
-	ユーザ宛メッセージを設定する。パラメータが無い場合、
+	ユーザーがチャンネルに入ったときの/notice 経由で送信する
+	ユーザー宛メッセージを設定する。パラメータが無い場合、
 	チャンネルに入ったときにメッセージを送らない。
 
 CHAN_HELP_SET_BANTYPE
@@ -6280,7 +6280,7 @@ CHAN_HELP_SET_KEEPTOPIC
 #	next time the channel is created.
 	あるチャンネルのトピック保存オプションの有効と無効
 	を切り替える。トピック保存 が有効化されると、
-	最後のユーザがこのチャンネルから退出した後も、
+	最後のユーザーがこのチャンネルから退出した後も、
 	トピックが %S によって記憶され、次にチャンネルが作られた時に
 	自動的に設定される。
 
@@ -6362,8 +6362,8 @@ CHAN_HELP_SET_PEACE
 #	a level superior or equal to his via %S commands.
 	あるチャンネルのpeaceオプションの有効と無効
 	を切り替える。peace が有効化されると、
-	%S コマンドを使って、ユーザはキック、バン又は自分より
-	高位か同じレベルを持つユーザのチャンネル状態の削除を
+	%S コマンドを使って、ユーザーはキック、バン又は自分より
+	高位か同じレベルを持つユーザーのチャンネル状態の削除を
 	することが出来なくなる。
 
 CHAN_HELP_SET_PRIVATE
@@ -6402,7 +6402,7 @@ CHAN_HELP_SET_SECURE
 	を切り替える。SECURE が有効化されると、
 	アクセスリストによるコントロールと同様に、
 	%sにニックネームが登録済みで、パスワードでIDENTIFYされた
-	ユーザだけがこのチャンネルにアクセスできるようになる。
+	ユーザーだけがこのチャンネルにアクセスできるようになる。
 
 CHAN_HELP_SET_SECUREOPS
 #	Syntax: SET channel SECUREOPS {ON | OFF}
@@ -6413,7 +6413,7 @@ CHAN_HELP_SET_SECUREOPS
 #	will not be allowed chanop status.
 	あるチャンネルに対するsecure opsオプションの有効と無効
 	を切り替える。secure ops が有効化されると、
-	ユーザリストに含まれないユーザはチャンネル管理者に
+	ユーザーリストに含まれないユーザーはチャンネル管理者に
 	なれなくなる。
 	
 CHAN_HELP_SET_SECUREFOUNDER
@@ -6428,7 +6428,7 @@ CHAN_HELP_SET_SECUREFOUNDER
 	を切り替える。secure founder が有効化されると、
 	真のチャンネル創始者だけがチャンネルを未登録状態に変更できる。
 	また、チャンネルパスワード、チャンネル創始者、チャンネル後継者、
-	%SにIDENTIFYされていないユーザを変更できる。
+	%SにIDENTIFYされていないユーザーを変更できる。
 	
 CHAN_HELP_SET_SIGNKICK
 #	Syntax: SET channel SIGNKICK {ON | LEVEL | OFF}
@@ -6441,13 +6441,13 @@ CHAN_HELP_SET_SIGNKICK
 	あるチャンネルに対するsigned kicksオプションの有効と無効
 	を切り替える。SIGNKICK が有効化されると、
 	%S KICKコマンドから発行されたキックはその理由の欄に
-	コマンドを発行したユーザのニックネームの署名を含むようになる。
+	コマンドを発行したユーザーのニックネームの署名を含むようになる。
 	
 #	If you use LEVEL, those who have a level that is superior 
 #	or equal to the SIGNKICK level on the channel won't have their 
 #	kicks signed. See %R%S HELP LEVELS for more information. 
 	LEVEL が使用された場合、SIGNKICK レベルよりも高位又は同位
-	のレベルを持つユーザからのキックには署名がなされない。
+	のレベルを持つユーザーからのキックには署名がなされない。
 	より詳しい情報は %R%S HELP LEVELS を入力してください。
 
 CHAN_HELP_SET_XOP
@@ -6460,7 +6460,7 @@ CHAN_HELP_SET_XOP
 #	users, else you have to use the ACCESS command.
 	あるチャンネルに対する xOP リストシステムの有効と無効
 	を切り替える。XOP が有効化されると、
-	ユーザにチャンネルでの権限を与えるにはAOP/SOP/VOP
+	ユーザーにチャンネルでの権限を与えるにはAOP/SOP/VOP
 	を使うか、ACCESSコマンドを使うことになる。
 	
 #	Technical Note: when you switch from access list to xOP 
@@ -6468,7 +6468,7 @@ CHAN_HELP_SET_XOP
 #	changed, so you won't find the same values if you
 #	switch back to access system! 
 	技術的な注意: アクセススリストから xOP リスト知る手無に変更
-	するときには、あなたのレベル定義とユーザレベルも変更されなければ
+	するときには、あなたのレベル定義とユーザーレベルも変更されなければ
 	いけません。そうでなければ、アクセスリストシステムに戻った際に
 	同じレベルを使えなくなります。
 	
@@ -6477,7 +6477,7 @@ CHAN_HELP_SET_XOP
 #	guess is not always perfect... in fact, it is not recommended 
 #	to use the xOP lists if you changed level definitions with 
 #	the LEVELS command.
-	xOPリストに変更した後に、ユーザが良い xOP リストにいるかどうか
+	xOPリストに変更した後に、ユーザーが良い xOP リストにいるかどうか
 	チェックしなければいけません。なぜなら、思い込みはいつも
 	完璧であるとは限らないからです。実際、LEVEL コマンドを
 	使ってレベルの定義を変更する場合には、xOP リストを使うこと
@@ -6498,7 +6498,7 @@ CHAN_HELP_SET_OPNOTICE
 #	in the channel.
 	あるチャンネルに対する op-notice オプションの有効と無効
 	を切り替える。op-notice が有効化されると、
-	OP 又は DEOP がこのチャンネルにいるユーザに対して
+	OP 又は DEOP がこのチャンネルにいるユーザーに対して
 	使用されたときに、%S は notice をチャンネルに送信する。
 
 CHAN_HELP_AOP
@@ -6516,9 +6516,9 @@ CHAN_HELP_AOP
 #	to unban or invite themselves if needed, to have their
 #	greet message showed on join, and so on.
 	あるチャンネルに対するAOP (自動OP) リスト を編集
-	する。AOPリストはあなたのチャンネルで自動的にオペレータ
-	になることの出来るユーザのリストです。バン解除と招待すること
-	も出来ます。もし必要であればユーザに対する挨拶メッセージを
+	する。AOPリストはあなたのチャンネルで自動的にオペレーター
+	になることの出来るユーザーのリストです。バン解除と招待すること
+	も出来ます。もし必要であればユーザーに対する挨拶メッセージを
 	設定することも出来ます。
 	
 #	The AOP ADD command adds the given nickname to the
@@ -6559,7 +6559,7 @@ CHAN_HELP_AOP
 	AOP ADD と AOP DEL コマンドは SOP かそれより高位の
 	権限を持つものだけに使用が制限されています。これに対して、
 	AOP CLEAR コマンドは、チャンネル創始者だけが使えます。
-	しかし、AOP リストに登録されているユーザであれば誰でも
+	しかし、AOP リストに登録されているユーザーであれば誰でも
 	AOP LIST コマンドを使うことが出来ます。
 	
 #	This command may have been disabled for your channel, and
@@ -6588,7 +6588,7 @@ CHAN_HELP_HOP
 #	list gives users the right to be auto-halfopped on your 
 #	channel.
 	あるチャンネルに対するHOP (HalfOP) リスト を編集
-	する。チャンネルのHOPリストに登録されているユーザは、自動で
+	する。チャンネルのHOPリストに登録されているユーザーは、自動で
 	halfopされます。
 	
 #	The HOP ADD command adds the given nickname to the
@@ -6657,7 +6657,7 @@ CHAN_HELP_SOP
 #	those needed to use the AutoKick and the BadWords lists, 
 #	to send and read channel memos, and so on.
 	あるチャンネルに対するSOP (SuperOP) リスト を編集
-	する。チャンネルのSOPリストに登録されているユーザは、AOP
+	する。チャンネルのSOPリストに登録されているユーザーは、AOP
 	リストで得られる全ての権限が与えられ、自動キックと
 	禁止ワードリストの可否、チャンネルメモの送信と受信などを
 	行えます。
@@ -6699,7 +6699,7 @@ CHAN_HELP_SOP
 	SOP ADD、 SOP DEL と SOP CLEARコマンドは
 	チャンネル創始者だけに使用が制限されています。
 	これに対して、HOP LIST コマンドは、AOPリストに含まれる
-	ユーザであれば誰でも使えます。
+	ユーザーであれば誰でも使えます。
 	
 #	This command may have been disabled for your channel, and
 #	in that case you need to use the access list. See 
@@ -6727,7 +6727,7 @@ CHAN_HELP_VOP
 #	The VOP list allows users to be auto-voiced and to voice 
 #	themselves if they aren't.
 	あるチャンネルに対するVOP (VOicePeople) リスト を編集
-	する。チャンネルのVOPリストに登録されているユーザは、自動的に
+	する。チャンネルのVOPリストに登録されているユーザーは、自動的に
 	発言権を与えられ、もし発言権を与えられていなくても発言出来ます。
 	
 #	The VOP ADD command adds the given nickname to the
@@ -6799,11 +6799,11 @@ CHAN_HELP_ACCESS
 #	specific information.  Any nick not on the access list has
 #	a user level of 0.
 	チャンネルの アクセスリスト を編集する。アクセスリストは
-	チャンネル管理者になれるユーザ、又はこのチャンネルの %S コマンド
-	にアクセスできるユーザを指定します。異なるユーザレベル
-	のユーザには異なる権限を与えます。より詳しい情報は、
+	チャンネル管理者になれるユーザー、又はこのチャンネルの %S コマンド
+	にアクセスできるユーザーを指定します。異なるユーザーレベル
+	のユーザーには異なる権限を与えます。より詳しい情報は、
 	%R%S HELP ACCESS LEVELS を参照してください。アクセスリスト
-	に載っていない全てのニックのユーザレベルは0です。
+	に載っていない全てのニックのユーザーレベルは0です。
 	
 #	The ACCESS ADD command adds the given nickname to the
 #	access list with the given user level; if the nick is
@@ -6816,7 +6816,7 @@ CHAN_HELP_ACCESS
 	ACCESS ADD コマンドは与えられたニックネームとそのレベル
 	をアクセスリストに追加する。もしニックネームがすでにアクセス
 	リストに登録済みであれば、アクセスレベルが変更される。
-	コマンドを発行したユーザは自分よりも高位の level を
+	コマンドを発行したユーザーは自分よりも高位の level を
 	与えることは出来ない。また、nick がすでにアクセスリスト
 	に登録済みの場合、このニックネームの登録済みのアクセスレベル
 	はコマンドで指定されたものよりも低いもので無ければいけない。
@@ -6849,7 +6849,7 @@ CHAN_HELP_ACCESS
 
 CHAN_HELP_ACCESS_LEVELS
 #	User access levels
-	ユーザアクセスレベル
+	ユーザーアクセスレベル
 	
 #	By default, the following access levels are defined:
 	初期状態では、以下のアクセスレベルが定義されています。
@@ -6860,22 +6860,22 @@ CHAN_HELP_ACCESS_LEVELS
 #	                     status (it cannot be given using the
 #	                     ACCESS command).
 	   創始者    %Sの機能にフルアクセスできる。チャンネルに
-	                     入った時に自動オペレータ化される。
+	                     入った時に自動オペレーター化される。
 	                     注意することは、一人だけが創始者権限
 	                     (この権限はACCESSコマンドで誰かに
 	                     貸与できない。)
 #	        10   Access to AKICK command; automatic opping.
-	        10   AKICKコマンドにアクセスできる。自動オペレータ権付加。
+	        10   AKICKコマンドにアクセスできる。自動オペレーター権付加。
 #	         5   Automatic opping.
-	         5   自動オペレータ権付加。
+	         5   自動オペレーター権付加。
 #	         3   Automatic voicing.
 	         3   自動発言権付加。
 #	         0   No special privileges; can be opped by other
 #	                     ops (unless secure-ops is set).
-	         0   特別な権限を持たない。別のオペレータからオペレータ
+	         0   特別な権限を持たない。別のオペレーターからオペレーター
 	                     権限を貰う。(secure-opsが無効の場合)
 #	        <0   May not be opped.
-	        <0   オペレータになれない。
+	        <0   オペレーターになれない。
 	
 #	These levels may be changed, or new ones added, using the
 #	LEVELS command; type %R%S HELP LEVELS for
@@ -6907,8 +6907,8 @@ CHAN_HELP_AKICK
 #	%S will ban that user from the channel, then kick
 #	the user.
 	あるチャンネルの 自動キックリスト を編集する。
-	自動キックリストに登録されているユーザがチャンネルにjoin
-	しようとした場合には、%Sはこのユーザをチャンネルからbanして、
+	自動キックリストに登録されているユーザーがチャンネルにjoin
+	しようとした場合には、%Sはこのユーザーをチャンネルからbanして、
 	その後にキックする。
 	
 #	The AKICK ADD command adds the given nick or usermask
@@ -6919,22 +6919,22 @@ CHAN_HELP_AKICK
 #	When akicking a registered nick the nickserv account
 #	will be added to the akick list instead of the mask.
 #	All users within that nickgroup will then be akicked.
-	AKICK ADD コマンドは与えられたニックネームかユーザマスク
+	AKICK ADD コマンドは与えられたニックネームかユーザーマスク
 	を自動キックリストに追加する。もしreason が与えられた
-	場合は、この理由はユーザがキックされるときに使用される。
+	場合は、この理由はユーザーがキックされるときに使用される。
 	もし与えなければ、初期値である"You have been
 	banned from the channel" が使われる。
 	登録済みニックネーム を自動キックする場合は、このnickserv
 	アカウントがマスクの変わりにakickリストに加えられ、
 	このアカウントに関するニックグループに含まれる全ての
-	ユーザが自動キックリストに加えられる。
+	ユーザーが自動キックリストに加えられる。
 	
 #	The AKICK STICK command permanently bans the given mask 
 #	on the channel. If someone tries to remove the ban, %S
 #	will automatically set it again. You can't use it for
 #	registered nicks.
 	AKICK STICK コマンドはあるチャンネルで与えられたマスクに
-	該当するユーザをbanする。もし誰かがこのbanを削除しようとした
+	該当するユーザーをbanする。もし誰かがこのbanを削除しようとした
 	場合には、%S は自動的にこれを回復する。この機能を登録済み
 	ニックネームに対してつかうことはできない。
 	
@@ -6969,7 +6969,7 @@ CHAN_HELP_AKICK
 #	The AKICK ENFORCE command causes %S to enforce the
 #	current AKICK list by removing those users who match an
 #	AKICK mask.
-	AKICK ENFORCE コマンドは AKICK マスクにマッチするユーザ
+	AKICK ENFORCE コマンドは AKICK マスクにマッチするユーザー
 	を削除することで、現在の自動キックリストを適応させる。
 	
 #	The AKICK CLEAR command clears all entries of the
@@ -7010,7 +7010,7 @@ CHAN_HELP_LEVELS
 	LEVELS SET コマンドはアクセスレベルの機能を変更するか、
 	グループの機能を変更するときに使う。LEVELS DISABLE
 	(又は DIS) は自動配布機能の無効化やある機能に対する
-	チャンネル創始者以外のユーザのアクセス禁止をおこなう。
+	チャンネル創始者以外のユーザーのアクセス禁止をおこなう。
 	LEVELS LIST はそれぞれの機能やグループがどのような
 	レベルに許可されているかのリストを表示する。
 	 LEVELS RESET はアクセスレベルの設定を新しく作成された
@@ -7073,17 +7073,17 @@ CHAN_HELP_OP
 #	it will op you. If channel and nick are not given,
 #	it will op you on all channels you're on, provided you
 #	have the rights to.
-	あるチャンネルのニックネームにオペレータ権限を配布します。
-	ニックネームが与えられなかった場合には、自分にオペレータ
+	あるチャンネルのニックネームにオペレーター権限を配布します。
+	ニックネームが与えられなかった場合には、自分にオペレーター
 	権限を配布します。チャンネルとニックネームが与えられ
 	無かった場合は、自分がjoinしている全てのチャンネルで
-	自分にオペレータ権限が配布されます。ただし、オペレータ
+	自分にオペレーター権限が配布されます。ただし、オペレーター
 	権限を貰う権利がある場合に限られます。
 	
 #	By default, limited to AOPs or those with level 5 access 
 #	and above on the channel.
 	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザだけに使用が制限されています。
+	レベルを持っているユーザーだけに使用が制限されています。
 
 CHAN_HELP_DEOP
 #	Syntax: DEOP [#channel [nick]]
@@ -7093,17 +7093,17 @@ CHAN_HELP_DEOP
 #	it will deop you. If channel and nick are not given,
 #	it will deop you on all channels you're on, provided you
 #	have the rights to.
-	与えられたチャンネルのニックネームからオペレータ権限を剥奪する。
+	与えられたチャンネルのニックネームからオペレーター権限を剥奪する。
 	もしニックネームが与えられなかった場合には、自分から
-	オペレータ権限を剥奪する。チャンネルとニックネームが
+	オペレーター権限を剥奪する。チャンネルとニックネームが
 	与えられなかった場合には、自分がjoinしている全てのチャンネルで
-	自分からオペレータ権限を剥奪します。ただし、オペレータ
+	自分からオペレーター権限を剥奪します。ただし、オペレーター
 	権限を剥奪できる権利がある場合に限られます。
 	
 #	By default, limited to AOPs or those with level 5 access 
 #	and above on the channel.
 	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザだけに使用が制限されています。
+	レベルを持っているユーザーだけに使用が制限されています。
 	
 CHAN_HELP_VOICE
 #	Syntax: VOICE [#channel [nick]]
@@ -7123,8 +7123,8 @@ CHAN_HELP_VOICE
 #	and above on the channel, or to VOPs or those with level 3 
 #	and above for self voicing.
 	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザか、VOPでレベル3以上のアクセスレベル
-	を持っているユーザだけに使用が制限されています。
+	レベルを持っているユーザーか、VOPでレベル3以上のアクセスレベル
+	を持っているユーザーだけに使用が制限されています。
 
 CHAN_HELP_DEVOICE
 #	Syntax: DEVOICE [#channel [nick]]
@@ -7144,8 +7144,8 @@ CHAN_HELP_DEVOICE
 #	and above on the channel, or to VOPs or those with level 3 
 #	and above for self devoicing.
 	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザか、VOPでレベル3以上のアクセスレベル
-	を持っているユーザだけに使用が制限されています。
+	レベルを持っているユーザーか、VOPでレベル3以上のアクセスレベル
+	を持っているユーザーだけに使用が制限されています。
 	
 CHAN_HELP_HALFOP
 #	Syntax: HALFOP [#channel [nick]]
@@ -7165,8 +7165,8 @@ CHAN_HELP_HALFOP
 #	and above on the channel, or to HOPs or those with level 4 
 #	and above for self halfopping.
 	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザか、HOPでレベル4以上のアクセスレベル
-	を持っているユーザだけに使用が制限されています。
+	レベルを持っているユーザーか、HOPでレベル4以上のアクセスレベル
+	を持っているユーザーだけに使用が制限されています。
 
 CHAN_HELP_DEHALFOP
 #	Syntax: DEHALFOP [#channel [nick]]
@@ -7186,8 +7186,8 @@ CHAN_HELP_DEHALFOP
 #	and above on the channel, or to HOPs or those with level 4 
 #	and above for self dehalfopping.
 	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザか、HOPでレベル4以上のアクセスレベル
-	を持っているユーザだけに使用が制限されています。
+	レベルを持っているユーザーか、HOPでレベル4以上のアクセスレベル
+	を持っているユーザーだけに使用が制限されています。
 	
 CHAN_HELP_PROTECT
 #	Syntax: PROTECT [#channel [nick]]
@@ -7206,7 +7206,7 @@ CHAN_HELP_PROTECT
 #	By default, limited to the founder, or to SOPs or those with 
 #	level 10 and above on the channel for self protecting.
 	初期状態では、このコマンドは創始者か、 SOP でレベル10以上の
-	アクセスレベルを持っているユーザだけに使用が制限されています。
+	アクセスレベルを持っているユーザーだけに使用が制限されています。
 
 CHAN_HELP_DEPROTECT
 #	Syntax: DEPROTECT [#channel [nick]]
@@ -7225,7 +7225,7 @@ CHAN_HELP_DEPROTECT
 #	By default, limited to the founder, or to SOPs or those with 
 #	level 10 and above on the channel for self deprotecting.
 	初期状態では、このコマンドは創始者か、 SOP でレベル10以上の
-	アクセスレベルを持っているユーザだけに使用が制限されています。
+	アクセスレベルを持っているユーザーだけに使用が制限されています。
 
 CHAN_HELP_OWNER
 #	Syntax: OWNER [#channel]
@@ -7269,7 +7269,7 @@ CHAN_HELP_INVITE
 #	By default, limited to AOPs or those with level 5 and above
 #	on the channel.
 	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザだけに使用が制限されています。
+	レベルを持っているユーザーだけに使用が制限されています。
 
 CHAN_HELP_UNBAN
 #	Syntax: UNBAN channel
@@ -7283,7 +7283,7 @@ CHAN_HELP_UNBAN
 #	By default, limited to AOPs or those with level 5 and above
 #	on the channel.
 	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザだけに使用が制限されています。
+	レベルを持っているユーザーだけに使用が制限されています。
 	
 CHAN_HELP_KICK
 #	Syntax: KICK [#channel [nick [reason]]]
@@ -7302,7 +7302,7 @@ CHAN_HELP_KICK
 #	By default, limited to AOPs or those with level 5 access 
 #	and above on the channel.
 	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザだけに使用が制限されています。
+	レベルを持っているユーザーだけに使用が制限されています。
 
 CHAN_HELP_BAN
 #	Syntax: BAN [#channel [nick [reason]]]
@@ -7321,7 +7321,7 @@ CHAN_HELP_BAN
 #	By default, limited to AOPs or those with level 5 access 
 #	and above on the channel.
 	初期状態では、このコマンドは AOP でレベル5以上のアクセス
-	レベルを持っているユーザだけに使用が制限されています。
+	レベルを持っているユーザーだけに使用が制限されています。
 
 CHAN_HELP_TOPIC
 #	Syntax: TOPIC channel [topic]
@@ -7364,16 +7364,16 @@ CHAN_HELP_CLEAR
 	     INVITES  チャンネルの招待エントリを全てクリアする。
 #	     OPS      Removes channel-operator status (mode +o) from
 #	                  all channel operators.
-	     OPS      チャンネルオペレータ(+o)全員からオペレータ権を剥奪する。
+	     OPS      チャンネルオペレーター(+o)全員からオペレーター権を剥奪する。
 #	     HOPS     Removes channel-halfoperator status (mode +h) from
 #	                  all channel halfoperators, if supported.
 	     HOPS     channel-halfoperator(+h)全員からこの権利を剥奪する。
 	                  ただしサポートされている場合に限る。
 #	     VOICES   Removes "voice" status (mode +v) from anyone
 #	                  with that mode set.
-	     VOICES   発言権(+v)を持つユーザ全員から発言権を剥奪する。
+	     VOICES   発言権(+v)を持つユーザー全員から発言権を剥奪する。
 #	     USERS    Removes (kicks) all users from the channel.
-	     USERS    チャンネルにいるユーザ全員をキックする。
+	     USERS    チャンネルにいるユーザー全員をキックする。
 	
 #	By default, limited to those with founder access on the
 #	channel.
@@ -7409,7 +7409,7 @@ CHAN_HELP_SENDPASS
 	
 #	May be limited to IRC operators on certain networks.
 	一部のネットワークでは、このコマンドを使用できるのは、
-	IRCオペレータだけに制限されています。
+	IRCオペレーターだけに制限されています。
 	
 #	This command is unavailable when encryption is enabled.
 	このコマンドは暗号化が有効な場合には使用できません。
@@ -7429,13 +7429,13 @@ CHAN_SERVADMIN_HELP_LOGOUT
 #	This command will log the selected nickname out meaning they 
 #	would have to reidentify themselves to regain their access.
 	このコマンドは与えられたニックネームをログアウトさせます。
-	つまり、ログアウトさせられたユーザが再度アクセスするためには
+	つまり、ログアウトさせられたユーザーが再度アクセスするためには
 	認証が必要になります。
 	
 #	If you are the founder of the channel, you can log out anybody,
 #	else you can only log out yourself.
 	もしあなたがチャンネル創始者だった場合は、自分のチャンネル
-	にいるユーザであれば誰でも強制ログアウトさせることが出来ます。
+	にいるユーザーであれば誰でも強制ログアウトさせることが出来ます。
 	そうでない場合は、強制ログアウトさせることが出来るのは自分だけです。
 	
 #	If you are a Services admin, you can log out 
@@ -7443,10 +7443,10 @@ CHAN_SERVADMIN_HELP_LOGOUT
 #	of the channel. Also, you can omit the nickname parameter;
 #	this will log out all identified users from the channel.
 	もしあなたがサービス管理者だった場合は、チャンネル創始者
-	の権限を持っていなくてもどのチャンネルにいるどのユーザでも
+	の権限を持っていなくてもどのチャンネルにいるどのユーザーでも
 	強制ログアウトさせることが出来ます。また、ニックネーム
 	パラメータを省略することで、チャンネルにいる認証済み
-	ユーザを全員強制ログアウトさせることが出来ます。
+	ユーザーを全員強制ログアウトさせることが出来ます。
 
 CHAN_SERVADMIN_HELP_DROP
 #	Syntax: DROP channel
@@ -7454,7 +7454,7 @@ CHAN_SERVADMIN_HELP_DROP
 	
 #	Unregisters the named channel.  Only Services admins
 #	can drop a channel for which they have not identified.
-	チャンネルの登録を無効化する。認証済みでないユーザが
+	チャンネルの登録を無効化する。認証済みでないユーザーが
 	これをするには サービス管理者 である必要があります。
 
 CHAN_SERVADMIN_HELP_SET
@@ -7517,7 +7517,7 @@ CHAN_SERVADMIN_HELP_GETPASS
 #	person who issued the command and the channel it was used
 #	on will be logged and sent out as a WALLOPS/GLOBOPS.
 	与えられたチャンネルのパスワードを返します。注意する点
-	は、このコマンドが使用された場合、コマンドを発行したユーザと
+	は、このコマンドが使用された場合、コマンドを発行したユーザーと
 	チャンネル名が記録され、WALLOPSかGLOBOPSとして送信
 	されます。
 
