@@ -23,3 +23,4 @@ Norgus）告知でいいのかな・・・
 reath:notice は notice　の方がいいと思う。訳してしまうと逆に分かりにくいかと。
 
 
+test
