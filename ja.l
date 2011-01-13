@@ -1154,7 +1154,7 @@ NICK_RECOVER_SYNTAX
 	RECOVER nickname [password]
 NICK_NO_RECOVER_SELF
 #	You can't recover yourself!
-	自分自身を回復させることはできません。
+	自分自身を回復させることはできません!
 NICK_RECOVERED
 #	User claiming your nick has been killed.
 #	%R%s RELEASE %s to get it back before %s timeout.
@@ -1175,7 +1175,7 @@ NICK_GHOST_SYNTAX
 	GHOST nickname [password]
 NICK_NO_GHOST_SELF
 #	You can't ghost yourself!
-	自分自身はゴースト化できません。
+	自分自身はゴースト化できません!
 NICK_GHOST_KILLED
 #	Ghost with your nick has been killed.
 	あなたのニックネームを使っていたゴーストが kill されました。

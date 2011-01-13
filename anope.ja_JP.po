@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-13 19:19+0900\n"
+"PO-Revision-Date: 2011-01-13 20:35+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -8806,15 +8806,15 @@ msgstr ""
 
 #: language.cpp:141
 msgid "You can use this command."
-msgstr ""
+msgstr "あなたはこのコマンドを使えます。"
 
 #: language.cpp:599
 msgid "You can't ghost yourself!"
-msgstr ""
+msgstr "自分自身はゴースト化できません!"
 
 #: language.cpp:586
 msgid "You can't recover yourself!"
-msgstr ""
+msgstr "自分自身を回復させることはできません!"
 
 #: language.cpp:1111
 msgid ""
@@ -8822,6 +8822,9 @@ msgid ""
 "Use the AOP, SOP and VOP commands instead.\n"
 "Type %R%s HELP command for more information."
 msgstr ""
+"このコマンドを使うことは出来ません。\n"
+"AOP, SOP 又は VOP コマンドを使ってください。\n"
+"より詳しい情報は %R%s HELP command と入力してください。"
 
 #: language.cpp:1115
 msgid ""
@@ -8829,126 +8832,135 @@ msgid ""
 "Use the AOP, SOP, HOP and VOP commands instead.\n"
 "Type %R%s HELP command for more information."
 msgstr ""
+"このコマンドを使うことは出来ません。\n"
+"AOP, SOP, HOP 又は VOP コマンドを使ってください。\n"
+"より詳しい情報は %R%s HELP command と入力してください。"
 
 #: language.cpp:959
 msgid ""
 "You can't use this command. Use the ACCESS command instead.\n"
 "Type %R%s HELP ACCESS for more information."
 msgstr ""
+"このコマンドを使うことは出来ません。ACCESS コマンドを使ってください。\n"
+"より詳しい情報は %R%s HELP ACCESS と入力してください。"
 
 #: language.cpp:1494
 #, c-format
 msgid "You cannot set the memo limit for %s higher than %d."
-msgstr ""
+msgstr "%s のメモ保存量の上限値を %d 以上にすることはできません。"
 
 #: language.cpp:1492
 #, c-format
 msgid "You cannot set your memo limit higher than %d."
-msgstr ""
+msgstr "メモ保存量の上限値を %d 以上にすることはできません。"
 
 #: language.cpp:380
 msgid "You cannot unset the e-mail on this network."
-msgstr ""
+msgstr "あなたはこのネットワークではメールアドレスを解除することは出来ません。"
 
 #: language.cpp:139
 msgid "You cannot use this command."
-msgstr ""
+msgstr "あなたはこのコマンドを使えません。"
 
 #: language.cpp:1520
 #, c-format
 msgid "You currently have %d memos, of which %d are unread."
-msgstr ""
+msgstr "あなた宛のメモが %d 通あり、内%d 通が未読です。"
 
 #: language.cpp:1518
 #, c-format
 msgid "You currently have %d memos, of which 1 is unread."
-msgstr ""
+msgstr "あなた宛のメモが %d 通あり、内1 通が未読です。"
 
 #: language.cpp:1516
 #, c-format
 msgid "You currently have %d memos."
-msgstr ""
+msgstr "あなた宛のメモが %d 通あります。"
 
 #: language.cpp:1522
 #, c-format
 msgid "You currently have %d memos; all of them are unread."
-msgstr ""
+msgstr "あなた宛のメモが %d 通あり、全て未読です。"
 
 #: language.cpp:1514
 msgid "You currently have 1 memo, and it has not yet been read."
-msgstr ""
+msgstr "あなた宛のメモが 1 通あり、未読です。"
 
 #: language.cpp:1512
 msgid "You currently have 1 memo."
-msgstr ""
+msgstr "あなた宛のメモが 1 通あります。"
 
 #: language.cpp:1510
 msgid "You currently have no memos."
-msgstr ""
+msgstr "今のところ、あなた宛のメモはありません。"
 
 #: language.cpp:1382
 #, c-format
 msgid "You have %d new memos."
-msgstr ""
+msgstr " %d 通の新しいメモがあります。"
 
 #: language.cpp:1380
 msgid "You have 1 new memo."
-msgstr ""
+msgstr " 1 通の新しいメモがあります。"
 
 #: language.cpp:1401
 msgid ""
 "You have a new memo from %s.\n"
 "Type %R%s READ %d to read it."
 msgstr ""
+"%s からあなた宛に新着メモを受け取りました。\n"
+"メモを読むには、%R%s READ %d と入力してください。"
 
 #: language.cpp:1294
 #, c-format
 msgid "You have been invited to %s."
-msgstr ""
+msgstr "%s に招待されました。"
 
 #: language.cpp:1300
 #, c-format
 msgid "You have been unbanned from %s."
-msgstr ""
+msgstr "%s から禁止解除しました。"
 
 #: language.cpp:1532
 msgid "You have no limit on the number of memos you may keep."
-msgstr ""
+msgstr "あなた宛のメモ保存量の上限値が在りません。"
 
 #: language.cpp:1404
 msgid "You have no memos."
-msgstr ""
+msgstr "メモを受け取っていません。"
 
 #: language.cpp:1434
 msgid "You have no new memos."
-msgstr ""
+msgstr "新着メモがありません。"
 
 #: language.cpp:2246
 msgid "You have to enter a valid number as time."
-msgstr ""
+msgstr "time 引数に有効な数字を設定してください。"
 
 #: language.cpp:1605
 msgid ""
 "You must assign a bot to the channel before using this command.\n"
 "Type %R%S HELP ASSIGN for more information."
 msgstr ""
+"このコマンドを使う前に、ボットをチャンネルに召喚しなければいけません。\n"
+"より詳細なヘルプは、%R%S HELP ASSIGN で見る事ができます。"
 
 #: language.cpp:794
 msgid "You must be a channel operator to register the channel."
-msgstr ""
+msgstr "チャンネルを登録するにはオペレーター権限が必要です。"
 
 #: language.cpp:306
 #, c-format
 msgid "You must have been using this nick for at least %d seconds to register."
-msgstr ""
+msgstr "ニックネームを登録するには、最低 %d 秒間そのニックネームを使わなければなりません。"
 
 #: language.cpp:870
 msgid "You must lock mode +i as well to lock mode +K."
-msgstr ""
+msgstr "ロックモード +K をONにするのと同時に +i もONにしてください。"
 
 #: language.cpp:868
 msgid "You must lock mode +l as well to lock mode +L."
-msgstr ""
+msgstr "ロックモード +L をONにするのと同時に +l もONにしてください。"
 
 #: language.cpp:338
 msgid ""
