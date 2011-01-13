@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-13 18:00+0900\n"
+"PO-Revision-Date: 2011-01-13 18:12+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -9155,32 +9155,32 @@ msgstr ""
 #: language.cpp:5144
 #, c-format
 msgid "vhost for %s removed."
-msgstr ""
+msgstr "%s のバーチャルホストを削除しました。"
 
 #: language.cpp:5112
 #, c-format
 msgid "vhost for %s set to %s."
-msgstr ""
+msgstr "%s のバーチャルホストを %s に設定しました。"
 
 #: language.cpp:5114
 #, c-format
 msgid "vhost for %s set to %s@%s."
-msgstr ""
+msgstr "%s のバーチャルホストを %s@%s に設定しました。"
 
 #: language.cpp:5116
 #, c-format
 msgid "vhost for group %s set to %s."
-msgstr ""
+msgstr "グループ %s のバーチャルホストを %s に設定しました。"
 
 #: language.cpp:5122
 #, c-format
 msgid "vhost for group %s set to %s@%s."
-msgstr ""
+msgstr "グループ %s のバーチャルホストを %s@%s に設定しました。"
 
 #: language.cpp:5118
 #, c-format
 msgid "vhosts for group %s have been removed."
-msgstr ""
+msgstr "グループ %s のバーチャルホストを削除しました。"
 
 #: language.cpp:1278
 msgid "xOP lists system"
