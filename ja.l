@@ -1746,7 +1746,7 @@ CHAN_SET_XOP_SYNTAX
 	SET チャンネル名 XOP {ON | OFF}
 CHAN_SET_XOP_ON
 #	xOP lists system for %s is now ON.
-	チャンネル %s の xOP オプションは ON です。
+
 CHAN_SET_XOP_OFF
 #	xOP lists system for %s is now OFF.
 	チャンネル %s の xOP オプションは OFF です。
@@ -4439,11 +4439,14 @@ OPER_HELP_CHANKILL
 ###########################################################################
 
 NEWS_LOGON_TEXT
-	[Logon News - %s] %s
+#	[Logon News - %s] %s
+	[ログオンニュース - %s] %s
 NEWS_OPER_TEXT
-	[Oper News - %s] %s
+#	[Oper News - %s] %s
+	[オペレータニュース - %s] %s
 NEWS_RANDOM_TEXT
-	[Random News - %s] %s
+#	[Random News - %s] %s
+	[ランダムニュース - %s] %s
 
 NEWS_LOGON_SYNTAX
 	LOGONNEWS {ADD|DEL|LIST} [text|num]

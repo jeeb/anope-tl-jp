@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-13 18:26+0900\n"
+"PO-Revision-Date: 2011-01-13 18:36+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -9084,17 +9084,17 @@ msgstr ""
 #: language.cpp:2482
 #, c-format
 msgid "[Logon News - %s] %s"
-msgstr ""
+msgstr "[ログオンニュース - %s] %s"
 
 #: language.cpp:2484
 #, c-format
 msgid "[Oper News - %s] %s"
-msgstr ""
+msgstr "[オペレータニュース - %s] %s"
 
 #: language.cpp:2486
 #, c-format
 msgid "[Random News - %s] %s"
-msgstr ""
+msgstr "[ランダムニュース - %s] %s"
 
 #: language.cpp:1735
 msgid "disabled"
