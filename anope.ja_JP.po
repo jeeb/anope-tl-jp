@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-13 19:05+0900\n"
+"PO-Revision-Date: 2011-01-13 19:19+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -8955,47 +8955,47 @@ msgid ""
 "You must now supply an e-mail for your nick.\n"
 "This e-mail will allow you to retrieve your password in\n"
 "case you forget it."
-msgstr ""
+msgstr "パスワードを忘れた際にパスワードの再発行を行うための連絡先として電子メールアドレスを入力して頂きます。"
 
 #: language.cpp:137
 msgid "You need to be identified to use this command."
-msgstr ""
+msgstr "このコマンドを使う前に認証を行ってください。"
 
 #: language.cpp:1536
 msgid "You will be notified of new memos at logon and when they arrive."
-msgstr ""
+msgstr "あなた宛の新着メモの到着をログオン時と受信時にお知らせします。"
 
 #: language.cpp:1540
 msgid "You will be notified of new memos at logon."
-msgstr ""
+msgstr "あなた宛の新着メモの到着をログオン時にお知らせします。"
 
 #: language.cpp:1538
 msgid "You will be notified when new memos arrive."
-msgstr ""
+msgstr "あなた宛の新着メモの到着を受信時にお知らせします。"
 
 #: language.cpp:1500
 msgid "You will no longer be able to receive memos."
-msgstr ""
+msgstr "これ以上メモを受け取ることができません。"
 
 #: language.cpp:1480
 msgid "You will no longer be informed via email."
-msgstr ""
+msgstr "email による新着メモの通知を無効にしました。"
 
 #: language.cpp:1534
 msgid "You will not be notified of new memos."
-msgstr ""
+msgstr "あなた宛の新着メモが到着してもお知らせしません。"
 
 #: language.cpp:1478
 msgid "You will now be informed about new memos via email."
-msgstr ""
+msgstr "email による新着メモの通知を有効にしました。"
 
 #: language.cpp:5150
 msgid "Your IRCD does not support vIdent's, if this is incorrect, please report this as a possible bug"
-msgstr ""
+msgstr "あなたのIRCデーモンはvIdentをサポートしていません。もしこれが間違いであればバグ報告してください"
 
 #: language.cpp:500
 msgid "Your access list is empty."
-msgstr ""
+msgstr "許可リストにはニックネームは登録されていません。"
 
 #: language.cpp:1502
 msgid "Your memo limit has been disabled."
