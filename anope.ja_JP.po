@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-13 18:12+0900\n"
+"PO-Revision-Date: 2011-01-13 18:26+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -9098,59 +9098,59 @@ msgstr ""
 
 #: language.cpp:1735
 msgid "disabled"
-msgstr ""
+msgstr "無効"
 
 #: language.cpp:242
 msgid "does not expire"
-msgstr ""
+msgstr "失効されませんでした"
 
 #: language.cpp:1733
 msgid "enabled"
-msgstr ""
+msgstr "有効"
 
 #: language.cpp:244
 msgid "expires at next database update"
-msgstr ""
+msgstr "次回のデータベース更新にて失効"
 
 #: language.cpp:260
 #, c-format
 msgid "expires in %d day"
-msgstr ""
+msgstr "あと %d 日で失効"
 
 #: language.cpp:258
 #, c-format
 msgid "expires in %d days"
-msgstr ""
+msgstr "あと %d 日で失効"
 
 #: language.cpp:256
 #, c-format
 msgid "expires in %d hour, %d minute"
-msgstr ""
+msgstr "あと %d 時間 %d 分で失効"
 
 #: language.cpp:254
 #, c-format
 msgid "expires in %d hour, %d minutes"
-msgstr ""
+msgstr "あと %d 時間 %d 分で失効"
 
 #: language.cpp:252
 #, c-format
 msgid "expires in %d hours, %d minute"
-msgstr ""
+msgstr "あと %d 時間 %d 分で失効"
 
 #: language.cpp:250
 #, c-format
 msgid "expires in %d hours, %d minutes"
-msgstr ""
+msgstr "あと %d 時間 %d 分で失効"
 
 #: language.cpp:248
 #, c-format
 msgid "expires in %d minute"
-msgstr ""
+msgstr "あと %d 分で失効"
 
 #: language.cpp:246
 #, c-format
 msgid "expires in %d minutes"
-msgstr ""
+msgstr "あと %d 分で失効"
 
 #: language.cpp:5144
 #, c-format
