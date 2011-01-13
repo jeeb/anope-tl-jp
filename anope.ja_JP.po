@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-13 18:58+0900\n"
+"PO-Revision-Date: 2011-01-13 19:05+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -8999,30 +8999,30 @@ msgstr ""
 
 #: language.cpp:1502
 msgid "Your memo limit has been disabled."
-msgstr ""
+msgstr "メモ保存量の上限値が無効になりました。"
 
 #: language.cpp:1498
 #, c-format
 msgid "Your memo limit has been set to %d."
-msgstr ""
+msgstr "あなたのメモ保存量の上限を %d にしました。"
 
 #: language.cpp:1526
 #, c-format
 msgid "Your memo limit is %d, and may not be changed."
-msgstr ""
+msgstr "あなた宛のメモ保存量の上限値は %d で変えられません。"
 
 #: language.cpp:1524
 #, c-format
 msgid "Your memo limit is %d."
-msgstr ""
+msgstr "あなた宛のメモ保存量の上限値は %d です。"
 
 #: language.cpp:1528
 msgid "Your memo limit is 0; you will not receive any new memos."
-msgstr ""
+msgstr "あなた宛のメモ保存量の上限値が 0 なのでメモを受け取ることができない状態です。"
 
 #: language.cpp:1530
 msgid "Your memo limit is 0; you will not receive any new memos.  You cannot change this limit."
-msgstr ""
+msgstr "あなた宛のメモ保存量の上限値が 0 なのでメモを受け取ることができない状態です。また、メモの上限値を変えることは出来ません。"
 
 #: language.cpp:352
 msgid "Your nick has been logged out."

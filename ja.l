@@ -250,7 +250,8 @@ MORE_OBSCURE_PASSWORD
 #	Please try again with a more obscure password.  Passwords should be at least five characters long, should not be something easily guessed (e.g. your real name or your nick), and cannot contain the space or tab characters.
 PASSWORD_TOO_LONG
 	もっと分かり難いパスワードで再度お試しください。パスワードは少なくとも5文字の長さで、簡単に推測できるもの（例：あなたの本名やニックネーム）にすることなく、空白やタブ文字を含まないようにもしてください。
-	Your password is too long. Please try again with a shorter password.
+#	Your password is too long. Please try again with a shorter password.
+	パスワードが長すぎます。短いパスワードを試してください。
 
 NICK_NOT_REGISTERED
 #	Your nick isn't registered.
@@ -1268,7 +1269,7 @@ NICK_REQUESTED
 	このニックは現在、だれかが使用中です。あなたの e-mail アドレスとパスコードを確認してください。
 NICK_REG_RESENT
 #	Your passcode has been re-sent to %s.
-	あなたのパスコードが %s 宛てに再送信されました。.
+	あなたのパスコードが %s 宛てに再送信されました。
 NICK_REG_UNABLE
 #	Nick NOT registered, please try again later.
 	ニックが登録されていません。時間をおいてやり直してください。
@@ -2645,7 +2646,7 @@ MEMO_INFO_LIMIT
 	あなた宛のメモ保存量の上限値は %d です。
 MEMO_INFO_HARD_LIMIT
 #	Your memo limit is %d, and may not be changed.
-	あなた宛のメモ保存量の上限値は %d で変わりません。
+	あなた宛のメモ保存量の上限値は %d で変えられません。
 MEMO_INFO_LIMIT_ZERO
 #	Your memo limit is 0; you will not receive any new memos.
 	あなた宛のメモ保存量の上限値が 0 なのでメモを受け取ることができない状態です。
