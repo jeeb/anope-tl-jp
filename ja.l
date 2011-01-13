@@ -1746,7 +1746,7 @@ CHAN_SET_XOP_SYNTAX
 	SET チャンネル名 XOP {ON | OFF}
 CHAN_SET_XOP_ON
 #	xOP lists system for %s is now ON.
-
+	チャンネル %s の xOP オプションは ON です。 
 CHAN_SET_XOP_OFF
 #	xOP lists system for %s is now OFF.
 	チャンネル %s の xOP オプションは OFF です。
