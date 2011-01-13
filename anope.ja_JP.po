@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-13 20:35+0900\n"
+"PO-Revision-Date: 2011-01-13 21:00+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -8743,66 +8743,67 @@ msgstr ""
 
 #: language.cpp:1741
 msgid "Voices protection"
-msgstr ""
+msgstr "Voices ユーザー保護"
 
 #: language.cpp:1612
+#, fuzzy
 msgid "Watch your language!"
-msgstr ""
+msgstr "言葉に気をつけてください!"
 
 #: language.cpp:318
 #, c-format
 msgid "You are already a member of the group of %s."
-msgstr ""
+msgstr "あなたは既に%sというグループに入っています。"
 
 #: language.cpp:346
 msgid "You are already identified."
-msgstr ""
+msgstr "あなたは既に認証済みです。"
 
 #: language.cpp:1292
 #, c-format
 msgid "You are already in %s! "
-msgstr ""
+msgstr "あなたは既に %s に入っています。"
 
 #: language.cpp:2284
 msgid "You are no longer a SuperAdmin"
-msgstr ""
+msgstr "あなたは SuperAdmin ではなくなりました。"
 
 #: language.cpp:780
 msgid "You are not permitted to be on this channel."
-msgstr ""
+msgstr "このチャンネルへの参加は許可されていません。"
 
 #: language.cpp:1488
 msgid "You are not permitted to change your memo limit."
-msgstr ""
+msgstr "あなたはメモ保存量の上限値を変える許可を持っていません。"
 
 #: language.cpp:2282
 msgid "You are now a SuperAdmin"
-msgstr ""
+msgstr "あなたは現在 SuperAdmin となっています。"
 
 #: language.cpp:2063
 msgid "You are now an IRC Operator."
-msgstr ""
+msgstr "あなたは現在 IRC オペレーターです。"
 
 #: language.cpp:694
 msgid "You are now identified for your nick. Change your password using \"%R%s SET PASSWORD newpassword\" now."
-msgstr ""
+msgstr "あなた現在ニックネーム認証が済んでいます。\"%R%s SET PASSWORD newpassword\"を使ってパスワードを変更してください。"
 
 #: language.cpp:324
 #, c-format
 msgid "You are now in the group of %s."
-msgstr ""
+msgstr "%sというグループのメンバーになりました。"
 
 #: language.cpp:2238
 msgid "You can not jupe your services server or your uplink server."
-msgstr ""
+msgstr "あなた自身のサーバーあなたのアップリンクサーバーにはjupeできません。"
 
 #: language.cpp:1601
 msgid "You can not request a receipt when sending a memo to yourself."
-msgstr ""
+msgstr "自分から自分宛てのメモをに対する開封確認をすることはできません。"
 
 #: language.cpp:1669
 msgid "You can not unassign bots while persist is set on the channel."
-msgstr ""
+msgstr "persist がチャンネルにセットされている場合は、ボットを召還できません"
 
 #: language.cpp:141
 msgid "You can use this command."

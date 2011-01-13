@@ -532,7 +532,7 @@ NICK_GROUP_CHANGE_DISABLED
 	指定されたニックネームは既に登録されています。まず、%R%s DROPと入力して登録の解除を行ってください。
 NICK_GROUP_SAME
 #	You are already a member of the group of %s.
-	あなたは既に%sというグループに入っています。
+	あなたは既に %s というグループに入っています。
 NICK_GROUP_TOO_MANY
 #	There are too many nicks in %s's group; list them and drop some.
 #	Type %R%s HELP GLIST and %R%s HELP DROP
@@ -567,7 +567,7 @@ NICK_IDENTIFY_EMAIL_HOWTO
 	このアドレスは個人情報として扱われて、第三者に渡すことはありません。
 NICK_ALREADY_IDENTIFIED
 #	You are already identified.
-	あなたの身分は既に認識されています。
+	あなたは既に認証済みです。
 
 # UPDATE responses
 NICK_UPDATE_SUCCESS
@@ -2787,7 +2787,7 @@ BOT_REASON_BADWORD
 	このチャンネルで \"%s\" という単語は使わないでください。
 BOT_REASON_BADWORD_GENTLE
 #	Watch your language!
-	言葉に気をつけてください！
+	言葉に気をつけてください!
 BOT_REASON_BOLD
 #	Don't use bolds on this channel!
 	このチャンネルでは太字を使わないでください！
@@ -3002,7 +3002,7 @@ BOT_INFO_OPT_DONTKICKOPS
 	オペレーター保護
 BOT_INFO_OPT_DONTKICKVOICES
 #	Voices protection
-	Voicesユーザー保護
+	Voices ユーザー保護
 BOT_INFO_OPT_FANTASY
 #	Fantasy
 	ファンタジー
@@ -3975,7 +3975,7 @@ OPER_JUPE_HOST_ERROR
 	正しいホスト名を使ってください。
 OPER_JUPE_INVALID_SERVER
 #	You can not jupe your services server or your uplink server.
-	あなた自身のサーバーあなたのアップリンクサーバーにはjupeできません。。
+	あなた自身のサーバーあなたのアップリンクサーバーにはjupeできません。
 	
 # RAW responses
 OPER_RAW_SYNTAX
