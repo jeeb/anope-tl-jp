@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-13 18:36+0900\n"
+"PO-Revision-Date: 2011-01-13 18:58+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -9026,60 +9026,60 @@ msgstr ""
 
 #: language.cpp:352
 msgid "Your nick has been logged out."
-msgstr ""
+msgstr "ニックネームはログアウトされました。"
 
 #: language.cpp:316
 msgid "Your nick is already registered; type %R%s DROP first."
-msgstr ""
+msgstr "指定されたニックネームは既に登録されています。まず、%R%s DROPと入力して登録の解除を行ってください。"
 
 #: language.cpp:326
 msgid "Your nick is not grouped to anything, you can't ungroup it."
-msgstr ""
+msgstr "あなたにニックネームはどのグループにも所属していません。グループの所属を解除することは出来ません。"
 
 #: language.cpp:175
 msgid "Your nick isn't registered."
-msgstr ""
+msgstr "あなたのニックネームは未登録です。"
 
 #: language.cpp:360
 msgid "Your nickname has been dropped."
-msgstr ""
+msgstr "ニックネームの登録は解除されました。"
 
 #: language.cpp:284
 #, c-format
 msgid "Your nickname is now being changed to %s"
-msgstr ""
+msgstr "あなたのニックネームは %s に変更されます。"
 
 #: language.cpp:665
 #, c-format
 msgid "Your passcode has been re-sent to %s."
-msgstr ""
+msgstr "あなたのパスコードが %s 宛てに再送信されました。"
 
 #: language.cpp:304
 #, c-format
 msgid "Your password is %s - remember this for later use."
-msgstr ""
+msgstr "あなたのパスワードは %s に設定されています。覚えておいてください。"
 
 #: language.cpp:173
 msgid "Your password is too long. Please try again with a shorter password."
-msgstr ""
+msgstr "パスワードが長すぎます。短いパスワードを試してください。"
 
 #: language.cpp:692
 msgid "Your password reset request has expired."
-msgstr ""
+msgstr "パスワードリセット要求は時間切れです。"
 
 #: language.cpp:5140
 #, c-format
 msgid "Your vhost of %s is now activated."
-msgstr ""
+msgstr "あなたのバーチャルホスト %s を有効化しました。"
 
 #: language.cpp:5142
 #, c-format
 msgid "Your vhost of %s@%s is now activated."
-msgstr ""
+msgstr "あなたのバーチャルホスト %s@%s を有効化しました。"
 
 #: language.cpp:5148
 msgid "Your vhost was removed and the normal cloaking restored."
-msgstr ""
+msgstr "バーチャルホストを削除し、通常の隠匿ホストに変更しました。"
 
 #: language.cpp:2482
 #, c-format
