@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-13 21:00+0900\n"
+"PO-Revision-Date: 2011-01-13 21:30+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -8629,66 +8629,70 @@ msgstr ""
 #: language.cpp:2314
 #, c-format
 msgid "Unable to load module %s"
-msgstr ""
+msgstr "モジュール %s がロードできませんでした。"
 
 #: language.cpp:2316
 #, c-format
 msgid "Unable to remove module %s"
-msgstr ""
+msgstr "モジュール %s がアンロードできませんでした。"
 
 #: language.cpp:402
 #, c-format
 msgid "Unknown SASET option %s."
-msgstr ""
+msgstr "未定義の SASET オプション: %s。"
 
 #: language.cpp:368
 #, c-format
 msgid "Unknown SET option %s."
-msgstr ""
+msgstr "未定義の SET オプション: %s。"
 
 #: language.cpp:1931
 #, c-format
 msgid "Unknown STATS option %s."
-msgstr ""
+msgstr "未定義の STATS オプション: %s。"
 
 #: language.cpp:145
 #, c-format
 msgid "Unknown command %s."
-msgstr ""
+msgstr "不明なコマンド: %s。"
 
 #: language.cpp:147
 msgid "Unknown command %s.  \"%R%s HELP\" for help."
-msgstr ""
+msgstr "不明なコマンド: %s。\"%R%s HELP\" としてヘルプを参照して下さい。"
 
 #: language.cpp:864
 #, c-format
 msgid "Unknown mode character %c ignored."
-msgstr ""
+msgstr "認識できないモードキャラクタ %c を無視しました。"
 
 #: language.cpp:2222
 #, c-format
 msgid "Unknown option %s."
-msgstr ""
+msgstr "未定義のオプション: %s。"
 
 #: language.cpp:1806
 msgid ""
 "Unknown option %s.\n"
 "Type %R%S HELP KICK for more information."
 msgstr ""
+"未定義のオプション: %s。\n"
+"より詳細なヘルプは、%R%S HELP KICK で見る事ができます。"
 
 #: language.cpp:1757
 msgid ""
 "Unknown option %s.\n"
 "Type %R%S HELP SET for more information."
 msgstr ""
+"未定義のオプション: %s。\n"
+"より詳細なヘルプは、%R%S HELP SET で見る事ができます。"
 
 #: language.cpp:5237
 msgid "Updating MySQL."
-msgstr ""
+msgstr "MySQL を更新しています。"
 
 #: language.cpp:2240
 msgid "Updating databases."
-msgstr ""
+msgstr "データベースを更新しています。"
 
 #: language.cpp:2047
 #, c-format
@@ -8698,27 +8702,30 @@ msgstr ""
 #: language.cpp:2045
 #, c-format
 msgid "Uplink server: %s"
-msgstr ""
+msgstr "アップリンクサーバー: %s"
 
 #: language.cpp:5132
 #, c-format
 msgid "User %s not found in the nickserv db."
-msgstr ""
+msgstr "ユーザー %s が nickserv のデータベースに見つかりません。"
 
 #: language.cpp:1961
 #, c-format
 msgid "User          : %6d records, %5d kB"
-msgstr ""
+msgstr "ユーザー数      : %6d レコード, %5d kB"
 
 #: language.cpp:588
 msgid ""
 "User claiming your nick has been killed.\n"
 "%R%s RELEASE %s to get it back before %s timeout."
 msgstr ""
+"あなたのニックネームを要求したユーザーが kill されました。\n"
+"ニックネームを回復するには %R%s RELEASE %s \n"
+"のように入力してください(%s がタイムアウトする前に)。"
 
 #: language.cpp:1913
 msgid "User matches channel except."
-msgstr ""
+msgstr "チャンネル除外にマッチするユーザ"
 
 #: language.cpp:2272
 msgid ""

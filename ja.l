@@ -612,7 +612,7 @@ NICK_SET_DISABLED
 	ご迷惑をおかけしますが、ニックネームオプションの設定は一時無効にされます。
 NICK_SET_UNKNOWN_OPTION
 #	Unknown SET option %s.
-	%s は不明な SET オプションです。
+	未定義の SET オプション: %s。
 NICK_SET_OPTION_DISABLED
 #	Option %s cannot be set on this network.
 	%s オプションは、このネットワークに設定できません。
@@ -782,7 +782,7 @@ NICK_SASET_DISABLED
 	ご迷惑をお掛けします。ニックネームオプションは一時的に無効になります。
 NICK_SASET_UNKNOWN_OPTION
 #	Unknown SASET option %s.
-	%s は不明な SASET オプションです。
+	未定義の SASET オプション: %s。
 NICK_SASET_BAD_NICK
 #	Nickname %s not registered.
 	ニックネーム %s は、登録されませんでした。
@@ -1160,7 +1160,7 @@ NICK_RECOVERED
 #	%R%s RELEASE %s to get it back before %s timeout.
 	あなたのニックネームを要求したユーザーが kill されました。
 	ニックネームを回復するには %R%s RELEASE %s 
-	のように入力してください(%s がタイムアウトする前に)。.
+	のように入力してください(%s がタイムアウトする前に)。
 
 # RELEASE responses
 NICK_RELEASE_SYNTAX
@@ -1540,7 +1540,7 @@ CHAN_SET_DISABLED
 	ご迷惑を掛けて申し訳ございません。一時的にチャンネルオプションを変更することができなくなっています。
 CHAN_SET_UNKNOWN_OPTION
 #	Unknown SET option %s.
-	オプション %s は定義されていません。
+	未定義の SET オプション: %s。
 
 # SET FOUNDER responses
 CHAN_SET_FOUNDER_TOO_MANY_CHANS
@@ -1612,7 +1612,7 @@ CHAN_SET_BANTYPE_CHANGED
 # SET MLOCK responses
 CHAN_SET_MLOCK_UNKNOWN_CHAR
 #	Unknown mode character %c ignored.
-	認識できないモードキャラクタ %c を無視しました。
+	認識できないモードキャラクタ %c を無視しました。UUUU
 CHAN_SET_MLOCK_IMPOSSIBLE_CHAR
 #	Mode %c ignored because you can't lock it.
 	ロック権限が無いのでモード %c を無視しました。
@@ -3027,9 +3027,9 @@ BOT_SET_DISABLED
 BOT_SET_UNKNOWN
 #	Unknown option %s.
 #	Type %R%S HELP SET for more information.
-	ボット機能の SET オプションで %s という引数を使うことはできません。
+	未定義のオプション: %s。
 	より詳細なヘルプは、%R%S HELP SET で見る事ができます。
-	
+
 # SET DONTKICKOPS messages
 BOT_SET_DONTKICKOPS_SYNTAX
 	SET channel DONTKICKOPS {ON|OFF}
@@ -3109,7 +3109,7 @@ BOT_KICK_DISABLED
 BOT_KICK_UNKNOWN
 #	Unknown option %s.
 #	Type %R%S HELP KICK for more information.
-	キック機能のオプション項目に %s という項目はありません。
+	未定義のオプション: %s。
 	より詳細なヘルプは、%R%S HELP KICK で見る事ができます。
 BOT_KICK_BAD_TTB
 	%s cannot be taken as times to ban.
@@ -3272,7 +3272,8 @@ BOT_ACT_SYNTAX
 
 # Errors
 BOT_EXCEPT
-	User matches channel except.
+#	User matches channel except.
+	チャンネル除外にマッチするユーザ
 BOT_BAD_NICK
 #	Bot Nicks may only contain valid nick characters.
 	ボットのニックネームにはニックネームでの使用が許可されている文字を使ってください。
@@ -3310,7 +3311,7 @@ OPER_GLOBAL_SYNTAX
 # STATS responses
 OPER_STATS_UNKNOWN_OPTION
 #	Unknown STATS option %s.
-	STATS オプションに %s が見つかりません。
+	未定義の STATS オプション: %s。
 OPER_STATS_CURRENT_USERS
 #	Current users: %d (%d ops)
 	現在のユーザー数: %d (オペレーター数 %d)
@@ -3932,7 +3933,7 @@ OPER_SET_NOEXPIRE_ERROR
 	NOEXPIRE の setting 引数は ON か OFF のどちらかにしてください。
 OPER_SET_UNKNOWN_OPTION
 #	Unknown option %s.
-	オプション %s は定義されていません。
+	未定義のオプション: %s。
 OPER_SET_SQL_ON
 #	SQL code will be used.
 	SQL コードを使用します。
