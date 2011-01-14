@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-13 21:30+0900\n"
+"PO-Revision-Date: 2011-01-14 19:09+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -8567,6 +8567,11 @@ msgid ""
 "    channel can read that channel's memos.  This can be\n"
 "    changed with the %s LEVELS command."
 msgstr ""
+"%R%S HELP command と入力すれば、上に挙げたコマンドの\n"
+"ヘルプを見ることができます。\n"
+"(*) 初期状態では、チャンネルに参加中で権限レベル 10 以上\n"
+"    のユーザーのみがチャンネルメモを読むことができます。\n"
+"    このレベルは %s LEVELS コマンドで変更できます。"
 
 #: language.cpp:2929
 msgid ""
@@ -8574,18 +8579,25 @@ msgid ""
 "on a specific option. The options will be set on the given\n"
 "nickname."
 msgstr ""
+"それぞれのオプションに関するより詳しい情報は、\n"
+"%R%S HELP SASET option と入力してください。\n"
+"オプションは与えられた nickname に関して設定されます。"
 
 #: language.cpp:3432
 msgid ""
 "Type %R%S HELP SASET option for more information on a\n"
 "particular option."
 msgstr ""
+"夫々のオプションに関するより詳しい情報は\n"
+"%R%S HELP SASET option と入力。"
 
 #: language.cpp:3429
 msgid ""
 "Type %R%S HELP SET option for more information on a\n"
 "particular option."
 msgstr ""
+"夫々のオプションに関するより詳しい情報は\n"
+"%R%S HELP SET option と入力。"
 
 #: language.cpp:342
 msgid ""
@@ -8593,18 +8605,20 @@ msgid ""
 "Your privacy is respected; this e-mail won't be given to\n"
 "any third-party person."
 msgstr ""
+"あなたの電子メールアドレスを設定するには %R%S SET EMAIL e-mail と入力してください。\n"
+"このアドレスは個人情報として扱われて、第三者に渡すことはありません。"
 
 #: language.cpp:1388
 msgid "Type %R%s LIST NEW to list them."
-msgstr ""
+msgstr "%R%s LIST NEW で新着メモのリストが表示されます。"
 
 #: language.cpp:1386
 msgid "Type %R%s READ %d to read it."
-msgstr ""
+msgstr "%R%s READ で最新のメモを読むことができます。"
 
 #: language.cpp:1384
 msgid "Type %R%s READ LAST to read it."
-msgstr ""
+msgstr "%R%s READ LAST で最新のメモを読むことができます。"
 
 #: language.cpp:2053
 msgid "UMODE nick modes"
