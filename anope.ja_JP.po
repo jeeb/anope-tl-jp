@@ -843,22 +843,6 @@ msgstr ""
 "    PRIVATE          IRC オペレーター以外のユーザーによる\n"
 "                        ボット召喚を禁止します。"
 
-#:
-msgid ""
-"\n"
-"Type %R%S HELP command for help on any of the\n"
-"above commands.\n"
-"(*) By default, any user with at least level 10 access on a\n"
-"    channel can read that channel's memos.  This can be\n"
-"    changed with the %s LEVELS command."
-msgstr ""
-"\n"
-"%R%S HELP command と入力すれば、上に挙げたコマンドの\n"
-"ヘルプを見ることができます。\n"
-"(*) 初期状態では、チャンネルに参加中で権限レベル 10 以上\n"
-"    のユーザーのみがチャンネルメモを読むことができます。\n"
-"    このレベルは %s LEVELS コマンドで変更できます。"
-
 #: language.cpp:2650
 #, c-format
 msgid ""
