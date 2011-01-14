@@ -455,7 +455,7 @@ NICK_IS_REGISTERED
 #	This nick is owned by someone else.  Please choose another.
 #	(If this is your nick, type %R%s IDENTIFY password.)
 	このニックネームは既に登録されています。ほかのニックネームにしてください。
-	（もしこのニックネームはあなた自身のものなら %R%s IDENTIFY password と入力してください。)
+	(もしこのニックネームはあなた自身のものなら %R%s IDENTIFY password と入力してください。)
 NICK_IS_SECURE
 #	This nickname is registered and protected.  If it is your
 #	nick, type %R%s IDENTIFY password.  Otherwise,
@@ -474,7 +474,7 @@ FORCENICKCHANGE_IN_20_SECONDS
 	20秒以内にニックネームを変更しない場合、あなたのニックネームは自動的に変更されます。
 FORCENICKCHANGE_NOW
 #	This nickname has been registered; you may not use it.
-	このニックネームは既に使用されています。
+	このニックネームは登録済みのため、使用出来ません。
 FORCENICKCHANGE_CHANGING
 #	Your nickname is now being changed to %s
 	あなたのニックネームは %s に変更されます。
@@ -1093,7 +1093,7 @@ NICK_INFO_FOR_MORE
 	もっと詳しく知りたい場合は %R%s INFO %s ALL と入力してください。
 NICK_INFO_SUSPENDED
 #	This nickname is currently suspended, reason: %s
-	%s という理由により、その使用を一時停止させていただいております。
+	%s という理由により、このニックネームの使用を一時停止させていただいております。
 NICK_INFO_SUSPENDED_NO_REASON
 #	This nickname is currently suspended
 	このニックネームの使用を一時停止させていただいております。
@@ -2198,7 +2198,8 @@ CHAN_INFO_OPTIONS
 #	        Options: %s
 	        オプション: %s
 CHAN_INFO_OPT_KEEPTOPIC
-	Topic Retention
+#	Topic Retention
+	トピック保存
 CHAN_INFO_OPT_OPNOTICE
 	OP Notice
 CHAN_INFO_OPT_PEACE
@@ -2216,7 +2217,8 @@ CHAN_INFO_OPT_SECUREFOUNDER
 CHAN_INFO_OPT_SIGNKICK
 	Signed kicks
 CHAN_INFO_OPT_TOPICLOCK
-	Topic Lock
+#	Topic Lock
+	トピックロック
 CHAN_INFO_OPT_XOP
 	xOP lists system
 CHAN_INFO_OPT_NONE

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-14 19:09+0900\n"
+"PO-Revision-Date: 2011-01-14 19:22+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -8481,30 +8481,32 @@ msgstr ""
 
 #: language.cpp:663
 msgid "This nick has already been requested, please check your e-mail address for the pass code"
-msgstr ""
+msgstr "このニックは現在、だれかが使用中です。あなたの e-mail アドレスとパスコードを確認してください。"
 
 #: language.cpp:669
 msgid "This nick is awaiting an e-mail verification code before completing registration."
-msgstr ""
+msgstr "ニックネーム登録を完了する前に e-mail 確認コードの入力が必要です。"
 
 #: language.cpp:269
 msgid ""
 "This nick is owned by someone else.  Please choose another.\n"
 "(If this is your nick, type %R%s IDENTIFY password.)"
 msgstr ""
+"このニックネームは既に登録されています。ほかのニックネームにしてください。\n"
+"(もしこのニックネームはあなた自身のものなら %R%s IDENTIFY password と入力してください。)"
 
 #: language.cpp:282
 msgid "This nickname has been registered; you may not use it."
-msgstr ""
+msgstr "このニックネームは登録済みのため、使用出来ません。"
 
 #: language.cpp:552
 msgid "This nickname is currently suspended"
-msgstr ""
+msgstr "このニックネームの使用を一時停止させていただいております。"
 
 #: language.cpp:550
 #, c-format
 msgid "This nickname is currently suspended, reason: %s"
-msgstr ""
+msgstr "%s という理由により、このニックネームの使用を一時停止させていただいております。"
 
 #: language.cpp:272
 msgid ""
@@ -8512,52 +8514,57 @@ msgid ""
 "nick, type %R%s IDENTIFY password.  Otherwise,\n"
 "please choose a different nick."
 msgstr ""
+"このニックネームはほかのユーザーに登録されていて保護されています。\n"
+"もしこれはあなた自身のニックネームなら %R%s IDENTIFY password と入力してくさだい。\n"
+"そうでない場合はほかのニックネームにしてください。"
 
 #: language.cpp:276
 msgid "This nickname may not be used.  Please choose another one."
-msgstr ""
+msgstr "指定されたニックネームはお使いになれません。ほかのニックネームにしてください。"
 
 #: language.cpp:548
 msgid "This nickname will not expire."
-msgstr ""
+msgstr "このニックネームには期限はありません。"
 
 #: language.cpp:266
 msgid ""
 "To search for channels starting with #, search for the channel\n"
 "name without the #-sign prepended (anope instead of #anope)."
 msgstr ""
+"#から始まるチャンネルを検索するには、#を前置しないでください。\n"
+"(つまり、#anope の代わりに anope のように指定してください。)"
 
 #: language.cpp:1276
 msgid "Topic Lock"
-msgstr ""
+msgstr "トピックロック"
 
 #: language.cpp:1260
 msgid "Topic Retention"
-msgstr ""
+msgstr "トピック保存"
 
 #: language.cpp:884
 #, c-format
 msgid "Topic lock option for %s is now OFF."
-msgstr ""
+msgstr "チャンネル %s のトピックロックオプションは OFF です。"
 
 #: language.cpp:882
 #, c-format
 msgid "Topic lock option for %s is now ON."
-msgstr ""
+msgstr "チャンネル %s のトピックロックオプションは ON です。"
 
 #: language.cpp:878
 #, c-format
 msgid "Topic retention option for %s is now OFF."
-msgstr ""
+msgstr "チャンネル %s のトピック保存オプションは OFF です。"
 
 #: language.cpp:876
 #, c-format
 msgid "Topic retention option for %s is now ON."
-msgstr ""
+msgstr "チャンネル %s のトピック保存オプションは ON です。"
 
 #: language.cpp:1616
 msgid "Turn caps lock OFF!"
-msgstr ""
+msgstr "caps lock を OFF にしてください！"
 
 #: language.cpp:4190
 msgid ""
