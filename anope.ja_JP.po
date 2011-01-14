@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-14 19:22+0900\n"
+"PO-Revision-Date: 2011-01-14 19:30+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -8456,28 +8456,28 @@ msgstr ""
 
 #: language.cpp:1334
 msgid "This channel has been forbidden."
-msgstr ""
+msgstr "このチャンネルは禁止にされています。"
 
 #: language.cpp:776
 #, c-format
 msgid "This channel has been registered with %s."
-msgstr ""
+msgstr "このチャンネルは既に %s により登録されています。"
 
 #: language.cpp:1344
 msgid "This channel has been suspended."
-msgstr ""
+msgstr "このチャンネルは休止状態です。"
 
 #: language.cpp:778
 msgid "This channel may not be used."
-msgstr ""
+msgstr "このチャンネルは使用されていません。"
 
 #: language.cpp:1286
 msgid "This channel will not expire."
-msgstr ""
+msgstr "このチャンネルはユーザーがいなくなってもなくなりません。"
 
 #: language.cpp:2318
 msgid "This module can not be unloaded."
-msgstr ""
+msgstr "このモジュールはアンロードできません。"
 
 #: language.cpp:663
 msgid "This nick has already been requested, please check your e-mail address for the pass code"

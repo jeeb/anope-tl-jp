@@ -1440,6 +1440,7 @@ CHAN_NOT_ALLOWED_OP
 	このチャンネルは使用できないことがあります。
 CHAN_MAY_NOT_BE_USED
 #	This channel may not be used.
+	このチャンネルは使用されていません。
 CHAN_NOT_ALLOWED_TO_JOIN
 #	You are not permitted to be on this channel.
 	このチャンネルへの参加は許可されていません。
