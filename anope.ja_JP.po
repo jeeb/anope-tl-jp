@@ -53,23 +53,6 @@ msgstr ""
 "より詳細なコマンドについての情報は\n"
 "%R%S HELP command と入力してください。"
 
-#:
-msgid ""
-"%S allows you to \"register\" a nickname and\n"
-"prevent others from using it. The following\n"
-"commands allow for registration and maintenance of\n"
-"nicknames; to use them, type %R%S command.\n"
-"For more information on a specific command, type\n"
-"%R%S HELP command.\n"
-"\n"
-msgstr ""
-"%S を使うとニックネームの登録と、登録済みニックネーム\n"
-"をほかの人に使われることを防ぐことが出来ます。\n"
-"ニックネームの登録とメンテナンスをするには、\n"
-"%R%S command と入力してください。\n"
-"より詳細なコマンドについての情報は\n"
-"%R%S HELP command と入力してください。\n"
-
 #: language.cpp:4837
 msgid ""
 "%S allows you to have a bot on your own channel.\n"
