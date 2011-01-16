@@ -1521,7 +1521,7 @@ msgstr ""
 
 #: language.cpp:2605
 msgid "    SASET      Set SET-options on another nickname"
-msgstr "    SASET      別のニックネームにSETオプションを設定する。"
+msgstr "    SASET      別のニックネームにSETオプションを設定します。"
 
 #: language.cpp:4831
 msgid "    SAY            Makes the bot say the given text on the given channel"
@@ -3850,8 +3850,7 @@ msgstr "チャンネルリストは以上です。"
 msgid "End of list - %d/%d channels shown."
 msgstr "リストはここまで - チャンネル数 %d/%d"
 
-#: language.cpp:560
-#: language.cpp:1288
+#: language.cpp:560 language.cpp:1288
 #, c-format
 msgid "End of list - %d/%d matches shown."
 msgstr "リストの最後 - %d/%d 個のマッチしたエントリ。"
@@ -4990,8 +4989,7 @@ msgstr "#%d というエントリは %s の禁止ワードリストに登録さ�
 msgid "No such entry (#%d) session-limit exception list."
 msgstr "セッション数制限からの除外リストに #%d というエントリはありません。"
 
-#: language.cpp:546
-#: language.cpp:1751
+#: language.cpp:546 language.cpp:1751
 msgid "None"
 msgstr "None"
 
@@ -7692,7 +7690,6 @@ msgstr ""
 "   DEL 2-5,7-9\n"
 "      2から5番と7から8番のメモを削除します。"
 
-
 #: language.cpp:5189
 msgid ""
 "Syntax: DELALL <nick>.\n"
@@ -7825,7 +7822,6 @@ msgstr ""
 "パスワードによって認証する必要があります。(より詳しい\n"
 "情報は%R%S HELP IDENTIFY と入力してください。)"
 
-
 #: language.cpp:3187
 #, c-format
 msgid ""
@@ -7946,7 +7942,6 @@ msgstr ""
 " \n"
 "一部のネットワークでは理由を書くことが必須です。"
 
-
 #: language.cpp:3255
 msgid ""
 "Syntax: FORBID nickname [reason]\n"
@@ -7962,7 +7957,6 @@ msgstr ""
 "状態にします。ニックネームの不正使用に有効かもしれません。\n"
 " \n"
 "一部のネットワークでは reason の指定が不可欠です。"
-
 
 #: language.cpp:3249
 msgid ""
@@ -8357,7 +8351,6 @@ msgstr ""
 "また、ワイルドカードを使うこともできます。\n"
 " \n"
 "IRC オペレーターを無視することはできません。"
-
 
 #: language.cpp:3953
 msgid ""
@@ -8784,7 +8777,6 @@ msgstr ""
 "全ての機能のリストとどのようなレベルが設定できるかに関する\n"
 "詳細は、HELP LEVELS DESC を参照。"
 
-
 #: language.cpp:5210
 msgid ""
 "Syntax: LIST [<key>|<#X-Y>]\n"
@@ -8824,7 +8816,6 @@ msgstr ""
 "する。(PRIVATE オプションが有効になっているチャンネルは\n"
 "リストされません。) #から始まるとそれは範囲を意味します。\n"
 "チャンネル名に#をつける必要はありません。"
-
 
 #: language.cpp:3077
 msgid ""
@@ -8952,7 +8943,6 @@ msgstr ""
 "\t登録破棄期限が設定されていない登録済みニックネームを\n"
 "\t表示。"
 
-
 #: language.cpp:4208
 msgid ""
 "Syntax: LIST [channel] [list | NEW]\n"
@@ -9001,7 +8991,7 @@ msgstr ""
 "接続したときに、これらのメッセージがユーザーに送信される(ただし、\n"
 "ユーザーにこれを flood 攻撃と勘違いさせないために、%d 個以上\n"
 "のメッセージは送信されない。この場合、メッセージは新しいもの\n"
-"から順に送信される。)。NewsCount は services.conf 内で設定する。\n"
+"から順に送信される。)。NewsCount は services.conf 内で設定します。\n"
 "\n"
 "LOGONNEWS はサービス管理者以外は使えない。"
 
@@ -9210,7 +9200,6 @@ msgstr ""
 "与えることができるようにします。フラグは \"+\" か \"-\" で\n"
 "はじめ、フラグを剥奪する場合は \"-\" を使用してください。"
 
-
 #: language.cpp:5178
 msgid ""
 "Syntax: ON\n"
@@ -9336,7 +9325,7 @@ msgstr ""
 "がユーザーに送信される。(ただし、ユーザーにこれを flood 攻撃と勘違い\n"
 "させないために、%d 個以上のメッセージは送信されない。\n"
 "この場合、メッセージは新しいものから順に送信される。)。\n"
-"NewsCount は services.conf 内で設定する。\n"
+"NewsCount は services.conf 内で設定します。\n"
 " \n"
 "OPERNEWS はサービス管理者以外は使えない。"
 
@@ -9435,7 +9424,6 @@ msgstr ""
 "場合を除いて使用するべきではありません。通常の終了の際には\n"
 "SHUTDOWN コマンドを使用してください。"
 
-
 #: language.cpp:2539
 msgid "Syntax: RANDOMNEWS ADD text"
 msgstr ""
@@ -9460,7 +9448,6 @@ msgstr ""
 "接続すると、ランダムニュースの中から1つ、ニュースが無作為に\n"
 "選ばれ、これが送信される。\n"
 "RANDOMNEWS はサービス管理者以外は使えません。"
-
 
 #: language.cpp:2543
 msgid "Syntax: RANDOMNEWS DEL {num | ALL}"
@@ -9811,7 +9798,7 @@ msgid ""
 msgstr ""
 "構文: SASET nickname option parameters.\n"
 "\n"
-"ニックネームに関するオプションを設定する。option は以下の1つ:\n"
+"ニックネームに関するオプションを設定します。option は以下の1つ:\n"
 "\n"
 "    DISPLAY    サービス内でのグループ表示状態の設定\n"
 "    PASSWORD   ニックネームパスワードの設定\n"
@@ -9873,8 +9860,7 @@ msgid ""
 " \n"
 "Associates the given E-mail address with the nickname."
 msgstr ""
-"構文: SASET nickname EMAIL address"
-" \n"
+"構文: SASET nickname EMAIL address \n"
 "ニックネームと電子メールアドレスを紐付けます。"
 
 #: language.cpp:2946
@@ -9914,7 +9900,6 @@ msgstr ""
 "切断メッセージ(QUIT)を非表示に出来ます。\n"
 "二番目のパラメータで表示するか(OFF)、隠すか(ON)を\n"
 "指定します。"
-
 
 #. merged with ja.l
 msgid ""
@@ -10321,7 +10306,7 @@ msgid ""
 msgstr ""
 "構文: SET channel BANTYPE bantype\n"
 "\n"
-"バンタイプを設定する。サービスによってあなたのチャンネル\n"
+"バンタイプを設定します。サービスによってあなたのチャンネル\n"
 "から誰かをbanするときに、このタイプ分けが使われる。\n"
 "バンタイプは0から3の整数で表現される:\n"
 "\n"
@@ -10339,7 +10324,7 @@ msgid ""
 msgstr ""
 "構文: SET channel DESC description\n"
 "\n"
-"チャンネルの説明を設定する。この説明は\n"
+"チャンネルの説明を設定します。この説明は\n"
 "LIST と INFO コマンドで見ることが出来る。"
 
 #: language.cpp:4889
@@ -10400,7 +10385,7 @@ msgstr ""
 "構文: SET channel ENTRYMSG [message]\n"
 "\n"
 "ユーザーがチャンネルに入ったときの/notice 経由で送信する\n"
-"ユーザー宛メッセージを設定する。パラメータが無い場合、\n"
+"ユーザー宛メッセージを設定します。パラメータが無い場合、\n"
 "チャンネルに入ったときにメッセージを送らない。"
 
 #: language.cpp:4901
@@ -10518,7 +10503,7 @@ msgid ""
 msgstr ""
 "構文: SET channel MLOCK modes\n"
 "\n"
-"チャンネルのモードロックパラメータを設定する。\n"
+"チャンネルのモードロックパラメータを設定します。\n"
 "%S は、あるチャンネルモードを常にONにするかOFFにするか、\n"
 "自由に変更できるようにするかを定義することを可能にする。\n"
 "\n"
@@ -10572,7 +10557,7 @@ msgid ""
 msgstr ""
 "構文: SET channel NOEXPIRE {ON | OFF}\n"
 " \n"
-"与えられたチャンネルの登録を抹消するかどうか設定する。\n"
+"与えられたチャンネルの登録を抹消するかどうか設定します。\n"
 "ONの場合はチャンネル登録を抹消できなくなります。"
 
 #. merged with ja.l
@@ -10600,7 +10585,7 @@ msgid ""
 msgstr ""
 "構文: SET channel PASSWORD password\n"
 "\n"
-"チャンネルの創始者を認証するためのパスワードを設定する。"
+"チャンネルの創始者を認証するためのパスワードを設定します。"
 
 #. merged with ja.l
 msgid ""
@@ -10869,7 +10854,7 @@ msgid ""
 msgstr ""
 "構文: SET option parameters\n"
 "\n"
-"ニックネームに関するオプションを設定する。option は以下の1つ:\n"
+"ニックネームに関するオプションを設定します。option は以下の1つ:\n"
 "\n"
 "    DISPLAY    サービス内でのグループ表示状態の設定\n"
 "    PASSWORD   ニックネームパスワードの設定\n"
@@ -10922,7 +10907,6 @@ msgstr ""
 "\n"
 "それぞれのオプションについて、%R%S HELP SET option\n"
 "と入力すれば、より詳しい情報を見ることができます。"
-
 
 #: language.cpp:4672
 msgid ""
@@ -11220,7 +11204,6 @@ msgstr ""
 "\n"
 "あなたとサービスとの通信方法を選択できます。MSG がセットされると、\n"
 "サービスは messages を使用しますが、されなければ notices を使います。"
-
 
 #: language.cpp:4706
 msgid ""
@@ -12051,7 +12034,7 @@ msgid ""
 msgstr ""
 "構文: UNBAN channel\n"
 " \n"
-"%S が与えられたチャンネルにあなた又は指定されたユーザが入る\n"
+"%S が与えられたチャンネルにあなた又は指定されたユーザーが入る\n"
 "ことを妨げる全てのbanを削除します。\n"
 " \n"
 "初期状態では、このコマンドは AOP でレベル5以上のアクセス\n"
@@ -12079,7 +12062,6 @@ msgstr ""
 " \n"
 "一時停止状態のチャンネルを破棄する。ただし、全てのデータと\n"
 "設定は保存される。"
-
 
 #: language.cpp:4748
 msgid ""
@@ -12212,7 +12194,6 @@ msgstr ""
 "より詳しい情報が見れます。アクセスリストと xOP リストを\n"
 "切り替える方法に関する詳細は %R%S HELP SET XOP\n"
 "と入力してください。"
-
 
 #: language.cpp:3376
 msgid ""
@@ -12811,7 +12792,7 @@ msgstr ""
 
 #: language.cpp:1913
 msgid "User matches channel except."
-msgstr "チャンネル除外にマッチするユーザ"
+msgstr "チャンネル除外にマッチするユーザー"
 
 #: language.cpp:2272
 msgid ""
@@ -13283,7 +13264,7 @@ msgstr "[ログオンニュース - %s] %s"
 #: language.cpp:2484
 #, c-format
 msgid "[Oper News - %s] %s"
-msgstr "[オペレータニュース - %s] %s"
+msgstr "[オペレーターニュース - %s] %s"
 
 #: language.cpp:2486
 #, c-format
@@ -13397,4 +13378,3 @@ msgstr "チャンネル %s の xOP リストシステムは ON です。"
 #: language.cpp:962
 msgid "xOP system is not available."
 msgstr "xOP リストシステムは無効化されています。"
-
