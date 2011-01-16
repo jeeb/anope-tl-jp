@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-14 19:30+0900\n"
+"PO-Revision-Date: 2011-01-17 02:18+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-Language: Japanese\n"
 "X-Poedit-Country: JAPAN\n"
 
-#:
+#. merged with ja.l
 msgid ""
 "%R%s HELP\n"
 "     for information on setting up a bot on your channel"
@@ -25,7 +25,7 @@ msgstr ""
 "%R%s HELP\n"
 "     自分のチャンネルにボットを設置する事についての情報。"
 
-#:
+#. merged with ja.l
 msgid ""
 "%R%s HELP\n"
 "     for information on setting up nick vHosts"
@@ -33,7 +33,7 @@ msgstr ""
 "%R%s HELP\n"
 "     仮想ホストを設置する事についての情報。"
 
-#:
+#. merged with ja.l
 msgid "%R%s HELP %s for more information."
 msgstr "%R%s HELP %s として詳細な情報を得てください。"
 
@@ -90,7 +90,7 @@ msgstr ""
 "コマンドに対するより詳しい情報は%R%S HELP command\n"
 "と入力してください。"
 
-#:
+#. merged with ja.l
 msgid ""
 "%S is a service designed to give out information on\n"
 "Services.  Help topics are accessible via \n"
@@ -176,11 +176,11 @@ msgstr "%s をチャンネル %s の自動キックリストに追加しまし
 msgid "%s added to %s bad words list."
 msgstr "%s が %s の禁止ワードリストに登録されました。"
 
-#:
+#. merged with ja.l
 msgid "%s added to Services admin list."
 msgstr "%s がサービス管理者リストに登録されました。"
 
-#:
+#. merged with ja.l
 msgid "%s added to Services operator list."
 msgstr "%s がサービスオペレーターリストに登録されました。"
 
@@ -189,7 +189,7 @@ msgstr "%s がサービスオペレーターリストに登録されました�
 msgid "%s added to the AKILL list."
 msgstr "%s が AKILL リストに登録されました。"
 
-#:
+#. merged with ja.l
 msgid "%s added to the SGLINE list."
 msgstr "%s が SGLINE リストに登録されました。"
 
@@ -223,11 +223,11 @@ msgstr "%s は既に %s の禁止ワードリストに登録されています
 msgid "%s already exists on %s autokick list."
 msgstr "%s は既にチャンネル %s の自動キックリストに登録済みです。"
 
-#:
+#. merged with ja.l
 msgid "%s already exists on Services admin list."
 msgstr "%s は既にサービス管理者リストに登録されています。"
 
-#:
+#. merged with ja.l
 msgid "%s already exists on Services operator list."
 msgstr "%s は既にサービスオペレーターリストに登録されています。"
 
@@ -241,7 +241,7 @@ msgstr "%s は既に AKILL リストに登録されています。"
 msgid "%s already exists on the EXCEPTION list."
 msgstr "%s は既にセッション数制限からの除外リストに登録済みです。"
 
-#:
+#. merged with ja.l
 msgid "%s already exists on the SGLINE list."
 msgstr "%s は既に SGLINE リストに登録されています。"
 
@@ -319,11 +319,11 @@ msgstr "チャンネル %s の自動キックリストから %s を削除し�
 msgid "%s deleted from %s bad words list."
 msgstr "%s が %s の禁止ワードリストから削除されました。"
 
-#:
+#. merged with ja.l
 msgid "%s deleted from Services admin list."
 msgstr "%s がサービス管理者リストから削除されました。"
 
-#:
+#. merged with ja.l
 msgid "%s deleted from Services operator list."
 msgstr "%s がサービスオペレーターリストから削除されました。"
 
@@ -337,7 +337,7 @@ msgstr "セッション数制限からの除外リストから %s というエ
 msgid "%s deleted from the AKILL list."
 msgstr "%s が AKILL リストから削除されました。"
 
-#:
+#. merged with ja.l
 msgid "%s deleted from the SGLINE list."
 msgstr "%s が SGLINE リストから削除されました。"
 
@@ -371,11 +371,11 @@ msgstr "チャンネル %s にてアクセスレベル%s の使用を禁止し
 msgid "%s has been invited to %s."
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "%s has been moved to Services Administrators list."
 msgstr "%s がサービス管理者リストに移動されました。"
 
-#:
+#. merged with ja.l
 msgid "%s has been moved to Services Operators list."
 msgstr "%s がサービスオペレーターリストに移動されました。"
 
@@ -494,11 +494,11 @@ msgstr "チャンネル %s の自動キックリストに %s は見つかり�
 msgid "%s not found on %s bad words list."
 msgstr "%s は %s の禁止ワードリストに登録されていません。"
 
-#:
+#. merged with ja.l
 msgid "%s not found on Services admin list."
 msgstr "%s はサービス管理者リストに登録されていません。"
 
-#:
+#. merged with ja.l
 msgid "%s not found on Services operator list."
 msgstr "%s はサービスオペレーターリストに登録されていません。"
 
@@ -517,7 +517,7 @@ msgstr "セッション数制限からの除外リストに %s というエン
 msgid "%s not found on the AKILL list."
 msgstr "%s は AKILL リストに登録されていません。"
 
-#:
+#. merged with ja.l
 msgid "%s not found on the SGLINE list."
 msgstr "%s は SGLINE リストに登録されていません。"
 
@@ -643,7 +643,7 @@ msgstr "[auto-memo] あなたが送信したメモが開封されました。"
 msgid "[auto-memo] The memo you sent to %s has been viewed."
 msgstr "[auto-memo] あなたが %s 宛てに送信したメモが開封されました。"
 
-#:
+#. merged with ja.l
 msgid ""
 "\n"
 "Limited to Host Removers."
@@ -651,7 +651,7 @@ msgstr ""
 "\n"
 "Host Removers の権限が必要です。"
 
-#:
+#. merged with ja.l
 msgid ""
 "\n"
 "Limited to Host Setters."
@@ -659,7 +659,7 @@ msgstr ""
 "\n"
 "Host Setters の権限が必要です。"
 
-#:
+#. merged with ja.l
 msgid ""
 "\n"
 "Limited to IRC Operators."
@@ -667,7 +667,7 @@ msgstr ""
 "\n"
 "IRC オペレーター の権限が必要です。"
 
-#:
+#. merged with ja.l
 msgid ""
 "\n"
 "Limited to Services Administrators."
@@ -675,7 +675,7 @@ msgstr ""
 "\n"
 "サービス管理者 の権限が必要です。"
 
-#:
+#. merged with ja.l
 msgid ""
 "\n"
 "Limited to Services Operators."
@@ -683,7 +683,7 @@ msgstr ""
 "\n"
 "サービスオペレーター の権限が必要です。"
 
-#:
+#. merged with ja.l
 msgid ""
 "\n"
 "Limited to Services Roots."
@@ -691,7 +691,7 @@ msgstr ""
 "\n"
 "サービスルート の権限が必要です。"
 
-#:
+#. merged with ja.l
 msgid ""
 "\n"
 "Services admins can also set the option NOEXPIRE, with\n"
@@ -705,7 +705,7 @@ msgstr ""
 "加えて、サービス管理者はチャンネルパスワードによる\n"
 "認証無しにチャンネルオプションを設定することが出来ます。"
 
-#:
+#. merged with ja.l
 msgid ""
 "\n"
 "Services admins can use the ALL parameter with any channel."
@@ -714,7 +714,7 @@ msgstr ""
 "サービス管理者はどんなチャンネルに対しても\n"
 "ALLパラメータを使うことが出来ます。"
 
-#:
+#. merged with ja.l
 msgid ""
 "\n"
 "Services admins may use the ALL parameter with any nick."
@@ -764,11 +764,11 @@ msgstr ""
 "登録を破棄できます。また、ニックネームのアクセスリスト\n"
 "を観覧することが出来ます(%R%S ACCESS LIST nick)。"
 
-#:
+#. merged with ja.l
 msgid "              URL: %s"
 msgstr "URL: %s"
 
-#:
+#. merged with ja.l
 msgid "            ICQ #: %d"
 msgstr "ICQ番号 : %d"
 
@@ -777,7 +777,7 @@ msgstr "ICQ番号 : %d"
 msgid "            Options : %s"
 msgstr "            オプション : %s"
 
-#:
+#. merged with ja.l
 msgid "            URL: %s"
 msgstr "            URL: %s"
 
@@ -825,11 +825,11 @@ msgstr "     大文字キッカー : %s (minimum %d/%d%%)"
 msgid "        Founder: %s"
 msgstr "        設立者: %s"
 
-#:
+#. merged with ja.l
 msgid "        Founder: %s (%s)"
 msgstr "        設立者: %s (%s)"
 
-#:
+#. merged with ja.l
 msgid "        Options: %s"
 msgstr "        オプション: %s"
 
@@ -913,7 +913,7 @@ msgstr "   繰り返しキッカー : %s (%d 回でキック)"
 msgid "      Successor: %s"
 msgstr "      後継者: %s"
 
-#:
+#. merged with ja.l
 msgid "      Successor: %s (%s)"
 msgstr "      後継者: %s (%s)"
 
@@ -962,7 +962,7 @@ msgstr "    %-*s  (disabled)"
 msgid "    %-*s  (founder only)"
 msgstr "    %-*s  (founder only)"
 
-#:
+#. merged with ja.l
 msgid "    %-20s  %s"
 msgstr "    %-20s  %s"
 
@@ -978,11 +978,11 @@ msgstr "    ACCESS     特権ユーザーのリストを変更する。"
 msgid "    ACT            Makes the bot do the equivalent of a \"/me\" command"
 msgstr "    ACT            ボットを\"/me\"コマンドと同様に発言させます。"
 
-#:
+#. merged with ja.l
 msgid "    ADMIN       Modify the Services admin list"
 msgstr "    ADMIN       サービス管理者のリストを変更します。"
 
-#:
+#. merged with ja.l
 msgid "    ADMIN      Protects a selected nick on a channel"
 msgstr "    ADMIN      あるチャンネルの指定されたニックネームを保護する。"
 
@@ -1067,7 +1067,7 @@ msgstr "    CONFIRM    NickServの証明コード（auth code）を確認する�
 msgid "    Created : %s"
 msgstr "   召喚日時 : %s"
 
-#:
+#. merged with ja.l
 msgid "    DEADMIN    Deprotects a selected nick on a channel"
 msgstr "    DEADMIN    あるチャンネルの指定されたニックネームを保護しないようにする。"
 
@@ -1170,7 +1170,7 @@ msgstr "    GETEMAIL   指定されたメールアドレスで登録されてる
 msgid "    GETKEY     Returns the key of the given channel"
 msgstr "    GETKEY     指定されたチャンネルのキーを返す。"
 
-#:
+#. merged with ja.l
 msgid "    GETPASS    Retrieve the founder password for a channel"
 msgstr "    GETPASS    チャンネルの創始者パスワードを表示する。"
 
@@ -1275,7 +1275,7 @@ msgstr "    KICK       あるチャンネルから指定したニックネーム
 msgid "    KILL       Turn protection on or off"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "    KILLCLONES  Kill all users that have a certain host"
 msgstr "    KILLCLONES  あるホストからの接続を全てKILLします。"
 
@@ -1319,7 +1319,7 @@ msgstr "    LOGONNEWS   ログオン時に表示するメッセージを編集�
 msgid "    LOGOUT     Reverses the effect of the IDENTIFY command"
 msgstr "    LOGOUT     IDENTIFYコマンドの効果を取り消す。"
 
-#:
+#. merged with ja.l
 msgid "    LOGOUT     This command will logout the selected nickname"
 msgstr "    LOGOUT     指定されたニックネームをログアウトさせる。"
 
@@ -1390,7 +1390,7 @@ msgstr "    ON          登録済みのバーチャルホストを使います�
 msgid "    OP         Gives Op status to a selected nick on a channel"
 msgstr "    OP         あるチャンネルにいる指定されたニックネームの管理者状態を返す。"
 
-#:
+#. merged with ja.l
 msgid "    OPER        Modify the Services operator list"
 msgstr "    OPER        サービスオペレーターのリストを変更します。"
 
@@ -1469,7 +1469,7 @@ msgstr "    READ   メモを読む"
 msgid "    RECOVER    Kill another user who has taken your nick"
 msgstr "    RECOVER    貴方のニックネームを使っているユーザーを殺す(KILL)。"
 
-#:
+#. merged with ja.l
 msgid "    REGISTER   Register a channel"
 msgstr "    REGISTER   チャンネルを登録する。"
 
@@ -1556,7 +1556,7 @@ msgstr "    SENDALL  登録済みのユーザー全員にメモを送信"
 msgid "    SENDPASS   Forgot your password? Try this"
 msgstr "    SENDPASS   パスワードを登録してるメールアドレスに送る。"
 
-#:
+#. merged with ja.l
 msgid "    SENDPASS   Help retrieve lost passwords"
 msgstr "    SENDPASS   紛失したパスワードを回復する。"
 
@@ -1592,7 +1592,7 @@ msgstr "    SET    メモに関するオプションの設定"
 msgid "    SETALL      Set the vhost for all nicks in a group"
 msgstr "    SETALL      グループ内のユーザー全員のバーチャルホストを設定します"
 
-#:
+#. merged with ja.l
 msgid "    SGLINE      Manipulate the SGLINE list"
 msgstr "    SGLINE      SGLINE リストを編集します。"
 
@@ -1688,7 +1688,7 @@ msgstr "    UNASSIGN       ボットをチャンネルから削除します。"
 msgid "    UNBAN      Remove all bans preventing a user from entering a channel"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "    UNBAN      Remove all bans preventing you from entering a channel"
 msgstr "    UNBAN      自分が入れないあるチャンネルのバンをすべて削除する。"
 
@@ -1735,11 +1735,11 @@ msgstr "    VOP        あるチャンネルのVOP(発言可能なユーザー)�
 msgid "    XOP           Toggle the user privilege system"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "   %c%s"
 msgstr "   %c%s"
 
-#:
+#. merged with ja.l
 msgid "   %c%s (expires in %s)"
 msgstr "   %c%s (%s 後に解除予定)"
 
@@ -1793,7 +1793,7 @@ msgstr "  %3d   %-30s %s"
 msgid "  %3d   %-32s  %s"
 msgstr "  %3d   %-32s  %s"
 
-#:
+#. merged with ja.l
 msgid "  %3d   %s"
 msgstr "  %3d   %s"
 
@@ -1876,7 +1876,7 @@ msgstr " %c %s  %s"
 msgid " %c %s  %s [%s]"
 msgstr " %c %s  %s [%s]"
 
-#:
+#. merged with ja.l
 msgid " E-mail address: %s"
 msgstr " E-mail アドレス: %s"
 
@@ -1969,15 +1969,15 @@ msgstr "%6d    %s"
 msgid "%S commands:"
 msgstr "%S 機能に関するコマンド:"
 
-#:
+#. merged with ja.l
 msgid "%a %b %d %Y"
 msgstr "%Y年%b月%d日(%a)"
 
-#:
+#. merged with ja.l
 msgid "%b %d %H:%M:%S %Y %Z"
 msgstr "%Y年%b月%d日(%a) %H時%M分%S秒 %Z"
 
-#:
+#. merged with ja.l
 msgid "%b %d %Y"
 msgstr "%Y/%b/%d"
 
@@ -2056,7 +2056,7 @@ msgstr "チャンネル %s の VOP リストは空です。"
 msgid "%s access list is empty."
 msgstr "チャンネル %s のアクセスリストは空です。"
 
-#:
+#. merged with ja.l
 msgid "%s administrators."
 msgstr "チャンネル %s の管理人。"
 
@@ -2155,7 +2155,7 @@ msgstr "%s 宛ての新着メモはありません。"
 msgid "%s is %s"
 msgstr "%s の「本名」は %s です。"
 
-#:
+#. merged with ja.l
 msgid "%s is a services admin."
 msgstr "%sは準サービス管理者です。"
 
@@ -2164,11 +2164,11 @@ msgstr "%sは準サービス管理者です。"
 msgid "%s is a services operator of type %s."
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "%s is a services operator."
 msgstr "%sはサービス・オペレーターです。"
 
-#:
+#. merged with ja.l
 msgid "%s is a services root administrator."
 msgstr "%sはサービス管理者です。"
 
@@ -2197,7 +2197,7 @@ msgstr "%s が有効化されました。"
 msgid "%s is no longer a Super-Admin"
 msgstr "%s は Super-Admin ではありません。"
 
-#:
+#. merged with ja.l
 msgid "%s is not a valid number.\n"
 msgstr "%s は有効な値ではありません。\n"
 
@@ -2226,23 +2226,23 @@ msgstr "%s 宛の新着メモの到着を受信時にお知らせします。"
 msgid "%s is now a Super-Admin"
 msgstr "%s が現在の Super-Admin です。"
 
-#:
+#. merged with ja.l
 msgid "%s is on the channel right now (as %s) ! "
 msgstr "たった今、%s が %s としてこのチャンネルに参加しました!"
 
-#:
+#. merged with ja.l
 msgid "%s is on the channel right now!"
 msgstr "たった今、%s がこのチャンネルに参加しました!"
 
-#:
+#. merged with ja.l
 msgid "%s password changed to %s."
 msgstr "%s のパスワードを %s に変更しました。"
 
-#:
+#. merged with ja.l
 msgid "%s password changed."
 msgstr "%s のパスワードを変更しました。"
 
-#:
+#. merged with ja.l
 msgid "%s was last seen here %s ago."
 msgstr "%s がこのチャンネルにいたのは %s 前です。"
 
@@ -2323,7 +2323,7 @@ msgstr "* メッセージを出さずに、全てのオペレーターでない�
 msgid "* Use the reduced session limit of %d"
 msgstr "* セッション数制限を %d に減らします。"
 
-#:
+#. merged with ja.l
 msgid ", "
 msgstr ", "
 
@@ -2384,7 +2384,7 @@ msgstr "ACCESS {ADD | DEL | LIST} [ホスト・マスク]"
 msgid "ACT channel text"
 msgstr "ACT channel text"
 
-#:
+#. merged with ja.l
 msgid "ADMIN {ADD|DEL|LIST|CLEAR} [nick | entry-list]"
 msgstr "ADMIN {ADD|DEL|LIST|CLEAR} [nick | entry-list]"
 
@@ -2405,7 +2405,7 @@ msgstr "AKILL リストが空です。"
 msgid "AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]"
 msgstr "AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]"
 
-#:
+#. merged with ja.l
 msgid "ALIST nickname"
 msgstr "ALIST nickname"
 
@@ -2569,7 +2569,7 @@ msgstr "ランダムニュースを全て削除しました。"
 msgid "All users have been kicked from channel %s."
 msgstr "チャンネル %s からすべてのユーザーをキックしました。"
 
-#:
+#. merged with ja.l
 msgid "All users identified have been logged out of channel %s (except the channel founder)."
 msgstr "チャンネルを作ったユーザーを除く指定されたユーザー全員がチャンネル %s からログアウトしました。"
 
@@ -3254,7 +3254,7 @@ msgstr ""
 msgid "Channel operator status disallowed"
 msgstr "チャンネルオペレーター状態にはなれません。"
 
-#:
+#. merged with ja.l
 msgid "Channel password (%s)"
 msgstr "チャンネルパスワード (%s)"
 
@@ -3275,7 +3275,7 @@ msgstr ""
 "あなたがアクセスしているチャンネル:\n"
 " 番号  チャンネル           レベル   備考"
 
-#:
+#. merged with ja.l
 msgid "Could not find user %s.\n"
 msgstr "ニックネーム %s のユーザーが見つかりませんでした。\n"
 
@@ -3294,11 +3294,11 @@ msgstr "ニック %s を使用禁止にできませんでした。"
 msgid "Couldn't release channel %s!"
 msgstr "チャンネル %s をリリースできません!"
 
-#:
+#. merged with ja.l
 msgid "Couldn't release nick %s!"
 msgstr "ニック %s の登録を解除できませんでした！"
 
-#:
+#. merged with ja.l
 msgid "Couldn't suspend nick %s!"
 msgstr "ニック %s を使用禁止にできませんでした！"
 
@@ -3323,11 +3323,11 @@ msgstr ""
 msgid "Current Module list:"
 msgstr "現在のモジュールリスト:"
 
-#:
+#. merged with ja.l
 msgid "Current SGLINE list:"
 msgstr "現在の SGLINE リスト:"
 
-#:
+#. merged with ja.l
 msgid ""
 "Current SGLINE list:\n"
 "  Num   Mask                              Reason"
@@ -3378,7 +3378,7 @@ msgstr "現在のセッション数制限からの除外リスト:"
 msgid "Current number of AKILLs: %d"
 msgstr "現在までに AKILL した数 : %d"
 
-#:
+#. merged with ja.l
 msgid "Current number of SGLINEs: %d"
 msgstr "現在の SGLINE 数         : %d"
 
@@ -3473,31 +3473,31 @@ msgstr "AKILL 失効時間の初期値   : 1 分"
 msgid "Default AKILL expiry time: No expiration"
 msgstr "AKILL 失効時間の初期値   : 未設定"
 
-#:
+#. merged with ja.l
 msgid "Default SGLINE expiry time: %d days"
 msgstr "SGLINE 失効時間の初期値   : %d 日"
 
-#:
+#. merged with ja.l
 msgid "Default SGLINE expiry time: %d hours"
 msgstr "SGLINE 失効時間の初期値   : %d 時間"
 
-#:
+#. merged with ja.l
 msgid "Default SGLINE expiry time: %d minutes"
 msgstr "SGLINE 失効時間の初期値   : %d 分"
 
-#:
+#. merged with ja.l
 msgid "Default SGLINE expiry time: 1 day"
 msgstr "SGLINE 失効時間の初期値   : 1 日"
 
-#:
+#. merged with ja.l
 msgid "Default SGLINE expiry time: 1 hour"
 msgstr "SGLINE 失効時間の初期値   : 1 時間"
 
-#:
+#. merged with ja.l
 msgid "Default SGLINE expiry time: 1 minute"
 msgstr "SGLINE 失効時間の初期値   : 1 分"
 
-#:
+#. merged with ja.l
 msgid "Default SGLINE expiry time: No expiration"
 msgstr "SGLINE 失効時間の初期値   : 未設定"
 
@@ -3634,11 +3634,11 @@ msgstr "チャンネル %2$s の自動キックリストからエントリを %1
 msgid "Deleted %d entries from %s bad words list."
 msgstr "%d 個のエントリが %s の禁止ワードリストから削除されました。"
 
-#:
+#. merged with ja.l
 msgid "Deleted %d entries from Services admin list."
 msgstr "%d 個のエントリがサービス管理者リストから削除されました。"
 
-#:
+#. merged with ja.l
 msgid "Deleted %d entries from Services operator list."
 msgstr "%d 個のエントリがサービスオペレーターリストから削除されました。"
 
@@ -3652,7 +3652,7 @@ msgstr "セッション数制限からの除外リストから %d 個のエン�
 msgid "Deleted %d entries from the AKILL list."
 msgstr "%d 個のエントリが AKILL リストから削除されました。"
 
-#:
+#. merged with ja.l
 msgid "Deleted %d entries from the SGLINE list."
 msgstr "%d 個のエントリが SGLINE リストから削除されました。"
 
@@ -3711,11 +3711,11 @@ msgstr "チャンネル %s の自動キックリストからエントリを 1 �
 msgid "Deleted 1 entry from %s bad words list."
 msgstr "1個のエントリが %s の禁止ワードリストから削除されました。"
 
-#:
+#. merged with ja.l
 msgid "Deleted 1 entry from Services admin list."
 msgstr "1 個のエントリがサービス管理者リストから削除されました。"
 
-#:
+#. merged with ja.l
 msgid "Deleted 1 entry from Services operator list."
 msgstr "1 個のエントリがサービスオペレーターリストから削除されました。"
 
@@ -3727,7 +3727,7 @@ msgstr "セッション数制限からの除外リストから 1 個のエント
 msgid "Deleted 1 entry from the AKILL list."
 msgstr "1 個のエントリが AKILL リストから削除されました。"
 
-#:
+#. merged with ja.l
 msgid "Deleted 1 entry from the SGLINE list."
 msgstr "1 個のエントリが SGLINE リストから削除されました。"
 
@@ -3788,7 +3788,7 @@ msgstr "このチャンネルで \"%s\" という単語は使わないでくだ�
 msgid "Don't use underlines on this channel!"
 msgstr "このチャンネルでは下線を使わないでください！"
 
-#:
+#. merged with ja.l
 msgid "E-mail address changed to %s."
 msgstr "メールアドレスを %s に変更しました。"
 
@@ -3811,15 +3811,15 @@ msgstr "電子メール・アドレスの設定を外しました。"
 msgid "E-mail for %s is invalid."
 msgstr "%s への電子メールは無効です。"
 
-#:
+#. merged with ja.l
 msgid "EXCEPTION ADD [+expiry] mask limit reason"
 msgstr "EXCEPTION ADD [+expiry] mask limit reason"
 
-#:
+#. merged with ja.l
 msgid "EXCEPTION DEL {mask | list}"
 msgstr "EXCEPTION DEL {mask | list}"
 
-#:
+#. merged with ja.l
 msgid "EXCEPTION MOVE num position"
 msgstr "EXCEPTION MOVE num position"
 
@@ -3874,7 +3874,7 @@ msgstr "チャンネル %s のエントリメッセージを変更しました�
 msgid "Entry message for %s unset."
 msgstr "チャンネル %s のエントリメッセージを未設定に戻しました。"
 
-#:
+#. merged with ja.l
 msgid "Error during init of SQL, check your logs to correct."
 msgstr "SQL の初期化中にエラーが発生しました。解決のためにログを確認してください。"
 
@@ -3938,7 +3938,7 @@ msgstr "チャンネル %s でファンタジーモードが 無効化 され�
 msgid "Fantasy mode is now ON on channel %s."
 msgstr "チャンネル %s でファンタジーモードが 有効化 されました。"
 
-#:
+#. merged with ja.l
 msgid "For more verbose information, type %R%s INFO %s ALL."
 msgstr "もっと詳しく知りたい場合は %R%s INFO %s ALL と入力してください。"
 
@@ -3955,7 +3955,7 @@ msgstr "GETEMAIL user@email-host No WildCards!!"
 msgid "GETKEY channel"
 msgstr "GETKEY channel"
 
-#:
+#. merged with ja.l
 msgid "GETPASS channel"
 msgstr "GETPASS channel"
 
@@ -3987,7 +3987,7 @@ msgstr "あなたのニックネームを使っていたゴーストが kill さ
 msgid "Greet"
 msgstr "挨拶"
 
-#:
+#. merged with ja.l
 msgid "Greet message changed to %s."
 msgstr "挨拶メッセージを %s に変更しました。"
 
@@ -4005,7 +4005,7 @@ msgstr "%s のグリートメッセージは %s に変更されました。"
 msgid "Greet message for %s unset."
 msgstr "%s のグリートメッセージは解除されました。"
 
-#:
+#. merged with ja.l
 msgid "Greet message unset."
 msgstr "挨拶メッセージの設定を外しました。"
 
@@ -4036,7 +4036,7 @@ msgstr ""
 "チャンネル %s の HOP リスト:\n"
 "  番号 ニックネーム"
 
-#:
+#. merged with ja.l
 msgid "Hi %s"
 msgstr "やぁ %s"
 
@@ -4052,7 +4052,7 @@ msgid ""
 "%s"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "Hi,"
 msgstr "こんにちわ。"
 
@@ -4103,35 +4103,35 @@ msgstr "HostServ      : %6d レコード, %5d kB"
 msgid "Hosts with at least %d sessions:"
 msgstr "セッション数が %d 以上のホスト:"
 
-#:
+#. merged with ja.l
 msgid "I don't know who %s is."
 msgstr "%s って誰ですか？"
 
-#:
+#. merged with ja.l
 msgid "I've never seen %s on this channel."
 msgstr "%s は今までこのチャンネルに参加したことがないようです。"
 
-#:
+#. merged with ja.l
 msgid "ICQ number for %s set to %s."
 msgstr "%s のICQナンバーは %s に設定されました。"
 
-#:
+#. merged with ja.l
 msgid "ICQ number for %s unset."
 msgstr "%s のICQナンバーは解除されました。"
 
-#:
+#. merged with ja.l
 msgid "ICQ number set to %s."
 msgstr "ICQ番号を %s に変更しました。"
 
-#:
+#. merged with ja.l
 msgid "ICQ number unset."
 msgstr "ICQ番号の設定を外しました。"
 
-#:
+#. merged with ja.l
 msgid "IDENTIFY channel password"
 msgstr "IDENTIFY チャンネル パスワード"
 
-#:
+#. merged with ja.l
 msgid "IDENTIFY password"
 msgstr "IDENTIFY パスワード"
 
@@ -4147,7 +4147,7 @@ msgstr "IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]"
 msgid "INFO channel"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "INFO channel [ALL]"
 msgstr "INFO channel [ALL]"
 
@@ -4155,15 +4155,15 @@ msgstr "INFO channel [ALL]"
 msgid "INFO nick"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "INFO nick [ALL]"
 msgstr "INFO ニックネーム [ALL]"
 
-#:
+#. merged with ja.l
 msgid "INFO [channel]"
 msgstr "INFO [channel]"
 
-#:
+#. merged with ja.l
 msgid "INFO [nick | channel]"
 msgstr "INFO [nick | channel]"
 
@@ -4183,7 +4183,7 @@ msgstr "20秒以内にニックネームを変更しない場合、あなたの�
 msgid "If you do not change within one minute, I will change your nick."
 msgstr "1分以内にニックネームを変更しない場合、あなたのニックネームは自動的に変更されます。"
 
-#:
+#. merged with ja.l
 msgid "If you don't know why this mail is sent to you, please ignore it silently."
 msgstr "このメールを受け取った理由がわからない場合、無視してください。"
 
@@ -4256,7 +4256,7 @@ msgstr "無効な上限値です。1より大きい整数を指定してくだ�
 msgid "JUPE servername [reason]"
 msgstr "JUPE servername [reason]"
 
-#:
+#. merged with ja.l
 msgid ""
 "Jan\n"
 "Feb\n"
@@ -4284,7 +4284,7 @@ msgstr ""
 "11\n"
 "12"
 
-#:
+#. merged with ja.l
 msgid ""
 "January\n"
 "February\n"
@@ -4312,7 +4312,7 @@ msgstr ""
 "11月\n"
 "12月"
 
-#:
+#. merged with ja.l
 msgid "KEY %s %s"
 msgstr "KEY %s %s"
 
@@ -4328,7 +4328,7 @@ msgstr "KICK channel option {ON|OFF} [settings]"
 msgid "KICK channel user reason"
 msgstr "KICK channel user reason"
 
-#:
+#. merged with ja.l
 msgid "KILLCLONES nick"
 msgstr "KILLCLONES nick"
 
@@ -4353,11 +4353,11 @@ msgstr "LIST パターン [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]"
 msgid "LIST [channel] [list | NEW]"
 msgstr "LIST [channel] [list | NEW]"
 
-#:
+#. merged with ja.l
 msgid "LOGONNEWS ADD text"
 msgstr "LOGONNEWS ADD text"
 
-#:
+#. merged with ja.l
 msgid "LOGONNEWS DEL {num | ALL}"
 msgstr "LOGONNEWS DEL {num | ALL}"
 
@@ -4369,11 +4369,11 @@ msgstr "LOGONNEWS {ADD|DEL|LIST} [text|num]"
 msgid "LOGOUT"
 msgstr "LOGOUT"
 
-#:
+#. merged with ja.l
 msgid "LOGOUT channel nickname"
 msgstr "LOGOUT channel nickname"
 
-#:
+#. merged with ja.l
 msgid "LOGOUT channel [nickname]"
 msgstr "LOGOUT channel [nickname]"
 
@@ -4381,7 +4381,7 @@ msgstr "LOGOUT channel [nickname]"
 msgid "Language changed to English."
 msgstr "言語を 英語 に切り替えました。"
 
-#:
+#. merged with ja.l
 msgid "Language for %s changed to %s."
 msgstr "%sの使用言語を %s に切り替えました。"
 
@@ -4451,7 +4451,7 @@ msgstr "ログオンニュース #%d が見つかりません！"
 msgid "Logon news items:"
 msgstr "ログオンニュース:"
 
-#:
+#. merged with ja.l
 msgid "Looking for yourself, eh %s?"
 msgstr "自分を探してるのかい %s?"
 
@@ -4475,7 +4475,7 @@ msgstr ""
 msgid "MODUNLOAD FileName"
 msgstr "MODUNLOAD FileName"
 
-#:
+#. merged with ja.l
 msgid "Mask %s already present on exception list."
 msgstr "マスク %s は既に除外リストに登録済みです。"
 
@@ -4493,7 +4493,7 @@ msgstr "マスクは user@host の形式でなければなりません。"
 msgid "Maximum users: %d (%s)"
 msgstr "ユーザー数の上限: %d (%s)"
 
-#:
+#. merged with ja.l
 msgid "Memo %d does not exist!"
 msgstr "%d 番目ののメモが見つかりませんでした!"
 
@@ -4510,7 +4510,7 @@ msgstr "%d 番目のメモ(送信者:%s 内容:%s)を削除するには、 %R%s
 msgid "Memo %d has been deleted."
 msgstr "%d 番目のメモを削除しました。"
 
-#:
+#. merged with ja.l
 msgid "Memo Text:"
 msgstr ""
 "Memo Text:\n"
@@ -4541,7 +4541,7 @@ msgstr "メモ保存量の上限値が大きすぎたため、%d に制限しま
 msgid "Memo sent to %s."
 msgstr "%s 宛てにメモを送信しました。"
 
-#:
+#. merged with ja.l
 msgid "Memos %s have been deleted."
 msgstr "%s のメモを削除しました。"
 
@@ -4562,7 +4562,7 @@ msgstr "連絡手段"
 msgid "Mode %c ignored because you can't lock it."
 msgstr "ロック権限が無いのでモード %c を無視しました。"
 
-#:
+#. merged with ja.l
 msgid "Mode +h has been cleared from channel %s."
 msgstr "チャンネル %s のモードから +h を無効化しました。"
 
@@ -4571,7 +4571,7 @@ msgstr "チャンネル %s のモードから +h を無効化しました。"
 msgid "Mode +o has been cleared from channel %s."
 msgstr "チャンネル %s のモードから +o を無効化しました。"
 
-#:
+#. merged with ja.l
 msgid "Mode +v has been cleared from channel %s."
 msgstr "チャンネル %s のモードから +v を無効化しました。"
 
@@ -4885,11 +4885,11 @@ msgstr "チャンネル %s の自動キックリストにマッチするエン�
 msgid "No matching entries on %s bad words list."
 msgstr "該当するエントリが %s の禁止ワードリストに登録されていません。"
 
-#:
+#. merged with ja.l
 msgid "No matching entries on Services admin list."
 msgstr "サービス管理者リストに該当するエントリが見つかりませんでした。"
 
-#:
+#. merged with ja.l
 msgid "No matching entries on Services operator list."
 msgstr "サービスオペレーターリストに該当するエントリが見つかりませんでした。"
 
@@ -4901,7 +4901,7 @@ msgstr "セッション数制限からの除外リストに該当するエント
 msgid "No matching entries on the AKILL list."
 msgstr "AKILL リストに該当するエントリが見つかりませんでした。"
 
-#:
+#. merged with ja.l
 msgid "No matching entries on the SGLINE list."
 msgstr "SGLINE リストに該当するエントリが見つかりませんでした。"
 
@@ -4917,7 +4917,7 @@ msgstr "SQLINE リストに該当するエントリが見つかりませんで�
 msgid "No matching entries on the SZLINE list."
 msgstr "SZLINE リストに該当するエントリが見つかりませんでした。"
 
-#:
+#. merged with ja.l
 msgid "No matching memos found."
 msgstr "条件にマッチするメモが見つかりませんでした。"
 
@@ -4925,7 +4925,7 @@ msgstr "条件にマッチするメモが見つかりませんでした。"
 msgid "No memo was cancelable."
 msgstr "メモの送信がキャンセルされませんでした。"
 
-#:
+#. merged with ja.l
 msgid "No memos were deleted."
 msgstr "これ以上メモを削除することはできません。"
 
@@ -4974,19 +4974,19 @@ msgstr "チャンネル %2$s の SOP リストにエントリ(#%1$d) は見つ�
 msgid "No such entry (#%d) on %s VOP list."
 msgstr "チャンネル %2$s の VOP リストにエントリ(#%1$d) は見つかりません。"
 
-#:
+#. merged with ja.l
 msgid "No such entry (#%d) on %s access list."
 msgstr "チャンネル %s のアクセスリストにエントリ(#%d) は見つかりません。"
 
-#:
+#. merged with ja.l
 msgid "No such entry (#%d) on %s autokick list."
 msgstr "チャンネル %s の自動キックリストにエントリ(#%d) は見つかりません。"
 
-#:
+#. merged with ja.l
 msgid "No such entry (#%d) on %s bad words list."
 msgstr "#%d というエントリは %s の禁止ワードリストに登録されていません。"
 
-#:
+#. merged with ja.l
 msgid "No such entry (#%d) session-limit exception list."
 msgstr "セッション数制限からの除外リストに #%d というエントリはありません。"
 
@@ -4995,7 +4995,7 @@ msgstr "セッション数制限からの除外リストに #%d というエン�
 msgid "None"
 msgstr "None"
 
-#:
+#. merged with ja.l
 msgid "None\n"
 msgstr "未設定\n"
 
@@ -5030,15 +5030,15 @@ msgstr ""
 msgid "OP Notice"
 msgstr "OP Notice"
 
-#:
+#. merged with ja.l
 msgid "OPER {ADD|DEL|LIST|CLEAR} [nick | entry-list]"
 msgstr "OPER {ADD|DEL|LIST|CLEAR} [nick | entry-list]"
 
-#:
+#. merged with ja.l
 msgid "OPERNEWS ADD text"
 msgstr "OPERNEWS ADD text"
 
-#:
+#. merged with ja.l
 msgid "OPERNEWS DEL {num | ALL}"
 msgstr "OPERNEWS DEL {num | ALL}"
 
@@ -5058,7 +5058,7 @@ msgstr "infoに変化がありませんでした。"
 msgid "On Level Nick"
 msgstr "On レベル ニックネーム"
 
-#:
+#. merged with ja.l
 msgid "Only Super-Admins can use this command."
 msgstr "Super-Admin だけがこのコマンドを使えます。"
 
@@ -5105,7 +5105,7 @@ msgstr "オペレーター保護"
 msgid "Option %s cannot be set on this network."
 msgstr "%s オプションはこのネットワークには設定できません。"
 
-#:
+#. merged with ja.l
 msgid "PLEASE DON'T ANSWER TO THIS MAIL!"
 msgstr "このメールに返信しないでください!"
 
@@ -5122,7 +5122,7 @@ msgstr "%s のパスコードは %s です。"
 msgid "Password accepted - you are now recognized."
 msgstr "パスワードは承認されました。あなたは認証されています。"
 
-#:
+#. merged with ja.l
 msgid "Password accepted - you now have founder-level access to %s."
 msgstr "認証に成功しました。founder 権限で %s へのアクセスが可能です。"
 
@@ -5134,7 +5134,7 @@ msgstr ""
 "このコマンドはパスワード認証が必要です。\n"
 "%R%s IDENTIFY password と入力してからやり直してください。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Password authentication required for that command.\n"
 "Retry after typing %R%s IDENTIFY %s password."
@@ -5142,11 +5142,11 @@ msgstr ""
 "このコマンドはパスワード認証が必要です。\n"
 "%R%s IDENTIFY %s password と入力してからやり直してください。"
 
-#:
+#. merged with ja.l
 msgid "Password changed to %s."
 msgstr "パスワードを %s に変更しました。"
 
-#:
+#. merged with ja.l
 msgid "Password changed."
 msgstr "パスワードを変更しました。"
 
@@ -5165,7 +5165,7 @@ msgstr "%s のパスワードが変更されました。"
 msgid "Password for %s is %s."
 msgstr "%s のパスワードは %s です。"
 
-#:
+#. merged with ja.l
 msgid "Password for channel %s is %s."
 msgstr "チャンネル %s のパスワードは %s です。"
 
@@ -5197,7 +5197,7 @@ msgstr "チャンネル %s の Peace オプションは OFF です。"
 msgid "Peace option for %s is now ON."
 msgstr "チャンネル %s の Peace オプションは ON です。"
 
-#:
+#. merged with ja.l
 msgid "Permission denied."
 msgstr "許可否認。"
 
@@ -5209,11 +5209,11 @@ msgstr ""
 msgid "Please contact an Operator to get a vhost assigned to this nick."
 msgstr "このニックネームにバーチャルホストを割り当てるには、サーバーオペレーターに連絡を取ってください。"
 
-#:
+#. merged with ja.l
 msgid "Please identify to services first."
 msgstr "サービスが起動中かどうか確認してください。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Please identify with %s first, using the command:\n"
 "%R%s IDENTIFY password"
@@ -5225,7 +5225,7 @@ msgstr ""
 msgid "Please try again with a more obscure password.  Passwords should be at least five characters long, should not be something easily guessed (e.g. your real name or your nick), and cannot contain the space or tab characters."
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "Please type \" %R%s confirm %s \" to complete registration."
 msgstr "登録を完了するには \" %R%s confirm %s \" のように入力してください。"
 
@@ -5291,7 +5291,7 @@ msgstr "チャンネル %s のプライベートオプションは ON です�
 msgid "Private option is now OFF for %s."
 msgstr "現在 %s へのプライベートオプションは OFF になっています。"
 
-#:
+#. merged with ja.l
 msgid "Private option is now OFF."
 msgstr "プライバシー機能を無効(OFF)にしました。"
 
@@ -5300,7 +5300,7 @@ msgstr "プライバシー機能を無効(OFF)にしました。"
 msgid "Private option is now ON for %s."
 msgstr "現在 %s へのプライベートオプションは ON になっています。"
 
-#:
+#. merged with ja.l
 msgid "Private option is now ON."
 msgstr "プライバシー機能を有効(ON)にしました。"
 
@@ -5313,7 +5313,7 @@ msgstr "保護"
 msgid "Protection is now OFF for %s."
 msgstr "現在 %s への保護は OFF になっています。"
 
-#:
+#. merged with ja.l
 msgid "Protection is now OFF."
 msgstr "ニックネーム保護を無効(OFF)にしました。"
 
@@ -5332,7 +5332,7 @@ msgstr "現在 %s への保護と、遅延なしが ON　になっていま�
 msgid "Protection is now ON for %s."
 msgstr "現在 %s への保護は ON　になっています。"
 
-#:
+#. merged with ja.l
 msgid "Protection is now ON, with a reduced delay."
 msgstr "ニックネーム保護を短期限つきで有効(ON)にしました。"
 
@@ -5340,11 +5340,11 @@ msgstr "ニックネーム保護を短期限つきで有効(ON)にしました
 msgid "Protection is now ON, with no delay."
 msgstr "ニックネーム保護を期限なしで有効(ON)にしました。"
 
-#:
+#. merged with ja.l
 msgid "Protection is now ON."
 msgstr "ニックネーム保護を有効(ON)にしました。"
 
-#:
+#. merged with ja.l
 msgid "Providing IRCD handler for: %s"
 msgstr "使用可能な IRC デーモンハンドラ: %R%s %s"
 
@@ -5363,11 +5363,11 @@ msgid ""
 "  Num  Nick"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "RANDOMNEWS ADD text"
 msgstr "RANDOMNEWS ADD text"
 
-#:
+#. merged with ja.l
 msgid "RANDOMNEWS DEL {num | ALL}"
 msgstr "RANDOMNEWS DEL {num | ALL}"
 
@@ -5375,7 +5375,7 @@ msgstr "RANDOMNEWS DEL {num | ALL}"
 msgid "RANDOMNEWS {ADD|DEL|LIST} [text|num]"
 msgstr "RANDOMNEWS {ADD|DEL|LIST} [text|num]"
 
-#:
+#. merged with ja.l
 msgid "RAW text"
 msgstr "RAW text"
 
@@ -5391,7 +5391,7 @@ msgstr "RECOVER nickname [password]"
 msgid "REGISTER channel description"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "REGISTER channel password description"
 msgstr "REGISTER channel password description"
 
@@ -5556,7 +5556,7 @@ msgstr "SEND {nick | channel} memo-text"
 msgid "SENDALL memo-text"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "SENDPASS channel"
 msgstr "SENDPASS channel"
 
@@ -5568,7 +5568,7 @@ msgstr "SENDPASS nickname"
 msgid "SENDPASS command unavailable because encryption is in use."
 msgstr "暗号化されているため、SENDPASS コマンドは使えません。"
 
-#:
+#. merged with ja.l
 msgid "SERVICES_BIN not defined; cannot restart.  Rerun the \\2configure\\2 script and recompile Services to enable the RESTART command."
 msgstr "SERVICES_BIN が未定義のため再起動できません。\\2設定\\2 スクリプトを再度走らせて、RESTART コマンドを有効化させるためにサービスを再コンパイルしてください。"
 
@@ -5576,11 +5576,11 @@ msgstr "SERVICES_BIN が未定義のため再起動できません。\\2設定\\
 msgid "SESSION LIST limit"
 msgstr "SESSION LIST limit"
 
-#:
+#. merged with ja.l
 msgid "SESSION VIEW host"
 msgstr "SESSION VIEW host"
 
-#:
+#. merged with ja.l
 msgid "SESSION {LIST limit | VIEW host}"
 msgstr "SESSION {LIST limit | VIEW host}"
 
@@ -5728,7 +5728,7 @@ msgstr "SET PRIVATE {ON | OFF}"
 msgid "SET SECURE {ON | OFF}"
 msgstr "SET SECURE {ON | OFF}"
 
-#:
+#. merged with ja.l
 msgid "SET [nick] option parameters"
 msgstr "SET [ニックネーム] オプション パラメータ"
 
@@ -5736,11 +5736,11 @@ msgstr "SET [ニックネーム] オプション パラメータ"
 msgid "SETALL <nick> <hostmask>."
 msgstr "SETALL <nick> <hostmask>."
 
-#:
+#. merged with ja.l
 msgid "SGLINE list is empty."
 msgstr "SGLINE リストが空です。"
 
-#:
+#. merged with ja.l
 msgid "SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list}[:reason]]"
 msgstr "SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list}[:reason]]"
 
@@ -5765,15 +5765,15 @@ msgstr ""
 "チャンネル %s の SOP リスト:\n"
 "  番号 ニックネーム"
 
-#:
+#. merged with ja.l
 msgid "SQL code will be used."
 msgstr "SQL コードを使用します。"
 
-#:
+#. merged with ja.l
 msgid "SQL code will not be used."
 msgstr "SQL コードを使用しません。"
 
-#:
+#. merged with ja.l
 msgid ""
 "SQL is not configured for this network. Please edit the\n"
 "configuration file (services.conf)."
@@ -5807,23 +5807,23 @@ msgstr ""
 msgid "STATUS %s %s %d"
 msgstr "STATUS %s %s %d"
 
-#:
+#. merged with ja.l
 msgid "STATUS %s 0"
 msgstr "STATUS %s 0"
 
-#:
+#. merged with ja.l
 msgid "STATUS %s 1"
 msgstr "STATUS %s 1"
 
-#:
+#. merged with ja.l
 msgid "STATUS %s 2"
 msgstr "STATUS %s 2"
 
-#:
+#. merged with ja.l
 msgid "STATUS %s 3"
 msgstr "STATUS %s 3"
 
-#:
+#. merged with ja.l
 msgid "STATUS ERROR Channel %s forbidden"
 msgstr "STATUS ERROR チャンネル %s は禁止されています。"
 
@@ -5837,7 +5837,7 @@ msgstr "STATUS ERROR チャンネル %s は登録されていません。"
 msgid "STATUS ERROR Nick %s not online"
 msgstr "STATUS ERROR ニックネーム %s はオフラインです。"
 
-#:
+#. merged with ja.l
 msgid "STATUS ERROR Syntax error"
 msgstr "STATUS ERROR 構文エラー"
 
@@ -5912,7 +5912,7 @@ msgstr "チャンネル %s の安全オプションは ON です。"
 msgid "Secure option is now OFF for %s."
 msgstr "現在 %s へのセキュアオプションは OFF になっています。"
 
-#:
+#. merged with ja.l
 msgid "Secure option is now OFF."
 msgstr "ニックネームセキュリティー機能を無効(OFF)にしました。"
 
@@ -5921,7 +5921,7 @@ msgstr "ニックネームセキュリティー機能を無効(OFF)にしま�
 msgid "Secure option is now ON for %s."
 msgstr "現在 %s へのセキュアオプションは ON になっています。"
 
-#:
+#. merged with ja.l
 msgid "Secure option is now ON."
 msgstr "ニックネームセキュリティー機能を有効(ON)にしました。"
 
@@ -5934,15 +5934,15 @@ msgstr "セキュリティー"
 msgid "Servers found: %d"
 msgstr "アップリンクサーバー数: %d"
 
-#:
+#. merged with ja.l
 msgid "Services admin list has been cleared."
 msgstr "サービス管理者リストが空になりました。"
 
-#:
+#. merged with ja.l
 msgid "Services admin list is empty."
 msgstr "サービス管理者リストが空です。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Services admin list:\n"
 "  Num   Nick"
@@ -5954,7 +5954,7 @@ msgstr ""
 msgid "Services are in Defcon mode, Please try again later."
 msgstr "サービスが Defcon モードになっています。後からやり直してください。"
 
-#:
+#. merged with ja.l
 msgid "Services are no longer reporting log messages to a channel."
 msgstr "チャンネルログを出力しません。"
 
@@ -5992,7 +5992,7 @@ msgstr "サービスをデバッグモードに設定しました。"
 msgid "Services are now in non-debug mode."
 msgstr "サービスのデバッグモードを解除しました。"
 
-#:
+#. merged with ja.l
 msgid "Services are now reporting log messages to %s."
 msgstr "チャンネルログを %s に出力します。"
 
@@ -6004,11 +6004,11 @@ msgstr "サービスは現在メール送信できないよう設定されてい
 msgid "Services ignore list:"
 msgstr "無視リスト:"
 
-#:
+#. merged with ja.l
 msgid "Services is in skeleton mode; the ADMIN command is unavailable."
 msgstr "サービスはスケルトンモードになっています。ADMIN コマンドは使えません。"
 
-#:
+#. merged with ja.l
 msgid "Services is in skeleton mode; the OPER command is unavailable."
 msgstr "サービスはスケルトンモードになっています。OPER コマンドは使えません。"
 
@@ -6020,15 +6020,15 @@ msgstr "モードを変えることができません。サーバーの設定を
 msgid "Services is unable to change modes.  Are your servers' U:lines configured correctly?"
 msgstr "モードを変えることができません。サーバーの設定項目のU:linesの項目を見直してください。"
 
-#:
+#. merged with ja.l
 msgid "Services operator list has been cleared."
 msgstr "サービスオペレーターリストが空になりました。"
 
-#:
+#. merged with ja.l
 msgid "Services operator list is empty."
 msgstr "サービスオペレーターリストが空です。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Services operator list:\n"
 "  Num   Nick"
@@ -6091,7 +6091,7 @@ msgstr "サービス継続時間 %d 分, %d 秒"
 msgid "Services will no longer autoop %s in channels."
 msgstr "サービスは %s に対して自動的に管理者権を与えないように設定しました。"
 
-#:
+#. merged with ja.l
 msgid "Services will no longer autoop you in channels."
 msgstr "サービスは自動的に管理者権を与えないように設定しました。"
 
@@ -6100,7 +6100,7 @@ msgstr "サービスは自動的に管理者権を与えないように設定し
 msgid "Services will now autoop %s in channels."
 msgstr "サービスは %s に対して自動的に管理者権を与えるように設定しました。"
 
-#:
+#. merged with ja.l
 msgid "Services will now autoop you in channels."
 msgstr "サービスは自動的に管理者権を与えるように設定しました。"
 
@@ -6114,11 +6114,11 @@ msgstr "これから %s に対して各サービスは連絡手段として�
 msgid "Services will now reply to %s with notices."
 msgstr "これから %s に対して各サービスは連絡手段として告知を使います。"
 
-#:
+#. merged with ja.l
 msgid "Services will now reply to you with messages."
 msgstr "これから各サービスは連絡手段としてメッセージを使います。"
 
-#:
+#. merged with ja.l
 msgid "Services will now reply to you with notices."
 msgstr "これから各サービスは連絡手段として告知を使います。"
 
@@ -6139,7 +6139,7 @@ msgstr "%s に対するセッション数の上限値が %d に設定され�
 msgid "Session limiting is disabled."
 msgstr "セッション数制限機能が無効化されています。"
 
-#:
+#. merged with ja.l
 msgid "Session-limit exception list is full!"
 msgstr "セッション数制限からの除外リストが満杯です！"
 
@@ -6164,7 +6164,7 @@ msgstr "DEBUG の setting 引数は ON か OFF か正数のどれかにし�
 msgid "Setting for IGNORE must be ON or OFF."
 msgstr "IGNORE の setting 引数は ON か OFF のどちらかにしてください。"
 
-#:
+#. merged with ja.l
 msgid "Setting for LOGCHAN must be ON or OFF and LogChannel must be defined."
 msgstr "LOGCHAN の setting 引数は ON か OFF のどちらかにし、LogChannel を定義してください。"
 
@@ -6176,7 +6176,7 @@ msgstr "NOEXPIRE の setting 引数は ON か OFF のどちらかにして�
 msgid "Setting for READONLY must be ON or OFF."
 msgstr "READONLY の setting 引数は ON か OFF のどちらかにしてください。"
 
-#:
+#. merged with ja.l
 msgid "Setting for SQL must be ON or OFF."
 msgstr "SQL の setting 引数は ON か OFF のどちらかにしてください。"
 
@@ -6207,7 +6207,7 @@ msgstr "チャンネル %s の Signed kick オプションは ON です。"
 msgid "Signed kicks"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "Sorry, OLINE is not available on this network."
 msgstr ""
 "ご迷惑を掛けて申し訳ありません、このネットワークで\n"
@@ -6217,27 +6217,27 @@ msgstr ""
 msgid "Sorry, RSEND has been disabled on this network."
 msgstr "ご迷惑をかけて申し訳ございません。RSEND コマンドをこのネットワークで使うことはできません。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, SGLINE is not available on this network."
 msgstr "ご迷惑をかけて申し訳ありません。SGLINE はこのネットワークでは使えません。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, SQLINE is not available on this network."
 msgstr ""
 "ご迷惑を掛けて申し訳ありません、このネットワークで\n"
 "SQLINE は使えません。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, SVSNICK is not available on this network."
 msgstr ""
 "ご迷惑を掛けて申し訳ありません、このネットワークで\n"
 "SVSNICK は使えません。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, SZLINE is not available on this network."
 msgstr "ご迷惑をかけて申し訳ありません。SZLINE はこのネットワークでは使えません。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, UMODE is not available on this network."
 msgstr ""
 "ご迷惑を掛けて申し訳ありません、このネットワークで\n"
@@ -6308,11 +6308,11 @@ msgstr "ご迷惑をかけて申し訳ありません。チャンネル登録は
 msgid "Sorry, couldn't change password for %s."
 msgstr "ご迷惑をお掛けします。%s のパスワードを変更することは出来ませんでした。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, couldn't change password."
 msgstr "パスワードの変更に失敗しました。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, couldn't set password."
 msgstr "パスワードを設定できません。"
 
@@ -6328,7 +6328,7 @@ msgstr "ご迷惑をおかけして申し訳ありません。認証に失敗し
 msgid "Sorry, kicker configuration is temporarily disabled."
 msgstr "ご迷惑をかけて申し訳ありません。キック設定は一時的にすることができない状態になっています。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, memo canceling is temporarily disabled."
 msgstr "ご迷惑をおかけして申し訳ありません。一時的にメモの送信をキャンセルすることができない状態になっています。"
 
@@ -6360,7 +6360,7 @@ msgstr "ご迷惑をおかけしますが、現在ニックネームの登録サ
 msgid "Sorry, registration failed."
 msgstr "ご迷惑をおかけして申し訳ありません。登録に失敗しました。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, you can only have %d AKILLs."
 msgstr "ご迷惑をかけて申し訳ございません。AKILL リスト登録数の上限は %d です。"
 
@@ -6369,23 +6369,23 @@ msgstr "ご迷惑をかけて申し訳ございません。AKILL リスト登録
 msgid "Sorry, you can only have %d AOP/SOP/VOP entries on a channel."
 msgstr "%d AOP/SOP/VOP エントリより多くは登録出来ません。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, you can only have %d SGLINEs."
 msgstr "ご迷惑をかけて申し訳ございません。SGLINE リスト登録数の上限は %d です。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, you can only have %d SQLINEs."
 msgstr "ご迷惑をかけて申し訳ございません。SQLINE リスト登録数の上限は %d です。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, you can only have %d SZLINEs."
 msgstr "ご迷惑をかけて申し訳ございません。SZLINE リスト登録数の上限は %d です。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, you can only have %d Services admins."
 msgstr "ご迷惑をかけて申し訳ありません。あなたは %d 個以上のサービス管理者にはなれません。"
 
-#:
+#. merged with ja.l
 msgid "Sorry, you can only have %d Services operators."
 msgstr "ご迷惑をかけて申し訳ありません。あなたは %d 個以上のサービスオペレーターにはなれません。"
 
@@ -6445,7 +6445,7 @@ msgstr "チャンネル %s のメンテナが解除されました。"
 msgid "Successor for %s changed to %s."
 msgstr "チャンネル %s のメンテナ権を %s に譲渡しました。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Sun\n"
 "Mon\n"
@@ -6463,7 +6463,7 @@ msgstr ""
 "金\n"
 "土"
 
-#:
+#. merged with ja.l
 msgid ""
 "Sunday\n"
 "Monday\n"
@@ -6902,7 +6902,7 @@ msgstr ""
 "ボットに\"/me\"コマンドと同じように、指定したチャンネル\n"
 "宛に指定した内容で発言させます。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: ADMIN ADD nick\n"
 "        ADMIN DEL {nick | entry-num | list}\n"
@@ -7392,7 +7392,7 @@ msgid ""
 "and above on the channel."
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: BAN [#channel [nick [reason]]]\n"
 "\n"
@@ -7988,7 +7988,7 @@ msgstr ""
 "\n"
 "与えられたチャンネルのキーを返す。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: GETPASS channel\n"
 "\n"
@@ -8275,7 +8275,7 @@ msgstr ""
 "切り替える方法に関する詳細は %R%S HELP SET XOP\n"
 "と入力してください。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: IDENTIFY channel password\n"
 " \n"
@@ -8290,7 +8290,7 @@ msgstr ""
 "多くのコマンドがこれを使う前に必要です。パスワードは\n"
 "REGISTER コマンドで使用したものと同じです。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: IDENTIFY password\n"
 "\n"
@@ -8867,7 +8867,7 @@ msgstr ""
 "        bar.org ドメインに所属するユーザーが所有する\n"
 "\tニックネームを表示。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE]\n"
 "\n"
@@ -9025,7 +9025,7 @@ msgstr ""
 "にします。再度証明するかどうかを尋ねられることは無いという\n"
 "点にに注意してください。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: LOGOUT channel nickname\n"
 "\n"
@@ -9043,7 +9043,7 @@ msgstr ""
 "このチャンネルの創始者であれば、自分以外は誰でも強制的に\n"
 "ログアウトさせることが出来ます。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: LOGOUT channel [nickname]\n"
 "\n"
@@ -9242,7 +9242,7 @@ msgstr ""
 "初期状態では、このコマンドは AOP でレベル5以上のアクセス\n"
 "レベルを持っているユーザーだけに使用が制限されています。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: OPER ADD nick\n"
 "        OPER DEL {nick | entry-num | list}\n"
@@ -9466,7 +9466,7 @@ msgstr ""
 msgid "Syntax: RANDOMNEWS DEL {num | ALL}"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: RAW text\n"
 "\n"
@@ -9579,7 +9579,7 @@ msgid ""
 "%R%s HELP for information on how to do so."
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: REGISTER channel password description\n"
 "\n"
@@ -9782,7 +9782,7 @@ msgstr ""
 "宛先のニックネーム/チャンネル名は登録済みの者でなければいけません。\n"
 "受取人がメモを読むと、自動的に開封通知が送信者宛てに送られます。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SASET nickname option parameters.\n"
 "\n"
@@ -9916,7 +9916,7 @@ msgstr ""
 "指定します。"
 
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SASET nickname ICQ number\n"
 "\n"
@@ -10052,7 +10052,7 @@ msgstr ""
 "にユーザーのアドレスが有る場合は、 KILL オプションの\n"
 "設定にかかわらず %S はユーザーを自動的にKILLすることはありません。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SASET nickname URL url\n"
 "\n"
@@ -10100,7 +10100,7 @@ msgstr ""
 "構文: SENDALL memo-text\n"
 "登録済みユーザー全員に内容 memo-text でメモを送信します。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SENDPASS channel\n"
 "\n"
@@ -10230,7 +10230,7 @@ msgstr ""
 "IRC オペレーターでないユーザーによるボット召喚を禁止\n"
 "するか否かを設定します。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel option parameters\n"
 "\n"
@@ -10305,7 +10305,7 @@ msgid ""
 "Available options:"
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel BANTYPE bantype\n"
 "\n"
@@ -10330,7 +10330,7 @@ msgstr ""
 "2: *!*@host 型のバン指定\n"
 "3: *!*user@*.domain 型のバン指定"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel DESC description\n"
 "\n"
@@ -10372,7 +10372,7 @@ msgstr ""
 "ユーザーが NOKICK レベルにマッチしない場合、\n"
 "ボットはこのvoices ユーザーをキックしません。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel EMAIL [address]\n"
 "\n"
@@ -10389,7 +10389,7 @@ msgstr ""
 "リクエストしたときに返される。パラメータが与えられなかった場合、\n"
 "このチャンネルに紐付けられた電子メールアドレスを削除する。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel ENTRYMSG [message]\n"
 "\n"
@@ -10436,7 +10436,7 @@ msgstr ""
 "例えば、!op を使うためには、ユーザーは OPDEOP\n"
 "レベル以上の権限を持っていなければいけません。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel FOUNDER nick\n"
 "\n"
@@ -10463,7 +10463,7 @@ msgstr ""
 "切り替えます。これが有効の場合、ボットはチャンネル\n"
 "にjoinしたユーザーに挨拶メッセージを表示します。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel KEEPTOPIC {ON | OFF}\n"
 "\n"
@@ -10481,7 +10481,7 @@ msgstr ""
 "トピックが %S によって記憶され、次にチャンネルが作られた時に\n"
 "自動的に設定される。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel MLOCK modes\n"
 "\n"
@@ -10575,7 +10575,7 @@ msgstr ""
 "与えられたチャンネルの登録を抹消するかどうか設定する。\n"
 "ONの場合はチャンネル登録を抹消できなくなります。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel OPNOTICE {ON | OFF}\n"
 "\n"
@@ -10591,7 +10591,7 @@ msgstr ""
 "OP 又は DEOP がこのチャンネルにいるユーザーに対して\n"
 "使用されたときに、%S は notice をチャンネルに送信する。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel PASSWORD password\n"
 "\n"
@@ -10602,7 +10602,7 @@ msgstr ""
 "\n"
 "チャンネルの創始者を認証するためのパスワードを設定する。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel PEACE {ON | OFF}\n"
 "\n"
@@ -10619,7 +10619,7 @@ msgstr ""
 "高位か同じレベルを持つユーザーのチャンネル状態の削除を\n"
 "することが出来なくなる。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel PRIVATE {ON | OFF}\n"
 "\n"
@@ -10633,7 +10633,7 @@ msgstr ""
 "を切り替える。private が有効化されると、\n"
 "%R%S LIST コマンドの出力にこのチャンネルは含まれなくなる。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel RESTRICTED {ON | OFF}\n"
 "\n"
@@ -10648,7 +10648,7 @@ msgstr ""
 "アクセスリストに含まれないユーザーはチャンネルから\n"
 "キックされるかバンされる。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel SECURE {ON | OFF}\n"
 "\n"
@@ -10666,7 +10666,7 @@ msgstr ""
 "%sにニックネームが登録済みで、パスワードでIDENTIFYされた\n"
 "ユーザーだけがこのチャンネルにアクセスできるようになる。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel SECUREFOUNDER {ON | OFF}\n"
 "\n"
@@ -10683,7 +10683,7 @@ msgstr ""
 "また、チャンネルパスワード、チャンネル創始者、チャンネル後継者、\n"
 "%SにIDENTIFYされていないユーザーを変更できる。\n"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel SECUREOPS {ON | OFF}\n"
 "\n"
@@ -10698,7 +10698,7 @@ msgstr ""
 "ユーザーリストに含まれないユーザーはチャンネル管理者に\n"
 "なれなくなる。\n"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel SIGNKICK {ON | LEVEL | OFF}\n"
 "\n"
@@ -10722,7 +10722,7 @@ msgstr ""
 "のレベルを持つユーザーからのキックには署名がなされない。\n"
 "より詳しい情報は %R%S HELP LEVELS を入力してください。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel SUCCESSOR nick\n"
 "\n"
@@ -10762,7 +10762,7 @@ msgstr ""
 "例えば、MODE コマンド、KICK コマンド、メッセージの送信\n"
 "等です。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel TOPICLOCK {ON | OFF}\n"
 "\n"
@@ -10778,7 +10778,7 @@ msgstr ""
 "TOPIC コマンド以外ではチャンネルトピックが変更\n"
 "出来なくなる。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel URL [url]\n"
 "\n"
@@ -10794,7 +10794,7 @@ msgstr ""
 "返される。パラメータが与えられなかった場合、このチャンネルに\n"
 "紐付けられたURLを削除する。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET channel XOP {ON | OFF}\n"
 "\n"
@@ -10838,7 +10838,7 @@ msgstr ""
 "xOP リストシステムからアクセスリストシステムに変更\n"
 "する場合には問題は起こりません。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET option parameters\n"
 "\n"
@@ -11047,7 +11047,7 @@ msgstr ""
 "二番目のパラメータで表示するか(OFF)、隠すか(ON)を\n"
 "指定します。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET ICQ number\n"
 "\n"
@@ -11182,7 +11182,7 @@ msgstr ""
 "構文: SET LIST\n"
 "%S の設定を表示します。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET LOGCHAN {ON | OFF}\n"
 "With this setting on, Services will send its logs to a specified\n"
@@ -11353,7 +11353,7 @@ msgstr ""
 "にあなたのアドレスが有る場合は、 KILL オプションの\n"
 "設定にかかわらず %S はあなたを自動的にKILLすることはありません。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET SQL {ON | OFF}\n"
 "Setting this will toggle Anope's usage of SQL, this should\n"
@@ -11378,7 +11378,7 @@ msgstr ""
 "場合にのみ有効化されるべきです。また、不要になったら無効にする\n"
 "べきです。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SET URL url\n"
 "\n"
@@ -11413,7 +11413,7 @@ msgstr ""
 "されたユーザーのバーチャルホストを変更するには、\n"
 "再度同じコマンドを入力してください。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SGLINE ADD [+expiry] mask:reason\n"
 "    SGLINE DEL {mask | entry-num | list}\n"
@@ -11500,7 +11500,7 @@ msgstr ""
 "\n"
 "SGLINE CLEAR コマンドは SGLINE リストを削除します。"
 
-#:
+#. merged with ja.l
 msgid ""
 "Syntax: SHUTDOWN\n"
 "\n"
@@ -12269,7 +12269,7 @@ msgstr "AKILL リストが空になりました。"
 msgid "The Defcon Level is now at Level: %d"
 msgstr "現在の DEFCON レベル : %d"
 
-#:
+#. merged with ja.l
 msgid "The Defcon system must be enabled in the services.conf file"
 msgstr "Defcon システムは services.conf 内でのみ有効化できます。"
 
@@ -12283,11 +12283,11 @@ msgstr "現在 %s のメールアドレスは %s INFO 表示から隠されて
 msgid "The E-mail address of %s will now be shown in %s INFO displays."
 msgstr "現在 %s のメールアドレスは %s INFO 表示に公開されています。"
 
-#:
+#. merged with ja.l
 msgid "The RAW option has been disabled. If you must use it, configure the DisableRaw directive in Services configuration."
 msgstr "RAWオプションは無効にされています。もし使う必要があるならば、サービス設定の DisableRaw 指示文を設定してください。"
 
-#:
+#. merged with ja.l
 msgid "The SGLINE list has been cleared."
 msgstr "SGLINE リストが空になりました。"
 
@@ -12308,7 +12308,7 @@ msgstr "SZLINE リストが空になりました。"
 msgid "The channel %s has no key."
 msgstr "チャンネル %s にキーが設定されていません。"
 
-#:
+#. merged with ja.l
 msgid "The following commands have been loaded by a module:"
 msgstr "以下のコマンドはこのモジュールによってロードされています:"
 
@@ -12361,7 +12361,7 @@ msgstr "%sのホスト・マスクは %s INFO 情報で表示するように�
 msgid "The memo limit for %s may not be changed."
 msgstr "%s のメモ保存量の上限値は変わりませんでした。"
 
-#:
+#. merged with ja.l
 msgid "The new display MUST be a nickname of your nickname group!"
 msgstr "新しいディスプレー名はグループ内にあるニックネームである必要があります。#（ディスプレー名はグループを代表するニックネーム）"
 
@@ -12385,11 +12385,11 @@ msgstr "%s のニックネームが %s に変わりました。"
 msgid "The nick %s is not in your group."
 msgstr ""
 
-#:
+#. merged with ja.l
 msgid "The password is %s for security purposes, you should change it as soon as you receive this mail."
 msgstr "パスワードは %s です。セキュリティ確保のため、このメールを受け取ったらすぐにパスワードを変更してください。"
 
-#:
+#. merged with ja.l
 msgid "The password is %s. For security reasons, you should change it as soon as you receive this mail."
 msgstr "パスワードは %s です。保安上の理由からこのメールを受け取ったらすぐにパスワードを変更してください。"
 
@@ -12403,7 +12403,7 @@ msgstr "%s のサービスへ権限情報は %s INFO 情報で表示しない�
 msgid "The services access status of %s will now be shown in %s INFO displays."
 msgstr "%s のサービスへ権限情報は %s INFO 情報で表示するように設定しました。"
 
-#:
+#. merged with ja.l
 msgid "The vhost list is empty."
 msgstr "バーチャルホストのリストに登録レコードがありません。"
 
@@ -12500,7 +12500,7 @@ msgstr "このチャンネルは使用されていません。"
 msgid "This channel will not expire."
 msgstr "このチャンネルはユーザーがいなくなってもなくなりません。"
 
-#:
+#. merged with ja.l
 msgid "This command is obsolete; use %s instead."
 msgstr "このコマンドは廃止されました。代わりに %s をお使いください。"
 
@@ -12664,7 +12664,7 @@ msgstr "UMODE nick modes"
 msgid "UNASSIGN chan"
 msgstr "UNASSIGN chan"
 
-#:
+#. merged with ja.l
 msgid "UNBAN channel"
 msgstr "UNBAN channel"
 
@@ -12680,27 +12680,27 @@ msgstr "UNSUSPEND channel"
 msgid "UNSUSPEND nickname"
 msgstr "UNSUSPEND nickname"
 
-#:
+#. merged with ja.l
 msgid "URL %s unset."
 msgstr "URL %s を解除しました。"
 
-#:
+#. merged with ja.l
 msgid "URL changed to %s."
 msgstr "URLを %s に変更しました。"
 
-#:
+#. merged with ja.l
 msgid "URL for %s changed to %s."
 msgstr "%s のURLは　%s に変更されました。"
 
-#:
+#. merged with ja.l
 msgid "URL for %s changed to %s."
 msgstr "チャンネル %s のURLを %s に変更しました。"
 
-#:
+#. merged with ja.l
 msgid "URL for %s unset."
 msgstr "チャンネル %s のURLを未設定に戻しました。"
 
-#:
+#. merged with ja.l
 msgid "URL unset."
 msgstr "URL 設定を外しました。"
 
@@ -12738,7 +12738,7 @@ msgstr "不明なコマンド: %s。"
 msgid "Unknown command %s.  \"%R%s HELP\" for help."
 msgstr "不明なコマンド: %s。\"%R%s HELP\" としてヘルプを参照して下さい。"
 
-#:
+#. merged with ja.l
 msgid "Unknown language number %d.  Type %R%s HELP SET LANGUAGE for a list of languages."
 msgstr "未知の言語番号 %d を指定しました。言語の一覧を見るには %R%s HELP SET LANGUAGE と入力してください。"
 
@@ -12786,7 +12786,7 @@ msgstr "Uplink capab: %s"
 msgid "Uplink server: %s"
 msgstr "アップリンクサーバー: %s"
 
-#:
+#. merged with ja.l
 msgid "User %s has been logged out of channel %s."
 msgstr " ユーザー %s がチャンネル %s からログアウトしました。"
 
@@ -12865,7 +12865,7 @@ msgstr "あなたは既に %s に入っています。"
 msgid "You are no longer a SuperAdmin"
 msgstr "あなたは SuperAdmin ではなくなりました。"
 
-#:
+#. merged with ja.l
 msgid "You are not allowed chanop status on channel %s."
 msgstr "このチャンネルは使用できないことがあります。"
 
@@ -12996,7 +12996,7 @@ msgstr "あなた宛のメモが 1 通あります。"
 msgid "You currently have no memos."
 msgstr "今のところ、あなた宛のメモはありません。"
 
-#:
+#. merged with ja.l
 msgid "You found me, %s!"
 msgstr "見つかっちゃったね。%s!"
 
@@ -13017,7 +13017,7 @@ msgstr ""
 "%s からあなた宛に新着メモを受け取りました。\n"
 "メモを読むには、%R%s READ %d と入力してください。"
 
-#:
+#. merged with ja.l
 msgid "You have attempted to register a nonexistent channel %s"
 msgstr "存在しないチャンネル %s は登録できません。"
 
@@ -13043,15 +13043,15 @@ msgstr "メモを受け取っていません。"
 msgid "You have no new memos."
 msgstr "新着メモがありません。"
 
-#:
+#. merged with ja.l
 msgid "You have requested to receive the password of channel %s by e-mail."
 msgstr "チャンネル %s のパスワードを電子メールで要求しました。"
 
-#:
+#. merged with ja.l
 msgid "You have requested to receive the password of nickname %s by e-mail."
 msgstr "ニックネーム %s のパスワードを e-mail で要求しました。"
 
-#:
+#. merged with ja.l
 msgid "You have requested to register the following nickname %s."
 msgstr "ニックネーム %s の登録要請を行いました。"
 
@@ -13059,7 +13059,7 @@ msgstr "ニックネーム %s の登録要請を行いました。"
 msgid "You have to enter a valid number as time."
 msgstr "time 引数に有効な数字を設定してください。"
 
-#:
+#. merged with ja.l
 msgid "You may not log out of %s (you are founder)."
 msgstr "あなたはチャンネルを作ったユーザーなので %s からログアウトすることはできません。"
 
@@ -13095,7 +13095,7 @@ msgid ""
 "case you forget it."
 msgstr "パスワードを忘れた際にパスワードの再発行を行うための連絡先として電子メールアドレスを入力して頂きます。"
 
-#:
+#. merged with ja.l
 msgid "You must register your nickname first.  Type %R%s HELP for information on registering nicknames."
 msgstr "先にニックネームの登録を行ってください。%R%s HELP と入力することでより詳細な情報が見られます。"
 
@@ -13103,7 +13103,7 @@ msgstr "先にニックネームの登録を行ってください。%R%s HELP 
 msgid "You need to be identified to use this command."
 msgstr "このコマンドを使う前に認証を行ってください。"
 
-#:
+#. merged with ja.l
 msgid "You need to register before a vhost can be assigned to you."
 msgstr "バーチャルホストを登録してください。"
 
@@ -13135,15 +13135,15 @@ msgstr "あなた宛の新着メモが到着してもお知らせしません。
 msgid "You will now be informed about new memos via email."
 msgstr "email による新着メモの通知を有効にしました。"
 
-#:
+#. merged with ja.l
 msgid "You've just received a new memo from %s. This is memo number %d."
 msgstr "%s からの新着メモが到着しました。メモ番号は %d です。"
 
-#:
+#. merged with ja.l
 msgid "Your E-mail address will now be hidden from %s INFO displays."
 msgstr "あなたの電子メール・アドレスは %s INFO コマンドで表示しないように設定されました。"
 
-#:
+#. merged with ja.l
 msgid "Your E-mail address will now be shown in %s INFO displays."
 msgstr "あなたの電子メール・アドレスは %s INFO コマンドで表示するように設定されました。"
 
@@ -13155,23 +13155,23 @@ msgstr "あなたの IRC デーモンは vIdent をサポートしていませ�
 msgid "Your access list is empty."
 msgstr "許可リストにはニックネームは登録されていません。"
 
-#:
+#. merged with ja.l
 msgid "Your channel password is %s - remember it for later use."
 msgstr "チャンネルパスワードは %s です。join するにはこれが必要になります。"
 
-#:
+#. merged with ja.l
 msgid "Your last quit message will now be hidden from %s INFO displays."
 msgstr "最も最近IRCを終了した時の終了メッセージは %s INFO コマンドで表示するように設定されました。"
 
-#:
+#. merged with ja.l
 msgid "Your last quit message will now be shown in %s INFO displays."
 msgstr "最も最近IRCを終了した時の終了メッセージは %s INFO コマンドで表示するように設定されました。"
 
-#:
+#. merged with ja.l
 msgid "Your last seen user@host mask will now be hidden from %s INFO displays."
 msgstr "あなたのホスト・マスクは %s INFO コマンドで表示しないように設定されました。"
 
-#:
+#. merged with ja.l
 msgid "Your last seen user@host mask will now be shown in %s INFO displays."
 msgstr "あなたのホスト・マスクは %s INFO コマンドで表示するように設定されました。"
 
@@ -13218,7 +13218,7 @@ msgstr "あなたにニックネームはどのグループにも所属してい
 msgid "Your nick isn't registered."
 msgstr "あなたのニックネームは未登録です。"
 
-#:
+#. merged with ja.l
 msgid "Your nick isn't registered.  Type %R%s HELP for information on registering your nickname."
 msgstr "あなたのニックネームは未登録です。ニックネームの登録については %R%s HELP と入力して情報を得てください。"
 
@@ -13249,11 +13249,11 @@ msgstr "パスワードが長すぎます。短いパスワードを試してく
 msgid "Your password reset request has expired."
 msgstr "パスワードリセット要求は時間切れです。"
 
-#:
+#. merged with ja.l
 msgid "Your services access status will now be hidden from %s INFO displays."
 msgstr "Your services access status will now be hidden from %s INFO displays."
 
-#:
+#. merged with ja.l
 msgid "Your services access status will now be shown in %s INFO displays.\n"
 msgstr "Your services access status will now be shown in %s INFO displays.\n"
 
@@ -13271,7 +13271,7 @@ msgstr "あなたのバーチャルホスト %s@%s を有効化しました�
 msgid "Your vhost was removed and the normal cloaking restored."
 msgstr "バーチャルホストを削除し、通常の隠匿ホストに変更しました。"
 
-#:
+#. merged with ja.l
 msgid "Your vhost was removed. To re-enable the standard host cloaking, type /mode %s +%s"
 msgstr "バーチャルホストを削除しました。/mode %s +%s と入力すれば、通常の隠匿ホストに変更できます。"
 
@@ -13346,7 +13346,7 @@ msgstr "あと %d 分で失効"
 msgid "expires in %d minutes"
 msgstr "あと %d 分で失効"
 
-#:
+#. merged with ja.l
 msgid "not used."
 msgstr "使われていません。"
 
