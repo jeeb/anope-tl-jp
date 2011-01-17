@@ -1008,7 +1008,7 @@ msgstr "    ASSIGN         ボットをチャンネルに召喚します。"
 
 #: language.cpp:2814
 msgid "    AUTOOP     Should services op you automatically.    "
-msgstr "    AUTOOP     サービスが自動的にあなたをオペレータ化します。"
+msgstr "    AUTOOP     サービスが自動的にあなたをオペレーター化します。"
 
 #: language.cpp:2924
 msgid "    AUTOOP     Turn autoop on or off"
@@ -1113,11 +1113,11 @@ msgstr "    DEVOICE    あるチャンネルで指定したニックネームを
 
 #: language.cpp:2911
 msgid "    DISPLAY    Set the display of the group in Services"
-msgstr "    DISPLAY    サービスにおけるグループのディスプレイを設定する。"
+msgstr "    DISPLAY    サービスにおけるグループのディスプレイを設定します。"
 
 #: language.cpp:2792
 msgid "    DISPLAY    Set the display of your group in Services"
-msgstr "    DISPLAY    サービスにおけるあなたのグループのディスプレイを設定する。"
+msgstr "    DISPLAY    サービスにおけるあなたのグループのディスプレイを設定します。"
 
 #: language.cpp:3294
 msgid "    DROP       Cancel the registration of a channel"
@@ -1145,8 +1145,8 @@ msgid ""
 "    ENTRYMSG      Set a message to be sent to users when they\n"
 "                     enter the channel"
 msgstr ""
-"    ENTRYMSG      チャンネルに入った時にユーザに表示するメッセージ\n"
-"                     を設定する。"
+"    ENTRYMSG      チャンネルに入った時にユーザーに表示するメッセージ\n"
+"                     を設定します。"
 
 #: language.cpp:4372
 msgid "    EXCEPTION   Modify the session-limit exception list"
@@ -1162,7 +1162,7 @@ msgstr "    FORBID     指定されたニックネームを登録禁止にする
 
 #: language.cpp:3390
 msgid "    FOUNDER       Set the founder of a channel"
-msgstr "    FOUNDER       チャンネルの創始者を設定する。"
+msgstr "    FOUNDER       チャンネルの創始者を設定します。"
 
 #: language.cpp:2635
 msgid "    GETEMAIL   Matches and returns all users that registered using given email"
@@ -1259,7 +1259,7 @@ msgstr "    JUPE        サーバーを \"Jupiter\" にします。"
 
 #: language.cpp:3403
 msgid "    KEEPTOPIC     Retain topic when channel is not in use"
-msgstr "    KEEPTOPIC     チャンネルが復活したら以前の topic を設定する。"
+msgstr "    KEEPTOPIC     チャンネルが復活したら以前の topic を設定します。"
 
 #: language.cpp:4823
 msgid "    KICK           Configures kickers"
@@ -1287,7 +1287,7 @@ msgid ""
 "                   sending messages to you"
 msgstr ""
 "    LANGUAGE   サービスがあなた宛に送るメッセージの\n"
-"                   言語を設定する。"
+"                   言語を設定します。"
 
 #: language.cpp:2926
 msgid ""
@@ -1295,7 +1295,7 @@ msgid ""
 "               sending messages to nickname"
 msgstr ""
 "    LANGUAGE   サービスがニックネーム宛に送るメッセージの\n"
-"               言語を設定する。"
+"               言語を設定します。"
 
 #: language.cpp:3290
 msgid "    LEVELS     Redefine the meanings of access levels"
@@ -1419,11 +1419,11 @@ msgstr " オプション : %s"
 
 #: language.cpp:2913
 msgid "    PASSWORD   Set the nickname password"
-msgstr "    PASSWORD   ニックネームのパスワードを設定する。"
+msgstr "    PASSWORD   ニックネームのパスワードを設定します。"
 
 #: language.cpp:2794
 msgid "    PASSWORD   Set your nickname password"
-msgstr "    PASSWORD   ニックネームのパスワードを設定する。"
+msgstr "    PASSWORD   ニックネームのパスワードを設定します。"
 
 #: language.cpp:3407
 msgid "    PEACE         Regulate the use of critical commands"
@@ -1527,7 +1527,7 @@ msgstr "   反転表示キッカー : %s (バンするためにキックした�
 
 #: language.cpp:3280
 msgid "    SASET      Forcefully set channel options and information"
-msgstr "    SASET      強制的にチャンネルオプションと情報を設定する。"
+msgstr "    SASET      強制的にチャンネルオプションと情報を設定します。"
 
 #: language.cpp:2605
 msgid "    SASET      Set SET-options on another nickname"
@@ -1552,7 +1552,7 @@ msgstr "    SECUREFOUNDER チャンネル創始者状態のコントロールを
 
 #: language.cpp:3415
 msgid "    SECUREOPS     Stricter control of chanop status"
-msgstr "    SECUREOPS     チャンネルオペレータ状態のコントロールを強化する。"
+msgstr "    SECUREOPS     チャンネルオペレーター状態のコントロールを強化する。"
 
 #: language.cpp:4161
 msgid "    SEND   Send a memo to a nick or channel"
@@ -1656,7 +1656,7 @@ msgstr "    STATUS     指定されたニックネームの持ち主状態を出
 
 #: language.cpp:3392
 msgid "    SUCCESSOR     Set the successor for a channel"
-msgstr "    SUCCESSOR     チャンネル後継者を設定する。"
+msgstr "    SUCCESSOR     チャンネル後継者を設定します。"
 
 #: language.cpp:3270
 msgid ""
@@ -1696,7 +1696,7 @@ msgstr "    UNASSIGN       ボットをチャンネルから削除します。"
 
 #: language.cpp:3316
 msgid "    UNBAN      Remove all bans preventing a user from entering a channel"
-msgstr "    UNBAN      あるユーザが入れないあるチャンネルのバンをすべて削除する。"
+msgstr "    UNBAN      あるユーザーが入れないあるチャンネルのバンをすべて削除する。"
 
 #. merged with ja.l
 msgid "    UNBAN      Remove all bans preventing you from entering a channel"
@@ -1743,7 +1743,7 @@ msgstr "    VOP        あるチャンネルのVOP(発言可能なユーザー)�
 
 #: language.cpp:3423
 msgid "    XOP           Toggle the user privilege system"
-msgstr "    XOP           ユーザ権利システムの有効無効を切り替える。"
+msgstr "    XOP           ユーザー権利システムの有効無効を切り替える。"
 
 #. merged with ja.l
 msgid "   %c%s"
