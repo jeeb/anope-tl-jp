@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-17 02:52+0900\n"
+"PO-Revision-Date: 2011-01-17 23:21+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -344,7 +344,7 @@ msgstr "%s が SGLINE リストから削除されました。"
 #: language.cpp:2125
 #, c-format
 msgid "%s deleted from the SNLINE list."
-msgstr ""
+msgstr "^B%s^B が SNLINE リストから削除されました。"
 
 #: language.cpp:2152
 #, c-format
@@ -442,7 +442,7 @@ msgstr "チャンネル %s の HOP リストに%s を移動しました。"
 #: language.cpp:972
 #, c-format
 msgid "%s moved to %s QOP list."
-msgstr ""
+msgstr "チャンネル %s の QOP リストに^B%s^B を移動しました。"
 
 #: language.cpp:1059
 #, c-format
@@ -467,7 +467,7 @@ msgstr "チャンネル %s の HOP リストに %s は見つかりません。
 #: language.cpp:976
 #, c-format
 msgid "%s not found on %s QOP list."
-msgstr ""
+msgstr "チャンネル %s の QOP リストに ^B%s^B は見つかりません。"
 
 #: language.cpp:1063
 #, c-format
@@ -524,7 +524,7 @@ msgstr "%s は SGLINE リストに登録されていません。"
 #: language.cpp:2121
 #, c-format
 msgid "%s not found on the SNLINE list."
-msgstr ""
+msgstr "%s は SNLINE リストに登録されていません。"
 
 #: language.cpp:2148
 #, c-format
@@ -925,12 +925,12 @@ msgstr "      保留: [%s] %s"
 #: language.cpp:1729
 #, c-format
 msgid "     Italics kicker : %s"
-msgstr ""
+msgstr "     イタリック体キッカー : %s"
 
 #: language.cpp:1731
 #, c-format
 msgid "     Italics kicker : %s (%d kick(s) to ban)"
-msgstr ""
+msgstr "     イタリック体キッカー : %s (バンするためにキックした回数: %d回)"
 
 #: language.cpp:1254
 #, c-format
