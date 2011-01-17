@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-17 23:35+0900\n"
+"PO-Revision-Date: 2011-01-18 00:30+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -369,7 +369,7 @@ msgstr "チャンネル %s にてアクセスレベル%s の使用を禁止し
 #: language.cpp:1296
 #, c-format
 msgid "%s has been invited to %s."
-msgstr ""
+msgstr "%s が %s に招待されました。"
 
 #. merged with ja.l
 msgid "%s has been moved to Services Administrators list."
@@ -382,7 +382,7 @@ msgstr "%s がサービスオペレーターリストに移動されました�
 #: language.cpp:1302
 #, c-format
 msgid "%s has been unbanned from %s."
-msgstr ""
+msgstr "%s は %s からのバンを解除されました。"
 
 #: language.cpp:844
 #, c-format
@@ -766,7 +766,7 @@ msgstr ""
 
 #. merged with ja.l
 msgid "              URL: %s"
-msgstr "URL: %s"
+msgstr "ウェブサイトアドレス: %s"
 
 #. merged with ja.l
 msgid "            ICQ #: %d"
@@ -779,7 +779,7 @@ msgstr "            オプション : %s"
 
 #. merged with ja.l
 msgid "            URL: %s"
-msgstr ""
+msgstr "ウェブサイトアドレス: %s"
 
 #: language.cpp:526
 #, c-format
@@ -881,17 +881,17 @@ msgstr "     色文字キッカー : %s(バンするためにキックした回�
 #: language.cpp:1284
 #, c-format
 msgid "      Expires on: %s"
-msgstr ""
+msgstr "    無効化予定日: %s"
 
 #: language.cpp:1252
 #, c-format
 msgid "      Last used: %s"
-msgstr "      最新の使用: %s"
+msgstr "     最新の使用: %s"
 
 #: language.cpp:1282
 #, c-format
 msgid "      Mode lock: %s"
-msgstr ""
+msgstr "   モードロック: %s"
 
 #: language.cpp:1719
 #, c-format
@@ -955,12 +955,12 @@ msgstr ""
 #: language.cpp:1222
 #, c-format
 msgid "    %-*s  (disabled)"
-msgstr ""
+msgstr "    %-*s  (無効化済み)"
 
 #: language.cpp:1224
 #, c-format
 msgid "    %-*s  (founder only)"
-msgstr ""
+msgstr "    %-*s  (チャンネル創始者のみ)"
 
 #. merged with ja.l
 msgid "    %-20s  %s"
@@ -1008,11 +1008,11 @@ msgstr "    ASSIGN         ボットをチャンネルに召喚します。"
 
 #: language.cpp:2814
 msgid "    AUTOOP     Should services op you automatically.    "
-msgstr ""
+msgstr "    AUTOOP     サービスが自動的にあなたをオペレータ化します。"
 
 #: language.cpp:2924
 msgid "    AUTOOP     Turn autoop on or off"
-msgstr ""
+msgstr "    AUTOOP     autoop 機能の有効無効を切り替えます。"
 
 #: language.cpp:4825
 msgid "    BADWORDS       Maintains bad words list"
@@ -1024,11 +1024,11 @@ msgstr "    BAN        指定したニックネームをあるチャンネルか
 
 #: language.cpp:3399
 msgid "    BANTYPE       Set how Services make bans on the channel"
-msgstr ""
+msgstr "    BANTYPE       チャンネルに対するバンタイプの設定"
 
 #: language.cpp:4835
 msgid "    BOT            Maintains network bot list"
-msgstr "    BOT            ボットリストを設定しま。"
+msgstr "    BOT            ボットリストを設定します。"
 
 #: language.cpp:4817
 msgid "    BOTLIST        Lists available bots"
@@ -1105,7 +1105,7 @@ msgstr "    DEPROTECT  あるチャンネルの指定されたニックネーム
 
 #: language.cpp:3394
 msgid "    DESC          Set the channel description"
-msgstr ""
+msgstr "    DESC          チャンネルの説明を設定します。"
 
 #: language.cpp:3300
 msgid "    DEVOICE    Devoices a selected nick on a channel"
@@ -1113,11 +1113,11 @@ msgstr "    DEVOICE    あるチャンネルで指定したニックネームを
 
 #: language.cpp:2911
 msgid "    DISPLAY    Set the display of the group in Services"
-msgstr ""
+msgstr "    DISPLAY    サービスにおけるグループのディスプレイを設定する。"
 
 #: language.cpp:2792
 msgid "    DISPLAY    Set the display of your group in Services"
-msgstr ""
+msgstr "    DISPLAY    サービスにおけるあなたのグループのディスプレイを設定する。"
 
 #: language.cpp:3294
 msgid "    DROP       Cancel the registration of a channel"
@@ -1134,17 +1134,19 @@ msgstr "    説明: %s"
 
 #: language.cpp:2915
 msgid "    EMAIL      Associate an E-mail address with the nickname"
-msgstr ""
+msgstr "    EMAIL      電子メールアドレスとニックネームを紐付ける。"
 
 #: language.cpp:2799
 msgid "    EMAIL      Associate an E-mail address with your nickname"
-msgstr ""
+msgstr "    EMAIL      電子メールアドレスとあなたのニックネームを紐付ける。"
 
 #: language.cpp:3396
 msgid ""
 "    ENTRYMSG      Set a message to be sent to users when they\n"
 "                     enter the channel"
 msgstr ""
+"    ENTRYMSG      チャンネルに入った時にユーザに表示するメッセージ\n"
+"                     を設定する。"
 
 #: language.cpp:4372
 msgid "    EXCEPTION   Modify the session-limit exception list"
@@ -1160,7 +1162,7 @@ msgstr "    FORBID     指定されたニックネームを登録禁止にする
 
 #: language.cpp:3390
 msgid "    FOUNDER       Set the founder of a channel"
-msgstr ""
+msgstr "    FOUNDER       チャンネルの創始者を設定する。"
 
 #: language.cpp:2635
 msgid "    GETEMAIL   Matches and returns all users that registered using given email"
@@ -1192,11 +1194,11 @@ msgstr "    GLOBAL      メッセージをユーザー全員に送ります。"
 
 #: language.cpp:2917
 msgid "    GREET      Associate a greet message with the nickname"
-msgstr ""
+msgstr "    GREET      ニックネームと挨拶メッセージを紐付ける。"
 
 #: language.cpp:2801
 msgid "    GREET      Associate a greet message with your nickname"
-msgstr ""
+msgstr "    GREET      あなたのニックネームと挨拶メッセージを紐付ける。"
 
 #: language.cpp:5166
 msgid "    GROUP       Syncs the vhost for all nicks in a group"
@@ -1217,7 +1219,7 @@ msgstr "    HALFOP     あるチャンネルの指定されたニックネーム
 
 #: language.cpp:2810
 msgid "    HIDE       Hide certain pieces of nickname information"
-msgstr ""
+msgstr "    HIDE       ニックネームに関するいくつかの情報を隠す。"
 
 #: language.cpp:3330
 msgid "    HOP        Maintains the HOP (HalfOP) list for a channel"
@@ -1257,7 +1259,7 @@ msgstr "    JUPE        サーバーを \"Jupiter\" にします。"
 
 #: language.cpp:3403
 msgid "    KEEPTOPIC     Retain topic when channel is not in use"
-msgstr ""
+msgstr "    KEEPTOPIC     チャンネルが復活したら以前の topic を設定する。"
 
 #: language.cpp:4823
 msgid "    KICK           Configures kickers"
@@ -1273,7 +1275,7 @@ msgstr "    KICK       あるチャンネルから指定したニックネーム
 
 #: language.cpp:2803
 msgid "    KILL       Turn protection on or off"
-msgstr ""
+msgstr "    KILL       保護機能の有効無効を切り替える"
 
 #. merged with ja.l
 msgid "    KILLCLONES  Kill all users that have a certain host"
@@ -1284,12 +1286,16 @@ msgid ""
 "    LANGUAGE   Set the language Services will use when\n"
 "                   sending messages to you"
 msgstr ""
+"    LANGUAGE   サービスがあなた宛に送るメッセージの\n"
+"                   言語を設定する。"
 
 #: language.cpp:2926
 msgid ""
 "    LANGUAGE   Set the language Services will use when\n"
 "               sending messages to nickname"
 msgstr ""
+"    LANGUAGE   サービスがニックネーム宛に送るメッセージの\n"
+"               言語を設定する。"
 
 #: language.cpp:3290
 msgid "    LEVELS     Redefine the meanings of access levels"
@@ -1326,11 +1332,11 @@ msgstr "    LOGOUT     指定されたニックネームをログアウトさせ
 #: language.cpp:1200
 #, c-format
 msgid "    Last used %s"
-msgstr ""
+msgstr "最終使用時間 %s"
 
 #: language.cpp:3401
 msgid "    MLOCK         Lock channel modes on or off"
-msgstr ""
+msgstr "    MLOCK         チャンネルモード保護の有効無効を切り替える"
 
 #: language.cpp:4345
 msgid "    MODE        Change a channel's modes"
@@ -1350,7 +1356,7 @@ msgstr "    MODLOAD     モジュールをロードします。"
 
 #: language.cpp:4408
 msgid "    MODRELOAD   Reload a module"
-msgstr ""
+msgstr "    MODRELOAD   モジュールの再読み込み"
 
 #: language.cpp:4406
 msgid "    MODUNLOAD   Un-Load a module"
@@ -1358,15 +1364,15 @@ msgstr "    MODUNLOAD   モジュールをアンロードします。"
 
 #: language.cpp:2812
 msgid "    MSG        Change the communication method of Services"
-msgstr ""
+msgstr "    MSG        サービスとメッセージのやり取りをする方法を変更する。"
 
 #: language.cpp:3427
 msgid "    NOEXPIRE      Prevent the channel from expiring"
-msgstr ""
+msgstr "    NOEXPIRE      チャンネルが消えないようにする。"
 
 #: language.cpp:2922
 msgid "    NOEXPIRE   Prevent the nickname from expiring"
-msgstr ""
+msgstr "    NOEXPIRE   ニックネームが消えないようにする。"
 
 #: language.cpp:4374
 msgid ""
@@ -1400,7 +1406,7 @@ msgstr "    OPERNEWS    オペレーターに表示するメッセージを編�
 
 #: language.cpp:3405
 msgid "    OPNOTICE      Send a notice when OP/DEOP commands are used"
-msgstr ""
+msgstr "    OPNOTICE      OP/DEOP コマンドが使われたら notice を送る。"
 
 #: language.cpp:3332
 msgid "    OWNER      Gives you owner status on channel"
@@ -1413,35 +1419,39 @@ msgstr " オプション : %s"
 
 #: language.cpp:2913
 msgid "    PASSWORD   Set the nickname password"
-msgstr ""
+msgstr "    PASSWORD   ニックネームのパスワードを設定する。"
 
 #: language.cpp:2794
 msgid "    PASSWORD   Set your nickname password"
-msgstr ""
+msgstr "    PASSWORD   ニックネームのパスワードを設定する。"
 
 #: language.cpp:3407
 msgid "    PEACE         Regulate the use of critical commands"
-msgstr ""
+msgstr "    PEACE         危険なコマンドの使用を制限する。"
 
 #: language.cpp:3425
 msgid "    PERSIST       Set the channel as permanent"
-msgstr ""
+msgstr "    PERSIST       チャンネルを常設のものとする。"
 
 #: language.cpp:3409
 msgid "    PRIVATE       Hide channel from LIST command"
-msgstr ""
+msgstr "    PRIVATE       チャンネルを LIST コマンドから隠す。"
 
 #: language.cpp:2919
 msgid ""
 "    PRIVATE    Prevent the nickname from appearing in a\n"
 "                   %R%S LIST"
 msgstr ""
+"    PRIVATE    ニックネームを%R%S LIST\n"
+"                   コマンドから隠す。"
 
 #: language.cpp:2807
 msgid ""
 "    PRIVATE    Prevent your nickname from appearing in a\n"
 "                   %R%S LIST"
 msgstr ""
+"    PRIVATE    あなたのニックネームを%R%S LIST\n"
+"                   コマンドから隠す。"
 
 #: language.cpp:3334
 msgid "    PROTECT    Protects a selected nick on a channel"
@@ -1449,7 +1459,7 @@ msgstr "    PROTECT    あるチャンネルの指定されたニックネーム
 
 #: language.cpp:3282
 msgid "    QOP        Modify the list of QOP users"
-msgstr ""
+msgstr "    QOP        QOPユーザーのリストを変更する。"
 
 #: language.cpp:4390
 msgid "    QUIT        Terminate the Services program with no save"
@@ -1491,7 +1501,7 @@ msgstr "    RESEND     NickServの証明コード（auth code）を再送りす�
 
 #: language.cpp:2615
 msgid "    RESETPASS  Helps you reset lost passwords"
-msgstr ""
+msgstr "    RESETPASS  紛失したパスワードをリセットする。"
 
 #: language.cpp:4388
 msgid "    RESTART     Save databases and restart Services"
@@ -1499,7 +1509,7 @@ msgstr "    RESTART     データベースを保存して、サービスを再�
 
 #: language.cpp:3411
 msgid "    RESTRICTED    Restrict access to the channel"
-msgstr ""
+msgstr "    RESTRICTED    チャンネルへのアクセスを制限する。"
 
 #: language.cpp:4175
 msgid "    RSEND  Sends a memo and requests a read receipt"
@@ -1517,7 +1527,7 @@ msgstr "   反転表示キッカー : %s (バンするためにキックした�
 
 #: language.cpp:3280
 msgid "    SASET      Forcefully set channel options and information"
-msgstr ""
+msgstr "    SASET      強制的にチャンネルオプションと情報を設定する。"
 
 #: language.cpp:2605
 msgid "    SASET      Set SET-options on another nickname"
@@ -1530,19 +1540,19 @@ msgstr "    SAY            指定されたテキストを指定されたチャ�
 #: language.cpp:3413
 #, c-format
 msgid "    SECURE        Activate %S security features"
-msgstr ""
+msgstr "    SECURE        %S 保安機能を有効化する。"
 
 #: language.cpp:2805
 msgid "    SECURE     Turn nickname security on or off"
-msgstr ""
+msgstr "    SECURE     ニックネーム保護機能の有効無効を切り替える。"
 
 #: language.cpp:3417
 msgid "    SECUREFOUNDER Stricter control of channel founder status"
-msgstr ""
+msgstr "    SECUREFOUNDER チャンネル創始者状態のコントロールを強化する。"
 
 #: language.cpp:3415
 msgid "    SECUREOPS     Stricter control of chanop status"
-msgstr ""
+msgstr "    SECUREOPS     チャンネルオペレータ状態のコントロールを強化する。"
 
 #: language.cpp:4161
 msgid "    SEND   Send a memo to a nick or channel"
@@ -1602,11 +1612,11 @@ msgstr "    SHUTDOWN    保存してサービスを終了します。"
 
 #: language.cpp:3419
 msgid "    SIGNKICK      Sign kicks that are done with KICK command"
-msgstr ""
+msgstr "    SIGNKICK      KICK コマンドでなされたキックを記録する。"
 
 #: language.cpp:4353
 msgid "    SNLINE      Manipulate the SNLINE list"
-msgstr ""
+msgstr "    SNLINE      SNLINE リストを編集する。"
 
 #: language.cpp:3286
 msgid "    SOP        Modify the list of SOP users"
@@ -1618,7 +1628,7 @@ msgstr "    SQLINE      SQLINE リストを編集します。"
 
 #: language.cpp:5235
 msgid "    SQLSYNC     Import your databases to SQL"
-msgstr ""
+msgstr "    SQLSYNC     あなたのデータベースを SQL にインポートする。"
 
 #: language.cpp:4343
 msgid "    STAFF       Display Services staff and online status"
@@ -1646,7 +1656,7 @@ msgstr "    STATUS     指定されたニックネームの持ち主状態を出
 
 #: language.cpp:3392
 msgid "    SUCCESSOR     Set the successor for a channel"
-msgstr ""
+msgstr "    SUCCESSOR     チャンネル後継者を設定する。"
 
 #: language.cpp:3270
 msgid ""
@@ -1674,7 +1684,7 @@ msgstr "    TOPIC      指定されたチャンネルのトピックを変更す
 
 #: language.cpp:3421
 msgid "    TOPICLOCK     Topic can only be changed with TOPIC"
-msgstr ""
+msgstr "    TOPICLOCK     トピックの変更を TOPIC コマンドからだけに制限する。"
 
 #: language.cpp:4400
 msgid "    UMODE       Change a user's modes"
@@ -1686,7 +1696,7 @@ msgstr "    UNASSIGN       ボットをチャンネルから削除します。"
 
 #: language.cpp:3316
 msgid "    UNBAN      Remove all bans preventing a user from entering a channel"
-msgstr ""
+msgstr "    UNBAN      あるユーザが入れないあるチャンネルのバンをすべて削除する。"
 
 #. merged with ja.l
 msgid "    UNBAN      Remove all bans preventing you from entering a channel"
@@ -1694,7 +1704,7 @@ msgstr "    UNBAN      自分が入れないあるチャンネルのバンをす
 
 #: language.cpp:2597
 msgid "    UNGROUP    Remove a nick from a group"
-msgstr ""
+msgstr "    UNGROUP    あるグループからニックネームを削除する。"
 
 #: language.cpp:3273
 msgid "    UNSUSPEND  Releases a suspended channel"
@@ -1733,7 +1743,7 @@ msgstr "    VOP        あるチャンネルのVOP(発言可能なユーザー)�
 
 #: language.cpp:3423
 msgid "    XOP           Toggle the user privilege system"
-msgstr ""
+msgstr "    XOP           ユーザ権利システムの有効無効を切り替える。"
 
 #. merged with ja.l
 msgid "   %c%s"
@@ -1741,17 +1751,17 @@ msgstr ""
 
 #. merged with ja.l
 msgid "   %c%s (expires in %s)"
-msgstr "   %c%s (%s 後に解除予定)"
+msgstr "   %c%s (%s に期限切れ)"
 
 #: language.cpp:582
 #, c-format
 msgid "   %s (does not expire)"
-msgstr ""
+msgstr "   %s (期限切れ無し)"
 
 #: language.cpp:580
 #, c-format
 msgid "   %s (expires in %s)"
-msgstr ""
+msgstr "   %s (%s に期限切れ)"
 
 #: language.cpp:1691
 #, c-format
@@ -1849,7 +1859,7 @@ msgstr "  エントリメッセージ: %s"
 #: language.cpp:1679
 #, c-format
 msgid "  Real name : %s"
-msgstr ""
+msgstr "リアルネーム: %s"
 
 #: language.cpp:518
 #, c-format
@@ -2029,7 +2039,7 @@ msgstr "チャンネル %s の HOP リストは空です。"
 #: language.cpp:986
 #, c-format
 msgid "%s QOP list is empty."
-msgstr ""
+msgstr "チャンネル %s の QOP リストは空です。"
 
 #: language.cpp:1073
 #, c-format
@@ -2152,7 +2162,7 @@ msgstr "%sは準サービス管理者です。"
 #: language.cpp:510
 #, c-format
 msgid "%s is a services operator of type %s."
-msgstr ""
+msgstr "%s はタイプ %s のサービス・オペレーターです。"
 
 #. merged with ja.l
 msgid "%s is a services operator."
