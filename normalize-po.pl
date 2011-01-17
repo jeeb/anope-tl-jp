@@ -36,7 +36,7 @@ sub spacer
 {
 	my $str = shift;
 	my $east = qr/(?!\p{M})(?:\p{Han}|\p{Katakana}|\p{Hiragana})/;
-	my $west = qr/(?!\p{M})(?:\p{Latin}|\p{Greek}|\p{Cyrillic}|%)/;
+	my $west = qr/(?!\p{M})(?:\p{Latin}|\p{Greek}|\p{Cyrillic}|%|[0-9])/;
 	$str = decode 'utf8', $str;
 	$str =~ s/($east)($west)/$1 $2/g;
 	$str =~ s/($west)($east)/$1 $2/g;
