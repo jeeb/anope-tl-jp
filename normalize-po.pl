@@ -11,6 +11,9 @@ my $lexicon = {};
 my $Ext = Locale::Maketext::Extract->new;
 $Ext->read_po($ARGV[0]);
 while (my ($key, $val) = each %{$Ext->lexicon}) {
+	if ($key eq $val) {
+		$val = '';
+	}
 	my $_ = $val;
 	s/設定する。/設定します。/g;
 	s/サーバ(ー)?/サーバー/g;
@@ -20,9 +23,6 @@ while (my ($key, $val) = each %{$Ext->lexicon}) {
 	s/ポリシ(ー)?/ポリシー/g;
 	s/エントリ(ー)?/エントリ/g;
 	s/デバック/デバッグ/g;
-	if ($val eq $key) {
-		$_ = '';
-	}
 	$lexicon->{$key} = $_;
 }
 $Ext->set_lexicon( { map Locale::Maketext::Extract::_maketext_to_gettext($_), %$lexicon } );
