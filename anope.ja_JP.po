@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-17 23:21+0900\n"
+"PO-Revision-Date: 2011-01-17 23:35+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -261,9 +261,9 @@ msgid "%s already exists on the SZLINE list."
 msgstr "%s は既に SZLINE リストに登録されています。"
 
 #: language.cpp:1809
-#, fuzzy, c-format
+#, c-format
 msgid "%s cannot be taken as times to ban."
-msgstr "%s cannot be taken as times to ban."
+msgstr ""
 
 #: language.cpp:2057
 #, c-format
@@ -779,7 +779,7 @@ msgstr "            オプション : %s"
 
 #. merged with ja.l
 msgid "            URL: %s"
-msgstr "            URL: %s"
+msgstr ""
 
 #: language.cpp:526
 #, c-format
@@ -881,7 +881,7 @@ msgstr "     色文字キッカー : %s(バンするためにキックした回�
 #: language.cpp:1284
 #, c-format
 msgid "      Expires on: %s"
-msgstr "      Expires on: %s"
+msgstr ""
 
 #: language.cpp:1252
 #, c-format
@@ -891,7 +891,7 @@ msgstr "      最新の使用: %s"
 #: language.cpp:1282
 #, c-format
 msgid "      Mode lock: %s"
-msgstr "      Mode lock: %s"
+msgstr ""
 
 #: language.cpp:1719
 #, c-format
@@ -945,26 +945,26 @@ msgstr "     登録済み: %s"
 #: language.cpp:1226
 #, c-format
 msgid "    %-*s  %d"
-msgstr "    %-*s  %d"
+msgstr ""
 
 #: language.cpp:3951
 #, c-format
 msgid "    %-*s  %s"
-msgstr "    %-*s  %s"
+msgstr ""
 
 #: language.cpp:1222
 #, c-format
 msgid "    %-*s  (disabled)"
-msgstr "    %-*s  (disabled)"
+msgstr ""
 
 #: language.cpp:1224
 #, c-format
 msgid "    %-*s  (founder only)"
-msgstr "    %-*s  (founder only)"
+msgstr ""
 
 #. merged with ja.l
 msgid "    %-20s  %s"
-msgstr "    %-20s  %s"
+msgstr ""
 
 #: language.cpp:2601
 msgid "    ACCESS     Modify the list of authorized addresses"
@@ -1737,7 +1737,7 @@ msgstr ""
 
 #. merged with ja.l
 msgid "   %c%s"
-msgstr "   %c%s"
+msgstr ""
 
 #. merged with ja.l
 msgid "   %c%s (expires in %s)"
@@ -1786,16 +1786,16 @@ msgstr "   トピックを設定したユーザー: %s"
 #: language.cpp:1905
 #, c-format
 msgid "  %3d   %-30s %s"
-msgstr "  %3d   %-30s %s"
+msgstr ""
 
 #: language.cpp:2104
 #, c-format
 msgid "  %3d   %-32s  %s"
-msgstr "  %3d   %-32s  %s"
+msgstr ""
 
 #. merged with ja.l
 msgid "  %3d   %s"
-msgstr "  %3d   %s"
+msgstr ""
 
 #: language.cpp:1158
 #, c-format
@@ -1807,12 +1807,12 @@ msgstr ""
 #: language.cpp:1152
 #, c-format
 msgid "  %3d   %s  %s"
-msgstr "  %3d   %s  %s"
+msgstr ""
 
 #: language.cpp:1154
 #, c-format
 msgid "  %3d  %4d  %s"
-msgstr "  %3d  %4d  %s"
+msgstr ""
 
 #: language.cpp:1161
 #, c-format
@@ -1824,22 +1824,22 @@ msgstr ""
 #: language.cpp:957
 #, c-format
 msgid "  %3d  %s"
-msgstr "  %3d  %s"
+msgstr ""
 
 #: language.cpp:570
 #, c-format
 msgid "  %3d %c%-20s %-8d %s"
-msgstr "  %3d %c%-20s %-8d %s"
+msgstr ""
 
 #: language.cpp:568
 #, c-format
 msgid "  %3d %c%-20s %-8s %s"
-msgstr "  %3d %c%-20s %-8s %s"
+msgstr ""
 
 #: language.cpp:1192
 #, c-format
 msgid "  %3d %s (%s)"
-msgstr "  %3d %s (%s)"
+msgstr ""
 
 #: language.cpp:1248
 #, c-format
@@ -1849,7 +1849,7 @@ msgstr "  エントリメッセージ: %s"
 #: language.cpp:1679
 #, c-format
 msgid "  Real name : %s"
-msgstr "  Real name : %s"
+msgstr ""
 
 #: language.cpp:518
 #, c-format
@@ -1869,12 +1869,12 @@ msgstr "       下線キッカー : %s (バンするためにキックした回�
 #: language.cpp:2294
 #, c-format
 msgid " %c %s  %s"
-msgstr " %c %s  %s"
+msgstr ""
 
 #: language.cpp:2296
 #, c-format
 msgid " %c %s  %s [%s]"
-msgstr " %c %s  %s [%s]"
+msgstr ""
 
 #. merged with ja.l
 msgid " E-mail address: %s"
@@ -1902,17 +1902,17 @@ msgstr "#%d ニックネーム:%s, バーチャルホスト:%s@%s (%s - %s
 #: language.cpp:2268
 #, c-format
 msgid "%-20s  %4d +%-6s %s"
-msgstr "%-20s  %4d +%-6s %s"
+msgstr ""
 
 #: language.cpp:2278
 #, c-format
 msgid "%-20s %s@%s"
-msgstr "%-20s %s@%s"
+msgstr ""
 
 #: language.cpp:2366
 #, c-format
 msgid "%3d  %4d   %s"
-msgstr "%3d  %4d   %s"
+msgstr ""
 
 #: language.cpp:2108
 #, c-format
@@ -1920,8 +1920,6 @@ msgid ""
 "%3d  %s (by %s on %s; %s)\n"
 "      %s"
 msgstr ""
-"%3d  %s (by %s on %s; %s)\n"
-"      %s"
 
 #: language.cpp:1194
 #, c-format
@@ -1929,8 +1927,6 @@ msgid ""
 "%3d %s (by %s on %s)\n"
 "    %s"
 msgstr ""
-"%3d %s (by %s on %s)\n"
-"    %s"
 
 #: language.cpp:1197
 #, c-format
@@ -1938,8 +1934,6 @@ msgid ""
 "%3d %s (stuck) (by %s on %s)\n"
 "    %s"
 msgstr ""
-"%3d %s (stuck) (by %s on %s)\n"
-"    %s"
 
 #: language.cpp:2370
 #, c-format
@@ -1947,8 +1941,6 @@ msgid ""
 "%3d.  %s  (by %s on %s; %s)\n"
 "    Limit: %-4d  - %s"
 msgstr ""
-"%3d.  %s  (by %s on %s; %s)\n"
-"    Limit: %-4d  - %s"
 
 #: language.cpp:2492
 #, c-format
@@ -1956,13 +1948,11 @@ msgid ""
 "%5d (%s by %s)\n"
 "    %s"
 msgstr ""
-"%5d (%s by %s)\n"
-"    %s"
 
 #: language.cpp:2391
 #, c-format
 msgid "%6d    %s"
-msgstr "%6d    %s"
+msgstr ""
 
 #: language.cpp:4414
 #, c-format
@@ -1984,7 +1974,7 @@ msgstr "%Y/%b/%d"
 #: language.cpp:1448
 #, c-format
 msgid "%c%3d  %-16s  %s"
-msgstr "%c%3d  %-16s  %s"
+msgstr ""
 
 #: language.cpp:2334
 #, c-format
@@ -2024,7 +2014,7 @@ msgstr "%d秒間"
 #: language.cpp:1456
 #, c-format
 msgid "%s"
-msgstr "%s"
+msgstr ""
 
 #: language.cpp:1015
 #, c-format
@@ -2325,7 +2315,7 @@ msgstr "* セッション数制限を %d に減らします。"
 
 #. merged with ja.l
 msgid ", "
-msgstr ", "
+msgstr ""
 
 #: language.cpp:226
 msgid "1 day"
@@ -2382,11 +2372,11 @@ msgstr "ACCESS {ADD | DEL | LIST} [ホスト・マスク]"
 
 #: language.cpp:1911
 msgid "ACT channel text"
-msgstr "ACT channel text"
+msgstr ""
 
 #. merged with ja.l
 msgid "ADMIN {ADD|DEL|LIST|CLEAR} [nick | entry-list]"
-msgstr "ADMIN {ADD|DEL|LIST|CLEAR} [nick | entry-list]"
+msgstr ""
 
 #: language.cpp:1164
 msgid "AKICK channel {ADD | STICK | UNSTICK | DEL | LIST | VIEW | ENFORCE | CLEAR} [nick-or-usermask] [reason]"
@@ -2403,11 +2393,11 @@ msgstr "AKILL リストが空です。"
 
 #: language.cpp:2077
 msgid "AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]"
-msgstr "AKILL {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]"
+msgstr ""
 
 #. merged with ja.l
 msgid "ALIST nickname"
-msgstr "ALIST nickname"
+msgstr ""
 
 #: language.cpp:993
 msgid "AOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]"
@@ -2424,7 +2414,7 @@ msgstr ""
 
 #: language.cpp:1657
 msgid "ASSIGN chan nick"
-msgstr "ASSIGN chan nick"
+msgstr ""
 
 #: language.cpp:169
 msgid "Access denied."
@@ -2734,7 +2724,7 @@ msgstr "自動的にチャンネル発言権を得る[AUTOVOICE](+v)"
 
 #: language.cpp:1880
 msgid "BADWORDS channel {ADD|DEL|LIST|CLEAR} [word | entry-list] [SINGLE|START|END]"
-msgstr "BADWORDS channel {ADD|DEL|LIST|CLEAR} [word | entry-list] [SINGLE|START|END]"
+msgstr ""
 
 #: language.cpp:1378
 msgid "BAN #channel nick [reason]"
@@ -3053,23 +3043,23 @@ msgstr "書き込みバイト: %5d kB"
 
 #: language.cpp:1426
 msgid "CANCEL {nick | channel}"
-msgstr "CANCEL {nick | channel}"
+msgstr ""
 
 #: language.cpp:2113
 msgid "CHANKILL [+expiry] {#channel} [reason]"
-msgstr "CHANKILL [+expiry] {#channel} [reason]"
+msgstr ""
 
 #: language.cpp:1593
 msgid "CHECK nickname"
-msgstr "CHECK nickname"
+msgstr ""
 
 #: language.cpp:1306
 msgid "CLEAR channel what"
-msgstr "CLEAR channel what"
+msgstr ""
 
 #: language.cpp:2065
 msgid "CLEARMODES channel [ALL]"
-msgstr "CLEARMODES channel [ALL]"
+msgstr ""
 
 #: language.cpp:356
 #, c-format
@@ -3404,7 +3394,7 @@ msgstr "現在のユーザー数: %d (オペレーター数 %d)"
 
 #: language.cpp:2298
 msgid "DEFCON [1|2|3|4|5]"
-msgstr "DEFCON [1|2|3|4|5]"
+msgstr ""
 
 #: language.cpp:1368
 msgid "DEHALFOP #channel [nick]"
@@ -3412,11 +3402,11 @@ msgstr ""
 
 #: language.cpp:5146
 msgid "DEL <nick>."
-msgstr "DEL <nick>."
+msgstr ""
 
 #: language.cpp:1458
 msgid "DEL [channel] {num | list | ALL}"
-msgstr "DEL [channel] {num | list | ALL}"
+msgstr ""
 
 #: language.cpp:5120
 msgid "DELALL <nick>."
@@ -3440,7 +3430,7 @@ msgstr ""
 
 #: language.cpp:804
 msgid "DROP channel"
-msgstr "DROP channel"
+msgstr ""
 
 #: language.cpp:1981
 #, c-format
@@ -3813,19 +3803,19 @@ msgstr "%s への電子メールは無効です。"
 
 #. merged with ja.l
 msgid "EXCEPTION ADD [+expiry] mask limit reason"
-msgstr "EXCEPTION ADD [+expiry] mask limit reason"
+msgstr ""
 
 #. merged with ja.l
 msgid "EXCEPTION DEL {mask | list}"
-msgstr "EXCEPTION DEL {mask | list}"
+msgstr ""
 
 #. merged with ja.l
 msgid "EXCEPTION MOVE num position"
-msgstr "EXCEPTION MOVE num position"
+msgstr ""
 
 #: language.cpp:2346
 msgid "EXCEPTION {ADD | DEL | MOVE | LIST | VIEW} [params]"
-msgstr "EXCEPTION {ADD | DEL | MOVE | LIST | VIEW} [params]"
+msgstr ""
 
 #: language.cpp:611
 #, c-format
@@ -3909,19 +3899,19 @@ msgstr "%s の SZLINE 失効時間が変更されました。"
 
 #: language.cpp:1328
 msgid "FORBID channel reason"
-msgstr "FORBID channel reason"
+msgstr ""
 
 #: language.cpp:1326
 msgid "FORBID channel [reason]"
-msgstr "FORBID channel [reason]"
+msgstr ""
 
 #: language.cpp:657
 msgid "FORBID nickname reason"
-msgstr "FORBID nickname reason"
+msgstr ""
 
 #: language.cpp:655
 msgid "FORBID nickname [reason]"
-msgstr "FORBID nickname [reason]"
+msgstr ""
 
 #: language.cpp:1743
 msgid "Fantasy"
@@ -3948,19 +3938,19 @@ msgstr "チャンネル %s の登録メンバーが %s に変更されまし�
 
 #: language.cpp:609
 msgid "GETEMAIL user@email-host No WildCards!!"
-msgstr "GETEMAIL user@email-host No WildCards!!"
+msgstr ""
 
 #: language.cpp:1320
 msgid "GETKEY channel"
-msgstr "GETKEY channel"
+msgstr ""
 
 #. merged with ja.l
 msgid "GETPASS channel"
-msgstr "GETPASS channel"
+msgstr ""
 
 #: language.cpp:603
 msgid "GETPASS nickname"
-msgstr "GETPASS nickname"
+msgstr ""
 
 #: language.cpp:605
 msgid "GETPASS command unavailable because encryption is in use."
@@ -3968,11 +3958,11 @@ msgstr "暗号化されているため、GETPASS コマンドは使えません�
 
 #: language.cpp:597
 msgid "GHOST nickname [password]"
-msgstr "GHOST nickname [password]"
+msgstr ""
 
 #: language.cpp:1929
 msgid "GLOBAL message"
-msgstr "GLOBAL message"
+msgstr ""
 
 #: language.cpp:308
 msgid "GROUP target password"
@@ -4140,7 +4130,7 @@ msgstr ""
 
 #: language.cpp:2244
 msgid "IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]"
-msgstr "IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick | mask]"
+msgstr ""
 
 #: language.cpp:1238
 msgid "INFO channel"
@@ -4148,7 +4138,7 @@ msgstr ""
 
 #. merged with ja.l
 msgid "INFO channel [ALL]"
-msgstr "INFO channel [ALL]"
+msgstr ""
 
 #: language.cpp:506
 msgid "INFO nick"
@@ -4160,19 +4150,19 @@ msgstr "INFO ニックネーム [ALL]"
 
 #. merged with ja.l
 msgid "INFO [channel]"
-msgstr "INFO [channel]"
+msgstr ""
 
 #. merged with ja.l
 msgid "INFO [nick | channel]"
-msgstr "INFO [nick | channel]"
+msgstr ""
 
 #: language.cpp:1671
 msgid "INFO {chan | nick}"
-msgstr "INFO {chan | nick}"
+msgstr ""
 
 #: language.cpp:1290
 msgid "INVITE channel"
-msgstr "INVITE channel"
+msgstr ""
 
 #: language.cpp:280
 msgid "If you do not change within 20 seconds, I will change your nick."
@@ -4253,7 +4243,7 @@ msgstr "無効な上限値です。1より大きい整数を指定してくだ�
 
 #: language.cpp:2234
 msgid "JUPE servername [reason]"
-msgstr "JUPE servername [reason]"
+msgstr ""
 
 #. merged with ja.l
 msgid ""
@@ -4313,7 +4303,7 @@ msgstr ""
 
 #. merged with ja.l
 msgid "KEY %s %s"
-msgstr "KEY %s %s"
+msgstr ""
 
 #: language.cpp:1376
 msgid "KICK #channel nick [reason]"
@@ -4321,15 +4311,15 @@ msgstr ""
 
 #: language.cpp:1802
 msgid "KICK channel option {ON|OFF} [settings]"
-msgstr "KICK channel option {ON|OFF} [settings]"
+msgstr ""
 
 #: language.cpp:2071
 msgid "KICK channel user reason"
-msgstr "KICK channel user reason"
+msgstr ""
 
 #. merged with ja.l
 msgid "KILLCLONES nick"
-msgstr "KILLCLONES nick"
+msgstr ""
 
 #: language.cpp:1324
 #, c-format
@@ -4342,7 +4332,7 @@ msgstr "LEVELS チャンネル {SET | DIS[ABLE] | LIST | RESET} [アイテム
 
 #: language.cpp:554
 msgid "LIST pattern"
-msgstr "LIST pattern"
+msgstr ""
 
 #: language.cpp:556
 msgid "LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]"
@@ -4350,31 +4340,31 @@ msgstr "LIST パターン [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]"
 
 #: language.cpp:1432
 msgid "LIST [channel] [list | NEW]"
-msgstr "LIST [channel] [list | NEW]"
+msgstr ""
 
 #. merged with ja.l
 msgid "LOGONNEWS ADD text"
-msgstr "LOGONNEWS ADD text"
+msgstr ""
 
 #. merged with ja.l
 msgid "LOGONNEWS DEL {num | ALL}"
-msgstr "LOGONNEWS DEL {num | ALL}"
+msgstr ""
 
 #: language.cpp:2488
 msgid "LOGONNEWS {ADD|DEL|LIST} [text|num]"
-msgstr "LOGONNEWS {ADD|DEL|LIST} [text|num]"
+msgstr ""
 
 #: language.cpp:350
 msgid "LOGOUT"
-msgstr "LOGOUT"
+msgstr ""
 
 #. merged with ja.l
 msgid "LOGOUT channel nickname"
-msgstr "LOGOUT channel nickname"
+msgstr ""
 
 #. merged with ja.l
 msgid "LOGOUT channel [nickname]"
-msgstr "LOGOUT channel [nickname]"
+msgstr ""
 
 #: language.cpp:376
 msgid "Language changed to English."
@@ -4456,15 +4446,15 @@ msgstr "自分を探してるのかい %s?"
 
 #: language.cpp:2051
 msgid "MODE channel modes"
-msgstr "MODE channel modes"
+msgstr ""
 
 #: language.cpp:2344
 msgid "MODINFO FileName"
-msgstr "MODINFO FileName"
+msgstr ""
 
 #: language.cpp:2324
 msgid "MODLOAD FileName"
-msgstr "MODLOAD FileName"
+msgstr ""
 
 #: language.cpp:2328
 msgid "MODRELOAD FileName"
@@ -4472,7 +4462,7 @@ msgstr ""
 
 #: language.cpp:2326
 msgid "MODUNLOAD FileName"
-msgstr "MODUNLOAD FileName"
+msgstr ""
 
 #. merged with ja.l
 msgid "Mask %s already present on exception list."
@@ -4616,7 +4606,7 @@ msgstr "モジュール: %s [%s] [%s]"
 
 #: language.cpp:2228
 msgid "NOOP {SET|REVOKE} server"
-msgstr "NOOP {SET|REVOKE} server"
+msgstr ""
 
 #: language.cpp:1967
 #, c-format
@@ -4680,7 +4670,7 @@ msgstr "%s のニックネームはこのネットワークサービスの一�
 #: language.cpp:593
 #, c-format
 msgid "Nick %s isn't being held."
-msgstr "Nick %s isn't being held."
+msgstr ""
 
 #: language.cpp:183
 #, c-format
@@ -4991,7 +4981,7 @@ msgstr "セッション数制限からの除外リストに #%d というエン�
 
 #: language.cpp:546 language.cpp:1751
 msgid "None"
-msgstr "None"
+msgstr ""
 
 #. merged with ja.l
 msgid "None\n"
@@ -5018,7 +5008,7 @@ msgstr "番号 上限値 ホストマスク"
 
 #: language.cpp:2059
 msgid "OLINE nick flags"
-msgstr "OLINE nick flags"
+msgstr ""
 
 #: language.cpp:1356
 msgid "OP #channel [nick]"
@@ -5026,23 +5016,23 @@ msgstr ""
 
 #: language.cpp:1262
 msgid "OP Notice"
-msgstr "OP Notice"
+msgstr ""
 
 #. merged with ja.l
 msgid "OPER {ADD|DEL|LIST|CLEAR} [nick | entry-list]"
-msgstr "OPER {ADD|DEL|LIST|CLEAR} [nick | entry-list]"
+msgstr ""
 
 #. merged with ja.l
 msgid "OPERNEWS ADD text"
-msgstr "OPERNEWS ADD text"
+msgstr ""
 
 #. merged with ja.l
 msgid "OPERNEWS DEL {num | ALL}"
-msgstr "OPERNEWS DEL {num | ALL}"
+msgstr ""
 
 #: language.cpp:2513
 msgid "OPERNEWS {ADD|DEL|LIST} [text|num]"
-msgstr "OPERNEWS {ADD|DEL|LIST} [text|num]"
+msgstr ""
 
 #: language.cpp:1364
 msgid "OWNER #channel"
@@ -5183,7 +5173,7 @@ msgstr ""
 
 #: language.cpp:1264
 msgid "Peace"
-msgstr "Peace"
+msgstr ""
 
 #: language.cpp:890
 #, c-format
@@ -5363,27 +5353,27 @@ msgstr ""
 
 #. merged with ja.l
 msgid "RANDOMNEWS ADD text"
-msgstr "RANDOMNEWS ADD text"
+msgstr ""
 
 #. merged with ja.l
 msgid "RANDOMNEWS DEL {num | ALL}"
-msgstr "RANDOMNEWS DEL {num | ALL}"
+msgstr ""
 
 #: language.cpp:2533
 msgid "RANDOMNEWS {ADD|DEL|LIST} [text|num]"
-msgstr "RANDOMNEWS {ADD|DEL|LIST} [text|num]"
+msgstr ""
 
 #. merged with ja.l
 msgid "RAW text"
-msgstr "RAW text"
+msgstr ""
 
 #: language.cpp:1450
 msgid "READ [channel] {list | LAST | NEW}"
-msgstr "READ [channel] {list | LAST | NEW}"
+msgstr ""
 
 #: language.cpp:584
 msgid "RECOVER nickname [password]"
-msgstr "RECOVER nickname [password]"
+msgstr ""
 
 #: language.cpp:784
 msgid "REGISTER channel description"
@@ -5391,7 +5381,7 @@ msgstr ""
 
 #. merged with ja.l
 msgid "REGISTER channel password description"
-msgstr "REGISTER channel password description"
+msgstr ""
 
 #: language.cpp:288
 msgid "REGISTER password email"
@@ -5403,7 +5393,7 @@ msgstr "REGISTER パスワード [メールアドレス]"
 
 #: language.cpp:591
 msgid "RELEASE nickname [password]"
-msgstr "RELEASE nickname [password]"
+msgstr ""
 
 #: language.cpp:632
 msgid "RESETPASS nickname"
@@ -5411,7 +5401,7 @@ msgstr ""
 
 #: language.cpp:1584
 msgid "RSEND {nick | channel} memo-text"
-msgstr "RSEND {nick | channel} memo-text"
+msgstr ""
 
 #: language.cpp:2547
 #, c-format
@@ -5438,7 +5428,7 @@ msgstr ""
 
 #: language.cpp:1266
 msgid "Restricted Access"
-msgstr "Restricted Access"
+msgstr ""
 
 #: language.cpp:914
 #, c-format
@@ -5544,11 +5534,11 @@ msgstr "SASET ニックネーム SECURE {ON | OFF}"
 
 #: language.cpp:1909
 msgid "SAY channel text"
-msgstr "SAY channel text"
+msgstr ""
 
 #: language.cpp:1408
 msgid "SEND {nick | channel} memo-text"
-msgstr "SEND {nick | channel} memo-text"
+msgstr ""
 
 #: language.cpp:1410
 msgid "SENDALL memo-text"
@@ -5556,11 +5546,11 @@ msgstr ""
 
 #. merged with ja.l
 msgid "SENDPASS channel"
-msgstr "SENDPASS channel"
+msgstr ""
 
 #: language.cpp:615
 msgid "SENDPASS nickname"
-msgstr "SENDPASS nickname"
+msgstr ""
 
 #: language.cpp:617
 msgid "SENDPASS command unavailable because encryption is in use."
@@ -5572,51 +5562,51 @@ msgstr "SERVICES_BIN が未定義のため再起動できません。\\2設定\\
 
 #: language.cpp:2381
 msgid "SESSION LIST limit"
-msgstr "SESSION LIST limit"
+msgstr ""
 
 #. merged with ja.l
 msgid "SESSION VIEW host"
-msgstr "SESSION VIEW host"
+msgstr ""
 
 #. merged with ja.l
 msgid "SESSION {LIST limit | VIEW host}"
-msgstr "SESSION {LIST limit | VIEW host}"
+msgstr ""
 
 #: language.cpp:5134
 msgid "SET <nick> <hostmask>."
-msgstr "SET <nick> <hostmask>."
+msgstr ""
 
 #: language.cpp:1753
 msgid "SET (channel | bot) option settings"
-msgstr "SET (channel | bot) option settings"
+msgstr ""
 
 #: language.cpp:1784
 msgid "SET botname NOBOT {ON|OFF}"
-msgstr "SET botname NOBOT {ON|OFF}"
+msgstr ""
 
 #: language.cpp:1790
 msgid "SET botname PRIVATE {ON|OFF}"
-msgstr "SET botname PRIVATE {ON|OFF}"
+msgstr ""
 
 #: language.cpp:836
 msgid "SET channel option parameters"
-msgstr "SET channel option parameters"
+msgstr ""
 
 #: language.cpp:1760
 msgid "SET channel DONTKICKOPS {ON|OFF}"
-msgstr "SET channel DONTKICKOPS {ON|OFF}"
+msgstr ""
 
 #: language.cpp:1766
 msgid "SET channel DONTKICKVOICES {ON|OFF}"
-msgstr "SET channel DONTKICKVOICES {ON|OFF}"
+msgstr ""
 
 #: language.cpp:1772
 msgid "SET channel FANTASY {ON|OFF}"
-msgstr "SET channel FANTASY {ON|OFF}"
+msgstr ""
 
 #: language.cpp:1778
 msgid "SET channel GREET {ON|OFF}"
-msgstr "SET channel GREET {ON|OFF}"
+msgstr ""
 
 #: language.cpp:874
 msgid "SET channel KEEPTOPIC {ON | OFF}"
@@ -5664,7 +5654,7 @@ msgstr "SET チャンネル名 SIGNKICK {ON | LEVEL | OFF}"
 
 #: language.cpp:1796
 msgid "SET channel SYMBIOSIS {ON|OFF}"
-msgstr "SET channel SYMBIOSIS {ON|OFF}"
+msgstr ""
 
 #: language.cpp:880
 msgid "SET channel TOPICLOCK {ON | OFF}"
@@ -5676,15 +5666,15 @@ msgstr "SET チャンネル名 XOP {ON | OFF}"
 
 #: language.cpp:364
 msgid "SET option parameters"
-msgstr "SET option parameters"
+msgstr ""
 
 #: language.cpp:2194
 msgid "SET option setting"
-msgstr "SET option setting"
+msgstr ""
 
 #: language.cpp:398
 msgid "SET AUTOOP {ON | OFF}"
-msgstr "SET AUTOOP {ON | OFF}"
+msgstr ""
 
 #: language.cpp:394
 msgid "SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}"
@@ -5692,11 +5682,11 @@ msgstr ""
 
 #: language.cpp:384
 msgid "SET KILL {ON | QUICK | IMMED | OFF}"
-msgstr "SET KILL {ON | QUICK | IMMED | OFF}"
+msgstr ""
 
 #: language.cpp:382
 msgid "SET KILL {ON | QUICK | OFF}"
-msgstr "SET KILL {ON | QUICK | OFF}"
+msgstr ""
 
 #: language.cpp:374
 msgid "SET LANGUAGE language"
@@ -5704,15 +5694,15 @@ msgstr "SET LANGUAGE 言語"
 
 #: language.cpp:1484
 msgid "SET LIMIT [channel] limit"
-msgstr "SET LIMIT [channel] limit"
+msgstr ""
 
 #: language.cpp:1486
 msgid "SET LIMIT [user | channel] {limit | NONE} [HARD]"
-msgstr "SET LIMIT [user | channel] {limit | NONE} [HARD]"
+msgstr ""
 
 #: language.cpp:396
 msgid "SET MSG {ON | OFF}"
-msgstr "SET MSG {ON | OFF}"
+msgstr ""
 
 #: language.cpp:1468
 msgid "SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF }"
@@ -5720,11 +5710,11 @@ msgstr "SET NOTIFY {ON | LOGON | NEW | MAIL | NOMAIL | OFF}"
 
 #: language.cpp:392
 msgid "SET PRIVATE {ON | OFF}"
-msgstr "SET PRIVATE {ON | OFF}"
+msgstr ""
 
 #: language.cpp:390
 msgid "SET SECURE {ON | OFF}"
-msgstr "SET SECURE {ON | OFF}"
+msgstr ""
 
 #. merged with ja.l
 msgid "SET [nick] option parameters"
@@ -5732,7 +5722,7 @@ msgstr "SET [ニックネーム] オプション パラメータ"
 
 #: language.cpp:5136
 msgid "SETALL <nick> <hostmask>."
-msgstr "SETALL <nick> <hostmask>."
+msgstr ""
 
 #. merged with ja.l
 msgid "SGLINE list is empty."
@@ -5740,7 +5730,7 @@ msgstr "SGLINE リストが空です。"
 
 #. merged with ja.l
 msgid "SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list}[:reason]]"
-msgstr "SGLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list}[:reason]]"
+msgstr ""
 
 #: language.cpp:2131
 msgid "SNLINE list is empty."
@@ -5785,7 +5775,7 @@ msgstr "SQLINE リストが空です。"
 
 #: language.cpp:2140
 msgid "SQLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]"
-msgstr "SQLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]"
+msgstr ""
 
 #: language.cpp:1424
 msgid "STAFF memo-text"
@@ -5803,23 +5793,23 @@ msgstr ""
 #: language.cpp:1236
 #, c-format
 msgid "STATUS %s %s %d"
-msgstr "STATUS %s %s %d"
+msgstr ""
 
 #. merged with ja.l
 msgid "STATUS %s 0"
-msgstr "STATUS %s 0"
+msgstr ""
 
 #. merged with ja.l
 msgid "STATUS %s 1"
-msgstr "STATUS %s 1"
+msgstr ""
 
 #. merged with ja.l
 msgid "STATUS %s 2"
-msgstr "STATUS %s 2"
+msgstr ""
 
 #. merged with ja.l
 msgid "STATUS %s 3"
-msgstr "STATUS %s 3"
+msgstr ""
 
 #. merged with ja.l
 msgid "STATUS ERROR Channel %s forbidden"
@@ -5841,19 +5831,19 @@ msgstr "STATUS ERROR 構文エラー"
 
 #: language.cpp:1338
 msgid "SUSPEND channel reason"
-msgstr "SUSPEND channel reason"
+msgstr ""
 
 #: language.cpp:1336
 msgid "SUSPEND channel [reason]"
-msgstr "SUSPEND channel [reason]"
+msgstr ""
 
 #: language.cpp:647
 msgid "SUSPEND nickname reason"
-msgstr "SUSPEND nickname reason"
+msgstr ""
 
 #: language.cpp:2073
 msgid "SVSNICK nick newnick "
-msgstr "SVSNICK nick newnick "
+msgstr ""
 
 #: language.cpp:2185
 msgid "SZLINE list is empty."
@@ -5861,19 +5851,19 @@ msgstr "SZLINE リストが空です。"
 
 #: language.cpp:2167
 msgid "SZLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]"
-msgstr "SZLINE {ADD | DEL | LIST | VIEW | CLEAR} [[+expiry] {mask | entry-list} [reason]]"
+msgstr ""
 
 #: language.cpp:1268
 msgid "Secure"
-msgstr "Secure"
+msgstr ""
 
 #: language.cpp:1272
 msgid "Secure Founder"
-msgstr "Secure Founder"
+msgstr ""
 
 #: language.cpp:1270
 msgid "Secure Ops"
-msgstr "Secure Ops"
+msgstr ""
 
 #: language.cpp:908
 #, c-format
@@ -6126,7 +6116,7 @@ msgstr "サービスの設定ファイルのリロードを行いました。"
 
 #: language.cpp:595
 msgid "Services' hold on your nick has been released."
-msgstr "Services' hold on your nick has been released."
+msgstr ""
 
 #: language.cpp:2350
 #, c-format
@@ -6485,7 +6475,7 @@ msgstr ""
 
 #: language.cpp:1749
 msgid "Symbiosis"
-msgstr "Symbiosis"
+msgstr ""
 
 #: language.cpp:1800
 #, c-format
@@ -12235,7 +12225,7 @@ msgstr ""
 
 #: language.cpp:1304
 msgid "TOPIC channel [topic]"
-msgstr "TOPIC channel [topic]"
+msgstr ""
 
 #: language.cpp:388
 msgid "The IMMED option is not available on this network."
@@ -12639,15 +12629,15 @@ msgstr "%R%s READ LAST で最新のメモを読むことができます。"
 
 #: language.cpp:2053
 msgid "UMODE nick modes"
-msgstr "UMODE nick modes"
+msgstr ""
 
 #: language.cpp:1665
 msgid "UNASSIGN chan"
-msgstr "UNASSIGN chan"
+msgstr ""
 
 #. merged with ja.l
 msgid "UNBAN channel"
-msgstr "UNBAN channel"
+msgstr ""
 
 #: language.cpp:1298
 msgid "UNBAN channel [nick]"
@@ -12655,11 +12645,11 @@ msgstr ""
 
 #: language.cpp:1346
 msgid "UNSUSPEND channel"
-msgstr "UNSUSPEND channel"
+msgstr ""
 
 #: language.cpp:651
 msgid "UNSUSPEND nickname"
-msgstr "UNSUSPEND nickname"
+msgstr ""
 
 #. merged with ja.l
 msgid "URL %s unset."
@@ -12760,7 +12750,7 @@ msgstr "データベースを更新しています。"
 #: language.cpp:2047
 #, c-format
 msgid "Uplink capab: %s"
-msgstr "Uplink capab: %s"
+msgstr ""
 
 #: language.cpp:2045
 #, c-format
@@ -13232,11 +13222,11 @@ msgstr "パスワードリセット要求は時間切れです。"
 
 #. merged with ja.l
 msgid "Your services access status will now be hidden from %s INFO displays."
-msgstr "Your services access status will now be hidden from %s INFO displays."
+msgstr ""
 
 #. merged with ja.l
 msgid "Your services access status will now be shown in %s INFO displays.\n"
-msgstr "Your services access status will now be shown in %s INFO displays.\n"
+msgstr ""
 
 #: language.cpp:5140
 #, c-format

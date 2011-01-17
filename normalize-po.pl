@@ -20,6 +20,9 @@ while (my ($key, $val) = each %{$Ext->lexicon}) {
 	s/ポリシ(ー)?/ポリシー/g;
 	s/エントリ(ー)?/エントリ/g;
 	s/デバック/デバッグ/g;
+	if ($val eq $key) {
+		$_ = '';
+	}
 	$lexicon->{$key} = $_;
 }
 $Ext->set_lexicon( { map Locale::Maketext::Extract::_maketext_to_gettext($_), %$lexicon } );
@@ -29,4 +32,5 @@ __END__
 $ perl normalize-po.pl anope.ja_JP.po messages.po
 $ msgmerge --no-wrap messages.po anope.ja_JP.po > messages2.po
 $ msgfmt --statistics -c -v -o /dev/null messages2.po
+$ cp messages2.po anope.ja_JP.po
 $ git commit -a
