@@ -123,9 +123,9 @@ msgid ""
 "registered in order to send a memo.\n"
 "%S's commands include:"
 msgstr ""
-"IRCユーザーは %S を使って他の IRC ユーザーやチャンネル\n"
+"IRC ユーザーは %S を使って他の IRC ユーザーやチャンネル\n"
 "に短いメッセージを送信できます。ユーザー宛てのメッセージは、\n"
-"そのIRCユーザーがオンラインでなくても送信できます。\n"
+"その IRC ユーザーがオンラインでなくても送信できます。\n"
 "メモを送信するためには、あなたのニックネームと宛先の\n"
 "ニックネーム、又はチャンネル名が登録済みでなければいけません。\n"
 "\n"
@@ -608,12 +608,12 @@ msgstr ""
 "\n"
 "初期状態では、以下のアクセスレベルが定義されています。\n"
 "\n"
-"   創始者    %Sの機能にフルアクセスできる。チャンネルに\n"
+"   創始者    %S の機能にフルアクセスできる。チャンネルに\n"
 "                     入った時に自動オペレーター化される。\n"
 "                     注意することは、一人だけが創始者権限\n"
 "                     (この権限はACCESSコマンドで誰かに\n"
 "                     貸与できない。)\n"
-"        10   AKICKコマンドにアクセスできる。自動オペレーター権付加。\n"
+"        10   AKICK コマンドにアクセスできる。自動オペレーター権付加。\n"
 "         5   自動オペレーター権付加。\n"
 "         3   自動発言権付加。\n"
 "         0   特別な権限を持たない。別のオペレーターからオペレーター\n"
@@ -735,7 +735,7 @@ msgid ""
 "nickname(s)."
 msgstr ""
 " \n"
-"注意: このサービスを使うことで、IRCユーザーに\n"
+"注意: このサービスを使うことで、IRC ユーザーに\n"
 "自分の正体が乗っ取られる可能性を示唆できます。\n"
 "ただし、これはニックネームやそのほかの挙動を盗むことを\n"
 "抑制出来ません。%S を乱用することは少なくとも\n"
@@ -770,7 +770,7 @@ msgstr "ウェブサイトアドレス: %s"
 
 #. merged with ja.l
 msgid "            ICQ #: %d"
-msgstr "ICQ番号 : %d"
+msgstr "ICQ 番号 : %d"
 
 #: language.cpp:1737
 #, c-format
@@ -813,7 +813,7 @@ msgstr "     大文字キッカー : %s"
 #: language.cpp:1701
 #, c-format
 msgid "        Caps kicker : %s (%d kick(s) to ban; minimum %d/%d%%)"
-msgstr "     大文字キッカー : %s (バンするためにキックした回数: %d回; minimum %d/%d%%)"
+msgstr "     大文字キッカー : %s (バンするためにキックした回数: %d 回; minimum %d/%d%%)"
 
 #: language.cpp:1699
 #, c-format
@@ -846,7 +846,7 @@ msgstr "       太字キッカー : %s"
 #: language.cpp:1697
 #, c-format
 msgid "       Bolds kicker : %s (%d kick(s) to ban)"
-msgstr "       太字キッカー : %s (バンするためにキックした回数: %d回)"
+msgstr "       太字キッカー : %s (バンするためにキックした回数: %d 回)"
 
 #: language.cpp:1713
 #, c-format
@@ -856,7 +856,7 @@ msgstr " Flood 攻撃キッカー : %s"
 #: language.cpp:1711
 #, c-format
 msgid "       Flood kicker : %s (%d kick(s) to ban; %d lines in %ds)"
-msgstr " Flood 攻撃キッカー : %s (バンするためにキックした回数: %d回; %d 回の書き込みを %d 秒以内に行うとキック)"
+msgstr " Flood 攻撃キッカー : %s (バンするためにキックした回数: %d 回; %d 回の書き込みを %d 秒以内に行うとキック)"
 
 #: language.cpp:1709
 #, c-format
@@ -876,7 +876,7 @@ msgstr "     色文字キッカー : %s"
 #: language.cpp:1707
 #, c-format
 msgid "      Colors kicker : %s (%d kick(s) to ban)"
-msgstr "     色文字キッカー : %s(バンするためにキックした回数: %d回)"
+msgstr "     色文字キッカー : %s(バンするためにキックした回数: %d 回)"
 
 #: language.cpp:1284
 #, c-format
@@ -901,7 +901,7 @@ msgstr "   繰り返しキッカー : %s"
 #: language.cpp:1717
 #, c-format
 msgid "      Repeat kicker : %s (%d kick(s) to ban; %d times)"
-msgstr "   繰り返しキッカー : %s (バンするためにキックした回数: %d回; %d 回でキック)"
+msgstr "   繰り返しキッカー : %s (バンするためにキックした回数: %d 回; %d 回でキック)"
 
 #: language.cpp:1715
 #, c-format
@@ -930,7 +930,7 @@ msgstr "     イタリック体キッカー : %s"
 #: language.cpp:1731
 #, c-format
 msgid "     Italics kicker : %s (%d kick(s) to ban)"
-msgstr "     イタリック体キッカー : %s (バンするためにキックした回数: %d回)"
+msgstr "     イタリック体キッカー : %s (バンするためにキックした回数: %d 回)"
 
 #: language.cpp:1254
 #, c-format
@@ -1000,7 +1000,7 @@ msgstr "    ALIST      貴方にアクセスが許可されてるチャンネル
 
 #: language.cpp:3284
 msgid "    AOP        Modify the list of AOP users"
-msgstr "    AOP        AOPユーザーのリストを変更する。"
+msgstr "    AOP        AOP ユーザーのリストを変更する。"
 
 #: language.cpp:4819
 msgid "    ASSIGN         Assigns a bot to a channel"
@@ -1052,7 +1052,7 @@ msgstr "    CHECK  ニックネーム宛ての最新のメモが読まれたか�
 
 #: language.cpp:3298
 msgid "    CLEAR      Tells ChanServ to clear certain settings on a channel"
-msgstr "    CLEAR      ChanServに対してあるチャンネルのある設定を破棄させる。"
+msgstr "    CLEAR      ChanServ に対してあるチャンネルのある設定を破棄させる。"
 
 #: language.cpp:4349
 msgid "    CLEARMODES  Clear modes of a channel"
@@ -1060,7 +1060,7 @@ msgstr "    CLEARMODES  チャンネルのモードを初期化します。"
 
 #: language.cpp:2589
 msgid "    CONFIRM    Confirm a nickserv auth code"
-msgstr "    CONFIRM    NickServの証明コード（auth code）を確認する。"
+msgstr "    CONFIRM    NickServ の証明コード（auth code）を確認する。"
 
 #: language.cpp:1681
 #, c-format
@@ -1077,7 +1077,7 @@ msgstr "    DEFCON      DefCon システムを設定します。"
 
 #: language.cpp:3322
 msgid "    DEHALFOP   Dehalfops a selected nick on a channel"
-msgstr "    DEHALFOP   あるチャンネルの指定されたニックネームからhalfop権を剥奪する。"
+msgstr "    DEHALFOP   あるチャンネルの指定されたニックネームから halfop 権を剥奪する。"
 
 #: language.cpp:5172
 msgid "    DEL         Delete the vhost of another user"
@@ -1182,7 +1182,7 @@ msgstr "    GETPASS    指定されたニックネームのパスワードを出
 
 #: language.cpp:2617
 msgid "    GHOST      Disconnects a \"ghost\" IRC session using your nick"
-msgstr "    GHOST      貴方のニックネームを使ってるIRC「ゴースト」セッションを切断する。"
+msgstr "    GHOST      貴方のニックネームを使ってる IRC「ゴースト」セッションを切断する。"
 
 #: language.cpp:2621
 msgid "    GLIST      Lists all nicknames in your group"
@@ -1215,7 +1215,7 @@ msgstr "挨拶メッセージ : %s"
 
 #: language.cpp:3328
 msgid "    HALFOP     Halfops a selected nick on a channel"
-msgstr "    HALFOP     あるチャンネルの指定されたニックネームにhalfop権を渡す。"
+msgstr "    HALFOP     あるチャンネルの指定されたニックネームに halfop 権を渡す。"
 
 #: language.cpp:2810
 msgid "    HIDE       Hide certain pieces of nickname information"
@@ -1223,7 +1223,7 @@ msgstr "    HIDE       ニックネームに関するいくつかの情報を隠
 
 #: language.cpp:3330
 msgid "    HOP        Maintains the HOP (HalfOP) list for a channel"
-msgstr "    HOP        あるチャンネルのHOP(halfop)リストを操作する。"
+msgstr "    HOP        あるチャンネルの HOP (HalfOP) リストを操作する。"
 
 #: language.cpp:2599
 msgid "    IDENTIFY   Identify yourself with your password"
@@ -1279,7 +1279,7 @@ msgstr "    KILL       保護機能の有効無効を切り替える"
 
 #. merged with ja.l
 msgid "    KILLCLONES  Kill all users that have a certain host"
-msgstr "    KILLCLONES  あるホストからの接続を全てKILLします。"
+msgstr "    KILLCLONES  あるホストからの接続を全て KILL します。"
 
 #: language.cpp:2796
 msgid ""
@@ -1323,7 +1323,7 @@ msgstr "    LOGONNEWS   ログオン時に表示するメッセージを編集�
 
 #: language.cpp:2627
 msgid "    LOGOUT     Reverses the effect of the IDENTIFY command"
-msgstr "    LOGOUT     IDENTIFYコマンドの効果を取り消す。"
+msgstr "    LOGOUT     IDENTIFY コマンドの効果を取り消す。"
 
 #. merged with ja.l
 msgid "    LOGOUT     This command will logout the selected nickname"
@@ -1378,7 +1378,7 @@ msgstr "    NOEXPIRE   ニックネームが消えないようにする。"
 msgid ""
 "    NOOP        Temporarily remove all O:lines of a server \n"
 "                remotely"
-msgstr "    NOOP        サーバーのO:linesを一時的に削除します。"
+msgstr "    NOOP        サーバーの O:lines を一時的に削除します。"
 
 #: language.cpp:5164
 msgid "    OFF         Deactivates your assigned vhost"
@@ -1459,7 +1459,7 @@ msgstr "    PROTECT    あるチャンネルの指定されたニックネーム
 
 #: language.cpp:3282
 msgid "    QOP        Modify the list of QOP users"
-msgstr "    QOP        QOPユーザーのリストを変更する。"
+msgstr "    QOP        QOP ユーザーのリストを変更する。"
 
 #: language.cpp:4390
 msgid "    QUIT        Terminate the Services program with no save"
@@ -1489,7 +1489,7 @@ msgstr "    REGISTER   ニックネームを登録する。"
 
 #: language.cpp:2611
 msgid "    RELEASE    Regain custody of your nick after RECOVER"
-msgstr "    RELEASE    RECOVERの後でニックネームを取り戻す。"
+msgstr "    RELEASE    RECOVER の後でニックネームを取り戻す。"
 
 #: language.cpp:4383
 msgid "    RELOAD      Reload services' configuration file"
@@ -1497,7 +1497,7 @@ msgstr "    RELOAD      サービスの設定ファイルをリロードしま�
 
 #: language.cpp:2591
 msgid "    RESEND     Resend a nickserv auth code"
-msgstr "    RESEND     NickServの証明コード（auth code）を再送りする。"
+msgstr "    RESEND     NickServ の証明コード（auth code）を再送りする。"
 
 #: language.cpp:2615
 msgid "    RESETPASS  Helps you reset lost passwords"
@@ -1523,7 +1523,7 @@ msgstr "   反転表示キッカー : %s"
 #: language.cpp:1723
 #, c-format
 msgid "    Reverses kicker : %s (%d kick(s) to ban)"
-msgstr "   反転表示キッカー : %s (バンするためにキックした回数: %d回)"
+msgstr "   反転表示キッカー : %s (バンするためにキックした回数: %d 回)"
 
 #: language.cpp:3280
 msgid "    SASET      Forcefully set channel options and information"
@@ -1531,7 +1531,7 @@ msgstr "    SASET      強制的にチャンネルオプションと情報を設
 
 #: language.cpp:2605
 msgid "    SASET      Set SET-options on another nickname"
-msgstr "    SASET      別のニックネームにSETオプションを設定します。"
+msgstr "    SASET      別のニックネームに SET オプションを設定します。"
 
 #: language.cpp:4831
 msgid "    SAY            Makes the bot say the given text on the given channel"
@@ -1620,7 +1620,7 @@ msgstr "    SNLINE      SNLINE リストを編集する。"
 
 #: language.cpp:3286
 msgid "    SOP        Modify the list of SOP users"
-msgstr "    SOP        SOPユーザーのリストを変更する。"
+msgstr "    SOP        SOP ユーザーのリストを変更する。"
 
 #: language.cpp:4355
 msgid "    SQLINE      Manipulate the SQLINE list"
@@ -1739,7 +1739,7 @@ msgstr "    VOICE      あるチャンネルの指定されたニックネーム
 
 #: language.cpp:3320
 msgid "    VOP        Maintains the VOP (VOicePeople) list for a channel"
-msgstr "    VOP        あるチャンネルのVOP(発言可能なユーザー)リストを操作する"
+msgstr "    VOP        あるチャンネルの VOP(発言可能なユーザー)リストを操作する"
 
 #: language.cpp:3423
 msgid "    XOP           Toggle the user privilege system"
@@ -1771,7 +1771,7 @@ msgstr " 禁止ワードキッカー : %s"
 #: language.cpp:1693
 #, c-format
 msgid "   Bad words kicker : %s (%d kick(s) to ban)"
-msgstr " 禁止ワードキッカー : %s (バンするためにキックした回数: %d回)"
+msgstr " 禁止ワードキッカー : %s (バンするためにキックした回数: %d 回)"
 
 #: language.cpp:524
 #, c-format
@@ -1874,7 +1874,7 @@ msgstr "       下線キッカー : %s"
 #: language.cpp:1727
 #, c-format
 msgid "  Underlines kicker : %s (%d kick(s) to ban)"
-msgstr "       下線キッカー : %s (バンするためにキックした回数: %d回)"
+msgstr "       下線キッカー : %s (バンするためにキックした回数: %d 回)"
 
 #: language.cpp:2294
 #, c-format
@@ -1971,11 +1971,11 @@ msgstr "%S 機能に関するコマンド:"
 
 #. merged with ja.l
 msgid "%a %b %d %Y"
-msgstr "%Y年%b月%d日(%a)"
+msgstr "%Y 年 %b 月 %d 日(%a)"
 
 #. merged with ja.l
 msgid "%b %d %H:%M:%S %Y %Z"
-msgstr "%Y年%b月%d日(%a) %H時%M分%S秒 %Z"
+msgstr "%Y 年 %b 月 %d 日(%a) %H 時 %M 分 %S 秒 %Z"
 
 #. merged with ja.l
 msgid "%b %d %Y"
@@ -1999,17 +1999,17 @@ msgstr "%d 個のボットが活動中です。"
 #: language.cpp:228
 #, c-format
 msgid "%d days"
-msgstr "%d日間"
+msgstr "%d 日間"
 
 #: language.cpp:232
 #, c-format
 msgid "%d hours"
-msgstr "%d時間"
+msgstr "%d 時間"
 
 #: language.cpp:236
 #, c-format
 msgid "%d minutes"
-msgstr "%d分間"
+msgstr "%d 分間"
 
 #: language.cpp:578
 #, c-format
@@ -2019,7 +2019,7 @@ msgstr "%d 個のニックネームがこのグループに登録されていま
 #: language.cpp:240
 #, c-format
 msgid "%d seconds"
-msgstr "%d秒間"
+msgstr "%d 秒間"
 
 #: language.cpp:1456
 #, c-format
@@ -2157,7 +2157,7 @@ msgstr "%s の「本名」は %s です。"
 
 #. merged with ja.l
 msgid "%s is a services admin."
-msgstr "%sは準サービス管理者です。"
+msgstr "%s は準サービス管理者です。"
 
 #: language.cpp:510
 #, c-format
@@ -2166,11 +2166,11 @@ msgstr "%s はタイプ %s のサービス・オペレーターです。"
 
 #. merged with ja.l
 msgid "%s is a services operator."
-msgstr "%sはサービス・オペレーターです。"
+msgstr "%s はサービス・オペレーターです。"
 
 #. merged with ja.l
 msgid "%s is a services root administrator."
-msgstr "%sはサービス管理者です。"
+msgstr "%s はサービス管理者です。"
 
 #: language.cpp:161
 #, c-format
@@ -2180,7 +2180,7 @@ msgstr "%s は現在オフラインです。"
 #: language.cpp:516
 #, c-format
 msgid "%s is currently online."
-msgstr "%sは接続中です。"
+msgstr "%s は接続中です。"
 
 #: language.cpp:2226
 #, c-format
@@ -2601,11 +2601,11 @@ msgstr "自分自身に protect 権限を付与、剥奪することができま
 
 #: language.cpp:738
 msgid "Allowed to (de)voice him/herself"
-msgstr "自身へのVOICE/DEVOICE（発言権操作）を許可"
+msgstr "自身への VOICE/DEVOICE（発言権操作）を許可"
 
 #: language.cpp:726
 msgid "Allowed to assign/unassign a bot"
-msgstr "ボットのassign/unassign（割り当て・解除）を許可"
+msgstr "ボットの assign/unassign（割り当て・解除）を許可"
 
 #: language.cpp:760
 msgid "Allowed to ban him/herself"
@@ -2621,7 +2621,7 @@ msgstr "自分自身をキックできます。"
 
 #: language.cpp:724
 msgid "Allowed to list/read channel memos"
-msgstr "チャンネルメモのlist/readを許可"
+msgstr "チャンネルメモの list/read を許可"
 
 #: language.cpp:722
 msgid "Allowed to modify the access list"
@@ -2633,7 +2633,7 @@ msgstr "AKICK（自動排除）コマンドの使用を許可"
 
 #: language.cpp:728
 msgid "Allowed to use BADWORDS command"
-msgstr "BADWORDS（NGワード）コマンドの使用を許可"
+msgstr "BADWORDS（NG ワード）コマンドの使用を許可"
 
 #: language.cpp:762
 msgid "Allowed to use BAN command"
@@ -2681,7 +2681,7 @@ msgstr "SAY 及び ACT コマンドの使用を許可"
 
 #: language.cpp:712
 msgid "Allowed to use SET command (not FOUNDER/PASSWORD)"
-msgstr "SET（設定）コマンドの使用を許可（FOUNDER/PASSWORDを除く）"
+msgstr "SET（設定）コマンドの使用を許可（FOUNDER/PASSWORD を除く）"
 
 #: language.cpp:764
 msgid "Allowed to use TOPIC command"
@@ -2693,7 +2693,7 @@ msgstr "UNBAN（非排除化）コマンドの使用を許可"
 
 #: language.cpp:740
 msgid "Allowed to use VOICE/DEVOICE commands"
-msgstr "VOICE/DEVOICEコマンドの使用を許可"
+msgstr "VOICE/DEVOICE コマンドの使用を許可"
 
 #: language.cpp:732
 msgid "Allowed to use fantaisist commands"
@@ -2768,7 +2768,7 @@ msgstr "チャンネル %s の現在の禁止タイプは #%d です。"
 #: language.cpp:2067
 #, c-format
 msgid "Binary modes and bans cleared from channel %s."
-msgstr "チャンネル %s のバイナリモードとbanリストが初期化されました。"
+msgstr "チャンネル %s のバイナリモードと ban リストが初期化されました。"
 
 #: language.cpp:1634
 #, c-format
@@ -2808,7 +2808,7 @@ msgstr "ボットはチャンネル %s から オペレーターをキックし
 #: language.cpp:1770
 #, c-format
 msgid "Bot will kick voices on channel %s."
-msgstr "ボットはチャンネル %s から voiceユーザーをキックします。"
+msgstr "ボットはチャンネル %s から voice ユーザーをキックします。"
 
 #: language.cpp:1762
 #, c-format
@@ -2818,7 +2818,7 @@ msgstr "ボットはチャンネル %s から オペレーターをキックし
 #: language.cpp:1768
 #, c-format
 msgid "Bot won't kick voices on channel %s."
-msgstr "ボットはチャンネル %s から voiceユーザーをキックしません。"
+msgstr "ボットはチャンネル %s から voice ユーザーをキックしません。"
 
 #: language.cpp:1923
 #, c-format
@@ -2832,11 +2832,11 @@ msgstr "ボットのホストネームにはホストネームでの使用が許
 #: language.cpp:1921
 #, c-format
 msgid "Bot Idents may only contain %d characters."
-msgstr "ボットのIdentsには %d 文字以上必要です。"
+msgstr "ボットの Idents には %d 文字以上必要です。"
 
 #: language.cpp:1919
 msgid "Bot Idents may only contain valid characters."
-msgstr "ボットのIdentsにはIdentsでの使用が許可されている文字を使ってください。"
+msgstr "ボットの Idents には Idents での使用が許可されている文字を使ってください。"
 
 #: language.cpp:1915
 msgid "Bot Nicks may only contain valid nick characters."
@@ -2858,7 +2858,7 @@ msgid ""
 "%d user(s) on it."
 msgstr ""
 "チャンネルに参加中のユーザー数が %d 人を超えると、\n"
-"ボットがチャンネルにjoinできるようになります。"
+"ボットがチャンネルに join できるようになります。"
 
 #: language.cpp:1814
 #, c-format
@@ -3232,7 +3232,7 @@ msgstr "チャンネルの SOP リストに追加できるニックネームは�
 
 #: language.cpp:2142
 msgid "Channel SQLINEs are not supported by your IRCd, so you can't use them."
-msgstr "チャンネル SQLINE は御使用中のIRCデーモンではサポートされていません。そのためこの機能を使うことはできません。"
+msgstr "チャンネル SQLINE は御使用中の IRC デーモンではサポートされていません。そのためこの機能を使うことはできません。"
 
 #: language.cpp:1084
 msgid "Channel VOP lists may only contain registered nicknames."
@@ -4112,19 +4112,19 @@ msgstr "%s は今までこのチャンネルに参加したことがないよう
 
 #. merged with ja.l
 msgid "ICQ number for %s set to %s."
-msgstr "%s のICQナンバーは %s に設定されました。"
+msgstr "%s の ICQ 番号は %s に設定されました。"
 
 #. merged with ja.l
 msgid "ICQ number for %s unset."
-msgstr "%s のICQナンバーは解除されました。"
+msgstr "%s の ICQ 番号は解除されました。"
 
 #. merged with ja.l
 msgid "ICQ number set to %s."
-msgstr "ICQ番号を %s に変更しました。"
+msgstr "ICQ 番号を %s に変更しました。"
 
 #. merged with ja.l
 msgid "ICQ number unset."
-msgstr "ICQ番号の設定を外しました。"
+msgstr "ICQ 番号の設定を外しました。"
 
 #. merged with ja.l
 msgid "IDENTIFY channel password"
@@ -4705,17 +4705,17 @@ msgstr "ニックネーム %s  は無視リストに登録されていませ�
 #: language.cpp:194
 #, c-format
 msgid "Nick %s was truncated to %d characters."
-msgstr "%s のニックネームは%d文字に切り詰められました。"
+msgstr "%s のニックネームは %d 文字に切り詰められました。"
 
 #: language.cpp:474
 #, c-format
 msgid "Nick %s will expire."
-msgstr "%sというニックネームの登録期限限定を有効しました。"
+msgstr "%s というニックネームの登録期限限定を有効しました。"
 
 #: language.cpp:472
 #, c-format
 msgid "Nick %s will not expire."
-msgstr "%sというニックネームの登録期限限定を外しました。"
+msgstr "%s というニックネームの登録期限限定を外しました。"
 
 #: language.cpp:1599
 #, c-format
@@ -4779,12 +4779,12 @@ msgstr "ニックネーム %s は、登録されませんでした。"
 #: language.cpp:300
 #, c-format
 msgid "Nickname %s registered under your account: %s"
-msgstr "%s というニックネームは%sのアカウントに登録されています。"
+msgstr "%s というニックネームは %s のアカウントに登録されています。"
 
 #: language.cpp:302
 #, c-format
 msgid "Nickname %s registered."
-msgstr "%sというニックネームは既に登録されています。"
+msgstr "%s というニックネームは既に登録されています。"
 
 #: language.cpp:677
 #, c-format
@@ -5050,7 +5050,7 @@ msgstr ""
 
 #: language.cpp:1642
 msgid "Old info is equal to the new one."
-msgstr "infoに変化がありませんでした。"
+msgstr "info に変化がありませんでした。"
 
 #: language.cpp:2292
 msgid "On Level Nick"
@@ -5243,12 +5243,12 @@ msgstr "%d秒待ってからやり直してください。"
 #: language.cpp:314
 #, c-format
 msgid "Please wait %d seconds before using the GROUP command again."
-msgstr "再度GROUPコマンドを使うには%d秒間待っていただく必要があります。"
+msgstr "再度 GROUP コマンドを使うには %d 秒間待っていただく必要があります。"
 
 #: language.cpp:294
 #, c-format
 msgid "Please wait %d seconds before using the REGISTER command again."
-msgstr "REGISTERコマンドを再度使う前に%d秒待って頂かなければなりません。"
+msgstr "REGISTER コマンドを再度使う前に %d 秒待って頂かなければなりません。"
 
 #: language.cpp:1580
 #, c-format
@@ -6016,7 +6016,7 @@ msgstr "モードを変えることができません。サーバーの設定を
 
 #: language.cpp:1927
 msgid "Services is unable to change modes.  Are your servers' U:lines configured correctly?"
-msgstr "モードを変えることができません。サーバーの設定項目のU:linesの項目を見直してください。"
+msgstr "モードを変えることができません。サーバーの設定項目の U:lines の項目を見直してください。"
 
 #. merged with ja.l
 msgid "Services operator list has been cleared."
@@ -6180,7 +6180,7 @@ msgstr "SQL の setting 引数は ON か OFF のどちらかにしてくだ�
 
 #: language.cpp:2286
 msgid "Setting for SuperAdmin must be ON or OFF (must be enabled in services.conf)"
-msgstr "SuperAdmin の setting 引数は ON か OFF のどちらか(services.confの中で設定)にしてください。"
+msgstr "SuperAdmin の setting 引数は ON か OFF のどちらか(services.conf の中で設定)にしてください。"
 
 #: language.cpp:929
 #, c-format
@@ -6390,7 +6390,7 @@ msgstr "ご迷惑をかけて申し訳ありません。あなたは %d 個以�
 #: language.cpp:488
 #, c-format
 msgid "Sorry, you can only have %d access entries for a nickname."
-msgstr "一つのニックネームにつき、許可リスト%d個以上は登録出来ません。"
+msgstr "一つのニックネームにつき、許可リスト %d 個以上は登録出来ません。"
 
 #: language.cpp:1127
 #, c-format
@@ -6423,7 +6423,7 @@ msgstr "設定がリセットされました。"
 
 #: language.cpp:348
 msgid "Status updated (memos, vhost, chmodes, flags)."
-msgstr "memo,vhost,chmode,flagの設定を更新しました。"
+msgstr "memo,vhost,chmode,flag の設定を更新しました。"
 
 #: language.cpp:1620
 msgid "Stop flooding!"
@@ -6825,9 +6825,9 @@ msgstr ""
 "\n"
 "ACCESS DEL コマンドは与えられたニックネームを VOP リスト\n"
 "から削除する。もし、リストのエントリ番号が与えられた場合、\n"
-"このエントリを削除する。(下のLISTに関する例を見よ)\n"
+"このエントリを削除する。(下の LIST に関する例を見よ)\n"
 "\n"
-"ACCESS LIST コマンドはVOPリストを表示する。もしワイルドカード\n"
+"ACCESS LIST コマンドは VOP リストを表示する。もしワイルドカード\n"
 "マスクが与えられた場合、マスクにマッチするエントリだけが\n"
 "表示される。もしリストのエントリ番号が与えられた場合、\n"
 "このエントリ番号だけが表示される。例えば、\n"
@@ -7031,8 +7031,8 @@ msgstr ""
 "      AKICK channel CLEAR\n"
 "\n"
 "あるチャンネルの 自動キックリスト を編集する。\n"
-"自動キックリストに登録されているユーザーがチャンネルにjoin\n"
-"しようとした場合には、%Sはこのユーザーをチャンネルからbanして、\n"
+"自動キックリストに登録されているユーザーがチャンネルに join\n"
+"しようとした場合には、%S はこのユーザーをチャンネルから ban して、\n"
 "その後にキックする。\n"
 "\n"
 "AKICK ADD コマンドは与えられたニックネームかユーザーマスク\n"
@@ -7040,23 +7040,23 @@ msgstr ""
 "場合は、この理由はユーザーがキックされるときに使用される。\n"
 "もし与えなければ、初期値である\"You have been\n"
 "banned from the channel\" が使われる。\n"
-"登録済みニックネーム を自動キックする場合は、このnickserv\n"
-"アカウントがマスクの変わりにakickリストに加えられ、\n"
+"登録済みニックネーム を自動キックする場合は、この nickserv\n"
+"アカウントがマスクの変わりに akick リストに加えられ、\n"
 "このアカウントに関するニックグループに含まれる全ての\n"
 "ユーザーが自動キックリストに加えられる。\n"
 "\n"
 "AKICK STICK コマンドはあるチャンネルで与えられたマスクに\n"
-"該当するユーザーをbanする。もし誰かがこのbanを削除しようとした\n"
+"該当するユーザーを ban する。もし誰かがこの ban を削除しようとした\n"
 "場合には、%S は自動的にこれを回復する。この機能を登録済み\n"
 "ニックネームに対してつかうことはできない。\n"
 "\n"
 "AKICK UNSTICK コマンドはAKICK STICKの効果を\n"
-"キャンセルする。そのため、このチャンネルに関するbanを\n"
+"キャンセルする。そのため、このチャンネルに関する ban を\n"
 "キャンセルすることが出来る。\n"
 "\n"
 "AKICK DEL コマンドは与えられたニックネームかマスクを\n"
 "自動キックリストから削除する。もしこれらの引数が与えられ\n"
-"なければ、自動キックリストに含まれる全てのbanを削除する。\n"
+"なければ、自動キックリストに含まれる全ての ban を削除する。\n"
 "このようなことは通常は1つずつ行われるべきである。\n"
 "\n"
 "AKICK LIST コマンドは自動キックリストを表示するか、\n"
@@ -7261,8 +7261,8 @@ msgstr ""
 "      AOP channel LIST [mask | list]\n"
 "      AOP channel CLEAR\n"
 " \n"
-"あるチャンネルに対するAOP (自動OP) リスト を編集\n"
-"する。AOPリストはあなたのチャンネルで自動的にオペレーター\n"
+"あるチャンネルに対するAOP (自動 OP) リスト を編集\n"
+"する。AOP リストはあなたのチャンネルで自動的にオペレーター\n"
 "になることの出来るユーザーのリストです。バン解除と招待すること\n"
 "も出来ます。もし必要であればユーザーに対する挨拶メッセージを\n"
 "設定することも出来ます。\n"
@@ -7272,9 +7272,9 @@ msgstr ""
 " \n"
 "AOP DEL コマンドは与えられたニックネームを AOP リスト\n"
 "から削除する。もし、リストのエントリ番号が与えられた場合、\n"
-"このエントリを削除する。(下のLISTに関する例を見よ)\n"
+"このエントリを削除する。(下の LIST に関する例を見よ)\n"
 " \n"
-"AOP LIST コマンドはAOPリストを表示する。もしワイルドカード\n"
+"AOP LIST コマンドは AOP リストを表示する。もしワイルドカード\n"
 "マスクが与えられた場合、マスクにマッチするエントリだけが\n"
 "表示される。もしリストのエントリ番号が与えられた場合、\n"
 "このエントリ番号だけが表示される。例えば、\n"
@@ -7367,7 +7367,7 @@ msgstr ""
 "どの位置で禁止ワードを使用しても、キックします。\n"
 "BADWORDS DEL コマンドは、指定されたワードを禁止ワード\n"
 "リストから削除します。エントリ番号が指定された場合は、\n"
-"この番号に対応した禁止ワードを削除します。(LISTの例も\n"
+"この番号に対応した禁止ワードを削除します。(LIST の例も\n"
 "参照してください。)\n"
 "\n"
 "BADWORDS LIST コマンドは、禁止ワードリストを表示します。\n"
@@ -7404,11 +7404,11 @@ msgid ""
 msgstr ""
 "構文: BAN [#channel [nick [reason]]]\n"
 "\n"
-"与えられたチャンネルにいるニックネームをbanします。\n"
-"ニックネームが与えられなかった場合、自分自身をbanします。\n"
+"与えられたチャンネルにいるニックネームを ban します。\n"
+"ニックネームが与えられなかった場合、自分自身を ban します。\n"
 "チャンネル名とニックネームが与えられなかった場合、\n"
-"joinしている全てのチャンネルの自分をbanします。\n"
-"ただし、banする権利がある場合に限られます。\n"
+"join している全てのチャンネルの自分を ban します。\n"
+"ただし、ban する権利がある場合に限られます。\n"
 "\n"
 "初期状態では、このコマンドは AOP でレベル5以上のアクセス\n"
 "レベルを持っているユーザーだけに使用が制限されています。"
@@ -7487,7 +7487,7 @@ msgid ""
 msgstr ""
 "構文: CHANKILL [+expiry] channel reason\n"
 "あるチャンネルに参加している全てのニックネームを AKILL リストに\n"
-"加える。これは、全てのニックネームに対して、完全なident@hostを使い、\n"
+"加える。これは、全てのニックネームに対して、完全な ident@host を使い、\n"
 "AKILL を実行する。"
 
 #: language.cpp:4776
@@ -7556,8 +7556,8 @@ msgstr ""
 "1つである。\n"
 " \n"
 "     MODES    全てのチャンネルモードをリセットする。(例:\n"
-"                  i,k,l,m,n,p,s,tをクリアする。)\n"
-"     BANS     チャンネルのbanエントリを全てのクリアする。\n"
+"                  i,k,l,m,n,p,s,t をクリアする。)\n"
+"     BANS     チャンネルの ban エントリを全てのクリアする。\n"
 "     EXCEPTS  チャンネルの例外エントリを全てクリアする。\n"
 "     INVITES  チャンネルの招待エントリを全てクリアする。\n"
 "     OPS      チャンネルオペレーター全員からオペレーター権(+o)を剥奪する。\n"
@@ -7641,7 +7641,7 @@ msgstr ""
 "を剥奪する。\n"
 " \n"
 "初期状態では、このコマンドは AOP でレベル5以上のアクセス\n"
-"レベルを持っているユーザーか、HOPでレベル4以上のアクセスレベル\n"
+"レベルを持っているユーザーか、HOP でレベル4以上のアクセスレベル\n"
 "を持っているユーザーだけに使用が制限されています。"
 
 #: language.cpp:5206
@@ -7769,7 +7769,7 @@ msgstr ""
 "ニックネームが与えられなかった場合、自分から発言権を剥奪する。\n"
 " \n"
 "初期状態では、このコマンドは AOP でレベル5以上のアクセス\n"
-"レベルを持っているユーザーか、VOPでレベル3以上のアクセスレベル\n"
+"レベルを持っているユーザーか、VOP でレベル3以上のアクセスレベル\n"
 "を持っているユーザーだけに使用が制限されています。"
 
 #: language.cpp:3371
@@ -7968,7 +7968,7 @@ msgid ""
 msgstr ""
 "構文: GETEMAIL user@emailhost\n"
 "引数で指定されたメールアドレスに該当するニックネームを\n"
-"返します。注意することは、userにもemailhostにもワイルドカード\n"
+"返します。注意することは、user にも emailhost にもワイルドカード\n"
 "は使えないということです。このコマンドが使用されると、\n"
 "コマンドを発行したユーザーと引数のメールアドレスが記録されます。"
 
@@ -7995,7 +7995,7 @@ msgstr ""
 "\n"
 "与えられたチャンネルのパスワードを返します。注意する点\n"
 "は、このコマンドが使用された場合、コマンドを発行したユーザーと\n"
-"チャンネル名が記録され、WALLOPSかGLOBOPSとして送信\n"
+"チャンネル名が記録され、WALLOPS か GLOBOPS として送信\n"
 "されます。"
 
 #: language.cpp:3240
@@ -8037,12 +8037,12 @@ msgid ""
 msgstr ""
 "構文: GHOST nickname [password]\n"
 "\n"
-"あなたのニックネームを使用している「ゴースト」IRCセッション\n"
+"あなたのニックネームを使用している「ゴースト」IRC セッション\n"
 "を終了します。「ゴースト」セッションとは、実際には接続\n"
 "していませんが、ニックネームを使用するユーザーが何らかの\n"
-"理由でまだオンライン状態を保っているとIRCサーバーに思わせる\n"
+"理由でまだオンライン状態を保っていると IRC サーバーに思わせる\n"
 "セッションのことです。このような状態は、典型的に言って、\n"
-"IRCサーバーに接続中に、あなたのコンピュータがクラッシュするか、\n"
+"IRC サーバーに接続中に、あなたのコンピュータがクラッシュするか、\n"
 "インターネットやモデムの接続が切れた場合に起きます。\n"
 "\n"
 "あるニックネームに対して GHOST コマンドを使うためには、\n"
@@ -8158,12 +8158,12 @@ msgstr ""
 "ニックネームが登録されていない場合、このコマンドを使えます。\n"
 "ニックネームが登録されている場合は、このコマンドを使う前に\n"
 "認証が必要です。より詳しい情報は %R%S HELP IDENTIFY \n"
-"と入力してください。IRCネットワークによっては\n"
+"と入力してください。IRC ネットワークによっては\n"
 "このコマンドが使えない場合があります。\n"
 "\n"
 "このコマンドは未登録のニックネームと共に使うことをお勧めします。\n"
 "なぜなら、このコマンドを使うと自動的にニックネーム登録も\n"
-"されるからです。IRCネットワークの管理者が許している場合に限り、\n"
+"されるからです。IRC ネットワークの管理者が許している場合に限り、\n"
 "登録済みのニックネームと共に使う(グループ変更する)ことも可能です。\n"
 "\n"
 "同時に複数ののグループに登録することは出来ません。また、\n"
@@ -8189,7 +8189,7 @@ msgstr ""
 "ニックネームが与えられなかった場合、自分自身に halfops 権を付与する。\n"
 "\n"
 "初期状態では、このコマンドは AOP でレベル5以上のアクセス\n"
-"レベルを持っているユーザーか、HOPでレベル4以上のアクセスレベル\n"
+"レベルを持っているユーザーか、HOP でレベル4以上のアクセスレベル\n"
 "を持っているユーザーだけに使用が制限されています。"
 
 #: language.cpp:3698
@@ -8237,17 +8237,17 @@ msgstr ""
 "      HOP channel CLEAR\n"
 "\n"
 "あるチャンネルに対するHOP (HalfOP) リスト を編集\n"
-"する。チャンネルのHOPリストに登録されているユーザーは、自動で\n"
-"halfopされます。\n"
+"する。チャンネルの HOP リストに登録されているユーザーは、自動で\n"
+"halfop されます。\n"
 "\n"
 "HOP ADD コマンドは与えられたニックネームを HOP リスト\n"
 "に追加する。\n"
 "\n"
 "HOP DEL コマンドは与えられたニックネームを HOP リスト\n"
 "から削除する。もし、リストのエントリ番号が与えられた場合、\n"
-"このエントリを削除する。(下のLISTに関する例を見よ)\n"
+"このエントリを削除する。(下の LIST に関する例を見よ)\n"
 "\n"
-"HOP LIST コマンドはHOPリストを表示する。もしワイルドカード\n"
+"HOP LIST コマンドは HOP リストを表示する。もしワイルドカード\n"
 "マスクが与えられた場合、マスクにマッチするエントリだけが\n"
 "表示される。もしリストのエントリ番号が与えられた場合、\n"
 "このエントリ番号だけが表示される。例えば、\n"
@@ -8642,7 +8642,7 @@ msgstr ""
 "少なくとも min 文字以上の大文字があり、\n"
 "1行に含まれる大文字が percent%% 以上の場合に、\n"
 "キックします。(これらが指定されなかった場合の\n"
-"初期値は 10 文字と 25 %%です。)\n"
+"初期値は 10 文字と 25 %% です。)\n"
 "あるユーザーが ttb 回キックされるとこのユーザーをバンします。\n"
 "バン機能を使わない場合は ttb を指定しないでください。"
 
@@ -8675,7 +8675,7 @@ msgid ""
 msgstr ""
 "構文: KICK channel FLOOD {ON|OFF} [ttb [ln [secs]]]\n"
 "flood 攻撃キッカーの有効無効を切り替えます。\n"
-"有効の場合、ボットはflood 攻撃をしたユーザーをキックします。\n"
+"有効の場合、ボットは flood 攻撃をしたユーザーをキックします。\n"
 "secs 秒間にln 回の発言した場合を flood 攻撃\n"
 "とみなします。(これらが指定されなかった場合の\n"
 "初期値は 10 秒間に 6 発言です。)\n"
@@ -8796,7 +8796,7 @@ msgstr ""
 "が <key> にマッチするエントリのみを表示します。\n"
 "例えば、Rob* と指定された場合は、\"Rob\" が含まれる\n"
 "すべてのエントリを表示します。\n"
-"#X-Y 形式が指定された場合は、XからY番目のエントリを表示\n"
+"#X-Y 形式が指定された場合は、X から Y 番目のエントリを表示\n"
 "します。例えば、#1-3 と指定された場合は、ニックネーム/\n"
 "バーチャルホストエントリの最初から3つを表示します。\n"
 "1回に表示するエントリ数の上限値は NSListMax で指定します。"
@@ -8881,7 +8881,7 @@ msgstr ""
 "が有効になっているチャンネルは!がチャンネル名に付加され、\n"
 "サービス管理者に対してのみリストされます。\n"
 "\n"
-"FORBIDDEN、SUSPENDED、NOEXPIREオプションが与えられた場合、\n"
+"FORBIDDEN、SUSPENDED、NOEXPIRE オプションが与えられた場合、\n"
 "それぞれのオプションが有効化されているチャンネルだけが表示されます。\n"
 "複数のオプションが与えられた場合、それぞれにマッチする\n"
 "チャンネルが表示されます。これらのオプションが使えるのは\n"
@@ -8926,7 +8926,7 @@ msgstr ""
 "\n"
 "FORBIDDEN、SUSPENDED、NOEXPIRE、UNCONFIRMED オプションが引数に\n"
 "指定されている場合、禁止、一時停止、未確認のニックネーム\n"
-"又はNOEXPIREのフラグがセットされているニックネームが表示されます。\n"
+"又は NOEXPIRE のフラグがセットされているニックネームが表示されます。\n"
 "複数のオプションが引数に指定された場合、少なくとも1つに\n"
 "該当するニックネームが表示されます。これらのオプションは\n"
 "サービス管理者だけが使用できます。\n"
@@ -9184,7 +9184,7 @@ msgid ""
 msgstr ""
 "構文: OFF\n"
 "使用中のニックネームに対応したバーチャルホスト設定を無効化します。\n"
-"このコマンドを使うと、/whois で本当のIPアドレスが表示されます。"
+"このコマンドを使うと、/whois で本当の IP アドレスが表示されます。"
 
 #: language.cpp:4473
 msgid ""
@@ -9209,7 +9209,7 @@ msgid ""
 msgstr ""
 "構文: ON\n"
 "使用中のニックネームに対応したバーチャルホスト設定を有効化します。\n"
-"このコマンドを使うと、/whois で表示される本当のIPアドレスの\n"
+"このコマンドを使うと、/whois で表示される本当の IP アドレスの\n"
 "代わりに設定されたバーチャルホストが表示されます。"
 
 #: language.cpp:3968
@@ -9529,7 +9529,7 @@ msgstr ""
 " \n"
 "このコマンドを使用すると、%S は保護したいニックネームと同じ\n"
 "ニックネームを使用する仮ユーザーをネットワークに参加させます。\n"
-"こうすることで、IRCサーバーは他のユーザーからの接続を切断できます。\n"
+"こうすることで、IRC サーバーは他のユーザーからの接続を切断できます。\n"
 "%s が他のユーザーからの再接続要求が無くなったと判断するまで、\n"
 "仮ユーザーのオンライン状態は維持されます。この後に、あなたは\n"
 "自分のニックネームを再取得できます。別の方法として、\n"
@@ -9696,7 +9696,7 @@ msgid ""
 msgstr ""
 "構文: RELEASE nickname [password]\n"
 "\n"
-"%S が自動kill保護機能かRECOVER コマンドを使うことで\n"
+"%S が自動 kill 保護機能かRECOVER コマンドを使うことで\n"
 "使用中のあなたのニックネームを使えるようにします。\n"
 "%s の間ずっと試行を続けることですぐに使えるようになります。\n"
 "\n"
@@ -9802,12 +9802,12 @@ msgstr ""
 "\n"
 "    DISPLAY    サービス内でのグループ表示状態の設定\n"
 "    PASSWORD   ニックネームパスワードの設定\n"
-"    URL        ニックネームとURLの紐付け\n"
+"    URL        ニックネームと URL の紐付け\n"
 "    EMAIL      ニックネームと電子メールアドレスの紐付け\n"
-"    ICQ        ニックネームとICQ番号の紐付け\n"
+"    ICQ        ニックネームと ICQ 番号の紐付け\n"
 "    GREET      ニックネームと挨拶メッセージの紐付け\n"
-"    KILL       プロテクトのonとoffの設定\n"
-"    SECURE     ニックネーム保護のonとoffの設定\n"
+"    KILL       プロテクトの on と off の設定\n"
+"    SECURE     ニックネーム保護の on と off の設定\n"
 "    PRIVATE    ニックネームが%R%S LIST の中に\n"
 "                   現れないようにする。\n"
 "    HIDE       ニックネーム情報の一部を隠す\n"
@@ -9838,7 +9838,7 @@ msgstr ""
 "構文: SASET nickname AUTOOP {ON | OFF}\n"
 "\n"
 "ユーザーにオペレーター権を自動的に配布するかどうかを設定します。\n"
-"これがONの場合、ChanServはチャンネルに入った時に自動的に\n"
+"これがONの場合、ChanServ はチャンネルに入った時に自動的に\n"
 "オペレーター権を配布します。"
 
 #: language.cpp:2933
@@ -9875,8 +9875,8 @@ msgstr ""
 "構文: SASET nickname GREET message\n"
 "\n"
 "ニックネームの挨拶メッセージを設定します。\n"
-"この挨拶メッセージはGREETオプションが有効化されたチャンネル\n"
-"にjoinした際に表示され、ユーザーがチャンネルに必要なアクセス\n"
+"この挨拶メッセージは GREET オプションが有効化されたチャンネル\n"
+"に join した際に表示され、ユーザーがチャンネルに必要なアクセス\n"
 "をもっている場合に供給されます。"
 
 #: language.cpp:2986
@@ -9911,8 +9911,8 @@ msgid ""
 msgstr ""
 "構文: SASET nickname ICQ number\n"
 "\n"
-"ニックネームとICQ番号を紐付けます。\n"
-"このICQ番号は INFO コマンドで得られるニックネーム\n"
+"ニックネームと ICQ 番号を紐付けます。\n"
+"この ICQ 番号は INFO コマンドで得られるニックネーム\n"
 "に関する情報に表示されます。\n"
 
 #: language.cpp:2953
@@ -9935,8 +9935,8 @@ msgid ""
 msgstr ""
 "構文: SASET nickname KILL {ON | QUICK | IMMED | OFF}\n"
 " \n"
-"ニックネームに関する自動プロテクトのonとoffを切り替えます。\n"
-"プロテクトがonの状態で、ほかのユーザーがこのニックネームを\n"
+"ニックネームに関する自動プロテクトの on と off を切り替えます。\n"
+"プロテクトが on の状態で、ほかのユーザーがこのニックネームを\n"
 "使おうとした場合、ほかのユーザーは %S がニックネームを強制\n"
 "変更するまでの1分間にニックネームを変更しなければなりません。\n"
 " \n"
@@ -10010,7 +10010,7 @@ msgstr ""
 "構文: SASET nickname PRIVATE {ON | OFF}\n"
 "\n"
 "このニックネームに関する %S のプライバシーオプションを\n"
-"onかoffにします。PRIVATE をONにすると、%S の LIST\n"
+"on か off にします。PRIVATE を ON にすると、%S の LIST\n"
 "コマンドで表示されるニックネームリストに出てこなくなります。\n"
 "(ただし、ニックネームを知っている人は、INFO コマンドで\n"
 "情報を見ることが出来ます。)"
@@ -10030,12 +10030,12 @@ msgid ""
 msgstr ""
 "構文: SASET nickname SECURE {ON | OFF}\n"
 " \n"
-"このニックネームに対する %S の保護機能をonかoffにします。\n"
-"SECURE をON二すると、このニックネームのオーナー認証\n"
+"このニックネームに対する %S の保護機能を on か off にします。\n"
+"SECURE を ON 二すると、このニックネームのオーナー認証\n"
 "を行う前に、アクセスリスト上のユーザーのアドレスの有無にかかわらず\n"
 "パスワードを入力しなければなりません。ただし、アクセスリスト\n"
 "にユーザーのアドレスが有る場合は、 KILL オプションの\n"
-"設定にかかわらず %S はユーザーを自動的にKILLすることはありません。"
+"設定にかかわらず %S はユーザーを自動的に KILL することはありません。"
 
 #. merged with ja.l
 msgid ""
@@ -10047,7 +10047,7 @@ msgid ""
 msgstr ""
 "構文: SASET nickname URL url\n"
 "\n"
-"ニックネームとURLを紐付けます。このURLはINFO コマンド\n"
+"ニックネームと URL を紐付けます。この URL はINFO コマンド\n"
 "で得られるニックネームに関する情報に表示されます。"
 
 #: language.cpp:5062
@@ -10104,7 +10104,7 @@ msgstr ""
 "パスワードを紛失したときに役に立ちます。\n"
 "\n"
 "一部のネットワークでは、このコマンドを使用できるのは、\n"
-"IRCオペレーターだけに制限されています。\n"
+"IRC オペレーターだけに制限されています。\n"
 "\n"
 "このコマンドは暗号化が有効な場合には使用できません。"
 
@@ -10257,24 +10257,24 @@ msgstr ""
 "設定できるオプション:\n"
 "\n"
 "    FOUNDER       チャンネル創始者の設定\n"
-"    SUCCESSOR     チャンネル相続人の設定\n"
+"    SUCCESSOR     チャンネル後継者の設定\n"
 "    PASSWORD      創始者パスワードの設定\n"
 "    DESC          チャンネルの説明の設定\n"
-"    URL           チャンネルとURLの紐付け\n"
+"    URL           チャンネルと URL の紐付け\n"
 "    EMAIL         チャンネルと電子メールアドレスを紐付け\n"
 "    ENTRYMSG      チャンネルに入ったときの挨拶メッセージの設定\n"
 "    BANTYPE       チャンネルの禁止設定\n"
-"    MLOCK         チャンネルモードのON/OFFをロック\n"
+"    MLOCK         チャンネルモードの ON/OFF をロック\n"
 "    KEEPTOPIC     チャンネルが使われていないときにトピックを保存\n"
-"    OPNOTICE      OP/DEOPコマンド使用時にnoticeを送る\n"
+"    OPNOTICE      OP/DEOP コマンド使用時に notice を送る\n"
 "    PEACE         重要なコマンドの使用を制限\n"
 "    PRIVATE       LIST コマンドの結果にチャンネルを表示させない\n"
 "    RESTRICTED    チャンネルへのアクセスを制限\n"
 "    SECURE        %S の保安機能を有効化\n"
 "    SECUREOPS     チャンネルオペレーター状態の厳格な制御\n"
 "    SECUREFOUNDER チャンネル創始者状態の厳格な制御\n"
-"    SIGNKICK      KICKコマンドでのキックを署名する\n"
-"    TOPICLOCK     TOPICコマンドだけがトピックを変更出来るようにする\n"
+"    SIGNKICK      KICK コマンドでのキックを署名する\n"
+"    TOPICLOCK     TOPIC コマンドだけがトピックを変更出来るようにする\n"
 "    XOP           ユーザー権限システムをトグル\n"
 "\n"
 "夫々のオプションに関するより詳しい情報は\n"
@@ -10307,7 +10307,7 @@ msgstr ""
 "構文: SET channel BANTYPE bantype\n"
 "\n"
 "バンタイプを設定します。サービスによってあなたのチャンネル\n"
-"から誰かをbanするときに、このタイプ分けが使われる。\n"
+"から誰かを ban するときに、このタイプ分けが使われる。\n"
 "バンタイプは0から3の整数で表現される:\n"
 "\n"
 "0: *!user@host 型のバン指定\n"
@@ -10355,7 +10355,7 @@ msgstr ""
 "あるチャンネルでのvoices ユーザー保護 モード\n"
 "の有効無効を切り替えます。これが有効で、voices\n"
 "ユーザーが NOKICK レベルにマッチしない場合、\n"
-"ボットはこのvoices ユーザーをキックしません。"
+"ボットはこの voices ユーザーをキックしません。"
 
 #. merged with ja.l
 msgid ""
@@ -10446,7 +10446,7 @@ msgstr ""
 " \n"
 "あるチャンネルでの挨拶 モードの有効無効を\n"
 "切り替えます。これが有効の場合、ボットはチャンネル\n"
-"にjoinしたユーザーに挨拶メッセージを表示します。"
+"に join したユーザーに挨拶メッセージを表示します。"
 
 #. merged with ja.l
 msgid ""
@@ -10504,14 +10504,14 @@ msgstr ""
 "構文: SET channel MLOCK modes\n"
 "\n"
 "チャンネルのモードロックパラメータを設定します。\n"
-"%S は、あるチャンネルモードを常にONにするかOFFにするか、\n"
+"%S は、あるチャンネルモードを常に ON にするか OFF にするか、\n"
 "自由に変更できるようにするかを定義することを可能にする。\n"
 "\n"
 "modes パラメータは/MODE コマンドのパラメータと同じもの\n"
 "が定義されています。つまり、+に続けてモードパラメータを設定\n"
-"することで、ロックがONになります。-に続けが場合はOFFになります。\n"
+"することで、ロックが ON になります。-に続けが場合は OFF になります。\n"
 "ただし、/MODE コマンドと異なり、SET MLOCK を使うことで\n"
-"以前にロックがONにされたモードをOFFにすることが出来ます。\n"
+"以前にロックが ON にされたモードを OFF にすることが出来ます。\n"
 "\n"
 "警告: 下の2番目の例のようにモードロックキーを使った場合、\n"
 "このチャンネルに対して RESTRICTED オプションをセットするか、\n"
@@ -10521,12 +10521,12 @@ msgstr ""
 "例:\n"
 "\n"
 "    SET #channel MLOCK +nt-iklps\n"
-"        モードの n と t をONにして、i、k、l、p、s、をOFFにする。\n"
+"        モードの n と t を ON にして、i、k、l、p、s、を OFF にする。\n"
 "\tモード m は自由に変更できるようにする。\n"
 "\n"
 "    SET #channel MLOCK +knst-ilmp my-key\n"
 "        \"my-key\".\n"
-"\tモードの k、n、s、tをONにして、i、l、m、pを OFFにする。\n"
+"\tモードの k、n、s、t を ON にして、i、l、m、p を OFF にする。\n"
 "\tまた、チャンネルキーを \"my-key\" にする。\n"
 "\n"
 "    SET #channel MLOCK +\n"
@@ -10558,7 +10558,7 @@ msgstr ""
 "構文: SET channel NOEXPIRE {ON | OFF}\n"
 " \n"
 "与えられたチャンネルの登録を抹消するかどうか設定します。\n"
-"ONの場合はチャンネル登録を抹消できなくなります。"
+"ON の場合はチャンネル登録を抹消できなくなります。"
 
 #. merged with ja.l
 msgid ""
@@ -10645,10 +10645,10 @@ msgid ""
 msgstr ""
 "構文: SET channel SECURE {ON | OFF}\n"
 "\n"
-"あるチャンネルに対する%Sの保安機能の有効と無効\n"
+"あるチャンネルに対する %S の保安機能の有効と無効\n"
 "を切り替える。SECURE が有効化されると、\n"
 "アクセスリストによるコントロールと同様に、\n"
-"%sにニックネームが登録済みで、パスワードでIDENTIFYされた\n"
+"%s にニックネームが登録済みで、パスワードで IDENTIFY された\n"
 "ユーザーだけがこのチャンネルにアクセスできるようになる。"
 
 #. merged with ja.l
@@ -10666,7 +10666,7 @@ msgstr ""
 "を切り替える。secure founder が有効化されると、\n"
 "真のチャンネル創始者だけがチャンネルを未登録状態に変更できる。\n"
 "また、チャンネルパスワード、チャンネル創始者、チャンネル後継者、\n"
-"%SにIDENTIFYされていないユーザーを変更できる。\n"
+"%S に IDENTIFY されていないユーザーを変更できる。\n"
 
 #. merged with ja.l
 msgid ""
@@ -10698,9 +10698,9 @@ msgid ""
 msgstr ""
 "構文: SET channel SIGNKICK {ON | LEVEL | OFF}\n"
 "\n"
-"あるチャンネルに対するsigned kicksオプションの有効と無効\n"
+"あるチャンネルに対する signed kicks オプションの有効と無効\n"
 "を切り替える。SIGNKICK が有効化されると、\n"
-"%S KICKコマンドから発行されたキックはその理由の欄に\n"
+"%S KICK コマンドから発行されたキックはその理由の欄に\n"
 "コマンドを発行したユーザーのニックネームの署名を含むようになる。\n"
 "\n"
 "LEVEL が使用された場合、SIGNKICK レベルよりも高位又は同位\n"
@@ -10774,10 +10774,10 @@ msgid ""
 msgstr ""
 "構文: SET channel URL [url]\n"
 "\n"
-"引数で指定されたURLをチャンネルと紐付ける。このURLは\n"
+"引数で指定された URL をチャンネルと紐付ける。この URL は\n"
 "INFO コマンドでチャンネルの情報をリクエストしたときに\n"
 "返される。パラメータが与えられなかった場合、このチャンネルに\n"
-"紐付けられたURLを削除する。"
+"紐付けられた URL を削除する。"
 
 #. merged with ja.l
 msgid ""
@@ -10814,7 +10814,7 @@ msgstr ""
 "いけません。そうでなければ、アクセスリストシステムに戻った際に\n"
 "同じレベルを使えなくなります。\n"
 "\n"
-"xOPリストに変更した後に、ユーザーが良い xOP リストにいるかどうか\n"
+"xOP リストに変更した後に、ユーザーが良い xOP リストにいるかどうか\n"
 "チェックしなければいけません。なぜなら、思い込みはいつも\n"
 "完璧であるとは限らないからです。実際、LEVEL コマンドを\n"
 "使ってレベルの定義を変更する場合には、xOP リストを使うこと\n"
@@ -10859,12 +10859,12 @@ msgstr ""
 "    DISPLAY    サービス内でのグループ表示状態の設定\n"
 "    PASSWORD   ニックネームパスワードの設定\n"
 "    LANGUAGE   サービスからのメッセージの表示言語の設定\n"
-"    URL        ニックネームとURLの紐付け\n"
+"    URL        ニックネームと URL の紐付け\n"
 "    EMAIL      ニックネームと電子メールアドレスの紐付け\n"
-"    ICQ        ニックネームとICQ番号の紐付け\n"
+"    ICQ        ニックネームと ICQ 番号の紐付け\n"
 "    GREET      ニックネームと挨拶メッセージの紐付け\n"
-"    KILL       プロテクトのonとoffの設定\n"
-"    SECURE     ニックネーム保護のonとoffの設定\n"
+"    KILL       プロテクトの on と off の設定\n"
+"    SECURE     ニックネーム保護の on と off の設定\n"
 "    PRIVATE    ニックネームが%R%S LIST の中に\n"
 "                   現れないようにする。\n"
 "    HIDE       ニックネーム情報の一部を隠す\n"
@@ -10941,7 +10941,7 @@ msgstr ""
 "構文: SET AUTOOP {ON | OFF}\n"
 " \n"
 "あなたにオペレーター権を自動的に配布するかどうかを設定します。\n"
-"これがONの場合、ChanServはチャンネルに入った時に自動的に\n"
+"これが ON の場合、ChanServ はチャンネルに入った時に自動的に\n"
 "オペレーター権を配布します。"
 
 #: language.cpp:4696
@@ -11005,8 +11005,8 @@ msgstr ""
 "構文: SET GREET message\n"
 "\n"
 "ニックネームの挨拶メッセージを設定します。\n"
-"この挨拶メッセージはGREETオプションが有効化されたチャンネル\n"
-"にjoinした際に表示され、あなたがチャンネルに必要なアクセス\n"
+"この挨拶メッセージは GREET オプションが有効化されたチャンネル\n"
+"に join した際に表示され、あなたがチャンネルに必要なアクセス\n"
 "をもっている場合に供給されます。"
 
 #: language.cpp:2886
@@ -11041,8 +11041,8 @@ msgid ""
 msgstr ""
 "構文: SET ICQ number\n"
 "\n"
-"ニックネームとICQ番号を紐付けます。\n"
-"このICQ番号は INFO コマンドで得られるニックネーム\n"
+"ニックネームと ICQ 番号を紐付けます。\n"
+"この ICQ 番号は INFO コマンドで得られるニックネーム\n"
 "に関する情報に表示されます。\n"
 
 #: language.cpp:4719
@@ -11074,8 +11074,8 @@ msgid ""
 msgstr ""
 "構文: SET KILL {ON | QUICK | IMMED | OFF}\n"
 "\n"
-"あなたのニックネームに関する自動プロテクトのonとoffを切り替えます。\n"
-"プロテクトがonの状態で、ほかのユーザーがあなたのニックネームを\n"
+"あなたのニックネームに関する自動プロテクトの on と off を切り替えます。\n"
+"プロテクトが on の状態で、ほかのユーザーがあなたのニックネームを\n"
 "使おうとした場合、ほかのユーザーは %S がニックネームを強制\n"
 "変更するまでの1分間にニックネームを変更しなければなりません。\n"
 "\n"
@@ -11280,7 +11280,7 @@ msgstr ""
 "構文: SET PRIVATE {ON | OFF}\n"
 "\n"
 "あなたのニックネームに関する %S のプライバシーオプションを\n"
-"onかoffにします。PRIVATE をONにすると、%S の LIST\n"
+"on か off にします。PRIVATE を ON にすると、%S の LIST\n"
 "コマンドで表示されるニックネームリストに出てこなくなります。\n"
 "(ただし、ニックネームを知っている人は、INFO コマンドで\n"
 "情報を見ることが出来ます。)"
@@ -11329,12 +11329,12 @@ msgid ""
 msgstr ""
 "構文: SET SECURE {ON | OFF}\n"
 " \n"
-"あなたのニックネームに対する %S の保護機能をonかoffにします。\n"
-"SECURE をON二すると、あなたニックネームのオーナー認証\n"
+"あなたのニックネームに対する %S の保護機能を on か off にします。\n"
+"SECURE を ON 二すると、あなたニックネームのオーナー認証\n"
 "を行う前に、アクセスリスト上のあなたのアドレスの有無にかかわらず\n"
 "パスワードを入力しなければなりません。ただし、アクセスリスト\n"
 "にあなたのアドレスが有る場合は、 KILL オプションの\n"
-"設定にかかわらず %S はあなたを自動的にKILLすることはありません。"
+"設定にかかわらず %S はあなたを自動的に KILL することはありません。"
 
 #. merged with ja.l
 msgid ""
@@ -11371,7 +11371,7 @@ msgid ""
 msgstr ""
 "構文: SET URL url\n"
 "\n"
-"ニックネームとURLを紐付けます。このURLはINFO コマンド\n"
+"ニックネームと URL を紐付けます。この URL はINFO コマンド\n"
 "で得られるニックネームに関する情報に表示されます。"
 
 #: language.cpp:5193
@@ -11593,7 +11593,7 @@ msgstr ""
 "      SOP channel CLEAR\n"
 " \n"
 "あるチャンネルに対するSOP (SuperOP) リスト を編集\n"
-"する。チャンネルのSOPリストに登録されているユーザーは、AOP\n"
+"する。チャンネルの SOP リストに登録されているユーザーは、AOP\n"
 "リストで得られる全ての権限が与えられ、自動キックと\n"
 "禁止ワードリストの可否、チャンネルメモの送信と受信などを\n"
 "行えます。\n"
@@ -11603,9 +11603,9 @@ msgstr ""
 " \n"
 "SOP DEL コマンドは与えられたニックネームを SOP リスト\n"
 "から削除する。もし、リストのエントリ番号が与えられた場合、\n"
-"このエントリを削除する。(下のLISTに関する例を見よ)\n"
+"このエントリを削除する。(下の LIST に関する例を見よ)\n"
 " \n"
-"SOP LIST コマンドはSOPリストを表示する。もしワイルドカード\n"
+"SOP LIST コマンドは SOP リストを表示する。もしワイルドカード\n"
 "マスクが与えられた場合、マスクにマッチするエントリだけが\n"
 "表示される。もしリストのエントリ番号が与えられた場合、\n"
 "このエントリ番号だけが表示される。例えば、\n"
@@ -11617,7 +11617,7 @@ msgstr ""
 " \n"
 "SOP ADD、 SOP DEL と SOP CLEARコマンドは\n"
 "チャンネル創始者だけに使用が制限されています。\n"
-"これに対して、HOP LIST コマンドは、AOPリストに含まれる\n"
+"これに対して、HOP LIST コマンドは、AOP リストに含まれる\n"
 "ユーザーであれば誰でも使えます。\n"
 " \n"
 "このコマンドをあなたのチャンネルで使用できないように出来ます。\n"
@@ -11685,7 +11685,7 @@ msgstr ""
 "場合、サービスはこのユーザーの IRC セッションを破棄します。\n"
 "指定されたマスクが#から始まる場合、サービスは\n"
 "該当するチャンネルを作れないようにします。\n"
-"(ただし、IRCdがこれをサポートしていなければなりません。)\n"
+"(ただし、IRCd がこれをサポートしていなければなりません。)\n"
 "\n"
 "SQLINE ADD コマンドはマスク\n"
 "とその理由(必須です)を SQLINE リストに追加します。\n"
@@ -11870,7 +11870,7 @@ msgstr ""
 "構文: SUSPEND channel [reason]\n"
 " \n"
 "与えられたチャンネル名を登録することと、\n"
-"これを使用することを禁止する。UNSUSPENDコマンドを\n"
+"これを使用することを禁止する。UNSUSPEND コマンドを\n"
 "使用することで、チャンネルデータと設定を保存したままで\n"
 "キャンセルすることが出来る。\n"
 " \n"
@@ -12035,7 +12035,7 @@ msgstr ""
 "構文: UNBAN channel\n"
 " \n"
 "%S が与えられたチャンネルにあなた又は指定されたユーザーが入る\n"
-"ことを妨げる全てのbanを削除します。\n"
+"ことを妨げる全ての ban を削除します。\n"
 " \n"
 "初期状態では、このコマンドは AOP でレベル5以上のアクセス\n"
 "レベルを持っているユーザーだけに使用が制限されています。"
@@ -12092,7 +12092,7 @@ msgstr ""
 "IRC ネットワーク上に現在いるユーザーを、\n"
 "登録済みニックネームが否かにかかわらず全員表示します。\n"
 " \n"
-"pattern (フォーマットはnick!user@host) が指定された場合、\n"
+"pattern (フォーマットは nick!user@host) が指定された場合、\n"
 "これに該当するユーザーのみを表示します。 channel が指定\n"
 "された場合、このチャンネルに join しているユーザーのみを表示\n"
 "します。INVISIBLE が指定された場合は、+i フラグが立っている\n"
@@ -12115,7 +12115,7 @@ msgstr ""
 "ニックネームが与えられなかった場合、自分に発言権を与える。\n"
 "\n"
 "初期状態では、このコマンドは AOP でレベル5以上のアクセス\n"
-"レベルを持っているユーザーか、VOPでレベル3以上のアクセスレベル\n"
+"レベルを持っているユーザーか、VOP でレベル3以上のアクセスレベル\n"
 "を持っているユーザーだけに使用が制限されています。"
 
 #: language.cpp:3773
@@ -12163,7 +12163,7 @@ msgstr ""
 "      VOP channel CLEAR\n"
 "\n"
 "あるチャンネルに対するVOP (VOicePeople) リスト を編集\n"
-"する。チャンネルのVOPリストに登録されているユーザーは、自動的に\n"
+"する。チャンネルの VOP リストに登録されているユーザーは、自動的に\n"
 "発言権を与えられ、もし発言権を与えられていなくても発言出来ます。\n"
 "\n"
 "VOP ADD コマンドは与えられたニックネームを VOP リスト\n"
@@ -12171,9 +12171,9 @@ msgstr ""
 "\n"
 "VOP DEL コマンドは与えられたニックネームを VOP リスト\n"
 "から削除する。もし、リストのエントリ番号が与えられた場合、\n"
-"このエントリを削除する。(下のLISTに関する例を見よ)\n"
+"このエントリを削除する。(下の LIST に関する例を見よ)\n"
 "\n"
-"VOP LIST コマンドはVOPリストを表示する。もしワイルドカード\n"
+"VOP LIST コマンドは VOP リストを表示する。もしワイルドカード\n"
 "マスクが与えられた場合、マスクにマッチするエントリだけが\n"
 "表示される。もしリストのエントリ番号が与えられた場合、\n"
 "このエントリ番号だけが表示される。例えば、\n"
@@ -12266,7 +12266,7 @@ msgstr "現在 %s のメールアドレスは %s INFO 表示に公開されて
 
 #. merged with ja.l
 msgid "The RAW option has been disabled. If you must use it, configure the DisableRaw directive in Services configuration."
-msgstr "RAWオプションは無効にされています。もし使う必要があるならば、サービス設定の DisableRaw 指示文を設定してください。"
+msgstr "RAW オプションは無効にされています。もし使う必要があるならば、サービス設定の DisableRaw 指示文を設定してください。"
 
 #. merged with ja.l
 msgid "The SGLINE list has been cleared."
@@ -12667,19 +12667,19 @@ msgstr "URL %s を解除しました。"
 
 #. merged with ja.l
 msgid "URL changed to %s."
-msgstr "URLを %s に変更しました。"
+msgstr "URL を %s に変更しました。"
 
 #. merged with ja.l
 msgid "URL for %s changed to %s."
-msgstr "%s のURLは　%s に変更されました。"
+msgstr "%s の URL は　%s に変更されました。"
 
 #. merged with ja.l
 msgid "URL for %s changed to %s."
-msgstr "チャンネル %s のURLを %s に変更しました。"
+msgstr "チャンネル %s の URL を %s に変更しました。"
 
 #. merged with ja.l
 msgid "URL for %s unset."
-msgstr "チャンネル %s のURLを未設定に戻しました。"
+msgstr "チャンネル %s の URL を未設定に戻しました。"
 
 #. merged with ja.l
 msgid "URL unset."
@@ -12877,7 +12877,7 @@ msgstr "%sというグループのメンバーになりました。"
 
 #: language.cpp:2238
 msgid "You can not jupe your services server or your uplink server."
-msgstr "あなた自身のサーバーあなたのアップリンクサーバーにはjupeできません。"
+msgstr "あなた自身のサーバーあなたのアップリンクサーバーには jupe できません。"
 
 #: language.cpp:1601
 msgid "You can not request a receipt when sending a memo to yourself."
@@ -13063,11 +13063,11 @@ msgstr "ニックネームを登録するには、最低 %d 秒間そのニッ�
 
 #: language.cpp:870
 msgid "You must lock mode +i as well to lock mode +K."
-msgstr "ロックモード +K をONにするのと同時に +i もONにしてください。"
+msgstr "ロックモード +K を ON にするのと同時に +i も ON にしてください。"
 
 #: language.cpp:868
 msgid "You must lock mode +l as well to lock mode +L."
-msgstr "ロックモード +L をONにするのと同時に +l もONにしてください。"
+msgstr "ロックモード +L を ON にするのと同時に +l も ON にしてください。"
 
 #: language.cpp:338
 msgid ""
@@ -13142,11 +13142,11 @@ msgstr "チャンネルパスワードは %s です。join するにはこれ�
 
 #. merged with ja.l
 msgid "Your last quit message will now be hidden from %s INFO displays."
-msgstr "最も最近IRCを終了した時の終了メッセージは %s INFO コマンドで表示するように設定されました。"
+msgstr "最も最近 IRC を終了した時の終了メッセージは %s INFO コマンドで表示するように設定されました。"
 
 #. merged with ja.l
 msgid "Your last quit message will now be shown in %s INFO displays."
-msgstr "最も最近IRCを終了した時の終了メッセージは %s INFO コマンドで表示するように設定されました。"
+msgstr "最も最近 IRC を終了した時の終了メッセージは %s INFO コマンドで表示するように設定されました。"
 
 #. merged with ja.l
 msgid "Your last seen user@host mask will now be hidden from %s INFO displays."
