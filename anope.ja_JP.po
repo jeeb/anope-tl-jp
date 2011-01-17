@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-18 00:30+0900\n"
+"PO-Revision-Date: 2011-01-18 02:15+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -2593,7 +2593,7 @@ msgstr "自分自身にオペレーター権限を付与、剥奪することが
 
 #: language.cpp:772
 msgid "Allowed to (de)owner him/herself"
-msgstr ""
+msgstr "自分自身にオーナー権限を付与、剥奪することができます。"
 
 #: language.cpp:750
 msgid "Allowed to (de)protect him/herself"
@@ -2669,7 +2669,7 @@ msgstr "OP/DEOP（チャンネル運営者権の付与・剥奪）コマンド�
 
 #: language.cpp:770
 msgid "Allowed to use OWNER command"
-msgstr ""
+msgstr "OWNER コマンドの使用を許可"
 
 #: language.cpp:752
 msgid "Allowed to use PROTECT/DEPROTECT commands"
@@ -2726,7 +2726,7 @@ msgstr "自動的にチャンネル準運営者権を得る[AUTOHALFOP](+h)"
 
 #: language.cpp:768
 msgid "Automatic mode +q"
-msgstr ""
+msgstr "自動的にチャンネルオーナー権を得る(+q)"
 
 #: language.cpp:698
 msgid "Automatic mode +v"
