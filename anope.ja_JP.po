@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-18 02:15+0900\n"
+"PO-Revision-Date: 2011-01-18 17:14+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -263,7 +263,7 @@ msgstr "%s は既に SZLINE リストに登録されています。"
 #: language.cpp:1809
 #, c-format
 msgid "%s cannot be taken as times to ban."
-msgstr ""
+msgstr "%s はバンする時間として解釈できません。"
 
 #: language.cpp:2057
 #, c-format
@@ -608,9 +608,9 @@ msgstr ""
 "\n"
 "初期状態では、以下のアクセスレベルが定義されています。\n"
 "\n"
-"   創始者    %S の機能にフルアクセスできる。チャンネルに\n"
+"   創設者    %S の機能にフルアクセスできる。チャンネルに\n"
 "                     入った時に自動オペレーター化される。\n"
-"                     注意することは、一人だけが創始者権限\n"
+"                     注意することは、一人だけが創設者権限\n"
 "                     (この権限はACCESSコマンドで誰かに\n"
 "                     貸与できない。)\n"
 "        10   AKICK コマンドにアクセスできる。自動オペレーター権付加。\n"
@@ -960,7 +960,7 @@ msgstr "    %-*s  (無効化済み)"
 #: language.cpp:1224
 #, c-format
 msgid "    %-*s  (founder only)"
-msgstr "    %-*s  (チャンネル創始者のみ)"
+msgstr "    %-*s  (チャンネル創設者のみ)"
 
 #. merged with ja.l
 msgid "    %-20s  %s"
@@ -1162,7 +1162,7 @@ msgstr "    FORBID     指定されたニックネームを登録禁止にする
 
 #: language.cpp:3390
 msgid "    FOUNDER       Set the founder of a channel"
-msgstr "    FOUNDER       チャンネルの創始者を設定します。"
+msgstr "    FOUNDER       チャンネルの創設者を設定します。"
 
 #: language.cpp:2635
 msgid "    GETEMAIL   Matches and returns all users that registered using given email"
@@ -1174,7 +1174,7 @@ msgstr "    GETKEY     指定されたチャンネルのキーを返す。"
 
 #. merged with ja.l
 msgid "    GETPASS    Retrieve the founder password for a channel"
-msgstr "    GETPASS    チャンネルの創始者パスワードを表示する。"
+msgstr "    GETPASS    チャンネルの創設者パスワードを表示する。"
 
 #: language.cpp:2633
 msgid "    GETPASS    Retrieve the password for a nickname"
@@ -1548,7 +1548,7 @@ msgstr "    SECURE     ニックネーム保護機能の有効無効を切り替
 
 #: language.cpp:3417
 msgid "    SECUREFOUNDER Stricter control of channel founder status"
-msgstr "    SECUREFOUNDER チャンネル創始者状態のコントロールを強化する。"
+msgstr "    SECUREFOUNDER チャンネル創設者状態のコントロールを強化する。"
 
 #: language.cpp:3415
 msgid "    SECUREOPS     Stricter control of chanop status"
@@ -2485,7 +2485,7 @@ msgstr "許可リスト一覧："
 #: language.cpp:135
 #, c-format
 msgid "Access to this command requires the permission %s to be present in your opertype."
-msgstr ""
+msgstr "このコマンドにアクセスするには、あなたの opertype で%sが有効化されていなければなりません。"
 
 #: language.cpp:2501
 #, c-format
@@ -2507,6 +2507,8 @@ msgid ""
 "Additionally, Services Operators with the nickserv/confirm permission can\n"
 "replace passcode with a users nick to force validate them."
 msgstr ""
+"加えて、nickserv/confirm 許可を持つサービスオペレーターは、強制的な\n"
+"認証を行うためにパスコードをユーザーのニックネームに変更出来ます。"
 
 #: language.cpp:2230
 #, c-format
@@ -2613,7 +2615,7 @@ msgstr "自分自身をバンできます。"
 
 #: language.cpp:774
 msgid "Allowed to issue commands restricted to channel founders"
-msgstr ""
+msgstr "制限コマンドの発行をチャンネル創設者だけに制限する。"
 
 #: language.cpp:754
 msgid "Allowed to kick him/herself"
@@ -2945,10 +2947,12 @@ msgid ""
 "Bot will now kick italics, and will place a ban after \n"
 "%d kicks for the same user."
 msgstr ""
+"ボットは イタリック体による発言 に対してキックを行い、\n"
+"同一ユーザーのキックが %d 回になったところでバンします。"
 
 #: language.cpp:1873
 msgid "Bot will now kick italics."
-msgstr ""
+msgstr "ボットは イタリック体による発言 に対してキックを行います。"
 
 #: language.cpp:1853
 #, c-format
@@ -3018,7 +3022,7 @@ msgstr "ボットは flood 攻撃 に対してキックを行いません。"
 
 #: language.cpp:1878
 msgid "Bot won't kick italics anymore."
-msgstr ""
+msgstr "ボットは イタリック体 発言に対してキックを行いません。"
 
 #: language.cpp:1857
 msgid "Bot won't kick repeats anymore."
@@ -3117,7 +3121,7 @@ msgstr "チャンネル %s は登録済みです！"
 #: language.cpp:947
 #, c-format
 msgid "Channel %s is no longer persistant."
-msgstr ""
+msgstr "チャンネル %s を永続的なものでなくしました。"
 
 #: language.cpp:1330
 #, c-format
@@ -3127,7 +3131,7 @@ msgstr "チャンネル %s を禁止にしました。"
 #: language.cpp:945
 #, c-format
 msgid "Channel %s is now persistant."
-msgstr ""
+msgstr "チャンネル %s を永続的にしました。"
 
 #: language.cpp:1350
 #, c-format
@@ -3187,7 +3191,7 @@ msgstr "チャンネル %s の HOP リストを初期化しました。"
 #: language.cpp:991
 #, c-format
 msgid "Channel %s QOP list has been cleared."
-msgstr ""
+msgstr "チャンネル %s の QOP リストを初期化しました。"
 
 #: language.cpp:1078
 #, c-format
@@ -3224,7 +3228,7 @@ msgstr "チャンネルの HOP リストに追加できるニックネームは�
 
 #: language.cpp:968
 msgid "Channel QOP lists may only contain registered nicknames."
-msgstr ""
+msgstr "チャンネルの QOP リストに追加できるニックネームは登録されたものでなければいけません。"
 
 #: language.cpp:1055
 msgid "Channel SOP lists may only contain registered nicknames."
@@ -3337,13 +3341,15 @@ msgstr ""
 
 #: language.cpp:2136
 msgid "Current SNLINE list:"
-msgstr ""
+msgstr "現在の SNLINE リスト:"
 
 #: language.cpp:2133
 msgid ""
 "Current SNLINE list:\n"
 "  Num   Mask                              Reason"
 msgstr ""
+"現在の SGLINE リスト:\n"
+"  番号  マスク                            理由"
 
 #: language.cpp:2163
 msgid "Current SQLINE list:"
@@ -3385,7 +3391,7 @@ msgstr "現在の SGLINE 数         : %d"
 #: language.cpp:1995
 #, c-format
 msgid "Current number of SNLINEs: %d"
-msgstr ""
+msgstr "現在の SNLINE 数         : %d"
 
 #: language.cpp:2011
 #, c-format
@@ -3471,7 +3477,7 @@ msgstr "AKILL 失効時間の初期値   : 1 分"
 
 #: language.cpp:1993
 msgid "Default AKILL expiry time: No expiration"
-msgstr "AKILL 失効時間の初期値   : 未設定"
+msgstr "AKILL 失効時間の初期値   : 制限無し"
 
 #. merged with ja.l
 msgid "Default SGLINE expiry time: %d days"
@@ -3499,38 +3505,38 @@ msgstr "SGLINE 失効時間の初期値   : 1 分"
 
 #. merged with ja.l
 msgid "Default SGLINE expiry time: No expiration"
-msgstr "SGLINE 失効時間の初期値   : 未設定"
+msgstr "SGLINE 失効時間の初期値   : 制限無し"
 
 #: language.cpp:1997
 #, c-format
 msgid "Default SNLINE expiry time: %d days"
-msgstr ""
+msgstr "SNLINE 失効時間の初期値   : %d 日間"
 
 #: language.cpp:2001
 #, c-format
 msgid "Default SNLINE expiry time: %d hours"
-msgstr ""
+msgstr "SNLINE 失効時間の初期値   : %d 時間"
 
 #: language.cpp:2005
 #, c-format
 msgid "Default SNLINE expiry time: %d minutes"
-msgstr ""
+msgstr "SNLINE 失効時間の初期値   : %d 分間"
 
 #: language.cpp:1999
 msgid "Default SNLINE expiry time: 1 day"
-msgstr ""
+msgstr "SNLINE 失効時間の初期値   : 1 日間"
 
 #: language.cpp:2003
 msgid "Default SNLINE expiry time: 1 hour"
-msgstr ""
+msgstr "SNLINE 失効時間の初期値   : 1 時間"
 
 #: language.cpp:2007
 msgid "Default SNLINE expiry time: 1 minute"
-msgstr ""
+msgstr "SNLINE 失効時間の初期値   : 1 分間"
 
 #: language.cpp:2009
 msgid "Default SNLINE expiry time: No expiration"
-msgstr ""
+msgstr "SNLINE 失効時間の初期値   : 制限無し"
 
 #: language.cpp:2013
 #, c-format
@@ -3561,7 +3567,7 @@ msgstr "SQLINE 失効時間の初期値   : 1 分"
 
 #: language.cpp:2025
 msgid "Default SQLINE expiry time: No expiration"
-msgstr "SQLINE 失効時間の初期値   : 未設定"
+msgstr "SQLINE 失効時間の初期値   : 制限無し"
 
 #: language.cpp:2029
 #, c-format
@@ -3592,7 +3598,7 @@ msgstr "SZLINE 失効時間の初期値   : 1 分"
 
 #: language.cpp:2041
 msgid "Default SZLINE expiry time: No expiration"
-msgstr "SZLINE 失効時間の初期値   : 未設定"
+msgstr "SZLINE 失効時間の初期値   : 制限無し"
 
 #: language.cpp:1013
 #, c-format
@@ -3607,7 +3613,7 @@ msgstr "チャンネル %2$s の HOP リストからエントリを %1$d 個削�
 #: language.cpp:984
 #, c-format
 msgid "Deleted %d entries from %s QOP list."
-msgstr ""
+msgstr "チャンネル %2$s の QOP リストからエントリを %1$d 個削除しました。"
 
 #: language.cpp:1071
 #, c-format
@@ -3659,7 +3665,7 @@ msgstr "%d 個のエントリが SGLINE リストから削除されました。"
 #: language.cpp:2129
 #, c-format
 msgid "Deleted %d entries from the SNLINE list."
-msgstr ""
+msgstr "%d 個のエントリが SNLINE リストから削除されました。"
 
 #: language.cpp:2156
 #, c-format
@@ -3684,7 +3690,7 @@ msgstr "チャンネル %s の HOP リストからエントリを 1 個削除し
 #: language.cpp:982
 #, c-format
 msgid "Deleted 1 entry from %s QOP list."
-msgstr ""
+msgstr "チャンネル %s の QOP リストからエントリを 1 個削除しました。"
 
 #: language.cpp:1069
 #, c-format
@@ -3733,7 +3739,7 @@ msgstr "1 個のエントリが SGLINE リストから削除されました。"
 
 #: language.cpp:2127
 msgid "Deleted 1 entry from the SNLINE list."
-msgstr ""
+msgstr "1 個のエントリが SNLINE リストから削除されました。"
 
 #: language.cpp:2154
 msgid "Deleted 1 entry from the SQLINE list."
@@ -3773,7 +3779,7 @@ msgstr "このチャンネルでは色付き文字を使わないでください
 
 #: language.cpp:1628
 msgid "Don't use italics on this channel!"
-msgstr ""
+msgstr "このチャンネルではイタリック体を使わないでください！"
 
 #: language.cpp:1624
 msgid "Don't use reverses on this channel!"
@@ -4050,6 +4056,13 @@ msgid ""
 " \n"
 "%s"
 msgstr ""
+"こんにちは %s\n"
+" \n"
+"%s からの新着メモが到着しました。メモ番号は %d です。\n"
+" \n"
+"メモ本文:\n"
+" \n"
+"%s"
 
 #. merged with ja.l
 msgid "Hi,"
@@ -4066,6 +4079,14 @@ msgid ""
 " \n"
 "%s administrators."
 msgstr ""
+"こんにちは、\n"
+" \n"
+"%s のパスワードのリセット申請が行われました。\n"
+"パスワードをリセットするためには %R%s CONFIRM %s と入力してください。\n"
+" \n"
+"このメールを受け取った理由がわからない場合、無視してください。\n"
+" \n"
+"%s 管理人"
 
 #: language.cpp:621
 #, c-format
@@ -4079,6 +4100,15 @@ msgid ""
 " \n"
 "%s administrators."
 msgstr ""
+"こんにちは、\n"
+" \n"
+"ニックネーム %s のパスワードをメールで受け取る申請が行われました。\n"
+"パスワードは %s です。保安上の要請で、このメールを受け取り次第\n"
+"可能な限り早くこのパスワードを変更しなければなりません。\n"
+" \n"
+"このメールを受け取った理由がわからない場合、無視してください。\n"
+" \n"
+"%s 管理人"
 
 #: language.cpp:679
 msgid ""
@@ -4091,6 +4121,14 @@ msgid ""
 " \n"
 "%s administrators."
 msgstr ""
+"こんにちは、\n"
+" \n"
+"%2$s 上のニックネーム %1$s の登録申請が行われました。\n"
+"\" %R%s confirm %s \" と入力して登録を完了させてください。\n"
+" \n"
+"このメールを受け取った理由がわからない場合、無視してください。\n"
+" \n"
+"%s 管理人"
 
 #: language.cpp:1973
 #, c-format
@@ -4211,6 +4249,12 @@ msgid ""
 "Type %R%S HELP SET option for more information\n"
 "on a specific option."
 msgstr ""
+"このコマンドを使うためには、まず自分の正統性を\n"
+"パスワードによって認証する必要があります。(より詳しい\n"
+"情報は%R%S HELP IDENTIFY と入力してください。)\n"
+"\n"
+"それぞれのオプションに関するより詳しい情報は、\n"
+"%R%S HELP SET option と入力してください。"
 
 #: language.cpp:264
 msgid "Incorrect range specified. The correct syntax is #from-to."
@@ -4334,7 +4378,7 @@ msgstr ""
 #: language.cpp:1324
 #, c-format
 msgid "Key for channel %s is %s."
-msgstr ""
+msgstr "チャンネル %s のキーは %s です。"
 
 #: language.cpp:1206
 msgid "LEVELS channel {SET | DIS[ABLE] | LIST | RESET} [item [level]]"
@@ -4407,7 +4451,7 @@ msgstr "チャンネル %s の%s に対するレベルを %dに変更しま�
 #: language.cpp:1214
 #, c-format
 msgid "Level for %s on channel %s changed to founder only."
-msgstr ""
+msgstr "チャンネル %s の%s に対するレベルを チャンネル創設者のみに変更しました。"
 
 #: language.cpp:1210
 #, c-format
@@ -4582,12 +4626,12 @@ msgstr "チャンネル %s のロックモードを %s に変更しました�
 #: language.cpp:2320
 #, c-format
 msgid "Module %s is already loaded."
-msgstr ""
+msgstr "モジュール %s はロード済みです。"
 
 #: language.cpp:2322
 #, c-format
 msgid "Module %s isn't loaded."
-msgstr ""
+msgstr "モジュール %s はロードされていません。"
 
 #: language.cpp:2308
 #, c-format
@@ -4597,7 +4641,7 @@ msgstr "モジュール %s がロードされました。"
 #: language.cpp:2312
 #, c-format
 msgid "Module %s reloaded"
-msgstr ""
+msgstr "モジュール %s が再ロードされました。"
 
 #: language.cpp:2310
 #, c-format
@@ -4680,7 +4724,7 @@ msgstr "%s のニックネームはこのネットワークサービスの一�
 #: language.cpp:593
 #, c-format
 msgid "Nick %s isn't being held."
-msgstr ""
+msgstr "ニックネーム%sは未使用状態です。"
 
 #: language.cpp:183
 #, c-format
@@ -4730,7 +4774,7 @@ msgstr "ニックネーム %s はログアウトされました。"
 #: language.cpp:330
 #, c-format
 msgid "Nick %s has been ungrouped from %s."
-msgstr ""
+msgstr "ニックネーム %s はグループ %s から登録解除されました。"
 
 #: language.cpp:196
 #, c-format
@@ -4857,7 +4901,7 @@ msgstr "チャンネル %s の HOP リストにマッチするエントリがあ
 #: language.cpp:978
 #, c-format
 msgid "No matching entries on %s QOP list."
-msgstr ""
+msgstr "チャンネル %s の QOP リストにマッチするエントリがありません。"
 
 #: language.cpp:1065
 #, c-format
@@ -4906,7 +4950,7 @@ msgstr "SGLINE リストに該当するエントリが見つかりませんで�
 
 #: language.cpp:2123
 msgid "No matching entries on the SNLINE list."
-msgstr ""
+msgstr "SNLINE リストに該当するエントリが見つかりませんでした。"
 
 #: language.cpp:2150
 msgid "No matching entries on the SQLINE list."
@@ -4961,7 +5005,7 @@ msgstr "チャンネル %2$s の HOP リストにエントリ(#%1$d) は見つ�
 #: language.cpp:974
 #, c-format
 msgid "No such entry (#%d) on %s QOP list."
-msgstr ""
+msgstr "チャンネル %2$s の QOP リストにエントリ(#%1$d) は見つかりません。"
 
 #: language.cpp:1061
 #, c-format
@@ -4991,11 +5035,7 @@ msgstr "セッション数制限からの除外リストに #%d というエン�
 
 #: language.cpp:546 language.cpp:1751
 msgid "None"
-msgstr ""
-
-#. merged with ja.l
-msgid "None\n"
-msgstr "未設定\n"
+msgstr "未設定"
 
 #: language.cpp:706
 msgid "Not allowed to join channel"
@@ -5179,7 +5219,7 @@ msgstr "チャンネル %s のパスワードが送信されました。"
 #: language.cpp:645
 #, c-format
 msgid "Password reset email for %s has been sent."
-msgstr ""
+msgstr "%s のパスワードリセットメールが送信されました。"
 
 #: language.cpp:1264
 msgid "Peace"
@@ -5201,7 +5241,7 @@ msgstr "許可否認。"
 
 #: language.cpp:1280
 msgid "Persistant"
-msgstr ""
+msgstr "持続状態"
 
 #: language.cpp:5138
 msgid "Please contact an Operator to get a vhost assigned to this nick."
@@ -5221,7 +5261,7 @@ msgstr ""
 
 #: language.cpp:171
 msgid "Please try again with a more obscure password.  Passwords should be at least five characters long, should not be something easily guessed (e.g. your real name or your nick), and cannot contain the space or tab characters."
-msgstr ""
+msgstr "もっと分かり難いパスワードで再度お試しください。パスワードは少なくとも 5 文字の長さで、簡単に推測できるもの（例：あなたの本名やニックネーム）にすることなく、空白やタブ文字を含まないようにもしてください。"
 
 #. merged with ja.l
 msgid "Please type \" %R%s confirm %s \" to complete registration."
@@ -5434,11 +5474,11 @@ msgstr "ニックネーム登録手順 1 が期限切れになりました。\"%
 #: language.cpp:634
 #, c-format
 msgid "Reset password request for %s"
-msgstr ""
+msgstr "%s のパスワードリセット要求"
 
 #: language.cpp:1266
 msgid "Restricted Access"
-msgstr ""
+msgstr "制限アクセス"
 
 #: language.cpp:914
 #, c-format
@@ -5865,35 +5905,35 @@ msgstr ""
 
 #: language.cpp:1268
 msgid "Secure"
-msgstr ""
+msgstr "保安"
 
 #: language.cpp:1272
 msgid "Secure Founder"
-msgstr ""
+msgstr "保安創設者"
 
 #: language.cpp:1270
 msgid "Secure Ops"
-msgstr ""
+msgstr "保安オペレーター"
 
 #: language.cpp:908
 #, c-format
 msgid "Secure founder option for %s is now OFF."
-msgstr "チャンネル %s の安全開設者オプションは OFF です。"
+msgstr "チャンネル %s の保安創設者オプションは OFF です。"
 
 #: language.cpp:906
 #, c-format
 msgid "Secure founder option for %s is now ON."
-msgstr "チャンネル %s の安全開設者オプションは ON です。"
+msgstr "チャンネル %s の保安創設者オプションは ON です。"
 
 #: language.cpp:902
 #, c-format
 msgid "Secure ops option for %s is now OFF."
-msgstr "チャンネル %s の安全オペレーターオプションは OFF です。"
+msgstr "チャンネル %s の保安オペレーターオプションは OFF です。"
 
 #: language.cpp:900
 #, c-format
 msgid "Secure ops option for %s is now ON."
-msgstr "チャンネル %s の安全オペレーターオプションは ON です。"
+msgstr "チャンネル %s の保安オペレーターオプションは ON です。"
 
 #: language.cpp:920
 #, c-format
@@ -6126,7 +6166,7 @@ msgstr "サービスの設定ファイルのリロードを行いました。"
 
 #: language.cpp:595
 msgid "Services' hold on your nick has been released."
-msgstr ""
+msgstr "サービスが管理していたあなたのニックネームは放棄されました。"
 
 #: language.cpp:2350
 #, c-format
@@ -6267,7 +6307,7 @@ msgstr "チャンネルの HOP リストの変更は一時的に禁止されて�
 
 #: language.cpp:966
 msgid "Sorry, channel QOP list modification is temporarily disabled."
-msgstr ""
+msgstr "チャンネルの QOP リストの変更は一時的に禁止されています。"
 
 #: language.cpp:1053
 msgid "Sorry, channel SOP list modification is temporarily disabled."
@@ -6481,7 +6521,7 @@ msgstr ""
 
 #: language.cpp:5227
 msgid "SuperAdmin setting not enabled in services.conf"
-msgstr ""
+msgstr "SuperAdmin 設定は services.conf で無効化されています。"
 
 #: language.cpp:1749
 msgid "Symbiosis"
@@ -6517,6 +6557,17 @@ msgid ""
 "2: ban in the form *!*@host\n"
 "3: ban in the form *!*user@*.domain"
 msgstr ""
+"構文: %s channel BANTYPE bantype\n"
+" \n"
+"バンタイプを設定します。サービスによってあなたのチャンネル\n"
+"から誰かを ban するときに、このタイプ分けが使われる。\n"
+" \n"
+"バンタイプは 0 から 3 の整数で表現される:\n"
+" \n"
+"0: *!user@host 型のバン指定\n"
+"1: *!*user@host 型のバン指定\n"
+"2: *!*@host 型のバン指定\n"
+"3: *!*user@*.domain 型のバン指定"
 
 #: language.cpp:3450
 #, c-format
@@ -6526,6 +6577,10 @@ msgid ""
 "Sets the description for the channel, which shows up with\n"
 "the LIST and INFO commands."
 msgstr ""
+"構文: %s channel DESC description\n"
+" \n"
+"チャンネルの説明を設定します。この説明は\n"
+"LIST と INFO コマンドで見ることが出来る。"
 
 #: language.cpp:3455
 #, c-format
@@ -6536,6 +6591,11 @@ msgid ""
 "when they enter the channel.  If no parameter is given,\n"
 "causes no message to be sent upon entering the channel."
 msgstr ""
+"構文: %s channel ENTRYMSG [message]\n"
+" \n"
+"ユーザーがチャンネルに入ったときの/notice 経由で送信する\n"
+"ユーザー宛メッセージを設定します。パラメータが無い場合、\n"
+"チャンネルに入ったときにメッセージを送らない。"
 
 #: language.cpp:3435
 #, c-format
@@ -6545,6 +6605,10 @@ msgid ""
 "Changes the founder of a channel.  The new nickname must\n"
 "be a registered one."
 msgstr ""
+"構文: %s channel FOUNDER nick\n"
+" \n"
+"チャンネルの創設者を変更する。新しいニックネームは\n"
+"登録済みのもので無ければいけません。"
 
 #: language.cpp:3473
 #, c-format
@@ -6557,6 +6621,13 @@ msgid ""
 "last user leaves the channel, and will be restored the\n"
 "next time the channel is created."
 msgstr ""
+"構文: %s channel KEEPTOPIC {ON | OFF}\n"
+" \n"
+"あるチャンネルのトピック保存オプションの有効と無効\n"
+"を切り替える。トピック保存 が有効化されると、\n"
+"最後のユーザーがこのチャンネルから退出した後も、\n"
+"トピックが %S によって記憶され、次にチャンネルが作られた時に\n"
+"自動的に設定される。"
 
 #: language.cpp:3488
 #, c-format
@@ -6594,6 +6665,37 @@ msgid ""
 "        Removes the mode lock; all channel modes are free\n"
 "        to be either on or off."
 msgstr ""
+"構文: %s channel MLOCK modes\n"
+" \n"
+"チャンネルのモードロックパラメータを設定します。\n"
+"%S は、あるチャンネルモードを常に ON にするか OFF にするか、\n"
+"自由に変更できるようにするかを定義することを可能にする。\n"
+" \n"
+"modes パラメータは/MODE コマンドのパラメータと同じもの\n"
+"が定義されています。つまり、+に続けてモードパラメータを設定\n"
+"することで、ロックが ON になります。-に続けが場合は OFF になります。\n"
+"ただし、/MODE コマンドと異なり、SET MLOCK を使うことで\n"
+"以前にロックが ON にされたモードを OFF にすることが出来ます。\n"
+" \n"
+"警告: 下の 2 番目の例のようにモードロックキーを使った場合、\n"
+"このチャンネルに対して RESTRICTED オプションをセットするか、\n"
+"(HELP SET RESTRICTED を参照)誰かがチャンネルに入って\n"
+"キーが変更されたかどうか確認してください。\n"
+" \n"
+"例:\n"
+" \n"
+"    SET #channel MLOCK +nt-iklps\n"
+"        モードの n と t を ON にして、i、k、l、p、s、を OFF にする。\n"
+"        モード m は自由に変更できるようにする。\n"
+" \n"
+"    SET #channel MLOCK +knst-ilmp my-key\n"
+"        \"my-key\".\n"
+"       モードの k、n、s、t を ON にして、i、l、m、p を OFF にする。\n"
+"       また、チャンネルキーを \"my-key\" にする。\n"
+" \n"
+"    SET #channel MLOCK +\n"
+"        全てのモードロックを解除する。全てのチャンネルモードは\n"
+"        自由に変更できる。"
 
 #: language.cpp:3615
 #, c-format
@@ -6605,6 +6707,12 @@ msgid ""
 "channel whenever the OP or DEOP commands are used for a user\n"
 "in the channel."
 msgstr ""
+"構文: %s channel OPNOTICE {ON | OFF}\n"
+" \n"
+"あるチャンネルに対する op-notice オプションの有効と無効\n"
+"を切り替える。op-notice が有効化されると、\n"
+"OP 又は DEOP がこのチャンネルにいるユーザーに対して\n"
+"使用されたときに、%S は notice をチャンネルに送信する。"
 
 #: language.cpp:3521
 #, c-format
@@ -6616,6 +6724,13 @@ msgid ""
 "ban or remove a channel status of a user that has\n"
 "a level superior or equal to his via %S commands."
 msgstr ""
+"構文: %s channel PEACE {ON | OFF}\n"
+" \n"
+"あるチャンネルのpeaceオプションの有効と無効\n"
+"を切り替える。peace が有効化されると、\n"
+"%S コマンドを使って、ユーザーはキック、バン又は自分より\n"
+"高位か同じレベルを持つユーザーのチャンネル状態の削除を\n"
+"することが出来なくなる。"
 
 #: language.cpp:3594
 #, c-format
@@ -6641,6 +6756,27 @@ msgid ""
 "Additionally, services will set or unset this mode when you\n"
 "set persist on or off."
 msgstr ""
+"構文: %s channel PERSIST {ON | OFF}\n"
+"チャンネルの永続設定の有効無効を切り替えます。\n"
+"永続設定が有効化された場合、サービスボットはチャンネルに\n"
+"ユーザーが誰もいなくなってもチャンネルを存続させます。\n"
+" \n"
+"IRC デーモンが永続チャンネルをサポートしない場合は、\n"
+"あなたのチャンネルにサービスボットを参加させなければ\n"
+"いけません。ボットを参加させるには永続設定が有効でなければ\n"
+"いけません。\n"
+" \n"
+"このネットワークが BotServ を有効化しておらず、加えて\n"
+"永続チャンネルをサポートしていない場合は、チャンネルの\n"
+"永続設定を ON にしたときに、ChanServ がチャンネルに参加します。\n"
+"(OFF にすればチャンネルから去ります。)\n"
+" \n"
+"IRC デーモンが永続チャンネルをサポートしていて、有効化又は\n"
+"(MLOCK や何らかの理由によって)無効化している場合は、\n"
+"チャンネルの永続設定も自動的に有効化または無効化されます。\n"
+"加えて、サービスはチャンネルの永続設定の有効無効が\n"
+"切り替えられると、永続チャンネルモードの有効無効を\n"
+"切り替えます。"
 
 #: language.cpp:3528
 msgid ""
@@ -6650,6 +6786,11 @@ msgid ""
 "When private is set, a %R%S LIST will not\n"
 "include the channel in any lists."
 msgstr ""
+"構文: %s channel PRIVATE {ON | OFF}\n"
+" \n"
+"あるチャンネルのprivateオプションの有効と無効\n"
+"を切り替える。private が有効化されると、\n"
+"%R%S LIST コマンドの出力にこのチャンネルは含まれなくなる。"
 
 #: language.cpp:3534
 #, c-format
@@ -6660,6 +6801,12 @@ msgid ""
 "channel.  When restricted access is set, users not on the access list will\n"
 "instead be kicked and banned from the channel."
 msgstr ""
+"構文: %s channel RESTRICTED {ON | OFF}\n"
+" \n"
+"あるチャンネルのrestricted accessオプションの有効と無効\n"
+"を切り替える。restricted access が有効化されると、\n"
+"アクセスリストに含まれないユーザーはチャンネルから\n"
+"キックされるかバンされる。"
 
 #: language.cpp:3540
 #, c-format
@@ -6672,6 +6819,13 @@ msgid ""
 "with their password will be given access to the channel\n"
 "as controlled by the access list."
 msgstr ""
+"構文: %s channel SECURE {ON | OFF}\n"
+" \n"
+"あるチャンネルに対する %S の保安機能の有効と無効\n"
+"を切り替える。SECURE が有効化されると、\n"
+"アクセスリストによるコントロールと同様に、\n"
+"%s にニックネームが登録済みで、パスワードで IDENTIFY された\n"
+"ユーザーだけがこのチャンネルにアクセスできるようになる。"
 
 #: language.cpp:3554
 #, c-format
@@ -6684,6 +6838,14 @@ msgid ""
 "successor, and not those who have founder level access through\n"
 "the access/qop command."
 msgstr ""
+"構文: %s channel SECUREFOUNDER {ON | OFF}\n"
+" \n"
+"あるチャンネルに対するsecure founderオプションの有効と無効\n"
+"を切り替える。secure founder が有効化されると、\n"
+"真のチャンネル創設者だけがチャンネルを未登録状態に変更できる。\n"
+"また、チャンネルパスワード、チャンネル創設者、チャンネル後継者\n"
+"を変更できる。さらに、創設者レベルのアクセス権を持つユーザーは\n"
+"access/qop コマンドにアクセスできる。"
 
 #: language.cpp:3548
 #, c-format
@@ -6694,6 +6856,12 @@ msgid ""
 "When secure ops is set, users who are not on the userlist\n"
 "will not be allowed chanop status."
 msgstr ""
+"構文: %s channel SECUREOPS {ON | OFF}\n"
+" \n"
+"あるチャンネルに対するsecure opsオプションの有効と無効\n"
+"を切り替える。secure ops が有効化されると、\n"
+"ユーザーリストに含まれないユーザーはチャンネル管理者に\n"
+"なれなくなる。"
 
 #: language.cpp:3562
 msgid ""
@@ -6708,6 +6876,16 @@ msgid ""
 "or equal to the SIGNKICK level on the channel won't have their \n"
 "kicks signed. See %R%S HELP LEVELS for more information."
 msgstr ""
+"構文: %s channel SIGNKICK {ON | LEVEL | OFF}\n"
+" \n"
+"あるチャンネルに対する signed kicks オプションの有効と無効\n"
+"を切り替える。SIGNKICK が有効化されると、\n"
+"%S KICK コマンドから発行されたキックはその理由の欄に\n"
+"コマンドを発行したユーザーのニックネームの署名を含むようになる。\n"
+" \n"
+"LEVEL が使用された場合、SIGNKICK レベルよりも高位又は同位\n"
+"のレベルを持つユーザーからのキックには署名がなされない。\n"
+"より詳しい情報は %R%S HELP LEVELS を入力してください。"
 
 #: language.cpp:3440
 #, c-format
@@ -6722,6 +6900,15 @@ msgid ""
 "instead, just as if no successor had been set.  The new\n"
 "nickname must be a registered one."
 msgstr ""
+"構文: %s channel SUCCESSOR nick\n"
+" \n"
+"チャンネル後継者を変更する。チャンネル登録が有効な状態で、\n"
+"創設者ニックネームが期限切れになったり、無効化された場合、\n"
+"チャンネルの後継者は新しいチャンネルの創設者になります。\n"
+"しかし、後継者がすでに多くの(%d)登録済みチャンネルで創設者\n"
+"になっている場合で、どの後継者も創設者になれなかった場合、\n"
+"このチャンネル登録が無効化されます。新しいニックネームは\n"
+"登録済みのものでなくてはいけません。"
 
 #: language.cpp:3481
 #, c-format
@@ -6733,6 +6920,12 @@ msgid ""
 "channel topic to be changed except via the TOPIC\n"
 "command."
 msgstr ""
+"構文: %s channel TOPICLOCK {ON | OFF}\n"
+" \n"
+"あるチャンネルのトピックロックオプションの有効と無効\n"
+"を切り替える。トピックロック が有効化されると、\n"
+"%S はTOPIC コマンド以外ではチャンネルトピックが変更\n"
+"出来なくする。"
 
 #: language.cpp:3573
 #, c-format
@@ -6758,6 +6951,26 @@ msgid ""
 "Switching from xOP lists system to access list system\n"
 "causes no problem though."
 msgstr ""
+"構文: %s channel XOP {ON | OFF}\n"
+" \n"
+"あるチャンネルに対する xOP リストシステムの有効と無効\n"
+"を切り替える。XOP が有効化されると、\n"
+"ユーザーにチャンネルでの権限を与えるにはAOP/SOP/VOP\n"
+"を使うか、ACCESSコマンドを使うことになる。\n"
+" \n"
+"技術的な注意: アクセススリストから xOP リスト知る手無に変更\n"
+"するときには、あなたのレベル定義とユーザーレベルも変更されなければ\n"
+"いけません。そうでなければ、アクセスリストシステムに戻った際に\n"
+"同じレベルを使えなくなります。\n"
+" \n"
+"xOP リストに変更した後に、ユーザーが良い xOP リストにいるかどうか\n"
+"チェックしなければいけません。なぜなら、思い込みはいつも\n"
+"完璧であるとは限らないからです。実際、LEVEL コマンドを\n"
+"使ってレベルの定義を変更する場合には、xOP リストを使うこと\n"
+"は推奨されません。\n"
+" \n"
+"xOP リストシステムからアクセスリストシステムに変更\n"
+"する場合には問題は起こりません。"
 
 #: language.cpp:3810
 msgid ""
@@ -7286,7 +7499,7 @@ msgstr ""
 " \n"
 "AOP ADD と AOP DEL コマンドは SOP かそれより高位の\n"
 "権限を持つものだけに使用が制限されています。これに対して、\n"
-"AOP CLEAR コマンドは、チャンネル創始者だけが使えます。\n"
+"AOP CLEAR コマンドは、チャンネル創設者だけが使えます。\n"
 "しかし、AOP リストに登録されているユーザーであれば誰でも\n"
 "AOP LIST コマンドを使うことが出来ます。\n"
 " \n"
@@ -7389,6 +7602,12 @@ msgid ""
 "By default, limited to AOPs or those with level 5 access \n"
 "and above on the channel."
 msgstr ""
+"構文: BAN #channel nick [reason]\n"
+"\n"
+"与えられたチャンネルにいるニックネームを ban します。\n"
+"\n"
+"初期状態では、このコマンドは AOP でレベル 5 以上のアクセス\n"
+"レベルを持っているユーザーだけに使用が制限されています。"
 
 #. merged with ja.l
 msgid ""
@@ -7568,7 +7787,7 @@ msgstr ""
 "     VOICES   発言権(+v)を持つユーザー全員から発言権を剥奪する。\n"
 "     USERS    チャンネルにいるユーザー全員をキックする。\n"
 " \n"
-"このコマンドはチャンネルにいる創始者だけに使用が制限\n"
+"このコマンドはチャンネルにいる創設者だけに使用が制限\n"
 "されています。"
 
 #: language.cpp:4479
@@ -7731,7 +7950,7 @@ msgstr ""
 " \n"
 "与えられたchannelの所有権を自分から剥奪する。\n"
 " \n"
-"このコマンドはチャンネルにいる創始者だけに使用が制限\n"
+"このコマンドはチャンネルにいる創設者だけに使用が制限\n"
 "されています。"
 
 #: language.cpp:4028
@@ -7749,7 +7968,7 @@ msgstr ""
 "与えられたチャンネルにいるニックネームを保護しない。\n"
 "ニックネームが与えられなかった場合、自分自身を保護しない。\n"
 "\n"
-"初期状態では、このコマンドは創始者か、 SOP でレベル 10 以上の\n"
+"初期状態では、このコマンドは創設者か、 SOP でレベル 10 以上の\n"
 "アクセスレベルを持っているユーザーだけに使用が制限されています。"
 
 #: language.cpp:3993
@@ -7782,7 +8001,7 @@ msgstr ""
 "構文: DROP channel\n"
 "\n"
 "引数で指定されたチャンネルの登録を破棄します。\n"
-"これが出来るのは、チャンネル創始者だけです。"
+"これが出来るのは、チャンネル創設者だけです。"
 
 #: language.cpp:4120
 msgid ""
@@ -8259,7 +8478,7 @@ msgstr ""
 "\n"
 "HOP ADD、 HOP DEL と HOP LISTコマンドは AOP か\n"
 "それより高位の権限を持つものだけに使用が制限されています。\n"
-"これに対して、HOP CLEAR コマンドは、チャンネル創始者\n"
+"これに対して、HOP CLEAR コマンドは、チャンネル創設者\n"
 "だけが使えます。\n"
 "\n"
 "このコマンドをあなたのチャンネルで使用できないように出来ます。\n"
@@ -8280,7 +8499,7 @@ msgid ""
 msgstr ""
 "構文: IDENTIFY channel password\n"
 " \n"
-"引数で指定されたチャンネルの創始者権を %S から貰う。\n"
+"引数で指定されたチャンネルの創設者権を %S から貰う。\n"
 "多くのコマンドがこれを使う前に必要です。パスワードは\n"
 "REGISTER コマンドで使用したものと同じです。"
 
@@ -8365,7 +8584,7 @@ msgstr ""
 "構文: INFO channel\n"
 "\n"
 "登録済みチャンネルに関する情報を表示する。\n"
-"情報には、チャンネル創始者、登録日時、最終使用日時、\n"
+"情報には、チャンネル創設者、登録日時、最終使用日時、\n"
 "説明、もしあるならロックモード、が含まれる。ALL\n"
 "が与えられた場合、挨拶メッセージ、後継者の情報も\n"
 "含まれる。"
@@ -8692,6 +8911,11 @@ msgid ""
 "before it get banned. Don't give ttb to disable\n"
 "the ban system once activated."
 msgstr ""
+"構文: KICK channel ITALICS {ON|OFF} [ttb]\n"
+"イタリック体キッカーの有効無効を切り替えます。\n"
+"有効の場合、ボットはイタリック体を使用したユーザーをキックします。\n"
+"あるユーザーが ttb 回キックされるとこのユーザーをバンします。\n"
+"バン機能を使わない場合は ttb を指定しないでください。"
 
 #: language.cpp:4965
 msgid ""
@@ -8760,13 +8984,13 @@ msgstr ""
 "詳細なアクセスコントロールを可能にする。このコマンドを使うことで\n"
 "%S の機能の殆どで使用されるアクセスレベルを定義できる。\n"
 " (SET FOUNDER とこのコマンドは、\n"
-" チャンネル創始者だけに使用が制限されている。)\n"
+" チャンネル創設者だけに使用が制限されている。)\n"
 " \n"
 "LEVELS SET コマンドはアクセスレベルの機能を変更するか、\n"
 "グループの機能を変更するときに使う。LEVELS DISABLE\n"
 "(又は DIS) は自動配布機能の無効化やある機能に対する\n"
-"チャンネル創始者を含めたユーザーのアクセス禁止をおこなう。\n"
-"(ただしチャンネル創始者はこれを有効化することができる。)\n"
+"チャンネル創設者を含めたユーザーのアクセス禁止をおこなう。\n"
+"(ただしチャンネル創設者はこれを有効化することができる。)\n"
 " \n"
 "LEVELS LIST はそれぞれの機能やグループがどのような\n"
 "レベルに許可されているかのリストを表示する。\n"
@@ -9030,7 +9254,7 @@ msgstr ""
 "このコマンドは指定されたニックネームをログアウトさせます。\n"
 "ログアウトさせられたユーザーは再度認証をする必要があります。\n"
 "\n"
-"このチャンネルの創始者であれば、自分以外は誰でも強制的に\n"
+"このチャンネルの創設者であれば、自分以外は誰でも強制的に\n"
 "ログアウトさせることが出来ます。"
 
 #. merged with ja.l
@@ -9054,11 +9278,11 @@ msgstr ""
 "つまり、ログアウトさせられたユーザーが再度アクセスするためには\n"
 "認証が必要になります。\n"
 "\n"
-"もしあなたがチャンネル創始者だった場合は、自分のチャンネル\n"
+"もしあなたがチャンネル創設者だった場合は、自分のチャンネル\n"
 "にいるユーザーであれば誰でも強制ログアウトさせることが出来ます。\n"
 "そうでない場合は、強制ログアウトさせることが出来るのは自分だけです。\n"
 "\n"
-"もしあなたがサービス管理者だった場合は、チャンネル創始者\n"
+"もしあなたがサービス管理者だった場合は、チャンネル創設者\n"
 "の権限を持っていなくてもどのチャンネルにいるどのユーザーでも\n"
 "強制ログアウトさせることが出来ます。また、ニックネーム\n"
 "パラメータを省略することで、チャンネルにいる認証済み\n"
@@ -9139,6 +9363,9 @@ msgid ""
 " \n"
 "This command reloads the module named FileName."
 msgstr ""
+"構文: MODRELOAD FileName\n"
+" \n"
+"このコマンドは FileName という名称のモジュールをリロードします。"
 
 #: language.cpp:4800
 msgid ""
@@ -9345,7 +9572,7 @@ msgstr ""
 " \n"
 "与えられたchannelの所有権を自分に付加する。\n"
 " \n"
-"このコマンドはチャンネルにいる創始者だけに使用が制限\n"
+"このコマンドはチャンネルにいる創設者だけに使用が制限\n"
 "されています。"
 
 #: language.cpp:4020
@@ -9363,7 +9590,7 @@ msgstr ""
 "与えられたチャンネルにいるニックネームを保護する。\n"
 "ニックネームが与えられなかった場合、自分自身を保護する。\n"
 "\n"
-"初期状態では、このコマンドは創始者か、 SOP でレベル 10 以上の\n"
+"初期状態では、このコマンドは創設者か、 SOP でレベル 10 以上の\n"
 "アクセスレベルを持っているユーザーだけに使用が制限されています。"
 
 #: language.cpp:3622
@@ -9405,6 +9632,43 @@ msgid ""
 "and %R%S HELP SET XOP to know how to toggle between \n"
 "the access list and xOP list systems."
 msgstr ""
+"構文: QOP channel ADD nick\n"
+"      QOP channel DEL {nick | entry-num | list}\n"
+"      QOP channel LIST [mask | list]\n"
+"      QOP channel CLEAR\n"
+" \n"
+"あるチャンネルに対するQOP (自動オーナー) リスト を編集\n"
+"する。QOP リストはあなたのチャンネルで自動的にオーナー\n"
+"になることの出来るユーザーのリストです。オーナー権を持つユーザーは\n"
+"ほぼ全ての(設定次第で全ての)機能にアクセス可能です。\n"
+"  \n"
+"QOP ADD コマンドは与えられたニックネームを QOP リスト\n"
+"に追加する。\n"
+" \n"
+"QOP DEL コマンドは与えられたニックネームを QOP リスト\n"
+"から削除する。もし、リストのエントリ番号が与えられた場合、\n"
+"このエントリを削除する。(下の LIST に関する例を見よ)\n"
+" \n"
+"QOP LIST コマンドは QOP リストを表示する。もしワイルドカード\n"
+"マスクが与えられた場合、マスクにマッチするエントリだけが\n"
+"表示される。もしリストのエントリ番号が与えられた場合、\n"
+"このエントリ番号だけが表示される。例えば、\n"
+"   QOP #channel LIST 2-5,7-9\n"
+"      2 から 5、7 から 9 番目の AOP リストエントリを表示する。\n"
+"      \n"
+"QOP CLEAR コマンドは QOP リストの全てのエントリを\n"
+"削除する。\n"
+" \n"
+"QOP コマンドは創設者だけに(SECUREOPS が off の状態でも)\n"
+"使用が制限されています。しかし、QOP リストに登録されている\n"
+"ユーザーであれば誰でも QOP LIST コマンドを使うことが出来ます。\n"
+" \n"
+"このコマンドをあなたのチャンネルで使用できないように出来ます。\n"
+"その場合は、アクセスリストを使わなければいけません。\n"
+"%R%S HELP ACCESS と入力することで、アクセスリストに関する\n"
+"より詳しい情報が見れます。アクセスリストと xOP リストを\n"
+"切り替える方法に関する詳細は %R%S HELP SET XOP\n"
+"と入力してください。"
 
 #: language.cpp:4759
 msgid ""
@@ -9565,45 +9829,16 @@ msgid ""
 "first registered your nickname.  If you haven't,\n"
 "%R%s HELP for information on how to do so."
 msgstr ""
-
-#. merged with ja.l
-msgid ""
-"Syntax: REGISTER channel password description\n"
-"\n"
-"Registers a channel in the %S database.  In order\n"
-"to use this command, you must first be a channel operator\n"
-"on the channel you're trying to register.  The password\n"
-"is used with the IDENTIFY command to allow others to\n"
-"make changes to the channel settings at a later time.\n"
-"The last parameter, which must be included, is a\n"
-"general description of the channel's purpose.\n"
-"\n"
-"When you register a channel, you are recorded as the\n"
-"\"founder\" of the channel.  The channel founder is allowed\n"
-"to change all of the channel settings for the channel;\n"
-"%S will also automatically give the founder\n"
-"channel-operator privileges when s/he enters the channel.\n"
-"See the ACCESS command (%R%S HELP ACCESS) for\n"
-"information on giving a subset of these privileges to\n"
-"other channel users.\n"
-"\n"
-"NOTICE: In order to register a channel, you must have\n"
-"first registered your nickname.  If you haven't,\n"
-"%R%s HELP for information on how to do so."
-msgstr ""
-"構文: REGISTER channel password description\n"
+"構文: REGISTER channel description\n"
 "\n"
 "%S のデータベースにチャンネルを登録する。このコマンドを使うには、\n"
 "登録したいチャンネルのチャンネルオペレーターにならなければ\n"
-"いけません。ほかのユーザーがこのチャンネルの設定を後から\n"
-"変更するためには、IDENTIFY コマンドと共にパスワードを\n"
-"使います。最後の引数は必須で、これはチャンネルの目的\n"
-"を説明します。\n"
+"いけません。説明は必須で、チャンネルの目的を記述します。\n"
 "\n"
 "チャンネルを登録するには、あなたはチャンネルの\"founder\"\n"
-"として登録済みで無ければいけません。チャンネル創始者は、\n"
+"として登録済みで無ければいけません。チャンネル創設者は、\n"
 "このチャンネルの設定を変更することが許されています。\n"
-"%S はチャンネル創始者がチャンネルに入ったときに\n"
+"%S はチャンネル創設者がチャンネルに入ったときに\n"
 "チャンネルオペレーター権限を自動的に与えます。\n"
 "ほかのユーザーに対するアクセス権限に関するより詳しい情報は\n"
 "ACCESS コマンド(%R%S HELP ACCESS) を\n"
@@ -9737,6 +9972,9 @@ msgid ""
 "Sends a code key to the nickname with instructions on how to\n"
 "reset their password."
 msgstr ""
+"構文: RESETPASS nickname\n"
+"ニックネーム宛にコードキーとパスワードリセット方法を\n"
+"送信する。"
 
 #: language.cpp:4771
 msgid ""
@@ -9826,6 +10064,9 @@ msgid ""
 " \n"
 "Sets various nickname options.  option can be one of:"
 msgstr ""
+"構文: SASET nickname option parameters.\n"
+"\n"
+"ニックネームに関するオプションを設定します。option は以下の 1 つ:"
 
 #: language.cpp:3007
 msgid ""
@@ -10099,7 +10340,7 @@ msgid ""
 msgstr ""
 "構文: SENDPASS channel\n"
 "\n"
-"与えられたチャンネルのパスワードを創始者のニックネームレコード\n"
+"与えられたチャンネルのパスワードを創設者のニックネームレコード\n"
 "に登録された電子メールアドレス宛に送信します。このコマンドは\n"
 "パスワードを紛失したときに役に立ちます。\n"
 "\n"
@@ -10251,14 +10492,14 @@ msgid ""
 msgstr ""
 "構文: SET channel option parameters\n"
 "\n"
-"チャンネル創始者がチャンネルオプションとそのほかの情報\n"
+"チャンネル創設者がチャンネルオプションとそのほかの情報\n"
 "を設定できます。\n"
 "\n"
 "設定できるオプション:\n"
 "\n"
-"    FOUNDER       チャンネル創始者の設定\n"
+"    FOUNDER       チャンネル創設者の設定\n"
 "    SUCCESSOR     チャンネル後継者の設定\n"
-"    PASSWORD      創始者パスワードの設定\n"
+"    PASSWORD      創設者パスワードの設定\n"
 "    DESC          チャンネルの説明の設定\n"
 "    URL           チャンネルと URL の紐付け\n"
 "    EMAIL         チャンネルと電子メールアドレスを紐付け\n"
@@ -10272,7 +10513,7 @@ msgstr ""
 "    RESTRICTED    チャンネルへのアクセスを制限\n"
 "    SECURE        %S の保安機能を有効化\n"
 "    SECUREOPS     チャンネルオペレーター状態の厳格な制御\n"
-"    SECUREFOUNDER チャンネル創始者状態の厳格な制御\n"
+"    SECUREFOUNDER チャンネル創設者状態の厳格な制御\n"
 "    SIGNKICK      KICK コマンドでのキックを署名する\n"
 "    TOPICLOCK     TOPIC コマンドだけがトピックを変更出来るようにする\n"
 "    XOP           ユーザー権限システムをトグル\n"
@@ -10289,43 +10530,12 @@ msgid ""
 " \n"
 "Available options:"
 msgstr ""
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel BANTYPE bantype\n"
+"構文: SET channel option parameters\n"
 "\n"
-"Sets the ban type that will be used by services whenever\n"
-"they need to ban someone from your channel.\n"
+"チャンネル創設者がチャンネルオプションとそのほかの情報\n"
+"を設定できます。\n"
 "\n"
-"bantype is a number between 0 and 3 that means:\n"
-"\n"
-"0: ban in the form *!user@host\n"
-"1: ban in the form *!*user@host\n"
-"2: ban in the form *!*@host\n"
-"3: ban in the form *!*user@*.domain"
-msgstr ""
-"構文: SET channel BANTYPE bantype\n"
-"\n"
-"バンタイプを設定します。サービスによってあなたのチャンネル\n"
-"から誰かを ban するときに、このタイプ分けが使われる。\n"
-"バンタイプは 0 から 3 の整数で表現される:\n"
-"\n"
-"0: *!user@host 型のバン指定\n"
-"1: *!*user@host 型のバン指定\n"
-"2: *!*@host 型のバン指定\n"
-"3: *!*user@*.domain 型のバン指定"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel DESC description\n"
-"\n"
-"Sets the description for the channel, which shows up with\n"
-"the LIST and INFO commands."
-msgstr ""
-"構文: SET channel DESC description\n"
-"\n"
-"チャンネルの説明を設定します。この説明は\n"
-"LIST と INFO コマンドで見ることが出来る。"
+"設定できるオプション:"
 
 #: language.cpp:4889
 msgid ""
@@ -10374,20 +10584,6 @@ msgstr ""
 "リクエストしたときに返される。パラメータが与えられなかった場合、\n"
 "このチャンネルに紐付けられた電子メールアドレスを削除する。"
 
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel ENTRYMSG [message]\n"
-"\n"
-"Sets the message which will be sent via /notice to users\n"
-"when they enter the channel.  If no parameter is given,\n"
-"causes no message to be sent upon entering the channel."
-msgstr ""
-"構文: SET channel ENTRYMSG [message]\n"
-"\n"
-"ユーザーがチャンネルに入ったときの/notice 経由で送信する\n"
-"ユーザー宛メッセージを設定します。パラメータが無い場合、\n"
-"チャンネルに入ったときにメッセージを送らない。"
-
 #: language.cpp:4901
 msgid ""
 "Syntax: SET channel FANTASY {ON|OFF}\n"
@@ -10421,18 +10617,6 @@ msgstr ""
 "例えば、!op を使うためには、ユーザーは OPDEOP\n"
 "レベル以上の権限を持っていなければいけません。"
 
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel FOUNDER nick\n"
-"\n"
-"Changes the founder of a channel.  The new nickname must\n"
-"be a registered one."
-msgstr ""
-"構文: SET channel FOUNDER nick\n"
-"\n"
-"チャンネルの創始者を変更する。新しいニックネームは\n"
-"登録済みのもので無ければいけません。"
-
 #: language.cpp:4916
 msgid ""
 "Syntax: SET channel GREET {ON|OFF}\n"
@@ -10447,91 +10631,6 @@ msgstr ""
 "あるチャンネルでの挨拶 モードの有効無効を\n"
 "切り替えます。これが有効の場合、ボットはチャンネル\n"
 "に join したユーザーに挨拶メッセージを表示します。"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel KEEPTOPIC {ON | OFF}\n"
-"\n"
-"Enables or disables the topic retention option for a\n"
-"channel.  When topic retention is set, the topic for the\n"
-"channel will be remembered by %S even after the\n"
-"last user leaves the channel, and will be restored the\n"
-"next time the channel is created."
-msgstr ""
-"構文: SET channel KEEPTOPIC {ON | OFF}\n"
-"\n"
-"あるチャンネルのトピック保存オプションの有効と無効\n"
-"を切り替える。トピック保存 が有効化されると、\n"
-"最後のユーザーがこのチャンネルから退出した後も、\n"
-"トピックが %S によって記憶され、次にチャンネルが作られた時に\n"
-"自動的に設定される。"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel MLOCK modes\n"
-"\n"
-"Sets the mode-lock parameter for the channel. %S\n"
-"allows you to define certain channel modes to be always\n"
-"on, off or free to be either on or off.\n"
-"\n"
-"The modes parameter is constructed exactly the same way \n"
-"as a /MODE command; that is, modes followed by a + are \n"
-"locked on, and modes followed by a - are locked off. Note,\n"
-"however, that unlike the /MODE command, each use of\n"
-"SET MLOCK will remove all modes previously locked before\n"
-"setting the new!\n"
-"\n"
-"Warning:  If you set a mode-locked key, as in the second\n"
-"example below, you should also set the RESTRICTED option for\n"
-"the channel (see HELP SET RESTRICTED), or anyone entering\n"
-"the channel when it is empty will be able to see the key!\n"
-"\n"
-"Examples:\n"
-"\n"
-"    SET #channel MLOCK +nt-iklps\n"
-"        Forces modes n and t on, and modes i, k, l, p, and\n"
-"        s off.  Mode m is left free to be either on or off.\n"
-"\n"
-"    SET #channel MLOCK +knst-ilmp my-key\n"
-"        Forces modes k, n, s, and t on, and modes i, l, m,\n"
-"        and p off.  Also forces the channel key to be\n"
-"        \"my-key\".\n"
-"\n"
-"    SET #channel MLOCK +\n"
-"        Removes the mode lock; all channel modes are free\n"
-"        to be either on or off."
-msgstr ""
-"構文: SET channel MLOCK modes\n"
-"\n"
-"チャンネルのモードロックパラメータを設定します。\n"
-"%S は、あるチャンネルモードを常に ON にするか OFF にするか、\n"
-"自由に変更できるようにするかを定義することを可能にする。\n"
-"\n"
-"modes パラメータは/MODE コマンドのパラメータと同じもの\n"
-"が定義されています。つまり、+に続けてモードパラメータを設定\n"
-"することで、ロックが ON になります。-に続けが場合は OFF になります。\n"
-"ただし、/MODE コマンドと異なり、SET MLOCK を使うことで\n"
-"以前にロックが ON にされたモードを OFF にすることが出来ます。\n"
-"\n"
-"警告: 下の 2 番目の例のようにモードロックキーを使った場合、\n"
-"このチャンネルに対して RESTRICTED オプションをセットするか、\n"
-"(HELP SET RESTRICTED を参照)誰かがチャンネルに入って\n"
-"キーが変更されたかどうか確認してください。\n"
-"\n"
-"例:\n"
-"\n"
-"    SET #channel MLOCK +nt-iklps\n"
-"        モードの n と t を ON にして、i、k、l、p、s、を OFF にする。\n"
-"\tモード m は自由に変更できるようにする。\n"
-"\n"
-"    SET #channel MLOCK +knst-ilmp my-key\n"
-"        \"my-key\".\n"
-"\tモードの k、n、s、t を ON にして、i、l、m、p を OFF にする。\n"
-"\tまた、チャンネルキーを \"my-key\" にする。\n"
-"\n"
-"    SET #channel MLOCK +\n"
-"        全てのモードロックを解除する。全てのチャンネルモードは\n"
-"\t自由に変更できる。"
 
 #: language.cpp:5098
 msgid ""
@@ -10562,22 +10661,6 @@ msgstr ""
 
 #. merged with ja.l
 msgid ""
-"Syntax: SET channel OPNOTICE {ON | OFF}\n"
-"\n"
-"Enables or disables the op-notice option for a channel.\n"
-"When op-notice is set, %S will send a notice to the\n"
-"channel whenever the OP or DEOP commands are used for a user\n"
-"in the channel."
-msgstr ""
-"構文: SET channel OPNOTICE {ON | OFF}\n"
-"\n"
-"あるチャンネルに対する op-notice オプションの有効と無効\n"
-"を切り替える。op-notice が有効化されると、\n"
-"OP 又は DEOP がこのチャンネルにいるユーザーに対して\n"
-"使用されたときに、%S は notice をチャンネルに送信する。"
-
-#. merged with ja.l
-msgid ""
 "Syntax: SET channel PASSWORD password\n"
 "\n"
 "Sets the password used to identify as the founder of the\n"
@@ -10585,149 +10668,7 @@ msgid ""
 msgstr ""
 "構文: SET channel PASSWORD password\n"
 "\n"
-"チャンネルの創始者を認証するためのパスワードを設定します。"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel PEACE {ON | OFF}\n"
-"\n"
-"Enables or disables the peace option for a channel.\n"
-"When peace is set, an user won't be able to kick,\n"
-"ban or remove a channel status of an user that has\n"
-"a level superior or equal to his via %S commands."
-msgstr ""
-"構文: SET channel PEACE {ON | OFF}\n"
-"\n"
-"あるチャンネルのpeaceオプションの有効と無効\n"
-"を切り替える。peace が有効化されると、\n"
-"%S コマンドを使って、ユーザーはキック、バン又は自分より\n"
-"高位か同じレベルを持つユーザーのチャンネル状態の削除を\n"
-"することが出来なくなる。"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel PRIVATE {ON | OFF}\n"
-"\n"
-"Enables or disables the private option for a channel.\n"
-"When private is set, a %R%S LIST will not\n"
-"include the channel in any lists."
-msgstr ""
-"構文: SET channel PRIVATE {ON | OFF}\n"
-"\n"
-"あるチャンネルのprivateオプションの有効と無効\n"
-"を切り替える。private が有効化されると、\n"
-"%R%S LIST コマンドの出力にこのチャンネルは含まれなくなる。"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel RESTRICTED {ON | OFF}\n"
-"\n"
-"Enables or disables the restricted access option for a\n"
-"channel.  When restricted access is set, users not on\n"
-"the access list will instead be kicked and banned from the channel."
-msgstr ""
-"構文: SET channel RESTRICTED {ON | OFF}\n"
-"\n"
-"あるチャンネルのrestricted accessオプションの有効と無効\n"
-"を切り替える。restricted access が有効化されると、\n"
-"アクセスリストに含まれないユーザーはチャンネルから\n"
-"キックされるかバンされる。"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel SECURE {ON | OFF}\n"
-"\n"
-"Enables or disables %S's security features for a\n"
-"channel.  When SECURE is set, only users who have\n"
-"registered their nicknames with %s and IDENTIFY'd\n"
-"with their password will be given access to the channel\n"
-"as controlled by the access list."
-msgstr ""
-"構文: SET channel SECURE {ON | OFF}\n"
-"\n"
-"あるチャンネルに対する %S の保安機能の有効と無効\n"
-"を切り替える。SECURE が有効化されると、\n"
-"アクセスリストによるコントロールと同様に、\n"
-"%s にニックネームが登録済みで、パスワードで IDENTIFY された\n"
-"ユーザーだけがこのチャンネルにアクセスできるようになる。"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel SECUREFOUNDER {ON | OFF}\n"
-"\n"
-"Enables or disables the secure founder option for a channel.\n"
-"When secure founder is set, only the real founder will be\n"
-"able to drop the channel, change its password, its founder and its\n"
-"successor, and not those who are IDENTIFY'd with %S.\n"
-msgstr ""
-"構文: SET channel SECUREFOUNDER {ON | OFF}\n"
-"\n"
-"あるチャンネルに対するsecure founderオプションの有効と無効\n"
-"を切り替える。secure founder が有効化されると、\n"
-"真のチャンネル創始者だけがチャンネルを未登録状態に変更できる。\n"
-"また、チャンネルパスワード、チャンネル創始者、チャンネル後継者、\n"
-"%S に IDENTIFY されていないユーザーを変更できる。\n"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel SECUREOPS {ON | OFF}\n"
-"\n"
-"Enables or disables the secure ops option for a channel.\n"
-"When secure ops is set, users who are not on the userlist\n"
-"will not be allowed chanop status.\n"
-msgstr ""
-"構文: SET channel SECUREOPS {ON | OFF}\n"
-"\n"
-"あるチャンネルに対するsecure opsオプションの有効と無効\n"
-"を切り替える。secure ops が有効化されると、\n"
-"ユーザーリストに含まれないユーザーはチャンネル管理者に\n"
-"なれなくなる。\n"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel SIGNKICK {ON | LEVEL | OFF}\n"
-"\n"
-"Enables or disables signed kicks for a\n"
-"channel.  When SIGNKICK is set, kicks issued with\n"
-"%S KICK command will have the nick that used the\n"
-"command in their reason.\n"
-"\n"
-"If you use LEVEL, those who have a level that is superior \n"
-"or equal to the SIGNKICK level on the channel won't have their \n"
-"kicks signed. See %R%S HELP LEVELS for more information. "
-msgstr ""
-"構文: SET channel SIGNKICK {ON | LEVEL | OFF}\n"
-"\n"
-"あるチャンネルに対する signed kicks オプションの有効と無効\n"
-"を切り替える。SIGNKICK が有効化されると、\n"
-"%S KICK コマンドから発行されたキックはその理由の欄に\n"
-"コマンドを発行したユーザーのニックネームの署名を含むようになる。\n"
-"\n"
-"LEVEL が使用された場合、SIGNKICK レベルよりも高位又は同位\n"
-"のレベルを持つユーザーからのキックには署名がなされない。\n"
-"より詳しい情報は %R%S HELP LEVELS を入力してください。"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel SUCCESSOR nick\n"
-"\n"
-"Changes the successor of a channel.  If the founder's\n"
-"nickname expires or is dropped while the channel is still\n"
-"registered, the successor will become the new founder of the\n"
-"channel.  However, if the successor already has too many\n"
-"channels registered (%d), the channel will be dropped\n"
-"instead, just as if no successor had been set.  The new\n"
-"nickname must be a registered one."
-msgstr ""
-"構文: SET channel SUCCESSOR nick\n"
-"\n"
-"チャンネル後継者を変更する。チャンネル登録が有効な状態で、\n"
-"創始者ニックネームが期限切れになったり、無効化された場合、\n"
-"チャンネルの後継者は新しいチャンネルの創始者になります。\n"
-"しかし、後継者がすでに多くの(%d)登録済みチャンネルで創始者\n"
-"になっている場合で、どの後継者も創始者になれなかった場合、\n"
-"このチャンネル登録が無効化されます。新しいニックネームは\n"
-"登録済みのものでなくてはいけません。"
+"チャンネルの創設者を認証するためのパスワードを設定します。"
 
 #: language.cpp:4923
 #, c-format
@@ -10749,22 +10690,6 @@ msgstr ""
 
 #. merged with ja.l
 msgid ""
-"Syntax: SET channel TOPICLOCK {ON | OFF}\n"
-"\n"
-"Enables or disables the topic lock option for a channel.\n"
-"When topic lock is set, %S will not allow the\n"
-"channel topic to be changed except via the TOPIC\n"
-"command."
-msgstr ""
-"構文: SET channel TOPICLOCK {ON | OFF}\n"
-"\n"
-"あるチャンネルのトピックロックオプションの有効と無効\n"
-"を切り替える。トピックロック が有効化されると、\n"
-"TOPIC コマンド以外ではチャンネルトピックが変更\n"
-"出来なくなる。"
-
-#. merged with ja.l
-msgid ""
 "Syntax: SET channel URL [url]\n"
 "\n"
 "Associates the given URL with the channel.  This URL will\n"
@@ -10778,50 +10703,6 @@ msgstr ""
 "INFO コマンドでチャンネルの情報をリクエストしたときに\n"
 "返される。パラメータが与えられなかった場合、このチャンネルに\n"
 "紐付けられた URL を削除する。"
-
-#. merged with ja.l
-msgid ""
-"Syntax: SET channel XOP {ON | OFF}\n"
-"\n"
-"Enables or disables the xOP lists system for a channel.\n"
-"When XOP is set, you have to use the AOP/SOP/VOP\n"
-"commands in order to give channel privileges to\n"
-"users, else you have to use the ACCESS command.\n"
-"\n"
-"Technical Note: when you switch from access list to xOP \n"
-"lists system, your level definitions and user levels will be\n"
-"changed, so you won't find the same values if you\n"
-"switch back to access system! \n"
-"\n"
-"You should also check that your users are in the good xOP \n"
-"list after the switch from access to xOP lists, because the \n"
-"guess is not always perfect... in fact, it is not recommended \n"
-"to use the xOP lists if you changed level definitions with \n"
-"the LEVELS command.\n"
-"\n"
-"Switching from xOP lists system to access list system\n"
-"causes no problem though."
-msgstr ""
-"構文: SET channel XOP {ON | OFF}\n"
-"\n"
-"あるチャンネルに対する xOP リストシステムの有効と無効\n"
-"を切り替える。XOP が有効化されると、\n"
-"ユーザーにチャンネルでの権限を与えるにはAOP/SOP/VOP\n"
-"を使うか、ACCESSコマンドを使うことになる。\n"
-"\n"
-"技術的な注意: アクセススリストから xOP リスト知る手無に変更\n"
-"するときには、あなたのレベル定義とユーザーレベルも変更されなければ\n"
-"いけません。そうでなければ、アクセスリストシステムに戻った際に\n"
-"同じレベルを使えなくなります。\n"
-"\n"
-"xOP リストに変更した後に、ユーザーが良い xOP リストにいるかどうか\n"
-"チェックしなければいけません。なぜなら、思い込みはいつも\n"
-"完璧であるとは限らないからです。実際、LEVEL コマンドを\n"
-"使ってレベルの定義を変更する場合には、xOP リストを使うこと\n"
-"は推奨されません。\n"
-"\n"
-"xOP リストシステムからアクセスリストシステムに変更\n"
-"する場合には問題は起こりません。"
 
 #. merged with ja.l
 msgid ""
@@ -10884,6 +10765,9 @@ msgid ""
 " \n"
 "Sets various nickname options.  option can be one of:"
 msgstr ""
+"構文: SET option parameters\n"
+" \n"
+"ニックネームに関するオプションを設定します。option は以下の 1 つ:"
 
 #: language.cpp:4245
 msgid ""
@@ -11483,22 +11367,15 @@ msgstr ""
 "\n"
 "SGLINE CLEAR コマンドは SGLINE リストを削除します。"
 
-#. merged with ja.l
-msgid ""
-"Syntax: SHUTDOWN\n"
-"\n"
-"Causes Services to save all databases and then shut down."
-msgstr ""
-"構文: SHUTDOWN\n"
-"\n"
-"サービスに全てのデータベースをセーブさせ、サービスを終了します。"
-
 #: language.cpp:4767
 msgid ""
 "Syntax: SHUTDOWN\n"
 " \n"
 "Causes Services to save all databases and then shut down."
 msgstr ""
+"構文: SHUTDOWN\n"
+"\n"
+"サービスに全てのデータベースをセーブさせ、サービスを終了します。"
 
 #: language.cpp:4541
 msgid ""
@@ -11546,6 +11423,46 @@ msgid ""
 " \n"
 "SNLINE CLEAR clears all entries of the SNLINE list."
 msgstr ""
+"構文: SNLINE ADD [+expiry] mask:reason\n"
+"      SNLINE DEL {mask | entry-num | list}\n"
+"      SNLINE LIST [mask | list]\n"
+"      SNLINE VIEW [mask | list]\n"
+"      SNLINE CLEAR\n"
+" \n"
+"サービスオペレーターが SNLINE リストを編集することを許可します。\n"
+"SNLINE マスクに該当する実ユーザー名を持つユーザーが接続してきた\n"
+"場合、サービスはこのユーザーの IRC セッションを破棄します。\n"
+" \n"
+"SNLINE ADD コマンドは実ユーザー名マスク\n"
+"とその理由(必須です)を SNLINE リストに追加します。\n"
+"失効時間 expiry は整数の後に単位 d (日)、h (時間)、\n"
+"m (分) の内 1 つを続けて指定します。ただし、1h30mのように\n"
+"組み合わせて指定することはできません。単位を指定しなかった場合、\n"
+"日として解釈されます(+30 という指定は 30 日間と解釈されます。)。\n"
+"永久に失効されない SNLINE を追加するには +0 と指定してください。\n"
+"実ユーザー名マスクを + から始めた場合、失効時間をを必ず指定して\n"
+"ください。指定しない場合は初期値が指定されたものと解釈されます。\n"
+"SNLINE 失効時間の初期値は STATS AKILL コマンドで指定できます。\n"
+"注意: 実ユーザー名はスペースを含むことがあるので、マスクと\n"
+"理由の区切りはスペースの変わりにコロンを使ってください。\n"
+" \n"
+"SNLINE DEL コマンドは指定されたマスクを SNLINE リストから\n"
+"削除します。エントリ番号が指定された場合は、番号に該当する\n"
+"エントリを削除します。(LIST コマンドの例を参照してください)\n"
+" \n"
+"SNLINE LIST コマンドは SNLINE リストを表示します。\n"
+"ワイルドカードを指定した場合、このワイルドカードに該当\n"
+"するエントリのみが表示されます。エントリ番号を\n"
+"指定した場合、番号に該当するエントリのみが表示されます。\n"
+"例えば、以下の様です。\n"
+"   SNLINE LIST 2-5,7-9\n"
+"      2 から 5 番と 7 から 9 番の SNLINE エントリを表示します。\n"
+"      \n"
+"SNLINE VIEW は SNLINE LIST を詳細にしたもので、\n"
+"SNLINE の実ユーザー名マスクとその理由に加えて、\n"
+"このエントリを追加したメンバー、追加日、失効日を表示します。\n"
+" \n"
+"SNLINE CLEAR コマンドは SNLINE リストを削除します。"
 
 #: language.cpp:3735
 msgid ""
@@ -11616,7 +11533,7 @@ msgstr ""
 "削除する。\n"
 " \n"
 "SOP ADD、 SOP DEL と SOP CLEARコマンドは\n"
-"チャンネル創始者だけに使用が制限されています。\n"
+"チャンネル創設者だけに使用が制限されています。\n"
 "これに対して、HOP LIST コマンドは、AOP リストに含まれる\n"
 "ユーザーであれば誰でも使えます。\n"
 " \n"
@@ -11724,6 +11641,11 @@ msgid ""
 "only have to execute this command once, when you initially\n"
 "import your databases into SQL."
 msgstr ""
+"構文: SQLSYNC\n"
+" \n"
+"このコマンドは SQL を使用してデータベースを同期します。\n"
+"初めて SQL にデータベースをインポートする場合を除き、\n"
+"このコマンドを使用してはいけません。"
 
 #: language.cpp:2448
 msgid ""
@@ -11882,6 +11804,9 @@ msgid ""
 " \n"
 "Forcefully changes a user's nickname from nick to newnick."
 msgstr ""
+"構文: SVSNICK nick newnick\n"
+" \n"
+"ユーザーのニックネームを新しいニックネームに強制変更します。"
 
 #: language.cpp:4630
 msgid ""
@@ -11988,7 +11913,7 @@ msgstr ""
 "このコマンドは、SET TOPICLOCK と組み合わせて使うと\n"
 "便利です。より詳しい情報は %R%S HELP SET TOPICLOCK\n"
 "を参照してください。\n"
-"このコマンドはチャンネルにいる創始者だけに使用が制限\n"
+"このコマンドはチャンネルにいる創設者だけに使用が制限\n"
 "されています。"
 
 #: language.cpp:4467
@@ -12050,6 +11975,14 @@ msgid ""
 "else is reset. You may not ungroup yourself if there is only one\n"
 "nick in your group."
 msgstr ""
+"構文: UNGROUP [nick]\n"
+" \n"
+"このコマンドは、あなたのニックネーム、又は指定されたニックネーム\n"
+"を登録済みグループから解除します。登録解除されたニックネームの\n"
+"登録時間、パスワード、電子メール、挨拶メッセージ、言語、\n"
+"ウェブサイトアドレス、ICQ 番号は保存されます。これ以外は全て\n"
+"リセットされます。あなたのグループに一人しか登録されていない場合は、\n"
+"自分自身を登録解除したくないかもしれません。"
 
 #: language.cpp:4145
 msgid ""
@@ -12185,7 +12118,7 @@ msgstr ""
 "\n"
 "VOP ADD、 VOP DEL と VOP LISTコマンドは AOP か\n"
 "それより高位の権限を持つものだけに使用が制限されています。\n"
-"これに対して、HOP CLEAR コマンドは、チャンネル創始者\n"
+"これに対して、HOP CLEAR コマンドは、チャンネル創設者\n"
 "だけが使えます。\n"
 "\n"
 "このコマンドをあなたのチャンネルで使用できないように出来ます。\n"
@@ -12204,6 +12137,11 @@ msgid ""
 " \n"
 "Available options:"
 msgstr ""
+"構文: SASET channel option parameters\n"
+"\n"
+"サービスオペレーターがチャンネル設定を強制的に変更できます。\n"
+"\n"
+"設定できるオプション:"
 
 #: language.cpp:3262
 msgid ""
@@ -12274,7 +12212,7 @@ msgstr "SGLINE リストが空になりました。"
 
 #: language.cpp:2138
 msgid "The SNLINE list has been cleared."
-msgstr ""
+msgstr "SNLINE リストが空になりました。"
 
 #: language.cpp:2165
 msgid "The SQLINE list has been cleared."
@@ -12364,7 +12302,7 @@ msgstr "%s のニックネームが %s に変わりました。"
 #: language.cpp:328
 #, c-format
 msgid "The nick %s is not in your group."
-msgstr ""
+msgstr "ニックネーム %s はあなたのグループに存在しません。"
 
 #. merged with ja.l
 msgid "The password is %s for security purposes, you should change it as soon as you receive this mail."
@@ -13232,11 +13170,11 @@ msgstr "パスワードリセット要求は時間切れです。"
 
 #. merged with ja.l
 msgid "Your services access status will now be hidden from %s INFO displays."
-msgstr ""
+msgstr "あなたのサービスアクセス統計情報が %s INFO の結果から隠匿されます。"
 
 #. merged with ja.l
-msgid "Your services access status will now be shown in %s INFO displays.\n"
-msgstr ""
+msgid "Your services access status will now be shown in %s INFO displays."
+msgstr "あなたのサービスアクセス統計情報が %s INFO の結果に表示されます。"
 
 #: language.cpp:5140
 #, c-format
