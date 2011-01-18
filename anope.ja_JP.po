@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-18 17:14+0900\n"
+"PO-Revision-Date: 2011-01-19 06:50+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -2424,7 +2424,7 @@ msgstr ""
 
 #: language.cpp:1657
 msgid "ASSIGN chan nick"
-msgstr ""
+msgstr "ASSIGN チャンネル名 ニックネーム"
 
 #: language.cpp:169
 msgid "Access denied."
@@ -2740,7 +2740,7 @@ msgstr ""
 
 #: language.cpp:1378
 msgid "BAN #channel nick [reason]"
-msgstr ""
+msgstr "BAN #チャンネル名 ニックネーム [理由]"
 
 #: language.cpp:1630
 msgid ""
@@ -3065,7 +3065,7 @@ msgstr ""
 
 #: language.cpp:1593
 msgid "CHECK nickname"
-msgstr ""
+msgstr "CHECK ニックネーム"
 
 #: language.cpp:1306
 msgid "CLEAR channel what"
@@ -3073,7 +3073,7 @@ msgstr ""
 
 #: language.cpp:2065
 msgid "CLEARMODES channel [ALL]"
-msgstr ""
+msgstr "CLEARMODES チャンネル [ALL]"
 
 #: language.cpp:356
 #, c-format
@@ -3414,7 +3414,7 @@ msgstr ""
 
 #: language.cpp:1368
 msgid "DEHALFOP #channel [nick]"
-msgstr ""
+msgstr "DEHALFOP #チャンネル名 [ニックネーム]"
 
 #: language.cpp:5146
 msgid "DEL <nick>."
@@ -3430,23 +3430,23 @@ msgstr ""
 
 #: language.cpp:1366
 msgid "DEOP #channel [nick]"
-msgstr ""
+msgstr "DEOP #チャンネル名 [ニックネーム]"
 
 #: language.cpp:1374
 msgid "DEOWNER #channel"
-msgstr ""
+msgstr "DEOWNER #チャンネル名"
 
 #: language.cpp:1372
 msgid "DEROTECT #channel [nick]"
-msgstr ""
+msgstr "DEROTECT #チャンネル名 [ニックネーム]"
 
 #: language.cpp:1370
 msgid "DEVOICE #channel [nick]"
-msgstr ""
+msgstr "DEVOICE #チャンネル名 [ニックネーム]"
 
 #: language.cpp:804
 msgid "DROP channel"
-msgstr ""
+msgstr "DROP チャンネル名"
 
 #: language.cpp:1981
 #, c-format
