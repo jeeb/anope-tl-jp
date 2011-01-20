@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-20 23:20+0900\n"
+"PO-Revision-Date: 2011-01-21 00:04+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -19,19 +19,21 @@ msgstr ""
 
 #: cs_tban.cpp:104
 msgid "    TBAN       Bans the user for a given length of time"
-msgstr ""
+msgstr "    TBAN       指定された期間このユーザをバンする。"
 
 #: cs_tban.cpp:81
 #, c-format
 msgid "%s banned from %s, will auto-expire in %s"
-msgstr ""
+msgstr "%s は %s からバンされ、有効期限は %s です。"
 
 #: cs_tban.cpp:91
 msgid ""
 "Bans the given user from a channel for a specified length of\n"
 "time. If the ban is removed before by hand, it will NOT be replaced."
 msgstr ""
+"指定されたユーザを、ある期間チャンネルからバンする。\n"
+"手作業でバンが解除された場合、バン指定は回復されない。"
 
 #: cs_tban.cpp:99
 msgid "Syntax: TBAN channel nick time"
-msgstr ""
+msgstr "構文: TBAN チャンネル ニックネーム 時間"
