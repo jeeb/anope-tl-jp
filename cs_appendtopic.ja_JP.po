@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-20 23:19+0900\n"
+"PO-Revision-Date: 2011-01-21 00:35+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: cs_appendtopic.cpp:105
 msgid "   APPENDTOPIC Add text to a channels topic"
-msgstr ""
+msgstr "   APPENDTOPIC チャンネルトピックにテキストを追加する。"
 
 #: cs_appendtopic.cpp:89 cs_appendtopic.cpp:100
 msgid "Syntax: APPENDTOPIC channel text"
-msgstr ""
+msgstr "構文: APPENDTOPIC チャンネル テキスト"
 
 #: cs_appendtopic.cpp:91
 msgid ""
@@ -31,3 +31,6 @@ msgid ""
 "channel topic. When TOPICLOCK is on, the topic is updated and\n"
 "the new, updated topic is locked."
 msgstr ""
+"このコマンドはユーザが現在のチャンネルトピックにテキストを\n"
+"追加できるようにする。TOPICLOCK が ON の場合は、トピック\n"
+"が更新され、新しいトピックでロックされる。"
