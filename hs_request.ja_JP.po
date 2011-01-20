@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-20 23:20+0900\n"
+"PO-Revision-Date: 2011-01-20 23:58+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -23,32 +23,35 @@ msgid ""
 "    REJECT      Reject the requested vHost of a user\n"
 "    WAITING     Convenience command for LIST +req"
 msgstr ""
+"    ACTIVATE    要求のあったユーザのバーチャルホストを承認\n"
+"    REJECT      要求のあったユーザのバーチャルホストを拒否\n"
+"    WAITING     LIST +req するのに便利なコマンド"
 
 #: hs_request.cpp:137
 msgid "    REQUEST     Request a vHost for your nick"
-msgstr ""
+msgstr "    REQUEST     あなたのニックネームのバーチャルホストを要求"
 
 #: hs_request.cpp:183 hs_request.cpp:245
 msgid "A memo informing the user will also be sent."
-msgstr ""
+msgstr "ユーザ宛にメモが送信されます。"
 
 #: hs_request.cpp:181
 msgid "Activate the requested vHost for the given nick."
-msgstr ""
+msgstr "指定されたニックネームに関するバーチャルホストを有効にする。"
 
 #: hs_request.cpp:169 hs_request.cpp:234
 #, c-format
 msgid "No request for nick %s found."
-msgstr ""
+msgstr "ニックネーム %s に関する要求が見つかりません。"
 
 #: hs_request.cpp:104
 #, c-format
 msgid "Please wait %d seconds before requesting a new vHost"
-msgstr ""
+msgstr "新しいバーチャルホストを要求する前に %d 秒待ってください。"
 
 #: hs_request.cpp:243
 msgid "Reject the requested vHost for the given nick."
-msgstr ""
+msgstr "与えられたニックネームに関するバーチャルホスト要求を拒否しました。"
 
 #: hs_request.cpp:124
 msgid ""
@@ -56,58 +59,63 @@ msgid ""
 "network administrators. Please be patient while your request\n"
 "is being considered."
 msgstr ""
+"あなたのニックネームに関するバーチャルホスト要求が\n"
+"ネットワーク管理者によって検討されるまでの間、\n"
+"しばらくお待ちください。"
 
 #: hs_request.cpp:179 hs_request.cpp:190
 msgid "Syntax: ACTIVATE nick"
-msgstr ""
+msgstr "構文: ACTIVATE ニックネーム"
 
 #: hs_request.cpp:241 hs_request.cpp:252
 msgid "Syntax: REJECT nick"
-msgstr ""
+msgstr "構文: REJECT ニックネーム"
 
 #: hs_request.cpp:65 hs_request.cpp:122 hs_request.cpp:132
 msgid "Syntax: REQUEST vhost"
-msgstr ""
+msgstr "構文: REQUEST バーチャルホスト名"
 
 #: hs_request.cpp:307
 msgid "Syntax: WAITING"
-msgstr ""
+msgstr "構文: WAITING"
 
 #: hs_request.cpp:309
 msgid ""
 "This command is provided for convenience. It is essentially\n"
 "the same as performing a LIST +req ."
 msgstr ""
+"このコマンドは便宜上提供されているものです。\n"
+"LIST +req するのと本質的に同じです。"
 
 #: hs_request.cpp:110
 msgid "Your vHost has been requested"
-msgstr ""
+msgstr "あなたのバーチャルホストが要求されました。"
 
 #: hs_request.cpp:161
 msgid "[auto memo] Your requested vHost has been approved."
-msgstr ""
+msgstr "[自動メモ] 要求のあったバーチャルホストが承認されました。"
 
 #: hs_request.cpp:225
 #, c-format
 msgid "[auto memo] Your requested vHost has been rejected."
-msgstr ""
+msgstr "[自動メモ] 要求のあったバーチャルホストが否認されました。"
 
 #: hs_request.cpp:223
 #, c-format
 msgid "[auto memo] Your requested vHost has been rejected. Reason: %s"
-msgstr ""
+msgstr "[自動メモ] 要求のあったバーチャルホストが否認されました。理由: %s"
 
 #: hs_request.cpp:646
 #, c-format
 msgid "[auto memo] vHost %s has been requested."
-msgstr ""
+msgstr "[自動メモ] バーチャルホスト %s が要求されました。"
 
 #: hs_request.cpp:163
 #, c-format
 msgid "vHost for %s has been activated"
-msgstr ""
+msgstr "%s に関するバーチャルホストが有効化されました。"
 
 #: hs_request.cpp:230
 #, c-format
 msgid "vHost for %s has been rejected"
-msgstr ""
+msgstr "%s に関するバーチャルホストが否認されました。"
