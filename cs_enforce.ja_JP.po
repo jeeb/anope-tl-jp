@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-20 23:19+0900\n"
+"PO-Revision-Date: 2011-01-21 00:33+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: cs_enforce.cpp:215
 msgid "    ENFORCE    Enforce various channel modes and set options"
-msgstr ""
+msgstr "    ENFORCE    チャンネルモードとオプションを強制する。"
 
 #: cs_enforce.cpp:180
 msgid ""
@@ -35,12 +35,24 @@ msgid ""
 "enabled. Use RESTRICTED to enfore the RESTRICTED option, also\n"
 "if it's not enabled."
 msgstr ""
+"様々なチャンネルモードを強制し、オプションを設定する。\n"
+"チャンネル オプションはどのチャンネルにこのモードと\n"
+"オプションを強制するか指定する。what オプションは\n"
+"どのモードとオプションを強制するか指定し、SET, SECUREOPS,\n"
+"RESTRICTED, MODES, 又は +R のどれをとっても良い。与えられ\n"
+"無かった場合は SET が指定されたものとする。\n"
+"\n"
+"もし what が SET だった場合は、SECUREOPS と RESTRICTED が\n"
+"現在チャンネルにいるユーザに対して強制的に設定される。\n"
+"SECUREOPS が指定された場合は、このオプションが使えなくても\n"
+"このオプションが強制される。RESTRICTED オプションが使用\n"
+"出来なくても、これを強制するには RESTRICTED を使うこと。"
 
 #: cs_enforce.cpp:147 cs_enforce.cpp:152 cs_enforce.cpp:157 cs_enforce.cpp:162
 #: cs_enforce.cpp:167
 #, c-format
 msgid "Enforced %s"
-msgstr ""
+msgstr "%s が強制されています。"
 
 #: cs_enforce.cpp:193
 msgid ""
@@ -49,6 +61,10 @@ msgid ""
 "also be enforced, but even if it is not set. If it is not set,\n"
 "users will be banned to ensure they don't just rejoin."
 msgstr ""
+"what が MODES の場合は、設定されていればチャンネルモードを\n"
+"+R に強制される。what が +R の場合は、たとえ設定されていなくても、\n"
+"チャンネルモードを +R に強制される。+R が設定されていない場合、\n"
+"ユーザは再入室するだけでないことをチェックするためにバンされる。"
 
 #: cs_enforce.cpp:198
 msgid ""
@@ -59,7 +75,12 @@ msgid ""
 "but have not identified for their nickname will be kicked and\n"
 "banned from the channel."
 msgstr ""
+"what が MODES の場合、何も強制されない。なぜなら、\n"
+"強制モードが使用中のircデーモンでサポートされていないからである。\n"
+"what が +R の場合、+R と同じ効果を持つチャンネルモード\n"
+"が強制される。チャンネルにいて、認証が済んでいない全てのユーザは\n"
+"キックされ、このチャンネルからバンされる。"
 
 #: cs_enforce.cpp:178 cs_enforce.cpp:210
 msgid "Syntax: ENFORCE channel [what]"
-msgstr ""
+msgstr "構文: ENFORCE チャンネル [what]"
