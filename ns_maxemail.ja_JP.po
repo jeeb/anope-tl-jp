@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Anope Japanese Translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-06 04:20-0400\n"
-"PO-Revision-Date: 2011-01-20 23:21+0900\n"
+"PO-Revision-Date: 2011-01-20 23:26+0900\n"
 "Last-Translator: Jan Ekstrom <jeebjp@gmail.com>\n"
 "Language-Team: anope-tl-jp team\n"
 "MIME-Version: 1.0\n"
@@ -20,8 +20,8 @@ msgstr ""
 #: ns_maxemail.cpp:33
 #, c-format
 msgid "The given email address has reached it's usage limit of %d users."
-msgstr ""
+msgstr "指定された電子メールアドレスは使用制限( %d ユーザ)に達しています。"
 
 #: ns_maxemail.cpp:31
 msgid "The given email address has reached it's usage limit of 1 user."
-msgstr ""
+msgstr "指定された電子メールアドレスは使用制限( 1 ユーザ)に達しています。"
